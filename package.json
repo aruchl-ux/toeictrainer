@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "gen": "tsx scripts/generate.ts",
     "test:e2e": "electron-vite build && playwright test"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
     "@playwright/test": "^1.63.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/react": "^16.3.3",
@@ -33,6 +35,7 @@
     "electron": "^44.5.1",
     "electron-vite": "^4.0.1",
     "jsdom": "^29.1.1",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vite": "^7.3.6",
     "vitest": "^3.2.7"
