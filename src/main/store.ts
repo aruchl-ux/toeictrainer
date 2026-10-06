@@ -27,8 +27,8 @@ export function createStore(dir: string, today: () => string = () => localDate()
   let settings = readJson(settingsPath, Settings, defaultSettings)
 
   const saveProgress = (next: Progress): Progress => {
+    writeJsonAtomic(progressPath, next)
     progress = next
-    writeJsonAtomic(progressPath, progress)
     return progress
   }
 
@@ -38,8 +38,9 @@ export function createStore(dir: string, today: () => string = () => localDate()
     recordMixedTest: (r) => saveProgress(applyMixedTest(progress, r)),
     getSettings: () => settings,
     setSettings(patch) {
-      settings = Settings.parse({ ...settings, ...patch })
-      writeJsonAtomic(settingsPath, settings)
+      const next = Settings.parse({ ...settings, ...patch })
+      writeJsonAtomic(settingsPath, next)
+      settings = next
       return settings
     }
   }

@@ -1,4 +1,4 @@
-import { existsSync, mkdtempSync, readdirSync, writeFileSync } from 'fs'
+import { existsSync, mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'fs'
 import { tmpdir } from 'os'
 import { join } from 'path'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
@@ -56,5 +56,18 @@ describe('createStore', () => {
   it('leaves no temp file after writing', () => {
     createStore(dir, today).recordGrammar(attempt)
     expect(existsSync(join(dir, 'progress.json.tmp'))).toBe(false)
+  })
+})
+
+describe('createStore invalid data', () => {
+  it('quarantines a parseable but schema-invalid progress file with contents intact', () => {
+    const spy = vi.spyOn(console, 'error').mockImplementation(() => {})
+    writeFileSync(join(dir, 'progress.json'), '{"version":2}')
+    const store = createStore(dir, today)
+    expect(store.getProgress().grammarAttempts).toEqual([])
+    const backup = readdirSync(dir).find((f) => f.startsWith('progress.json.corrupt-'))
+    expect(backup).toBeDefined()
+    expect(readFileSync(join(dir, backup!), 'utf8')).toBe('{"version":2}')
+    spy.mockRestore()
   })
 })
