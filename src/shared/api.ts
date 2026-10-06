@@ -7,6 +7,14 @@ import type {
   SettingsPatch
 } from './types'
 
+export interface DraftEntry {
+  file: string
+  id: string
+  item: Record<string, unknown>
+}
+
+export type DraftResult = { ok: true } | { ok: false; error: string }
+
 export const IPC = {
   contentBank: 'content:bank',
   progressGet: 'progress:get',
@@ -14,7 +22,10 @@ export const IPC = {
   progressRecordMixed: 'progress:recordMixedTest',
   settingsGet: 'settings:get',
   settingsSet: 'settings:set',
-  devIsDev: 'dev:isDev'
+  devIsDev: 'dev:isDev',
+  devListDrafts: 'dev:listDrafts',
+  devApproveDraft: 'dev:approveDraft',
+  devRejectDraft: 'dev:rejectDraft'
 } as const
 
 export interface Api {
@@ -28,5 +39,10 @@ export interface Api {
     get(): Promise<Settings>
     set(patch: SettingsPatch): Promise<Settings>
   }
-  dev: { isDev(): Promise<boolean> }
+  dev: {
+    isDev(): Promise<boolean>
+    listDrafts(): Promise<DraftEntry[]>
+    approveDraft(file: string, id: string, item: unknown): Promise<DraftResult>
+    rejectDraft(file: string, id: string): Promise<void>
+  }
 }

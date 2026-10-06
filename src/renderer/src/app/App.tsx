@@ -1,4 +1,5 @@
 import { NavLink, Route, Routes } from 'react-router'
+import { ContentReviewScreen } from '../features/content-review/ContentReviewScreen'
 import { DrillScreen } from '../features/grammar/DrillScreen'
 import { MixedTestScreen } from '../features/grammar/MixedTestScreen'
 import { TopicListScreen } from '../features/grammar/TopicListScreen'
@@ -6,9 +7,10 @@ import { HomeScreen } from '../features/home/HomeScreen'
 import { SettingsScreen } from '../features/settings/SettingsScreen'
 import { ProgressScreen } from '../features/progress/ProgressScreen'
 import { ReviewScreen } from '../features/review/ReviewScreen'
-import { useT } from './AppContext'
+import { useApp, useT } from './AppContext'
 
 export function App() {
+  const { isDev } = useApp()
   const { t } = useT()
   return (
     <div className="app">
@@ -22,6 +24,7 @@ export function App() {
         <NavLink to="/review">{t('navReview')}</NavLink>
         <NavLink to="/progress">{t('navProgress')}</NavLink>
         <NavLink to="/settings">{t('navSettings')}</NavLink>
+        {isDev && <NavLink to="/dev/content">Content review</NavLink>}
       </nav>
       <main className="content">
         <Routes>
@@ -32,6 +35,7 @@ export function App() {
           <Route path="/review" element={<ReviewScreen />} />
           <Route path="/progress" element={<ProgressScreen />} />
           <Route path="/settings" element={<SettingsScreen />} />
+          {isDev && <Route path="/dev/content" element={<ContentReviewScreen />} />}
         </Routes>
       </main>
     </div>

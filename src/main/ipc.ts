@@ -2,6 +2,7 @@ import { ipcMain } from 'electron'
 import { IPC } from '@shared/api'
 import { GrammarAttempt, MixedTestResult, SettingsPatch } from '@shared/types'
 import { loadContent } from './content'
+import { approveDraft, listDrafts, rejectDraft } from './drafts'
 import type { Store } from './store'
 
 export interface IpcDeps {
@@ -26,4 +27,11 @@ export function registerIpc({ store, contentRoot, isDev }: IpcDeps): void {
   ipcMain.handle(IPC.settingsGet, () => store.getSettings())
   ipcMain.handle(IPC.settingsSet, (_e, patch: unknown) => store.setSettings(SettingsPatch.parse(patch)))
   ipcMain.handle(IPC.devIsDev, () => isDev)
+  if (isDev) {
+    ipcMain.handle(IPC.devListDrafts, () => listDrafts(contentRoot))
+    ipcMain.handle(IPC.devApproveDraft, (_e, file: string, id: string, item: unknown) =>
+      approveDraft(contentRoot, file, id, item)
+    )
+    ipcMain.handle(IPC.devRejectDraft, (_e, file: string, id: string) => rejectDraft(contentRoot, file, id))
+  }
 }
