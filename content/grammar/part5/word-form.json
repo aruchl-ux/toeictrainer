@@ -1,0 +1,77 @@
+[
+  {
+    "id": "p5-word-form-0001",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 2,
+    "stem": "The new policy will be ____ implemented next quarter.",
+    "choices": ["full", "fully", "fullness", "fuller"],
+    "answer": 1,
+    "trap": "adverb modifies the verb 'implemented'",
+    "explain": {
+      "en": "The blank sits between 'be' and the past participle 'implemented', so it must be an adverb that modifies the verb. 'fully' is the adverb; 'full' is an adjective.",
+      "th": "ช่องว่างอยู่ระหว่าง be กับกริยาช่อง 3 (implemented) จึงต้องใช้คำกริยาวิเศษณ์ (adverb) มาขยายกริยา คำตอบคือ fully ส่วน full เป็นคำคุณศัพท์ (adjective) ใช้ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0002",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 2,
+    "stem": "Ms. Tanaka gave a very ____ presentation on the merger.",
+    "choices": ["inform", "information", "informative", "informatively"],
+    "answer": 2,
+    "trap": "adjective before the noun 'presentation'",
+    "explain": {
+      "en": "After 'very' and before the noun 'presentation' we need an adjective. 'informative' is the adjective; 'informatively' is an adverb and cannot describe a noun.",
+      "th": "หลัง very และหน้าคำนาม presentation ต้องใช้คำคุณศัพท์ (adjective) คือ informative ส่วน informatively เป็น adverb ขยายคำนามไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0003",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 3,
+    "stem": "Please submit your ____ for the marketing position by Friday.",
+    "choices": ["apply", "applicant", "application", "applied"],
+    "answer": 2,
+    "trap": "noun after 'your'; 'applicant' is a person",
+    "explain": {
+      "en": "After the possessive 'your' we need a noun. Both 'applicant' and 'application' are nouns, but you submit a document, not a person, so 'application' is correct.",
+      "th": "หลัง your ต้องใช้คำนาม (noun) ซึ่งมีทั้ง applicant และ application แต่สิ่งที่ส่งได้คือใบสมัคร (application) ไม่ใช่ผู้สมัคร (applicant)"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0004",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 3,
+    "stem": "The company has grown ____ since it opened its first overseas office.",
+    "choices": ["consider", "considerable", "considerably", "consideration"],
+    "answer": 2,
+    "trap": "adverb modifies the verb 'grown'",
+    "explain": {
+      "en": "The blank describes how the company 'has grown', so an adverb is needed. 'considerably' means 'a lot'. 'considerable' is an adjective and needs a noun after it.",
+      "th": "ช่องว่างบอกว่าบริษัทเติบโต (has grown) มากแค่ไหน จึงต้องใช้ adverb คือ considerably (อย่างมาก) ส่วน considerable เป็น adjective ต้องมีคำนามตามหลัง"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0005",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 3,
+    "stem": "All employees must follow the safety ____ posted in the warehouse.",
+    "choices": ["regulate", "regulations", "regulatory", "regulated"],
+    "answer": 1,
+    "trap": "noun completes the noun phrase 'the safety ____'",
+    "explain": {
+      "en": "'the safety ____' is the object of 'follow', so the blank must be a noun that completes the noun phrase. 'regulations' is the plural noun; 'regulatory' is an adjective.",
+      "th": "the safety ____ เป็นกลุ่มคำนามที่เป็นกรรมของ follow จึงต้องใช้คำนาม regulations (กฎระเบียบ) ส่วน regulatory เป็น adjective"
+    },
+    "status": "approved"
+  }
+]

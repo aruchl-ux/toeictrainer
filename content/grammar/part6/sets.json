@@ -1,0 +1,60 @@
+[
+  {
+    "id": "p6-0001",
+    "part": 6,
+    "title": "Email: Fourth-floor renovation",
+    "passage": "To: All staff\nFrom: Facilities Department\nSubject: Fourth-floor renovation\n\nRenovation work on the fourth floor will begin on Monday, June 3. During this period, employees on that floor will be {{1}} to temporary desks on the second floor. {{2}} The work is expected to last about three weeks. {{3}}, the cafeteria will remain open as usual. We appreciate your patience and apologize for any {{4}}.",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 2,
+        "choices": ["relocate", "relocating", "relocated", "relocation"],
+        "answer": 2,
+        "trap": "passive voice: will be + past participle",
+        "explain": {
+          "en": "Employees do not move themselves here; they are moved. After 'will be', use the past participle 'relocated' to form the passive voice.",
+          "th": "พนักงานเป็นผู้ถูกย้าย จึงต้องใช้ passive voice คือ will be + กริยาช่อง 3 (relocated)"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "Please pack your personal items in the boxes provided by Friday.",
+          "The cafeteria menu has been updated for the summer.",
+          "Our sales figures rose sharply last quarter.",
+          "Thank you for attending the training session."
+        ],
+        "answer": 0,
+        "trap": "the inserted sentence must continue the topic of moving desks",
+        "explain": {
+          "en": "The previous sentence says employees will move to temporary desks, so the next sentence should tell them how to prepare: packing their personal items.",
+          "th": "ประโยคก่อนหน้าบอกว่าพนักงานจะย้ายไปโต๊ะชั่วคราว ประโยคถัดไปจึงควรบอกวิธีเตรียมตัว คือให้แพ็กของส่วนตัว ตัวเลือกอื่นไม่เกี่ยวกับการย้าย"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": ["However", "Therefore", "For example", "Otherwise"],
+        "answer": 0,
+        "trap": "contrast between disruption and normal service",
+        "explain": {
+          "en": "The renovation causes disruption, but the cafeteria stays open. This is a contrast, so 'However' fits. 'Therefore' would show a result, which makes no sense here.",
+          "th": "การปรับปรุงทำให้เกิดความไม่สะดวก แต่โรงอาหารยังเปิดตามปกติ เป็นการแสดงความขัดแย้ง จึงใช้ However ส่วน Therefore แสดงผลลัพธ์ ซึ่งไม่เข้ากับบริบท"
+        }
+      },
+      {
+        "topic": "word-form",
+        "difficulty": 2,
+        "choices": ["inconvenient", "inconvenience", "inconveniently", "inconvenienced"],
+        "answer": 1,
+        "trap": "noun after 'any'",
+        "explain": {
+          "en": "'apologize for any ____' needs a noun after 'any'. 'inconvenience' is the noun; 'inconvenient' is an adjective.",
+          "th": "หลัง any ต้องใช้คำนาม คือ inconvenience (ความไม่สะดวก) ส่วน inconvenient เป็น adjective"
+        }
+      }
+    ],
+    "status": "approved"
+  }
+]

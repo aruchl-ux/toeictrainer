@@ -1,0 +1,77 @@
+[
+  {
+    "id": "p5-prepositions-0001",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 2,
+    "stem": "The annual conference will be held ____ March 14 at the Grand Hotel.",
+    "choices": ["in", "on", "at", "by"],
+    "answer": 1,
+    "trap": "'on' before a specific date",
+    "explain": {
+      "en": "Use 'on' with specific dates and days (on March 14, on Monday). 'in' is for months and years; 'at' is for clock times.",
+      "th": "ใช้ on กับวันที่หรือวันเฉพาะ (on March 14, on Monday) ส่วน in ใช้กับเดือนหรือปี และ at ใช้กับเวลา"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0002",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 3,
+    "stem": "Our branch office will be closed ____ the national holiday.",
+    "choices": ["during", "while", "among", "between"],
+    "answer": 0,
+    "trap": "'during' + noun; 'while' + clause",
+    "explain": {
+      "en": "'the national holiday' is a noun phrase, so we need a preposition. 'during' + noun is correct. 'while' is a conjunction and must be followed by a clause.",
+      "th": "the national holiday เป็นกลุ่มคำนาม จึงต้องใช้คำบุพบท (preposition) คือ during ส่วน while เป็นคำสันธาน (conjunction) ต้องตามด้วยประโยค"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0003",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 2,
+    "stem": "Mr. Lee has worked in the accounting department ____ 2015.",
+    "choices": ["for", "since", "from", "during"],
+    "answer": 1,
+    "trap": "present perfect + 'since' + starting point",
+    "explain": {
+      "en": "With the present perfect ('has worked') and a starting point in time (2015), use 'since'. 'for' is used with a length of time, such as 'for ten years'.",
+      "th": "กับ present perfect (has worked) และจุดเริ่มต้นของเวลา (2015) ต้องใช้ since ส่วน for ใช้กับระยะเวลา เช่น for ten years"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0004",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 3,
+    "stem": "The replacement parts are expected to arrive ____ two weeks.",
+    "choices": ["within", "among", "along", "upon"],
+    "answer": 0,
+    "trap": "'within' + period of time = no later than",
+    "explain": {
+      "en": "'within two weeks' means 'before two weeks have passed'. 'among' needs a group of three or more things, and 'along' is used with roads or lines.",
+      "th": "within two weeks แปลว่า ภายในสองสัปดาห์ ส่วน among ใช้กับกลุ่มสิ่งของตั้งแต่สามสิ่งขึ้นไป และ along ใช้กับถนนหรือแนวยาว"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0005",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 2,
+    "stem": "Applicants should send their résumés directly ____ the human resources manager.",
+    "choices": ["to", "at", "for", "with"],
+    "answer": 0,
+    "trap": "'send something to someone'",
+    "explain": {
+      "en": "The pattern is 'send something to someone'. 'to' shows the person who receives the résumés.",
+      "th": "รูปแบบที่ถูกต้องคือ send something to someone โดย to บอกผู้รับ ในที่นี้คือผู้จัดการฝ่ายบุคคล"
+    },
+    "status": "approved"
+  }
+]
