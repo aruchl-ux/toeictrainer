@@ -1,5 +1,6 @@
 import { NavLink, Route, Routes } from 'react-router'
 import { DrillScreen } from '../features/grammar/DrillScreen'
+import { MixedTestScreen } from '../features/grammar/MixedTestScreen'
 import { TopicListScreen } from '../features/grammar/TopicListScreen'
 import { HomeScreen } from '../features/home/HomeScreen'
 import { SettingsScreen } from '../features/settings/SettingsScreen'
@@ -17,6 +18,7 @@ export function App() {
           {t('navHome')}
         </NavLink>
         <NavLink to="/topics">{t('navTopics')}</NavLink>
+        <NavLink to="/mixed">{t('navMixed')}</NavLink>
         <NavLink to="/review">{t('navReview')}</NavLink>
         <NavLink to="/progress">{t('navProgress')}</NavLink>
         <NavLink to="/settings">{t('navSettings')}</NavLink>
@@ -26,6 +28,7 @@ export function App() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/topics" element={<TopicListScreen />} />
           <Route path="/drill/:topic" element={<DrillScreen />} />
+          <Route path="/mixed" element={<MixedTestScreen />} />
           <Route path="/review" element={<ReviewScreen />} />
           <Route path="/progress" element={<ProgressScreen />} />
           <Route path="/settings" element={<SettingsScreen />} />
