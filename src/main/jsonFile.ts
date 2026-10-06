@@ -15,6 +15,7 @@ import type { ZodType } from 'zod'
 
 const RETRYABLE = new Set(['EPERM', 'EBUSY', 'EACCES'])
 const RENAME_ATTEMPTS = 5
+const unbackedUp = new Set<string>()
 
 function sleepSync(ms: number): void {
   Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms)
@@ -36,6 +37,7 @@ export function readJson<T>(path: string, schema: ZodType<T>, fallback: () => T)
           `[store] ${path} is invalid and could NOT be backed up (${String(copyErr)}); using defaults:`,
           err
         )
+        unbackedUp.add(path)
         return fallback()
       }
     }
@@ -45,6 +47,9 @@ export function readJson<T>(path: string, schema: ZodType<T>, fallback: () => T)
 }
 
 export function writeJsonAtomic(path: string, data: unknown): void {
+  if (unbackedUp.has(path)) {
+    throw new Error(`refusing to overwrite ${path}: corrupt original could not be backed up`)
+  }
   mkdirSync(dirname(path), { recursive: true })
   const tmp = `${path}.tmp`
   try {
