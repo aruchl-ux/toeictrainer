@@ -48,7 +48,8 @@ const en = {
   progressNoData: 'No attempts yet.',
   settingsTitle: 'Settings',
   settingsLanguage: 'Explanation and menu language',
-  seconds: '{s}s'
+  seconds: '{s}s',
+  saveError: 'Your progress could not be saved. Please restart the app.'
 } as const
 
 export type StringKey = keyof typeof en
@@ -99,7 +100,8 @@ const th: Record<StringKey, string> = {
   progressNoData: 'ยังไม่มีข้อมูล',
   settingsTitle: 'ตั้งค่า',
   settingsLanguage: 'ภาษาของเมนูและคำอธิบาย',
-  seconds: '{s} วิ'
+  seconds: '{s} วิ',
+  saveError: 'บันทึกความคืบหน้าไม่สำเร็จ กรุณาปิดแล้วเปิดแอปใหม่'
 }
 
 export const STRINGS: Record<Lang, Record<StringKey, string>> = { en, th }

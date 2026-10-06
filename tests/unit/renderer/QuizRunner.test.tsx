@@ -28,7 +28,9 @@ describe('QuizRunner', () => {
 
   it('deferred mode: shows the score and calls onFinish once', () => {
     const onFinish = vi.fn()
-    render(<QuizRunner entries={entries} mode="deferred" lang="en" onAnswer={() => {}} onFinish={onFinish} />)
+    let clock = 0
+    const now = () => (clock += 1000)
+    render(<QuizRunner entries={entries} mode="deferred" lang="en" onAnswer={() => {}} onFinish={onFinish} now={now} />)
     fireEvent.click(screen.getByRole('button', { name: '(A) w' }))
     fireEvent.click(screen.getByRole('button', { name: '(A) k' }))
     expect(screen.getByText('Score: 1 / 2')).toBeTruthy()

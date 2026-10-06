@@ -1,6 +1,9 @@
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
 import type { GrammarAttempt, GrammarTopic } from '@shared/types'
 
+/** Deferred mode advances on click; ignore a second click (double-click) landing this soon after. */
+export const DEFERRED_DEBOUNCE_MS = 250
+
 export type QuizMode = 'instant' | 'deferred'
 
 export interface AnswerRecord {
@@ -37,6 +40,7 @@ export function quizReducer(s: QuizState, a: QuizAction): QuizState {
   if (s.done) return s
   if (a.type === 'answer') {
     if (s.selected !== null) return s
+    if (s.mode === 'deferred' && a.now - s.shownAt < DEFERRED_DEBOUNCE_MS) return s
     const entry = s.entries[s.index]
     const f = entryFields(entry)
     const record: AnswerRecord = {

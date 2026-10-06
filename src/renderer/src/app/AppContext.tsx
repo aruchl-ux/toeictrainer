@@ -22,6 +22,8 @@ export interface AppData extends Loaded {
   recordMixedTest(r: MixedTestResult): Promise<void>
   updateSettings(patch: SettingsPatch): Promise<void>
   reloadBank(): Promise<void>
+  /** True once any progress/settings write has failed. */
+  saveError: boolean
 }
 
 const AppCtx = createContext<AppData | null>(null)
@@ -29,6 +31,7 @@ const AppCtx = createContext<AppData | null>(null)
 export function AppProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<Loaded | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [saveError, setSaveError] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -42,16 +45,28 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const recordGrammar = useCallback(async (a: GrammarAttempt) => {
-    const progress = await window.api.progress.recordGrammar(a)
-    setState((s) => s && { ...s, progress })
+    try {
+      const progress = await window.api.progress.recordGrammar(a)
+      setState((s) => s && { ...s, progress })
+    } catch {
+      setSaveError(true)
+    }
   }, [])
   const recordMixedTest = useCallback(async (r: MixedTestResult) => {
-    const progress = await window.api.progress.recordMixedTest(r)
-    setState((s) => s && { ...s, progress })
+    try {
+      const progress = await window.api.progress.recordMixedTest(r)
+      setState((s) => s && { ...s, progress })
+    } catch {
+      setSaveError(true)
+    }
   }, [])
   const updateSettings = useCallback(async (patch: SettingsPatch) => {
-    const settings = await window.api.settings.set(patch)
-    setState((s) => s && { ...s, settings })
+    try {
+      const settings = await window.api.settings.set(patch)
+      setState((s) => s && { ...s, settings })
+    } catch {
+      setSaveError(true)
+    }
   }, [])
   const reloadBank = useCallback(async () => {
     const bank = await window.api.content.bank()
@@ -61,7 +76,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   if (error) return <p className="error">Failed to load: {error}</p>
   if (!state) return <p className="loading">Loading…</p>
   return (
-    <AppCtx.Provider value={{ ...state, recordGrammar, recordMixedTest, updateSettings, reloadBank }}>
+    <AppCtx.Provider value={{ ...state, recordGrammar, recordMixedTest, updateSettings, reloadBank, saveError }}>
       {children}
     </AppCtx.Provider>
   )

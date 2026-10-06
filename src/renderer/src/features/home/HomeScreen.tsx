@@ -2,13 +2,14 @@ import { Link } from 'react-router'
 import { localDate } from '@shared/dates'
 import { dueIds } from '@shared/leitner'
 import { topicStats, weakestTopics } from '@shared/scoring'
+import { resolveIds } from '@shared/quiz'
 import { Part5Topic } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
 
 export function HomeScreen() {
-  const { progress } = useApp()
+  const { progress, bank } = useApp()
   const { t, topic } = useT()
-  const due = dueIds(progress.leitner, localDate()).length
+  const due = resolveIds(bank, dueIds(progress.leitner, localDate())).length
   const weakest = weakestTopics(topicStats(progress.grammarAttempts))
 
   return (

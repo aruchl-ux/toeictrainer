@@ -56,7 +56,7 @@ test('a due review card is answered and rescheduled', async () => {
   const app = await electron.launch({ args: ['.'], env: launchEnv(userData) })
   const page = await app.firstWindow()
 
-  await page.locator('nav').getByRole('link', { name: 'Review' }).click()
+  await page.locator('nav').getByRole('link', { name: 'Review', exact: true }).click()
   await page.locator('button.choice').nth(item.answer).click()
   await expect(page.locator('.explain')).toBeVisible()
 

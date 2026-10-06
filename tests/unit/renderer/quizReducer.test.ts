@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { QuizEntry } from '@shared/quiz'
-import { initQuiz, quizReducer, toAttempt } from '@renderer/features/grammar/quizReducer'
+import { DEFERRED_DEBOUNCE_MS, initQuiz, quizReducer, toAttempt } from '@renderer/features/grammar/quizReducer'
 import { makePart5 } from '../../fixtures/items'
 
 const entries: QuizEntry[] = [
@@ -40,12 +40,20 @@ describe('quizReducer (instant)', () => {
 
 describe('quizReducer (deferred)', () => {
   it('advances immediately after each answer and finishes', () => {
-    let s = quizReducer(initQuiz(entries, 'deferred', 0), { type: 'answer', choice: 1, now: 10 })
+    let s = quizReducer(initQuiz(entries, 'deferred', 0), { type: 'answer', choice: 1, now: 1000 })
     expect(s.index).toBe(1)
     expect(s.selected).toBeNull()
-    s = quizReducer(s, { type: 'answer', choice: 0, now: 20 })
+    s = quizReducer(s, { type: 'answer', choice: 0, now: 2000 })
     expect(s.done).toBe(true)
     expect(s.records.map((r) => r.correct)).toEqual([true, false])
+  })
+  it('ignores an answer arriving within the debounce window (double-click)', () => {
+    let s = quizReducer(initQuiz(entries, 'deferred', 0), { type: 'answer', choice: 1, now: 1000 })
+    const after = quizReducer(s, { type: 'answer', choice: 0, now: 1000 + DEFERRED_DEBOUNCE_MS - 1 })
+    expect(after).toBe(s)
+    s = quizReducer(s, { type: 'answer', choice: 0, now: 1000 + DEFERRED_DEBOUNCE_MS })
+    expect(s.done).toBe(true)
+    expect(s.records).toHaveLength(2)
   })
 })
 

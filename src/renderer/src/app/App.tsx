@@ -10,7 +10,7 @@ import { ReviewScreen } from '../features/review/ReviewScreen'
 import { useApp, useT } from './AppContext'
 
 export function App() {
-  const { isDev } = useApp()
+  const { isDev, saveError } = useApp()
   const { t } = useT()
   return (
     <div className="app">
@@ -27,6 +27,11 @@ export function App() {
         {isDev && <NavLink to="/dev/content">Content review</NavLink>}
       </nav>
       <main className="content">
+        {saveError && (
+          <p className="error" role="alert">
+            {t('saveError')}
+          </p>
+        )}
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/topics" element={<TopicListScreen />} />

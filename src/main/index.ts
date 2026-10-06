@@ -4,7 +4,9 @@ import { registerIpc } from './ipc'
 import { contentRoot } from './paths'
 import { createStore } from './store'
 
-if (process.env.TOEIC_USER_DATA) app.setPath('userData', process.env.TOEIC_USER_DATA)
+if (!app.isPackaged && process.env.TOEIC_USER_DATA) app.setPath('userData', process.env.TOEIC_USER_DATA)
+
+let mainWindow: BrowserWindow | null = null
 
 function createWindow(): void {
   const win = new BrowserWindow({
@@ -18,7 +20,16 @@ function createWindow(): void {
       sandbox: true
     }
   })
+  mainWindow = win
+  win.on('closed', () => {
+    mainWindow = null
+  })
   win.on('ready-to-show', () => win.show())
+  win.webContents.on('will-navigate', (e, url) => {
+    // Allow only dev-server reloads of the app itself.
+    const dev = !app.isPackaged ? process.env['ELECTRON_RENDERER_URL'] : undefined
+    if (!dev || !url.startsWith(dev)) e.preventDefault()
+  })
   win.webContents.setWindowOpenHandler(({ url }) => {
     if (url.startsWith('https://')) void shell.openExternal(url)
     return { action: 'deny' }
@@ -30,17 +41,27 @@ function createWindow(): void {
   }
 }
 
-app.whenReady().then(() => {
-  registerIpc({
-    store: createStore(app.getPath('userData')),
-    contentRoot: contentRoot(),
-    isDev: !app.isPackaged
+if (!app.requestSingleInstanceLock()) {
+  app.quit()
+} else {
+  app.on('second-instance', () => {
+    if (!mainWindow) return
+    if (mainWindow.isMinimized()) mainWindow.restore()
+    mainWindow.focus()
   })
-  createWindow()
-  app.on('activate', () => {
-    if (BrowserWindow.getAllWindows().length === 0) createWindow()
+
+  app.whenReady().then(() => {
+    registerIpc({
+      store: createStore(app.getPath('userData')),
+      contentRoot: contentRoot(),
+      isDev: !app.isPackaged
+    })
+    createWindow()
+    app.on('activate', () => {
+      if (BrowserWindow.getAllWindows().length === 0) createWindow()
+    })
   })
-})
+}
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()

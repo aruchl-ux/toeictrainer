@@ -39,23 +39,23 @@ export function QuizRunner({ entries, mode, lang, onAnswer, onFinish, paceSecond
   }, [state.records, onAnswer])
 
   useEffect(() => {
-    if (state.done && entries.length > 0 && !finished.current) {
+    if (state.done && state.entries.length > 0 && !finished.current) {
       finished.current = true
       onFinish(state.records)
     }
-  }, [state.done, state.records, entries.length, onFinish])
+  }, [state.done, state.records, state.entries.length, onFinish])
 
-  if (entries.length === 0) return <p className="muted">{t(lang, 'quizEmpty')}</p>
+  if (state.entries.length === 0) return <p className="muted">{t(lang, 'quizEmpty')}</p>
   if (state.done) {
-    return <QuizSummary entries={entries} records={state.records} lang={lang} showReview={mode === 'deferred'} />
+    return <QuizSummary entries={state.entries} records={state.records} lang={lang} showReview={mode === 'deferred'} />
   }
 
   const entry = state.entries[state.index]
-  const isLast = state.index + 1 === entries.length
+  const isLast = state.index + 1 === state.entries.length
   return (
     <div className="quiz">
       <div className="quiz-head">
-        <span>{t(lang, 'quizQuestionOf', { i: state.index + 1, n: entries.length })}</span>
+        <span>{t(lang, 'quizQuestionOf', { i: state.index + 1, n: state.entries.length })}</span>
         {paceSeconds !== undefined && entry.kind === 'p5' && (
           <Elapsed key={state.shownAt} since={state.shownAt} limit={paceSeconds} lang={lang} now={now} />
         )}

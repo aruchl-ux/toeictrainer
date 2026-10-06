@@ -3,7 +3,9 @@ import {
   applyVerdicts,
   checkPrompt,
   nextNumber,
+  parseDraftFile,
   part5Prompt,
+  part6Prompt,
   toPart5Drafts,
   toPart6Drafts,
   type GenPart5,
@@ -84,5 +86,22 @@ describe('prompts', () => {
   })
   it('numbers items for the self-check', () => {
     expect(checkPrompt([{ a: 1 }, { b: 2 }]).user).toContain('"index": 1')
+  })
+  it('lists titles to avoid in the part 6 prompt', () => {
+    expect(part6Prompt(3, 3, [], ['Email: Old title']).user).toContain('- Email: Old title')
+    expect(part6Prompt(3, 3, []).user).toContain('- (none)')
+  })
+})
+
+describe('parseDraftFile', () => {
+  it('returns the objects of a valid draft file', () => {
+    expect(parseDraftFile('[{"id":"a"},{"id":"b"}]', 'x.json').items).toEqual([{ id: 'a' }, { id: 'b' }])
+  })
+  it('warns and skips malformed or non-array files', () => {
+    for (const text of ['{oops', '{"id":"a"}']) {
+      const r = parseDraftFile(text, 'bad.json')
+      expect(r.items).toEqual([])
+      expect(r.warning).toContain('bad.json')
+    }
   })
 })

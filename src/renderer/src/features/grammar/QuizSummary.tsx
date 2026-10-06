@@ -26,7 +26,14 @@ export function QuizSummary({ entries, records, lang, showReview }: Props) {
                   {t(lang, 'yourAnswer')}: {r ? f.choices[r.choice] : '—'} · {t(lang, 'correctAnswer')}:{' '}
                   {f.choices[f.answer]}
                 </div>
-                <div className="muted">{f.explain[lang]}</div>
+                <div className="muted">
+                  {!r?.correct && (
+                    <>
+                      {t(lang, 'trapLabel')}: {f.trap} ·{' '}
+                    </>
+                  )}
+                  {f.explain[lang]}
+                </div>
               </li>
             )
           })}

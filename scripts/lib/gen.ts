@@ -56,6 +56,17 @@ export function nextNumber(ids: string[]): number {
   return max + 1
 }
 
+/** Parse one draft file's text; a malformed file yields no items plus a warning instead of throwing. */
+export function parseDraftFile(text: string, name: string): { items: Record<string, unknown>[]; warning?: string } {
+  try {
+    const data: unknown = JSON.parse(text)
+    if (!Array.isArray(data)) throw new Error('not an array')
+    return { items: data.filter((x): x is Record<string, unknown> => typeof x === 'object' && x !== null) }
+  } catch (e) {
+    return { items: [], warning: `${name}: unreadable draft file skipped (${e instanceof Error ? e.message : String(e)})` }
+  }
+}
+
 export function toPart5Drafts(
   gen: GenPart5,
   topic: Part5Topic,
@@ -157,7 +168,12 @@ ${avoidStems.map((s) => `- ${s}`).join('\n') || '- (none)'}`
   return { system, user }
 }
 
-export function part6Prompt(count: number, difficulty: number, examples: Part6Set[]): Prompt {
+export function part6Prompt(
+  count: number,
+  difficulty: number,
+  examples: Part6Set[],
+  avoidTitles: string[] = []
+): Prompt {
   const system = `You write original practice sets in the style of TOEIC Reading Part 6 (text completion) for Thai learners targeting a score of 600–850+.
 Rules for each set:
 - "title" names the text type and subject, e.g. "Email: Office renovation" or "Notice: New parking policy".
@@ -178,7 +194,8 @@ ${JSON.stringify(
   2
 )}
 
-Use different subjects from the examples.`
+Use different subjects from the examples and from these existing titles:
+${avoidTitles.map((s) => `- ${s}`).join('\n') || '- (none)'}`
   return { system, user }
 }
 
