@@ -1,8 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { HashRouter } from 'react-router'
+import { App } from './app/App'
+import { AppProvider } from './app/AppContext'
+import './styles.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1>TOEIC Trainer</h1>
+    <HashRouter>
+      <AppProvider>
+        <App />
+      </AppProvider>
+    </HashRouter>
   </StrictMode>
 )
