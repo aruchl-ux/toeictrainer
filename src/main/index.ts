@@ -1,5 +1,8 @@
 import { app, BrowserWindow, shell } from 'electron'
 import { join } from 'path'
+import { registerIpc } from './ipc'
+import { contentRoot } from './paths'
+import { createStore } from './store'
 
 if (process.env.TOEIC_USER_DATA) app.setPath('userData', process.env.TOEIC_USER_DATA)
 
@@ -28,6 +31,11 @@ function createWindow(): void {
 }
 
 app.whenReady().then(() => {
+  registerIpc({
+    store: createStore(app.getPath('userData')),
+    contentRoot: contentRoot(),
+    isDev: !app.isPackaged
+  })
   createWindow()
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
