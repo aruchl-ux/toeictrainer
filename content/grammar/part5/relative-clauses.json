@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-relative-clauses-0001",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 2,
+    "stem": "The regional manager ____ approved the travel budget for the trade fair is currently on leave.",
+    "choices": ["who", "which", "whom", "whose"],
+    "answer": 0,
+    "trap": "subject relative pronoun for a person",
+    "explain": {
+      "en": "The noun before the blank, 'manager', is a person, and the blank is the subject of 'approved', so 'who' is correct. 'which' is for things, and 'whom' is an object form.",
+      "th": "คำนามข้างหน้า (manager) เป็นคน และช่องว่างทำหน้าที่เป็นประธานของกริยา approved จึงใช้ who ส่วน which ใช้กับสิ่งของ และ whom ใช้เป็นกรรมเท่านั้น"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0002",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 2,
+    "stem": "The hotel ____ the annual sales conference will take place is located near the airport.",
+    "choices": ["which", "where", "what", "whom"],
+    "answer": 1,
+    "trap": "'where' + complete clause after a place",
+    "explain": {
+      "en": "The clause after the blank ('the annual sales conference will take place') is complete, with nothing missing, and it describes a place. 'where' is correct. 'which' would need a missing subject or object, or a preposition such as 'at which'.",
+      "th": "ประโยคหลังช่องว่าง (the annual sales conference will take place) สมบูรณ์แล้ว ไม่ขาดประธานหรือกรรม และคำนามข้างหน้า (hotel) เป็นสถานที่ จึงใช้ where ส่วน which ต้องใช้เมื่อประโยคหลังขาดประธานหรือกรรม ไม่อย่างนั้นต้องมีบุพบทนำหน้าเป็น at which"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0003",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 2,
+    "stem": "Ms. Tanaka is the consultant ____ report on customer satisfaction was presented at yesterday's meeting.",
+    "choices": ["who", "whom", "whose", "which"],
+    "answer": 2,
+    "trap": "'whose' + noun shows possession",
+    "explain": {
+      "en": "The blank is followed directly by a noun ('report'), and the report belongs to the consultant. 'whose' shows possession and is followed by a noun. 'who' would need a verb right after it.",
+      "th": "หลังช่องว่างมีคำนาม report ตามมาทันที และรายงานเป็นของที่ปรึกษาคนนี้ จึงใช้ whose ซึ่งแสดงความเป็นเจ้าของและตามด้วยคำนาม ส่วน who ต้องตามด้วยกริยา"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0004",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 3,
+    "stem": "Please tell the receptionist the name of the person to ____ the package should be delivered.",
+    "choices": ["who", "that", "whose", "whom"],
+    "answer": 3,
+    "trap": "preposition + 'whom'",
+    "explain": {
+      "en": "Right after a preposition such as 'to', use the object form 'whom' for a person. 'that' can never follow a preposition, and 'who' is a subject form.",
+      "th": "หลังคำบุพบท (preposition) อย่าง to ถ้าหมายถึงคนต้องใช้รูปกรรม whom ส่วน that ห้ามวางหลังบุพบทเด็ดขาด และ who เป็นรูปประธาน"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0005",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 4,
+    "stem": "The accounting software ____ our finance team relies is no longer supported by the vendor.",
+    "choices": ["which", "on which", "where", "what"],
+    "answer": 1,
+    "trap": "'rely on' moves to the front: 'on which'",
+    "explain": {
+      "en": "The verb is 'rely on', so its preposition must appear in the relative clause: 'the software on which our finance team relies'. Using only 'which' leaves 'relies' without its preposition, and 'where' is for places.",
+      "th": "กริยาในประโยคคือ rely on (พึ่งพา) จึงต้องมีบุพบท on ด้วย เมื่อย้ายมาไว้หน้า which จะได้ on which ถ้าใช้ which อย่างเดียว relies จะขาด on ส่วน where ใช้กับสถานที่"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0006",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 3,
+    "stem": "The client was very pleased with ____ our design team presented at Monday's meeting.",
+    "choices": ["what", "which", "that", "whose"],
+    "answer": 0,
+    "trap": "'what' = 'the thing that', no noun before it",
+    "explain": {
+      "en": "There is no noun before the blank for a relative pronoun to describe, so we need 'what', which means 'the thing that'. 'which' and 'that' need a noun before them, such as 'the plan which ...'.",
+      "th": "หน้าช่องว่างไม่มีคำนามให้ขยาย จึงต้องใช้ what ซึ่งแปลว่า สิ่งที่ (= the thing that) ส่วน which และ that ต้องมีคำนามนำหน้า เช่น the plan which ..."
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0007",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 3,
+    "stem": "Please let us know the date ____ you will be available for a second interview.",
+    "choices": ["which", "where", "when", "whom"],
+    "answer": 2,
+    "trap": "'when' after a time noun + complete clause",
+    "explain": {
+      "en": "The noun 'date' is a time, and the clause 'you will be available' is complete, so 'when' is correct. 'which' does not work because nothing is missing from the clause; it would have to be 'on which'.",
+      "th": "คำนามข้างหน้าคือ date ซึ่งเป็นเวลา และประโยคหลังช่องว่าง (you will be available) สมบูรณ์แล้ว จึงใช้ when ส่วน which ใช้ไม่ได้เพราะประโยคไม่ได้ขาดประธานหรือกรรม ถ้าจะใช้ต้องเป็น on which"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0008",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 3,
+    "stem": "Our main warehouse, ____ was built in 1998, will be expanded next spring to handle more online orders.",
+    "choices": ["that", "what", "where", "which"],
+    "answer": 3,
+    "trap": "'which', not 'that', after a comma",
+    "explain": {
+      "en": "The clause between commas adds extra information about the warehouse (a non-defining clause) and needs a subject for 'was built'. Use 'which'; 'that' cannot be used after a comma, and 'where' needs a complete clause.",
+      "th": "ส่วนที่อยู่ระหว่างจุลภาคเป็นข้อมูลเพิ่มเติม (non-defining clause) และขาดประธานของ was built จึงใช้ which ส่วน that ห้ามใช้หลังเครื่องหมายจุลภาค และ where ต้องตามด้วยประโยคที่สมบูรณ์"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0009",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 4,
+    "stem": "The company recently hired twenty engineers, most of ____ have experience in renewable energy.",
+    "choices": ["them", "who", "whom", "which"],
+    "answer": 2,
+    "trap": "quantifier + 'of whom' for people",
+    "explain": {
+      "en": "After 'most of' we need an object form, and 'engineers' are people, so 'most of whom' is correct. 'most of them' would join two complete sentences with only a comma, and 'which' is for things.",
+      "th": "หลัง most of ต้องใช้รูปกรรม และคำนามข้างหน้า (engineers) เป็นคน จึงใช้ whom เป็น most of whom ส่วน most of them ผิดเพราะจะกลายเป็นสองประโยคที่เชื่อมกันด้วยจุลภาคเฉยๆ โดยไม่มีคำเชื่อม และ which ใช้กับสิ่งของ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-relative-clauses-0010",
+    "part": 5,
+    "topic": "relative-clauses",
+    "difficulty": 3,
+    "stem": "According to the IT staff, this is the most reliable scheduling system ____ our office has ever used.",
+    "choices": ["that", "what", "who", "whose"],
+    "answer": 0,
+    "trap": "relative 'that' for a thing; 'what' cannot follow a noun",
+    "explain": {
+      "en": "The noun 'system' is a thing and the clause is missing the object of 'used', so we need the relative pronoun 'that' ('that' is also the usual choice after a superlative like 'the most reliable'). 'who' is only for people, 'whose' must be followed by a noun, and 'what' already contains its own noun, so it cannot follow 'system'.",
+      "th": "คำนามข้างหน้าคือ system (สิ่งของ) และประโยคหลังขาดกรรมของ used จึงต้องใช้ relative pronoun คือ that (และหลังขั้นสูงสุด (superlative) อย่าง the most reliable ก็นิยมใช้ that) ส่วน who ใช้กับคนเท่านั้น whose ต้องตามด้วยคำนาม และ what แปลว่า สิ่งที่ ซึ่งมีความหมายของคำนามอยู่ในตัวแล้ว วางหลังคำนามไม่ได้"
+    },
+    "status": "approved"
+  }
+]

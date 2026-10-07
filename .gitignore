@@ -6,3 +6,5 @@ playwright-report/
 *.tmp
 .env
 content/drafts/
+.claude/
+.impeccable/

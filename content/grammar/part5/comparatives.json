@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-comparatives-0001",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 2,
+    "stem": "This year's sales figures are significantly ____ than those reported during the previous fiscal year.",
+    "choices": ["high", "higher", "highest", "highly"],
+    "answer": 1,
+    "trap": "comparative adjective before 'than'",
+    "explain": {
+      "en": "The word 'than' signals a comparison between two years, so we need the comparative form 'higher'. 'highest' is a superlative and is never followed by 'than'.",
+      "th": "มีคำว่า than บอกว่ากำลังเปรียบเทียบยอดขายสองปี จึงต้องใช้รูปขั้นกว่า (comparative) คือ higher ส่วน highest เป็นขั้นสูงสุด (superlative) ใช้คู่กับ than ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0002",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 2,
+    "stem": "Ms. Alvarez was named employee of the year because she is the ____ dependable member of the sales team.",
+    "choices": ["much", "more", "many", "most"],
+    "answer": 3,
+    "trap": "'the most' + adjective when comparing a whole group",
+    "explain": {
+      "en": "She is compared with everyone on the sales team, so the superlative 'the most dependable' is needed. 'the more' is used only when comparing two people or things.",
+      "th": "เธอถูกเปรียบเทียบกับทุกคนในทีมขาย ซึ่งมีมากกว่าสองคน จึงต้องใช้ขั้นสูงสุด (superlative) คือ the most dependable ส่วน the more ใช้เมื่อเปรียบเทียบแค่สองสิ่งเท่านั้น"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0003",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 3,
+    "stem": "The new printer operates twice as ____ as the model it replaced, cutting wait times in half.",
+    "choices": ["quickly", "quick", "quicker", "quickest"],
+    "answer": 0,
+    "trap": "as + base-form adverb + as after an action verb",
+    "explain": {
+      "en": "The pattern 'twice as ... as' takes the base form, not '-er', so 'quicker' is wrong. The word describes how the printer 'operates', so the adverb 'quickly' is needed, not the adjective 'quick'.",
+      "th": "โครงสร้าง twice as ... as ต้องใช้รูปปกติ ห้ามใช้รูป -er จึงตัด quicker ออก และคำในช่องว่างบอกว่าเครื่องพิมพ์ทำงาน (operates) อย่างไร จึงต้องใช้ adverb คือ quickly ไม่ใช่ adjective อย่าง quick"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0004",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 3,
+    "stem": "The ____ customers sign up for the loyalty program, the larger the discount they will receive on their first order.",
+    "choices": ["earliest", "early", "more early", "earlier"],
+    "answer": 3,
+    "trap": "the + comparative ..., the + comparative ...",
+    "explain": {
+      "en": "The second half 'the larger the discount' shows the double comparative pattern 'the + comparative, the + comparative'. The first half of the sentence also needs a comparative: 'earlier'. 'more early' is not a correct comparative form.",
+      "th": "ครึ่งหลังของประโยคคือ the larger the discount แสดงโครงสร้าง the + ขั้นกว่า, the + ขั้นกว่า (ยิ่ง...ยิ่ง...) ครึ่งแรกของประโยคจึงต้องเป็นขั้นกว่า (comparative) เช่นกัน คือ earlier ส่วน more early เป็นรูปที่ผิด เพราะ early ใช้ -er"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0005",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 3,
+    "stem": "The revised budget proposal is ____ more detailed than the draft that was submitted last month.",
+    "choices": ["very", "much", "so", "too"],
+    "answer": 1,
+    "trap": "'much' intensifies a comparative; 'very' cannot",
+    "explain": {
+      "en": "To strengthen a comparative such as 'more detailed', use 'much', 'far' or 'even'. 'very' only modifies the base form of an adjective, so 'very more detailed' is wrong.",
+      "th": "ถ้าต้องการเน้นขั้นกว่า (comparative) อย่าง more detailed ให้ใช้ much, far หรือ even คำตอบจึงเป็น much ส่วน very ใช้ขยายคำคุณศัพท์รูปปกติเท่านั้น พูดว่า very more detailed ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0006",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 3,
+    "stem": "Since the online booking system was introduced, the front desk has received ____ phone calls than it did last year.",
+    "choices": ["less", "few", "fewer", "little"],
+    "answer": 2,
+    "trap": "'fewer' + plural countable noun + than",
+    "explain": {
+      "en": "'phone calls' is a plural countable noun and 'than' requires a comparative, so 'fewer' is correct. 'less' is the comparative for uncountable nouns such as 'time' or 'paperwork'.",
+      "th": "phone calls เป็นคำนามนับได้พหูพจน์ และมี than จึงต้องใช้ขั้นกว่าของ few คือ fewer ส่วน less ใช้กับคำนามนับไม่ได้ (uncountable) เช่น time หรือ paperwork คนไทยมักใช้ less กับทุกอย่าง ซึ่งใน TOEIC ถือว่าผิด"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0007",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 2,
+    "stem": "Of all the candidates interviewed for the position, Mr. Okafor demonstrated the ____ understanding of financial software.",
+    "choices": ["deep", "deeper", "deepest", "deeply"],
+    "answer": 2,
+    "trap": "'of all' + 'the' signals a superlative",
+    "explain": {
+      "en": "'Of all the candidates' compares one person with the whole group, and 'the' comes before the blank, so the superlative 'deepest' is needed. 'deeper' would need 'than' and compares only two.",
+      "th": "Of all the candidates คือการเปรียบเทียบกับผู้สมัครทั้งหมด และมี the อยู่หน้าช่องว่าง จึงต้องใช้ขั้นสูงสุด (superlative) คือ deepest ส่วน deeper เป็นขั้นกว่า ใช้เปรียบเทียบสองสิ่งและมักตามด้วย than"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0008",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 3,
+    "stem": "The product launch in Singapore was the ____ event the marketing team has ever organized.",
+    "choices": ["most successful", "more successful", "successfully", "success"],
+    "answer": 0,
+    "trap": "superlative + 'has ever' + past participle",
+    "explain": {
+      "en": "'the ... event the team has ever organized' is a classic superlative pattern, so 'most successful' is correct. 'more successful' is a comparative and would need 'than'.",
+      "th": "โครงสร้าง the + ขั้นสูงสุด + คำนาม + has ever + V3 หมายถึง ...ที่สุดเท่าที่เคยมีมา จึงต้องใช้ most successful ส่วน more successful เป็นขั้นกว่า (comparative) ต้องมี than ตามมา"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0009",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 4,
+    "stem": "Although the downtown location is the smallest, it generates ____ revenue than any other branch in the region.",
+    "choices": ["most", "much", "more", "many"],
+    "answer": 2,
+    "trap": "comparative + 'than any other' expresses a superlative meaning",
+    "explain": {
+      "en": "The phrase 'than any other branch' needs a comparative, so 'more' is correct. Even though the meaning is 'the highest', 'most' cannot be followed by 'than'.",
+      "th": "วลี than any other branch ต้องใช้ขั้นกว่า (comparative) คือ more ถึงแม้ความหมายจะเท่ากับ ...ที่สุด แต่ most ใช้คู่กับ than ไม่ได้ ส่วน much และ many ไม่ใช่รูปเปรียบเทียบ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-comparatives-0010",
+    "part": 5,
+    "topic": "comparatives",
+    "difficulty": 4,
+    "stem": "The upgraded accounting software is considered ____ to the previous version in terms of both speed and security.",
+    "choices": ["better", "superior", "more advanced", "greater"],
+    "answer": 1,
+    "trap": "'superior to', not 'than'",
+    "explain": {
+      "en": "The blank is followed by 'to', not 'than'. 'superior' is a Latin-origin comparative that takes 'to'. 'better' and 'more advanced' look tempting but must be followed by 'than'.",
+      "th": "หลังช่องว่างเป็น to ไม่ใช่ than จึงต้องใช้ superior ซึ่งเป็นคำเปรียบเทียบที่ใช้คู่กับ to (superior to = ดีกว่า) ส่วน better และ more advanced ต้องตามด้วย than เท่านั้น"
+    },
+    "status": "approved"
+  }
+]

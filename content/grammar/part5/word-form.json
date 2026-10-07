@@ -73,5 +73,80 @@
       "th": "the safety ____ เป็นกลุ่มคำนามที่เป็นกรรมของ follow จึงต้องใช้คำนาม regulations (กฎระเบียบ) ส่วน regulatory เป็น adjective"
     },
     "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0006",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 3,
+    "stem": "The manager praised the support team for its strong ____ to customer satisfaction.",
+    "choices": ["commitment", "commit", "committed", "committing"],
+    "answer": 0,
+    "trap": "noun after the adjective 'strong' in 'its strong ____'",
+    "explain": {
+      "en": "'its strong ____' is a noun phrase: a possessive, then an adjective, then the noun it describes. 'commitment' is the noun. 'committed' looks tempting after 'strong', but it is an adjective or past participle and leaves the phrase without a noun.",
+      "th": "its strong ____ เป็นกลุ่มคำนาม โครงสร้างคือ คำแสดงความเป็นเจ้าของ + คำคุณศัพท์ (adjective) + คำนาม (noun) ช่องว่างจึงต้องเป็นคำนาม commitment (ความทุ่มเท) ส่วน committed เป็น adjective หรือกริยาช่อง 3 ใส่แล้ววลีนี้จะไม่มีคำนามหลัก"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0007",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 2,
+    "stem": "Ms. Patel remains ____ that the new branch will open on schedule despite the construction delays.",
+    "choices": ["confidence", "confidently", "confide", "confident"],
+    "answer": 3,
+    "trap": "adjective after the linking verb 'remains'",
+    "explain": {
+      "en": "'remains' is a linking verb like 'is', so it is followed by an adjective that describes the subject. 'confident' is the adjective. 'confidently' is an adverb and cannot follow a linking verb to describe Ms. Patel.",
+      "th": "remains เป็นกริยาเชื่อม (linking verb) เหมือน is จึงต้องตามด้วยคำคุณศัพท์ (adjective) ที่บอกสภาพของประธาน คำตอบคือ confident (มั่นใจ) คนไทยมักเลือก confidently แต่นั่นเป็น adverb ใช้ตามหลัง linking verb เพื่อบรรยายคุณ Patel ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0008",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 3,
+    "stem": "The revised budget proposal is ____ different from the version the finance team submitted last month.",
+    "choices": ["significantly", "significant", "significance", "signify"],
+    "answer": 0,
+    "trap": "adverb modifies the adjective 'different'",
+    "explain": {
+      "en": "The blank comes right before the adjective 'different' and tells us how different the proposal is, so an adverb is needed. 'significantly' is the adverb. 'significant' is an adjective, and an adjective cannot modify another adjective.",
+      "th": "ช่องว่างอยู่หน้าคำคุณศัพท์ different และบอกว่าแตกต่างมากแค่ไหน จึงต้องใช้ adverb คือ significantly (อย่างมีนัยสำคัญ) ส่วน significant เป็น adjective ใช้ขยาย adjective ด้วยกันไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0009",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 2,
+    "stem": "The marketing team plans to ____ the company's online presence in Southeast Asia next year.",
+    "choices": ["strong", "strongly", "strength", "strengthen"],
+    "answer": 3,
+    "trap": "base-form verb after 'plans to'",
+    "explain": {
+      "en": "After 'plans to' we need a base-form verb, and that verb takes the object 'the company's online presence'. 'strengthen' is the verb. 'strength' is a noun, so it cannot follow 'to' here or take an object.",
+      "th": "หลัง plans to ต้องใช้กริยารูปพื้นฐาน (base-form verb) ที่มีกรรมคือ the company's online presence คำตอบคือ strengthen (ทำให้แข็งแกร่งขึ้น) ส่วน strength เป็นคำนาม (noun) วางหลัง to ในตำแหน่งนี้และมีกรรมตามหลังไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-word-form-0010",
+    "part": 5,
+    "topic": "word-form",
+    "difficulty": 4,
+    "stem": "The third-quarter sales figures were ____ to the board, which had expected a much larger decline.",
+    "choices": ["encourage", "encouraged", "encouraging", "encouragement"],
+    "answer": 2,
+    "trap": "'-ing' adjective describes the thing that causes the feeling",
+    "explain": {
+      "en": "The subject is 'sales figures', the thing that caused the board's feeling, so the '-ing' adjective 'encouraging' is correct. 'encouraged' describes how a person feels, so it would fit 'the board was encouraged', not the figures.",
+      "th": "ประธานคือ sales figures ซึ่งเป็นสิ่งที่ทำให้เกิดความรู้สึก จึงใช้ adjective ที่ลงท้าย -ing คือ encouraging (น่าพอใจ ชวนให้มีกำลังใจ) ส่วน encouraged ใช้บอกความรู้สึกของคน เช่น the board was encouraged ใช้กับตัวเลขยอดขายไม่ได้ จุดนี้คนไทยสับสนบ่อยเพราะภาษาไทยไม่แยกรูปคำแบบนี้"
+    },
+    "status": "approved"
   }
 ]

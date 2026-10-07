@@ -71,3 +71,11 @@ describe('createStore invalid data', () => {
     spy.mockRestore()
   })
 })
+
+describe('reading store', () => {
+  it('persists the active reading test across instances', () => {
+    const active = { length: 'full' as const, ids: ['x'], orders: [[0, 1, 2, 3]], answers: { x: 2 }, flags: ['x'], index: 0, elapsedMs: 12000 }
+    createStore(dir, today).saveActiveTest(active)
+    expect(createStore(dir, today).getProgress().activeReadingTest).toEqual(active)
+  })
+})

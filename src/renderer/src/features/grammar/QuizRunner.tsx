@@ -1,7 +1,8 @@
 import { useEffect, useReducer, useRef, useState } from 'react'
-import { entryId, type QuizEntry } from '@shared/quiz'
+import type { QuizEntry } from '@shared/quiz'
 import { t, type Lang } from '../../app/i18n'
-import { QuestionView } from './QuestionView'
+import { ArrowIcon } from '../../app/Ink'
+import { isTypingTarget, QuestionView, questionViewKey } from './QuestionView'
 import { QuizSummary } from './QuizSummary'
 import { initQuiz, quizReducer, type AnswerRecord, type QuizMode } from './quizReducer'
 
@@ -23,7 +24,29 @@ function Elapsed({ since, limit, lang, now }: { since: number; limit: number; la
     return () => clearInterval(id)
   }, [])
   const s = Math.floor((now() - since) / 1000)
-  return <span className={s > limit ? 'pace slow' : 'pace'}>{t(lang, 'seconds', { s })}</span>
+  const slow = s > limit
+  return (
+    <span className={slow ? 'pace slow' : 'pace'}>
+      <span className="pace-clock" aria-hidden="true">
+        <span style={{ transform: `rotate(${Math.min(s / limit, 1) * 360}deg)` }} />
+      </span>
+      <span className="num">{t(lang, 'seconds', { s })}</span>
+      {slow && <span className="pace-over">/ {t(lang, 'seconds', { s: limit })}</span>}
+    </span>
+  )
+}
+
+/** One tick per question: answered, current, ahead. Instant mode also shows right/wrong. */
+function Ticks({ total, index, records, showResult }: { total: number; index: number; records: AnswerRecord[]; showResult: boolean }) {
+  return (
+    <ol className="ticks" aria-hidden="true">
+      {Array.from({ length: total }, (_, i) => {
+        const r = records[i]
+        const cls = r ? (showResult ? (r.correct ? 'tick ok' : 'tick bad') : 'tick done') : i === index ? 'tick now' : 'tick'
+        return <li key={i} className={cls} />
+      })}
+    </ol>
+  )
 }
 
 export function QuizRunner({ entries, mode, lang, onAnswer, onFinish, paceSeconds, now = Date.now }: Props) {
@@ -45,7 +68,19 @@ export function QuizRunner({ entries, mode, lang, onAnswer, onFinish, paceSecond
     }
   }, [state.done, state.records, state.entries.length, onFinish])
 
-  if (state.entries.length === 0) return <p className="muted">{t(lang, 'quizEmpty')}</p>
+  const canAdvance = mode === 'instant' && state.selected !== null && !state.done
+  useEffect(() => {
+    if (!canAdvance) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Enter' || e.ctrlKey || e.metaKey || e.altKey || isTypingTarget(e.target)) return
+      e.preventDefault()
+      dispatch({ type: 'next', now: now() })
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [canAdvance, now])
+
+  if (state.entries.length === 0) return <p className="muted empty-note">{t(lang, 'quizEmpty')}</p>
   if (state.done) {
     return <QuizSummary entries={state.entries} records={state.records} lang={lang} showReview={mode === 'deferred'} />
   }
@@ -55,24 +90,29 @@ export function QuizRunner({ entries, mode, lang, onAnswer, onFinish, paceSecond
   return (
     <div className="quiz">
       <div className="quiz-head">
-        <span>{t(lang, 'quizQuestionOf', { i: state.index + 1, n: state.entries.length })}</span>
+        <span className="quiz-count num">{t(lang, 'quizQuestionOf', { i: state.index + 1, n: state.entries.length })}</span>
+        <Ticks total={state.entries.length} index={state.index} records={state.records} showResult={mode === 'instant'} />
         {paceSeconds !== undefined && entry.kind === 'p5' && (
           <Elapsed key={state.shownAt} since={state.shownAt} limit={paceSeconds} lang={lang} now={now} />
         )}
       </div>
       <QuestionView
-        key={entryId(entry)}
+        key={questionViewKey(entry)}
         entry={entry}
         lang={lang}
         selected={state.selected}
         reveal={mode === 'instant' && state.selected !== null}
         onChoose={(choice) => dispatch({ type: 'answer', choice, now: now() })}
       />
-      {mode === 'instant' && state.selected !== null && (
-        <button type="button" className="primary" onClick={() => dispatch({ type: 'next', now: now() })}>
-          {isLast ? t(lang, 'quizFinish') : t(lang, 'quizNext')}
-        </button>
-      )}
+      <div className="quiz-foot">
+        <span className="keys-hint">{t(lang, mode === 'instant' ? 'quizKeysHint' : 'quizKeysHintTest')}</span>
+        {canAdvance && (
+          <button type="button" className="primary" onClick={() => dispatch({ type: 'next', now: now() })}>
+            {isLast ? t(lang, 'quizFinish') : t(lang, 'quizNext')}
+            <ArrowIcon />
+          </button>
+        )}
+      </div>
     </div>
   )
 }

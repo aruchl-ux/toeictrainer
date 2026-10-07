@@ -10,8 +10,11 @@ let mainWindow: BrowserWindow | null = null
 
 function createWindow(): void {
   const win = new BrowserWindow({
-    width: 1100,
+    width: 1280,
     height: 760,
+    minWidth: 720,
+    minHeight: 560,
+    backgroundColor: '#f3ead7',
     show: false,
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),

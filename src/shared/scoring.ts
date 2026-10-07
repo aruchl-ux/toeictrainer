@@ -1,7 +1,8 @@
-import type { GrammarAttempt, GrammarTopic, MixedTestResult } from './types'
+import type { MixedTestResult, Skill, Progress } from './types'
+import { estimateReadingBand } from './reading'
 
 export interface TopicStat {
-  topic: GrammarTopic
+  topic: Skill
   count: number
   accuracy: number
   avgMs: number
@@ -9,8 +10,10 @@ export interface TopicStat {
 
 export const STATS_WINDOW = 20
 
-export function topicStats(attempts: GrammarAttempt[]): TopicStat[] {
-  const byTopic = new Map<GrammarTopic, GrammarAttempt[]>()
+type SkillAttempt = { topic: Skill; correct: boolean; ms: number }
+
+export function topicStats(attempts: SkillAttempt[]): TopicStat[] {
+  const byTopic = new Map<Skill, SkillAttempt[]>()
   for (const a of attempts) {
     const list = byTopic.get(a.topic) ?? []
     list.push(a)
@@ -20,18 +23,20 @@ export function topicStats(attempts: GrammarAttempt[]): TopicStat[] {
     .map(([topic, list]) => {
       const recent = list.slice(-STATS_WINDOW)
       const correct = recent.filter((a) => a.correct).length
-      const totalMs = recent.reduce((sum, a) => sum + a.ms, 0)
+      // Untimed attempts (ms 0, from the free-navigation reading test) must not drag the average down.
+      const timed = recent.filter((a) => a.ms > 0)
+      const totalMs = timed.reduce((sum, a) => sum + a.ms, 0)
       return {
         topic,
         count: recent.length,
         accuracy: correct / recent.length,
-        avgMs: Math.round(totalMs / recent.length)
+        avgMs: timed.length ? Math.round(totalMs / timed.length) : 0
       }
     })
     .sort((a, b) => a.topic.localeCompare(b.topic))
 }
 
-export function weakestTopics(stats: TopicStat[], n = 3, minCount = 5): GrammarTopic[] {
+export function weakestTopics(stats: TopicStat[], n = 3, minCount = 5): Skill[] {
   return stats
     .filter((s) => s.count >= minCount)
     .sort((a, b) => a.accuracy - b.accuracy || b.avgMs - a.avgMs)
@@ -60,4 +65,12 @@ export function estimateBand(tests: MixedTestResult[]): Band | null {
   const total = recent.reduce((sum, t) => sum + t.total, 0)
   const accuracy = correct / total
   return BANDS.find((b) => accuracy >= b.min)!.band
+}
+
+export function latestBand(p: Progress): { band: Band; source: 'test' | 'mixed' } | null {
+  const last = p.readingTests[p.readingTests.length - 1]
+  const fromTest = last ? estimateReadingBand(last.parts) : null
+  if (fromTest) return { band: fromTest, source: 'test' }
+  const fromMixed = estimateBand(p.mixedTests)
+  return fromMixed ? { band: fromMixed, source: 'mixed' } : null
 }

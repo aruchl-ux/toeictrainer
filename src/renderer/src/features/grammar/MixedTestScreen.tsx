@@ -1,12 +1,14 @@
 import { useCallback, useRef, useState } from 'react'
 import { pickMixedTest, type QuizEntry } from '@shared/quiz'
 import { useApp, useT } from '../../app/AppContext'
+import { ArrowIcon, PosterShapes } from '../../app/Ink'
+import { RecentTests } from '../home/RecentTests'
 import { QuizRunner } from './QuizRunner'
 import type { AnswerRecord } from './quizReducer'
 import { useRecordAnswer } from './useRecordAnswer'
 
-const P5_COUNT = 30
-const P6_COUNT = 4
+export const P5_COUNT = 30
+export const P6_COUNT = 4
 
 export function MixedTestScreen() {
   const { bank, recordMixedTest } = useApp()
@@ -37,17 +39,30 @@ export function MixedTestScreen() {
   )
 
   return (
-    <section>
-      <h1>{t('mixedTitle')}</h1>
+    <section className={entries === null ? 'mixed' : 'quiz-screen'}>
       {entries === null ? (
-        <div className="card">
-          <p>{t('mixedIntro', { p5: P5_COUNT, p6: P6_COUNT })}</p>
+        <div className="mixed-intro">
+          <PosterShapes />
+          <h1 className="poster-head">
+            <span className="ink-blue">{t('mixedTitle')}</span>
+          </h1>
+          <p className="poster-lead">{t('mixedIntro', { p5: P5_COUNT, p6: P6_COUNT })}</p>
           <button type="button" className="primary" onClick={start}>
             {t('mixedStart')}
+            <ArrowIcon />
           </button>
+          <section className="mixed-recent" aria-labelledby="mixed-recent">
+            <h2 id="mixed-recent" className="panel-title">
+              {t('homeRecent')}
+            </h2>
+            <RecentTests />
+          </section>
         </div>
       ) : (
         <>
+          <header className="quiz-title">
+            <h1>{t('mixedTitle')}</h1>
+          </header>
           <QuizRunner
             key={run}
             entries={entries}
@@ -58,7 +73,7 @@ export function MixedTestScreen() {
             paceSeconds={20}
           />
           {done && (
-            <button type="button" onClick={start}>
+            <button type="button" className="again" onClick={start}>
               {t('quizAgain')}
             </button>
           )}

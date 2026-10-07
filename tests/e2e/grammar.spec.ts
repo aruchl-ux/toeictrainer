@@ -57,7 +57,10 @@ test('a due review card is answered and rescheduled', async () => {
   const page = await app.firstWindow()
 
   await page.locator('nav').getByRole('link', { name: 'Review', exact: true }).click()
-  await page.locator('button.choice').nth(item.answer).click()
+  // Choices are shuffled on screen, so find the correct one by its text, not its position.
+  const answer = (item.choices[item.answer] as string).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  // The letter's brackets are visually hidden, so the accessible name may read "( B ) fully".
+  await page.getByRole('button', { name: new RegExp(`^\\(\\s*[A-D]\\s*\\)\\s*${answer}$`) }).click()
   await expect(page.locator('.explain')).toBeVisible()
 
   await expect

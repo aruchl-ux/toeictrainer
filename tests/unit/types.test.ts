@@ -44,10 +44,26 @@ describe('Progress and Settings', () => {
       version: 1,
       grammarAttempts: [],
       leitner: {},
-      mixedTests: []
+      mixedTests: [],
+      readingAttempts: [],
+      readingTests: [],
+      activeReadingTest: null
     })
   })
   it('defaults language to Thai', () => {
     expect(Settings.parse({})).toEqual({ language: 'th' })
   })
 })
+
+describe('Progress activeReadingTest', () => {
+  it('drops a malformed saved test without losing the rest of the progress', () => {
+    const attempt = { itemId: 'p5-word-form-0001', topic: 'word-form', correct: true, ms: 1000, at: '2026-10-06T00:00:00.000Z' }
+    const r = Progress.safeParse({ version: 1, grammarAttempts: [attempt], activeReadingTest: { length: 'half', ids: 'broken' } })
+    expect(r.success).toBe(true)
+    if (r.success) {
+      expect(r.data.activeReadingTest).toBeNull()
+      expect(r.data.grammarAttempts).toHaveLength(1)
+    }
+  })
+})
+

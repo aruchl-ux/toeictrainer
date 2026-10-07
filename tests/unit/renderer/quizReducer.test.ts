@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { QuizEntry } from '@shared/quiz'
-import { DEFERRED_DEBOUNCE_MS, initQuiz, quizReducer, toAttempt } from '@renderer/features/grammar/quizReducer'
+import { DEFERRED_DEBOUNCE_MS, initQuiz, quizReducer, toAttempt, toReadingAttempt } from '@renderer/features/grammar/quizReducer'
 import { makePart5 } from '../../fixtures/items'
 
 const entries: QuizEntry[] = [
@@ -65,5 +65,12 @@ describe('initQuiz and toAttempt', () => {
     expect(
       toAttempt({ entryId: 'p6-0001#2', topic: 'transitions', choice: 0, correct: true, ms: 5 }, 'T')
     ).toEqual({ itemId: 'p6-0001#2', topic: 'transitions', correct: true, ms: 5, at: 'T' })
+  })
+})
+
+describe('toReadingAttempt', () => {
+  it('converts a Part 7 answer record into a reading attempt', () => {
+    const r = { entryId: 'p7-0001#q2', topic: 'inference' as const, choice: 1, correct: true, ms: 4000 }
+    expect(toReadingAttempt(r, 'T')).toEqual({ itemId: 'p7-0001#q2', qtype: 'inference', correct: true, ms: 4000, at: 'T' })
   })
 })

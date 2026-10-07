@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-reduced-clauses-0001",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 2,
+    "stem": "All orders ____ after 3 P.M. will be processed on the following business day.",
+    "choices": ["receive", "receiving", "received", "receives"],
+    "answer": 2,
+    "trap": "passive past participle in a reduced relative clause",
+    "explain": {
+      "en": "The orders are received by the company, so the reduced relative clause needs the passive past participle 'received' (= orders that are received). 'receiving' is active and would mean the orders receive something themselves.",
+      "th": "คำสั่งซื้อ (orders) เป็นสิ่งที่ถูกรับเข้ามา จึงใช้กริยาช่อง 3 (past participle) received ซึ่งย่อมาจาก orders that are received (reduced relative clause) ส่วน receiving มีความหมายเชิงกระทำ (active) เหมือนคำสั่งซื้อเป็นผู้รับเอง จึงผิดความหมาย"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0002",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 3,
+    "stem": "Employees ____ to attend the leadership training session should register with Ms. Patel by Thursday.",
+    "choices": ["wish", "wishing", "wished", "to wish"],
+    "answer": 1,
+    "trap": "active present participle after a noun (= who wish)",
+    "explain": {
+      "en": "The sentence already has a main verb, 'should register', so the blank must reduce 'who wish'. The employees do the wishing, so the active participle 'wishing' is correct; 'wished' would be passive, as if someone wished the employees.",
+      "th": "ประโยคมีกริยาหลักแล้วคือ should register ช่องว่างจึงต้องเป็นรูปย่อของ who wish พนักงานเป็นผู้ต้องการเอง จึงใช้ present participle (-ing) คือ wishing ส่วน wished เป็นรูปถูกกระทำ (passive) ซึ่งไม่สมเหตุสมผล และ wish จะทำให้มีกริยาแท้สองตัว"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0003",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 3,
+    "stem": "____ the quarterly figures, the finance director decided to postpone the expansion plan.",
+    "choices": ["Having reviewed", "Reviewed", "Being reviewed", "Having been reviewed"],
+    "answer": 0,
+    "trap": "'Having + p.p.' for an earlier action done by the subject",
+    "explain": {
+      "en": "The director reviewed the figures first and then decided, so the perfect active participle 'Having reviewed' is needed and it takes 'the quarterly figures' as its object. The passive forms 'Reviewed' and 'Having been reviewed' cannot take an object and would mean the director was reviewed.",
+      "th": "ผู้อำนวยการฝ่ายการเงินตรวจตัวเลขก่อนแล้วจึงตัดสินใจ จึงใช้ Having + กริยาช่อง 3 (perfect participle) คือ Having reviewed ซึ่งมีกรรม the quarterly figures ตามหลังได้ ส่วน Reviewed และ Having been reviewed เป็นรูป passive ตามด้วยกรรมไม่ได้ และจะแปลว่าผู้อำนวยการถูกตรวจเสียเอง"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0004",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 2,
+    "stem": "Before ____ the contract, please read the terms regarding early cancellation carefully.",
+    "choices": ["sign", "signed", "to sign", "signing"],
+    "answer": 3,
+    "trap": "'Before' + -ing in a reduced adverb clause",
+    "explain": {
+      "en": "When 'before' is followed directly by a verb with no subject, the verb takes the -ing form, so 'signing' is correct (= before you sign). 'to sign' cannot follow 'before', and 'signed' would need a subject.",
+      "th": "เมื่อ before ตามด้วยกริยาทันทีโดยไม่มีประธาน (reduced adverb clause) ต้องใช้รูป -ing คือ signing (= before you sign) ส่วน to sign ใช้ตามหลัง before ไม่ได้ และ signed ต้องมีประธานนำหน้า"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0005",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 3,
+    "stem": "Once ____, the new software will allow warehouse staff to track every shipment in real time.",
+    "choices": ["installing", "installed", "install", "installation"],
+    "answer": 1,
+    "trap": "'Once' + past participle (= once it is installed)",
+    "explain": {
+      "en": "'Once installed' is a reduced form of 'once it is installed'. The software is installed by someone, so the passive participle 'installed' fits; 'installing' would mean the software installs something.",
+      "th": "Once installed ย่อมาจาก once it is installed ซอฟต์แวร์เป็นสิ่งที่ถูกติดตั้ง จึงใช้กริยาช่อง 3 (past participle) คือ installed ส่วน installing มีความหมายว่าซอฟต์แวร์เป็นผู้ติดตั้งเอง ซึ่งไม่สมเหตุสมผล"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0006",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 3,
+    "stem": "When ____ customer complaints, service representatives should remain calm and offer a clear solution.",
+    "choices": ["handled", "handle", "to handle", "handling"],
+    "answer": 3,
+    "trap": "'When' + -ing when the subject does the action",
+    "explain": {
+      "en": "The representatives handle the complaints themselves, so the active form 'handling' is needed (= when they handle customer complaints). 'handled' would be passive, meaning the representatives are being handled.",
+      "th": "พนักงานบริการเป็นผู้จัดการข้อร้องเรียนเอง จึงใช้รูปกระทำ (active) -ing คือ handling (= when they handle) ส่วน handled เป็นรูปถูกกระทำ (passive) จะแปลว่าพนักงานถูกจัดการเสียเอง"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0007",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 3,
+    "stem": "The report ____ by the consulting firm last month recommends reducing overhead costs in all regional offices.",
+    "choices": ["prepared", "preparing", "was prepared", "has prepared"],
+    "answer": 0,
+    "trap": "reduced passive clause; the main verb is 'recommends'",
+    "explain": {
+      "en": "The main verb of the sentence is 'recommends', so the blank cannot be another finite verb like 'was prepared'. 'prepared' reduces 'that was prepared' and fits with 'by the consulting firm'.",
+      "th": "กริยาหลักของประโยคคือ recommends ช่องว่างจึงเป็นกริยาแท้อีกตัวอย่าง was prepared ไม่ได้ ต้องใช้ prepared ซึ่งย่อมาจาก that was prepared (reduced relative clause) และเข้ากับ by the consulting firm ส่วน preparing เป็นรูป active ผิดความหมาย"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0008",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 4,
+    "stem": "____ in 1998, the firm has grown into one of the largest logistics providers in the region.",
+    "choices": ["Founding", "Having founded", "Founded", "To found"],
+    "answer": 2,
+    "trap": "past participle opener for a passive idea (the firm was founded)",
+    "explain": {
+      "en": "The subject 'the firm' was founded by someone, so the opening participle must be passive: 'Founded' (= the firm was founded in 1998). 'Having founded' is active and would mean the firm founded something else.",
+      "th": "ประธานคือ the firm ซึ่งเป็นสิ่งที่ถูกก่อตั้ง (passive) จึงขึ้นต้นด้วยกริยาช่อง 3 คือ Founded (= the firm was founded) ส่วน Having founded เป็นรูป active จะแปลว่าบริษัทเป็นผู้ก่อตั้งสิ่งอื่น จึงผิดความหมาย"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0009",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 4,
+    "stem": "As ____ in the employee handbook, all overtime must be approved in advance by a supervisor.",
+    "choices": ["stating", "stated", "states", "statement"],
+    "answer": 1,
+    "trap": "'As' + past participle (= as it is stated)",
+    "explain": {
+      "en": "'As stated' is a reduced form of 'as it is stated'; the rule is stated in the handbook, so the passive participle 'stated' is correct. 'stating' is active and would need an object.",
+      "th": "As stated ย่อมาจาก as it is stated กฎถูกระบุไว้ในคู่มือ จึงใช้กริยาช่อง 3 (past participle) คือ stated ส่วน stating เป็นรูป active ต้องมีกรรมตามหลัง และ states ต้องมีประธาน"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-reduced-clauses-0010",
+    "part": 5,
+    "topic": "reduced-clauses",
+    "difficulty": 4,
+    "stem": "____ by the board last week, the new budget will take effect at the start of the fiscal year.",
+    "choices": ["Approving", "Having approved", "To approve", "Having been approved"],
+    "answer": 3,
+    "trap": "perfect passive participle 'Having been + p.p.'",
+    "explain": {
+      "en": "The budget was approved by the board before it takes effect, so the perfect passive participle 'Having been approved' is needed. 'Having approved' is active and would mean the budget approved something.",
+      "th": "งบประมาณถูกอนุมัติ (passive) ไปแล้วก่อนจะมีผลบังคับใช้ จึงใช้ Having been + กริยาช่อง 3 คือ Having been approved ส่วน Having approved เป็นรูป active จะแปลว่างบประมาณเป็นผู้อนุมัติเอง และมี by the board เป็นตัวบอกว่าต้องเป็น passive"
+    },
+    "status": "approved"
+  }
+]

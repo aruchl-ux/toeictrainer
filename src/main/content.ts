@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
 import type { ZodType } from 'zod'
-import { Part5Item, Part6Set, formatIssues, type ContentBank } from '@shared/types'
+import { Part5Item, Part6Set, Part7Set, formatIssues, type ContentBank } from '@shared/types'
 
 export interface LoadResult {
   bank: ContentBank
@@ -51,5 +51,6 @@ export function loadContent(root: string): LoadResult {
   const seen = new Set<string>()
   const part5 = collect(join(root, 'grammar', 'part5'), Part5Item, errors, seen)
   const part6 = collect(join(root, 'grammar', 'part6'), Part6Set, errors, seen)
-  return { bank: { part5, part6 }, errors }
+  const part7 = collect(join(root, 'reading', 'part7'), Part7Set, errors, seen)
+  return { bank: { part5, part6, part7 }, errors }
 }

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-collocations-0001",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 2,
+    "stem": "The design team worked through the weekend in order to ____ the deadline for the client presentation.",
+    "choices": ["reach", "meet", "achieve", "complete"],
+    "answer": 1,
+    "trap": "'meet a deadline'",
+    "explain": {
+      "en": "The fixed collocation is 'meet a deadline', meaning to finish on time. 'reach' and 'achieve' look similar in meaning, but they do not combine with 'deadline' in this sense.",
+      "th": "คำที่ใช้คู่กันตายตัว (collocation) คือ meet a deadline แปลว่า ทำงานเสร็จทันกำหนด ส่วน reach และ achieve ความหมายใกล้เคียงแต่ไม่ใช้คู่กับ deadline ในความหมายนี้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0002",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 2,
+    "stem": "Customers who ____ an order before noon will receive their items on the following business day.",
+    "choices": ["put", "set", "place", "do"],
+    "answer": 2,
+    "trap": "'place an order'",
+    "explain": {
+      "en": "In business English you 'place an order' with a supplier or store. 'put' and 'do' are tempting general verbs, but 'put an order' and 'do an order' are not natural.",
+      "th": "ในภาษาอังกฤษธุรกิจ การสั่งซื้อสินค้าใช้ว่า place an order (collocation) ส่วน put และ do เป็นกริยาทั่วไปที่คนไทยมักเลือก แต่ put an order หรือ do an order ไม่เป็นธรรมชาติ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0003",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 3,
+    "stem": "The human resources department will ____ a survey to measure employee satisfaction with the new benefits package.",
+    "choices": ["make", "operate", "practice", "conduct"],
+    "answer": 3,
+    "trap": "'conduct a survey'",
+    "explain": {
+      "en": "The standard collocation is 'conduct a survey' (also 'conduct research' and 'conduct an interview'). 'make a survey' is a common learner error, and 'operate' is used for machines or businesses.",
+      "th": "คำที่ใช้คู่กันมาตรฐานคือ conduct a survey (ทำการสำรวจ / จัดทำแบบสำรวจ) เหมือน conduct research หรือ conduct an interview ส่วน make a survey เป็นข้อผิดพลาดที่ผู้เรียนพบบ่อย และ operate ใช้กับเครื่องจักรหรือธุรกิจ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0004",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 3,
+    "stem": "The new advertising campaign aims to ____ awareness of the importance of recycling in the workplace.",
+    "choices": ["raise", "rise", "arise", "rouse"],
+    "answer": 0,
+    "trap": "'raise awareness' (transitive 'raise' vs intransitive 'rise')",
+    "explain": {
+      "en": "The collocation is 'raise awareness', and 'raise' is transitive, so it can take the object 'awareness'. 'rise' looks similar but is intransitive and cannot take an object, and 'arise' and 'rouse' do not combine with 'awareness'.",
+      "th": "คำที่ใช้คู่กันคือ raise awareness (สร้างความตระหนักรู้) และ raise เป็นกริยาที่ต้องมีกรรม (transitive) จึงตามด้วย awareness ได้ ส่วน rise หน้าตาคล้ายกันแต่เป็นกริยาที่ไม่มีกรรม (intransitive) จึงใช้ไม่ได้ ส่วน arise และ rouse ไม่ใช้คู่กับ awareness"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0005",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 2,
+    "stem": "The revised travel reimbursement policy will ____ effect on the first day of next month.",
+    "choices": ["make", "bring", "give", "take"],
+    "answer": 3,
+    "trap": "'take effect' (begin to apply)",
+    "explain": {
+      "en": "A rule or policy 'takes effect' when it starts to apply, so 'take' is correct. 'make' is tempting, but 'make effect' is not an English collocation.",
+      "th": "กฎหรือนโยบายที่เริ่มมีผลบังคับใช้ ใช้ว่า take effect จึงตอบ take ส่วน make อาจดูน่าเลือก แต่ make effect ไม่ใช่คำที่ใช้คู่กัน (collocation) ในภาษาอังกฤษ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0006",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 3,
+    "stem": "The restaurant near the convention center comes ____ recommended by several of our regular clients.",
+    "choices": ["deeply", "highly", "greatly", "sharply"],
+    "answer": 1,
+    "trap": "'(come) highly recommended'",
+    "explain": {
+      "en": "'highly recommended' is a fixed collocation, and 'comes highly recommended' means many people praise it. 'greatly' also means 'very much', but it does not combine with 'recommended'.",
+      "th": "highly recommended เป็นคำที่ใช้คู่กันตายตัว (collocation) และ comes highly recommended แปลว่า ได้รับการแนะนำอย่างมาก ส่วน greatly แม้แปลว่า อย่างมาก เหมือนกัน แต่ไม่ใช้คู่กับ recommended"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0007",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 3,
+    "stem": "All contractors working at the site must ____ with the safety regulations outlined in the manual.",
+    "choices": ["obey", "follow", "comply", "observe"],
+    "answer": 2,
+    "trap": "'comply with' (verb + fixed preposition)",
+    "explain": {
+      "en": "The word 'with' after the blank is the cue: 'comply with' means to follow a rule. 'obey' and 'follow' have the same meaning but take a direct object with no 'with'.",
+      "th": "คำว่า with หลังช่องว่างคือจุดสังเกต เพราะ comply ต้องใช้คู่กับ with เสมอ (comply with = ปฏิบัติตาม) ส่วน obey และ follow ความหมายเหมือนกันแต่ตามด้วยกรรมทันที ไม่มี with"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0008",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 3,
+    "stem": "Staff members are expected to strictly ____ to the company's code of conduct at all times.",
+    "choices": ["adhere", "follow", "obey", "respect"],
+    "answer": 0,
+    "trap": "'adhere to' (verb + fixed preposition)",
+    "explain": {
+      "en": "The preposition 'to' after the blank requires 'adhere', since 'adhere to' means to follow rules strictly. 'follow' means the same thing but takes a direct object, so 'follow to' is wrong.",
+      "th": "หลังช่องว่างมี to จึงต้องใช้ adhere เพราะ adhere to แปลว่า ยึดถือปฏิบัติตามอย่างเคร่งครัด ส่วน follow ความหมายเหมือนกันแต่ตามด้วยกรรมทันที พูดว่า follow to ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0009",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 4,
+    "stem": "Warehouse staff are advised to ____ caution when operating forklifts near the busy loading dock.",
+    "choices": ["perform", "execute", "train", "exercise"],
+    "answer": 3,
+    "trap": "'exercise caution'",
+    "explain": {
+      "en": "The formal collocation is 'exercise caution', meaning to be careful. 'perform' and 'execute' both mean 'carry out', but they are used with tasks or plans, not with 'caution'.",
+      "th": "คำที่ใช้คู่กันแบบทางการคือ exercise caution แปลว่า ใช้ความระมัดระวัง ส่วน perform และ execute แม้แปลว่า ปฏิบัติ แต่ใช้กับงานหรือแผน ไม่ใช้คู่กับ caution"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-collocations-0010",
+    "part": 5,
+    "topic": "collocations",
+    "difficulty": 4,
+    "stem": "The CEO held a town hall meeting to ____ employees' concerns about the upcoming restructuring.",
+    "choices": ["address", "solve", "speak", "talk"],
+    "answer": 0,
+    "trap": "'address concerns'",
+    "explain": {
+      "en": "You 'address concerns', meaning you respond to and deal with them. 'solve' collocates with 'problems', not 'concerns', and 'speak' and 'talk' would need a preposition such as 'about'.",
+      "th": "คำที่ใช้คู่กันคือ address concerns แปลว่า รับฟังและจัดการกับข้อกังวล ส่วน solve ใช้คู่กับ problems ไม่ใช้กับ concerns และ speak หรือ talk ต้องมีคำบุพบทอย่าง about ตามหลัง"
+    },
+    "status": "approved"
+  }
+]

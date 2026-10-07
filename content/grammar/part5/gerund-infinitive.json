@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-gerund-infinitive-0001",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 2,
+    "stem": "After several rounds of negotiation, the supplier agreed ____ the price of raw materials by five percent.",
+    "choices": ["lower", "to lower", "lowering", "lowered"],
+    "answer": 1,
+    "trap": "'agree' + to-infinitive",
+    "explain": {
+      "en": "The verb 'agree' is followed by a to-infinitive, so 'agreed to lower' is correct. 'lowering' is wrong because 'agree' does not take a gerund.",
+      "th": "กริยา agree ต้องตามด้วย to + กริยารูปปกติ (to-infinitive) จึงตอบ to lower ส่วน lowering เป็น gerund ซึ่งใช้หลัง agree ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0002",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 2,
+    "stem": "To avoid ____ late fees, please make sure your payment reaches our office by the 15th of each month.",
+    "choices": ["pay", "paid", "to pay", "paying"],
+    "answer": 3,
+    "trap": "'avoid' + gerund",
+    "explain": {
+      "en": "The verb 'avoid' is always followed by a gerund, so 'avoid paying' is correct. 'to pay' is a common mistake because 'avoid' never takes a to-infinitive.",
+      "th": "กริยา avoid ต้องตามด้วยกริยาเติม -ing (gerund) เสมอ จึงตอบ paying คนไทยมักเผลอใช้ avoid to pay ซึ่งผิด เพราะ avoid ไม่ตามด้วย to-infinitive"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0003",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 3,
+    "stem": "We look forward to ____ with your team on the new advertising campaign next quarter.",
+    "choices": ["working", "work", "worked", "works"],
+    "answer": 0,
+    "trap": "'look forward to' + gerund ('to' is a preposition)",
+    "explain": {
+      "en": "In 'look forward to', the word 'to' is a preposition, not part of an infinitive, so it must be followed by a gerund: 'working'. 'work' is tempting because it follows 'to', but it is wrong here.",
+      "th": "ใน look forward to คำว่า to เป็นคำบุพบท (preposition) ไม่ใช่ to ของ infinitive จึงต้องตามด้วย gerund คือ working ส่วน work ดูน่าเลือกเพราะอยู่หลัง to แต่ในวลีนี้ใช้ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0004",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 3,
+    "stem": "Having worked overseas for years, Ms. Chen is used to ____ with clients in many different time zones.",
+    "choices": ["communicate", "communicates", "communicating", "communicated"],
+    "answer": 2,
+    "trap": "'be used to' + gerund vs 'used to' + base verb",
+    "explain": {
+      "en": "'is used to' means 'is accustomed to', and its 'to' is a preposition, so a gerund follows: 'communicating'. 'communicate' would fit only 'used to' without 'be', which describes a past habit.",
+      "th": "is used to แปลว่า เคยชินกับ และ to ในที่นี้เป็นคำบุพบท จึงต้องตามด้วย gerund คือ communicating ส่วน communicate ใช้กับ used to ที่ไม่มี be ข้างหน้า ซึ่งหมายถึง เคยทำในอดีต (แต่ตอนนี้ไม่ทำแล้ว)"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0005",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 4,
+    "stem": "Several board members objected to ____ the annual shareholders' meeting to a smaller venue outside the city.",
+    "choices": ["move", "be moved", "moves", "moving"],
+    "answer": 3,
+    "trap": "'object to' + gerund ('to' is a preposition)",
+    "explain": {
+      "en": "In 'object to', the word 'to' is a preposition, so the verb after it takes the gerund form: 'moving'. 'move' looks natural after 'to', but 'objected to move' is incorrect.",
+      "th": "ใน object to (คัดค้าน) คำว่า to เป็นคำบุพบท (preposition) กริยาที่ตามมาจึงต้องเป็น gerund คือ moving ส่วน move ดูเหมือนจะถูกเพราะอยู่หลัง to แต่ objected to move ผิดไวยากรณ์"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0006",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 3,
+    "stem": "The management team is seriously considering ____ a second distribution center in the northern region.",
+    "choices": ["opening", "to open", "open", "opened"],
+    "answer": 0,
+    "trap": "'consider' + gerund",
+    "explain": {
+      "en": "The verb 'consider' is followed by a gerund, so 'considering opening' is correct even though two -ing words appear together. 'to open' is wrong because 'consider' does not take a to-infinitive.",
+      "th": "กริยา consider ต้องตามด้วย gerund จึงตอบ opening ถึงแม้จะมีคำ -ing สองคำติดกันก็ถูกต้อง ส่วน to open ผิด เพราะ consider ไม่ตามด้วย to-infinitive"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0007",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 4,
+    "stem": "The consultant recommended ____ the approval process so that customer orders could be shipped more quickly.",
+    "choices": ["simplify", "simplifying", "to simplify", "simplified"],
+    "answer": 1,
+    "trap": "'recommend' + gerund (no object)",
+    "explain": {
+      "en": "When 'recommend' is followed directly by an action with no person in between, it takes a gerund: 'recommended simplifying'. 'to simplify' feels natural to many learners, but 'recommend to do' is not standard English.",
+      "th": "เมื่อ recommend ตามด้วยการกระทำโดยไม่มีบุคคลคั่นกลาง ต้องใช้ gerund คือ simplifying ส่วน to simplify ผู้เรียนมักคิดว่าถูก แต่ recommend to do ไม่ใช่รูปมาตรฐานในภาษาอังกฤษ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0008",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 2,
+    "stem": "Employees can reduce printing costs by ____ documents electronically instead of printing them out.",
+    "choices": ["share", "to share", "sharing", "shared"],
+    "answer": 2,
+    "trap": "preposition 'by' + gerund",
+    "explain": {
+      "en": "A verb that follows a preposition such as 'by' must be a gerund, so 'by sharing' is correct. 'share' and 'to share' cannot follow a preposition.",
+      "th": "กริยาที่ตามหลังคำบุพบท (preposition) เช่น by ต้องอยู่ในรูป gerund เสมอ จึงตอบ sharing ส่วน share และ to share วางหลังคำบุพบทไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0009",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 3,
+    "stem": "In order ____ customer complaints more efficiently, the company has hired three additional support staff.",
+    "choices": ["handling", "for handling", "handle", "to handle"],
+    "answer": 3,
+    "trap": "'in order' + to-infinitive of purpose",
+    "explain": {
+      "en": "'in order' must be followed by a to-infinitive to express purpose, so 'in order to handle' is correct. 'for handling' can show purpose elsewhere, but it cannot follow 'in order'.",
+      "th": "in order ต้องตามด้วย to-infinitive เพื่อบอกจุดประสงค์ (เพื่อที่จะ) จึงตอบ to handle ส่วน for handling แม้จะบอกจุดประสงค์ได้ในบางประโยค แต่ใช้ต่อจาก in order ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-gerund-infinitive-0010",
+    "part": 5,
+    "topic": "gerund-infinitive",
+    "difficulty": 3,
+    "stem": "The regional manager plans ____ the new inventory system to all branches by the end of the year.",
+    "choices": ["introduction", "to introduce", "introducing", "introduce"],
+    "answer": 1,
+    "trap": "'plan' + to-infinitive",
+    "explain": {
+      "en": "The verb 'plan' is followed by a to-infinitive, so 'plans to introduce' is correct. 'introducing' is wrong because 'plan' does not take a gerund, and 'introduction' cannot take the object 'the new inventory system'.",
+      "th": "กริยา plan ต้องตามด้วย to-infinitive จึงตอบ to introduce ส่วน introducing ผิดเพราะ plan ไม่ตามด้วย gerund และ introduction เป็นคำนาม จึงมีกรรม the new inventory system ตามหลังไม่ได้"
+    },
+    "status": "approved"
+  }
+]

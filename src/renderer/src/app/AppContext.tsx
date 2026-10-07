@@ -1,14 +1,17 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react'
 import type {
+  ActiveReadingTest,
   ContentBank,
+  FinishReadingTest,
   GrammarAttempt,
-  GrammarTopic,
   MixedTestResult,
   Progress,
+  ReadingAttempt,
   Settings,
-  SettingsPatch
+  SettingsPatch,
+  Skill
 } from '@shared/types'
-import { t as translate, topicLabel, type Lang, type StringKey } from './i18n'
+import { t as translate, skillLabel, type Lang, type StringKey } from './i18n'
 
 interface Loaded {
   bank: ContentBank
@@ -20,6 +23,9 @@ interface Loaded {
 export interface AppData extends Loaded {
   recordGrammar(a: GrammarAttempt): Promise<void>
   recordMixedTest(r: MixedTestResult): Promise<void>
+  recordReading(a: ReadingAttempt): Promise<void>
+  saveActiveTest(t: ActiveReadingTest | null): Promise<void>
+  finishReadingTest(f: FinishReadingTest): Promise<void>
   updateSettings(patch: SettingsPatch): Promise<void>
   reloadBank(): Promise<void>
   /** True once any progress/settings write has failed. */
@@ -60,6 +66,30 @@ export function AppProvider({ children }: { children: ReactNode }) {
       setSaveError(true)
     }
   }, [])
+  const recordReading = useCallback(async (x: ReadingAttempt) => {
+    try {
+      const progress = await window.api.progress.recordReading(x)
+      setState((s) => s && { ...s, progress })
+    } catch {
+      setSaveError(true)
+    }
+  }, [])
+  const saveActiveTest = useCallback(async (x: ActiveReadingTest | null) => {
+    try {
+      const progress = await window.api.progress.saveActiveTest(x)
+      setState((s) => s && { ...s, progress })
+    } catch {
+      setSaveError(true)
+    }
+  }, [])
+  const finishReadingTest = useCallback(async (x: FinishReadingTest) => {
+    try {
+      const progress = await window.api.progress.finishReadingTest(x)
+      setState((s) => s && { ...s, progress })
+    } catch {
+      setSaveError(true)
+    }
+  }, [])
   const updateSettings = useCallback(async (patch: SettingsPatch) => {
     try {
       const settings = await window.api.settings.set(patch)
@@ -76,7 +106,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   if (error) return <p className="error">Failed to load: {error}</p>
   if (!state) return <p className="loading">Loading…</p>
   return (
-    <AppCtx.Provider value={{ ...state, recordGrammar, recordMixedTest, updateSettings, reloadBank, saveError }}>
+    <AppCtx.Provider value={{ ...state, recordGrammar, recordMixedTest, recordReading, saveActiveTest, finishReadingTest, updateSettings, reloadBank, saveError }}>
       {children}
     </AppCtx.Provider>
   )
@@ -93,6 +123,6 @@ export function useT() {
   return {
     lang,
     t: (key: StringKey, vars?: Record<string, string | number>) => translate(lang, key, vars),
-    topic: (topic: GrammarTopic) => topicLabel(topic, lang)
+    topic: (s: Skill) => skillLabel(s, lang)
   }
 }

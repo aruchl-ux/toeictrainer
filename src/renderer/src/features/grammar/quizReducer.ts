@@ -1,5 +1,5 @@
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
-import type { GrammarAttempt, GrammarTopic } from '@shared/types'
+import type { GrammarAttempt, GrammarTopic, ReadingAttempt, Skill } from '@shared/types'
 
 /** Deferred mode advances on click; ignore a second click (double-click) landing this soon after. */
 export const DEFERRED_DEBOUNCE_MS = 250
@@ -8,7 +8,7 @@ export type QuizMode = 'instant' | 'deferred'
 
 export interface AnswerRecord {
   entryId: string
-  topic: GrammarTopic
+  topic: Skill
   choice: number
   correct: boolean
   ms: number
@@ -57,6 +57,10 @@ export function quizReducer(s: QuizState, a: QuizAction): QuizState {
   return advance(s, a.now)
 }
 
-export function toAttempt(r: AnswerRecord, at: string): GrammarAttempt {
+export function toAttempt(r: AnswerRecord & { topic: GrammarTopic }, at: string): GrammarAttempt {
   return { itemId: r.entryId, topic: r.topic, correct: r.correct, ms: r.ms, at }
+}
+
+export function toReadingAttempt(r: AnswerRecord, at: string): ReadingAttempt {
+  return { itemId: r.entryId, qtype: r.topic as ReadingAttempt['qtype'], correct: r.correct, ms: r.ms, at }
 }

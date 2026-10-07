@@ -8,7 +8,12 @@
       {
         "topic": "tense-voice",
         "difficulty": 2,
-        "choices": ["relocate", "relocating", "relocated", "relocation"],
+        "choices": [
+          "relocate",
+          "relocating",
+          "relocated",
+          "relocation"
+        ],
         "answer": 2,
         "trap": "passive voice: will be + past participle",
         "explain": {
@@ -35,7 +40,12 @@
       {
         "topic": "transitions",
         "difficulty": 3,
-        "choices": ["However", "Therefore", "For example", "Otherwise"],
+        "choices": [
+          "However",
+          "Therefore",
+          "For example",
+          "Otherwise"
+        ],
         "answer": 0,
         "trap": "contrast between disruption and normal service",
         "explain": {
@@ -46,12 +56,1112 @@
       {
         "topic": "word-form",
         "difficulty": 2,
-        "choices": ["inconvenient", "inconvenience", "inconveniently", "inconvenienced"],
+        "choices": [
+          "inconvenient",
+          "inconvenience",
+          "inconveniently",
+          "inconvenienced"
+        ],
         "answer": 1,
         "trap": "noun after 'any'",
         "explain": {
           "en": "'apologize for any ____' needs a noun after 'any'. 'inconvenience' is the noun; 'inconvenient' is an adjective.",
           "th": "หลัง any ต้องใช้คำนาม คือ inconvenience (ความไม่สะดวก) ส่วน inconvenient เป็น adjective"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0002",
+    "part": 6,
+    "title": "Memo: New expense reporting system",
+    "passage": "To: All employees\nFrom: Human Resources\nSubject: New expense reporting system\n\nOn November 1, we will switch to a new online system for reporting travel and meal expenses. After that date, paper expense forms {{1}}. {{2}} To help everyone prepare, the HR team will hold 30-minute training sessions every Tuesday in October. Each session will show you how to upload receipts and check the status of a claim. {{3}}, please continue to submit your claims on paper as usual. If you have any questions, contact Dana Morris, {{4}} oversees the new system.",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "were no longer accepted",
+          "will no longer accept",
+          "will no longer be accepted",
+          "have not been accepted"
+        ],
+        "answer": 2,
+        "trap": "future passive set by the date in the previous sentence",
+        "explain": {
+          "en": "The previous sentence says the switch happens on November 1, so 'after that date' is in the future. Forms are accepted by someone, so the future passive 'will no longer be accepted' fits. 'will no longer accept' is active, but forms cannot accept anything.",
+          "th": "ประโยคก่อนหน้าบอกว่าจะเปลี่ยนระบบในวันที่ 1 พฤศจิกายน ดังนั้น after that date คือเหตุการณ์ในอนาคต และแบบฟอร์มเป็นสิ่งที่ถูกรับ จึงต้องใช้ future passive คือ will no longer be accepted ส่วน will no longer accept เป็น active voice ซึ่งแบบฟอร์มรับอะไรเองไม่ได้"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "The training sessions were very popular last year.",
+          "Please remember to lock your computer when you leave your desk.",
+          "Paper forms will remain the preferred way to submit all claims.",
+          "The new system will allow most claims to be approved and paid within five business days."
+        ],
+        "answer": 3,
+        "trap": "the sentence must explain the new system before the training details",
+        "explain": {
+          "en": "The memo introduces the new online system, so the next sentence should describe its benefit: claims approved and paid within five business days. The sentence about paper forms being preferred contradicts the switch, and the training cannot have been popular last year because the system is new.",
+          "th": "บันทึกนี้แนะนำระบบออนไลน์ใหม่ ประโยคที่เหมาะคือประโยคที่บอกข้อดีของระบบใหม่ (claims approved and paid within five business days) ส่วนประโยคที่บอกว่าแบบฟอร์มกระดาษยังเป็นวิธีหลักขัดแย้งกับการเปลี่ยนระบบ และการอบรมไม่น่าจะได้รับความนิยมเมื่อปีที่แล้ว เพราะระบบนี้เพิ่งเริ่มใช้"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "In the meantime",
+          "As a result",
+          "In contrast",
+          "For instance"
+        ],
+        "answer": 0,
+        "trap": "time transition: the period before the November 1 switch",
+        "explain": {
+          "en": "The new system starts on November 1, and the training happens in October. Until the switch, staff should keep using paper, so 'In the meantime' fits. 'As a result' suggests the training causes staff to use paper, which makes no sense.",
+          "th": "ระบบใหม่เริ่มใช้วันที่ 1 พฤศจิกายน และมีการอบรมในเดือนตุลาคม ระหว่างนี้พนักงานยังต้องใช้แบบฟอร์มกระดาษ จึงใช้ In the meantime (ในระหว่างนี้) ส่วน As a result แสดงผลลัพธ์ ซึ่งไม่สมเหตุสมผลเพราะการอบรมไม่ได้ทำให้ต้องใช้กระดาษ"
+        }
+      },
+      {
+        "topic": "relative-clauses",
+        "difficulty": 2,
+        "choices": [
+          "which",
+          "who",
+          "whom",
+          "whose"
+        ],
+        "answer": 1,
+        "trap": "relative pronoun for a person as subject",
+        "explain": {
+          "en": "Dana Morris is a person and the blank is the subject of 'oversees', so use 'who'. 'whom' is an object pronoun and 'which' is for things.",
+          "th": "Dana Morris เป็นคน และช่องว่างทำหน้าที่เป็นประธานของ oversees จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) และ which ใช้กับสิ่งของ"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0003",
+    "part": 6,
+    "title": "Advertisement: Office cleaning services",
+    "passage": "Looking for a cleaner, healthier workplace? Harbor City Office Cleaning has served local businesses for over fifteen years. Our trained staff members use only environmentally {{1}} products that are safe for employees and visitors alike. {{2}} you need a one-time deep clean or regular weekly service, we can create a plan that fits your schedule. {{3}} Best of all, our rates are {{4}} than those of most other cleaning companies in the area. Call 555-0148 today to arrange a free on-site estimate, or visit our Web site to read reviews from satisfied customers.",
+    "blanks": [
+      {
+        "topic": "word-form",
+        "difficulty": 2,
+        "choices": [
+          "responsibility",
+          "responsible",
+          "responsibly",
+          "responsibilities"
+        ],
+        "answer": 1,
+        "trap": "adverb + adjective before a noun",
+        "explain": {
+          "en": "'environmentally' is an adverb, and it must modify an adjective that describes the noun 'products'. The adjective is 'responsible'; 'responsibly' is another adverb and cannot describe a noun.",
+          "th": "environmentally เป็น adverb ต้องขยาย adjective ที่อยู่หน้าคำนาม products จึงใช้ responsible (adjective) ส่วน responsibly เป็น adverb ซึ่งขยายคำนามไม่ได้"
+        }
+      },
+      {
+        "topic": "conj-vs-prep",
+        "difficulty": 3,
+        "choices": [
+          "Either",
+          "Regardless of",
+          "Whether",
+          "Both"
+        ],
+        "answer": 2,
+        "trap": "Whether ... or + clause, not a preposition",
+        "explain": {
+          "en": "A full clause follows ('you need a one-time deep clean or regular weekly service'), paired with 'or', so the conjunction 'Whether' is needed. 'Regardless of' is a preposition and must be followed by a noun, not a clause.",
+          "th": "หลังช่องว่างเป็นประโยคเต็ม (you need ... or ...) และมี or มาคู่กัน จึงต้องใช้ conjunction คือ Whether (ไม่ว่าจะ...หรือ...) ส่วน Regardless of เป็น preposition ต้องตามด้วยคำนาม ไม่ใช่ประโยค"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "Our new office building will open next spring.",
+          "Unfortunately, we are not able to accept new clients at this time.",
+          "Please submit your application by the end of the month.",
+          "We also offer evening and weekend cleaning so that your work is never interrupted."
+        ],
+        "answer": 3,
+        "trap": "continue the list of service benefits before 'Best of all'",
+        "explain": {
+          "en": "The ad lists the benefits of the service, and 'Best of all' introduces the last one. Evening and weekend cleaning is another benefit that fits this list. Saying no new clients are accepted contradicts the invitation to call today.",
+          "th": "โฆษณานี้กำลังไล่เรียงข้อดีของบริการ และ Best of all แนะนำข้อดีข้อสุดท้าย ประโยคเรื่องบริการทำความสะอาดช่วงเย็นและวันหยุด (evening and weekend cleaning) จึงต่อเนื่องได้ดี ส่วนประโยคที่บอกว่าไม่รับลูกค้าใหม่ขัดแย้งกับการเชิญให้โทรมาวันนี้"
+        }
+      },
+      {
+        "topic": "comparatives",
+        "difficulty": 2,
+        "choices": [
+          "lower",
+          "low",
+          "lowest",
+          "more low"
+        ],
+        "answer": 0,
+        "trap": "comparative before 'than'",
+        "explain": {
+          "en": "'than' signals a comparison, so the comparative form 'lower' is needed. 'lowest' is a superlative and does not go with 'than', and 'more low' is not correct for a short adjective.",
+          "th": "มีคำว่า than แสดงการเปรียบเทียบ จึงต้องใช้ขั้นกว่า (comparative) คือ lower ส่วน lowest เป็นขั้นสูงสุด (superlative) ใช้กับ than ไม่ได้ และ adjective พยางค์เดียวไม่ใช้ more low"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0004",
+    "part": 6,
+    "title": "Letter: Replacement for a faulty coffee maker",
+    "passage": "Dear Ms. Alvarez,\n\nThank you for contacting us about the coffee maker you purchased from our online store last month. We are very sorry that it stopped working after only two weeks. We {{1}} a replacement unit to your home address. The package left our warehouse this morning and should arrive within three business days. {{2}} As a gesture of apology, we have also added a $20 credit to your account, which you may use toward {{3}} next purchase. There is no need to return the faulty unit.\n\nWe value your business and look forward to {{4}} you again.\n\nSincerely,\nKevin Park\nCustomer Service Team",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "will send",
+          "were sent",
+          "would send",
+          "have sent"
+        ],
+        "answer": 3,
+        "trap": "next sentence shows the action is already done",
+        "explain": {
+          "en": "The next sentence says the package left the warehouse this morning, so the sending is already complete. The present perfect 'have sent' fits. 'will send' is tempting but describes a future action, which contradicts the package already being on its way.",
+          "th": "ประโยคถัดไปบอกว่าพัสดุออกจากคลังสินค้าแล้วเมื่อเช้านี้ แสดงว่าการส่งเกิดขึ้นแล้ว จึงใช้ present perfect คือ have sent ส่วน will send เป็นอนาคต ขัดกับข้อมูลว่าพัสดุถูกส่งออกไปแล้ว"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "You can track its delivery using the order number at the top of this letter.",
+          "Our coffee makers are now available in five new colors.",
+          "Unfortunately, this model is currently out of stock.",
+          "We will contact you once your refund has been processed."
+        ],
+        "answer": 0,
+        "trap": "follow up on the shipped package, not a refund",
+        "explain": {
+          "en": "The previous sentence is about the package arriving within three days, so a sentence about tracking its delivery continues the idea naturally. The out-of-stock sentence contradicts the replacement already being shipped, and the customer is getting a replacement, not a refund.",
+          "th": "ประโยคก่อนหน้าพูดถึงพัสดุที่จะมาถึงภายในสามวัน ประโยคที่บอกวิธีติดตามการจัดส่ง (track its delivery) จึงต่อเนื่องได้ดีที่สุด ส่วนประโยคที่บอกว่าสินค้าหมดขัดแย้งกับการที่ส่งเครื่องใหม่ไปแล้ว และลูกค้าได้รับเครื่องทดแทน ไม่ใช่เงินคืน (refund)"
+        }
+      },
+      {
+        "topic": "pronouns",
+        "difficulty": 2,
+        "choices": [
+          "yours",
+          "your",
+          "you",
+          "yourself"
+        ],
+        "answer": 1,
+        "trap": "possessive adjective before a noun",
+        "explain": {
+          "en": "The blank comes before the noun phrase 'next purchase', so a possessive adjective is needed: 'your'. 'yours' is a possessive pronoun that stands alone and cannot come before a noun.",
+          "th": "ช่องว่างอยู่หน้าคำนาม next purchase จึงต้องใช้ possessive adjective คือ your ส่วน yours เป็น possessive pronoun ที่ใช้แทนคำนาม วางหน้าคำนามไม่ได้"
+        }
+      },
+      {
+        "topic": "gerund-infinitive",
+        "difficulty": 3,
+        "choices": [
+          "serve",
+          "served",
+          "serving",
+          "be served"
+        ],
+        "answer": 2,
+        "trap": "'look forward to' + -ing",
+        "explain": {
+          "en": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund: 'serving'. 'serve' is tempting because it looks like an infinitive, but 'to' here is not part of an infinitive.",
+          "th": "ใน look forward to คำว่า to เป็น preposition ไม่ใช่ส่วนของ infinitive จึงต้องตามด้วย gerund คือ serving ส่วน serve เป็นกับดักเพราะดูเหมือน to + กริยาช่อง 1"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0005",
+    "part": 6,
+    "title": "Email: Client meeting moved to Friday",
+    "passage": "To: Rachel Kim\nFrom: Daniel Ortiz\nSubject: Thursday's client meeting\n\nHi Rachel,\n\nThe client meeting with Brightline Foods {{1}} from Thursday to Friday at 10:00 A.M. Their marketing director called me this morning about a travel delay, and I have already confirmed the new time with her. Unfortunately, I will be at the regional sales conference all day Friday. {{2}}, I won't be able to attend. {{3}} I've already emailed you the latest sales figures and presentation slides, so please review {{4}} before Friday. Let me know if you have any questions.\n\nThanks,\nDaniel",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "will be rescheduled",
+          "has rescheduled",
+          "was rescheduling",
+          "has been rescheduled"
+        ],
+        "answer": 3,
+        "trap": "present perfect passive set by the confirmation in the next sentence",
+        "explain": {
+          "en": "The next sentence says the new time has already been confirmed, so the change is complete. A meeting is rescheduled by people, so the present perfect passive 'has been rescheduled' fits. 'will be rescheduled' is tempting, but it describes a future change that the next sentence shows has already happened.",
+          "th": "ประโยคถัดไปบอกว่ายืนยันเวลาใหม่กับลูกค้าแล้ว แสดงว่าการเลื่อนประชุมเกิดขึ้นเรียบร้อยแล้ว และการประชุมเป็นสิ่งที่ถูกเลื่อน จึงใช้ present perfect passive คือ has been rescheduled ส่วน will be rescheduled เป็นอนาคต ขัดกับข้อมูลว่ายืนยันเวลาใหม่ไปแล้ว และ has rescheduled เป็น active voice ซึ่งการประชุมเลื่อนตัวเองไม่ได้"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 2,
+        "choices": [
+          "As a result",
+          "In contrast",
+          "For instance",
+          "Even so"
+        ],
+        "answer": 0,
+        "trap": "cause and result between two sentences",
+        "explain": {
+          "en": "Being at the conference all day Friday is the reason Daniel cannot attend, so a result transition is needed: 'As a result'. 'Even so' signals an unexpected contrast, which does not fit a logical consequence.",
+          "th": "การที่ต้องไปงานสัมมนาทั้งวันศุกร์เป็นสาเหตุที่ทำให้ไปประชุมไม่ได้ จึงต้องใช้คำเชื่อมแสดงผลลัพธ์ คือ As a result (ผลก็คือ) ส่วน Even so (ถึงอย่างนั้น) ใช้แสดงความขัดแย้ง ซึ่งไม่เข้ากับเหตุและผลในที่นี้"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "I'm glad we were able to keep the original Thursday time.",
+          "Would you be able to lead the meeting in my place?",
+          "I will present the sales figures to the client myself.",
+          "Fortunately, the sales conference has just been canceled."
+        ],
+        "answer": 1,
+        "trap": "a request that explains why the files are being sent",
+        "explain": {
+          "en": "Daniel cannot attend, and the next sentence sends Rachel the sales figures and slides to review, so he must be asking her to take his place: 'Would you be able to lead the meeting in my place?' Saying he will present the figures himself contradicts his absence, keeping the Thursday time contradicts the change, and if the conference were canceled Daniel could attend, which contradicts 'I won't be able to attend' and the files he sends Rachel to prepare.",
+          "th": "แดเนียลไปประชุมไม่ได้ และประโยคถัดไปส่งข้อมูลยอดขายและสไลด์ให้เรเชลอ่าน แสดงว่าเขากำลังขอให้เธอไปแทน จึงใช้ Would you be able to lead the meeting in my place? ส่วนประโยคที่บอกว่าจะนำเสนอเองขัดกับการที่เขาไปไม่ได้ ประโยคที่บอกว่ายังคงจัดวันพฤหัสบดีขัดกับการเลื่อนประชุม และประโยคที่บอกว่างานสัมมนาถูกยกเลิกขัดกับประโยคก่อนหน้าที่บอกว่าเขาไปประชุมไม่ได้ และกับการส่งไฟล์ให้เรเชลเตรียมตัว"
+        }
+      },
+      {
+        "topic": "pronouns",
+        "difficulty": 2,
+        "choices": [
+          "they",
+          "it",
+          "them",
+          "themselves"
+        ],
+        "answer": 2,
+        "trap": "plural object pronoun after a verb",
+        "explain": {
+          "en": "The blank is the object of 'review' and refers to the plural 'sales figures and presentation slides', so the object pronoun 'them' is needed. 'they' is a subject pronoun, and 'it' is singular.",
+          "th": "ช่องว่างเป็นกรรม (object) ของ review และหมายถึง sales figures and presentation slides ซึ่งเป็นพหูพจน์ จึงใช้ object pronoun คือ them ส่วน they ใช้เป็นประธาน (subject) และ it ใช้กับสิ่งที่เป็นเอกพจน์"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0006",
+    "part": 6,
+    "title": "Web page: Setting up an air purifier",
+    "passage": "Setting Up Your AeroPure 300 Air Purifier\n\nThank you for choosing the AeroPure 300. {{1}} First, remove the unit from its box and take off the plastic bag that covers the filter. Be sure {{2}} this step, as the purifier cannot work properly with the bag in place. Next, place the unit on a flat surface at least 12 inches away from walls and furniture. Plug in the power cord, and then press and hold the power button {{3}} the indicator light turns blue. The purifier will now adjust its fan speed {{4}} based on the air quality in your room. Replacement filters can be ordered from our Web site.",
+    "blanks": [
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "We are sorry to hear that your purifier has stopped working.",
+          "Setup is handled by one of our technicians, who will visit your home.",
+          "Follow the steps below to have your purifier running in just a few minutes.",
+          "The filter in this model never needs to be replaced."
+        ],
+        "answer": 2,
+        "trap": "introduce the steps that start with 'First'",
+        "explain": {
+          "en": "The next sentence begins with 'First' and starts the setup steps, so the missing sentence should introduce them: 'Follow the steps below to have your purifier running in just a few minutes.' A technician doing the setup contradicts the do-it-yourself instructions, and a filter that never needs replacing contradicts the last sentence.",
+          "th": "ประโยคถัดไปขึ้นต้นด้วย First และเริ่มไล่ขั้นตอนการติดตั้ง ประโยคที่หายไปจึงควรเกริ่นนำขั้นตอนเหล่านั้น คือ Follow the steps below to have your purifier running in just a few minutes. ส่วนประโยคที่บอกว่าช่างจะมาติดตั้งให้ขัดกับคำแนะนำให้ติดตั้งเอง และประโยคที่บอกว่าไม่ต้องเปลี่ยนไส้กรองเลยขัดกับประโยคสุดท้ายเรื่องการสั่งซื้อไส้กรองใหม่"
+        }
+      },
+      {
+        "topic": "gerund-infinitive",
+        "difficulty": 2,
+        "choices": [
+          "to complete",
+          "completing",
+          "complete",
+          "completed"
+        ],
+        "answer": 0,
+        "trap": "'be sure' + to-infinitive",
+        "explain": {
+          "en": "'Be sure' is followed by a to-infinitive, so 'to complete' is correct. 'completing' is tempting, but 'be sure' does not take an -ing form directly.",
+          "th": "หลัง be sure (ต้องแน่ใจว่าได้ทำ) ต้องตามด้วย to-infinitive คือ to complete ส่วน completing เป็น gerund ซึ่งใช้ตามหลัง be sure โดยตรงไม่ได้"
+        }
+      },
+      {
+        "topic": "conj-vs-prep",
+        "difficulty": 3,
+        "choices": [
+          "during",
+          "until",
+          "unless",
+          "despite"
+        ],
+        "answer": 1,
+        "trap": "conjunction of time before a clause",
+        "explain": {
+          "en": "A full clause follows ('the indicator light turns blue'), so a conjunction is needed, and the meaning is 'keep holding up to that moment': 'until'. 'during' and 'despite' are prepositions and cannot introduce a clause, and 'unless' gives an illogical meaning.",
+          "th": "หลังช่องว่างเป็นประโยคเต็ม (the indicator light turns blue) จึงต้องใช้ conjunction และความหมายคือกดค้างไว้จนกว่าไฟจะเปลี่ยนเป็นสีฟ้า จึงใช้ until ส่วน during และ despite เป็น preposition ตามด้วยประโยคไม่ได้ และ unless (เว้นแต่) ทำให้ความหมายไม่สมเหตุสมผล"
+        }
+      },
+      {
+        "topic": "word-form",
+        "difficulty": 2,
+        "choices": [
+          "automatic",
+          "automation",
+          "automated",
+          "automatically"
+        ],
+        "answer": 3,
+        "trap": "adverb modifying a verb",
+        "explain": {
+          "en": "The blank describes how the purifier will 'adjust' its fan speed, so an adverb is needed: 'automatically'. 'automatic' is an adjective and cannot modify a verb.",
+          "th": "ช่องว่างบอกว่าเครื่องปรับ (adjust) ความเร็วพัดลมอย่างไร จึงต้องใช้ adverb ขยายกริยา คือ automatically ส่วน automatic เป็น adjective ใช้ขยายกริยาไม่ได้"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0007",
+    "part": 6,
+    "title": "Press release: Grocery delivery partnership",
+    "passage": "FOR IMMEDIATE RELEASE\nContact: Laura Chen, Media Relations, 555-0193\n\nNORTHFIELD (May 4) — Greenway Grocers today announced a partnership with Bluepeak Logistics, a regional delivery company. The agreement between the two companies {{1}} Greenway to offer same-day grocery delivery in five new cities starting June 1. Until now, customers in these cities have had to wait up to three days for their orders. Greenway expects demand for the faster service to be high. {{2}}, Bluepeak plans to hire 150 additional drivers before the launch. \"This partnership will help us {{3}} the needs of busy families who have little time to shop,\" said Greenway CEO Mark Ellison. {{4}}",
+    "blanks": [
+      {
+        "topic": "subject-verb-agreement",
+        "difficulty": 3,
+        "choices": [
+          "allow",
+          "allows",
+          "allowing",
+          "to allow"
+        ],
+        "answer": 1,
+        "trap": "singular subject separated from its verb by a plural noun",
+        "explain": {
+          "en": "The subject is 'The agreement', which is singular; 'between the two companies' only describes it. So the singular verb 'allows' is needed. 'allow' is tempting because the plural 'companies' comes right before the blank.",
+          "th": "ประธานของประโยคคือ The agreement ซึ่งเป็นเอกพจน์ ส่วน between the two companies เป็นเพียงส่วนขยาย จึงต้องใช้กริยาเอกพจน์ คือ allows ส่วน allow เป็นกับดักเพราะมีคำนามพหูพจน์ companies อยู่ติดกับช่องว่าง"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "Nevertheless",
+          "Instead",
+          "Otherwise",
+          "Accordingly"
+        ],
+        "answer": 3,
+        "trap": "result transition after an expectation",
+        "explain": {
+          "en": "Bluepeak is hiring more drivers because demand is expected to be high, so the transition must show a logical consequence: 'Accordingly'. 'Nevertheless' signals contrast, which does not match this cause and effect.",
+          "th": "Bluepeak จ้างคนขับเพิ่มเพราะคาดว่าความต้องการจะสูง ประโยคนี้จึงเป็นผลที่ตามมา ต้องใช้ Accordingly (ด้วยเหตุนี้) ส่วน Nevertheless (อย่างไรก็ตาม) ใช้แสดงความขัดแย้ง ไม่เข้ากับเหตุและผลในที่นี้"
+        }
+      },
+      {
+        "topic": "collocations",
+        "difficulty": 3,
+        "choices": [
+          "make",
+          "do",
+          "meet",
+          "take"
+        ],
+        "answer": 2,
+        "trap": "collocation: meet the needs",
+        "explain": {
+          "en": "The fixed expression is 'meet the needs' of someone, meaning to satisfy what they require. 'make' and 'do' are common verbs, but they do not combine with 'needs' in this meaning.",
+          "th": "คำที่ใช้คู่กันคือ meet the needs (ตอบสนองความต้องการ) ซึ่งเป็น collocation ที่พบบ่อยใน TOEIC ส่วน make และ do เป็นกริยาทั่วไปที่ไม่ใช้คู่กับ needs ในความหมายนี้"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 4,
+        "choices": [
+          "Customers can visit Greenway's Web site to check whether the service is available at their address.",
+          "Same-day delivery has been available in all five cities for several years.",
+          "Bluepeak plans to reduce the size of its delivery team this year.",
+          "Greenway will decide next year whether to work with a delivery partner."
+        ],
+        "answer": 0,
+        "trap": "closing sentence must agree with earlier facts",
+        "explain": {
+          "en": "The release ends by telling customers what they can do next, so the sentence about checking availability on Greenway's Web site fits. Same-day delivery existing for years contradicts the three-day wait, reducing the delivery team contradicts the hiring plan, and deciding next year on a partner contradicts the partnership just announced.",
+          "th": "ช่วงท้ายของข่าวประชาสัมพันธ์ควรบอกลูกค้าว่าทำอะไรต่อได้ ประโยคที่ให้ลูกค้าตรวจสอบพื้นที่ให้บริการบนเว็บไซต์ (Customers can visit Greenway's Web site to check whether the service is available at their address) จึงเหมาะที่สุด ส่วนประโยคที่บอกว่ามีบริการส่งภายในวันเดียวมาหลายปีแล้วขัดกับข้อมูลว่าลูกค้าต้องรอถึงสามวัน ประโยคเรื่องลดจำนวนพนักงานขับรถขัดกับแผนจ้างเพิ่ม 150 คน และประโยคที่บอกว่าจะตัดสินใจเรื่องพาร์ตเนอร์ปีหน้าขัดกับการประกาศความร่วมมือในวันนี้"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0008",
+    "part": 6,
+    "title": "Notice: Outdoor pool closure",
+    "passage": "NOTICE TO GUESTS\n\nThe outdoor swimming pool at the Bayside Hotel will be closed {{1}} Monday, August 10, through Wednesday, August 12. {{2}} During the closure, a new heating system {{3}} so that the pool can stay open later into the fall. Until the work is finished, guests may use the heated indoor pool on the second floor at no extra charge. Please note that the indoor pool is {{4}} spacious than the outdoor one and may become crowded in the afternoon. We thank you for your understanding.\n\nThe Management",
+    "blanks": [
+      {
+        "topic": "prepositions",
+        "difficulty": 2,
+        "choices": [
+          "from",
+          "since",
+          "between",
+          "at"
+        ],
+        "answer": 0,
+        "trap": "from ... through for a date range",
+        "explain": {
+          "en": "The date range ends with 'through Wednesday', which pairs with 'from': 'from Monday through Wednesday'. 'between' would need 'and', and 'since' marks a starting point in the past.",
+          "th": "ช่วงวันที่มี through Wednesday อยู่แล้ว จึงต้องใช้คู่กับ from เป็น from ... through ... (ตั้งแต่...ถึง...) ส่วน between ต้องใช้คู่กับ and และ since ใช้กับจุดเริ่มต้นในอดีต"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "The pool will remain open during its usual hours on those days.",
+          "The new heating system was installed last spring.",
+          "We hope you enjoyed swimming in the newly heated pool this summer.",
+          "The closure is needed to complete an important upgrade."
+        ],
+        "answer": 3,
+        "trap": "give the reason before the details of the work",
+        "explain": {
+          "en": "The next sentence describes the work done during the closure, so the missing sentence should give the reason for it: 'The closure is needed to complete an important upgrade.' A heating system installed last spring, or a pool already heated this summer, contradicts the new system still to be installed, and the pool cannot stay open while it is closed.",
+          "th": "ประโยคถัดไปอธิบายงานที่จะทำระหว่างปิดสระ ประโยคที่หายไปจึงควรบอกเหตุผลของการปิด คือ The closure is needed to complete an important upgrade. ส่วนประโยคที่บอกว่าติดตั้งระบบทำความร้อนไปแล้วเมื่อฤดูใบไม้ผลิ หรือสระมีระบบทำความร้อนแล้วในฤดูร้อนนี้ ขัดกับการติดตั้งระบบใหม่ในประโยคถัดไป และสระจะเปิดตามปกติไม่ได้เพราะกำลังปิดปรับปรุง"
+        }
+      },
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "was installed",
+          "will install",
+          "will be installed",
+          "has been installing"
+        ],
+        "answer": 2,
+        "trap": "future passive set by the closure dates in the first sentence",
+        "explain": {
+          "en": "The first sentence says the pool will be closed in August, so the work during the closure is in the future. A heating system is installed by workers, so the future passive 'will be installed' fits. 'was installed' is tempting, but it puts the work in the past, before the closure has even started.",
+          "th": "ประโยคแรกบอกว่าสระจะปิดในเดือนสิงหาคม ดังนั้น During the closure จึงหมายถึงอนาคต และระบบทำความร้อนเป็นสิ่งที่ถูกติดตั้ง จึงใช้ future passive คือ will be installed ส่วน was installed เป็นอดีต ขัดกับการที่ยังไม่ได้เริ่มปิดสระ และ will install เป็น active voice ซึ่งระบบติดตั้งตัวเองไม่ได้"
+        }
+      },
+      {
+        "topic": "comparatives",
+        "difficulty": 3,
+        "choices": [
+          "fewer",
+          "less",
+          "least",
+          "little"
+        ],
+        "answer": 1,
+        "trap": "less + adjective + than",
+        "explain": {
+          "en": "'than' calls for a comparative, and the indoor pool may become crowded, so it has less room: 'less spacious'. 'fewer' is tempting, but it goes before plural nouns, not adjectives, and 'least' is a superlative.",
+          "th": "มีคำว่า than จึงต้องใช้รูปขั้นกว่า (comparative) และสระในร่มอาจมีคนแน่น แสดงว่ามีพื้นที่น้อยกว่า จึงใช้ less spacious ส่วน fewer ใช้กับคำนามนับได้พหูพจน์ ไม่ใช้หน้า adjective และ least เป็นขั้นสูงสุด (superlative)"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0009",
+    "part": 6,
+    "title": "Advertisement: Customer support specialist",
+    "passage": "Customer Support Specialist (Full-Time)\n\nBrightway Logistics is seeking a customer support specialist to join our growing team in Denver. The successful candidate will answer client questions by phone and e-mail, track delayed shipments, and work closely with our warehouse staff. Applicants {{1}} have at least two years of customer service experience will be given preference. Strong communication skills and a {{2}} attitude are essential. {{3}} In return, we offer a competitive salary, paid training, and a generous benefits package. To apply, send your résumé and a short cover letter to hiring@brightwaylogistics.com {{4}} Friday, March 14.",
+    "blanks": [
+      {
+        "topic": "relative-clauses",
+        "difficulty": 2,
+        "choices": [
+          "whose",
+          "who",
+          "which",
+          "whom"
+        ],
+        "answer": 1,
+        "trap": "relative pronoun for people as subject",
+        "explain": {
+          "en": "'Applicants' are people, and the blank is the subject of the verb 'have', so use 'who'. 'whom' is an object pronoun, 'which' is for things, and 'whose' must be followed by a noun.",
+          "th": "Applicants เป็นคน และช่องว่างทำหน้าที่เป็นประธานของกริยา have จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) which ใช้กับสิ่งของ และ whose ต้องตามด้วยคำนาม"
+        }
+      },
+      {
+        "topic": "word-form",
+        "difficulty": 2,
+        "choices": [
+          "cooperation",
+          "cooperatively",
+          "cooperate",
+          "cooperative"
+        ],
+        "answer": 3,
+        "trap": "adjective between 'a' and a noun",
+        "explain": {
+          "en": "The blank sits between the article 'a' and the noun 'attitude', so an adjective is needed: 'cooperative'. 'cooperation' is a noun and 'cooperatively' is an adverb, so neither can describe 'attitude'.",
+          "th": "ช่องว่างอยู่ระหว่าง a กับคำนาม attitude จึงต้องใช้ adjective คือ cooperative (ที่ให้ความร่วมมือ) ส่วน cooperation เป็นคำนาม และ cooperatively เป็น adverb ซึ่งขยายคำนามไม่ได้"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "This part-time position does not include any benefits.",
+          "Thank you for choosing Brightway for your shipping needs.",
+          "Candidates must also be willing to work occasional evening and weekend shifts.",
+          "We recently opened a second warehouse on the east side of Denver."
+        ],
+        "answer": 2,
+        "trap": "'In return' needs a requirement before it",
+        "explain": {
+          "en": "The previous sentence lists requirements, and the next one begins 'In return, we offer…', so the missing sentence must be another requirement: being willing to work evening and weekend shifts. The part-time sentence contradicts the full-time title and the benefits package, the thank-you sentence is written to customers, not job seekers, and the warehouse sentence is company news, not something the applicant gives, so 'In return' would have nothing to refer back to.",
+          "th": "ประโยคก่อนหน้าบอกคุณสมบัติที่ต้องมี และประโยคถัดไปขึ้นต้นด้วย In return (เป็นการตอบแทน) จึงต้องเป็นข้อกำหนดอีกข้อหนึ่ง คือต้องพร้อมทำงานกะเย็นและวันหยุด (evening and weekend shifts) ส่วนประโยคที่บอกว่าเป็นงาน part-time ไม่มีสวัสดิการขัดแย้งกับหัวข้อ Full-Time และ benefits package ประโยคขอบคุณเขียนถึงลูกค้า ไม่ใช่ผู้สมัครงาน และประโยคเรื่องเปิดคลังสินค้าแห่งที่สองเป็นข่าวของบริษัท ไม่ใช่สิ่งที่ผู้สมัครต้องมี จึงไม่เชื่อมกับ In return"
+        }
+      },
+      {
+        "topic": "prepositions",
+        "difficulty": 3,
+        "choices": [
+          "by",
+          "until",
+          "during",
+          "since"
+        ],
+        "answer": 0,
+        "trap": "by (deadline) vs until (continuing action)",
+        "explain": {
+          "en": "Sending an application is a one-time action that must happen no later than a deadline, so 'by' fits. 'until' is tempting, but it is used for an action that continues up to a point in time.",
+          "th": "การส่งใบสมัครเป็นการกระทำครั้งเดียวที่ต้องทำให้เสร็จก่อนกำหนด (deadline) จึงใช้ by ส่วน until เป็นกับดัก เพราะใช้กับการกระทำที่ต่อเนื่องไปจนถึงเวลาหนึ่ง"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0010",
+    "part": 6,
+    "title": "Letter: Fitness club membership renewal",
+    "passage": "Dear Mr. Okafor,\n\nThank you for being a member of Riverside Fitness Club for the past year. Our records show that your annual membership {{1}} on April 30. To keep enjoying full access to our facilities, please renew before that date. {{2}} Members who renew early will also receive two free sessions with a personal trainer. {{3}}, membership fees will increase by 10 percent on May 1, so now is the best time to renew. You can renew online, by phone, or at the front desk. Please do not hesitate {{4}} us if you have any questions.\n\nSincerely,\nMaria Chen\nMembership Services",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "expired",
+          "has expired",
+          "had expired",
+          "will expire"
+        ],
+        "answer": 3,
+        "trap": "next sentence shows the date is still in the future",
+        "explain": {
+          "en": "The next sentence asks the reader to renew before that date, so April 30 has not arrived yet. The future 'will expire' fits. 'expired' is tempting, but a membership that has already ended cannot be renewed before its end date.",
+          "th": "ประโยคถัดไปขอให้ต่ออายุก่อนวันนั้น (renew before that date) แสดงว่าวันที่ 30 เมษายนยังมาไม่ถึง จึงใช้อนาคต คือ will expire ส่วน expired เป็นกับดัก เพราะถ้าสมาชิกภาพหมดอายุไปแล้ว ก็ต่ออายุก่อนวันหมดอายุไม่ได้"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "If you renew by April 15, you will save 15 percent on your annual fee.",
+          "Unfortunately, we can no longer accept membership renewals.",
+          "Our swimming pool will be closed for repairs throughout May.",
+          "Your membership was canceled at your request last month."
+        ],
+        "answer": 0,
+        "trap": "'also' needs an earlier benefit of renewing early",
+        "explain": {
+          "en": "The next sentence says members who renew early will 'also' receive free sessions, so the missing sentence must give a first benefit of renewing early: saving 15 percent. The pool closure is not a benefit, and the sentences about no renewals or a canceled membership contradict the request to renew.",
+          "th": "ประโยคถัดไปบอกว่าคนที่ต่ออายุก่อนจะได้รับเซสชันฟรี 'ด้วย' (also) แสดงว่าก่อนหน้านั้นต้องมีสิทธิประโยชน์ข้อแรกของการต่ออายุก่อน คือได้ส่วนลด 15 เปอร์เซ็นต์ (save 15 percent) ส่วนเรื่องปิดสระว่ายน้ำไม่ใช่สิทธิประโยชน์ และประโยคที่บอกว่ารับต่ออายุไม่ได้หรือสมาชิกภาพถูกยกเลิกแล้วขัดแย้งกับการขอให้ต่ออายุ"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "For example",
+          "In addition",
+          "Instead",
+          "As a result"
+        ],
+        "answer": 1,
+        "trap": "adding another reason to renew now",
+        "explain": {
+          "en": "The letter has already given reasons to renew early, and the fee increase is one more reason, so 'In addition' fits. 'As a result' is tempting, but the fee increase is not caused by the free trainer sessions.",
+          "th": "จดหมายให้เหตุผลที่ควรต่ออายุก่อนไปแล้ว และการขึ้นค่าสมาชิกเป็นเหตุผลเพิ่มอีกข้อ จึงใช้ In addition (นอกจากนี้) ส่วน As a result เป็นกับดัก เพราะการขึ้นราคาไม่ได้เป็นผลมาจากเซสชันเทรนเนอร์ฟรี"
+        }
+      },
+      {
+        "topic": "gerund-infinitive",
+        "difficulty": 2,
+        "choices": [
+          "contacting",
+          "contact",
+          "to contact",
+          "contacted"
+        ],
+        "answer": 2,
+        "trap": "'hesitate' + to-infinitive",
+        "explain": {
+          "en": "The verb 'hesitate' is followed by a to-infinitive, so 'do not hesitate to contact us' is correct. 'contacting' is tempting, but 'hesitate' does not take a gerund in this standard phrase.",
+          "th": "กริยา hesitate ตามด้วย to-infinitive จึงใช้ to contact ในสำนวน do not hesitate to contact us (ติดต่อเราได้เลย) ส่วน contacting เป็นกับดัก เพราะ hesitate ไม่ตามด้วย gerund ในสำนวนนี้"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0011",
+    "part": 6,
+    "title": "Article: Grocery chain expands home delivery",
+    "passage": "GREENVILLE (May 2) — Harlow Foods, a regional grocery chain, announced yesterday that it will expand its home delivery service to twelve more towns next month. The service, which {{1}} customers to order groceries through a mobile app, was tested in Greenville from January to June of last year. During the trial, online orders {{2}} by 40 percent, according to company spokesperson Lena Ford. {{3}} the high cost of running delivery vans, the service has already become profitable. To support the expansion, Harlow Foods plans to hire about 80 drivers this summer. {{4}}",
+    "blanks": [
+      {
+        "topic": "subject-verb-agreement",
+        "difficulty": 3,
+        "choices": [
+          "allows",
+          "allow",
+          "allowing",
+          "have allowed"
+        ],
+        "answer": 0,
+        "trap": "'which' refers back to a singular noun",
+        "explain": {
+          "en": "'which' refers to 'The service', a singular noun, so the verb must be singular: 'allows'. 'allow' and 'have allowed' are plural forms, and 'allowing' cannot be the main verb of a relative clause.",
+          "th": "which ในที่นี้หมายถึง The service ซึ่งเป็นคำนามเอกพจน์ (singular) กริยาจึงต้องเป็นเอกพจน์ คือ allows ส่วน allow และ have allowed ใช้กับประธานพหูพจน์ และ allowing เป็นกริยาหลักใน relative clause ไม่ได้"
+        }
+      },
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "will rise",
+          "were risen",
+          "rose",
+          "are rising"
+        ],
+        "answer": 2,
+        "trap": "previous sentence places the trial in the past",
+        "explain": {
+          "en": "The previous sentence says the trial ran from January to June of last year, so it is finished and the simple past 'rose' fits. 'will rise' is tempting because the article talks about future expansion, but the trial is over. 'rise' has no passive form, so 'were risen' is wrong.",
+          "th": "ประโยคก่อนหน้าบอกว่าการทดลองเกิดขึ้นตั้งแต่มกราคมถึงมิถุนายนของปีที่แล้ว แสดงว่าจบไปแล้ว จึงใช้ past simple คือ rose ส่วน will rise เป็นกับดัก เพราะบทความพูดถึงการขยายในอนาคต แต่ช่วงทดลองจบไปแล้ว และ rise เป็นกริยาที่ไม่มีกรรม จึงทำเป็น passive (were risen) ไม่ได้"
+        }
+      },
+      {
+        "topic": "conj-vs-prep",
+        "difficulty": 3,
+        "choices": [
+          "Although",
+          "However",
+          "Because of",
+          "Despite"
+        ],
+        "answer": 3,
+        "trap": "preposition + noun phrase showing contrast",
+        "explain": {
+          "en": "The blank is followed by a noun phrase ('the high cost of running delivery vans'), not a clause, and the idea is a contrast: high costs, but still profitable. The preposition 'Despite' fits. 'Although' needs a full clause, and 'Because of' gives the wrong meaning.",
+          "th": "หลังช่องว่างเป็นนามวลี (noun phrase) คือ the high cost of running delivery vans ไม่ใช่ประโยค และความหมายเป็นการขัดแย้ง คือต้นทุนสูงแต่ก็ยังทำกำไร จึงใช้ preposition คือ Despite ส่วน Although ต้องตามด้วยประโยคเต็ม และ Because of ให้ความหมายผิด (เพราะ)"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "As a result, the delivery service will end next month.",
+          "Interested applicants can apply through the careers page on the company's Web site.",
+          "The trial is scheduled to begin in Greenville next January.",
+          "Grocery prices in the region rose sharply last year."
+        ],
+        "answer": 1,
+        "trap": "follow up on the plan to hire drivers",
+        "explain": {
+          "en": "The previous sentence says the company plans to hire about 80 drivers, so a sentence telling interested applicants how to apply continues the idea. Ending the service contradicts the expansion, and the trial already took place last year.",
+          "th": "ประโยคก่อนหน้าบอกว่าบริษัทจะจ้างคนขับรถประมาณ 80 คน ประโยคที่บอกผู้สนใจว่าสมัครได้ที่ไหน (Interested applicants can apply) จึงต่อเนื่องได้ดีที่สุด ส่วนประโยคที่บอกว่าจะยกเลิกบริการขัดแย้งกับการขยายบริการ และช่วงทดลองเกิดขึ้นไปแล้วเมื่อปีที่แล้ว ไม่ใช่มกราคมปีหน้า"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0012",
+    "part": 6,
+    "title": "Memo: New security badge policy",
+    "passage": "To: All employees\nFrom: Building Security\nSubject: Identification badges\n\n{{1}} Last month, two unauthorized visitors were found on the fifth floor. {{2}}, starting on Monday, September 8, all employees must wear their identification badges at all times while in the building. Visitors must sign in at the front desk and be accompanied by a staff member. If you lose your badge, report it to the security office immediately so that a new one can be issued. Please do not lend your badge to others, and do not borrow {{3}} either. We believe these steps will make our offices much {{4}} for everyone. Thank you for your cooperation.",
+    "blanks": [
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "We are pleased to report that there have been no security problems this year.",
+          "The cafeteria will begin serving breakfast on Monday, September 8.",
+          "Visitors will no longer be required to sign in at the front desk.",
+          "We are making several changes to our building security procedures."
+        ],
+        "answer": 3,
+        "trap": "opening sentence must introduce the memo's topic",
+        "explain": {
+          "en": "The first sentence of a memo should introduce its topic, and the rest of this memo explains new security rules, so the sentence about changes to security procedures fits. The sentence about no security problems contradicts the unauthorized visitors, and the one about visitors not signing in contradicts the later rule.",
+          "th": "ประโยคแรกของบันทึกควรบอกหัวข้อ และเนื้อหาที่เหลืออธิบายกฎความปลอดภัยใหม่ จึงต้องเป็นประโยคที่บอกว่ากำลังเปลี่ยนขั้นตอนด้านความปลอดภัย (changes to our building security procedures) ส่วนประโยคที่บอกว่าไม่มีปัญหาความปลอดภัยเลยขัดแย้งกับเรื่องผู้บุกรุก และประโยคที่บอกว่าผู้มาติดต่อไม่ต้องลงชื่อขัดแย้งกับกฎในย่อหน้าต่อมา"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "Even so",
+          "As a result",
+          "For instance",
+          "On the other hand"
+        ],
+        "answer": 1,
+        "trap": "cause in one sentence, result in the next",
+        "explain": {
+          "en": "Unauthorized visitors were found (the cause), so the company now requires badges (the result). 'As a result' fits. 'Even so' and 'On the other hand' show contrast, which does not match this cause-and-effect link.",
+          "th": "การพบผู้บุกรุกเป็นสาเหตุ และการบังคับให้ติดบัตรเป็นผลลัพธ์ จึงใช้ As a result (ด้วยเหตุนี้) ส่วน Even so และ On the other hand แสดงความขัดแย้ง ซึ่งไม่เข้ากับความสัมพันธ์แบบเหตุและผลนี้"
+        }
+      },
+      {
+        "topic": "pronouns",
+        "difficulty": 3,
+        "choices": [
+          "they",
+          "them",
+          "theirs",
+          "their"
+        ],
+        "answer": 2,
+        "trap": "possessive pronoun standing alone",
+        "explain": {
+          "en": "The blank stands for the badges of 'others' and has no noun after it, so the possessive pronoun 'theirs' is needed. 'their' is tempting, but it is a possessive adjective that must come before a noun.",
+          "th": "ช่องว่างใช้แทนบัตรของคนอื่น (others' badges) และไม่มีคำนามตามหลัง จึงต้องใช้ possessive pronoun คือ theirs (ของพวกเขา) ส่วน their เป็นกับดัก เพราะเป็น possessive adjective ที่ต้องมีคำนามตามหลังเสมอ"
+        }
+      },
+      {
+        "topic": "comparatives",
+        "difficulty": 2,
+        "choices": [
+          "safest",
+          "safe",
+          "more safely",
+          "safer"
+        ],
+        "answer": 3,
+        "trap": "'much' + comparative adjective",
+        "explain": {
+          "en": "'much' is used before a comparative to make it stronger, and 'make our offices ___' needs an adjective, so 'safer' fits. 'safest' is a superlative and would need 'the', and 'more safely' is an adverb.",
+          "th": "much ใช้หน้าขั้นกว่า (comparative) เพื่อเน้น และโครงสร้าง make + กรรม + adjective ต้องการ adjective จึงใช้ safer ส่วน safest เป็นขั้นสูงสุด (superlative) ต้องมี the และ more safely เป็น adverb"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0013",
+    "part": 6,
+    "title": "Email: Delay in a paper order",
+    "passage": "To: Rachel Kim, Brightline Accounting\nFrom: Tom Weller, Northgate Office Supply\nSubject: Your order #58217\n\nDear Ms. Kim,\n\nThank you for your order of 40 cases of Brightway copy paper. The order was scheduled to ship next Monday, May 9. Unfortunately, the mill that produces this paper closed for repairs last week, so your order {{1}} on that date. We now expect to ship it on May 16, one week later than planned. {{2}}, we can send you 40 cases of a similar paper from another maker as early as tomorrow at the same price. {{3}} Please reply to this e-mail by Friday to let us know which option you prefer.\n\nWe apologize for the delay and thank you for your {{4}}.\n\nSincerely,\nTom Weller",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "was not shipped",
+          "will not be shipped",
+          "had not shipped",
+          "did not ship"
+        ],
+        "answer": 1,
+        "trap": "future passive set by 'next Monday' in the previous sentence",
+        "explain": {
+          "en": "The previous sentence says the order was scheduled to ship next Monday, so 'that date' is still in the future. The order is shipped by the supplier, so the future passive 'will not be shipped' fits. 'was not shipped' is tempting after 'closed last week', but it puts a future date in the past.",
+          "th": "ประโยคก่อนหน้าบอกว่าคำสั่งซื้อมีกำหนดส่งวันจันทร์หน้า (next Monday) ดังนั้น that date ยังเป็นอนาคต และคำสั่งซื้อเป็นสิ่งที่ถูกส่ง จึงใช้ future passive คือ will not be shipped ส่วน was not shipped ดูน่าเลือกเพราะมี last week อยู่ใกล้ ๆ แต่เป็นอดีต (past tense) ซึ่งขัดกับวันที่ที่ยังมาไม่ถึง"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "Similarly",
+          "For instance",
+          "In summary",
+          "Alternatively"
+        ],
+        "answer": 3,
+        "trap": "offering an alternative instead of waiting",
+        "explain": {
+          "en": "The previous sentence gives one option (wait until May 16), and this sentence offers a different one (a similar paper tomorrow). The e-mail later asks which option the client prefers, so 'Alternatively' fits. 'Similarly' would add a point like the one before, not a choice between two options.",
+          "th": "ประโยคก่อนหน้าเป็นทางเลือกแรก คือรอถึงวันที่ 16 พฤษภาคม ส่วนประโยคนี้เสนอทางเลือกอื่น คือส่งกระดาษที่คล้ายกันให้พรุ่งนี้ และท้ายอีเมลก็ถามว่าลูกค้าต้องการแบบไหน (which option) จึงใช้ Alternatively (หรืออีกทางหนึ่ง) ส่วน Similarly ใช้เพิ่มเรื่องที่คล้ายกัน ไม่ได้ใช้เสนอทางเลือก"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "We are pleased to confirm that your order will arrive on schedule.",
+          "Your order was delivered to your office yesterday afternoon.",
+          "This paper has the same weight and brightness as the one you ordered, so it will work well in your copiers.",
+          "Our company will celebrate its 25th anniversary later this year."
+        ],
+        "answer": 2,
+        "trap": "describe the substitute paper before asking the client to choose",
+        "explain": {
+          "en": "The previous sentence offers a similar paper from another maker, so the next sentence should reassure the client that it is a good substitute: it has the same weight and brightness. The sentences saying the order will arrive on schedule or was already delivered contradict the delay.",
+          "th": "ประโยคก่อนหน้าเสนอกระดาษจากผู้ผลิตรายอื่น ประโยคที่ต่อได้ดีคือประโยคที่ยืนยันว่ากระดาษนี้ใช้แทนกันได้ เพราะมีน้ำหนักและความขาวเท่ากัน (same weight and brightness) ส่วนประโยคที่บอกว่าสินค้าจะมาถึงตามกำหนด หรือส่งถึงแล้วเมื่อวาน ขัดแย้งกับเรื่องการส่งล่าช้า"
+        }
+      },
+      {
+        "topic": "word-form",
+        "difficulty": 2,
+        "choices": [
+          "understanding",
+          "understand",
+          "understood",
+          "understandably"
+        ],
+        "answer": 0,
+        "trap": "noun after the possessive 'your'",
+        "explain": {
+          "en": "After the possessive 'your', a noun is needed, so 'understanding' completes the common phrase 'thank you for your understanding'. 'understand' is a verb and 'understandably' is an adverb, so neither can follow 'your'.",
+          "th": "หลัง your ซึ่งเป็น possessive adjective ต้องใช้คำนาม จึงใช้ understanding (ความเข้าใจ) ในสำนวน thank you for your understanding ส่วน understand เป็นกริยา (verb) และ understandably เป็น adverb จึงวางหลัง your ไม่ได้"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0014",
+    "part": 6,
+    "title": "Invitation: Midwest Food and Beverage Expo",
+    "passage": "Dear Mr. Santos,\n\nWe are pleased to invite you to the Midwest Food and Beverage Expo, which will take place at the Lakeview Convention Center from September 18 to 20. {{1}} This year's event will feature more than 300 exhibitors from twelve countries, the {{2}} number in the expo's history. Visitors can sample new products, watch cooking demonstrations, and meet suppliers {{3}} person. As a member of the Midwest Grocers Association, you are entitled to free admission. Simply show this letter at the registration desk {{4}} you arrive.\n\nWe look forward to seeing you there.\n\nSincerely,\nAndrea Novak\nEvent Coordinator",
+    "blanks": [
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "Unfortunately, this year's expo has been canceled because of low registration.",
+          "Since it began eight years ago, the expo has grown into the region's leading event for the food industry.",
+          "Please return your visitor badge at the exit when you leave the hall.",
+          "The Lakeview Convention Center is currently closed for major renovations."
+        ],
+        "answer": 1,
+        "trap": "background on the expo before 'This year's event'",
+        "explain": {
+          "en": "The next sentence begins 'This year's event', which contrasts with the expo's history, so a sentence about how the expo has grown since it began fits best. The sentences about the event being canceled or the venue being closed contradict the invitation.",
+          "th": "ประโยคถัดไปขึ้นต้นด้วย This year's event ซึ่งเป็นการเทียบกับปีก่อน ๆ ประโยคที่เล่าประวัติว่างานเติบโตมาตั้งแต่เริ่มจัด (Since it began eight years ago) จึงเชื่อมได้ดีที่สุด ส่วนประโยคที่บอกว่างานถูกยกเลิกหรือศูนย์ประชุมปิดปรับปรุง ขัดแย้งกับการเชิญให้มาร่วมงาน"
+        }
+      },
+      {
+        "topic": "comparatives",
+        "difficulty": 2,
+        "choices": [
+          "large",
+          "larger",
+          "most large",
+          "largest"
+        ],
+        "answer": 3,
+        "trap": "superlative with 'the ... in the expo's history'",
+        "explain": {
+          "en": "'the ____ number in the expo's history' compares this year with every past year, so the superlative 'largest' is needed. 'larger' is a comparative and would need 'than', and 'most large' is not used with a one-syllable adjective.",
+          "th": "วลี the ... number in the expo's history เปรียบเทียบกับทุกปีที่ผ่านมา จึงต้องใช้ขั้นสูงสุด (superlative) คือ largest ส่วน larger เป็นขั้นกว่า (comparative) ต้องใช้คู่กับ than และ adjective พยางค์เดียวไม่ใช้ most large"
+        }
+      },
+      {
+        "topic": "prepositions",
+        "difficulty": 2,
+        "choices": [
+          "in",
+          "on",
+          "by",
+          "at"
+        ],
+        "answer": 0,
+        "trap": "fixed phrase 'in person'",
+        "explain": {
+          "en": "'in person' is a fixed expression meaning face to face, so 'in' is correct. 'by person' and 'at person' are not English expressions, and 'on' does not form this meaning.",
+          "th": "in person เป็นสำนวนตายตัว (fixed expression) แปลว่า พบตัวจริงหรือพบต่อหน้า จึงใช้ in ส่วน by person และ at person ไม่มีใช้ในภาษาอังกฤษ และ on ก็ไม่ให้ความหมายนี้"
+        }
+      },
+      {
+        "topic": "conj-vs-prep",
+        "difficulty": 3,
+        "choices": [
+          "during",
+          "upon",
+          "when",
+          "at"
+        ],
+        "answer": 2,
+        "trap": "conjunction before a clause, not a preposition",
+        "explain": {
+          "en": "'you arrive' is a clause with a subject and a verb, so a conjunction is needed: 'when'. 'upon' is tempting, but it is a preposition and needs a noun or -ing form, as in 'upon arrival' or 'upon arriving'.",
+          "th": "หลังช่องว่างคือ you arrive ซึ่งมีทั้งประธานและกริยา จึงต้องใช้ conjunction คือ when ส่วน upon ดูน่าเลือก แต่เป็น preposition ต้องตามด้วยคำนามหรือ -ing เช่น upon arrival หรือ upon arriving"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0015",
+    "part": 6,
+    "title": "Letter: Reply to a guest review",
+    "passage": "Dear Ms. Chen,\n\nThank you for taking the time to post a review of your recent stay at the Bayside Garden Hotel. We are very sorry that noise from the construction site next door kept you awake. Our front desk staff should have {{1}} you aware of the work when you checked in. {{2}}, they should have offered you a room on the quieter side of the building. Since reading your review, we have discussed your comments with our entire team. Each of our receptionists now {{3}} guests about the construction at check-in. {{4}}\n\nWe hope to welcome you back soon.\n\nSincerely,\nLaura Benton\nGuest Services Manager",
+    "blanks": [
+      {
+        "topic": "collocations",
+        "difficulty": 3,
+        "choices": [
+          "told",
+          "let",
+          "made",
+          "given"
+        ],
+        "answer": 2,
+        "trap": "collocation 'make someone aware of'",
+        "explain": {
+          "en": "'make someone aware of something' is a fixed collocation, so 'made you aware of the work' is correct. 'told' is tempting because the meaning is close, but 'tell' cannot be followed by an adjective like 'aware'.",
+          "th": "make someone aware of something เป็นคำที่ใช้คู่กันเสมอ (collocation) แปลว่า ทำให้ใครรับรู้เรื่องใดเรื่องหนึ่ง จึงใช้ made ส่วน told เป็นกับดักเพราะความหมายใกล้กัน แต่ tell ตามด้วย adjective อย่าง aware ไม่ได้"
+        }
+      },
+      {
+        "topic": "transitions",
+        "difficulty": 3,
+        "choices": [
+          "Nevertheless",
+          "In addition",
+          "In contrast",
+          "Otherwise"
+        ],
+        "answer": 1,
+        "trap": "adding a second thing the staff should have done",
+        "explain": {
+          "en": "The previous sentence names one thing the staff should have done, and this sentence adds a second one, so 'In addition' fits. 'Nevertheless' and 'In contrast' signal a contrast, but both sentences make the same kind of point.",
+          "th": "ประโยคก่อนหน้าบอกสิ่งแรกที่พนักงานควรทำ ประโยคนี้เพิ่มสิ่งที่สองที่ควรทำ จึงใช้ In addition (นอกจากนี้) ส่วน Nevertheless และ In contrast ใช้แสดงความขัดแย้ง แต่สองประโยคนี้พูดไปในทิศทางเดียวกัน"
+        }
+      },
+      {
+        "topic": "subject-verb-agreement",
+        "difficulty": 3,
+        "choices": [
+          "inform",
+          "are informing",
+          "have informed",
+          "informs"
+        ],
+        "answer": 3,
+        "trap": "'Each of' + plural noun takes a singular verb",
+        "explain": {
+          "en": "The subject is 'Each', not 'receptionists', so the verb must be singular: 'informs'. 'inform', 'are informing' and 'have informed' are tempting because 'receptionists' is right before the blank, but they are plural forms.",
+          "th": "ประธานจริงคือ Each ซึ่งเป็นเอกพจน์ (singular) ไม่ใช่ receptionists จึงต้องใช้กริยาเติม s คือ informs ส่วน inform, are informing และ have informed เป็นรูปของประธานพหูพจน์ (plural) ที่หลอกให้ดูคำนามที่อยู่ติดช่องว่าง"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "As a thank-you for your helpful feedback, we would also like to offer you 20 percent off your next stay.",
+          "We are glad that you enjoyed how quiet your room was.",
+          "The construction next door was completed several months before your visit.",
+          "Our hotel restaurant will begin serving breakfast at 6:00 A.M. next month."
+        ],
+        "answer": 0,
+        "trap": "close the apology with an offer that leads to 'welcome you back'",
+        "explain": {
+          "en": "After describing how the hotel fixed the problem, the letter should end the apology with a goodwill offer, which leads naturally to 'We hope to welcome you back soon.' The quiet-room sentence and the finished-construction sentence contradict the guest's complaint about noise.",
+          "th": "หลังจากอธิบายว่าโรงแรมแก้ปัญหาอย่างไรแล้ว ประโยคที่เหมาะคือการเสนอส่วนลด (20 percent off your next stay) เพื่อขอบคุณ ซึ่งเชื่อมกับประโยคปิด We hope to welcome you back soon ได้ดี ส่วนประโยคที่บอกว่าห้องเงียบ หรือการก่อสร้างเสร็จไปแล้ว ขัดแย้งกับคำร้องเรียนเรื่องเสียงดัง"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p6-0016",
+    "part": 6,
+    "title": "Announcement: Customer e-mail writing workshop",
+    "passage": "To: All customer service staff\nFrom: Training and Development Department\nSubject: New writing workshop\n\nWe are pleased to announce a new workshop on writing clear and professional e-mails to customers. The workshop {{1}} by Maria Lopez, a communications consultant with more than fifteen years of experience. {{2}} Sessions will take place on March 4 and 5 from 9:00 A.M. to noon in Conference Room B. Space is limited to 20 participants, so employees {{3}} wish to attend should register by February 25. To sign up, complete the online form on the company intranet. Supervisors are encouraged to give their team members time {{4}} the workshop.",
+    "blanks": [
+      {
+        "topic": "tense-voice",
+        "difficulty": 3,
+        "choices": [
+          "was led",
+          "is leading",
+          "will be led",
+          "has led"
+        ],
+        "answer": 2,
+        "trap": "future passive set by 'new workshop' and the later session dates",
+        "explain": {
+          "en": "The previous sentence announces a new workshop, and a later sentence says sessions will take place in March, so the workshop has not happened yet. The workshop is led by someone, so the future passive 'will be led' fits. 'was led' is passive but past, and 'is leading' and 'has led' are active, so the workshop would be doing the leading.",
+          "th": "ประโยคก่อนหน้าประกาศว่าเป็นเวิร์กช็อปใหม่ และประโยคต่อมาบอกว่าจะจัดในเดือนมีนาคม แสดงว่ายังไม่เกิดขึ้น อีกทั้งเวิร์กช็อปเป็นสิ่งที่ถูกนำโดยวิทยากร จึงใช้ future passive คือ will be led ส่วน was led เป็น passive ก็จริงแต่เป็นอดีต และ is leading กับ has led เป็น active voice ซึ่งจะแปลว่าเวิร์กช็อปเป็นผู้นำเอง"
+        }
+      },
+      {
+        "topic": "sentence-insertion",
+        "difficulty": 3,
+        "choices": [
+          "Many employees who attended this workshop last year have asked for a second session.",
+          "Ms. Lopez has retired and is no longer accepting new clients.",
+          "Our customer service hotline is now open 24 hours a day.",
+          "Participants will practice replying to real customer questions and receive personal feedback on their writing."
+        ],
+        "answer": 3,
+        "trap": "describe the workshop content before the schedule",
+        "explain": {
+          "en": "After introducing the workshop and its presenter, the announcement should explain what happens in it: participants will practice replying to real customer questions. The sentence about last year's attendees contradicts 'a new workshop', and Ms. Lopez cannot have retired if she is leading it.",
+          "th": "หลังจากแนะนำเวิร์กช็อปและวิทยากรแล้ว ประโยคที่ต่อได้ดีคือประโยคที่อธิบายว่าผู้เข้าร่วมจะได้ทำอะไร (practice replying to real customer questions) ส่วนประโยคที่พูดถึงผู้เข้าร่วมเมื่อปีที่แล้วขัดกับคำว่า new workshop และ Ms. Lopez จะเกษียณไปแล้วไม่ได้ เพราะเธอเป็นผู้สอนในครั้งนี้"
+        }
+      },
+      {
+        "topic": "relative-clauses",
+        "difficulty": 2,
+        "choices": [
+          "which",
+          "who",
+          "whose",
+          "whom"
+        ],
+        "answer": 1,
+        "trap": "relative pronoun for people as subject of 'wish'",
+        "explain": {
+          "en": "'employees' are people, and the blank is the subject of 'wish', so 'who' is correct. 'whom' is an object pronoun, 'whose' must be followed by a noun, and 'which' is for things.",
+          "th": "employees เป็นคน และช่องว่างทำหน้าที่เป็นประธานของ wish จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) whose ต้องตามด้วยคำนาม และ which ใช้กับสิ่งของ"
+        }
+      },
+      {
+        "topic": "gerund-infinitive",
+        "difficulty": 2,
+        "choices": [
+          "to attend",
+          "attend",
+          "attending",
+          "attended"
+        ],
+        "answer": 0,
+        "trap": "'time' + to-infinitive for purpose",
+        "explain": {
+          "en": "'give someone time to do something' uses a to-infinitive after 'time' to show what the time is for, so 'to attend' is correct. 'attending' is tempting, but 'time attending' does not express the purpose of the time.",
+          "th": "โครงสร้าง give someone time to do something ใช้ to-infinitive หลัง time เพื่อบอกว่าเวลานั้นมีไว้ทำอะไร จึงใช้ to attend ส่วน attending ดูน่าเลือก แต่ time attending ไม่ได้สื่อถึงจุดประสงค์ของเวลา"
         }
       }
     ],

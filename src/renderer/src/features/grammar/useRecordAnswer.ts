@@ -1,11 +1,16 @@
 import { useCallback } from 'react'
 import { useApp } from '../../app/AppContext'
-import { toAttempt, type AnswerRecord } from './quizReducer'
+import { isGrammarTopic } from '../../app/i18n'
+import { toAttempt, toReadingAttempt, type AnswerRecord } from './quizReducer'
 
 export function useRecordAnswer(): (r: AnswerRecord) => void {
-  const { recordGrammar } = useApp()
+  const { recordGrammar, recordReading } = useApp()
   return useCallback(
-    (r: AnswerRecord) => void recordGrammar(toAttempt(r, new Date().toISOString())),
-    [recordGrammar]
+    (r: AnswerRecord) => {
+      const at = new Date().toISOString()
+      if (r.entryId.startsWith('p7-')) void recordReading(toReadingAttempt(r, at))
+      else if (isGrammarTopic(r.topic)) void recordGrammar(toAttempt({ ...r, topic: r.topic }, at))
+    },
+    [recordGrammar, recordReading]
   )
 }

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-conditionals-0001",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 2,
+    "stem": "If the shipment ____ by Friday, we will contact the supplier to request a full refund.",
+    "choices": ["will not arrive", "does not arrive", "did not arrive", "would not arrive"],
+    "answer": 1,
+    "trap": "first conditional: present tense in the if-clause",
+    "explain": {
+      "en": "The main clause uses 'will contact', so this is a first conditional and the if-clause takes the simple present: 'does not arrive'. English does not use 'will' inside the if-clause for a future condition.",
+      "th": "ประโยคหลักใช้ will contact จึงเป็นเงื่อนไขแบบที่ 1 (first conditional) ในส่วน if ต้องใช้ present simple คือ does not arrive แม้จะพูดถึงอนาคต ห้ามใช้ will not arrive ในประโยค if"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0002",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 3,
+    "stem": "If our team had more staff, we ____ the project well before next month's deadline.",
+    "choices": ["would complete", "will complete", "will have completed", "completed"],
+    "answer": 0,
+    "trap": "second conditional: 'would' + base verb in the result",
+    "explain": {
+      "en": "'If our team had' describes an unreal present situation, so the result takes 'would' + base verb: 'would complete'. 'will complete' and 'will have completed' are real-future forms, so they cannot pair with the unreal 'If our team had…'.",
+      "th": "If our team had เป็นเงื่อนไขที่ไม่จริงในปัจจุบัน (second conditional) ผลจึงใช้ would + กริยาช่อง 1 คือ would complete ส่วน will complete และ will have completed เป็นรูปอนาคตที่เกิดขึ้นจริง ใช้คู่กับเงื่อนไขสมมติ If our team had ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0003",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 3,
+    "stem": "If Ms. Lee had known about the schedule change, she ____ her flight to Singapore.",
+    "choices": ["will rebook", "had rebooked", "would have rebooked", "would rebook"],
+    "answer": 2,
+    "trap": "third conditional: 'would have + p.p.' in the result",
+    "explain": {
+      "en": "'had known' signals a third conditional about an unreal past, so the result clause needs 'would have rebooked'. 'would rebook' is the second-conditional form for the present or future.",
+      "th": "had known บอกว่าเป็นเงื่อนไขที่ไม่เกิดขึ้นจริงในอดีต (third conditional) ผลจึงใช้ would have + กริยาช่อง 3 คือ would have rebooked ส่วน would rebook เป็นรูปของ second conditional ใช้กับปัจจุบันหรืออนาคต"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0004",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 3,
+    "stem": "The warranty will remain valid ____ the product is used according to the manufacturer's instructions.",
+    "choices": ["unless", "even though", "in case of", "as long as"],
+    "answer": 3,
+    "trap": "'as long as' = on the condition that",
+    "explain": {
+      "en": "The warranty stays valid on the condition that the product is used correctly, so 'as long as' fits. 'unless' reverses the meaning, and 'in case of' must be followed by a noun, not a clause.",
+      "th": "ประกันยังมีผลตราบใดที่ใช้สินค้าตามคำแนะนำ จึงใช้ as long as (ตราบใดที่ / โดยมีเงื่อนไขว่า) ส่วน unless (เว้นแต่) ทำให้ความหมายกลับกัน และ in case of ต้องตามด้วยคำนาม ไม่ใช่ประโยค"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0005",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 4,
+    "stem": "____ we receive the signed agreement by noon, the installation team cannot begin work on Monday.",
+    "choices": ["Unless", "If", "Provided that", "Whether"],
+    "answer": 0,
+    "trap": "'unless' = if not; the result clause is negative",
+    "explain": {
+      "en": "The team cannot start if the agreement does not arrive, so the meaning is 'if not': 'Unless'. 'If' and 'Provided that' would say the team cannot begin because the agreement arrives, which makes no sense.",
+      "th": "ทีมเริ่มงานไม่ได้ถ้ายังไม่ได้รับสัญญา ความหมายจึงเป็น if not ต้องใช้ Unless (เว้นแต่ / ถ้าไม่) ส่วน If และ Provided that จะแปลว่าได้รับสัญญาแล้วจึงเริ่มงานไม่ได้ ซึ่งขัดกับเหตุผล"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0006",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 3,
+    "stem": "Applicants will be considered for the position ____ they submit all required documents by March 31.",
+    "choices": ["despite", "unless", "provided that", "in case of"],
+    "answer": 2,
+    "trap": "'provided that' + clause introduces a condition",
+    "explain": {
+      "en": "A clause follows the blank and states the condition for being considered, so 'provided that' (= only if) is correct. 'despite' and 'in case of' are prepositions that need a noun, and 'unless' gives the opposite meaning.",
+      "th": "หลังช่องว่างเป็นประโยค และเป็นเงื่อนไขของการได้รับพิจารณา จึงใช้ provided that (โดยมีเงื่อนไขว่า) ส่วน despite และ in case of เป็นคำบุพบท (preposition) ต้องตามด้วยคำนาม และ unless ให้ความหมายตรงข้าม"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0007",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 4,
+    "stem": "If the marketing campaign had been launched earlier, our sales figures ____ much higher now.",
+    "choices": ["will be", "would be", "would have been", "had been"],
+    "answer": 1,
+    "trap": "mixed conditional: past condition, present result ('now')",
+    "explain": {
+      "en": "The if-clause is about the past, but 'now' shows the result is in the present, so this mixed conditional uses 'would be'. 'would have been' is tempting but describes a past result, which clashes with 'now'.",
+      "th": "ส่วน if พูดถึงอดีต แต่คำว่า now บอกว่าผลเกิดในปัจจุบัน จึงเป็นเงื่อนไขแบบผสม (mixed conditional) ใช้ would be ส่วน would have been ดูน่าเลือก แต่ใช้กับผลในอดีต จึงขัดกับ now"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0008",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 4,
+    "stem": "The outdoor reception will go ahead as scheduled ____ it rains, since a large tent has been reserved.",
+    "choices": ["only if", "even though", "even if", "so that"],
+    "answer": 2,
+    "trap": "'even if' for a possible condition vs 'even though' for a fact",
+    "explain": {
+      "en": "Rain is only a possibility, and the event will happen regardless, so 'even if' is correct. 'even though' is used for something that is actually true, not a possible future condition.",
+      "th": "ฝนอาจตกหรือไม่ตกก็ได้ และงานจะจัดตามเดิมไม่ว่าอย่างไร จึงใช้ even if (ต่อให้...ก็ตาม เช่น ต่อให้ฝนตก งานก็ยังจัดตามเดิม) ส่วน even though ใช้กับเรื่องที่เป็นความจริงแล้ว ไม่ใช่เงื่อนไขที่อาจเกิดในอนาคต"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0009",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 3,
+    "stem": "If the client ____ the proposal sooner, we would have started production in April.",
+    "choices": ["approved", "has approved", "would approve", "had approved"],
+    "answer": 3,
+    "trap": "third conditional: past perfect in the if-clause",
+    "explain": {
+      "en": "The result clause 'would have started' shows a third conditional, so the if-clause needs the past perfect 'had approved'. The simple past 'approved' belongs to the second conditional.",
+      "th": "ประโยคหลักใช้ would have started จึงเป็น third conditional ส่วน if ต้องใช้ past perfect คือ had approved ส่วน approved (past simple) ใช้กับ second conditional และห้ามใช้ would ในประโยค if"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conditionals-0010",
+    "part": 5,
+    "topic": "conditionals",
+    "difficulty": 2,
+    "stem": "If the budget ____ larger, the department would hire two additional analysts this year.",
+    "choices": ["is", "has been", "would be", "were"],
+    "answer": 3,
+    "trap": "'were' in the if-clause of a second conditional",
+    "explain": {
+      "en": "'would hire' signals an unreal present situation, so the if-clause uses the past form 'were'. 'is' does not match 'would hire', and 'would' is not used inside the if-clause.",
+      "th": "would hire บอกว่าเป็นสถานการณ์สมมติที่ไม่จริงในปัจจุบัน (second conditional) ส่วน if จึงใช้ were (ใช้ได้กับประธานทุกตัว) ส่วน is ไม่เข้ากับ would hire และห้ามใช้ would ในประโยค if"
+    },
+    "status": "approved"
+  }
+]

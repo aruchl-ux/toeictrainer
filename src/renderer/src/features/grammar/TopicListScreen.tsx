@@ -1,33 +1,48 @@
 import { Link } from 'react-router'
+import { topicStats } from '@shared/scoring'
 import { PART5_TOPICS } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
+import { TopicMark } from '../../app/Ink'
 
 export function TopicListScreen() {
-  const { bank } = useApp()
+  const { bank, progress } = useApp()
   const { t, topic } = useT()
+  const stats = new Map(topicStats(progress.grammarAttempts).map((s) => [s.topic, s]))
   return (
-    <section>
-      <h1>{t('topicsTitle')}</h1>
-      <div className="topic-grid">
+    <section className="topics">
+      <header className="page-head">
+        <h1 className="page-title">{t('topicsTitle')}</h1>
+        <p className="page-lead">{t('topicsIntro')}</p>
+      </header>
+      <ul className="tile-grid tile-grid-wide">
         {PART5_TOPICS.map((tp) => {
           const count = bank.part5.filter((i) => i.topic === tp).length
+          const stat = stats.get(tp)
           const body = (
-            <div className="card">
-              <strong>{topic(tp)}</strong>
-              <div className="muted">{t('topicsCount', { n: count })}</div>
-            </div>
+            <>
+              <TopicMark topic={tp} />
+              <span className="tile-name">{topic(tp)}</span>
+              <span className="tile-meta">
+                <span className="num">{t('topicsCount', { n: count })}</span>
+                {stat && <span className="num">{t('topicsAccuracy', { p: Math.round(stat.accuracy * 100) })}</span>}
+              </span>
+            </>
           )
-          return count > 0 ? (
-            <Link key={tp} to={`/drill/${tp}`}>
-              {body}
-            </Link>
-          ) : (
-            <div key={tp} aria-disabled="true" style={{ opacity: 0.5 }}>
-              {body}
-            </div>
+          return (
+            <li key={tp}>
+              {count > 0 ? (
+                <Link className="tile" to={`/drill/${tp}`}>
+                  {body}
+                </Link>
+              ) : (
+                <div className="tile tile-empty" aria-disabled="true">
+                  {body}
+                </div>
+              )}
+            </li>
           )
         })}
-      </div>
+      </ul>
     </section>
   )
 }

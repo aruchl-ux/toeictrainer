@@ -1,6 +1,13 @@
 import { ipcMain } from 'electron'
 import { IPC } from '@shared/api'
-import { GrammarAttempt, MixedTestResult, SettingsPatch } from '@shared/types'
+import {
+  ActiveReadingTest,
+  FinishReadingTest,
+  GrammarAttempt,
+  MixedTestResult,
+  ReadingAttempt,
+  SettingsPatch
+} from '@shared/types'
 import { loadContent } from './content'
 import { approveDraft, listDrafts, rejectDraft } from './drafts'
 import type { Store } from './store'
@@ -24,6 +31,11 @@ export function registerIpc({ store, contentRoot, isDev }: IpcDeps): void {
   ipcMain.handle(IPC.progressRecordMixed, (_e, r: unknown) =>
     store.recordMixedTest(MixedTestResult.parse(r))
   )
+  ipcMain.handle(IPC.progressRecordReading, (_e, a: unknown) => store.recordReading(ReadingAttempt.parse(a)))
+  ipcMain.handle(IPC.progressSaveActiveTest, (_e, t: unknown) =>
+    store.saveActiveTest(t === null ? null : ActiveReadingTest.parse(t))
+  )
+  ipcMain.handle(IPC.progressFinishReadingTest, (_e, f: unknown) => store.finishReadingTest(FinishReadingTest.parse(f)))
   ipcMain.handle(IPC.settingsGet, () => store.getSettings())
   ipcMain.handle(IPC.settingsSet, (_e, patch: unknown) => store.setSettings(SettingsPatch.parse(patch)))
   ipcMain.handle(IPC.devIsDev, () => isDev)

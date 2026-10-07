@@ -6,7 +6,10 @@ const api: Api = {
   progress: {
     get: () => ipcRenderer.invoke(IPC.progressGet),
     recordGrammar: (a) => ipcRenderer.invoke(IPC.progressRecordGrammar, a),
-    recordMixedTest: (r) => ipcRenderer.invoke(IPC.progressRecordMixed, r)
+    recordMixedTest: (r) => ipcRenderer.invoke(IPC.progressRecordMixed, r),
+    recordReading: (a) => ipcRenderer.invoke(IPC.progressRecordReading, a),
+    saveActiveTest: (t) => ipcRenderer.invoke(IPC.progressSaveActiveTest, t),
+    finishReadingTest: (f) => ipcRenderer.invoke(IPC.progressFinishReadingTest, f)
   },
   settings: {
     get: () => ipcRenderer.invoke(IPC.settingsGet),

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-inversion-0001",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 2,
+    "stem": "____ you have any questions about your order, please contact our customer service team.",
+    "choices": ["Should", "Would", "Had", "Were"],
+    "answer": 0,
+    "trap": "'Should + subject + base verb' = if you have",
+    "explain": {
+      "en": "'Should you have' is an inverted form of 'If you have', used for a possible future situation and followed by a base verb. 'Had' and 'Were' cannot be followed by the base verb 'have'.",
+      "th": "Should you have เป็นการสลับที่ (inversion) ของ If you have ใช้กับเหตุการณ์ที่อาจเกิดขึ้น และตามด้วยกริยาช่อง 1 ส่วน Had และ Were ตามด้วยกริยาช่อง 1 (have) ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0002",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 3,
+    "stem": "____ the manager been informed of the delay, she would have rearranged the client meeting.",
+    "choices": ["If", "Should", "Had", "Were"],
+    "answer": 2,
+    "trap": "'Had + subject + p.p.' = third-conditional inversion",
+    "explain": {
+      "en": "The result 'would have rearranged' is a third conditional, and 'been informed' needs 'had' before it, so 'Had the manager been informed' (= if the manager had been informed) is correct. 'If' would also need 'had', which is missing.",
+      "th": "ผล would have rearranged เป็น third conditional และ been informed ต้องมี had นำหน้า จึงใช้ Had the manager been informed (= If the manager had been informed) ซึ่งเป็นการสลับที่ (inversion) ส่วน If ใช้ไม่ได้เพราะขาด had"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0003",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 4,
+    "stem": "____ the company to relocate its headquarters, many employees would face much longer commutes.",
+    "choices": ["Should", "Had", "If", "Were"],
+    "answer": 3,
+    "trap": "'Were + subject + to-infinitive' = if the company relocated",
+    "explain": {
+      "en": "Only 'Were' can be followed by a subject and a to-infinitive in an inverted conditional: 'Were the company to relocate' (= if the company relocated). 'Should' must be followed by a base verb without 'to'.",
+      "th": "รูป Were + ประธาน + to + กริยา เป็นการสลับที่ (inversion) ของ second conditional คือ Were the company to relocate (= If the company relocated) ส่วน Should ต้องตามด้วยกริยาช่อง 1 โดยไม่มี to"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0004",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 3,
+    "stem": "Not only ____ faster than the previous model, but it also uses considerably less energy.",
+    "choices": ["the new printer is", "is the new printer", "does the new printer", "the new printer being"],
+    "answer": 1,
+    "trap": "'Not only' at the start requires verb before subject",
+    "explain": {
+      "en": "When 'Not only' begins a sentence, the verb comes before the subject, so 'is the new printer' is correct. 'the new printer is' keeps normal word order, and 'does' cannot be used with the adjective 'faster'.",
+      "th": "เมื่อขึ้นต้นประโยคด้วย Not only ต้องสลับกริยามาไว้หน้าประธาน (inversion) จึงใช้ is the new printer ส่วน the new printer is เรียงคำแบบปกติซึ่งผิด และ does ใช้กับคำคุณศัพท์ faster ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0005",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 2,
+    "stem": "Rarely ____ such a high number of applications for a single entry-level position.",
+    "choices": ["we have received", "we received", "have we received", "did we received"],
+    "answer": 2,
+    "trap": "negative adverb 'Rarely' + auxiliary + subject",
+    "explain": {
+      "en": "A negative adverb such as 'Rarely' at the start of a sentence moves the auxiliary before the subject: 'have we received'. 'we have received' keeps normal order, and 'did we received' wrongly uses a past form after 'did'.",
+      "th": "คำกริยาวิเศษณ์เชิงปฏิเสธอย่าง Rarely ขึ้นต้นประโยค ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion) จึงใช้ have we received ส่วน we have received เรียงแบบปกติ และหลัง did ต้องใช้กริยาช่อง 1 ไม่ใช่ received"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0006",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 3,
+    "stem": "Only after the safety inspection is complete ____ allowed to enter the new production facility.",
+    "choices": ["employees will be", "employees are", "will employees be", "employees being"],
+    "answer": 2,
+    "trap": "'Only after + clause' inverts the main clause",
+    "explain": {
+      "en": "When 'Only after' starts the sentence, the inversion happens in the main clause, so 'will employees be' is correct. 'employees will be' is tempting but keeps normal word order.",
+      "th": "เมื่อขึ้นต้นประโยคด้วย Only after การสลับที่ (inversion) จะเกิดในประโยคหลัก จึงใช้ will employees be ส่วน employees will be ดูถูกต้องแต่เรียงคำแบบปกติ จึงผิด"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0007",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 3,
+    "stem": "Enclosed ____ two copies of the signed agreement, one of which should be returned to our office.",
+    "choices": ["is", "are", "has", "being"],
+    "answer": 1,
+    "trap": "'Enclosed are' agrees with the plural subject after the verb",
+    "explain": {
+      "en": "In 'Enclosed ____ two copies', the real subject 'two copies' comes after the verb, so the plural 'are' is needed. 'is' would only fit a singular subject such as 'a copy'.",
+      "th": "ประโยค Enclosed ____ two copies เป็นการสลับที่ (inversion) ประธานจริงคือ two copies ซึ่งอยู่หลังกริยาและเป็นพหูพจน์ จึงใช้ are ส่วน is ใช้กับประธานเอกพจน์ เช่น a copy เท่านั้น"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0008",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 4,
+    "stem": "So successful ____ the product launch that the company doubled its production targets for the next quarter.",
+    "choices": ["did", "it was", "had", "was"],
+    "answer": 3,
+    "trap": "'So + adjective + be + subject + that' inversion",
+    "explain": {
+      "en": "This is the inverted form of 'The product launch was so successful that...', so the verb 'was' comes before the subject. 'it was' adds an extra subject, and 'did' cannot link to the adjective 'successful'.",
+      "th": "เป็นรูปสลับที่ (inversion) ของ The product launch was so successful that... จึงต้องวาง was ไว้หน้าประธาน ส่วน it was ทำให้มีประธานซ้อน และ did ใช้กับคำคุณศัพท์ successful ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0009",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 3,
+    "stem": "Seldom ____ the board approve budget increases without first reviewing a detailed cost analysis.",
+    "choices": ["does", "do", "has", "is"],
+    "answer": 0,
+    "trap": "'Seldom' + does + singular subject + base verb",
+    "explain": {
+      "en": "After 'Seldom' the auxiliary comes before the subject, and the base verb 'approve' needs 'do' or 'does'. 'the board' is singular, so 'does' is correct, not 'do'.",
+      "th": "หลัง Seldom ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion) และกริยา approve เป็นช่อง 1 จึงต้องใช้ do/does ประธาน the board เป็นเอกพจน์ จึงใช้ does ไม่ใช่ do"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-inversion-0010",
+    "part": 5,
+    "topic": "inversion",
+    "difficulty": 4,
+    "stem": "No sooner ____ the new inventory system been installed than technicians discovered several software errors.",
+    "choices": ["had", "has", "did", "was"],
+    "answer": 0,
+    "trap": "'No sooner had + subject + p.p. ... than' for past events",
+    "explain": {
+      "en": "'No sooner ... than' describes one past event happening right after another, and 'been installed' needs a perfect auxiliary, so 'had' is correct. 'has' does not fit the past-tense 'discovered'.",
+      "th": "No sooner ... than ใช้บอกว่าเหตุการณ์หนึ่งเกิดทันทีหลังอีกเหตุการณ์ในอดีต และ been installed ต้องมีกริยาช่วยแบบ perfect จึงใช้ had (inversion) ส่วน has ไม่เข้ากับ discovered ที่เป็นอดีต"
+    },
+    "status": "approved"
+  }
+]

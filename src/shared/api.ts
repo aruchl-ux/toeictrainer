@@ -1,8 +1,11 @@
 import type {
+  ActiveReadingTest,
   ContentBank,
+  FinishReadingTest,
   GrammarAttempt,
   MixedTestResult,
   Progress,
+  ReadingAttempt,
   Settings,
   SettingsPatch
 } from './types'
@@ -20,6 +23,9 @@ export const IPC = {
   progressGet: 'progress:get',
   progressRecordGrammar: 'progress:recordGrammar',
   progressRecordMixed: 'progress:recordMixedTest',
+  progressRecordReading: 'progress:recordReading',
+  progressSaveActiveTest: 'progress:saveActiveTest',
+  progressFinishReadingTest: 'progress:finishReadingTest',
   settingsGet: 'settings:get',
   settingsSet: 'settings:set',
   devIsDev: 'dev:isDev',
@@ -34,6 +40,9 @@ export interface Api {
     get(): Promise<Progress>
     recordGrammar(a: GrammarAttempt): Promise<Progress>
     recordMixedTest(r: MixedTestResult): Promise<Progress>
+    recordReading(a: ReadingAttempt): Promise<Progress>
+    saveActiveTest(t: ActiveReadingTest | null): Promise<Progress>
+    finishReadingTest(f: FinishReadingTest): Promise<Progress>
   }
   settings: {
     get(): Promise<Settings>

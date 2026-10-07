@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import type { GrammarAttempt, GrammarTopic, MixedTestResult } from '@shared/types'
-import { estimateBand, topicStats, weakestTopics, type TopicStat } from '@shared/scoring'
+import { estimateBand, topicStats, weakestTopics, type TopicStat, latestBand } from '@shared/scoring'
+import { estimateReadingBand } from '@shared/reading'
+import { emptyProgress } from '@shared/types'
 
 const att = (topic: GrammarTopic, correct: boolean, ms = 10000): GrammarAttempt => ({
   itemId: `${topic}-x`,
@@ -50,6 +52,21 @@ describe('weakestTopics', () => {
   })
 })
 
+it('computes stats for Part 7 question types', () => {
+  const stats = topicStats([
+    { topic: 'inference', correct: false, ms: 1000 },
+    { topic: 'inference', correct: true, ms: 3000 }
+  ])
+  expect(stats).toEqual([{ topic: 'inference', count: 2, accuracy: 0.5, avgMs: 2000 }])
+})
+
+it('averages time over timed attempts only and falls back to 0', () => {
+  expect(topicStats([att('word-form', true, 0), att('word-form', true, 8000)])).toEqual([
+    { topic: 'word-form', count: 2, accuracy: 1, avgMs: 8000 }
+  ])
+  expect(topicStats([att('word-form', true, 0)])[0].avgMs).toBe(0)
+})
+
 describe('estimateBand', () => {
   const t = (correct: number, total: number): MixedTestResult => ({
     at: '2026-10-05T00:00:00.000Z',
@@ -68,4 +85,18 @@ describe('estimateBand', () => {
     expect(estimateBand([t(50, 100)])).toEqual({ low: 230, high: 300 })
     expect(estimateBand([t(49, 100)])).toEqual({ low: 5, high: 230 })
   })
+})
+
+it('estimates a Reading band from part scores', () => {
+  const perfect = { p5: { correct: 30, total: 30 }, p6: { correct: 16, total: 16 }, p7: { correct: 54, total: 54 } }
+  expect(estimateReadingBand(perfect)).toEqual({ low: 460, high: 495 })
+  expect(estimateReadingBand({ p5: { correct: 0, total: 0 }, p6: { correct: 0, total: 0 }, p7: { correct: 0, total: 0 } })).toBeNull()
+})
+
+it('prefers the latest Reading test over mixed tests', () => {
+  const p = emptyProgress()
+  p.mixedTests = [{ at: 'a', correct: 34, total: 34, ms: 1 }]
+  expect(latestBand(p)?.source).toBe('mixed')
+  p.readingTests = [{ length: 'half', parts: { p5: { correct: 5, total: 15 }, p6: { correct: 2, total: 8 }, p7: { correct: 8, total: 27 } }, ms: 1, at: 'b' }]
+  expect(latestBand(p)?.source).toBe('test')
 })

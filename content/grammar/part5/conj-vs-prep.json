@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-conj-vs-prep-0001",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 2,
+    "stem": "____ the heavy snowfall, the shipment from Brightway Logistics arrived at the warehouse on schedule.",
+    "choices": ["Although", "Despite", "Even though", "Because"],
+    "answer": 1,
+    "trap": "'despite' + noun phrase; 'although' + clause",
+    "explain": {
+      "en": "The blank is followed by a noun phrase ('the heavy snowfall'), not a clause, so we need a preposition. 'Despite' is a preposition meaning 'even with'. 'Although' and 'Even though' are conjunctions and need a subject and verb after them.",
+      "th": "หลังช่องว่างเป็นกลุ่มคำนาม (the heavy snowfall) ไม่มีประธานและกริยา จึงต้องใช้คำบุพบท (preposition) คือ Despite (แม้จะมี...) ส่วน Although และ Even though เป็นคำสันธาน (conjunction) ต้องตามด้วยประโยคที่มีทั้งประธานและกริยา"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0002",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 2,
+    "stem": "The board meeting was postponed ____ the CEO's flight from Singapore was delayed by several hours.",
+    "choices": ["because of", "due to", "because", "owing to"],
+    "answer": 2,
+    "trap": "'because' + clause; 'because of' + noun",
+    "explain": {
+      "en": "After the blank comes a full clause with a subject and verb ('the CEO's flight ... was delayed'), so we need the conjunction 'because'. 'because of', 'due to' and 'owing to' are prepositions and must be followed by a noun phrase.",
+      "th": "หลังช่องว่างเป็นประโยคที่มีประธาน (the CEO's flight) และกริยา (was delayed) จึงต้องใช้คำสันธาน (conjunction) because ส่วน because of, due to และ owing to เป็นคำบุพบท (preposition) ต้องตามด้วยคำนามเท่านั้น คนไทยมักสับสนเพราะทุกคำแปลว่า เพราะ เหมือนกัน"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0003",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 3,
+    "stem": "For safety reasons, warehouse staff must not use their mobile phones ____ operating a forklift.",
+    "choices": ["while", "during", "meanwhile", "throughout"],
+    "answer": 0,
+    "trap": "'while' + -ing (shortened clause); 'during' + noun",
+    "explain": {
+      "en": "'while operating a forklift' is a shortened form of 'while they are operating a forklift', and the conjunction 'while' can be followed by an -ing form. 'during' is a preposition that needs a noun such as 'during the shift', and 'meanwhile' is an adverb.",
+      "th": "while operating a forklift ย่อมาจาก while they are operating a forklift คำสันธาน (conjunction) while จึงตามด้วยกริยา -ing ได้ ส่วน during เป็นคำบุพบท (preposition) ต้องตามด้วยคำนาม เช่น during the shift และ meanwhile เป็น adverb ใช้เชื่อมแบบนี้ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0004",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 3,
+    "stem": "Orders placed after 3 P.M. will not be shipped until the next business day ____ customers select express delivery.",
+    "choices": ["without", "otherwise", "unless", "in case"],
+    "answer": 2,
+    "trap": "'unless' = 'if ... not' + clause",
+    "explain": {
+      "en": "The blank introduces a clause ('customers select express delivery'), and the meaning is 'if customers do not select express delivery'. 'unless' expresses this condition. 'without' is a preposition, and 'in case' means 'as a precaution', which does not fit the logic.",
+      "th": "ช่องว่างนำประโยค customers select express delivery และความหมายคือ ถ้าลูกค้าไม่ได้เลือกส่งด่วน จึงใช้ unless (เว้นแต่ / ถ้าไม่) ส่วน without เป็นคำบุพบท (preposition) ตามด้วยประโยคไม่ได้ และ in case แปลว่า เผื่อว่า ความหมายไม่เข้ากับประโยค"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0005",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 3,
+    "stem": "Ms. Tanaka prefers to contact clients by phone, ____ her assistant relies mainly on e-mail.",
+    "choices": ["instead of", "unlike", "therefore", "whereas"],
+    "answer": 3,
+    "trap": "'whereas' joins two contrasting clauses",
+    "explain": {
+      "en": "Two complete clauses with different subjects are being contrasted, so we need the conjunction 'whereas'. 'instead of' and 'unlike' are prepositions that take a noun, and 'therefore' is an adverb that shows a result, not a contrast.",
+      "th": "ประโยคนี้เปรียบเทียบความต่างของสองประโยคที่มีประธานต่างกัน (Ms. Tanaka กับ her assistant) จึงต้องใช้คำสันธาน (conjunction) whereas (ในขณะที่) ส่วน instead of และ unlike เป็นคำบุพบท (preposition) ต้องตามด้วยคำนาม และ therefore เป็น adverb แปลว่า ดังนั้น ไม่ได้แสดงความขัดแย้ง"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0006",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 3,
+    "stem": "The marketing team extended the survey deadline ____ more customers would have a chance to respond.",
+    "choices": ["in order to", "so that", "because of", "even if"],
+    "answer": 1,
+    "trap": "'so that' + clause shows purpose; 'in order to' + base verb",
+    "explain": {
+      "en": "The clause after the blank ('more customers would have a chance') explains the purpose of extending the deadline, so 'so that' is correct. 'in order to' also shows purpose, but it must be followed by a base verb, not by a subject and verb.",
+      "th": "ประโยคหลังช่องว่างบอกจุดประสงค์ของการขยายเวลา จึงใช้ so that (เพื่อที่จะ) ซึ่งตามด้วยประโยคที่มีประธานและกริยา ส่วน in order to ก็บอกจุดประสงค์เหมือนกัน แต่ต้องตามด้วยกริยาช่อง 1 (base verb) ทันที ไม่ใช่ประธาน"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0007",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 2,
+    "stem": "____ a sharp rise in fuel costs, Northgate Airlines has added a surcharge to all international tickets.",
+    "choices": ["Because", "Whereas", "Although", "Owing to"],
+    "answer": 3,
+    "trap": "'owing to' + noun phrase gives a reason",
+    "explain": {
+      "en": "'a sharp rise in fuel costs' is a noun phrase with no verb, so a preposition is needed. 'Owing to' means 'because of' and introduces the reason. 'Because' is a conjunction and would need a clause; with a noun it must be 'because of'.",
+      "th": "หลังช่องว่างเป็นกลุ่มคำนาม (a sharp rise in fuel costs) ไม่มีกริยา จึงต้องใช้คำบุพบท (preposition) Owing to ซึ่งแปลว่า เนื่องจาก ส่วน Because เป็นคำสันธาน (conjunction) ต้องตามด้วยประโยค ถ้าจะใช้กับคำนามต้องเป็น because of"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0008",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 3,
+    "stem": "The quarterly sales figures were lower than expected; ____, the board approved the plan to open two new stores.",
+    "choices": ["however", "although", "despite", "whereas"],
+    "answer": 0,
+    "trap": "adverb connector after a semicolon",
+    "explain": {
+      "en": "After a semicolon and before a comma, the blank needs a connecting adverb that shows contrast, and 'however' fits. 'although' and 'whereas' are conjunctions that cannot stand alone between punctuation marks, and 'despite' needs a noun after it.",
+      "th": "ช่องว่างอยู่หลังเครื่องหมาย ; และมีจุลภาคตามหลัง ตำแหน่งนี้ต้องใช้คำเชื่อมที่เป็น adverb (conjunctive adverb) คือ however (อย่างไรก็ตาม) ส่วน although และ whereas เป็นคำสันธาน (conjunction) ต้องนำหน้าประโยคโดยตรง วางลอยระหว่างเครื่องหมายแบบนี้ไม่ได้ และ despite ต้องตามด้วยคำนาม"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0009",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 4,
+    "stem": "____ having received several complaints about late deliveries, the supplier has not changed its shipping procedures.",
+    "choices": ["Even though", "Nevertheless", "In spite of", "Whereas"],
+    "answer": 2,
+    "trap": "'in spite of' + gerund (-ing)",
+    "explain": {
+      "en": "'having received' is a gerund phrase, and gerunds act like nouns, so a preposition is needed. 'In spite of' is a preposition and can be followed by an -ing form. 'Even though' is a conjunction and needs a full clause, such as 'even though it has received'.",
+      "th": "having received เป็น gerund (กริยาเติม -ing ที่ทำหน้าที่เหมือนคำนาม) จึงต้องใช้คำบุพบท (preposition) In spite of (ทั้งๆ ที่) ส่วน Even though เป็นคำสันธาน (conjunction) ต้องตามด้วยประโยคเต็ม เช่น even though it has received และ Nevertheless เป็น adverb ใช้นำหน้าวลีแบบนี้ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-conj-vs-prep-0010",
+    "part": 5,
+    "topic": "conj-vs-prep",
+    "difficulty": 4,
+    "stem": "Employees are eligible for the annual bonus ____ they work at headquarters or at a regional office.",
+    "choices": ["regardless of", "either", "even", "whether"],
+    "answer": 3,
+    "trap": "'whether ... or' + clause; 'regardless of' + noun",
+    "explain": {
+      "en": "The word 'or' later in the sentence pairs with 'whether' to mean 'it does not matter which'. 'whether' is a conjunction, so it can introduce the clause 'they work at headquarters'. 'regardless of' has a similar meaning, but it is a preposition and cannot be followed directly by a subject and verb.",
+      "th": "สังเกตคำว่า or ในประโยค ซึ่งเข้าคู่กับ whether เป็นโครงสร้าง whether ... or (ไม่ว่าจะ...หรือ...) และ whether เป็นคำสันธาน (conjunction) จึงตามด้วยประโยค they work ได้ ส่วน regardless of ความหมายคล้ายกัน แต่เป็นคำบุพบท (preposition) ตามด้วยประธานและกริยาไม่ได้"
+    },
+    "status": "approved"
+  }
+]

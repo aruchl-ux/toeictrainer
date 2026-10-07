@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p5-pronouns-0001",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 2,
+    "stem": "Our customer service representatives will be happy to answer ____ questions about the new billing system.",
+    "choices": ["you", "your", "yours", "yourself"],
+    "answer": 1,
+    "trap": "possessive adjective before a noun",
+    "explain": {
+      "en": "The blank comes before the noun 'questions', so we need a possessive adjective. 'your' shows whose questions they are. 'yours' is a possessive pronoun and stands alone without a noun.",
+      "th": "ช่องว่างอยู่หน้าคำนาม questions จึงต้องใช้คำแสดงความเป็นเจ้าของ (possessive adjective) คือ your ส่วน yours เป็น possessive pronoun ที่ใช้แทนคำนามได้เลย จะมีคำนามตามหลังไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0002",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 2,
+    "stem": "Ms. Rivera thanked the volunteers and gave ____ each a gift card for their help at the trade fair.",
+    "choices": ["they", "their", "theirs", "them"],
+    "answer": 3,
+    "trap": "object pronoun after the verb 'gave'",
+    "explain": {
+      "en": "The blank is the object of the verb 'gave' (gave someone something), so we need the object pronoun 'them'. 'they' is a subject pronoun, and 'their' must be followed by a noun.",
+      "th": "ช่องว่างเป็นกรรมของกริยา gave (gave someone something) จึงต้องใช้สรรพนามกรรม (object pronoun) คือ them ส่วน they ใช้เป็นประธานเท่านั้น และ their ต้องมีคำนามตามหลัง"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0003",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 3,
+    "stem": "Of the two candidates interviewed, one has sales experience, and ____ has a background in finance.",
+    "choices": ["another", "other", "the other", "others"],
+    "answer": 2,
+    "trap": "'one ... the other' for a group of two",
+    "explain": {
+      "en": "When there are only two people, we say 'one ... the other'. 'the other' refers to the one remaining candidate. 'another' means 'one more from a larger group', so it does not fit when there are only two.",
+      "th": "เมื่อพูดถึงคนหรือสิ่งของที่มีแค่สอง ใช้โครงสร้าง one ... the other (คนหนึ่ง...อีกคนหนึ่ง) จึงใช้ the other ส่วน another ใช้เมื่อยังมีอีกหลายคนในกลุ่ม และ others เป็นพหูพจน์ ใช้กับกริยา has ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0004",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 3,
+    "stem": "Brightway Logistics has announced that ____ new distribution center in Ohio will open in October.",
+    "choices": ["its", "them", "it's", "his"],
+    "answer": 0,
+    "trap": "'its' for a singular company; 'it's' = it is",
+    "explain": {
+      "en": "Before the noun phrase 'new distribution center' we need a possessive adjective. The company is singular (note the singular verb 'has announced'), so the possessive is 'its'. 'it's' is the short form of 'it is', and 'them' is an object pronoun, which cannot come before a noun.",
+      "th": "ชื่อบริษัท Brightway Logistics นับเป็นเอกพจน์ (singular) จึงใช้คำแสดงความเป็นเจ้าของ its ห้ามสับสนกับ it's ซึ่งย่อมาจาก it is ส่วน them เป็นสรรพนามกรรม (object pronoun) วางหน้าคำนามไม่ได้ ชื่อบริษัทแม้จะลงท้ายด้วย s ก็ยังนับเป็นเอกพจน์ (สังเกตกริยา has announced)"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0005",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 2,
+    "stem": "Mr. Chen forgot his laptop charger, so Ms. Lopez let him borrow ____ during the afternoon meeting.",
+    "choices": ["her", "herself", "she", "hers"],
+    "answer": 3,
+    "trap": "possessive pronoun replaces 'her charger'",
+    "explain": {
+      "en": "The blank stands for 'her charger', so we need a possessive pronoun that replaces the noun: 'hers'. 'her' alone would mean Mr. Chen borrowed Ms. Lopez herself, which makes no sense.",
+      "th": "ช่องว่างหมายถึง her charger (ที่ชาร์จของเธอ) จึงใช้ possessive pronoun คือ hers ซึ่งแทนทั้ง her + charger ได้ในคำเดียว ถ้าใช้ her เฉยๆ จะกลายเป็นยืมตัวคุณ Lopez เอง ความหมายผิด"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0006",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 4,
+    "stem": "The sales figures for this quarter are much higher than ____ for the same period last year.",
+    "choices": ["that", "those", "these", "them"],
+    "answer": 1,
+    "trap": "'those' replaces a plural noun in a comparison",
+    "explain": {
+      "en": "In a comparison, a pronoun replaces 'sales figures' to avoid repeating it. Because 'figures' is plural, 'those' is correct. 'that' would replace a singular noun, and 'them' cannot be followed by a phrase like 'for the same period'.",
+      "th": "ในการเปรียบเทียบ ต้องใช้สรรพนามแทนคำนาม sales figures เพื่อไม่ให้พูดซ้ำ และเพราะ figures เป็นพหูพจน์ (plural) จึงใช้ those ส่วน that ใช้แทนคำนามเอกพจน์ และ them มีวลีขยายตามหลังแบบนี้ไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0007",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 3,
+    "stem": "The regional managers have agreed to share their sales data with ____ every month.",
+    "choices": ["themselves", "each", "one another", "their"],
+    "answer": 2,
+    "trap": "reciprocal 'one another' vs reflexive 'themselves'",
+    "explain": {
+      "en": "The managers share data with each other, a two-way action, so the reciprocal pronoun 'one another' is correct. 'themselves' is reflexive and would mean each manager shares data with himself or herself.",
+      "th": "ผู้จัดการแต่ละคนแบ่งปันข้อมูลให้กันและกัน (ทำต่อกันสองทาง) จึงใช้ reciprocal pronoun คือ one another (ซึ่งกันและกัน) ส่วน themselves เป็นสรรพนามสะท้อน (reflexive pronoun) จะแปลว่าแบ่งปันข้อมูลให้ตัวเอง ซึ่งไม่สมเหตุสมผล"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0008",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 3,
+    "stem": "Mr. Davis and ____ will lead the training session for new sales representatives next Monday.",
+    "choices": ["me", "myself", "my", "I"],
+    "answer": 3,
+    "trap": "subject pronoun in a compound subject",
+    "explain": {
+      "en": "'Mr. Davis and ____' is the subject of 'will lead', so the subject pronoun 'I' is required. Remove 'Mr. Davis and' to check: 'I will lead', not 'me will lead'. 'myself' is reflexive and cannot be a subject.",
+      "th": "Mr. Davis and ____ เป็นประธานของกริยา will lead จึงต้องใช้สรรพนามประธาน (subject pronoun) คือ I ลองตัด Mr. Davis and ออกจะได้ I will lead ไม่ใช่ me will lead ส่วน myself เป็น reflexive pronoun ใช้เป็นประธานไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0009",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 4,
+    "stem": "Applicants must complete the online form ____; forms submitted by recruiters on their behalf will not be accepted.",
+    "choices": ["them", "themselves", "their", "theirs"],
+    "answer": 1,
+    "trap": "reflexive for emphasis: 'do it themselves'",
+    "explain": {
+      "en": "The sentence stresses that applicants must do the work personally, not through recruiters. A reflexive pronoun used for emphasis, 'themselves', does this. 'them' would be a second object, which does not fit after 'the online form'.",
+      "th": "ประโยคต้องการเน้นว่าผู้สมัครต้องกรอกแบบฟอร์มด้วยตัวเอง ไม่ใช่ให้ตัวแทนกรอกแทน จึงใช้สรรพนามสะท้อน (reflexive pronoun) themselves เพื่อเน้นว่า ด้วยตัวเอง ส่วน them เป็นสรรพนามกรรม วางต่อท้ายกรรม the online form อีกตัวไม่ได้"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-pronouns-0010",
+    "part": 5,
+    "topic": "pronouns",
+    "difficulty": 3,
+    "stem": "____ who wish to attend the awards dinner must confirm their reservation by May 3.",
+    "choices": ["Those", "These", "They", "Them"],
+    "answer": 0,
+    "trap": "'those who' = the people who",
+    "explain": {
+      "en": "The fixed expression 'those who' means 'the people who', and 'Those' can be followed by a relative clause. 'They who' is not used in modern English, and 'Them' cannot be the subject of 'must confirm'.",
+      "th": "สำนวน those who แปลว่า ผู้ที่ หรือ คนที่ จึงใช้ Those ซึ่งตามด้วย relative clause ได้ ส่วน They who ไม่ใช้ในภาษาอังกฤษปัจจุบัน และ Them เป็นสรรพนามกรรม ใช้เป็นประธานของ must confirm ไม่ได้"
+    },
+    "status": "approved"
+  }
+]

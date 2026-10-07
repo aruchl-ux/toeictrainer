@@ -1,0 +1,872 @@
+[
+  {
+    "id": "p7-0025",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "ad",
+        "title": "Job Posting: Front Desk Supervisor",
+        "body": "Westbrook Hotel: Front Desk Supervisor\n\nWestbrook Hotel, a 120-room property near the airport, is seeking a Front Desk Supervisor to lead our guest services team.\n\nRequirements:\n- At least three years of hotel experience\n- Fluency in English; a second language is a plus\n- Ability to work weekends\n\nSalary is $38,000 to $44,000, depending on experience. Send a resume and cover email to Haruto Sato in Human Resources by June 14. Interviews will be held during the week of June 23."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Application for Front Desk Supervisor",
+        "body": "To: Haruto Sato\nFrom: Julia Moreno\nSubject: Application for Front Desk Supervisor\n\nDear Mr. Sato,\n\nI am writing to apply for the Front Desk Supervisor position. I have worked for four years at Seaview Inn, the last two as night desk lead. I speak English and Spanish, and I am available on weekends. My resume is attached.\n\nI will be traveling from June 23 through June 25, but I can interview at any time after that.\n\nSincerely,\nJulia Moreno"
+      },
+      {
+        "kind": "schedule",
+        "title": "Schedule: Front Desk Supervisor Interviews",
+        "body": "Westbrook Hotel: Front Desk Supervisor Interviews\n\nTuesday, June 24\n10:00 a.m. | Grace Liu | Mr. Sato\n1:30 p.m. | Omar Haddad | Mr. Sato\n\nThursday, June 26\n9:30 a.m. | Julia Moreno | Mr. Sato and Ms. Dubois\n11:00 a.m. | Peter Kroll | Mr. Sato and Ms. Dubois\n\nAll interviews take place in Conference Room 2. Please arrive 15 minutes early and bring a photo ID. Ms. Dubois, the general manager, will join only the Thursday interviews."
+      }
+    ],
+    "questions": [
+      {
+        "type": "not-true",
+        "prompt": "What is NOT required of applicants for the position?",
+        "difficulty": 2,
+        "choices": [
+          "At least three years of hotel experience",
+          "Fluency in English",
+          "Ability to work weekends",
+          "Fluency in a second language"
+        ],
+        "answer": 3,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "a second language is a plus"
+          }
+        ],
+        "explain": {
+          "en": "The posting says a second language is only \"a plus,\" so it is not required. Experience, English and weekend work are all listed as requirements.",
+          "th": "ประกาศระบุว่าภาษาที่สองเป็นเพียงข้อได้เปรียบ (a plus) ไม่ใช่ข้อบังคับ ส่วนประสบการณ์ ภาษาอังกฤษ และการทำงานวันหยุดสุดสัปดาห์เป็นคุณสมบัติที่ต้องมี"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "What is suggested about Ms. Moreno?",
+        "difficulty": 3,
+        "choices": [
+          "She exceeds the minimum experience requirement.",
+          "She cannot work on weekends.",
+          "She has not worked in a hotel before.",
+          "She applied after the deadline."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "At least three years of hotel experience"
+          },
+          {
+            "doc": 1,
+            "quote": "I have worked for four years at Seaview Inn"
+          }
+        ],
+        "explain": {
+          "en": "The posting asks for at least three years of experience, and Ms. Moreno has four. She states that she can work weekends, and nothing suggests she applied late.",
+          "th": "ประกาศต้องการประสบการณ์อย่างน้อย 3 ปี ส่วนคุณ Moreno ทำงานมา 4 ปี จึงเกินเกณฑ์ขั้นต่ำ เธอยังบอกว่าทำงานวันหยุดสุดสัปดาห์ได้ และไม่มีข้อมูลว่าสมัครเกินกำหนด"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Why was Ms. Moreno most likely scheduled for an interview on Thursday?",
+        "difficulty": 3,
+        "choices": [
+          "She asked to meet Ms. Dubois.",
+          "She was unavailable earlier in the week.",
+          "Her resume arrived after the deadline.",
+          "Mr. Sato was away on Tuesday."
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I will be traveling from June 23 through June 25"
+          },
+          {
+            "doc": 2,
+            "quote": "9:30 a.m. | Julia Moreno | Mr. Sato and Ms. Dubois"
+          }
+        ],
+        "explain": {
+          "en": "Ms. Moreno says she is traveling June 23 through 25, and her interview is on Thursday, June 26. Mr. Sato conducts the Tuesday interviews, so he was not away.",
+          "th": "คุณ Moreno บอกว่าเดินทางวันที่ 23-25 มิถุนายน จึงได้นัดสัมภาษณ์วันพฤหัสบดีที่ 26 ส่วนคุณ Sato สัมภาษณ์ผู้สมัครคนอื่นในวันอังคาร จึงไม่ได้ติดธุระ"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "What are applicants asked to do before their interview?",
+        "difficulty": 2,
+        "choices": [
+          "Send a second resume",
+          "Arrive 15 minutes early",
+          "Call Mr. Sato",
+          "Complete an online test"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "Please arrive 15 minutes early and bring a photo ID."
+          }
+        ],
+        "explain": {
+          "en": "The schedule asks applicants to arrive 15 minutes early and bring a photo ID. No resume, call or test is mentioned.",
+          "th": "ตารางนัดหมายให้ผู้สมัครมาถึงก่อน 15 นาที (arrive 15 minutes early) และนำบัตรประจำตัวมาด้วย ไม่ได้ให้ส่งเรซูเม่ โทร หรือทำแบบทดสอบ"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "The word \"held\" in the job posting is closest in meaning to",
+        "difficulty": 2,
+        "choices": [
+          "conducted",
+          "grabbed",
+          "kept",
+          "carried"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Interviews will be held during the week of June 23."
+          }
+        ],
+        "explain": {
+          "en": "Interviews that \"will be held\" will take place or be conducted. The other words fit physical objects, not events.",
+          "th": "\"Held\" ในที่นี้หมายถึงจัดขึ้น (conducted) เช่น การสัมภาษณ์จะจัดในสัปดาห์ของวันที่ 23 มิถุนายน ส่วนคำอื่นใช้กับการถือหรือเก็บสิ่งของ"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0026",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "webpage",
+        "title": "Webpage: TrailMate Insulated Bottle",
+        "body": "TrailMate Insulated Bottle, 24 oz - $28\n\nKeeps drinks cold for 24 hours or hot for 12 hours. Made from BPA-free stainless steel. Available in Slate, Forest and Coral.\n\nOur promise: Return any unused bottle within 30 days for a full refund. All lids are covered by a one-year warranty.\n\nFree shipping on orders over $50."
+      },
+      {
+        "kind": "review",
+        "title": "Customer Review: TrailMate Insulated Bottle",
+        "body": "Reviewed by Alan Pratt - 3 out of 5 stars\n\nTitle: Great insulation, weak lid\n\nI bought the Forest color for hiking. The ice I put in it in the morning was still frozen that night, so I am very happy with how well it keeps drinks cold. Unfortunately, the lid cracked after six weeks of normal use. I expected better for $28."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Reply to your review",
+        "body": "To: Alan Pratt\nFrom: Customer Care, TrailMate\nSubject: Reply to your review\n\nDear Mr. Pratt,\n\nThank you for your review, and we are sorry about your lid. Because the lid is under warranty, we will send you a new one at no charge. Please reply to this message with your shipping address, and the replacement will arrive within five business days.\n\nSincerely,\nCustomer Care Team\nTrailMate"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "prompt": "According to the webpage, how long does the bottle keep drinks hot?",
+        "difficulty": 2,
+        "choices": [
+          "6 hours",
+          "12 hours",
+          "24 hours",
+          "30 hours"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Keeps drinks cold for 24 hours or hot for 12 hours."
+          }
+        ],
+        "explain": {
+          "en": "The webpage says 12 hours for hot drinks. The 24 hours is for cold drinks, and 30 is the number of return days.",
+          "th": "เว็บไซต์ระบุว่าเก็บความร้อนได้ 12 ชั่วโมง ส่วน 24 ชั่วโมงเป็นของเครื่องดื่มเย็น และ 30 เป็นจำนวนวันที่คืนสินค้าได้"
+        }
+      },
+      {
+        "type": "inference",
+        "prompt": "What does Mr. Pratt suggest about the bottle?",
+        "difficulty": 3,
+        "choices": [
+          "It keeps drinks cold very well.",
+          "It was too expensive to buy again.",
+          "It arrived in the wrong color.",
+          "It was difficult to clean."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I am very happy with how well it keeps drinks cold"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Pratt says the ice was still frozen that night and he is happy with the cold performance. His complaint is the lid, not the color or the cleaning.",
+          "th": "คุณ Pratt บอกว่าน้ำแข็งยังไม่ละลายตอนกลางคืนและพอใจกับการเก็บความเย็น ปัญหาของเขาคือฝาขวด ไม่ใช่สีหรือความยากในการล้าง"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Why was Mr. Pratt most likely unable to return the bottle for a full refund?",
+        "difficulty": 4,
+        "choices": [
+          "He had used the bottle for longer than 30 days.",
+          "He bought it as a gift.",
+          "He did not pay for shipping.",
+          "He ordered the wrong size."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Return any unused bottle within 30 days for a full refund."
+          },
+          {
+            "doc": 1,
+            "quote": "the lid cracked after six weeks of normal use"
+          }
+        ],
+        "explain": {
+          "en": "Returns are accepted only for unused bottles within 30 days, and Mr. Pratt has used his for six weeks. Nothing is said about a gift, shipping or size.",
+          "th": "คืนเงินได้เฉพาะขวดที่ยังไม่ใช้ภายใน 30 วัน แต่คุณ Pratt ใช้มาแล้วหกสัปดาห์ (six weeks) จึงเกินกำหนด ไม่มีข้อมูลเรื่องของขวัญ ค่าส่ง หรือขนาดผิด"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "What will Mr. Pratt most likely receive from the company?",
+        "difficulty": 3,
+        "choices": [
+          "A full refund",
+          "A new bottle in a different color",
+          "A free replacement lid",
+          "A coupon for free shipping"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "the lid cracked after six weeks of normal use"
+          },
+          {
+            "doc": 2,
+            "quote": "we will send you a new one at no charge"
+          }
+        ],
+        "explain": {
+          "en": "The lid cracked, and the company replies that, because it is under warranty, it will send a new lid at no charge. A refund is not offered.",
+          "th": "ฝาแตก และบริษัทตอบว่าเพราะฝาอยู่ในประกัน จะส่งฝาใหม่ให้ฟรี (at no charge) ไม่ได้เสนอคืนเงินหรือส่งขวดใหม่"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "What does the company ask Mr. Pratt to do?",
+        "difficulty": 2,
+        "choices": [
+          "Return the old lid",
+          "Send his shipping address",
+          "Change his review",
+          "Call Customer Care"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "Please reply to this message with your shipping address"
+          }
+        ],
+        "explain": {
+          "en": "The email asks him to reply with his shipping address so the lid can be sent. It does not ask for the old lid or a changed review.",
+          "th": "อีเมลขอให้ตอบกลับพร้อมที่อยู่จัดส่ง (your shipping address) เพื่อส่งฝาใหม่ ไม่ได้ให้ส่งฝาเก่าคืนหรือแก้รีวิว"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0027",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "notice",
+        "title": "Notice: Eastport Small Business Expo",
+        "body": "Eastport Small Business Expo\n\nSaturday, September 20, 9:00 a.m. to 4:00 p.m., Harbor Convention Hall\n\nJoin local business owners for a day of learning and networking. Workshops (40 seats each):\n- Digital Marketing, 10:00 a.m.\n- Bookkeeping Basics, 11:30 a.m.\n- Online Sales, 1:30 p.m.\n\nRegistration is $25 through August 31 and $40 after that. Lunch is complimentary for all registered attendees. Register using the form on our website."
+      },
+      {
+        "kind": "form",
+        "title": "Form: Expo Registration",
+        "body": "Eastport Small Business Expo - Registration Form\n\nName: Rosa Delgado\nBusiness: Delgado Bakery\nDate submitted: September 2\nWorkshops selected: Bookkeeping Basics; Online Sales\nLunch preference: Vegetarian\nPayment method: Credit card"
+      },
+      {
+        "kind": "email",
+        "title": "Email: Your Expo Registration",
+        "body": "To: Rosa Delgado\nFrom: Expo Team\nSubject: Your Expo Registration\n\nDear Ms. Delgado,\n\nThank you for registering. Unfortunately, Bookkeeping Basics is now full. We have moved you into Digital Marketing instead, and your Online Sales seat is confirmed. If you prefer a refund of your registration fee, please let us know by September 10.\n\nYour vegetarian lunch will be ready at noon. We look forward to seeing you.\n\nThe Expo Team"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "prompt": "Where will the expo be held?",
+        "difficulty": 2,
+        "choices": [
+          "At a bakery",
+          "At Harbor Convention Hall",
+          "At a local university",
+          "At the Expo Team office"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Saturday, September 20, 9:00 a.m. to 4:00 p.m., Harbor Convention Hall"
+          }
+        ],
+        "explain": {
+          "en": "The notice gives Harbor Convention Hall as the location. A bakery is only Ms. Delgado's business.",
+          "th": "ประกาศระบุสถานที่จัดงานคือ Harbor Convention Hall ส่วนร้านเบเกอรี่เป็นธุรกิจของคุณ Delgado เท่านั้น"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "How much did Ms. Delgado most likely pay to register?",
+        "difficulty": 3,
+        "choices": [
+          "$25",
+          "$40",
+          "$65",
+          "$0"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Date submitted: September 2"
+          },
+          {
+            "doc": 0,
+            "quote": "Registration is $25 through August 31 and $40 after that."
+          }
+        ],
+        "explain": {
+          "en": "She submitted the form on September 2, after the August 31 deadline for the $25 rate, so she paid $40.",
+          "th": "เธอส่งแบบฟอร์มวันที่ 2 กันยายน ซึ่งเลยวันที่ 31 สิงหาคมที่ราคา $25 หมดเขต จึงต้องจ่าย $40"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "At what time will Ms. Delgado attend her first workshop?",
+        "difficulty": 3,
+        "choices": [
+          "9:00 a.m.",
+          "10:00 a.m.",
+          "11:30 a.m.",
+          "1:30 p.m."
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "We have moved you into Digital Marketing instead"
+          },
+          {
+            "doc": 0,
+            "quote": "Digital Marketing, 10:00 a.m."
+          }
+        ],
+        "explain": {
+          "en": "Bookkeeping Basics (11:30) is full, so she was moved into Digital Marketing, which starts at 10:00 a.m. The 11:30 time was her original choice.",
+          "th": "เวิร์กช็อป Bookkeeping Basics (11:30) เต็ม เธอจึงถูกย้ายไป Digital Marketing ซึ่งเริ่ม 10:00 น. ส่วน 11:30 น. เป็นช่วงที่เธอเลือกไว้เดิม"
+        }
+      },
+      {
+        "type": "main-idea",
+        "prompt": "Why did the Expo Team send the email?",
+        "difficulty": 2,
+        "choices": [
+          "To advertise a new workshop",
+          "To invite her to be a speaker",
+          "To tell her about a change to her registration",
+          "To ask her to pay a late fee"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "Bookkeeping Basics is now full. We have moved you into Digital Marketing instead"
+          }
+        ],
+        "explain": {
+          "en": "The email explains that one workshop is full and she has been moved to another, which is a change to her registration. No late fee or speaking invitation is mentioned.",
+          "th": "อีเมลแจ้งว่าเวิร์กช็อปหนึ่งเต็มและย้ายเธอไปอีกช่วง จึงเป็นการแจ้งการเปลี่ยนแปลงการลงทะเบียน ไม่ได้โฆษณา เชิญเป็นวิทยากร หรือเก็บค่าปรับ"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "The word \"complimentary\" in the notice is closest in meaning to",
+        "difficulty": 2,
+        "choices": [
+          "free of charge",
+          "polite",
+          "optional",
+          "served late"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Lunch is complimentary for all registered attendees."
+          }
+        ],
+        "explain": {
+          "en": "Lunch is given to registered attendees at no cost, so \"complimentary\" means free of charge. It does not mean polite or optional.",
+          "th": "\"Complimentary\" ในที่นี้แปลว่าฟรี ไม่คิดค่าใช้จ่าย (free of charge) ผู้ลงทะเบียนทุกคนได้อาหารกลางวันโดยไม่เสียเงิน"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0028",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "schedule",
+        "title": "Schedule: Priya Nair, Chicago Trip Itinerary",
+        "body": "Itinerary for Priya Nair, Sales Director\nClient visit: Harlan Foods, Chicago\n\nMonday, November 11\n8:15 a.m. Depart Portland, Flight 52\n2:40 p.m. Arrive Chicago\n3:30 p.m. Hotel check-in, Lakeview Suites\n\nTuesday, November 12\n10:00 a.m. Meeting with Harlan Foods management\n1:00 p.m. Lunch with the Harlan Foods sales team\n4:30 p.m. Factory tour\n\nWednesday, November 13\n9:00 a.m. Contract review\n5:20 p.m. Depart Chicago, Flight 77\n\nHotel details are in the attached confirmation."
+      },
+      {
+        "kind": "form",
+        "title": "Confirmation: Lakeview Suites Reservation",
+        "body": "Lakeview Suites, Chicago\nReservation Confirmation\n\nGuest: Priya Nair\nConfirmation number: LS-40817\nCheck-in: Monday, November 11 (from 3:00 p.m.)\nCheck-out: Wednesday, November 13 (by 11:00 a.m.)\nRoom: One king bed, $149 per night\n\nGuests arriving after 10:00 p.m. must notify the front desk in advance, or the room may be released. A free airport shuttle runs every 30 minutes until 9:00 p.m. Breakfast is available in the restaurant for an additional $12 per guest. Reservations may be canceled free of charge up to 48 hours before check-in."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Change to your Monday flight",
+        "body": "To: Priya Nair\nFrom: Tom Reyes\nSubject: Change to your Monday flight\n\nHi Priya,\n\nThe airline canceled Flight 52 this morning. I have rebooked you on Flight 64, which leaves Portland at 4:30 p.m. and lands in Chicago at 10:40 p.m. on the same day. Your return flight on Wednesday has not changed.\n\nHarlan Foods also asked to start Tuesday's management meeting at 11:00 a.m. instead of the original time. I have accepted, since nothing else is scheduled before lunch.\n\nPlease tell me if you would like me to contact the hotel about your late arrival.\n\nTom"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "Why did Mr. Reyes send the email?",
+        "difficulty": 2,
+        "choices": [
+          "To cancel a hotel reservation",
+          "To inform Ms. Nair of changes to her travel plans",
+          "To ask Ms. Nair to approve a contract",
+          "To invite Ms. Nair to a factory tour"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "The airline canceled Flight 52 this morning."
+          }
+        ],
+        "explain": {
+          "en": "Mr. Reyes reports that the flight was canceled and a meeting time changed. The hotel and the tour are not canceled or offered in the email.",
+          "th": "คุณ Reyes แจ้งว่าสายการบินยกเลิกเที่ยวบิน (canceled Flight 52) และเวลาประชุมเปลี่ยน อีเมลนี้จึงแจ้งการเปลี่ยนแปลงแผนเดินทาง ไม่ได้ยกเลิกโรงแรมหรือขออนุมัติสัญญา"
+        }
+      },
+      {
+        "type": "not-true",
+        "prompt": "What is NOT stated about Lakeview Suites?",
+        "difficulty": 2,
+        "choices": [
+          "Breakfast is included in the room rate.",
+          "The airport shuttle stops running at 9:00 p.m.",
+          "Check-in begins at 3:00 p.m.",
+          "A booking can be canceled for free before the deadline."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Breakfast is available in the restaurant for an additional $12 per guest."
+          }
+        ],
+        "explain": {
+          "en": "Breakfast costs an additional $12 per guest, so it is not included. The shuttle, check-in time and free cancellation are all stated.",
+          "th": "ใบยืนยันระบุว่าอาหารเช้าคิดเพิ่ม $12 ต่อคน (for an additional $12) จึงไม่รวมในค่าห้อง ส่วนรถรับส่งหยุดตอน 21.00 น. เช็กอินตั้งแต่ 15.00 น. และยกเลิกฟรีได้ภายในกำหนด"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "What should be done because of the change to Ms. Nair's flight?",
+        "difficulty": 3,
+        "choices": [
+          "The hotel should be told she will arrive late.",
+          "The Tuesday meeting should be canceled.",
+          "The hotel reservation should be extended to Thursday.",
+          "The return flight should be rebooked."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "lands in Chicago at 10:40 p.m. on the same day"
+          },
+          {
+            "doc": 1,
+            "quote": "Guests arriving after 10:00 p.m. must notify the front desk in advance"
+          }
+        ],
+        "explain": {
+          "en": "The new flight lands at 10:40 p.m., and the hotel requires notice from guests arriving after 10:00 p.m. The return flight is explicitly unchanged.",
+          "th": "เที่ยวบินใหม่ถึง 22.40 น. แต่โรงแรมกำหนดให้แจ้งล่วงหน้าหากมาถึงหลัง 22.00 น. (arriving after 10:00 p.m.) จึงต้องแจ้งโรงแรม ส่วนเที่ยวบินขากลับไม่เปลี่ยน"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "After the change, how much time will pass between the start of the Harlan Foods meeting and the lunch with the sales team?",
+        "difficulty": 3,
+        "choices": [
+          "1 hour",
+          "2 hours",
+          "3 hours",
+          "4 hours"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "1:00 p.m. Lunch with the Harlan Foods sales team"
+          },
+          {
+            "doc": 2,
+            "quote": "start Tuesday's management meeting at 11:00 a.m."
+          }
+        ],
+        "explain": {
+          "en": "The meeting now begins at 11:00 a.m. and lunch is at 1:00 p.m. Three hours would be the gap under the original 10:00 a.m. start.",
+          "th": "การประชุมเริ่ม 11.00 น. ตามอีเมล และมื้อกลางวันเริ่ม 13.00 น. ตามตารางเดินทาง จึงห่างกัน 2 ชั่วโมง ส่วน 3 ชั่วโมงคือเวลาเดิมที่เริ่ม 10.00 น."
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "How many nights will Ms. Nair stay at the hotel?",
+        "difficulty": 2,
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Check-in: Monday, November 11"
+          },
+          {
+            "doc": 1,
+            "quote": "Check-out: Wednesday, November 13"
+          }
+        ],
+        "explain": {
+          "en": "She checks in Monday and checks out Wednesday, which is two nights. The email changes only the flight, not the hotel dates.",
+          "th": "เช็กอินวันจันทร์และเช็กเอาต์วันพุธ จึงพัก 2 คืน อีเมลเปลี่ยนแค่เที่ยวบิน ไม่ได้เปลี่ยนวันที่พัก"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0029",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "form",
+        "title": "Invoice: Harbor Office Supply",
+        "body": "Harbor Office Supply\nInvoice #3318\n\nBilled to: Greenfield Dental Clinic\nInvoice date: September 9\nDelivered: September 9\n\nItem                          Qty   Price    Total\nErgonomic chair, model C-200    6   $120     $720\nStanding desk                   2   $340     $680\nDesk lamp                       6    $18     $108\nDelivery charge                                $45\n\nTotal due: $1,553\nPayment is due within 30 days of the invoice date."
+      },
+      {
+        "kind": "form",
+        "title": "Order Form: Greenfield Dental Clinic",
+        "body": "Greenfield Dental Clinic\nOffice Furniture Order\n\nOrdered by: Luis Ortega, Office Manager\nOrder date: August 28\nDelivery requested by: September 5\n\nErgonomic chair, model C-200, black: 8\nStanding desk, white: 2\nDesk lamp, silver: 6\n\nSpecial instructions: Please deliver to the rear entrance before 9:00 a.m., when the clinic opens to patients."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Problems with order #3318",
+        "body": "To: Harbor Office Supply, Customer Service\nFrom: Luis Ortega\nSubject: Problems with order #3318\n\nTo whom it may concern,\n\nOur furniture arrived on September 9, four days later than we requested. Only six chairs arrived, even though we ordered eight, and the delivery truck came at 11:00 a.m., when patients were already in the waiting area.\n\nI would appreciate it if you could expedite the two missing chairs. Because the delivery was late, I also ask that you remove the delivery charge from our bill before we pay it.\n\nPlease reply by Friday.\n\nLuis Ortega\nGreenfield Dental Clinic"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "Why did Mr. Ortega write the email?",
+        "difficulty": 2,
+        "choices": [
+          "To report problems with an order",
+          "To request a price list",
+          "To cancel an order",
+          "To praise a delivery driver"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "Only six chairs arrived, even though we ordered eight"
+          }
+        ],
+        "explain": {
+          "en": "He describes a late delivery and missing chairs and asks for corrections. He does not cancel, praise or request prices.",
+          "th": "คุณ Ortega เล่าว่าส่งช้าและเก้าอี้มาไม่ครบ (only six chairs arrived) พร้อมขอให้แก้ไข อีเมลนี้จึงเป็นการแจ้งปัญหาเกี่ยวกับคำสั่งซื้อ ไม่ได้ยกเลิกหรือชม"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "What did the clinic ask for in its special instructions?",
+        "difficulty": 2,
+        "choices": [
+          "Delivery to the rear entrance before 9:00 a.m.",
+          "Payment within 30 days",
+          "Installation of the standing desks",
+          "A separate invoice for each item"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Please deliver to the rear entrance before 9:00 a.m."
+          }
+        ],
+        "explain": {
+          "en": "The order form asks for rear-entrance delivery before 9:00 a.m. The 30-day payment term comes from the invoice, not the clinic's instructions.",
+          "th": "ใบสั่งซื้อระบุให้ส่งที่ประตูหลังก่อน 9.00 น. (rear entrance before 9:00 a.m.) ส่วนกำหนดชำระ 30 วันอยู่ในใบแจ้งหนี้ ไม่ใช่คำขอของคลินิก"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "How many chairs does Harbor Office Supply still need to deliver?",
+        "difficulty": 3,
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Ergonomic chair, model C-200, black: 8"
+          },
+          {
+            "doc": 0,
+            "quote": "Ergonomic chair, model C-200    6"
+          },
+          {
+            "doc": 2,
+            "quote": "Only six chairs arrived"
+          }
+        ],
+        "explain": {
+          "en": "The order form asks for eight chairs, while the invoice and the email show six delivered. That leaves two. Six is the number already delivered.",
+          "th": "สั่ง 8 ตัว (order form) แต่ใบแจ้งหนี้และอีเมลยืนยันว่าส่งมา 6 ตัว จึงขาดอีก 2 ตัว ส่วน 6 คือจำนวนที่ส่งแล้ว"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Which charge on the invoice does Mr. Ortega ask to have removed?",
+        "difficulty": 3,
+        "choices": [
+          "$45",
+          "$108",
+          "$680",
+          "$720"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "remove the delivery charge from our bill"
+          },
+          {
+            "doc": 0,
+            "quote": "Delivery charge                                $45"
+          }
+        ],
+        "explain": {
+          "en": "He asks that the delivery charge be removed from the bill, and the invoice shows that charge is $45. The other amounts are for items he received.",
+          "th": "เขาขอให้ตัดค่าจัดส่งออกจากบิล (remove the delivery charge) และใบแจ้งหนี้ระบุค่าจัดส่ง $45 ส่วนยอดอื่นเป็นค่าสินค้าที่ได้รับแล้ว"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "The word \"expedite\" in the second paragraph of the email is closest in meaning to",
+        "difficulty": 3,
+        "choices": [
+          "speed up",
+          "inspect",
+          "replace",
+          "refund"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "I would appreciate it if you could expedite the two missing chairs."
+          }
+        ],
+        "explain": {
+          "en": "Asking the company to expedite the missing chairs means to deliver them faster. Nothing in the sentence asks for an inspection or a refund.",
+          "th": "expedite คือเร่งให้เร็วขึ้น (speed up) เพราะคุณ Ortega อยากได้เก้าอี้ที่ขาดโดยเร็ว ไม่ได้ขอตรวจสอบหรือคืนเงิน"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0030",
+    "part": 7,
+    "format": "triple",
+    "docs": [
+      {
+        "kind": "schedule",
+        "title": "Schedule: Customer Service Training, October 14-17",
+        "body": "Customer Service Training Week\nTrainer: Kemal Okafor\n\nMonday, October 14\n9:00 a.m.-12:00 p.m. Phone Etiquette (Room 2A)\n1:00 p.m.-4:00 p.m. Handling Complaints (Room 2A)\n\nTuesday, October 15\n9:00 a.m.-12:00 p.m. CRM Software (Room 4B)\n\nWednesday, October 16\n9:00 a.m.-12:00 p.m. Team Role-Play (Room 2A)\n\nThursday, October 17\n10:00 a.m.-12:00 p.m. Final Assessment (Room 2A)\n\nPlease bring a laptop to the Tuesday session."
+      },
+      {
+        "kind": "memo",
+        "title": "Memo: Changes to Training Week",
+        "body": "To: All Customer Service Staff\nFrom: Hana Lindqvist, Human Resources\nSubject: Changes to training week\n\nRoom 4B will be closed on Tuesday for repairs. The CRM Software session will be held in Room 3C at the same time.\n\nMr. Okafor has another commitment on Wednesday morning, so the Team Role-Play session will take place from 1:00 p.m. to 4:00 p.m. that day. All other sessions remain as scheduled.\n\nCertificates will be given only to staff who attend every session. If you cannot attend a session, please contact me before Monday."
+      },
+      {
+        "kind": "chat",
+        "title": "Chat: Mia Santos and Ben Carver",
+        "body": "Mia Santos (10:12 A.M.): Did you read Hana's memo about the training?\nBen Carver (10:14 A.M.): Yes. They moved the computer session to Room 3C.\nMia Santos (10:15 A.M.): I'm more worried about Wednesday. I have a client call at 2:00 p.m. that day.\nBen Carver (10:17 A.M.): Then the role-play will run right over it, won't it?\nMia Santos (10:18 A.M.): It will. I'll ask Hana what I can do.\nBen Carver (10:19 A.M.): Good idea. Certificates only go to people who attend everything."
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "What is the purpose of the memo?",
+        "difficulty": 2,
+        "choices": [
+          "To announce changes to the training schedule",
+          "To introduce a new trainer",
+          "To register staff for the training",
+          "To explain how to use the CRM software"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "the Team Role-Play session will take place from 1:00 p.m. to 4:00 p.m. that day"
+          }
+        ],
+        "explain": {
+          "en": "The memo moves the CRM session to another room and the role-play to the afternoon. It names no new trainer and asks for no registration.",
+          "th": "บันทึกแจ้งย้ายห้องของเซสชัน CRM และย้ายเวลา Team Role-Play จึงเป็นการแจ้งเปลี่ยนตารางอบรม ไม่ได้แนะนำวิทยากรใหม่หรือรับลงทะเบียน"
+        }
+      },
+      {
+        "type": "intent",
+        "prompt": "At 10:17 A.M., what does Mr. Carver most likely mean when he writes, \"Then the role-play will run right over it, won't it?\"",
+        "difficulty": 4,
+        "choices": [
+          "The session will overlap with Ms. Santos's client call.",
+          "The role-play will be shorter than planned.",
+          "The client call should be canceled.",
+          "Ms. Santos has already missed the role-play."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 2,
+            "quote": "Then the role-play will run right over it, won't it?"
+          },
+          {
+            "doc": 2,
+            "quote": "I have a client call at 2:00 p.m. that day."
+          }
+        ],
+        "explain": {
+          "en": "Ms. Santos mentions a 2:00 p.m. call, and the role-play now runs 1:00 to 4:00 p.m. 'Run over it' means the two events conflict. Nothing suggests the session is shorter or the call is canceled.",
+          "th": "Mia มีนัดโทร 14.00 น. ส่วน role-play ย้ายมาเป็น 13.00-16.00 น. 'run right over it' จึงหมายถึงเวลาทับกัน ไม่ได้บอกว่าสั้นลงหรือให้ยกเลิกสาย"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Which session will Ms. Santos most likely need to ask to attend at another time?",
+        "difficulty": 3,
+        "choices": [
+          "Phone Etiquette",
+          "CRM Software",
+          "Team Role-Play",
+          "Final Assessment"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "the Team Role-Play session will take place from 1:00 p.m. to 4:00 p.m. that day"
+          },
+          {
+            "doc": 2,
+            "quote": "I have a client call at 2:00 p.m. that day."
+          }
+        ],
+        "explain": {
+          "en": "The memo moves the role-play to Wednesday afternoon, which overlaps her 2:00 p.m. client call. The CRM session also moved, but only its room changed.",
+          "th": "เซสชัน Team Role-Play ถูกย้ายเป็นบ่ายวันพุธ ซึ่งทับกับสาย 14.00 น. ของ Mia ส่วนเซสชัน CRM เปลี่ยนแค่ห้อง ไม่ได้เปลี่ยนเวลา"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "At what time will the session in Room 3C begin?",
+        "difficulty": 3,
+        "choices": [
+          "9:00 a.m. on Monday",
+          "9:00 a.m. on Tuesday",
+          "1:00 p.m. on Wednesday",
+          "10:00 a.m. on Thursday"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "The CRM Software session will be held in Room 3C at the same time."
+          },
+          {
+            "doc": 0,
+            "quote": "9:00 a.m.-12:00 p.m. CRM Software (Room 4B)"
+          }
+        ],
+        "explain": {
+          "en": "The memo moves CRM Software to Room 3C at the same time, and the schedule lists that session on Tuesday at 9:00 a.m.",
+          "th": "บันทึกบอกว่าเซสชัน CRM ย้ายไป Room 3C ในเวลาเดิม และตารางระบุว่าเริ่มวันอังคาร 9.00 น. จึงตอบวันอังคาร 9.00 น."
+        }
+      },
+      {
+        "type": "not-true",
+        "prompt": "What is NOT indicated about the training?",
+        "difficulty": 2,
+        "choices": [
+          "Certificates will be given to everyone who registers.",
+          "Staff should bring a laptop on Tuesday.",
+          "The final assessment is on Thursday.",
+          "Staff who cannot attend should contact Ms. Lindqvist."
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Certificates will be given only to staff who attend every session."
+          }
+        ],
+        "explain": {
+          "en": "Certificates go only to staff who attend every session, not to everyone who registers. The other statements appear in the schedule or the memo.",
+          "th": "ใบรับรองให้เฉพาะคนที่เข้าครบทุกเซสชัน (only to staff who attend every session) ไม่ใช่ทุกคนที่ลงทะเบียน ส่วนข้ออื่นมีระบุในตารางหรือบันทึก"
+        }
+      }
+    ],
+    "status": "approved"
+  }
+]

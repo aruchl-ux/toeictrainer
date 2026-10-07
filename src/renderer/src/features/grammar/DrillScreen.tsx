@@ -3,6 +3,7 @@ import { Navigate, useParams } from 'react-router'
 import { pickTopicDrill } from '@shared/quiz'
 import { Part5Topic } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
+import { TopicMark } from '../../app/Ink'
 import { QuizRunner } from './QuizRunner'
 import { useRecordAnswer } from './useRecordAnswer'
 
@@ -24,8 +25,11 @@ export function DrillScreen() {
 
   if (!topicId) return <Navigate to="/topics" replace />
   return (
-    <section>
-      <h1>{topic(topicId)}</h1>
+    <section className="quiz-screen">
+      <header className="quiz-title">
+        <TopicMark topic={topicId} />
+        <h1>{topic(topicId)}</h1>
+      </header>
       <QuizRunner
         key={`${topicId}-${run}`}
         entries={entries}
@@ -38,6 +42,7 @@ export function DrillScreen() {
       {done && (
         <button
           type="button"
+          className="again"
           onClick={() => {
             setDone(false)
             setRun((r) => r + 1)

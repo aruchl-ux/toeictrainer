@@ -1,0 +1,570 @@
+[
+  {
+    "id": "p7-0021",
+    "part": 7,
+    "format": "double",
+    "docs": [
+      {
+        "kind": "ad",
+        "title": "Advertisement: Lakeside Business Center",
+        "body": "Lakeside Business Center: Meeting Rooms for Rent\n\nHost your next training session, client presentation or team workshop in one of our modern meeting rooms.\n\nRoom A: seats up to 12 people, $60 per hour\nRoom B: seats up to 30 people, $110 per hour\nBoardroom: seats up to 16 people, $90 per hour\n\nAll rooms include a projector, wireless internet and free coffee and tea. Catering is available for an additional $15 per person. Bookings of four hours or more receive a 10 percent discount. Cancellations made at least 48 hours in advance are fully refundable.\n\nTo reserve a room, contact Dana Kowalski at bookings@lakesidebc.example."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Room reservation for June 18",
+        "body": "To: Dana Kowalski\nFrom: Marcus Chen\nSubject: Room reservation for June 18\n\nDear Ms. Kowalski,\n\nI would like to reserve a room at your center on Tuesday, June 18, from 9 a.m. to 2 p.m. for a sales training session. Twenty-five people will attend, and we will need lunch for all of them. Our company has used your Boardroom before, but it will be too small this time.\n\nCould you please confirm the total cost? I also need to move another event, so I may have to cancel this booking on June 17. Please let me know whether I would receive a refund in that case.\n\nSincerely,\nMarcus Chen\nOperations Manager, Brightway Logistics"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "Why did Mr. Chen write the email?",
+        "difficulty": 2,
+        "choices": [
+          "To complain about a recent event",
+          "To book a room for a training session",
+          "To apply for a job at the center",
+          "To ask for a list of catering companies"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I would like to reserve a room at your center on Tuesday, June 18, from 9 a.m. to 2 p.m. for a sales training session."
+          }
+        ],
+        "explain": {
+          "en": "Mr. Chen says he would like to reserve a room for a sales training session, so the email is a booking request.",
+          "th": "คุณ Chen เขียนว่าต้องการจองห้อง (reserve a room) สำหรับการอบรมฝ่ายขาย อีเมลนี้จึงเป็นการขอจองห้องประชุม ไม่ได้ร้องเรียน สมัครงาน หรือขอรายชื่อบริษัทจัดเลี้ยง"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "According to the advertisement, what is included with every room?",
+        "difficulty": 2,
+        "choices": [
+          "A projector and wireless internet",
+          "Lunch for all guests",
+          "A technician to run the equipment",
+          "Printed handouts for each participant"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "All rooms include a projector, wireless internet and free coffee and tea."
+          }
+        ],
+        "explain": {
+          "en": "The advertisement lists a projector, wireless internet and free coffee and tea for all rooms. Catering costs extra, and no technician or handouts are mentioned.",
+          "th": "โฆษณาระบุว่าทุกห้องมีโปรเจกเตอร์ อินเทอร์เน็ตไร้สาย และชา กาแฟฟรี ส่วนอาหารต้องจ่ายเพิ่ม (catering is available for an additional $15) และไม่ได้พูดถึงช่างเทคนิคหรือเอกสารแจก"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Which room will Mr. Chen most likely reserve?",
+        "difficulty": 3,
+        "choices": [
+          "Room A",
+          "The Boardroom",
+          "Room B",
+          "A room at another center"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Twenty-five people will attend"
+          },
+          {
+            "doc": 0,
+            "quote": "Room B: seats up to 30 people, $110 per hour"
+          }
+        ],
+        "explain": {
+          "en": "Twenty-five people will attend, and the Boardroom is too small. Only the room that seats up to 30 people can hold the group.",
+          "th": "จะมีผู้เข้าร่วม 25 คน และคุณ Chen บอกว่า Boardroom เล็กเกินไป ห้องที่รองรับได้ถึง 30 คนจึงเป็นห้องเดียวที่พอ (Room B) ต้องเชื่อมข้อมูลจากอีเมลกับโฆษณา"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "How much will Mr. Chen most likely pay for the room alone, not including catering?",
+        "difficulty": 4,
+        "choices": [
+          "$330",
+          "$550",
+          "$605",
+          "$495"
+        ],
+        "answer": 3,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "from 9 a.m. to 2 p.m."
+          },
+          {
+            "doc": 0,
+            "quote": "Room B: seats up to 30 people, $110 per hour"
+          },
+          {
+            "doc": 0,
+            "quote": "Bookings of four hours or more receive a 10 percent discount."
+          }
+        ],
+        "explain": {
+          "en": "The booking runs five hours at $110 per hour, which is $550. Because it is four hours or more, a 10 percent discount applies, so the total is $495.",
+          "th": "การจองคือ 5 ชั่วโมง (9 โมงถึงบ่ายสอง) ชั่วโมงละ 110 ดอลลาร์ รวม 550 ดอลลาร์ และเพราะจองตั้งแต่ 4 ชั่วโมงขึ้นไปจึงลด 10 เปอร์เซ็นต์ เหลือ 495 ดอลลาร์"
+        }
+      },
+      {
+        "type": "inference",
+        "prompt": "What is implied about a cancellation on June 17?",
+        "difficulty": 4,
+        "choices": [
+          "It would be refunded after a 10 percent fee",
+          "It would be fully refundable",
+          "It would not qualify for a full refund",
+          "It would be charged only for catering"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Cancellations made at least 48 hours in advance are fully refundable."
+          },
+          {
+            "doc": 1,
+            "quote": "I may have to cancel this booking on June 17."
+          }
+        ],
+        "explain": {
+          "en": "The event is on June 18 at 9 a.m., so a cancellation on June 17 comes less than 48 hours ahead. Only cancellations made at least 48 hours in advance get a full refund.",
+          "th": "งานเริ่มเช้าวันที่ 18 มิถุนายน การยกเลิกวันที่ 17 จึงเหลือเวลาน้อยกว่า 48 ชั่วโมง ในขณะที่โฆษณาคืนเงินเต็มจำนวนเฉพาะการยกเลิกล่วงหน้าอย่างน้อย 48 ชั่วโมง (at least 48 hours in advance) จึงไม่ได้รับเงินคืนเต็มจำนวน"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0022",
+    "part": 7,
+    "format": "double",
+    "docs": [
+      {
+        "kind": "ad",
+        "title": "Advertisement: Greenfield Fitness Club",
+        "body": "Greenfield Fitness Club: Spring Membership Offers\n\nBasic: $30 per month. Full access to the gym floor.\nPlus: $45 per month. Everything in Basic, plus unlimited group classes such as yoga, cycling and dance.\nPremium: $60 per month. Everything in Plus, plus use of our heated indoor pool.\n\nFull-time students receive 20 percent off Basic and Plus memberships with a valid student ID. The $50 joining fee is waived for anyone who signs up before April 30.\n\nVisit the front desk or write to join@greenfieldfit.example to get started."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Question about membership",
+        "body": "To: join@greenfieldfit.example\nFrom: Priya Nair\nSubject: Question about membership\n\nTo whom it may concern,\n\nI saw your advertisement and would like to join Greenfield Fitness Club. I am a full-time graduate student, and I would mostly attend yoga classes. I do not swim, so I do not need the pool.\n\nI plan to come in and sign up on April 22. Could you tell me what I should bring with me and what my monthly cost would be?\n\nThank you,\nPriya Nair"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "Why did Ms. Nair write the email?",
+        "difficulty": 2,
+        "choices": [
+          "To cancel her current membership",
+          "To ask about joining the club",
+          "To complain about the price of classes",
+          "To apply for a job as a yoga teacher"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I saw your advertisement and would like to join Greenfield Fitness Club."
+          }
+        ],
+        "explain": {
+          "en": "Ms. Nair says she would like to join the club and asks what to bring and what it would cost. She does not mention cancelling, complaining or a job.",
+          "th": "คุณ Nair บอกว่าเห็นโฆษณาและอยากเข้าร่วมสโมสร (would like to join) พร้อมถามว่าต้องเตรียมอะไรและค่าสมาชิกเท่าไร ไม่ได้พูดถึงการยกเลิก ร้องเรียน หรือสมัครงาน"
+        }
+      },
+      {
+        "type": "not-true",
+        "prompt": "What is NOT included in the Plus membership?",
+        "difficulty": 2,
+        "choices": [
+          "Use of the gym floor",
+          "Yoga classes",
+          "Cycling classes",
+          "Use of the indoor pool"
+        ],
+        "answer": 3,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Premium: $60 per month. Everything in Plus, plus use of our heated indoor pool."
+          }
+        ],
+        "explain": {
+          "en": "The pool is listed only as an extra for Premium members, so Plus does not include it. The gym floor and group classes such as yoga and cycling are part of Plus.",
+          "th": "สระว่ายน้ำเป็นสิทธิพิเศษของแพ็กเกจ Premium เท่านั้น (everything in Plus, plus use of our heated indoor pool) แพ็กเกจ Plus จึงไม่รวมสระ ส่วนยิมและคลาสกลุ่มอย่างโยคะกับปั่นจักรยานรวมอยู่แล้ว"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Which membership would be best for Ms. Nair?",
+        "difficulty": 3,
+        "choices": [
+          "Basic",
+          "Plus",
+          "Premium",
+          "None of the memberships"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I would mostly attend yoga classes. I do not swim"
+          },
+          {
+            "doc": 0,
+            "quote": "Plus: $45 per month. Everything in Basic, plus unlimited group classes"
+          }
+        ],
+        "explain": {
+          "en": "Ms. Nair wants yoga classes but not the pool. Only Plus offers group classes without paying for the pool.",
+          "th": "คุณ Nair จะมาเรียนโยคะเป็นหลักและไม่ว่ายน้ำ แพ็กเกจ Plus มีคลาสกลุ่มโดยไม่ต้องจ่ายค่าสระเพิ่ม Basic ไม่มีคลาส ส่วน Premium รวมสระที่เธอไม่ต้องใช้"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "How much will Ms. Nair most likely pay in total when she signs up and for her first month?",
+        "difficulty": 4,
+        "choices": [
+          "$36",
+          "$45",
+          "$86",
+          "$50"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I am a full-time graduate student"
+          },
+          {
+            "doc": 1,
+            "quote": "sign up on April 22"
+          },
+          {
+            "doc": 0,
+            "quote": "The $50 joining fee is waived for anyone who signs up before April 30."
+          }
+        ],
+        "explain": {
+          "en": "She is a full-time student, so Plus is 20 percent off, or $36. Because she joins on April 22, before April 30, the $50 joining fee is waived.",
+          "th": "เธอเป็นนักศึกษาเต็มเวลา จึงได้ลด 20 เปอร์เซ็นต์จาก Plus ($45) เหลือ $36 และเพราะสมัครวันที่ 22 เมษายน ก่อนวันที่ 30 จึงไม่ต้องจ่ายค่าแรกเข้า $50 (waived)"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "The word \"waived\" in the advertisement is closest in meaning to",
+        "difficulty": 3,
+        "choices": [
+          "not required",
+          "increased",
+          "delayed",
+          "reduced by half"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "The $50 joining fee is waived for anyone who signs up before April 30."
+          }
+        ],
+        "explain": {
+          "en": "If a fee is waived for early sign-ups, those people do not have to pay it. Nothing says the fee is delayed or cut in half.",
+          "th": "\"Waived\" แปลว่ายกเว้น ไม่ต้องจ่าย (not required) คือคนที่สมัครก่อนวันที่ 30 เมษายนไม่ต้องเสียค่าแรกเข้า ไม่ใช่เลื่อนจ่ายหรือลดครึ่งหนึ่ง"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0023",
+    "part": 7,
+    "format": "double",
+    "docs": [
+      {
+        "kind": "schedule",
+        "title": "Schedule: New Employee Orientation, May 12-13",
+        "body": "Nexus Software: New Employee Orientation\n\nMonday, May 12\n9:00-10:00 a.m. | Welcome and building tour | Ms. Alvarez | Room 101\n10:30 a.m.-12:00 p.m. | Payroll and benefits | Mr. Okafor | Room 204\n1:30-3:00 p.m. | Data security training | Ms. Lindqvist | Room 204\n\nTuesday, May 13\n9:00-11:30 a.m. | Product overview | Mr. Brandt | Room 310\n1:00-4:00 p.m. | Customer support shadowing | Ms. Tan | Support Floor\n\nQuestions? Contact Human Resources at ext. 4410."
+      },
+      {
+        "kind": "email",
+        "title": "Email: Request to change orientation schedule",
+        "body": "To: Elena Alvarez\nFrom: Tomas Rivera\nSubject: Request to change orientation schedule\n\nDear Ms. Alvarez,\n\nMy flight from Denver has been delayed, and it will not land until 11:15 a.m. on Monday. I will not reach the office before noon, so I will miss the first two sessions. I can still attend the afternoon session.\n\nCould the payroll and benefits session be moved? I am free on Tuesday between 11:30 a.m. and 1:00 p.m. I would also be grateful if someone could show me around the building when I arrive.\n\nThank you for your help.\nTomas Rivera"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "Why did Mr. Rivera write to Ms. Alvarez?",
+        "difficulty": 2,
+        "choices": [
+          "To ask for a change to part of his orientation",
+          "To confirm his flight to Denver",
+          "To apply for a position in Human Resources",
+          "To complain about the building"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Could the payroll and benefits session be moved?"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Rivera explains his delay and asks for one session to be moved. He is not confirming a flight, applying for a job or complaining.",
+          "th": "คุณ Rivera ขอให้ย้ายช่วง payroll and benefits เพราะเที่ยวบินล่าช้า เขาไม่ได้ยืนยันเที่ยวบิน สมัครงานฝ่ายบุคคล หรือร้องเรียนเรื่องอาคาร"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "Why will Mr. Rivera miss some of the Monday sessions?",
+        "difficulty": 2,
+        "choices": [
+          "He has a medical appointment.",
+          "His flight has been delayed.",
+          "He has to attend a client meeting.",
+          "He was given the wrong schedule."
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "My flight from Denver has been delayed"
+          }
+        ],
+        "explain": {
+          "en": "The email says his flight has been delayed and he will not reach the office before noon. No other reason is given.",
+          "th": "อีเมลบอกว่าเที่ยวบินล่าช้า (flight has been delayed) เขาจึงถึงออฟฟิศไม่ทันก่อนเที่ยง ไม่ได้ให้เหตุผลอื่น"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Who most likely leads the session that Mr. Rivera asks to have moved?",
+        "difficulty": 3,
+        "choices": [
+          "Ms. Alvarez",
+          "Mr. Brandt",
+          "Mr. Okafor",
+          "Ms. Lindqvist"
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "Could the payroll and benefits session be moved?"
+          },
+          {
+            "doc": 0,
+            "quote": "10:30 a.m.-12:00 p.m. | Payroll and benefits | Mr. Okafor | Room 204"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Rivera asks to move the payroll and benefits session, and the schedule shows that Mr. Okafor leads it. Ms. Alvarez leads only the welcome and building tour.",
+          "th": "คุณ Rivera ขอย้ายช่วง payroll and benefits และตารางระบุว่าคุณ Okafor เป็นผู้นำช่วงนี้ ส่วนคุณ Alvarez ดูแลเฉพาะช่วงต้อนรับและพาชมอาคาร"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "Where will Mr. Rivera most likely be at 1:30 p.m. on Monday?",
+        "difficulty": 3,
+        "choices": [
+          "Room 101",
+          "Room 310",
+          "The Support Floor",
+          "Room 204"
+        ],
+        "answer": 3,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I can still attend the afternoon session."
+          },
+          {
+            "doc": 0,
+            "quote": "1:30-3:00 p.m. | Data security training | Ms. Lindqvist | Room 204"
+          }
+        ],
+        "explain": {
+          "en": "He says he can attend the afternoon session, which the schedule lists as data security training in Room 204. Room 101 was for the morning tour that he will miss.",
+          "th": "เขาบอกว่ายังเข้าช่วงบ่ายได้ (the afternoon session) ซึ่งตารางระบุว่าเป็นการอบรม data security ที่ห้อง 204 ส่วนห้อง 101 เป็นช่วงเช้าที่เขาจะพลาด"
+        }
+      },
+      {
+        "type": "not-true",
+        "prompt": "What is NOT true about the orientation?",
+        "difficulty": 3,
+        "choices": [
+          "It lasts two days.",
+          "It begins with a building tour.",
+          "Ms. Tan leads the Tuesday morning session.",
+          "It includes training on data security."
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "9:00-11:30 a.m. | Product overview | Mr. Brandt | Room 310"
+          }
+        ],
+        "explain": {
+          "en": "The Tuesday morning session is a product overview led by Mr. Brandt. Ms. Tan leads the afternoon shadowing session.",
+          "th": "ช่วงเช้าวันอังคารเป็น product overview โดยคุณ Brandt ส่วนคุณ Tan ดูแลช่วงบ่าย (customer support shadowing) ข้อนี้จึงไม่จริง"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "p7-0024",
+    "part": 7,
+    "format": "double",
+    "docs": [
+      {
+        "kind": "article",
+        "title": "Article: Riverside Launches Bike-Share Program",
+        "body": "Riverside Launches Bike-Share Program\n\nRIVERSIDE (May 3) - The city council voted Tuesday to approve a bike-share program that will launch on June 1. The program will place 200 bicycles at 20 stations. Stations will be located downtown and around Harlan University.\n\nRiders will pay nothing for the first 30 minutes of each trip. After that, the cost is $2 for each additional 30 minutes or part of 30 minutes. A state transportation grant will cover the startup costs.\n\n\"We designed this program for short trips,\" said council member Helen Park. \"If it is popular, we will add stations in other neighborhoods next year.\""
+      },
+      {
+        "kind": "letter",
+        "title": "Letter to the Editor: Bike-share stations",
+        "body": "To the Editor:\n\nI applaud the city council for approving the bike-share program described in your May 3 article. As someone who bikes to work every day, I know how much a program like this can help our community.\n\nHowever, I live in the Eastside neighborhood, and I was disappointed to learn that none of the first 20 stations will be close to my home. My ride to work takes about 50 minutes each way, so I would also like the council to consider longer trips.\n\nI hope the council will not wait a year to expand.\n\nDaniel Ortiz\nRiverside"
+      }
+    ],
+    "questions": [
+      {
+        "type": "main-idea",
+        "prompt": "What is the purpose of the letter?",
+        "difficulty": 2,
+        "choices": [
+          "To announce the opening date of the program",
+          "To praise the program while raising a concern",
+          "To ask the city to fund a new university",
+          "To report a problem with a bicycle"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I applaud the city council for approving the bike-share program"
+          },
+          {
+            "doc": 1,
+            "quote": "none of the first 20 stations will be close to my home"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Ortiz praises the program but is disappointed that no early station is near his home. The opening date is in the article, not the purpose of the letter.",
+          "th": "คุณ Ortiz ชื่นชมโครงการ (applaud) แต่ก็ผิดหวังที่ไม่มีสถานีใกล้บ้านเขาในช่วงแรก จุดประสงค์จึงคือชมพร้อมแสดงความกังวล ไม่ได้ประกาศวันเปิดโครงการ"
+        }
+      },
+      {
+        "type": "detail",
+        "prompt": "According to the article, how will the startup costs be paid?",
+        "difficulty": 2,
+        "choices": [
+          "By fees from riders",
+          "By a state transportation grant",
+          "By a donation from the university",
+          "By a tax on local businesses"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "A state transportation grant will cover the startup costs."
+          }
+        ],
+        "explain": {
+          "en": "The article says a state transportation grant will cover the startup costs. Rider fees are mentioned only for trips longer than 30 minutes.",
+          "th": "บทความระบุว่าเงินช่วยเหลือจากรัฐ (a state transportation grant) จะครอบคลุมค่าใช้จ่ายเริ่มต้น ค่าใช้จ่ายของผู้ใช้มีเฉพาะเมื่อปั่นเกิน 30 นาที"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "What is suggested about the Eastside neighborhood?",
+        "difficulty": 3,
+        "choices": [
+          "It is near Harlan University.",
+          "It will have stations next year at the latest.",
+          "It is not close to the first stations.",
+          "It voted against the program."
+        ],
+        "answer": 2,
+        "evidence": [
+          {
+            "doc": 0,
+            "quote": "Stations will be located downtown and around Harlan University."
+          },
+          {
+            "doc": 1,
+            "quote": "I live in the Eastside neighborhood"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Ortiz lives in Eastside and says no early station is near him, and the article places the first stations downtown and near the university. Ms. Park only says stations may be added \"next year\" if the program is popular.",
+          "th": "คุณ Ortiz อาศัยอยู่ย่าน Eastside และบอกว่าไม่มีสถานีใกล้บ้าน ส่วนบทความระบุว่าสถานีแรกอยู่ย่านใจกลางเมืองและรอบมหาวิทยาลัย ย่านนี้จึงอยู่ไกลจากสถานีแรก ส่วนสถานีเพิ่มเติมเป็นเพียงความเป็นไปได้ถ้าโครงการได้รับความนิยม"
+        }
+      },
+      {
+        "type": "cross-reference",
+        "prompt": "How much would Mr. Ortiz most likely pay for one 50-minute ride?",
+        "difficulty": 4,
+        "choices": [
+          "$0",
+          "$2",
+          "$4",
+          "$5"
+        ],
+        "answer": 1,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "My ride to work takes about 50 minutes each way"
+          },
+          {
+            "doc": 0,
+            "quote": "After that, the cost is $2 for each additional 30 minutes or part of 30 minutes."
+          }
+        ],
+        "explain": {
+          "en": "The first 30 minutes are free, and the remaining 20 minutes count as part of one additional 30-minute block, which costs $2.",
+          "th": "30 นาทีแรกฟรี ส่วนอีก 20 นาทีที่เหลือนับเป็นส่วนหนึ่งของช่วง 30 นาทีเพิ่มเติม (30 minutes or part of 30 minutes) คิดเงิน $2"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "The word \"applaud\" in the letter is closest in meaning to",
+        "difficulty": 2,
+        "choices": [
+          "praise",
+          "question",
+          "replace",
+          "delay"
+        ],
+        "answer": 0,
+        "evidence": [
+          {
+            "doc": 1,
+            "quote": "I applaud the city council for approving the bike-share program"
+          }
+        ],
+        "explain": {
+          "en": "Mr. Ortiz is happy about the approval and says so, so \"applaud\" means to praise. He does not question or delay the program.",
+          "th": "\"Applaud\" แปลว่าชื่นชม (praise) คุณ Ortiz พอใจที่สภาเมืองอนุมัติโครงการ ไม่ได้ตั้งคำถามหรือขอเลื่อน"
+        }
+      }
+    ],
+    "status": "approved"
+  }
+]

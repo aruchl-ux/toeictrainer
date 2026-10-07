@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { GRAMMAR_TOPICS } from '@shared/types'
-import { STRINGS, TOPIC_LABELS, t } from '@renderer/app/i18n'
+import { STRINGS, TOPIC_LABELS, t, skillLabel } from '@renderer/app/i18n'
 
 describe('i18n', () => {
   it('interpolates variables', () => {
@@ -14,5 +14,10 @@ describe('i18n', () => {
       expect(TOPIC_LABELS[topic].th.length).toBeGreaterThan(0)
       expect(TOPIC_LABELS[topic].en.length).toBeGreaterThan(0)
     }
+  })
+  it('labels grammar topics and Part 7 question types in both languages', () => {
+    expect(skillLabel('word-form', 'en')).toBe('Word form')
+    expect(skillLabel('inference', 'en')).toBe('Inference')
+    expect(skillLabel('inference', 'th')).toBe('การอนุมาน')
   })
 })

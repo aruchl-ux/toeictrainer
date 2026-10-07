@@ -24,4 +24,10 @@ describe('repository content', () => {
       for (const item of items) expect(item.topic).toBe(basename(file, '.json'))
     }
   })
+
+  it('has at least one Part 7 set and unique Part 7 ids', () => {
+    expect(bank.part7.length).toBeGreaterThan(0)
+    const ids = bank.part7.map((s) => s.id)
+    expect(new Set(ids).size).toBe(ids.length)
+  })
 })

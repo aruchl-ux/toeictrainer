@@ -73,5 +73,80 @@
       "th": "รูปแบบที่ถูกต้องคือ send something to someone โดย to บอกผู้รับ ในที่นี้คือผู้จัดการฝ่ายบุคคล"
     },
     "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0006",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 3,
+    "stem": "All travel expense reports must be submitted to the accounting office ____ 5 P.M. on Friday.",
+    "choices": ["until", "by", "since", "within"],
+    "answer": 1,
+    "trap": "'by' + deadline; 'until' + an action that continues",
+    "explain": {
+      "en": "5 P.M. on Friday is a deadline, the latest time the reports can arrive, so 'by' is correct. 'until' is used for an action that continues up to a point, such as 'the office is open until 5 P.M.', and submitting happens only once.",
+      "th": "5 P.M. on Friday คือกำหนดส่ง (deadline) หมายถึงต้องส่งไม่เกินเวลานี้ จึงใช้ by ส่วน until ใช้กับการกระทำที่ต่อเนื่องไปจนถึงเวลาหนึ่ง เช่น the office is open until 5 P.M. แต่การส่งรายงานเกิดขึ้นครั้งเดียว คนไทยมักแปลทั้งสองคำว่า ภายใน/จนถึง จึงสับสนบ่อย"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0007",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 2,
+    "stem": "Mr. Okafor is responsible ____ coordinating all travel arrangements for the regional sales team.",
+    "choices": ["of", "to", "with", "for"],
+    "answer": 3,
+    "trap": "'responsible for' + noun or gerund",
+    "explain": {
+      "en": "The adjective 'responsible' takes the preposition 'for' when it names a duty: 'responsible for coordinating'. 'responsible to' is used for the person you report to, not the task.",
+      "th": "คำคุณศัพท์ responsible ใช้คู่กับ for เมื่อบอกหน้าที่ที่รับผิดชอบ เช่น responsible for coordinating ส่วน responsible to ใช้บอกว่าต้องรายงานต่อใคร (บุคคล) ไม่ใช่งานที่ทำ"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0008",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 3,
+    "stem": "All suppliers are required to comply ____ the company's environmental standards before signing a contract.",
+    "choices": ["with", "to", "for", "by"],
+    "answer": 0,
+    "trap": "'comply with' a rule or standard",
+    "explain": {
+      "en": "The verb 'comply' is always followed by 'with': you comply with rules, standards or requests. 'comply to' is a common mistake, probably because of 'conform to' and 'adhere to', but it is not standard English.",
+      "th": "กริยา comply ต้องตามด้วย with เสมอ เช่น comply with the rules (ปฏิบัติตามกฎ) หลายคนเผลอใช้ comply to เพราะติดจาก conform to หรือ adhere to แต่ comply to ไม่ถูกต้องในภาษาอังกฤษมาตรฐาน"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0009",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 2,
+    "stem": "Discounted room rates are available ____ the year for corporate clients who book at least a month in advance.",
+    "choices": ["among", "between", "throughout", "along"],
+    "answer": 2,
+    "trap": "'throughout' + period = during the whole time",
+    "explain": {
+      "en": "'throughout the year' means 'during the whole year, at any time'. 'among' and 'between' are used with people or things in a group, and 'along' is used with roads or lines, not periods of time.",
+      "th": "throughout the year แปลว่า ตลอดทั้งปี ใช้ได้ทุกช่วงเวลา ส่วน among และ between ใช้กับสิ่งของหรือคนในกลุ่ม และ along ใช้กับถนนหรือแนวยาว ไม่ใช้กับช่วงเวลา"
+    },
+    "status": "approved"
+  },
+  {
+    "id": "p5-prepositions-0010",
+    "part": 5,
+    "topic": "prepositions",
+    "difficulty": 4,
+    "stem": "Thanks to the new pricing strategy, monthly revenue has increased ____ nearly 15 percent compared with last year.",
+    "choices": ["to", "of", "on", "by"],
+    "answer": 3,
+    "trap": "'increase by' + amount of change",
+    "explain": {
+      "en": "'by' shows the size of a change: revenue grew by 15 percent compared with last year. 'increase to' gives the final level, but revenue is an amount of money, not a percentage, so 'to nearly 15 percent' does not make sense here.",
+      "th": "by ใช้บอกขนาดของการเปลี่ยนแปลง เช่น increase by 15 percent (เพิ่มขึ้น 15 เปอร์เซ็นต์) ส่วน increase to ใช้บอกระดับสุดท้ายที่ไปถึง แต่รายได้เป็นจำนวนเงิน ไม่ใช่เปอร์เซ็นต์ ประโยคนี้จึงใช้ to ไม่ได้"
+    },
+    "status": "approved"
   }
 ]
