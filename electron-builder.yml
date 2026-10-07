@@ -1,0 +1,43 @@
+appId: com.milfdev.toeictrainer
+productName: TOEIC Trainer
+copyright: Copyright © 2026 MILF dev
+
+directories:
+  output: dist
+  buildResources: build
+
+# The app is the electron-vite output; renderer code is already bundled, main/preload load zod from node_modules.
+files:
+  - out/**/*
+  - package.json
+  - '!**/*.map'
+
+# Approved question banks ship beside the app (src/main/paths.ts reads resources/content when packaged).
+extraResources:
+  - from: content
+    to: content
+    filter:
+      - '**/*.json'
+      - '!drafts/**'
+
+asar: true
+
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  artifactName: TOEIC-Trainer-Setup-${version}.${ext}
+
+nsis:
+  oneClick: false
+  # Per-user install: no admin rights needed on a work PC.
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: TOEIC Trainer
+  # Progress and settings live in %APPDATA%; keep them if the app is uninstalled or reinstalled.
+  deleteAppDataOnUninstall: false
+  # Adds the "TOEIC Trainer (Office)" Start menu shortcut that opens with --office.
+  include: build/installer.nsh
