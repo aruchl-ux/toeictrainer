@@ -16,7 +16,7 @@ test.describe('Security: renderer isolation and IPC hardening', () => {
       process: 'undefined',
       module: 'undefined',
       Buffer: 'undefined',
-      api: ['content', 'dev', 'progress', 'settings']
+      api: ['app', 'content', 'dev', 'progress', 'settings']
     })
     // contextBridge objects are frozen copies: page scripts cannot swap the bridge's functions.
     const tampered = await page.evaluate(() => {

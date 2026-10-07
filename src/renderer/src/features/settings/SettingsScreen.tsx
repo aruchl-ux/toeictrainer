@@ -35,6 +35,15 @@ export function SettingsScreen() {
           ))}
         </div>
       </fieldset>
+      <section className="office-switch" aria-labelledby="office-title">
+        <h2 id="office-title" className="panel-title">
+          {t('settingsOffice')}
+        </h2>
+        <p className="muted">{t('settingsOfficeHint')}</p>
+        <button type="button" onClick={() => void window.api.app.setMode('office')}>
+          {t('settingsOfficeSwitch')}
+        </button>
+      </section>
       <section className="about" aria-labelledby="about-title">
         <h2 id="about-title" className="panel-title">
           {t('settingsAbout')}

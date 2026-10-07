@@ -604,6 +604,10 @@ mark.blank.current { background: var(--yellow); color: var(--ink); }
 .lang-label { font: 600 var(--type-subtitle)/1.3 var(--display); color: var(--blue); }
 .lang-sample { font-size: var(--type-meta); color: var(--ink-soft); }
 
+/* Office view switch: same ruled block as About, secondary button under a short note. */
+.office-switch { margin-top: var(--space-10); padding-top: var(--space-5); border-top: var(--rule) solid var(--blue); max-width: 534px; }
+.office-switch > .muted { margin: var(--space-2) 0 var(--space-4); }
+
 /* About */
 .about { margin-top: var(--space-10); padding-top: var(--space-5); border-top: var(--rule) solid var(--pink); max-width: 534px; }
 .credit { margin: 0; font: 600 var(--type-lead)/1.4 var(--display); color: var(--blue); }

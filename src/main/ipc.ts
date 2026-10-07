@@ -6,7 +6,9 @@ import {
   GrammarAttempt,
   MixedTestResult,
   ReadingAttempt,
-  SettingsPatch
+  SettingsPatch,
+  UiMode,
+  type Settings
 } from '@shared/types'
 import { loadContent } from './content'
 import { approveDraft, listDrafts, rejectDraft } from './drafts'
@@ -16,9 +18,13 @@ export interface IpcDeps {
   store: Store
   contentRoot: string
   isDev: boolean
+  /** Reloads the sender's window into the chosen view. */
+  setMode(sender: Electron.WebContents, mode: UiMode): void
+  /** Called after every successful settings write (window chrome follows the Office theme). */
+  onSettings(settings: Settings): void
 }
 
-export function registerIpc({ store, contentRoot, isDev }: IpcDeps): void {
+export function registerIpc({ store, contentRoot, isDev, setMode, onSettings }: IpcDeps): void {
   ipcMain.handle(IPC.contentBank, () => {
     const { bank, errors } = loadContent(contentRoot)
     for (const e of errors) console.error('[content]', e)
@@ -37,7 +43,16 @@ export function registerIpc({ store, contentRoot, isDev }: IpcDeps): void {
   )
   ipcMain.handle(IPC.progressFinishReadingTest, (_e, f: unknown) => store.finishReadingTest(FinishReadingTest.parse(f)))
   ipcMain.handle(IPC.settingsGet, () => store.getSettings())
-  ipcMain.handle(IPC.settingsSet, (_e, patch: unknown) => store.setSettings(SettingsPatch.parse(patch)))
+  ipcMain.handle(IPC.settingsSet, (_e, patch: unknown) => {
+    const settings = store.setSettings(SettingsPatch.parse(patch))
+    onSettings(settings)
+    return settings
+  })
+  ipcMain.handle(IPC.appSetMode, (e, mode: unknown) => {
+    const m = UiMode.parse(mode)
+    store.setSettings({ uiMode: m })
+    setMode(e.sender, m)
+  })
   ipcMain.handle(IPC.devIsDev, () => isDev)
   if (isDev) {
     ipcMain.handle(IPC.devListDrafts, () => listDrafts(contentRoot))

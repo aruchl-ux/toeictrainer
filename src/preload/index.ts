@@ -15,6 +15,7 @@ const api: Api = {
     get: () => ipcRenderer.invoke(IPC.settingsGet),
     set: (patch) => ipcRenderer.invoke(IPC.settingsSet, patch)
   },
+  app: { setMode: (mode) => ipcRenderer.invoke(IPC.appSetMode, mode) },
   dev: {
     isDev: () => ipcRenderer.invoke(IPC.devIsDev),
     listDrafts: () => ipcRenderer.invoke(IPC.devListDrafts),

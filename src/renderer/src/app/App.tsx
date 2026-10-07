@@ -40,6 +40,18 @@ export function App() {
     document.documentElement.lang = settings.language
   }, [settings.language])
 
+  // Ctrl+Shift+M flips to the Office view (and back from there).
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.ctrlKey && e.shiftKey && !e.altKey && e.key.toLowerCase() === 'm') {
+        e.preventDefault()
+        void window.api.app.setMode('office')
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+
   return (
     <div className="app" data-lang={settings.language}>
       <InkDefs />

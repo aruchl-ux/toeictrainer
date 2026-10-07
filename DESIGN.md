@@ -239,6 +239,8 @@ components:
 
 # Design System: TOEIC Trainer
 
+> Scope: this system governs the trainer renderer (src/renderer/src). The Office view (src/renderer/office) is a separate, dark-first system documented in [DESIGN.office.md](DESIGN.office.md) with its sidecar .impeccable/design.office.json; neither system's rules apply to the other.
+
 ## Overview
 
 **Creative North Star: "The Riso Poster Studio"**

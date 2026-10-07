@@ -7,7 +7,8 @@ import type {
   Progress,
   ReadingAttempt,
   Settings,
-  SettingsPatch
+  SettingsPatch,
+  UiMode
 } from './types'
 
 export interface DraftEntry {
@@ -28,6 +29,7 @@ export const IPC = {
   progressFinishReadingTest: 'progress:finishReadingTest',
   settingsGet: 'settings:get',
   settingsSet: 'settings:set',
+  appSetMode: 'app:setMode',
   devIsDev: 'dev:isDev',
   devListDrafts: 'dev:listDrafts',
   devApproveDraft: 'dev:approveDraft',
@@ -47,6 +49,10 @@ export interface Api {
   settings: {
     get(): Promise<Settings>
     set(patch: SettingsPatch): Promise<Settings>
+  }
+  app: {
+    /** Saves the choice and reloads the window into that view (trainer or office). */
+    setMode(mode: UiMode): Promise<void>
   }
   dev: {
     isDev(): Promise<boolean>

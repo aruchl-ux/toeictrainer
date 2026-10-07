@@ -263,9 +263,25 @@ export const emptyProgress = (): Progress => ({
   activeReadingTest: null
 })
 
-export const Settings = z.object({ language: Language.default('th') })
+/** Which renderer the window shows: the poster trainer or the agent-style Office view. */
+export const UiMode = z.enum(['trainer', 'office'])
+export type UiMode = z.infer<typeof UiMode>
+export const OfficeTheme = z.enum(['dark', 'light'])
+export type OfficeTheme = z.infer<typeof OfficeTheme>
+
+// uiMode and officeTheme stay absent until the learner picks them, so a fresh settings file is still `{ language }`.
+// A bad value drops that one field instead of resetting the whole file.
+export const Settings = z.object({
+  language: Language.default('th'),
+  uiMode: UiMode.optional().catch(undefined),
+  officeTheme: OfficeTheme.optional().catch(undefined)
+})
 export type Settings = z.infer<typeof Settings>
-export const SettingsPatch = z.object({ language: Language.optional() })
+export const SettingsPatch = z.object({
+  language: Language.optional(),
+  uiMode: UiMode.optional(),
+  officeTheme: OfficeTheme.optional()
+})
 export type SettingsPatch = z.infer<typeof SettingsPatch>
 export const defaultSettings = (): Settings => ({ language: 'th' })
 
