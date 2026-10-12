@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- พื้นหลังไล่เฉดสีส้มสดใส Energetic & Lively -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A45"/>
+      <stop offset="50%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#E64A19"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+    <linearGradient id="tanPatch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0A96D"/>
+      <stop offset="100%" stop-color="#C6803F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ฐานขอบมน Squircle สำหรับ App Icon -->
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#bgGradient)"/>
+  <circle cx="256" cy="240" r="185" fill="#FFFFFF" opacity="0.12"/>
+  <circle cx="256" cy="240" r="145" fill="#FFFFFF" opacity="0.10"/>
+
+  <!-- ดาวประกายตกแต่ง -->
+  <path d="M 95 110 L 99 122 L 111 126 L 99 130 L 95 142 L 91 130 L 79 126 L 91 122 Z" fill="#FFE082" opacity="0.9"/>
+  <path d="M 415 130 L 418 140 L 428 143 L 418 146 L 415 156 L 412 146 L 402 143 L 412 140 Z" fill="#FFE082" opacity="0.9"/>
+
+  <!-- ตัวละครน้องหมา Jack Russell Trainer -->
+  <g id="dog-character">
+    <!-- ก้านหูฟัง (สื่อถึงการฝึกฟัง Listening Part ของ TOEIC) -->
+    <path d="M 148 210 A 120 120 0 0 1 364 210" fill="none" stroke="#1A237E" stroke-width="20" stroke-linecap="round"/>
+
+    <!-- หูพับ 2 ข้าง -->
+    <path d="M 180 160 C 130 140 120 190 145 225 C 160 215 175 190 180 160 Z" fill="url(#tanPatch)" stroke="#5D4037" stroke-width="4"/>
+    <path d="M 332 160 C 382 140 392 190 367 225 C 352 215 337 190 332 160 Z" fill="url(#tanPatch)" stroke="#5D4037" stroke-width="4"/>
+
+    <!-- โครงหน้าสีขาว -->
+    <ellipse cx="256" cy="250" rx="105" ry="98" fill="#FFFDF9" stroke="#4E342E" stroke-width="5"/>
+
+    <!-- แถบแต้มสีน้ำตาลขวาตามภาพต้นฉบับ -->
+    <path d="M 256 153 C 315 153 355 190 355 245 C 345 285 315 295 280 290 C 265 270 256 220 256 153 Z" fill="url(#tanPatch)"/>
+
+    <!-- แก้มสีชมพู และจุดกระน่ารัก -->
+    <ellipse cx="180" cy="285" rx="15" ry="10" fill="#FF8A80" opacity="0.85"/>
+    <ellipse cx="332" cy="285" rx="15" ry="10" fill="#FF8A80" opacity="0.85"/>
+    <circle cx="212" cy="295" r="3" fill="#A1887F"/>
+    <circle cx="204" cy="303" r="2.5" fill="#A1887F"/>
+
+    <!-- ดวงตาสดใสเป็นประกาย -->
+    <ellipse cx="212" cy="245" rx="15" ry="18" fill="#212121"/>
+    <circle cx="207" cy="239" r="6" fill="#FFFFFF"/>
+    <ellipse cx="300" cy="245" rx="15" ry="18" fill="#212121"/>
+    <circle cx="295" cy="239" r="6" fill="#FFFFFF"/>
+
+    <!-- จมูกและรอยยิ้ม -->
+    <path d="M 244 268 C 244 260 268 260 268 268 C 268 277 259 281 256 281 C 253 281 244 277 244 268 Z" fill="#212121"/>
+    <path d="M 244 286 C 244 308 268 308 268 286 Z" fill="#E53935"/>
+    <path d="M 247 296 C 251 305 261 305 265 296 Z" fill="#FF8A80"/>
+
+    <!-- ที่ครอบหูฟังสีฟ้า -->
+    <rect x="130" y="195" width="28" height="52" rx="14" fill="url(#blueGrad)" stroke="#0D47A1" stroke-width="4"/>
+    <rect x="354" y="195" width="28" height="52" rx="14" fill="url(#blueGrad)" stroke="#0D47A1" stroke-width="4"/>
+
+    <!-- ดินสอทำข้อสอบ TOEIC -->
+    <g transform="translate(195, 325) rotate(-18)">
+      <polygon points="0,0 20,-10 120,-10 120,10 20,10" fill="#FFCA28" stroke="#F57F17" stroke-width="3"/>
+      <polygon points="0,0 20,-10 20,10" fill="#FFE082"/>
+      <polygon points="0,0 7,-3.5 7,3.5" fill="#212121"/>
+      <rect x="105" y="-10" width="20" height="20" fill="#FF4081" stroke="#C2185B" stroke-width="2"/>
+    </g>
+
+    <!-- อุ้งเท้าน้อยถือดินสอ -->
+    <ellipse cx="206" cy="346" rx="20" ry="15" fill="#FFFFFF" stroke="#4E342E" stroke-width="4"/>
+    <ellipse cx="306" cy="346" rx="20" ry="15" fill="#FFFFFF" stroke="#4E342E" stroke-width="4"/>
+  </g>
+
+  <!-- ป้าย Badge ข้อความ TOEIC -->
+  <g transform="translate(116, 396)">
+    <rect x="0" y="0" width="280" height="60" rx="30" fill="#FFFFFF"/>
+    <text x="140" y="42" font-family="'Arial Black', sans-serif" font-weight="900" font-size="32" fill="#E64A19" text-anchor="middle" letter-spacing="4">TOEIC</text>
+  </g>
+</svg>

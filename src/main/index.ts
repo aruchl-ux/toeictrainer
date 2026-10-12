@@ -63,6 +63,8 @@ function createWindow(initial: UiMode): void {
     minWidth: 720,
     minHeight: 560,
     backgroundColor: backgroundFor(initial, store.getSettings()),
+    // Packaged builds take the icon from the exe; dev runs point at the same artwork.
+    icon: app.isPackaged ? undefined : join(app.getAppPath(), 'build/icon.png'),
     show: false,
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),

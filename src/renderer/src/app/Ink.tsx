@@ -1,7 +1,8 @@
 import type { GrammarTopic } from '@shared/types'
+import logoUrl from '../assets/logo.svg'
 
 /**
- * Riso ink artwork: the app mark, topic marks, poster shapes and line icons.
+ * Riso ink artwork: topic marks, poster shapes and line icons.
  * Shapes overprint with multiply (pink over blue reads violet) and carry the
  * shared grain filter defined once in <InkDefs />.
  */
@@ -41,14 +42,9 @@ export function InkDefs() {
   )
 }
 
+/** The app logo: same artwork as the window/installer icon (build/icon.png), so no ink filter. */
 export function AppMark({ className }: { className?: string }) {
-  return (
-    <svg className={`ink ${className ?? ''}`} viewBox="0 0 96 72" aria-hidden="true" focusable="false">
-      <rect x="30" y="18" width="46" height="46" style={{ fill: BLUE }} />
-      <circle cx="30" cy="26" r="22" style={{ fill: PINK }} />
-      <path d="M58 64 L92 64 L75 34 Z" style={{ fill: YELLOW }} />
-    </svg>
-  )
+  return <img className={className} src={logoUrl} alt="" aria-hidden="true" draggable={false} />
 }
 
 type Shape =
