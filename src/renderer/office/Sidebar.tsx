@@ -27,7 +27,8 @@ function Diff({ results }: { results: boolean[] }) {
 function Row({ to, icon, label, meta, title }: { to: string; icon?: ReactNode; label: string; meta?: ReactNode; title?: string }) {
   const loc = useLocation()
   const here = loc.pathname + loc.search
-  const active = to === '/' ? here === '/' : here === to || (!to.includes('?') && loc.pathname === to)
+  const active =
+    to === '/' ? here === '/' : here === to || (!to.includes('?') && (loc.pathname === to || loc.pathname.startsWith(`${to}/`)))
   return (
     <li>
       <Link to={to} className={active ? 'srow on' : 'srow'} aria-current={active ? 'page' : undefined} title={title ?? label}>
@@ -91,6 +92,7 @@ export function Sidebar() {
           {o('groupPart5')}
         </p>
         <ul className="srows">
+          <Row to="/cheat" label={t('navCheat')} />
           {shown.map((tp) => (
             <Row key={tp} to={`/drill/${tp}`} label={skill(tp)} meta={<Diff results={byTopic.get(tp) ?? []} />} />
           ))}

@@ -3,6 +3,7 @@ import { Link, NavLink, Route, Routes } from 'react-router'
 import { localDate } from '@shared/dates'
 import { dueIds } from '@shared/leitner'
 import { resolveIds } from '@shared/quiz'
+import { CheatSheetIndexScreen, CheatSheetScreen } from '../features/cheatsheet/CheatSheetScreen'
 import { ContentReviewScreen } from '../features/content-review/ContentReviewScreen'
 import { DrillScreen } from '../features/grammar/DrillScreen'
 import { MixedTestScreen } from '../features/grammar/MixedTestScreen'
@@ -70,6 +71,7 @@ export function App() {
             {t('navHome')}
           </NavLink>
           <NavLink to="/topics">{t('navTopics')}</NavLink>
+          <NavLink to="/cheatsheet">{t('navCheat')}</NavLink>
           <NavLink to="/reading">{t('navReading')}</NavLink>
           <NavLink to="/mixed">{t('navMixed')}</NavLink>
           <NavLink to="/reading-test">{t('navReadingTest')}</NavLink>
@@ -103,6 +105,8 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/topics" element={<TopicListScreen />} />
+          <Route path="/cheatsheet" element={<CheatSheetIndexScreen />} />
+          <Route path="/cheatsheet/:topic" element={<CheatSheetScreen />} />
           <Route path="/reading" element={<ReadingScreen />} />
           <Route path="/drill/:topic" element={<DrillScreen />} />
           <Route path="/mixed" element={<MixedTestScreen />} />

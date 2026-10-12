@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router'
 import { useApp } from '@renderer/app/AppContext'
+import { CheatThread } from './CheatThread'
 import { focusComposer } from './Composer'
 import { HomeThread } from './HomeThread'
 import { SettingsThread } from './SettingsThread'
@@ -112,6 +113,8 @@ export function OfficeApp() {
             <Route path="/" element={<HomeThread />} />
             <Route path="/review" element={<ReviewThread />} />
             <Route path="/drill/:topic" element={<DrillThread />} />
+            <Route path="/cheat" element={<CheatThread />} />
+            <Route path="/cheat/:topic" element={<CheatThread />} />
             {/* A new filter or format opens a fresh picker rather than keeping the open set. */}
             <Route path="/read" element={<ReadThread key={location.search} />} />
             <Route path="/mixed" element={<MixedThread />} />

@@ -3,11 +3,13 @@ import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router'
 import { useApp } from '@renderer/app/AppContext'
 import { P5_COUNT, P6_COUNT } from '@renderer/features/grammar/MixedTestScreen'
 import type { AnswerRecord } from '@renderer/features/grammar/quizReducer'
+import { CHEAT_SHEETS } from '@shared/cheatsheet'
 import { localDate } from '@shared/dates'
 import { dueIds } from '@shared/leitner'
 import { flattenPart7, pickMixedTest, pickTopicDrill, resolveIds, shuffle, shuffleChoices, type QuizEntry } from '@shared/quiz'
 import { topicStats, weakestTopics } from '@shared/scoring'
 import { PART7_FORMATS, PART7_QTYPES, Part5Topic, Part7Format, Part7QType, type Part7Set } from '@shared/types'
+import { CheatPane } from './CheatPane'
 import type { Command } from './commands'
 import { ChevronRight, DocsIcon, ShuffleIcon } from './icons'
 import { QuizThread } from './QuizThread'
@@ -54,6 +56,7 @@ export function DrillThread() {
       intro={<Typed cmd={`/drill ${topic}`} />}
       commands={commands}
       onEnterDone={again}
+      sidePane={<CheatPane sheet={CHEAT_SHEETS[topic]} />}
       doneActions={
         <>
           <button type="button" className="btn primary" onClick={again}>

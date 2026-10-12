@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
+import { cheatSheetFor } from '@shared/cheatsheet'
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
 import type { Part6Set } from '@shared/types'
 import { t, skillLabel, type Lang } from '../../app/i18n'
 import { CheckIcon, CrossIcon } from '../../app/Ink'
+import { CheatSheetDialog } from '../cheatsheet/CheatSheetDialog'
 import { PassageView } from '../reading/PassageView'
 
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -58,7 +60,9 @@ function Passage({ set, current }: { set: Part6Set; current: number }) {
 
 function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
   const [showOther, setShowOther] = useState(false)
+  const [sheetOpen, setSheetOpen] = useState(false)
   const f = entryFields(entry)
+  const sheet = cheatSheetFor(f.topic)
   const explainLang: Lang = showOther ? (lang === 'th' ? 'en' : 'th') : lang
   return (
     <div className="explain">
@@ -67,9 +71,17 @@ function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
         {f.trap && <strong>{f.trap}</strong>}
       </p>
       <p className="explain-body" lang={explainLang}>{f.explain[explainLang]}</p>
-      <button type="button" className="link" lang={lang} onClick={() => setShowOther((v) => !v)}>
-        {t(lang, showOther ? 'showMainLang' : 'showOtherLang')}
-      </button>
+      <div className="explain-links">
+        <button type="button" className="link" lang={lang} onClick={() => setShowOther((v) => !v)}>
+          {t(lang, showOther ? 'showMainLang' : 'showOtherLang')}
+        </button>
+        {sheet && (
+          <button type="button" className="link" lang={lang} aria-haspopup="dialog" onClick={() => setSheetOpen(true)}>
+            {t(lang, 'cheatOpenFor', { topic: skillLabel(f.topic, lang) })}
+          </button>
+        )}
+      </div>
+      {sheet && sheetOpen && <CheatSheetDialog sheet={sheet} lang={lang} onClose={() => setSheetOpen(false)} />}
     </div>
   )
 }

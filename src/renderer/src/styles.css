@@ -633,6 +633,57 @@ mark.blank.current { background: var(--yellow); color: var(--ink); }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 
+/* ---------- Cheat sheet ---------- */
+/* Topic tiles carry a small "Formulas" link under the plate. */
+.tile-with-link { display: grid; grid-template-rows: 1fr auto; justify-items: start; gap: var(--space-2); }
+.tile-link { font-size: var(--type-meta); }
+
+.cheat-back { margin-bottom: var(--space-5); }
+.cheat-page-head { display: flex; align-items: center; gap: var(--space-5); }
+.cheat-page-mark { width: 72px; height: auto; flex: none; }
+
+.cheat-sheet-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-2) var(--space-6); margin-bottom: var(--space-6); }
+.cheat-intro { margin: 0; max-width: 46em; font-size: var(--type-lead); line-height: 1.6; color: var(--ink-soft); }
+.cheat-intro:lang(th) { line-height: 1.75; }
+.cheat-sheet-head button.link { color: var(--blue); }
+
+.cheat-entries { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: var(--space-5); }
+.cheat-entry { display: flex; flex-direction: column; gap: var(--space-3); padding: var(--space-5) var(--space-6); background: var(--paper-lift); border: var(--rule) solid var(--blue); border-top: 6px solid var(--pink); }
+.cheat-name { margin: 0; font: 700 var(--type-subtitle)/1.3 var(--display); color: var(--blue); }
+.cheat-formulas { display: grid; gap: var(--space-2); }
+/* A formula is read as a structure: S, verb forms and slots each keep one ink on every sheet. */
+.formula { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) var(--space-2); font: 600 var(--type-prompt)/1.5 var(--display); }
+.fp { padding: 0 var(--space-2); }
+.fp-subject { background: var(--blue); color: var(--paper); }
+.fp-verb { background: var(--pink-ink); color: var(--paper); }
+.fp-slot { background: var(--yellow); color: var(--ink); }
+.fp-word { padding: 0; color: var(--ink); }
+.fp-punct { padding: 0; margin-left: calc(-1 * var(--space-2)); color: var(--ink-soft); }
+.fp-plus { color: var(--ink-soft); font-weight: 400; }
+.cheat-use { margin: 0; font-size: var(--type-body); line-height: 1.65; }
+.cheat-use:lang(th) { line-height: 1.8; }
+.cheat-example { margin: 0; padding-left: var(--space-3); border-left: 3px solid var(--yellow); font-size: var(--type-reading); line-height: 1.6; }
+.cheat-example mark { background: var(--yellow); color: var(--ink); font-weight: 700; padding: 0 2px; }
+.cheat-translation { margin: calc(-1 * var(--space-2)) 0 0; padding-left: var(--space-3); border-left: 3px solid transparent; font-size: var(--type-label); line-height: 1.7; color: var(--ink-soft); }
+.cheat-clues { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2); margin-top: auto; }
+.cheat-clues-label { font: 600 var(--type-meta)/1.5 var(--display); color: var(--pink-ink); }
+.cheat-clues ul { display: contents; list-style: none; }
+.cheat-clues li { padding: 0 var(--space-2); font-size: var(--type-meta); line-height: 1.6; border: 1px solid var(--pink); }
+
+.cheat-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-5) var(--space-8); margin-top: var(--space-10); padding-top: var(--space-6); border-top: var(--rule) solid var(--pink); }
+.cheat-switch { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-5); margin: 0; padding: 0; list-style: none; font-size: var(--type-label); }
+.cheat-switch a { color: var(--blue); }
+.cheat-switch a:hover { color: var(--pink-ink); }
+
+.explain-links { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-6); }
+
+/* In-drill sheet: a sheet laid over the question, which stays mounted underneath. */
+.cheat-dialog { width: min(1040px, 94vw); max-height: 88vh; padding: 0; color: var(--ink); background: var(--paper); border: var(--rule) solid var(--blue); box-shadow: 8px 8px 0 var(--pink); }
+.cheat-dialog::backdrop { background: rgb(28 37 89 / 0.45); }
+.cheat-dialog-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding: var(--space-4) var(--space-6); background: var(--paper); border-bottom: var(--rule) solid var(--blue); }
+.cheat-dialog-head h2 { margin: 0; font: 700 var(--type-title)/1.2 var(--display); color: var(--blue); }
+.cheat-dialog .cheat-sheet { padding: var(--space-5) var(--space-6) var(--space-6); }
+
 /* ---------- Responsive ---------- */
 /* Short windows (768px laptops): tighten the rail so the due box stays on screen. */
 @media (max-height: 800px) and (min-width: 901px) {

@@ -36,6 +36,12 @@ export function useGlobalCommands(): Command[] {
       args: PART5_TOPICS.map((tp) => ({ value: tp, label: topicLabel(tp, lang) })),
       run: (arg) => navigate(`/drill/${arg}`)
     },
+    {
+      name: 'cheat',
+      hint: o('cmdCheat'),
+      args: PART5_TOPICS.map((tp) => ({ value: tp, label: topicLabel(tp, lang) })),
+      run: (arg) => navigate(arg ? `/cheat/${arg}` : '/cheat')
+    },
     { name: 'read', hint: o('cmdRead'), args: formats, run: (arg) => navigate(arg ? `/read?format=${arg}` : '/read') },
     { name: 'mixed', hint: o('cmdMixed'), run: () => navigate('/mixed') },
     {

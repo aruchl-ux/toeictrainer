@@ -1,0 +1,91 @@
+import type { CheatSheet } from './types'
+
+export const comparatives: CheatSheet = {
+  topic: 'comparatives',
+  intro: {
+    en: 'Than means comparative, the + group means superlative, as … as means equal. Find the signal word first.',
+    th: 'มี than ใช้ขั้นกว่า มี the + กลุ่มที่เปรียบเทียบใช้ขั้นสูงสุด มี as … as คือเท่ากัน หาคำสัญญาณก่อน'
+  },
+  entries: [
+    {
+      id: 'comparative',
+      name: { en: 'Comparative', th: 'ขั้นกว่า (Comparative)' },
+      formula: ['Adj-er + than', 'more + Adj + than'],
+      use: {
+        en: 'Short adjectives add -er; longer ones use more. Both are followed by than.',
+        th: 'คำคุณศัพท์สั้นเติม -er คำยาวใช้ more นำหน้า ทั้งสองแบบตามด้วย than'
+      },
+      example: {
+        en: 'The new model is {{lighter}} than the old one.',
+        th: 'รุ่นใหม่เบากว่ารุ่นเก่า'
+      },
+      clues: ['than']
+    },
+    {
+      id: 'superlative',
+      name: { en: 'Superlative', th: 'ขั้นสูงสุด (Superlative)' },
+      formula: ['the + Adj-est + N', 'the most + Adj + N'],
+      use: {
+        en: 'Used for the top one in a group, usually with the and often with in/of + group or ever.',
+        th: 'ใช้กับสิ่งที่มากที่สุดในกลุ่ม มักมี the และมักตามด้วย in/of + กลุ่ม หรือ ever'
+      },
+      example: {
+        en: 'This is {{the most popular}} tour we offer.',
+        th: 'นี่คือทัวร์ที่ได้รับความนิยมมากที่สุดของเรา'
+      },
+      clues: ['the', 'of all', 'in the region', 'ever', 'one of the + N(s)']
+    },
+    {
+      id: 'as-as',
+      name: { en: 'As … as', th: 'As … as (เท่ากัน)' },
+      formula: ['as + Adj/Adv + as', 'not as + Adj + as'],
+      use: {
+        en: 'Shows two things are equal. The word between the two as is the plain form, not -er.',
+        th: 'แสดงว่าสองสิ่งเท่ากัน คำที่อยู่ระหว่าง as ทั้งสองเป็นรูปปกติ ไม่เติม -er'
+      },
+      example: {
+        en: 'The second quarter was {{as}} profitable as the first.',
+        th: 'ไตรมาสที่สองทำกำไรได้เท่ากับไตรมาสแรก'
+      }
+    },
+    {
+      id: 'comparative-intensifiers',
+      name: { en: 'Much / far + comparative', th: 'Much / far + ขั้นกว่า' },
+      formula: ['much/far/even/a lot + Adj-er + than'],
+      use: {
+        en: 'To make a comparative stronger use much, far, even or a lot. Never use very.',
+        th: 'ถ้าจะเน้นขั้นกว่า ใช้ much, far, even หรือ a lot ห้ามใช้ very'
+      },
+      example: {
+        en: 'The new office is {{much}} larger than the old one.',
+        th: 'สำนักงานใหม่ใหญ่กว่าที่เก่ามาก'
+      }
+    },
+    {
+      id: 'the-more-the-more',
+      name: { en: 'The more …, the more …', th: 'ยิ่ง … ยิ่ง …' },
+      formula: ['the + Adj-er + S + V, the + Adj-er + S + V'],
+      use: {
+        en: 'Shows that one change causes another. Both halves start with the + comparative.',
+        th: 'แสดงว่าการเปลี่ยนแปลงหนึ่งทำให้อีกอย่างเปลี่ยนตาม ทั้งสองส่วนขึ้นต้นด้วย the + ขั้นกว่า'
+      },
+      example: {
+        en: 'The earlier you register, {{the lower}} the fee will be.',
+        th: 'ยิ่งลงทะเบียนเร็ว ค่าธรรมเนียมยิ่งถูก'
+      }
+    },
+    {
+      id: 'irregular-comparatives',
+      name: { en: 'Irregular forms', th: 'รูปเปรียบเทียบที่ไม่ปกติ' },
+      formula: ['good/well → better → the best', 'bad/badly → worse → the worst', 'many/much → more → the most'],
+      use: {
+        en: 'These change the whole word instead of adding -er or -est.',
+        th: 'คำเหล่านี้เปลี่ยนรูปทั้งคำ ไม่ได้เติม -er หรือ -est'
+      },
+      example: {
+        en: 'Our sales results were {{better}} than expected.',
+        th: 'ผลยอดขายของเราดีกว่าที่คาดไว้'
+      }
+    }
+  ]
+}

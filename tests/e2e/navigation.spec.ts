@@ -5,6 +5,7 @@ import { expect, goHash, nav, newProfile, readJsonFile, test } from './helpers'
 const SCREENS: [link: string, heading: RegExp][] = [
   ['Home', /Today/],
   ['Topic drills', /^Topic drills \(Part 5\)$/],
+  ['Cheat sheet', /^Grammar cheat sheet$/],
   ['Reading (Part 7)', /^Reading \(Part 7\)$/],
   ['Mixed test', /^Mixed test \(Part 5 \+ 6\)$/],
   ['Reading test', /^Reading test$/],

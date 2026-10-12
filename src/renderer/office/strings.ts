@@ -104,6 +104,11 @@ const en = {
   cmdFlag: 'Flag or unflag this question',
   cmdGoto: 'Jump to a question number',
   cmdSubmit: 'Submit the test',
+  cmdCheat: 'Formulas for a Part 5 topic',
+  cheatPick: 'Pick a topic. Its formulas open in the side pane.',
+  cheatOpenIn: 'The formulas are open in the side pane.',
+  cheatPaneHidden: 'The side pane is hidden.',
+  cheatShowPane: 'Show pane',
   langTh: 'Thai',
   langEn: 'English'
 } as const
@@ -211,6 +216,11 @@ const th: Record<OfficeKey, string> = {
   cmdFlag: 'ทำหรือเอาเครื่องหมายออก',
   cmdGoto: 'ไปยังข้อที่ระบุ',
   cmdSubmit: 'ส่งข้อสอบ',
+  cmdCheat: 'สูตรไวยากรณ์ของหัวข้อ Part 5',
+  cheatPick: 'เลือกหัวข้อ แล้วสูตรจะเปิดในแผงด้านข้าง',
+  cheatOpenIn: 'เปิดสูตรไว้ในแผงด้านข้างแล้ว',
+  cheatPaneHidden: 'แผงด้านข้างถูกซ่อนอยู่',
+  cheatShowPane: 'แสดงแผง',
   langTh: 'ไทย',
   langEn: 'อังกฤษ'
 }

@@ -21,7 +21,9 @@ export function TopicListScreen() {
           const body = (
             <>
               <TopicMark topic={tp} />
-              <span className="tile-name">{topic(tp)}</span>
+              <span className="tile-name" id={`tile-name-${tp}`}>
+                {topic(tp)}
+              </span>
               <span className="tile-meta">
                 <span className="num">{t('topicsCount', { n: count })}</span>
                 {stat && <span className="num">{t('topicsAccuracy', { p: Math.round(stat.accuracy * 100) })}</span>}
@@ -29,7 +31,7 @@ export function TopicListScreen() {
             </>
           )
           return (
-            <li key={tp}>
+            <li key={tp} className="tile-with-link">
               {count > 0 ? (
                 <Link className="tile" to={`/drill/${tp}`}>
                   {body}
@@ -39,6 +41,10 @@ export function TopicListScreen() {
                   {body}
                 </div>
               )}
+              {/* Named "Formulas"; the topic name is its description, so the drill tile keeps the only link named after the topic. */}
+              <Link className="text-link tile-link" to={`/cheatsheet/${tp}`} aria-describedby={`tile-name-${tp}`}>
+                {t('cheatOpen')}
+              </Link>
             </li>
           )
         })}

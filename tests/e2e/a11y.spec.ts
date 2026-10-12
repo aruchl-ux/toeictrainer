@@ -125,7 +125,7 @@ test.describe('Accessibility', () => {
     const { page } = await launchApp()
     await page.locator('body').focus()
     const seen: { text: string; outline: string }[] = []
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 11; i++) {
       await page.keyboard.press('Tab')
       seen.push(
         await page.evaluate(() => {
@@ -139,6 +139,7 @@ test.describe('Accessibility', () => {
       'TOEIC Trainer',
       'Home',
       'Topic drills',
+      'Cheat sheet',
       'Reading (Part 7)',
       'Mixed test',
       'Reading test',

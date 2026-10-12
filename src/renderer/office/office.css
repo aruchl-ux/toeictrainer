@@ -1558,6 +1558,82 @@ code.marker {
   color: var(--accent);
   font: 12px var(--mono);
 }
+
+/* Cheat sheet doc: formulas read like highlighted code, prose stays plain. */
+.cheat-note {
+  justify-content: space-between;
+  color: var(--text-3);
+}
+.cheat-doc {
+  padding: 16px 20px 48px;
+}
+.cheat-doc-intro {
+  margin: 0 0 18px;
+  color: var(--text-2);
+}
+.cheat-doc-entry {
+  display: grid;
+  gap: 6px;
+  padding: 14px 0 16px;
+  border-top: 1px solid var(--line);
+}
+.cheat-doc-entry h3 {
+  margin: 0 0 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.cheat-doc-entry p {
+  margin: 0;
+}
+.cf {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: var(--raise);
+  font: 13px/1.6 var(--mono);
+  overflow-wrap: anywhere;
+}
+.cf-subject {
+  color: var(--accent);
+  font-weight: 600;
+}
+.cf-verb {
+  color: var(--warn);
+  font-weight: 600;
+}
+.cf-slot {
+  color: var(--text);
+  text-decoration: underline dotted var(--text-3);
+  text-underline-offset: 3px;
+}
+.cf-word {
+  color: var(--text-2);
+}
+.cf-plus,
+.cf-punct {
+  color: var(--text-3);
+}
+.cheat-doc-ex {
+  padding-left: 10px;
+  border-left: 2px solid var(--line-2);
+}
+.cheat-doc-clues {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  font-size: 12.5px;
+}
+.cheat-doc-clues code {
+  padding: 0 6px;
+  border-radius: 4px;
+  background: var(--raise-2);
+  font: 12px/1.7 var(--mono);
+  color: var(--text-2);
+}
+.row-btn[aria-current='true'] {
+  background: var(--accent-wash);
+}
 code.blank.now {
   outline: 1px solid var(--accent);
   background: var(--accent-wash);

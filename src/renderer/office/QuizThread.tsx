@@ -27,6 +27,8 @@ interface Props {
   commands?: Command[]
   /** Enter on the finished thread runs this (usually "again"). */
   onEnterDone?(): void
+  /** Side pane for Part 5 tasks, which have no passage (the topic's formulas in a drill). */
+  sidePane?: ReactNode
 }
 
 function Pace({ since, limit }: { since: number; limit: number }) {
@@ -50,7 +52,7 @@ function Pace({ since, limit }: { since: number; limit: number }) {
   )
 }
 
-export function QuizThread({ entries, mode, crumbs, intro, pace, onFinish, doneActions, commands = [], onEnterDone }: Props) {
+export function QuizThread({ entries, mode, crumbs, intro, pace, onFinish, doneActions, commands = [], onEnterDone, sidePane }: Props) {
   const { o, t, skill } = useO()
   const [s, dispatch] = useReducer(quizReducer, undefined, () => initQuiz(entries, mode, Date.now()))
   const onAnswer = useRecordAnswer()
@@ -118,7 +120,9 @@ export function QuizThread({ entries, mode, crumbs, intro, pace, onFinish, doneA
         entry={paneEntry}
         evidence={paneEntry.kind === 'p7' && current && reveal ? paneEntry.set.questions[paneEntry.q].evidence : null}
       />
-    ) : undefined
+    ) : (
+      sidePane
+    )
 
   const correct = s.records.filter((r) => r.correct).length
   const timed = s.records.filter((r) => r.ms > 0)
