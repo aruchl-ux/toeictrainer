@@ -63,7 +63,10 @@ export function ContentReviewScreen() {
       {drafts === null ? (
         <p className="muted">Loading…</p>
       ) : drafts.length === 0 ? (
-        <p className="muted">No drafts. Generate some with npm run gen.</p>
+        <p className="muted">
+          No drafts. Generate some in a terminal with <code>npm run gen -- --part 5 --topic word-form</code> (or{' '}
+          <code>--part 6</code>), then reopen this screen. Run <code>npm run gen</code> alone to list every option.
+        </p>
       ) : (
         drafts.map((d) => <DraftCard key={`${d.file}:${d.id}`} draft={d} onDone={onDone} />)
       )}

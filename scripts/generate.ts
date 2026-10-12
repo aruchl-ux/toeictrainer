@@ -2,7 +2,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
 import { loadContent } from '../src/main/content'
-import { Part5Topic, type Part5Item } from '../src/shared/types'
+import { PART5_TOPICS, Part5Topic, type Part5Item } from '../src/shared/types'
 import { ask } from './lib/claude'
 import {
   CheckResult,
@@ -34,6 +34,17 @@ function readDrafts(): Record<string, unknown>[] {
     })
 }
 
+// npm keeps flags for itself unless they come after `--`, so the usage shows that form.
+const USAGE = `Usage:
+  npm run gen -- --part 5 --topic <topic> [--count 10] [--difficulty 3]
+  npm run gen -- --part 6 [--count 3] [--difficulty 3]
+
+Part 5 topics: ${PART5_TOPICS.join(', ')}
+Needs ANTHROPIC_API_KEY (PowerShell: $env:ANTHROPIC_API_KEY = "sk-ant-...") or an \`ant auth login\` profile.
+Drafts are written to content/drafts; review them in the app at /dev/content.`
+
+class UsageError extends Error {}
+
 const strings = (xs: Record<string, unknown>[], key: string): string[] =>
   xs.flatMap((x) => (typeof x[key] === 'string' ? [x[key] as string] : []))
 
@@ -59,19 +70,28 @@ function save(name: string, items: { flag?: string }[]): void {
 }
 
 async function main(): Promise<void> {
-  const { values } = parseArgs({
-    options: {
-      part: { type: 'string' },
-      topic: { type: 'string' },
-      count: { type: 'string', default: '10' },
-      difficulty: { type: 'string', default: '3' }
-    }
-  })
+  let values
+  try {
+    ;({ values } = parseArgs({
+      options: {
+        part: { type: 'string' },
+        topic: { type: 'string' },
+        count: { type: 'string', default: '10' },
+        difficulty: { type: 'string', default: '3' }
+      }
+    }))
+  } catch (e) {
+    throw new UsageError(e instanceof Error ? e.message : String(e))
+  }
   const count = Number(values.count)
   const difficulty = Number(values.difficulty)
-  if (!Number.isInteger(count) || count < 1 || count > 50) throw new Error('--count must be an integer from 1 to 50')
+  if (values.part !== '5' && values.part !== '6') throw new UsageError('--part must be 5 or 6')
+  if (values.part === '5' && !Part5Topic.safeParse(values.topic).success) {
+    throw new UsageError(values.topic ? `Unknown topic "${values.topic}"` : '--topic is required for --part 5')
+  }
+  if (!Number.isInteger(count) || count < 1 || count > 50) throw new UsageError('--count must be an integer from 1 to 50')
   if (!Number.isInteger(difficulty) || difficulty < 1 || difficulty > 5) {
-    throw new Error('--difficulty must be an integer from 1 to 5')
+    throw new UsageError('--difficulty must be an integer from 1 to 5')
   }
 
   const { bank } = loadContent(CONTENT)
@@ -112,12 +132,14 @@ async function main(): Promise<void> {
       titles.push(...items.map((s) => s.title))
       save(`part6-${stamp}-b${k}.json`, await selfCheck(items))
     }
-  } else {
-    throw new Error('--part must be 5 or 6')
   }
 }
 
 main().catch((err: unknown) => {
   console.error(err instanceof Error ? err.message : err)
+  if (err instanceof UsageError) console.error(`\n${USAGE}`)
+  else if (err instanceof Error && /authentication/i.test(err.message)) {
+    console.error('\nNo Claude credentials found. Set ANTHROPIC_API_KEY (PowerShell: $env:ANTHROPIC_API_KEY = "sk-ant-...") and run again.')
+  }
   process.exit(1)
 })
