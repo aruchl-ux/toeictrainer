@@ -19,6 +19,18 @@ describe('formulaParts', () => {
     expect(formulaParts('V(s/es) + V-ing + to V1 + be V-ed').map((p) => p.kind)).toEqual(['verb', 'verb', 'verb', 'word'])
   })
 
+  it('treats ", " and "; " as clause breaks', () => {
+    expect(formulaParts('S + V; however, S + V')).toEqual([
+      { text: 'S', kind: 'subject' },
+      { text: 'V', kind: 'verb' },
+      { text: ';', kind: 'punct' },
+      { text: 'however', kind: 'word' },
+      { text: ',', kind: 'punct' },
+      { text: 'S', kind: 'subject' },
+      { text: 'V', kind: 'verb' }
+    ])
+  })
+
   it('keeps optional parts in brackets as their slot kind', () => {
     expect(formulaParts('(Adv) + Adj + N')).toEqual([
       { text: '(Adv)', kind: 'slot' },
@@ -87,5 +99,30 @@ describe('CHEAT_SHEETS content', () => {
 
   it('has no empty clue words', () => {
     for (const e of entries) for (const c of e.clues ?? []) expect(c.trim(), e.id).not.toBe('')
+  })
+
+  it('gives every listed word a meaning in both languages, once per entry', () => {
+    for (const e of entries) {
+      const ws = (e.words ?? []).map((w) => w.w)
+      expect(new Set(ws).size, e.id).toBe(ws.length)
+      for (const w of e.words ?? []) {
+        expect(w.w.trim(), e.id).not.toBe('')
+        expect(w.en.trim(), `${e.id}: ${w.w}`).not.toBe('')
+        expect(w.th.trim(), `${e.id}: ${w.w}`).not.toBe('')
+      }
+    }
+  })
+
+  it('explains every linking word used in a conj-vs-prep formula', () => {
+    for (const e of CHEAT_SHEETS['conj-vs-prep'].entries) {
+      // A pair like "both … and" explains both of its halves.
+      const listed = new Set((e.words ?? []).flatMap((w) => w.w.split(' … ')))
+      const used = e.formula.flatMap((line) =>
+        formulaParts(line)
+          .filter((p) => p.kind === 'word')
+          .flatMap((p) => p.text.split('/'))
+      )
+      for (const w of used) expect(listed.has(w), `${e.id}: "${w}" has no meaning`).toBe(true)
+    }
   })
 })

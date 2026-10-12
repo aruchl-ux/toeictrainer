@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const conditionals: CheatSheet = {
   topic: 'conditionals',
   intro: {
-    en: 'Match the two halves: the verb form in the if clause tells you the verb form in the main clause.',
-    th: 'จับคู่สองส่วนให้ตรงกัน รูปกริยาในประโยค if เป็นตัวบอกรูปกริยาในประโยคหลัก'
+    en: 'Match the pair: the verb in the if part tells you the verb in the other part.',
+    th: 'จับคู่ให้ถูก: กริยาในส่วน if เป็นแบบไหน อีกส่วนก็ต้องเป็นคู่ของมัน'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const conditionals: CheatSheet = {
       name: { en: 'Zero conditional', th: 'Zero conditional (ความจริงทั่วไป)' },
       formula: ['if + S + V(s/es), S + V(s/es)'],
       use: {
-        en: 'Something that is always true when the condition happens.',
-        th: 'สิ่งที่เป็นจริงเสมอเมื่อเงื่อนไขเกิดขึ้น'
+        en: 'Always true: if A happens, B happens. Both parts use the present simple.',
+        th: 'เรื่องจริงเสมอ: ถ้า A เกิด B ก็เกิด ทั้งสองส่วนใช้ present simple'
       },
       example: {
         en: 'If the temperature {{drops}} below zero, the pipes freeze.',
@@ -25,8 +25,8 @@ export const conditionals: CheatSheet = {
       name: { en: 'First conditional', th: 'First conditional (เป็นไปได้ในอนาคต)' },
       formula: ['if + S + V(s/es), S + will + V1'],
       use: {
-        en: 'A real possibility in the future. Use the present simple after if, not will.',
-        th: 'สิ่งที่เป็นไปได้จริงในอนาคต หลัง if ใช้ present simple ห้ามใช้ will'
+        en: 'Real and possible in the future: if + present simple, then will.',
+        th: 'เป็นไปได้จริงในอนาคต: if + present simple แล้วอีกส่วนใช้ will'
       },
       example: {
         en: 'If you {{order}} today, we will ship it tomorrow.',
@@ -39,8 +39,8 @@ export const conditionals: CheatSheet = {
       name: { en: 'Second conditional', th: 'Second conditional (สมมติในปัจจุบัน)' },
       formula: ['if + S + V2/were, S + would + V1'],
       use: {
-        en: 'An imaginary or unlikely situation now. Use were for every subject.',
-        th: 'สถานการณ์สมมติหรือไม่น่าเกิดขึ้นในปัจจุบัน ใช้ were ได้กับประธานทุกตัว'
+        en: 'Imaginary, not true now: if + V2 (or were), then would.',
+        th: 'สมมติ ไม่จริงตอนนี้: if + V2 (หรือ were) แล้วอีกส่วนใช้ would'
       },
       example: {
         en: 'If we {{had}} more staff, we would open on weekends.',
@@ -52,8 +52,8 @@ export const conditionals: CheatSheet = {
       name: { en: 'Third conditional', th: 'Third conditional (สมมติในอดีต)' },
       formula: ['if + S + had + V3, S + would have + V3'],
       use: {
-        en: 'An imaginary past: it did not happen, so the result did not happen either.',
-        th: 'สมมติย้อนอดีต เหตุการณ์ไม่ได้เกิดขึ้นจริง ผลจึงไม่เกิดขึ้นด้วย'
+        en: 'Imaginary past that did not happen: if + had V3, then would have V3.',
+        th: 'สมมติย้อนอดีต ซึ่งไม่ได้เกิดขึ้นจริง: if + had V3 แล้วอีกส่วนใช้ would have V3'
       },
       example: {
         en: 'If the parts had arrived earlier, we {{would have finished}} on time.',
@@ -65,8 +65,8 @@ export const conditionals: CheatSheet = {
       name: { en: 'Unless (= if … not)', th: 'Unless (= ถ้าไม่)' },
       formula: ['unless + S + V(s/es), S + will + V1'],
       use: {
-        en: 'Unless means "if … not". The verb after it is positive.',
-        th: 'unless แปลว่า "ถ้าไม่" กริยาหลัง unless จึงเป็นรูปบอกเล่า'
+        en: 'Unless means "if not". The verb after it is not negative.',
+        th: 'unless = ถ้าไม่ กริยาหลัง unless จึงเป็นรูปบอกเล่า'
       },
       example: {
         en: 'The event will be canceled {{unless}} more people register.',

@@ -25,6 +25,7 @@ for (const tp of PART5_TOPICS) {
   for (const e of sheet.entries) {
     lines.push(`### ${e.name.en} · ${e.name.th} \`${e.id}\``, '')
     for (const f of e.formula) lines.push(`    ${f}`)
+    if (e.words?.length) lines.push('', ...e.words.map((w) => `- \`${w.w}\` = ${w.th} (${w.en})`))
     lines.push('', `- ${e.use.en}`, `- ${e.use.th}`, `- ${bold(e.example.en)}`, `- ${e.example.th}`)
     if (e.clues?.length) lines.push(`- Clues: ${e.clues.join(' · ')}`)
     lines.push('')

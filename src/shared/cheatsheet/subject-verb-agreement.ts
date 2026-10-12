@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const subjectVerbAgreement: CheatSheet = {
   topic: 'subject-verb-agreement',
   intro: {
-    en: 'Find the real subject first, skipping phrases like "of the…" or "who…" that sit between it and the verb. Then match singular or plural.',
-    th: 'หาประธานตัวจริงก่อน โดยข้ามวลีที่คั่นอยู่ เช่น "of the…" หรือ "who…" แล้วเลือกกริยาให้ตรงกับเอกพจน์หรือพหูพจน์'
+    en: 'Find the real subject first and skip the words in the middle. Then check: one, or more than one?',
+    th: 'หาประธานตัวจริงก่อน (ข้ามคำที่แทรกอยู่ตรงกลาง) แล้วดูว่าเป็น 1 หรือหลายอัน'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'Singular vs plural subject', th: 'ประธานเอกพจน์กับพหูพจน์' },
       formula: ['N + V(s/es)', 'N(s) + V1'],
       use: {
-        en: 'A singular subject takes a verb with -s/-es (is, has, was). A plural subject takes the base verb (are, have, were).',
-        th: 'ประธานเอกพจน์ใช้กริยาเติม -s/-es (is, has, was) ประธานพหูพจน์ใช้กริยารูปเดิม (are, have, were)'
+        en: 'One subject: the verb takes -s (is, has). More than one: no -s (are, have).',
+        th: 'ประธานตัวเดียว กริยาเติม s (is, has) / ประธานหลายตัว กริยาไม่เติม s (are, have)'
       },
       example: {
         en: 'The new printers {{require}} less maintenance.',
@@ -25,8 +25,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'Subject + of + noun', th: 'ประธานที่มี of + คำนาม ตามหลัง' },
       formula: ['N + of + N(s) + V(s/es)'],
       use: {
-        en: 'The verb agrees with the first noun, not the noun after of.',
-        th: 'กริยาผันตามคำนามตัวแรก ไม่ใช่คำนามหลัง of'
+        en: 'Look at the first noun, before of. The verb follows that noun.',
+        th: 'ดูคำนามตัวแรก (ก่อน of) แล้วผันกริยาตามตัวนั้น'
       },
       example: {
         en: 'The list of approved vendors {{is}} posted online.',
@@ -39,8 +39,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'Each / every', th: 'Each / every' },
       formula: ['each/every + N + V(s/es)', 'each of + the + N(s) + V(s/es)'],
       use: {
-        en: 'Each and every are singular, even in "each of the + plural noun".',
-        th: 'each และ every เป็นเอกพจน์เสมอ แม้จะเป็น "each of the + คำนามพหูพจน์"'
+        en: 'Each and every always count as one, so the verb takes -s.',
+        th: 'each, every นับเป็น 1 เสมอ กริยาจึงเติม s'
       },
       example: {
         en: 'Each of the applicants {{has}} been contacted.',
@@ -53,8 +53,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'A number of / the number of', th: 'A number of กับ the number of' },
       formula: ['a number of + N(s) + V1', 'the number of + N(s) + V(s/es)'],
       use: {
-        en: '"A number of" means many, so it is plural. "The number of" is one number, so it is singular.',
-        th: '"a number of" แปลว่าหลาย จึงเป็นพหูพจน์ ส่วน "the number of" หมายถึงจำนวน (ตัวเลขเดียว) จึงเป็นเอกพจน์'
+        en: 'A number of means many: no -s on the verb. The number of means the amount: add -s.',
+        th: 'a number of = หลาย ๆ (กริยาไม่เติม s) / the number of = จำนวน (กริยาเติม s)'
       },
       example: {
         en: 'The number of participants {{has}} doubled this year.',
@@ -66,8 +66,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'Either … or / neither … nor', th: 'Either … or / neither … nor' },
       formula: ['either + N + or + N + V', 'neither + N + nor + N + V'],
       use: {
-        en: 'The verb agrees with the noun closest to it (the second one). "Not only … but also" works the same way.',
-        th: 'กริยาผันตามคำนามที่อยู่ใกล้ที่สุด (ตัวที่สอง) "not only … but also" ก็ใช้หลักเดียวกัน'
+        en: 'The verb follows the noun closest to it.',
+        th: 'ผันกริยาตามคำนามที่อยู่ใกล้กริยาที่สุด'
       },
       example: {
         en: 'Neither the manager nor the assistants {{were}} informed.',
@@ -80,8 +80,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'Verb after who / that', th: 'กริยาหลัง who / that' },
       formula: ['N + who/that + V'],
       use: {
-        en: 'The verb after who, which or that agrees with the noun just before it.',
-        th: 'กริยาหลัง who, which, that ผันตามคำนามที่อยู่หน้ามันทันที'
+        en: 'The verb after who, which or that follows the noun just before it.',
+        th: 'กริยาหลัง who, which, that ผันตามคำนามที่อยู่หน้ามัน'
       },
       example: {
         en: 'Employees who {{wish}} to attend should register by Friday.',
@@ -93,8 +93,8 @@ export const subjectVerbAgreement: CheatSheet = {
       name: { en: 'V-ing as the subject', th: 'V-ing เป็นประธาน' },
       formula: ['V-ing + Obj + V(s/es)'],
       use: {
-        en: 'A V-ing phrase used as the subject counts as one thing, so the verb is singular.',
-        th: 'วลี V-ing ที่เป็นประธานนับเป็นสิ่งเดียว กริยาจึงเป็นเอกพจน์'
+        en: 'A V-ing subject counts as one thing, so the verb takes -s.',
+        th: 'ถ้าประธานเป็น V-ing นับเป็น 1 เรื่อง กริยาจึงเติม s'
       },
       example: {
         en: 'Reviewing customer feedback {{helps}} us improve our service.',

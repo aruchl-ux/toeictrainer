@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const relativeClauses: CheatSheet = {
   topic: 'relative-clauses',
   intro: {
-    en: 'Look at the noun before the blank (person, thing, place, time) and at what follows (a verb, or a subject + verb). Together they pick the relative word.',
-    th: 'ดูคำนามหน้าช่องว่าง (คน สิ่งของ สถานที่ เวลา) และสิ่งที่ตามหลัง (กริยา หรือ ประธาน + กริยา) สองอย่างนี้บอกว่าต้องใช้คำเชื่อมตัวไหน'
+    en: 'Look at the noun before the blank (person, thing, place, time). Then look after it: a verb straight away, or a subject first?',
+    th: 'ดูคำนามข้างหน้า (คน สิ่งของ สถานที่ เวลา) แล้วดูข้างหลังว่าเป็นกริยาเลย หรือมีประธานก่อน'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'Who / which / that as subject', th: 'Who / which / that ทำหน้าที่ประธาน' },
       formula: ['N (person) + who + V', 'N (thing) + which + V', 'N + that + V'],
       use: {
-        en: 'When a verb comes right after the blank, use who for people, which for things, or that for either.',
-        th: 'ถ้ากริยาตามหลังช่องว่างทันที ใช้ who กับคน which กับสิ่งของ หรือ that ได้ทั้งสองแบบ'
+        en: 'If a verb comes right after: who for people, which for things, that for both.',
+        th: 'ถ้าข้างหลังเป็นกริยาเลย: คนใช้ who / สิ่งของใช้ which / that ใช้ได้ทั้งคู่'
       },
       example: {
         en: 'The candidate {{who}} was hired starts on Monday.',
@@ -25,8 +25,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'Whom / which / that as object', th: 'Whom / which / that ทำหน้าที่กรรม' },
       formula: ['N + whom/which/that + S + V'],
       use: {
-        en: 'When a subject + verb comes after the blank, the relative word is the object: whom for people, which for things.',
-        th: 'ถ้าหลังช่องว่างเป็นประธาน + กริยา คำเชื่อมนี้ทำหน้าที่กรรม ใช้ whom กับคน which กับสิ่งของ'
+        en: 'If a subject and verb come after: whom for people, which for things.',
+        th: 'ถ้าข้างหลังมีประธาน + กริยา: คนใช้ whom / สิ่งของใช้ which'
       },
       example: {
         en: 'The consultant {{whom}} we hired has extensive experience.',
@@ -38,8 +38,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'Whose', th: 'Whose (ซึ่ง…ของเขา)' },
       formula: ['N + whose + N + V'],
       use: {
-        en: 'Whose shows ownership and is always followed by a noun.',
-        th: 'whose แสดงความเป็นเจ้าของ และต้องตามด้วยคำนามเสมอ'
+        en: 'Whose shows who owns something. A noun always comes right after it.',
+        th: 'whose = ของ… ข้างหลังต้องมีคำนามเสมอ'
       },
       example: {
         en: 'Employees {{whose}} contracts expire this year will be contacted.',
@@ -52,8 +52,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'Where / when', th: 'Where / when' },
       formula: ['N (place) + where + S + V', 'N (time) + when + S + V'],
       use: {
-        en: 'After a place noun use where, after a time noun use when, when a full clause follows.',
-        th: 'หลังคำนามบอกสถานที่ใช้ where หลังคำนามบอกเวลาใช้ when เมื่อตามด้วยประโยคเต็ม'
+        en: 'For a place use where, for a time use when. A full sentence follows.',
+        th: 'สถานที่ใช้ where / เวลาใช้ when (ข้างหลังเป็นประโยคเต็ม)'
       },
       example: {
         en: 'This is the room {{where}} the interviews will be held.',
@@ -65,8 +65,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'Preposition + which / whom', th: 'คำบุพบท + which / whom' },
       formula: ['N + Prep + which/whom + S + V'],
       use: {
-        en: 'A preposition can move in front of which or whom. Never use that or who after a preposition.',
-        th: 'คำบุพบทย้ายมาอยู่หน้า which หรือ whom ได้ แต่ห้ามใช้ that หรือ who หลังคำบุพบท'
+        en: 'After a preposition (with, in, to), use only which or whom. Never that or who.',
+        th: 'หลังคำบุพบท (with, in, to) ใช้ได้แค่ which หรือ whom ห้ามใช้ that หรือ who'
       },
       example: {
         en: 'The firm {{with which}} we partnered is based in Seoul.',
@@ -78,8 +78,8 @@ export const relativeClauses: CheatSheet = {
       name: { en: 'What (= the thing that)', th: 'What (= สิ่งที่)' },
       formula: ['what + S + V'],
       use: {
-        en: 'What has no noun before it; it already means "the thing that".',
-        th: 'what ไม่มีคำนามอยู่ข้างหน้า เพราะมีความหมายว่า "สิ่งที่" อยู่ในตัวแล้ว'
+        en: 'What means "the thing that". There is no noun before it.',
+        th: 'what = สิ่งที่… ข้างหน้าไม่มีคำนาม'
       },
       example: {
         en: '{{What}} customers want most is faster delivery.',

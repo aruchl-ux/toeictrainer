@@ -25,6 +25,14 @@ describe('CheatSheetView', () => {
     expect(container.textContent).not.toContain(simple.example.th)
   })
 
+  it('lists what each linking word means in the learner language', () => {
+    render(<CheatSheetView sheet={CHEAT_SHEETS['conj-vs-prep']} lang="th" />)
+    const card = screen.getByRole('article', { name: /because of/ })
+    const words = within(card).getByLabelText('ความหมาย')
+    const owing = within(words).getByText('owing to')
+    expect(owing.nextElementSibling?.textContent).toBe('เนื่องจาก (ภาษาทางการ)')
+  })
+
   it('opens in Thai with the translation, and flips to English', () => {
     render(<CheatSheetView sheet={sheet} lang="th" />)
     expect(screen.getByText(simple.use.th)).toBeTruthy()

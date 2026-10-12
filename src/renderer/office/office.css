@@ -1613,6 +1613,24 @@ code.marker {
 .cf-punct {
   color: var(--text-3);
 }
+.cheat-doc-words {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 1px 14px;
+  margin: 0;
+  font-size: 13px;
+}
+.cheat-doc-words > div {
+  display: contents;
+}
+.cheat-doc-words dt {
+  color: var(--accent);
+  font-size: 12.5px;
+}
+.cheat-doc-words dd {
+  margin: 0;
+  color: var(--text-2);
+}
 .cheat-doc-ex {
   padding-left: 10px;
   border-left: 2px solid var(--line-2);

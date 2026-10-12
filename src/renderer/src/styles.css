@@ -660,6 +660,10 @@ mark.blank.current { background: var(--yellow); color: var(--ink); }
 .fp-word { padding: 0; color: var(--ink); }
 .fp-punct { padding: 0; margin-left: calc(-1 * var(--space-2)); color: var(--ink-soft); }
 .fp-plus { color: var(--ink-soft); font-weight: 400; }
+.cheat-words { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2px var(--space-4); margin: 0; padding: var(--space-2) var(--space-3); background: var(--paper); border: 1px solid var(--rule-soft); }
+.cheat-words > div { display: contents; }
+.cheat-words dt { font-weight: 700; font-size: var(--type-label); line-height: 1.7; color: var(--blue); }
+.cheat-words dd { margin: 0; font-size: var(--type-label); line-height: 1.7; }
 .cheat-use { margin: 0; font-size: var(--type-body); line-height: 1.65; }
 .cheat-use:lang(th) { line-height: 1.8; }
 .cheat-example { margin: 0; padding-left: var(--space-3); border-left: 3px solid var(--yellow); font-size: var(--type-reading); line-height: 1.6; }

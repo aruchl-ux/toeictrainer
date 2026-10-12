@@ -1,20 +1,20 @@
 # Grammar cheat sheet
 
-79 formulas across 13 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, and the Thai reads naturally. Note the id of anything wrong.
+90 formulas across 13 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, and the Thai reads naturally. Note the id of anything wrong.
 
 ## word-form
 
-All four choices share one root. Look at the words right before and after the blank to decide which part of speech fits, then use the suffix to find it.
+All choices are the same word in different forms. Look at the words just before and after the blank, then pick the right type of word.
 
-ตัวเลือกทั้งสี่มาจากรากศัพท์เดียวกัน ดูคำหน้าและหลังช่องว่างเพื่อตัดสินว่าต้องการคำชนิดไหน แล้วใช้คำลงท้าย (suffix) หาคำตอบ
+ทุกตัวเลือกเป็นคำเดียวกันแต่คนละชนิด ดูคำข้างหน้าและข้างหลังช่องว่าง แล้วเลือกชนิดคำที่ใช่
 
 ### Noun after a determiner · คำนามหลัง determiner `noun-after-determiner`
 
     a/the/this + (Adj) + N
     my/your/its/their + (Adj) + N
 
-- After an article, a possessive or this/that, the blank is a noun, with or without an adjective in front of it.
-- หลัง a/the, คำแสดงความเป็นเจ้าของ (my, its, their) หรือ this/that ช่องว่างคือคำนาม อาจมีคำคุณศัพท์คั่นอยู่หน้าก็ได้
+- After a, the, my, your, its or their, you need a noun. An adjective can come in between.
+- หลัง a, the, my, your, its, their ต้องเป็นคำนาม (มีคำคุณศัพท์คั่นได้)
 - We appreciate your **cooperation** on this matter.
 - เราขอขอบคุณสำหรับความร่วมมือของคุณในเรื่องนี้
 - Clues: -tion · -ment · -ness · -ance/-ence · -ity · -er/-or (person)
@@ -24,18 +24,28 @@ All four choices share one root. Look at the words right before and after the bl
     Prep + (the) + N
     Prep + V-ing + Obj
 
-- A preposition is followed by a noun, or by V-ing when the idea is an action.
-- หลังคำบุพบทต้องเป็นคำนาม หรือ V-ing ถ้าเป็นการกระทำ
+- After a preposition (for, of, after, without), use a noun or V-ing.
+- หลังคำบุพบท (for, of, after, without) ต้องเป็นคำนาม หรือ V-ing
 - After careful **consideration**, the board approved the plan.
 - หลังจากพิจารณาอย่างรอบคอบ คณะกรรมการก็อนุมัติแผนนี้
 - Clues: for · of · after · without · upon
+
+### Noun + noun · คำนามขยายคำนาม (คำนามประสม) `noun-as-modifier`
+
+    the + N + N
+
+- Some pairs are two nouns together. The first noun describes the second and stays singular.
+- บางคำเป็นคำนาม 2 ตัวติดกัน ตัวหน้าทำหน้าที่ขยายตัวหลัง และเป็นรูปเอกพจน์
+- All employees must follow the **safety** regulations.
+- พนักงานทุกคนต้องปฏิบัติตามกฎความปลอดภัย
+- Clues: safety regulations · customer satisfaction · sales figures · application form · job opening
 
 ### Adjective before a noun · คำคุณศัพท์หน้าคำนาม `adjective-before-noun`
 
     (Adv) + Adj + N
 
-- A word between a determiner and a noun describes the noun, so it is an adjective.
-- คำที่อยู่ระหว่าง determiner กับคำนาม ทำหน้าที่ขยายคำนาม จึงต้องเป็นคำคุณศัพท์
+- A word before a noun that says what the noun is like is an adjective.
+- คำที่อยู่หน้าคำนาม และบอกว่าคำนามนั้นเป็นอย่างไร คือคำคุณศัพท์
 - The hotel offers **comfortable** rooms at reasonable prices.
 - โรงแรมมีห้องพักที่สะดวกสบายในราคาสมเหตุสมผล
 - Clues: -ful · -ous · -ive · -able/-ible · -al · -ic
@@ -43,12 +53,26 @@ All four choices share one root. Look at the words right before and after the bl
 ### Adjective after be / linking verbs · คำคุณศัพท์หลัง be และ linking verb `adjective-after-linking-verb`
 
     S + be/become/remain/seem + Adj
+    S + look/sound/appear/stay/prove + Adj
+    S + keep/make/find + Obj + Adj
 
-- After be and linking verbs (become, remain, seem, look, stay), use an adjective, not an adverb.
-- หลัง be และ linking verb (become, remain, seem, look, stay) ใช้คำคุณศัพท์ ไม่ใช้คำกริยาวิเศษณ์
-- The results of the survey were **impressive**.
-- ผลการสำรวจน่าประทับใจ
-- Clues: be · become · remain · seem · look · stay
+- These verbs tell you how something is, not what it does, so use an adjective (not -ly). With keep, make and find, the adjective goes after the object.
+- กริยากลุ่มนี้บอกสภาพ ไม่ได้บอกการกระทำ จึงตามด้วยคำคุณศัพท์ (ไม่ใช่คำ -ly) ส่วน keep, make, find ให้วางคำคุณศัพท์ไว้หลังกรรม
+- Sales have remained **steady** despite the price increase.
+- ยอดขายยังคงทรงตัวแม้ราคาจะสูงขึ้น
+- Clues: be · become · remain · stay · seem · appear · look · sound · feel · prove · keep + Obj · find + Obj
+
+### Same form after and / or / but · คำที่เชื่อมด้วย and / or / but ต้องเป็นชนิดเดียวกัน `parallel-word-form`
+
+    Adj + and/or/but + Adj
+    N + and/or + N
+    Adv + and + Adv
+
+- Words joined by and, or or but must be the same type. Look at the word on the other side and match it.
+- คำที่เชื่อมด้วย and, or, but ต้องเป็นชนิดเดียวกัน ดูคำอีกฝั่งแล้วเลือกให้เหมือนกัน
+- The hotel staff were helpful and **courteous**.
+- พนักงานโรงแรมช่วยเหลือดีและสุภาพ
+- Clues: ___ and + Adj · Adj + and ___ · both … and · either … or
 
 ### Adverb with a verb · คำกริยาวิเศษณ์ขยายกริยา `adverb-with-verb`
 
@@ -56,8 +80,8 @@ All four choices share one root. Look at the words right before and after the bl
     S + have/be + Adv + V3/V-ing
     S + V + Obj + Adv
 
-- A word describing how an action is done is an adverb, usually ending in -ly. It often sits between have/be and the main verb.
-- คำที่บอกว่าการกระทำเป็นอย่างไรคือคำกริยาวิเศษณ์ มักลงท้ายด้วย -ly และมักอยู่ระหว่าง have/be กับกริยาหลัก
+- A word that says how something is done is an adverb, usually ending in -ly. It often sits between have/be and the main verb.
+- คำที่บอกว่า "ทำอย่างไร" คือ adverb มักลงท้าย -ly และมักอยู่ระหว่าง have/be กับกริยาหลัก
 - Ms. Kim **carefully** reviewed the budget.
 - คุณคิมตรวจงบประมาณอย่างละเอียด
 - Clues: -ly · has ___ V3 · is ___ V-ing
@@ -67,8 +91,8 @@ All four choices share one root. Look at the words right before and after the bl
     be + Adv + Adj
     Adv + Adj + N
 
-- A word in front of an adjective that says how much or in what way is an adverb.
-- คำที่อยู่หน้าคำคุณศัพท์และบอกระดับหรือลักษณะ ต้องเป็นคำกริยาวิเศษณ์
+- Before an adjective, use an adverb to say how much (very, extremely, highly).
+- หน้าคำคุณศัพท์ ถ้าต้องการคำบอกระดับ (มาก น้อย) ให้ใช้ adverb เช่น extremely, highly
 - The training session was **extremely** useful.
 - การอบรมครั้งนี้มีประโยชน์อย่างมาก
 - Clues: extremely · highly · relatively · surprisingly
@@ -78,24 +102,35 @@ All four choices share one root. Look at the words right before and after the bl
     Adj-ing + N
     S + be + Adj-ed
 
-- -ing describes the thing that causes the feeling; -ed describes the person who has the feeling.
-- -ing ใช้กับสิ่งที่ทำให้เกิดความรู้สึก ส่วน -ed ใช้กับคนที่รู้สึกเอง
+- -ing is the thing that causes the feeling (a boring film). -ed is the person who feels it (I am bored).
+- -ing = สิ่งที่ทำให้รู้สึก (หนังน่าเบื่อ = boring) / -ed = คนที่รู้สึก (ฉันเบื่อ = bored)
 - Staff were **satisfied** with the new schedule.
 - พนักงานพอใจกับตารางงานใหม่
 - Clues: interesting / interested · exciting / excited · satisfying / satisfied
 
+### Base verb after to / modals · กริยารูปเดิมหลัง to และ modal `verb-after-to-or-modal`
+
+    will/can/must/should + V1
+    to V1
+
+- After will, can, must, should or to, use the base verb with nothing added.
+- หลัง will, can, must, should หรือ to ใช้กริยารูปเดิม ไม่เติมอะไรเลย
+- The company plans to **expand** its operations overseas.
+- บริษัทวางแผนจะขยายธุรกิจไปต่างประเทศ
+- Clues: -ize · -ify · -en · plan to · will · must
+
 ## tense-voice
 
-Pick the tense from the time words in the sentence, then check whether the subject does the action (active) or receives it (passive).
+First look at the time words. Then ask: does the subject do the action, or is it done to the subject?
 
-ดูคำบอกเวลาในประโยคเพื่อเลือก tense แล้วเช็กว่าประธานเป็นผู้ทำ (active) หรือผู้ถูกกระทำ (passive)
+ดูคำบอกเวลาในประโยคก่อน แล้วถามว่า ประธานเป็นคนทำเอง หรือถูกทำ
 
 ### Present simple · Present simple (ปัจจุบันกาลธรรมดา) `present-simple`
 
     S + V(s/es) + Obj
 
-- Facts, habits, routines and fixed schedules. Add -s/-es when the subject is he, she, it or a singular noun.
-- ความจริงทั่วไป นิสัย กิจวัตร และตารางเวลาที่แน่นอน ถ้าประธานเป็น he, she, it หรือคำนามเอกพจน์ ให้เติม -s/-es ที่กริยา
+- For habits and facts. If the subject is one person or thing (he, she, it), add -s/-es to the verb.
+- ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็นคนเดียวหรือสิ่งเดียว (he, she, it) กริยาเติม s/es
 - The shuttle bus **leaves** the hotel every 30 minutes.
 - รถรับส่งออกจากโรงแรมทุก 30 นาที
 - Clues: every day · usually · always · often · regularly
@@ -104,8 +139,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + am/is/are + V-ing + Obj
 
-- An action happening now, a temporary situation, or a plan already arranged for the near future.
-- สิ่งที่กำลังเกิดขึ้นตอนนี้ สถานการณ์ชั่วคราว หรือแผนในอนาคตอันใกล้ที่นัดหมายไว้แล้ว
+- For something happening right now, or a plan already fixed for soon.
+- ใช้กับสิ่งที่กำลังทำอยู่ตอนนี้ หรือแผนที่นัดไว้แล้วเร็ว ๆ นี้
 - Ms. Park **is reviewing** the contract at the moment.
 - คุณพาร์คกำลังตรวจสัญญาอยู่ในขณะนี้
 - Clues: now · currently · at the moment · right now · this week
@@ -114,8 +149,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + have/has + V3 + Obj
 
-- Something that started in the past and continues to now, or a past action whose result matters now.
-- สิ่งที่เริ่มในอดีตและต่อเนื่องมาถึงปัจจุบัน หรือเหตุการณ์ในอดีตที่ผลยังส่งถึงตอนนี้
+- For something that started in the past and is still true now. Often with since, for or already.
+- ใช้กับเรื่องที่เริ่มในอดีตและยังเป็นอยู่ถึงตอนนี้ มักเจอ since, for, already
 - Sales **have increased** steadily since January.
 - ยอดขายเพิ่มขึ้นอย่างต่อเนื่องตั้งแต่เดือนมกราคม
 - Clues: since · for · already · yet · recently · so far · over the past + time
@@ -124,8 +159,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + have/has + been + V-ing
 
-- An activity that started in the past and is still going on, stressing how long it has lasted.
-- กิจกรรมที่เริ่มในอดีตและยังทำอยู่ เน้นว่าทำมานานเท่าไรแล้ว
+- Like the present perfect, but it stresses how long the action has gone on. It is still going on.
+- เหมือน present perfect แต่เน้นว่าทำต่อเนื่องมานานแค่ไหน และตอนนี้ยังทำอยู่
 - Mr. Lee **has been working** on the report for three hours.
 - คุณลีทำรายงานฉบับนี้มาสามชั่วโมงแล้ว
 - Clues: for + period · since · all day · lately
@@ -134,8 +169,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + V2 + Obj
 
-- A finished action at a specific time in the past.
-- เหตุการณ์ที่จบไปแล้วในเวลาที่ระบุในอดีต
+- For a finished action at a clear past time, like yesterday, last year or ago.
+- ใช้กับเรื่องที่จบไปแล้วในอดีต และบอกเวลาชัด เช่น yesterday, last year, ago
 - The company **opened** its first branch in 2015.
 - บริษัทเปิดสาขาแรกในปี 2015
 - Clues: yesterday · last + time · ago · in + past year · previously
@@ -144,8 +179,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + was/were + V-ing
 
-- An action in progress at a point in the past, often interrupted by another past action.
-- สิ่งที่กำลังทำอยู่ ณ เวลาหนึ่งในอดีต มักมีอีกเหตุการณ์หนึ่ง (past simple) เข้ามาแทรก
+- For something that was in progress in the past when another thing happened (when + V2).
+- ใช้กับสิ่งที่กำลังทำอยู่ในอดีต แล้วมีอีกเรื่องเข้ามาแทรก (when + V2)
 - The manager **was speaking** with a client when the power went out.
 - ผู้จัดการกำลังคุยกับลูกค้าอยู่ตอนที่ไฟดับ
 - Clues: when + V2 · while · at that time · at 3 p.m. yesterday
@@ -154,8 +189,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + had + V3 + Obj
 
-- The earlier of two past actions: it was already finished when the second one happened.
-- เหตุการณ์ที่เกิดก่อนในสองเหตุการณ์ในอดีต คือจบไปแล้วตอนที่อีกเหตุการณ์เกิดขึ้น
+- When there are two past actions, use had + V3 for the one that happened first.
+- ในอดีตมี 2 เรื่อง เรื่องที่เกิดก่อนใช้ had + V3
 - The meeting **had started** before Ms. Diaz arrived.
 - การประชุมเริ่มไปแล้วก่อนที่คุณดิแอซจะมาถึง
 - Clues: before + V2 · by the time + V2 · already · after + had V3
@@ -164,8 +199,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + will + V1 + Obj
 
-- Future facts, predictions, promises and decisions. The verb after will never takes -s.
-- ข้อเท็จจริงในอนาคต การคาดการณ์ คำสัญญา หรือการตัดสินใจ กริยาหลัง will เป็นรูปเดิมเสมอ ไม่เติม -s
+- For the future. The verb after will is always the base form (no -s).
+- ใช้พูดถึงอนาคต กริยาหลัง will เป็นรูปเดิมเสมอ (ไม่เติม s)
 - The new policy **will take** effect next month.
 - นโยบายใหม่จะมีผลบังคับใช้เดือนหน้า
 - Clues: tomorrow · next + time · soon · upcoming · in the future
@@ -174,8 +209,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + am/is/are + going to + V1
 
-- A plan or intention decided before now, or a prediction based on what you can see.
-- แผนหรือความตั้งใจที่ตัดสินใจไว้ก่อนแล้ว หรือการคาดการณ์จากสิ่งที่เห็นอยู่ตรงหน้า
+- For a plan you have already decided on.
+- ใช้กับแผนที่ตั้งใจไว้แล้ว
 - We **are going to hire** two more engineers this year.
 - ปีนี้เราจะจ้างวิศวกรเพิ่มอีกสองคน
 - Clues: this year · next + time · plan
@@ -184,8 +219,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + will + be + V-ing
 
-- An action that will be in progress at a set time in the future.
-- สิ่งที่จะกำลังทำอยู่ ณ เวลาที่ระบุในอนาคต
+- For something that will be in progress at a certain time in the future.
+- ใช้กับสิ่งที่จะกำลังทำอยู่ ณ เวลาหนึ่งในอนาคต
 - At 3 p.m. tomorrow, Ms. Tan **will be presenting** the results.
 - พรุ่งนี้เวลาบ่ายสามโมง คุณแทนจะกำลังนำเสนอผลลัพธ์อยู่
 - Clues: at this time tomorrow · at + time + future day
@@ -194,8 +229,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     S + will + have + V3
 
-- Something that will be finished before a point in the future.
-- สิ่งที่จะเสร็จสมบูรณ์ก่อนถึงเวลาหนึ่งในอนาคต
+- For something that will be finished before a future time. Often with by + time.
+- ใช้กับสิ่งที่จะเสร็จก่อนเวลาหนึ่งในอนาคต มักเจอ by + เวลา
 - By the end of June, the team **will have completed** the project.
 - ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว
 - Clues: by + future time · by the time + V(s/es) · by next year
@@ -204,8 +239,8 @@ Pick the tense from the time words in the sentence, then check whether the subje
 
     when/once/after/as soon as + S + V(s/es), S + will + V1
 
-- After when, once, before, after, until and as soon as, use the present simple for a future event, never will.
-- หลัง when, once, before, after, until, as soon as ถ้าพูดถึงอนาคต ให้ใช้ present simple ห้ามใช้ will
+- After when, once, after or as soon as, use the present simple even for the future. Do not use will.
+- หลัง when, once, after, as soon as ถึงจะพูดถึงอนาคต ก็ใช้ present simple ห้ามใช้ will
 - Please call me as soon as the shipment **arrives**.
 - กรุณาโทรหาฉันทันทีที่สินค้ามาถึง
 - Clues: when · once · as soon as · until · before · after
@@ -216,25 +251,25 @@ Pick the tense from the time words in the sentence, then check whether the subje
     S + have/has + been + V3
     S + is/are + being + V3
 
-- The subject receives the action. Change the tense through be (is, was, will be, has been…); the main verb stays V3. Often followed by by + the doer, and no object after the verb.
-- ประธานเป็นผู้ถูกกระทำ เปลี่ยน tense ที่ตัว be (is, was, will be, has been…) ส่วนกริยาหลักเป็น V3 เสมอ มักตามด้วย by + ผู้กระทำ และไม่มีกรรมตามหลังกริยา
+- Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive.
+- ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + V3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็น passive
 - The invoices **were sent** to all clients yesterday.
 - ใบแจ้งหนี้ถูกส่งถึงลูกค้าทุกรายเมื่อวานนี้
 - Clues: by + doer · no object after the blank · thing as subject
 
 ## subject-verb-agreement
 
-Find the real subject first, skipping phrases like "of the…" or "who…" that sit between it and the verb. Then match singular or plural.
+Find the real subject first and skip the words in the middle. Then check: one, or more than one?
 
-หาประธานตัวจริงก่อน โดยข้ามวลีที่คั่นอยู่ เช่น "of the…" หรือ "who…" แล้วเลือกกริยาให้ตรงกับเอกพจน์หรือพหูพจน์
+หาประธานตัวจริงก่อน (ข้ามคำที่แทรกอยู่ตรงกลาง) แล้วดูว่าเป็น 1 หรือหลายอัน
 
 ### Singular vs plural subject · ประธานเอกพจน์กับพหูพจน์ `singular-vs-plural-subject`
 
     N + V(s/es)
     N(s) + V1
 
-- A singular subject takes a verb with -s/-es (is, has, was). A plural subject takes the base verb (are, have, were).
-- ประธานเอกพจน์ใช้กริยาเติม -s/-es (is, has, was) ประธานพหูพจน์ใช้กริยารูปเดิม (are, have, were)
+- One subject: the verb takes -s (is, has). More than one: no -s (are, have).
+- ประธานตัวเดียว กริยาเติม s (is, has) / ประธานหลายตัว กริยาไม่เติม s (are, have)
 - The new printers **require** less maintenance.
 - เครื่องพิมพ์รุ่นใหม่ต้องการการบำรุงรักษาน้อยกว่า
 
@@ -242,8 +277,8 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
 
     N + of + N(s) + V(s/es)
 
-- The verb agrees with the first noun, not the noun after of.
-- กริยาผันตามคำนามตัวแรก ไม่ใช่คำนามหลัง of
+- Look at the first noun, before of. The verb follows that noun.
+- ดูคำนามตัวแรก (ก่อน of) แล้วผันกริยาตามตัวนั้น
 - The list of approved vendors **is** posted online.
 - รายชื่อผู้ขายที่ได้รับอนุมัติประกาศไว้บนเว็บไซต์
 - Clues: the list of · the cost of · a series of · the quality of
@@ -253,8 +288,8 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
     each/every + N + V(s/es)
     each of + the + N(s) + V(s/es)
 
-- Each and every are singular, even in "each of the + plural noun".
-- each และ every เป็นเอกพจน์เสมอ แม้จะเป็น "each of the + คำนามพหูพจน์"
+- Each and every always count as one, so the verb takes -s.
+- each, every นับเป็น 1 เสมอ กริยาจึงเติม s
 - Each of the applicants **has** been contacted.
 - ผู้สมัครแต่ละคนได้รับการติดต่อแล้ว
 - Clues: each · every · everyone · anyone · nobody
@@ -264,8 +299,8 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
     a number of + N(s) + V1
     the number of + N(s) + V(s/es)
 
-- "A number of" means many, so it is plural. "The number of" is one number, so it is singular.
-- "a number of" แปลว่าหลาย จึงเป็นพหูพจน์ ส่วน "the number of" หมายถึงจำนวน (ตัวเลขเดียว) จึงเป็นเอกพจน์
+- A number of means many: no -s on the verb. The number of means the amount: add -s.
+- a number of = หลาย ๆ (กริยาไม่เติม s) / the number of = จำนวน (กริยาเติม s)
 - The number of participants **has** doubled this year.
 - จำนวนผู้เข้าร่วมเพิ่มขึ้นเป็นสองเท่าในปีนี้
 
@@ -274,8 +309,8 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
     either + N + or + N + V
     neither + N + nor + N + V
 
-- The verb agrees with the noun closest to it (the second one). "Not only … but also" works the same way.
-- กริยาผันตามคำนามที่อยู่ใกล้ที่สุด (ตัวที่สอง) "not only … but also" ก็ใช้หลักเดียวกัน
+- The verb follows the noun closest to it.
+- ผันกริยาตามคำนามที่อยู่ใกล้กริยาที่สุด
 - Neither the manager nor the assistants **were** informed.
 - ทั้งผู้จัดการและผู้ช่วยไม่ได้รับแจ้งเลย
 - Clues: either … or · neither … nor · not only … but also
@@ -284,8 +319,8 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
 
     N + who/that + V
 
-- The verb after who, which or that agrees with the noun just before it.
-- กริยาหลัง who, which, that ผันตามคำนามที่อยู่หน้ามันทันที
+- The verb after who, which or that follows the noun just before it.
+- กริยาหลัง who, which, that ผันตามคำนามที่อยู่หน้ามัน
 - Employees who **wish** to attend should register by Friday.
 - พนักงานที่ต้องการเข้าร่วมควรลงทะเบียนภายในวันศุกร์
 
@@ -293,16 +328,16 @@ Find the real subject first, skipping phrases like "of the…" or "who…" that 
 
     V-ing + Obj + V(s/es)
 
-- A V-ing phrase used as the subject counts as one thing, so the verb is singular.
-- วลี V-ing ที่เป็นประธานนับเป็นสิ่งเดียว กริยาจึงเป็นเอกพจน์
+- A V-ing subject counts as one thing, so the verb takes -s.
+- ถ้าประธานเป็น V-ing นับเป็น 1 เรื่อง กริยาจึงเติม s
 - Reviewing customer feedback **helps** us improve our service.
 - การทบทวนความคิดเห็นของลูกค้าช่วยให้เราปรับปรุงบริการได้
 
 ## prepositions
 
-Look at the noun after the blank: is it a time, a period, a deadline or a place? Each kind takes its own preposition.
+Look at the word after the blank: a time, a length of time, a deadline or a place? Each one has its own preposition.
 
-ดูคำนามหลังช่องว่างว่าเป็นเวลา ช่วงเวลา กำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำบุพบทต่างกัน
+ดูคำหลังช่องว่างว่าเป็น เวลา ช่วงเวลา วันกำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำต่างกัน
 
 ### Time: at / on / in · เวลา: at / on / in `time-at-on-in`
 
@@ -310,8 +345,8 @@ Look at the noun after the blank: is it a time, a period, a deadline or a place?
     on + day/date
     in + month/year/season
 
-- At for an exact time, on for a day or date, in for a longer period such as a month or year.
-- at ใช้กับเวลาที่แน่นอน on ใช้กับวันหรือวันที่ in ใช้กับช่วงที่ยาวกว่า เช่น เดือน ปี ฤดู
+- at + clock time (at 9 a.m.), on + day (on Monday), in + month or year (in May).
+- at + เวลา (at 9 a.m.) / on + วัน (on Monday) / in + เดือน ปี (in May)
 - The conference will begin **on** Monday, May 5.
 - การประชุมจะเริ่มในวันจันทร์ที่ 5 พฤษภาคม
 - Clues: at 9 a.m. · on Friday · on June 3 · in July · in 2027
@@ -321,8 +356,8 @@ Look at the noun after the blank: is it a time, a period, a deadline or a place?
     by + deadline
     until + end time
 
-- By means no later than (a one-time action). Until means the action continues up to that time.
-- by แปลว่าไม่เกินเวลานั้น (ทำครั้งเดียวให้เสร็จ) until แปลว่าทำต่อเนื่องไปจนถึงเวลานั้น
+- By means no later than: finish before then. Until means keep going up to then.
+- by = ไม่เกินเวลานี้ (ทำให้เสร็จ) / until = ทำต่อไปเรื่อย ๆ จนถึงเวลานี้
 - Please submit your expense reports **by** Friday.
 - กรุณาส่งรายงานค่าใช้จ่ายภายในวันศุกร์
 - Clues: submit / complete / return → by · stay / remain / wait → until
@@ -333,8 +368,8 @@ Look at the noun after the blank: is it a time, a period, a deadline or a place?
     during + N
     since + starting point
 
-- For + how long (three days). During + an event or period (the meeting). Since + when it started, usually with the present perfect.
-- for + ระยะเวลา (three days) during + เหตุการณ์หรือช่วงเวลา (the meeting) since + จุดเริ่มต้น มักใช้กับ present perfect
+- for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020).
+- for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020)
 - Phones must be turned off **during** the presentation.
 - ต้องปิดโทรศัพท์ระหว่างการนำเสนอ
 - Clues: for two weeks · during the holiday · since 2020
@@ -344,8 +379,8 @@ Look at the noun after the blank: is it a time, a period, a deadline or a place?
     within + length of time
     throughout + N
 
-- Within means inside a time limit. Throughout means during the whole period or all over a place.
-- within แปลว่าภายในกรอบเวลา throughout แปลว่าตลอดทั้งช่วงเวลาหรือทั่วทั้งพื้นที่
+- Within means inside a time limit. Throughout means the whole time, or all over a place.
+- within = ภายในเวลานี้ / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่
 - Refunds will be processed **within** 10 business days.
 - การคืนเงินจะดำเนินการภายใน 10 วันทำการ
 - Clues: within 24 hours · throughout the year · throughout the building
@@ -356,75 +391,175 @@ Look at the noun after the blank: is it a time, a period, a deadline or a place?
     on + surface/floor/street
     in + room/building/city
 
-- At for a point or address, on for a surface, floor or street, in for an enclosed space or a city.
-- at ใช้กับจุดหรือที่อยู่ on ใช้กับพื้นผิว ชั้น หรือถนน in ใช้กับพื้นที่ปิดหรือเมือง
+- at + a point (at the desk), on + a floor, street or surface (on the 5th floor), in + inside a room or city (in the room).
+- at + จุด (at the desk) / on + ชั้น ถนน พื้นผิว (on the 5th floor) / in + ข้างในห้อง เมือง (in the room)
 - The office is located **on** the fifth floor.
 - สำนักงานตั้งอยู่ที่ชั้นห้า
 - Clues: at the front desk · on Main Street · in the lobby · in Bangkok
 
 ## conj-vs-prep
 
-Check what comes after the blank. A full clause (subject + verb) needs a conjunction; a noun or V-ing needs a preposition.
+Look after the blank. A subject and verb: use a word like because or although. Only a noun: use a word like because of or despite.
 
-ดูสิ่งที่ตามหลังช่องว่าง ถ้าเป็นประโยคเต็ม (ประธาน + กริยา) ต้องใช้คำสันธาน ถ้าเป็นคำนามหรือ V-ing ต้องใช้คำบุพบท
+ดูหลังช่องว่าง: มีประธาน + กริยา ใช้ because, although / มีแค่คำนาม ใช้ because of, despite
 
-### Because vs because of · Because กับ because of `because-vs-because-of`
+### Because vs because of · Because กับ because of (เพราะ) `because-vs-because-of`
 
     because/since/as + S + V
     because of/due to/owing to + N
 
-- Both give a reason. Because takes a clause; because of and due to take a noun.
-- ทั้งสองแบบบอกเหตุผล because ตามด้วยประโยค ส่วน because of และ due to ตามด้วยคำนาม
-- The flight was delayed **due to** heavy fog.
+- `because` = เพราะ (because)
+- `since` = เพราะ (มักเป็นเหตุผลที่รู้กันอยู่แล้ว) (because (often a reason everyone knows))
+- `as` = เพราะ (because)
+- `because of` = เพราะ (because of)
+- `due to` = เนื่องจาก (caused by)
+- `owing to` = เนื่องจาก (ภาษาทางการ) (because of (formal))
+
+- All of them give a reason. because, since, as + subject and verb. because of, due to, owing to + a noun.
+- ทุกคำแปลว่า "เพราะ / เนื่องจาก" ต่างกันแค่สิ่งที่ตามหลัง: because, since, as + ประโยค / because of, due to, owing to + คำนาม
+- The flight was delayed **owing to** heavy fog.
 - เที่ยวบินล่าช้าเนื่องจากหมอกลงหนา
+- Clues: ___ + the/a + noun · ___ + he/they + verb
 
-### Although vs despite · Although กับ despite `although-vs-despite`
+### Although vs despite · Although กับ despite (แม้ว่า) `although-vs-despite`
 
-    although/even though/though + S + V
+    although/even though/even if + S + V
     despite/in spite of + N/V-ing
 
-- Both show contrast. Although takes a clause; despite takes a noun or V-ing. Never write "despite of".
-- ทั้งสองแบบแสดงความขัดแย้ง although ตามด้วยประโยค despite ตามด้วยคำนามหรือ V-ing และไม่มี "despite of"
+- `although` = แม้ว่า (even though)
+- `even though` = แม้ว่า (เน้นกว่า although) (even though (stronger))
+- `even if` = ถึงแม้ว่า (เรื่องสมมติ อาจเกิดหรือไม่เกิด) (whether or not (imagined))
+- `despite` = ทั้ง ๆ ที่มี… / แม้จะมี… (without being stopped by)
+- `in spite of` = เหมือน despite (same as despite)
+
+- All of them show a surprise contrast. although, even though, even if + subject and verb. despite, in spite of + a noun or V-ing. Never "despite of".
+- ทุกคำแสดงเรื่องที่ขัดกัน (แม้ว่า…ก็ยัง…): although, even though, even if + ประโยค / despite, in spite of + คำนาม หรือ V-ing (ไม่มี despite of)
 - **Despite** the rain, the outdoor event continued.
 - แม้ฝนจะตก งานกลางแจ้งก็ยังดำเนินต่อไป
 
-### While vs during · While กับ during `while-vs-during`
+### Whereas vs unlike · Whereas กับ unlike (เทียบความต่าง) `whereas-vs-unlike`
 
-    while + S + V
-    during + N
+    whereas/while + S + V
+    unlike + N
 
-- Both mean at the same time as. While takes a clause; during takes a noun.
-- ทั้งสองแปลว่าในระหว่างที่ while ตามด้วยประโยค during ตามด้วยคำนาม
-- Please do not use your phone **while** you are driving.
+- `whereas` = ในขณะที่ (อีกอย่างหนึ่งกลับต่างกัน) (but on the other hand)
+- `while` = ในขณะที่ (ใช้เทียบได้เหมือน whereas) (whereas (when comparing))
+- `unlike` = ไม่เหมือนกับ (different from)
+
+- For comparing two different things. whereas or while + subject and verb. unlike + a noun.
+- ใช้เทียบสองอย่างที่ต่างกัน: whereas, while + ประโยค / unlike + คำนาม
+- Sales rose in Asia, **whereas** they fell in Europe.
+- ยอดขายในเอเชียเพิ่มขึ้น ในขณะที่ยุโรปลดลง
+
+### While vs during · While กับ during (ระหว่าง) `while-vs-during`
+
+    while/when + S + V
+    while/when + V-ing
+    during/throughout + N
+
+- `while` = ขณะที่ (at the same time as)
+- `when` = เมื่อ / ตอนที่ (at the time that)
+- `during` = ระหว่าง (in the time of)
+- `throughout` = ตลอดทั้ง (for the whole time of)
+
+- while or when + subject and verb, or + V-ing (a short form). during or throughout + a noun.
+- while, when + ประโยค หรือ + V-ing (แบบย่อ) / during, throughout + คำนาม
+- Please do not use your phone **while** driving.
 - กรุณาอย่าใช้โทรศัพท์ขณะขับรถ
 
-### If / unless vs in case of · If / unless กับ in case of `if-vs-in-case-of`
+### If / unless vs in case of · If / unless กับ in case of (ถ้า / ในกรณี) `if-vs-in-case-of`
 
-    if/unless + S + V
+    if/unless/in case + S + V
     in case of/in the event of + N
 
-- If and unless take a clause; in case of and in the event of take a noun.
-- if และ unless ตามด้วยประโยค ส่วน in case of และ in the event of ตามด้วยคำนาม
+- `if` = ถ้า (if)
+- `unless` = ถ้าไม่ (if not)
+- `in case` = เผื่อว่า (to be ready if)
+- `in case of` = ในกรณีที่เกิด (if there is)
+- `in the event of` = ในกรณีที่เกิด (ภาษาทางการ) (if there is (formal))
+
+- if, unless, in case + subject and verb. in case of, in the event of + a noun.
+- if, unless, in case + ประโยค / in case of, in the event of + คำนาม
 - **In case of** fire, use the stairs.
 - ในกรณีเกิดเพลิงไหม้ ให้ใช้บันได
 
-### Paired conjunctions · คำสันธานที่มาเป็นคู่ `paired-conjunctions`
+### So that vs in order to · So that กับ in order to (เพื่อ) `so-that-vs-in-order-to`
+
+    so that + S + V
+    in order to/so as to + V1
+
+- `so that` = เพื่อที่จะ (ตามด้วยประโยค) (so that)
+- `in order to` = เพื่อที่จะ (ตามด้วยกริยารูปเดิม) (to (purpose))
+- `so as to` = เหมือน in order to (same as in order to)
+
+- Both give a purpose. so that + subject and verb (often with can or will). in order to + base verb.
+- ทั้งคู่แปลว่า "เพื่อ": so that + ประโยค (มักมี can, will) / in order to + กริยารูปเดิม
+- Please arrive early **so that** we can start on time.
+- กรุณามาก่อนเวลา เพื่อที่เราจะได้เริ่มตรงเวลา
+
+### Whether vs regardless of · Whether กับ regardless of (ไม่ว่า…) `whether-vs-regardless-of`
+
+    whether + S + V + or not
+    regardless of + N
+
+- `whether … or not` = ไม่ว่าจะ… หรือไม่ (no matter if … or not)
+- `regardless of` = ไม่ว่า… / โดยไม่สนว่า… (no matter what)
+
+- Both mean "it does not matter". whether + subject and verb, usually with or. regardless of + a noun.
+- ทั้งคู่แปลว่า "ไม่ว่า…": whether + ประโยค (มักมี or) / regardless of + คำนาม
+- All staff must attend, **regardless of** their position.
+- พนักงานทุกคนต้องเข้าร่วม ไม่ว่าจะอยู่ตำแหน่งใด
+
+### Instead of / without · Instead of / without (+ คำนาม หรือ V-ing) `instead-of-without`
+
+    instead of/without + N/V-ing
+
+- `instead of` = แทนที่จะ / แทน (in place of)
+- `without` = โดยไม่ / โดยไม่มี (not having or doing)
+
+- These are prepositions, so a noun or V-ing follows, never a full sentence.
+- สองคำนี้เป็นคำบุพบท จึงตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค
+- You can pay online **instead of** visiting the office.
+- คุณจ่ายเงินออนไลน์แทนการไปที่สำนักงานได้
+
+### However / therefore between sentences · However / therefore (เชื่อมระหว่างสองประโยค) `however-therefore`
+
+    S + V; however/therefore/otherwise, S + V
+
+- `however` = อย่างไรก็ตาม (but)
+- `therefore` = ดังนั้น (so)
+- `otherwise` = มิฉะนั้น (if not)
+- `nevertheless` = ถึงอย่างนั้นก็ตาม (but still)
+- `meanwhile` = ในขณะเดียวกัน (at the same time)
+
+- These cannot join two sentences alone like because can. Put ; or . before them and , after them.
+- คำพวกนี้ต่อสองประโยคเองไม่ได้เหมือน because ต้องมี ; หรือ . ข้างหน้า และมี , ข้างหลัง
+- The venue was full; **therefore**, we moved the event online.
+- สถานที่เต็ม ดังนั้นเราจึงย้ายงานไปจัดออนไลน์
+- Clues: ; ___ , · Sentence. ___ ,
+
+### Paired conjunctions · คำเชื่อมที่มาเป็นคู่ `paired-conjunctions`
 
     both + N + and + N
     either + N + or + N
     not only + N + but also + N
 
-- These come in fixed pairs: both … and, either … or, neither … nor, not only … but also. If you see one half, look for its partner.
-- คำเหล่านี้มาเป็นคู่ตายตัว: both … and, either … or, neither … nor, not only … but also ถ้าเห็นครึ่งหนึ่ง ให้หาคู่ของมัน
+- `both … and` = ทั้ง… และ… (the two of them)
+- `either … or` = …หรือ… (อย่างใดอย่างหนึ่ง) (one of the two)
+- `neither … nor` = ไม่ทั้ง… และไม่… (not this and not that)
+- `not only … but also` = ไม่เพียงแต่… แต่ยัง… (this, and that too)
+
+- These always come in pairs. See one half, look for the other.
+- คำพวกนี้มาเป็นคู่เสมอ เห็นคำหนึ่งให้มองหาอีกคำ
 - The package includes **both** breakfast and dinner.
 - แพ็กเกจนี้รวมทั้งอาหารเช้าและอาหารเย็น
 - Clues: and → both · or → either · nor → neither · but also → not only
 
 ## pronouns
 
-Decide the job of the blank: subject, object, owner of a noun, or the same person as the subject. Each job has its own form.
+Look where the blank is: before a verb, after a verb, or before a noun. Each place needs a different form.
 
-ดูว่าช่องว่างทำหน้าที่อะไร: ประธาน กรรม เจ้าของคำนาม หรือคนเดียวกับประธาน แต่ละหน้าที่ใช้รูปต่างกัน
+ดูว่าช่องว่างอยู่ตรงไหน: หน้ากริยา หลังกริยา หรือหน้าคำนาม แต่ละที่ใช้รูปต่างกัน
 
 ### Subject, object and possessive · สรรพนามประธาน กรรม และแสดงความเป็นเจ้าของ `pronoun-cases`
 
@@ -432,8 +567,8 @@ Decide the job of the blank: subject, object, owner of a noun, or the same perso
     V/Prep + me/him/her/us/them
     my/his/her/our/their + N
 
-- Before a verb use the subject form; after a verb or preposition use the object form; before a noun use the possessive.
-- หน้ากริยาใช้รูปประธาน หลังกริยาหรือคำบุพบทใช้รูปกรรม หน้าคำนามใช้รูปแสดงความเป็นเจ้าของ
+- Before a verb: he, she, they. After a verb: him, her, them. Before a noun: his, her, their.
+- หน้ากริยาใช้ he, she, they / หลังกริยาใช้ him, her, them / หน้าคำนามใช้ his, her, their
 - Ms. Ortiz asked **her** assistant to book the room.
 - คุณออร์ติซขอให้ผู้ช่วยของเธอจองห้อง
 
@@ -441,8 +576,8 @@ Decide the job of the blank: subject, object, owner of a noun, or the same perso
 
     mine/yours/his/hers/ours/theirs
 
-- Use these when no noun follows; they stand for "possessive + noun" (yours = your laptop).
-- ใช้เมื่อไม่มีคำนามตามหลัง เพราะคำนี้แทน "คำแสดงเจ้าของ + คำนาม" แล้ว (yours = your laptop)
+- Use these when no noun follows. For example, yours = your laptop.
+- ใช้เมื่อข้างหลังไม่มีคำนาม เช่น yours = your laptop
 - My laptop is old, but **yours** is brand new.
 - แล็ปท็อปของฉันเก่าแล้ว แต่ของคุณเป็นเครื่องใหม่เอี่ยม
 
@@ -451,8 +586,8 @@ Decide the job of the blank: subject, object, owner of a noun, or the same perso
     S + V + myself/himself/themselves
     by + himself/herself/themselves
 
-- Use -self when the object is the same person as the subject, to stress "personally", or with by to mean alone.
-- ใช้ -self เมื่อกรรมเป็นคนเดียวกับประธาน เมื่อเน้นว่าทำเอง หรือใช้กับ by ในความหมายว่าตามลำพัง
+- Use -self when someone does something to themselves, or to stress they did it personally. By himself means alone.
+- ใช้ -self เมื่อทำกับตัวเอง หรือเน้นว่าทำเอง / by himself = ทำคนเดียว
 - Mr. Chen prepared the presentation **himself**.
 - คุณเฉินเตรียมการนำเสนอด้วยตัวเอง
 - Clues: by ___ · S + V + ___ (same person)
@@ -462,8 +597,8 @@ Decide the job of the blank: subject, object, owner of a noun, or the same perso
     that + of + N
     those + of + N
 
-- In comparisons, that replaces a singular noun and those a plural noun, so the noun is not repeated.
-- ใช้ในการเปรียบเทียบเพื่อไม่ต้องพูดคำนามซ้ำ that แทนคำนามเอกพจน์ those แทนคำนามพหูพจน์
+- In comparisons they stand for a noun already said: that for one, those for more than one.
+- ใช้ในการเปรียบเทียบ แทนคำนามที่พูดไปแล้ว: that แทนตัวเดียว / those แทนหลายตัว
 - Our prices are lower than **those** of our competitors.
 - ราคาของเราต่ำกว่าราคาของคู่แข่ง
 - Clues: than ___ of · similar to ___ of
@@ -472,16 +607,16 @@ Decide the job of the blank: subject, object, owner of a noun, or the same perso
 
     those + who + V1
 
-- "Those who" means the people who. It is plural, so the verb after it is plural too.
-- "those who" แปลว่าผู้ที่ เป็นพหูพจน์ กริยาที่ตามมาจึงเป็นพหูพจน์ด้วย
+- Those who means the people who. It is plural, so the verb has no -s.
+- those who = คนที่… (หลายคน) กริยาจึงไม่เติม s
 - **Those** who wish to attend must register online.
 - ผู้ที่ต้องการเข้าร่วมต้องลงทะเบียนออนไลน์
 
 ## relative-clauses
 
-Look at the noun before the blank (person, thing, place, time) and at what follows (a verb, or a subject + verb). Together they pick the relative word.
+Look at the noun before the blank (person, thing, place, time). Then look after it: a verb straight away, or a subject first?
 
-ดูคำนามหน้าช่องว่าง (คน สิ่งของ สถานที่ เวลา) และสิ่งที่ตามหลัง (กริยา หรือ ประธาน + กริยา) สองอย่างนี้บอกว่าต้องใช้คำเชื่อมตัวไหน
+ดูคำนามข้างหน้า (คน สิ่งของ สถานที่ เวลา) แล้วดูข้างหลังว่าเป็นกริยาเลย หรือมีประธานก่อน
 
 ### Who / which / that as subject · Who / which / that ทำหน้าที่ประธาน `who-which-that`
 
@@ -489,8 +624,8 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
     N (thing) + which + V
     N + that + V
 
-- When a verb comes right after the blank, use who for people, which for things, or that for either.
-- ถ้ากริยาตามหลังช่องว่างทันที ใช้ who กับคน which กับสิ่งของ หรือ that ได้ทั้งสองแบบ
+- If a verb comes right after: who for people, which for things, that for both.
+- ถ้าข้างหลังเป็นกริยาเลย: คนใช้ who / สิ่งของใช้ which / that ใช้ได้ทั้งคู่
 - The candidate **who** was hired starts on Monday.
 - ผู้สมัครที่ได้รับการจ้างงานจะเริ่มงานวันจันทร์
 
@@ -498,8 +633,8 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
 
     N + whom/which/that + S + V
 
-- When a subject + verb comes after the blank, the relative word is the object: whom for people, which for things.
-- ถ้าหลังช่องว่างเป็นประธาน + กริยา คำเชื่อมนี้ทำหน้าที่กรรม ใช้ whom กับคน which กับสิ่งของ
+- If a subject and verb come after: whom for people, which for things.
+- ถ้าข้างหลังมีประธาน + กริยา: คนใช้ whom / สิ่งของใช้ which
 - The consultant **whom** we hired has extensive experience.
 - ที่ปรึกษาที่เราจ้างมามีประสบการณ์มาก
 
@@ -507,8 +642,8 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
 
     N + whose + N + V
 
-- Whose shows ownership and is always followed by a noun.
-- whose แสดงความเป็นเจ้าของ และต้องตามด้วยคำนามเสมอ
+- Whose shows who owns something. A noun always comes right after it.
+- whose = ของ… ข้างหลังต้องมีคำนามเสมอ
 - Employees **whose** contracts expire this year will be contacted.
 - พนักงานที่สัญญาจ้างจะหมดอายุในปีนี้จะได้รับการติดต่อ
 - Clues: ___ + noun + verb
@@ -518,8 +653,8 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
     N (place) + where + S + V
     N (time) + when + S + V
 
-- After a place noun use where, after a time noun use when, when a full clause follows.
-- หลังคำนามบอกสถานที่ใช้ where หลังคำนามบอกเวลาใช้ when เมื่อตามด้วยประโยคเต็ม
+- For a place use where, for a time use when. A full sentence follows.
+- สถานที่ใช้ where / เวลาใช้ when (ข้างหลังเป็นประโยคเต็ม)
 - This is the room **where** the interviews will be held.
 - นี่คือห้องที่จะใช้สัมภาษณ์งาน
 
@@ -527,8 +662,8 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
 
     N + Prep + which/whom + S + V
 
-- A preposition can move in front of which or whom. Never use that or who after a preposition.
-- คำบุพบทย้ายมาอยู่หน้า which หรือ whom ได้ แต่ห้ามใช้ that หรือ who หลังคำบุพบท
+- After a preposition (with, in, to), use only which or whom. Never that or who.
+- หลังคำบุพบท (with, in, to) ใช้ได้แค่ which หรือ whom ห้ามใช้ that หรือ who
 - The firm **with which** we partnered is based in Seoul.
 - บริษัทที่เราร่วมมือด้วยตั้งอยู่ที่โซล
 
@@ -536,23 +671,23 @@ Look at the noun before the blank (person, thing, place, time) and at what follo
 
     what + S + V
 
-- What has no noun before it; it already means "the thing that".
-- what ไม่มีคำนามอยู่ข้างหน้า เพราะมีความหมายว่า "สิ่งที่" อยู่ในตัวแล้ว
+- What means "the thing that". There is no noun before it.
+- what = สิ่งที่… ข้างหน้าไม่มีคำนาม
 - **What** customers want most is faster delivery.
 - สิ่งที่ลูกค้าต้องการมากที่สุดคือการจัดส่งที่เร็วขึ้น
 
 ## reduced-clauses
 
-A clause can drop its relative word or subject and keep only a participle. Choose V-ing if the noun does the action, V3 if it receives it.
+Sometimes who or which is dropped and only the verb is left. The noun does it: V-ing. It is done to the noun: V3.
 
-ประโยคย่อยลดรูปได้โดยตัดคำเชื่อมหรือประธานออก เหลือแค่ participle ใช้ V-ing ถ้าคำนามเป็นผู้ทำ ใช้ V3 ถ้าคำนามเป็นผู้ถูกกระทำ
+บางทีตัด who / which ออก เหลือแค่กริยา: คำนามทำเอง ใช้ V-ing / คำนามถูกทำ ใช้ V3
 
 ### Noun + V-ing (active) · คำนาม + V-ing (ผู้ทำ) `reduced-active`
 
     N + V-ing + Obj
 
-- Short for "who/which + verb". The noun does the action.
-- ลดรูปมาจาก "who/which + กริยา" คำนามเป็นผู้ทำ
+- Noun + V-ing means the noun does the action. It is short for who/which + verb.
+- คำนาม + V-ing = คำนามนั้นทำเอง (ย่อมาจาก who / which + กริยา)
 - Passengers **traveling** with pets must notify the airline.
 - ผู้โดยสารที่เดินทางพร้อมสัตว์เลี้ยงต้องแจ้งสายการบิน
 - Clues: noun + ___ + object
@@ -561,8 +696,8 @@ A clause can drop its relative word or subject and keep only a participle. Choos
 
     N + V3 + Prep + N
 
-- Short for "which/who + be + V3". The noun receives the action, and there is no object after the participle.
-- ลดรูปมาจาก "which/who + be + V3" คำนามเป็นผู้ถูกกระทำ และไม่มีกรรมตามหลัง participle
+- Noun + V3 means the action is done to the noun. No object follows.
+- คำนาม + V3 = คำนามนั้นถูกทำ และข้างหลังไม่มีกรรม
 - The report **submitted** yesterday contained several errors.
 - รายงานที่ส่งมาเมื่อวานมีข้อผิดพลาดหลายจุด
 - Clues: noun + ___ + by/in/on… · no object after the blank
@@ -572,8 +707,8 @@ A clause can drop its relative word or subject and keep only a participle. Choos
     V-ing + Obj, S + V
     after/before/when/while + V-ing, S + V
 
-- The subject of the main clause does the V-ing action. Having + V3 shows it happened first.
-- ประธานของประโยคหลักเป็นผู้ทำ V-ing ด้วย ถ้าใช้ having + V3 แปลว่าเกิดขึ้นก่อน
+- You can start with V-ing when the subject of the main part does it. Having + V3 means it was done first.
+- ขึ้นต้นด้วย V-ing ได้ ถ้าประธานของประโยคหลักเป็นคนทำ / having + V3 = ทำเสร็จก่อน
 - **Having reviewed** the proposal, the director approved it.
 - หลังจากตรวจข้อเสนอแล้ว ผู้อำนวยการก็อนุมัติ
 
@@ -582,24 +717,24 @@ A clause can drop its relative word or subject and keep only a participle. Choos
     V3 + Prep + N, S + V
     once/if/unless/as + V3, S + V
 
-- The subject of the main clause receives the V3 action.
-- ประธานของประโยคหลักเป็นผู้ถูกกระทำตาม V3
+- You can start with V3 when the subject of the main part has the action done to it.
+- ขึ้นต้นด้วย V3 ได้ ถ้าประธานของประโยคหลักเป็นสิ่งที่ถูกทำ
 - **Designed** for small offices, the printer is compact and quiet.
 - เครื่องพิมพ์นี้ออกแบบมาสำหรับสำนักงานขนาดเล็ก จึงกะทัดรัดและเงียบ
 - Clues: as stated · as requested · once approved · unless otherwise noted
 
 ## conditionals
 
-Match the two halves: the verb form in the if clause tells you the verb form in the main clause.
+Match the pair: the verb in the if part tells you the verb in the other part.
 
-จับคู่สองส่วนให้ตรงกัน รูปกริยาในประโยค if เป็นตัวบอกรูปกริยาในประโยคหลัก
+จับคู่ให้ถูก: กริยาในส่วน if เป็นแบบไหน อีกส่วนก็ต้องเป็นคู่ของมัน
 
 ### Zero conditional · Zero conditional (ความจริงทั่วไป) `zero-conditional`
 
     if + S + V(s/es), S + V(s/es)
 
-- Something that is always true when the condition happens.
-- สิ่งที่เป็นจริงเสมอเมื่อเงื่อนไขเกิดขึ้น
+- Always true: if A happens, B happens. Both parts use the present simple.
+- เรื่องจริงเสมอ: ถ้า A เกิด B ก็เกิด ทั้งสองส่วนใช้ present simple
 - If the temperature **drops** below zero, the pipes freeze.
 - ถ้าอุณหภูมิต่ำกว่าศูนย์ ท่อน้ำจะแข็งตัว
 
@@ -607,8 +742,8 @@ Match the two halves: the verb form in the if clause tells you the verb form in 
 
     if + S + V(s/es), S + will + V1
 
-- A real possibility in the future. Use the present simple after if, not will.
-- สิ่งที่เป็นไปได้จริงในอนาคต หลัง if ใช้ present simple ห้ามใช้ will
+- Real and possible in the future: if + present simple, then will.
+- เป็นไปได้จริงในอนาคต: if + present simple แล้วอีกส่วนใช้ will
 - If you **order** today, we will ship it tomorrow.
 - ถ้าคุณสั่งวันนี้ เราจะจัดส่งพรุ่งนี้
 - Clues: if · unless · as long as · provided that
@@ -617,8 +752,8 @@ Match the two halves: the verb form in the if clause tells you the verb form in 
 
     if + S + V2/were, S + would + V1
 
-- An imaginary or unlikely situation now. Use were for every subject.
-- สถานการณ์สมมติหรือไม่น่าเกิดขึ้นในปัจจุบัน ใช้ were ได้กับประธานทุกตัว
+- Imaginary, not true now: if + V2 (or were), then would.
+- สมมติ ไม่จริงตอนนี้: if + V2 (หรือ were) แล้วอีกส่วนใช้ would
 - If we **had** more staff, we would open on weekends.
 - ถ้าเรามีพนักงานมากกว่านี้ เราจะเปิดร้านวันเสาร์อาทิตย์
 
@@ -626,8 +761,8 @@ Match the two halves: the verb form in the if clause tells you the verb form in 
 
     if + S + had + V3, S + would have + V3
 
-- An imaginary past: it did not happen, so the result did not happen either.
-- สมมติย้อนอดีต เหตุการณ์ไม่ได้เกิดขึ้นจริง ผลจึงไม่เกิดขึ้นด้วย
+- Imaginary past that did not happen: if + had V3, then would have V3.
+- สมมติย้อนอดีต ซึ่งไม่ได้เกิดขึ้นจริง: if + had V3 แล้วอีกส่วนใช้ would have V3
 - If the parts had arrived earlier, we **would have finished** on time.
 - ถ้าชิ้นส่วนมาถึงเร็วกว่านี้ เราคงทำเสร็จทันเวลาแล้ว
 
@@ -635,44 +770,87 @@ Match the two halves: the verb form in the if clause tells you the verb form in 
 
     unless + S + V(s/es), S + will + V1
 
-- Unless means "if … not". The verb after it is positive.
-- unless แปลว่า "ถ้าไม่" กริยาหลัง unless จึงเป็นรูปบอกเล่า
+- Unless means "if not". The verb after it is not negative.
+- unless = ถ้าไม่ กริยาหลัง unless จึงเป็นรูปบอกเล่า
 - The event will be canceled **unless** more people register.
 - งานจะถูกยกเลิกถ้ามีคนลงทะเบียนไม่เพิ่ม
 
 ## inversion
 
-When a negative word or "should / had / were" opens the sentence, the helping verb comes before the subject, as in a question.
+When a sentence starts with a negative word, only, so + adjective, should / had / were, or Attached / Enclosed, the verb comes before the subject, like a question.
 
-เมื่อคำปฏิเสธหรือ should / had / were ขึ้นต้นประโยค กริยาช่วยจะย้ายมาอยู่หน้าประธานเหมือนประโยคคำถาม
+ถ้าประโยคขึ้นต้นด้วยคำปฏิเสธ, only, so + คำคุณศัพท์, should / had / were หรือ Attached / Enclosed ให้ย้ายกริยามาไว้หน้าประธาน เหมือนประโยคคำถาม
+
+### Which helping verb goes first? · เลือกกริยาช่วยตัวไหนมาไว้หน้า `which-helper-verb`
+
+    be/have/will/can + S + …
+    do/does/did + S + V1
+
+- `be` = ประโยคปกติมี is / are / was / were หรือข้างหลังเป็นคำคุณศัพท์ V-ing หรือ V3 แบบถูกทำ (the normal sentence has is/are/was/were, or an adjective, V-ing or passive V3 follows)
+- `have` = ประโยคปกติมี has / have / had + V3 (the normal sentence has has/have/had + V3)
+- `will/can` = ประโยคปกติมี will, can, should ฯลฯ (the normal sentence has a modal (will, can, should…))
+- `do/does/did` = ประโยคปกติไม่มีกริยาช่วยเลย ให้เติม do / does / did และกริยาหลักกลับเป็นรูปเดิม (the normal sentence has no helping verb; the main verb goes back to V1)
+
+- First say the sentence the normal way. If it already has be, have or a modal, move that word to the front. If not, add do, does or did. Before an adjective like successful, it must be be, never do.
+- ลองพูดประโยคแบบปกติก่อน ถ้ามี be, have หรือ will / can อยู่แล้ว ให้ย้ายตัวนั้นมาไว้หน้า ถ้าไม่มี ให้เติม do / does / did ระวัง! ถ้าข้างหลังเป็นคำคุณศัพท์ (เช่น successful) ต้องใช้ be ห้ามใช้ do
+- Seldom **does** our team miss a deadline.
+- ทีมของเราแทบไม่เคยพลาดกำหนดส่ง
+- Clues: the team misses → Seldom does the team miss · we have met → Rarely have we met · it was popular → So popular was it
 
 ### Negative word first · ขึ้นต้นด้วยคำปฏิเสธ `negative-adverb-inversion`
 
-    never/rarely/seldom/hardly + aux + S + V1
+    never/rarely/seldom/hardly + aux + S + V
 
-- After never, rarely, seldom or hardly at the start, put do/does/did, have or be before the subject.
-- ถ้าขึ้นต้นด้วย never, rarely, seldom, hardly ให้วาง do/does/did, have หรือ be ไว้หน้าประธาน
-- Rarely **does** the CEO attend these meetings.
-- ซีอีโอแทบไม่เคยเข้าประชุมเหล่านี้เลย
-- Clues: never · rarely · seldom · hardly · little
+- `never` = ไม่เคย (not ever)
+- `rarely` = แทบไม่เคย / นาน ๆ ครั้ง (almost never)
+- `seldom` = แทบไม่เคย (เหมือน rarely) (almost never)
+- `hardly` = แทบจะไม่ (almost not)
+- `aux` = กริยาช่วย: be, have, will / can หรือ do / does / did (ดูการ์ดแรก) (helping verb: be, have, will/can or do/does/did (see the first card))
+
+- If the sentence starts with never, rarely, seldom or hardly, put the helping verb before the subject.
+- ขึ้นต้นด้วย never, rarely, seldom, hardly ให้วางกริยาช่วยไว้หน้าประธาน
+- Rarely **have** we seen such strong sales in the first quarter.
+- เราแทบไม่เคยเห็นยอดขายไตรมาสแรกสูงขนาดนี้
+- Clues: never · rarely · seldom · hardly · little · under no circumstances
 
 ### Not only … but also · Not only … but also ขึ้นต้นประโยค `not-only-inversion`
 
     not only + aux + S + V, but + S + also + V
 
-- When not only opens the sentence, invert the first clause only.
-- เมื่อ not only ขึ้นต้นประโยค ให้สลับเฉพาะประโยคแรก
-- Not only **did** sales rise, but costs also fell.
-- ไม่เพียงยอดขายจะเพิ่มขึ้น ต้นทุนยังลดลงด้วย
+- `not only … but` = ไม่เพียงแต่… แต่ยัง… (not just this, but also that)
 
-### Only after / only when · Only after / only when `only-inversion`
+- If not only starts the sentence, swap only the first part. The part after but stays normal.
+- ขึ้นต้นด้วย not only ให้สลับเฉพาะส่วนแรก ส่วนหลัง but เป็นประโยคปกติ
+- Not only **does** the plan save money, but it also saves time.
+- แผนนี้ไม่เพียงแต่ช่วยประหยัดเงิน แต่ยังประหยัดเวลาด้วย
 
-    only + after/when/if + N/Clause + aux + S + V
+### Only after / only when / not until · Only after / only when / not until `only-inversion`
 
-- After an "only" phrase at the start, the main clause is inverted.
-- เมื่อวลี only ขึ้นต้นประโยค ประโยคหลักต้องสลับกริยาช่วยมาหน้าประธาน
-- Only after the inspection **will** the permit be issued.
-- จะออกใบอนุญาตได้ก็ต่อเมื่อตรวจสอบเสร็จแล้วเท่านั้น
+    only after/only when/not until + N/Clause + aux + S + V
+
+- `only after` = หลังจาก… เท่านั้น ถึงจะ… (not before)
+- `only when` = ก็ต่อเมื่อ… (only at the time that)
+- `not until` = จนกว่า… ถึงจะ… (not before)
+
+- The "only" part stays normal. The main part that follows it is swapped: helping verb, then subject.
+- ส่วนที่มี only เป็นปกติ แต่ส่วนหลักที่ตามมาต้องสลับ: กริยาช่วย แล้วค่อยประธาน
+- Only when the payment clears **will** we ship the order.
+- เราจะส่งสินค้าก็ต่อเมื่อชำระเงินเรียบร้อยแล้วเท่านั้น
+
+### So + adjective / such first · ขึ้นต้นด้วย So + คำคุณศัพท์ / Such `so-such-inversion`
+
+    so + Adj + be + S + that + S + V
+    such + be + N + that + S + V
+
+- `so … that` = มาก… จน… (so much … that (result))
+- `such … that` = …มากขนาดนั้น จน… (so great … that)
+- `be` = is / are / was / were เท่านั้น ห้ามใช้ do (is/are/was/were, never do)
+
+- This is the normal "S + was so + adjective + that" with so + adjective moved to the front. Then be, then the subject. Use be because an adjective cannot follow do.
+- มาจากประโยคปกติ "S + was so + คำคุณศัพท์ + that…" แล้วย้าย so + คำคุณศัพท์ มาไว้หน้า ตามด้วย be + ประธาน ต้องใช้ be เพราะ do ตามด้วยคำคุณศัพท์ไม่ได้
+- So popular **was** the workshop that a second session was added.
+- เวิร์กช็อปได้รับความนิยมมาก จนต้องเพิ่มรอบที่สอง
+- Clues: So + adjective ___ the … · … that + result
 
 ### If-clause without if · ละ if แล้วสลับที่ `conditional-inversion`
 
@@ -680,10 +858,14 @@ When a negative word or "should / had / were" opens the sentence, the helping ve
     had + S + V3, S + would have + V3
     were + S + to V1, S + would + V1
 
-- Drop if and move should, had or were to the front. "Should you have…" is very common in TOEIC emails.
-- ตัด if ออกแล้วย้าย should, had หรือ were มาไว้ต้นประโยค "Should you have…" พบบ่อยมากในอีเมลข้อสอบ TOEIC
-- **Should** you have any questions, please contact us.
-- หากคุณมีคำถามใด ๆ กรุณาติดต่อเรา
+- `should` = ถ้า… (= if + S + V) (if (it happens))
+- `had` = ถ้า… (เรื่องอดีตที่ไม่ได้เกิดจริง = if + had V3) (if (in the past, but it did not happen))
+- `were` = ถ้า… (สมมติ = if + V2) (if (imagined))
+
+- Drop if and move should, had or were to the front. "Should you have…" is very common in emails.
+- ตัด if ออก แล้วย้าย should, had, were มาไว้หน้าสุด ในอีเมลเจอ "Should you have…" บ่อยมาก
+- **Should** you need any help, please call the front desk.
+- หากต้องการความช่วยเหลือ กรุณาโทรหาแผนกต้อนรับ
 - Clues: ___ you have any questions · ___ you need assistance
 
 ### No sooner … than / hardly … when · No sooner … than / hardly … when `no-sooner-than`
@@ -691,24 +873,42 @@ When a negative word or "should / had / were" opens the sentence, the helping ve
     no sooner + had + S + V3 + than + S + V2
     hardly + had + S + V3 + when + S + V2
 
-- One thing happened right after another. Keep the pairs: no sooner … than, hardly … when.
-- เหตุการณ์หนึ่งเกิดตามหลังอีกเหตุการณ์ทันที จำคู่ให้แม่น: no sooner … than, hardly … when
+- `no sooner … than` = ทันทีที่… ก็… (as soon as … then)
+- `hardly … when` = เพิ่งจะ… ก็… (as soon as … then)
+
+- As soon as A happened, B happened. Remember the pairs: no sooner … than, hardly … when.
+- ทันทีที่ A เกิด B ก็เกิด จำคู่ให้แม่น: no sooner … than, hardly … when
 - No sooner **had** the store opened than customers rushed in.
 - ร้านเพิ่งเปิดได้ไม่ทันไร ลูกค้าก็กรูกันเข้ามา
 
+### Attached / Enclosed first (emails) · Attached / Enclosed ขึ้นต้นประโยค (อีเมล) `enclosed-attached-inversion`
+
+    attached/enclosed/included + is + N
+    attached/enclosed/included + are + N(s)
+
+- `attached` = ที่แนบมา (ในอีเมล) (sent with this email)
+- `enclosed` = ที่แนบมา (ในซองจดหมาย) (sent in this envelope)
+- `included` = ที่รวมมาด้วย (part of this package)
+
+- Emails often move attached or enclosed to the front. The real subject comes after is/are, so pick is or are from the noun after the blank.
+- ในอีเมลมักย้าย attached, enclosed มาไว้หน้า ประธานจริงอยู่ "หลัง" is / are จึงต้องดูคำนามหลังช่องว่าง: ตัวเดียวใช้ is / หลายตัวใช้ are
+- Attached **are** the slides from yesterday’s meeting.
+- แนบสไลด์จากการประชุมเมื่อวานมาด้วย
+- Clues: Attached ___ · Enclosed ___ · Included ___
+
 ## comparatives
 
-Than means comparative, the + group means superlative, as … as means equal. Find the signal word first.
+Find the signal word: than means -er or more, the means -est or most, as … as means equal.
 
-มี than ใช้ขั้นกว่า มี the + กลุ่มที่เปรียบเทียบใช้ขั้นสูงสุด มี as … as คือเท่ากัน หาคำสัญญาณก่อน
+หาคำสัญญาณ: มี than ใช้ขั้นกว่า / มี the ใช้ขั้นสุด / มี as … as คือเท่ากัน
 
 ### Comparative · ขั้นกว่า (Comparative) `comparative`
 
     Adj-er + than
     more + Adj + than
 
-- Short adjectives add -er; longer ones use more. Both are followed by than.
-- คำคุณศัพท์สั้นเติม -er คำยาวใช้ more นำหน้า ทั้งสองแบบตามด้วย than
+- Comparing two things: short words add -er, long words use more, then than.
+- เปรียบเทียบ 2 อย่าง: คำสั้นเติม -er / คำยาวใช้ more แล้วตามด้วย than
 - The new model is **lighter** than the old one.
 - รุ่นใหม่เบากว่ารุ่นเก่า
 - Clues: than
@@ -718,8 +918,8 @@ Than means comparative, the + group means superlative, as … as means equal. Fi
     the + Adj-est + N
     the most + Adj + N
 
-- Used for the top one in a group, usually with the and often with in/of + group or ever.
-- ใช้กับสิ่งที่มากที่สุดในกลุ่ม มักมี the และมักตามด้วย in/of + กลุ่ม หรือ ever
+- The top one in a group: the + -est, or the most.
+- มากที่สุดในกลุ่ม: the + -est หรือ the most
 - This is **the most popular** tour we offer.
 - นี่คือทัวร์ที่ได้รับความนิยมมากที่สุดของเรา
 - Clues: the · of all · in the region · ever · one of the + N(s)
@@ -729,8 +929,8 @@ Than means comparative, the + group means superlative, as … as means equal. Fi
     as + Adj/Adv + as
     not as + Adj + as
 
-- Shows two things are equal. The word between the two as is the plain form, not -er.
-- แสดงว่าสองสิ่งเท่ากัน คำที่อยู่ระหว่าง as ทั้งสองเป็นรูปปกติ ไม่เติม -er
+- Equal: as + plain word + as, with no -er.
+- เท่ากัน: as + คำปกติ + as (ไม่เติม -er)
 - The second quarter was **as** profitable as the first.
 - ไตรมาสที่สองทำกำไรได้เท่ากับไตรมาสแรก
 
@@ -738,8 +938,8 @@ Than means comparative, the + group means superlative, as … as means equal. Fi
 
     much/far/even/a lot + Adj-er + than
 
-- To make a comparative stronger use much, far, even or a lot. Never use very.
-- ถ้าจะเน้นขั้นกว่า ใช้ much, far, even หรือ a lot ห้ามใช้ very
+- To say "much more", use much, far or even. Not very.
+- อยากเน้นว่า "กว่ามาก" ใช้ much, far, even ห้ามใช้ very
 - The new office is **much** larger than the old one.
 - สำนักงานใหม่ใหญ่กว่าที่เก่ามาก
 
@@ -747,8 +947,8 @@ Than means comparative, the + group means superlative, as … as means equal. Fi
 
     the + Adj-er + S + V, the + Adj-er + S + V
 
-- Shows that one change causes another. Both halves start with the + comparative.
-- แสดงว่าการเปลี่ยนแปลงหนึ่งทำให้อีกอย่างเปลี่ยนตาม ทั้งสองส่วนขึ้นต้นด้วย the + ขั้นกว่า
+- The more…, the more…: both parts start with the + comparative.
+- ยิ่ง … ยิ่ง …: ทั้งสองส่วนขึ้นต้นด้วย the + ขั้นกว่า
 - The earlier you register, **the lower** the fee will be.
 - ยิ่งลงทะเบียนเร็ว ค่าธรรมเนียมยิ่งถูก
 
@@ -758,23 +958,23 @@ Than means comparative, the + group means superlative, as … as means equal. Fi
     bad/badly → worse → the worst
     many/much → more → the most
 
-- These change the whole word instead of adding -er or -est.
-- คำเหล่านี้เปลี่ยนรูปทั้งคำ ไม่ได้เติม -er หรือ -est
+- These change the whole word instead of adding -er or -est. Learn them by heart.
+- คำพวกนี้เปลี่ยนทั้งคำ ไม่เติม -er / -est ต้องจำ
 - Our sales results were **better** than expected.
 - ผลยอดขายของเราดีกว่าที่คาดไว้
 
 ## gerund-infinitive
 
-The word before the blank decides the form: some verbs take V-ing, some take to V1, and every preposition takes V-ing.
+The word before the blank decides. Some verbs take V-ing, some take to V1, and after a preposition always use V-ing.
 
-คำหน้าช่องว่างเป็นตัวกำหนดรูป กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และคำบุพบททุกตัวตามด้วย V-ing
+คำหน้าช่องว่างเป็นตัวบอก: กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และหลังคำบุพบทใช้ V-ing เสมอ
 
 ### Verb + V-ing · กริยา + V-ing `verb-plus-gerund`
 
     enjoy/avoid/consider/suggest/finish + V-ing
 
-- These verbs are followed by V-ing, never by to V1.
-- กริยากลุ่มนี้ตามด้วย V-ing เท่านั้น ห้ามใช้ to V1
+- These verbs are followed by V-ing only.
+- กริยาพวกนี้ตามด้วย V-ing เท่านั้น
 - We suggest **booking** your tickets early.
 - เราแนะนำให้จองตั๋วล่วงหน้า
 - Clues: enjoy · avoid · consider · suggest · recommend · finish · postpone · mind
@@ -783,8 +983,8 @@ The word before the blank decides the form: some verbs take V-ing, some take to 
 
     plan/decide/agree/hope/expect + to V1
 
-- These verbs, mostly about future plans or wishes, are followed by to V1.
-- กริยากลุ่มนี้ส่วนใหญ่เกี่ยวกับแผนหรือความต้องการในอนาคต ตามด้วย to V1
+- These verbs, mostly about plans or wishes, are followed by to V1.
+- กริยาพวกนี้ (ส่วนมากเกี่ยวกับแผนหรือความอยาก) ตามด้วย to V1
 - The company plans **to open** a new branch in Osaka.
 - บริษัทวางแผนจะเปิดสาขาใหม่ที่โอซาก้า
 - Clues: plan · decide · agree · hope · expect · intend · aim · offer · refuse
@@ -794,8 +994,8 @@ The word before the blank decides the form: some verbs take V-ing, some take to 
     Prep + V-ing
     look forward to/be committed to + V-ing
 
-- After any preposition use V-ing. Watch for phrases where to is a preposition, not part of an infinitive.
-- หลังคำบุพบททุกตัวใช้ V-ing ระวังวลีที่ to เป็นคำบุพบท ไม่ใช่ to ของ infinitive
+- After a preposition, always use V-ing. Careful: in look forward to, to is a preposition, so V-ing follows.
+- หลังคำบุพบทใช้ V-ing เสมอ ระวัง! look forward to ตัว to เป็นคำบุพบท จึงตามด้วย V-ing
 - We look forward to **meeting** you next week.
 - เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า
 - Clues: look forward to · be committed to · be dedicated to · be used to · in addition to
@@ -804,8 +1004,8 @@ The word before the blank decides the form: some verbs take V-ing, some take to 
 
     ask/allow/encourage/require + Obj + to V1
 
-- These verbs take a person as object, then to V1. In the passive: be + V3 + to V1.
-- กริยากลุ่มนี้ตามด้วยกรรม (คน) แล้วตามด้วย to V1 ถ้าเป็น passive จะเป็น be + V3 + to V1
+- Verb + person + to V1, as in "ask him to come".
+- กริยา + คน + to V1 เช่น ask him to come
 - The policy allows employees **to work** from home.
 - นโยบายนี้อนุญาตให้พนักงานทำงานจากที่บ้านได้
 - Clues: ask · allow · encourage · require · remind · invite · advise
@@ -814,8 +1014,8 @@ The word before the blank decides the form: some verbs take V-ing, some take to 
 
     make/let/have + Obj + V1
 
-- After make, let and have (meaning to cause), the verb is the base form with no to.
-- หลัง make, let และ have (ในความหมายให้ทำ) กริยาเป็นรูปเดิม ไม่มี to
+- make, let or have + person + base verb, with no to.
+- make, let, have + คน + กริยารูปเดิม (ไม่มี to)
 - The manager let the staff **leave** early on Friday.
 - ผู้จัดการให้พนักงานกลับบ้านเร็วในวันศุกร์
 
@@ -824,17 +1024,17 @@ The word before the blank decides the form: some verbs take V-ing, some take to 
     to V1/in order to V1 + Obj
     S + V + Obj + in order to V1
 
-- To V1 or in order to V1 gives the reason someone does something.
-- to V1 หรือ in order to V1 บอกเหตุผลหรือจุดประสงค์ของการกระทำ
+- To V1 or in order to V1 gives the reason: "so that you can".
+- to V1 หรือ in order to V1 = เพื่อจะ…
 - **To apply**, please fill out the online form.
 - หากต้องการสมัคร กรุณากรอกแบบฟอร์มออนไลน์
 - Clues: in order to · so as to
 
 ## collocations
 
-Some words simply go together. Learn them as fixed chunks; grammar alone will not tell you which one is right.
+Some words always go together. Learn them as pairs, because grammar alone will not tell you.
 
-คำบางคำใช้คู่กันเป็นชุด ต้องจำเป็นก้อน เพราะไวยากรณ์อย่างเดียวบอกไม่ได้ว่าคำไหนถูก
+คำบางคู่ใช้ด้วยกันเป็นประจำ ต้องจำเป็นคู่ เพราะเดาจากไวยากรณ์อย่างเดียวไม่ได้
 
 ### Verb + noun · กริยา + คำนาม `verb-noun-collocations`
 
@@ -842,8 +1042,8 @@ Some words simply go together. Learn them as fixed chunks; grammar alone will no
     take + place/part/action
     meet + a deadline/a demand
 
-- These verbs and nouns are fixed partners. Do a decision or make part are wrong.
-- กริยากับคำนามเหล่านี้เป็นคู่ตายตัว เช่น พูดว่า do a decision หรือ make part ไม่ได้
+- These verbs and nouns are fixed pairs: make a decision, not do a decision.
+- กริยากับคำนามพวกนี้ใช้คู่กันตายตัว เช่น make a decision (ไม่ใช่ do a decision)
 - The board will **make** a decision next week.
 - คณะกรรมการจะตัดสินใจในสัปดาห์หน้า
 - Clues: conduct a survey · place an order · raise funds · reach an agreement
@@ -854,8 +1054,8 @@ Some words simply go together. Learn them as fixed chunks; grammar alone will no
     be + familiar/compatible + with
     be + aware/capable + of
 
-- Each adjective takes its own preposition. Learn the pair together.
-- คำคุณศัพท์แต่ละตัวใช้คำบุพบทเฉพาะของมัน ให้จำเป็นคู่
+- Each adjective has its own preposition. Learn them as pairs.
+- คำคุณศัพท์แต่ละตัวมีคำบุพบทคู่ของมัน ให้จำเป็นคู่
 - Ms. Patel is responsible **for** training new staff.
 - คุณพาเทลรับผิดชอบการอบรมพนักงานใหม่
 - Clues: responsible for · eligible for · familiar with · aware of · subject to
@@ -865,8 +1065,8 @@ Some words simply go together. Learn them as fixed chunks; grammar alone will no
     increase/decrease/demand + in + N
     access/approach/solution + to + N
 
-- Change nouns take in; access, approach and solution take to.
-- คำนามที่บอกการเปลี่ยนแปลงใช้ in ส่วน access, approach, solution ใช้ to
+- Words for going up or down take in (increase in). Access and solution take to.
+- คำที่บอกการเพิ่มหรือลดใช้ in (increase in) / access, solution ใช้ to
 - There has been a sharp increase **in** online sales.
 - ยอดขายออนไลน์เพิ่มขึ้นอย่างมาก
 - Clues: increase in · demand for · access to · reason for · effect on
@@ -877,8 +1077,8 @@ Some words simply go together. Learn them as fixed chunks; grammar alone will no
     depend/rely + on
     apply + for/to
 
-- These verbs need a fixed preposition before their object.
-- กริยาเหล่านี้ต้องมีคำบุพบทเฉพาะก่อนกรรม
+- These verbs need a preposition before the object, like comply with.
+- กริยาพวกนี้ต้องมีคำบุพบทก่อนกรรม เช่น comply with
 - All visitors must comply **with** the safety rules.
 - ผู้มาเยือนทุกคนต้องปฏิบัติตามกฎความปลอดภัย
 - Clues: comply with · rely on · apply for (a job) · respond to · participate in
@@ -889,8 +1089,8 @@ Some words simply go together. Learn them as fixed chunks; grammar alone will no
     strictly + prohibited
     deeply + appreciated
 
-- Certain adverbs are the natural partners of certain adjectives or V3 forms.
-- คำกริยาวิเศษณ์บางตัวใช้คู่กับคำคุณศัพท์หรือ V3 บางตัวเป็นปกติ
+- Some adverbs usually go with certain words, like highly recommended.
+- adverb บางตัวมักใช้คู่กับคำบางคำ เช่น highly recommended
 - Smoking is **strictly** prohibited in the building.
 - ห้ามสูบบุหรี่ในอาคารโดยเด็ดขาด
 - Clues: highly recommended · strictly prohibited · conveniently located · widely used

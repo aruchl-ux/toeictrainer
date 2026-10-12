@@ -41,6 +41,16 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
           <FormulaLine key={line} line={line} />
         ))}
       </div>
+      {entry.words && entry.words.length > 0 && (
+        <dl className="cheat-words" aria-label={t(uiLang, 'cheatWords')}>
+          {entry.words.map((w) => (
+            <div key={w.w}>
+              <dt lang="en">{w.w}</dt>
+              <dd lang={lang}>{w[lang]}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
       <p className="cheat-use" lang={lang}>
         {entry.use[lang]}
       </p>

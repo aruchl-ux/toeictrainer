@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const pronouns: CheatSheet = {
   topic: 'pronouns',
   intro: {
-    en: 'Decide the job of the blank: subject, object, owner of a noun, or the same person as the subject. Each job has its own form.',
-    th: 'ดูว่าช่องว่างทำหน้าที่อะไร: ประธาน กรรม เจ้าของคำนาม หรือคนเดียวกับประธาน แต่ละหน้าที่ใช้รูปต่างกัน'
+    en: 'Look where the blank is: before a verb, after a verb, or before a noun. Each place needs a different form.',
+    th: 'ดูว่าช่องว่างอยู่ตรงไหน: หน้ากริยา หลังกริยา หรือหน้าคำนาม แต่ละที่ใช้รูปต่างกัน'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const pronouns: CheatSheet = {
       name: { en: 'Subject, object and possessive', th: 'สรรพนามประธาน กรรม และแสดงความเป็นเจ้าของ' },
       formula: ['he/she/we/they + V', 'V/Prep + me/him/her/us/them', 'my/his/her/our/their + N'],
       use: {
-        en: 'Before a verb use the subject form; after a verb or preposition use the object form; before a noun use the possessive.',
-        th: 'หน้ากริยาใช้รูปประธาน หลังกริยาหรือคำบุพบทใช้รูปกรรม หน้าคำนามใช้รูปแสดงความเป็นเจ้าของ'
+        en: 'Before a verb: he, she, they. After a verb: him, her, them. Before a noun: his, her, their.',
+        th: 'หน้ากริยาใช้ he, she, they / หลังกริยาใช้ him, her, them / หน้าคำนามใช้ his, her, their'
       },
       example: {
         en: 'Ms. Ortiz asked {{her}} assistant to book the room.',
@@ -25,8 +25,8 @@ export const pronouns: CheatSheet = {
       name: { en: 'Possessive pronouns', th: 'สรรพนามแสดงความเป็นเจ้าของแบบไม่มีคำนามตาม' },
       formula: ['mine/yours/his/hers/ours/theirs'],
       use: {
-        en: 'Use these when no noun follows; they stand for "possessive + noun" (yours = your laptop).',
-        th: 'ใช้เมื่อไม่มีคำนามตามหลัง เพราะคำนี้แทน "คำแสดงเจ้าของ + คำนาม" แล้ว (yours = your laptop)'
+        en: 'Use these when no noun follows. For example, yours = your laptop.',
+        th: 'ใช้เมื่อข้างหลังไม่มีคำนาม เช่น yours = your laptop'
       },
       example: {
         en: 'My laptop is old, but {{yours}} is brand new.',
@@ -38,8 +38,8 @@ export const pronouns: CheatSheet = {
       name: { en: 'Reflexive pronouns', th: 'สรรพนามสะท้อน (-self)' },
       formula: ['S + V + myself/himself/themselves', 'by + himself/herself/themselves'],
       use: {
-        en: 'Use -self when the object is the same person as the subject, to stress "personally", or with by to mean alone.',
-        th: 'ใช้ -self เมื่อกรรมเป็นคนเดียวกับประธาน เมื่อเน้นว่าทำเอง หรือใช้กับ by ในความหมายว่าตามลำพัง'
+        en: 'Use -self when someone does something to themselves, or to stress they did it personally. By himself means alone.',
+        th: 'ใช้ -self เมื่อทำกับตัวเอง หรือเน้นว่าทำเอง / by himself = ทำคนเดียว'
       },
       example: {
         en: 'Mr. Chen prepared the presentation {{himself}}.',
@@ -52,8 +52,8 @@ export const pronouns: CheatSheet = {
       name: { en: 'That of / those of', th: 'That of / those of' },
       formula: ['that + of + N', 'those + of + N'],
       use: {
-        en: 'In comparisons, that replaces a singular noun and those a plural noun, so the noun is not repeated.',
-        th: 'ใช้ในการเปรียบเทียบเพื่อไม่ต้องพูดคำนามซ้ำ that แทนคำนามเอกพจน์ those แทนคำนามพหูพจน์'
+        en: 'In comparisons they stand for a noun already said: that for one, those for more than one.',
+        th: 'ใช้ในการเปรียบเทียบ แทนคำนามที่พูดไปแล้ว: that แทนตัวเดียว / those แทนหลายตัว'
       },
       example: {
         en: 'Our prices are lower than {{those}} of our competitors.',
@@ -66,8 +66,8 @@ export const pronouns: CheatSheet = {
       name: { en: 'Those who', th: 'Those who' },
       formula: ['those + who + V1'],
       use: {
-        en: '"Those who" means the people who. It is plural, so the verb after it is plural too.',
-        th: '"those who" แปลว่าผู้ที่ เป็นพหูพจน์ กริยาที่ตามมาจึงเป็นพหูพจน์ด้วย'
+        en: 'Those who means the people who. It is plural, so the verb has no -s.',
+        th: 'those who = คนที่… (หลายคน) กริยาจึงไม่เติม s'
       },
       example: {
         en: '{{Those}} who wish to attend must register online.',

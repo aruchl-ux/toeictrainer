@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const tenseVoice: CheatSheet = {
   topic: 'tense-voice',
   intro: {
-    en: 'Pick the tense from the time words in the sentence, then check whether the subject does the action (active) or receives it (passive).',
-    th: 'ดูคำบอกเวลาในประโยคเพื่อเลือก tense แล้วเช็กว่าประธานเป็นผู้ทำ (active) หรือผู้ถูกกระทำ (passive)'
+    en: 'First look at the time words. Then ask: does the subject do the action, or is it done to the subject?',
+    th: 'ดูคำบอกเวลาในประโยคก่อน แล้วถามว่า ประธานเป็นคนทำเอง หรือถูกทำ'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Present simple', th: 'Present simple (ปัจจุบันกาลธรรมดา)' },
       formula: ['S + V(s/es) + Obj'],
       use: {
-        en: 'Facts, habits, routines and fixed schedules. Add -s/-es when the subject is he, she, it or a singular noun.',
-        th: 'ความจริงทั่วไป นิสัย กิจวัตร และตารางเวลาที่แน่นอน ถ้าประธานเป็น he, she, it หรือคำนามเอกพจน์ ให้เติม -s/-es ที่กริยา'
+        en: 'For habits and facts. If the subject is one person or thing (he, she, it), add -s/-es to the verb.',
+        th: 'ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็นคนเดียวหรือสิ่งเดียว (he, she, it) กริยาเติม s/es'
       },
       example: {
         en: 'The shuttle bus {{leaves}} the hotel every 30 minutes.',
@@ -26,8 +26,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Present continuous', th: 'Present continuous (ปัจจุบันกาลกำลังกระทำ)' },
       formula: ['S + am/is/are + V-ing + Obj'],
       use: {
-        en: 'An action happening now, a temporary situation, or a plan already arranged for the near future.',
-        th: 'สิ่งที่กำลังเกิดขึ้นตอนนี้ สถานการณ์ชั่วคราว หรือแผนในอนาคตอันใกล้ที่นัดหมายไว้แล้ว'
+        en: 'For something happening right now, or a plan already fixed for soon.',
+        th: 'ใช้กับสิ่งที่กำลังทำอยู่ตอนนี้ หรือแผนที่นัดไว้แล้วเร็ว ๆ นี้'
       },
       example: {
         en: 'Ms. Park {{is reviewing}} the contract at the moment.',
@@ -40,8 +40,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Present perfect', th: 'Present perfect (ปัจจุบันกาลสมบูรณ์)' },
       formula: ['S + have/has + V3 + Obj'],
       use: {
-        en: 'Something that started in the past and continues to now, or a past action whose result matters now.',
-        th: 'สิ่งที่เริ่มในอดีตและต่อเนื่องมาถึงปัจจุบัน หรือเหตุการณ์ในอดีตที่ผลยังส่งถึงตอนนี้'
+        en: 'For something that started in the past and is still true now. Often with since, for or already.',
+        th: 'ใช้กับเรื่องที่เริ่มในอดีตและยังเป็นอยู่ถึงตอนนี้ มักเจอ since, for, already'
       },
       example: {
         en: 'Sales {{have increased}} steadily since January.',
@@ -54,8 +54,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Present perfect continuous', th: 'Present perfect continuous' },
       formula: ['S + have/has + been + V-ing'],
       use: {
-        en: 'An activity that started in the past and is still going on, stressing how long it has lasted.',
-        th: 'กิจกรรมที่เริ่มในอดีตและยังทำอยู่ เน้นว่าทำมานานเท่าไรแล้ว'
+        en: 'Like the present perfect, but it stresses how long the action has gone on. It is still going on.',
+        th: 'เหมือน present perfect แต่เน้นว่าทำต่อเนื่องมานานแค่ไหน และตอนนี้ยังทำอยู่'
       },
       example: {
         en: 'Mr. Lee {{has been working}} on the report for three hours.',
@@ -68,8 +68,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Past simple', th: 'Past simple (อดีตกาลธรรมดา)' },
       formula: ['S + V2 + Obj'],
       use: {
-        en: 'A finished action at a specific time in the past.',
-        th: 'เหตุการณ์ที่จบไปแล้วในเวลาที่ระบุในอดีต'
+        en: 'For a finished action at a clear past time, like yesterday, last year or ago.',
+        th: 'ใช้กับเรื่องที่จบไปแล้วในอดีต และบอกเวลาชัด เช่น yesterday, last year, ago'
       },
       example: {
         en: 'The company {{opened}} its first branch in 2015.',
@@ -82,8 +82,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Past continuous', th: 'Past continuous (อดีตกาลกำลังกระทำ)' },
       formula: ['S + was/were + V-ing'],
       use: {
-        en: 'An action in progress at a point in the past, often interrupted by another past action.',
-        th: 'สิ่งที่กำลังทำอยู่ ณ เวลาหนึ่งในอดีต มักมีอีกเหตุการณ์หนึ่ง (past simple) เข้ามาแทรก'
+        en: 'For something that was in progress in the past when another thing happened (when + V2).',
+        th: 'ใช้กับสิ่งที่กำลังทำอยู่ในอดีต แล้วมีอีกเรื่องเข้ามาแทรก (when + V2)'
       },
       example: {
         en: 'The manager {{was speaking}} with a client when the power went out.',
@@ -96,8 +96,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Past perfect', th: 'Past perfect (อดีตกาลสมบูรณ์)' },
       formula: ['S + had + V3 + Obj'],
       use: {
-        en: 'The earlier of two past actions: it was already finished when the second one happened.',
-        th: 'เหตุการณ์ที่เกิดก่อนในสองเหตุการณ์ในอดีต คือจบไปแล้วตอนที่อีกเหตุการณ์เกิดขึ้น'
+        en: 'When there are two past actions, use had + V3 for the one that happened first.',
+        th: 'ในอดีตมี 2 เรื่อง เรื่องที่เกิดก่อนใช้ had + V3'
       },
       example: {
         en: 'The meeting {{had started}} before Ms. Diaz arrived.',
@@ -110,8 +110,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Future simple (will)', th: 'Future simple (will)' },
       formula: ['S + will + V1 + Obj'],
       use: {
-        en: 'Future facts, predictions, promises and decisions. The verb after will never takes -s.',
-        th: 'ข้อเท็จจริงในอนาคต การคาดการณ์ คำสัญญา หรือการตัดสินใจ กริยาหลัง will เป็นรูปเดิมเสมอ ไม่เติม -s'
+        en: 'For the future. The verb after will is always the base form (no -s).',
+        th: 'ใช้พูดถึงอนาคต กริยาหลัง will เป็นรูปเดิมเสมอ (ไม่เติม s)'
       },
       example: {
         en: 'The new policy {{will take}} effect next month.',
@@ -124,8 +124,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'be going to', th: 'be going to (แผนที่ตั้งใจไว้)' },
       formula: ['S + am/is/are + going to + V1'],
       use: {
-        en: 'A plan or intention decided before now, or a prediction based on what you can see.',
-        th: 'แผนหรือความตั้งใจที่ตัดสินใจไว้ก่อนแล้ว หรือการคาดการณ์จากสิ่งที่เห็นอยู่ตรงหน้า'
+        en: 'For a plan you have already decided on.',
+        th: 'ใช้กับแผนที่ตั้งใจไว้แล้ว'
       },
       example: {
         en: 'We {{are going to hire}} two more engineers this year.',
@@ -138,8 +138,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Future continuous', th: 'Future continuous' },
       formula: ['S + will + be + V-ing'],
       use: {
-        en: 'An action that will be in progress at a set time in the future.',
-        th: 'สิ่งที่จะกำลังทำอยู่ ณ เวลาที่ระบุในอนาคต'
+        en: 'For something that will be in progress at a certain time in the future.',
+        th: 'ใช้กับสิ่งที่จะกำลังทำอยู่ ณ เวลาหนึ่งในอนาคต'
       },
       example: {
         en: 'At 3 p.m. tomorrow, Ms. Tan {{will be presenting}} the results.',
@@ -152,8 +152,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Future perfect', th: 'Future perfect (อนาคตกาลสมบูรณ์)' },
       formula: ['S + will + have + V3'],
       use: {
-        en: 'Something that will be finished before a point in the future.',
-        th: 'สิ่งที่จะเสร็จสมบูรณ์ก่อนถึงเวลาหนึ่งในอนาคต'
+        en: 'For something that will be finished before a future time. Often with by + time.',
+        th: 'ใช้กับสิ่งที่จะเสร็จก่อนเวลาหนึ่งในอนาคต มักเจอ by + เวลา'
       },
       example: {
         en: 'By the end of June, the team {{will have completed}} the project.',
@@ -166,8 +166,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Future time clauses', th: 'ประโยคบอกเวลาที่พูดถึงอนาคต' },
       formula: ['when/once/after/as soon as + S + V(s/es), S + will + V1'],
       use: {
-        en: 'After when, once, before, after, until and as soon as, use the present simple for a future event, never will.',
-        th: 'หลัง when, once, before, after, until, as soon as ถ้าพูดถึงอนาคต ให้ใช้ present simple ห้ามใช้ will'
+        en: 'After when, once, after or as soon as, use the present simple even for the future. Do not use will.',
+        th: 'หลัง when, once, after, as soon as ถึงจะพูดถึงอนาคต ก็ใช้ present simple ห้ามใช้ will'
       },
       example: {
         en: 'Please call me as soon as the shipment {{arrives}}.',
@@ -180,8 +180,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Passive voice', th: 'Passive voice (ประโยคถูกกระทำ)' },
       formula: ['S + be + V3', 'S + have/has + been + V3', 'S + is/are + being + V3'],
       use: {
-        en: 'The subject receives the action. Change the tense through be (is, was, will be, has been…); the main verb stays V3. Often followed by by + the doer, and no object after the verb.',
-        th: 'ประธานเป็นผู้ถูกกระทำ เปลี่ยน tense ที่ตัว be (is, was, will be, has been…) ส่วนกริยาหลักเป็น V3 เสมอ มักตามด้วย by + ผู้กระทำ และไม่มีกรรมตามหลังกริยา'
+        en: 'Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive.',
+        th: 'ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + V3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็น passive'
       },
       example: {
         en: 'The invoices {{were sent}} to all clients yesterday.',

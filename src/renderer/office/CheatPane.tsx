@@ -50,6 +50,16 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
             {e.formula.map((line) => (
               <Formula key={line} line={line} />
             ))}
+            {e.words && e.words.length > 0 && (
+              <dl className="cheat-doc-words" aria-label={t('cheatWords')}>
+                {e.words.map((w) => (
+                  <div key={w.w}>
+                    <dt className="mono">{w.w}</dt>
+                    <dd lang={shown}>{w[shown]}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
             <p lang={shown}>{e.use[shown]}</p>
             <p className="cheat-doc-ex" lang="en">
               {exampleParts(e.example.en).map((p, i) =>

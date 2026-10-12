@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const gerundInfinitive: CheatSheet = {
   topic: 'gerund-infinitive',
   intro: {
-    en: 'The word before the blank decides the form: some verbs take V-ing, some take to V1, and every preposition takes V-ing.',
-    th: 'คำหน้าช่องว่างเป็นตัวกำหนดรูป กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และคำบุพบททุกตัวตามด้วย V-ing'
+    en: 'The word before the blank decides. Some verbs take V-ing, some take to V1, and after a preposition always use V-ing.',
+    th: 'คำหน้าช่องว่างเป็นตัวบอก: กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และหลังคำบุพบทใช้ V-ing เสมอ'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'Verb + V-ing', th: 'กริยา + V-ing' },
       formula: ['enjoy/avoid/consider/suggest/finish + V-ing'],
       use: {
-        en: 'These verbs are followed by V-ing, never by to V1.',
-        th: 'กริยากลุ่มนี้ตามด้วย V-ing เท่านั้น ห้ามใช้ to V1'
+        en: 'These verbs are followed by V-ing only.',
+        th: 'กริยาพวกนี้ตามด้วย V-ing เท่านั้น'
       },
       example: {
         en: 'We suggest {{booking}} your tickets early.',
@@ -26,8 +26,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'Verb + to V1', th: 'กริยา + to V1' },
       formula: ['plan/decide/agree/hope/expect + to V1'],
       use: {
-        en: 'These verbs, mostly about future plans or wishes, are followed by to V1.',
-        th: 'กริยากลุ่มนี้ส่วนใหญ่เกี่ยวกับแผนหรือความต้องการในอนาคต ตามด้วย to V1'
+        en: 'These verbs, mostly about plans or wishes, are followed by to V1.',
+        th: 'กริยาพวกนี้ (ส่วนมากเกี่ยวกับแผนหรือความอยาก) ตามด้วย to V1'
       },
       example: {
         en: 'The company plans {{to open}} a new branch in Osaka.',
@@ -40,8 +40,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'Preposition + V-ing', th: 'คำบุพบท + V-ing' },
       formula: ['Prep + V-ing', 'look forward to/be committed to + V-ing'],
       use: {
-        en: 'After any preposition use V-ing. Watch for phrases where to is a preposition, not part of an infinitive.',
-        th: 'หลังคำบุพบททุกตัวใช้ V-ing ระวังวลีที่ to เป็นคำบุพบท ไม่ใช่ to ของ infinitive'
+        en: 'After a preposition, always use V-ing. Careful: in look forward to, to is a preposition, so V-ing follows.',
+        th: 'หลังคำบุพบทใช้ V-ing เสมอ ระวัง! look forward to ตัว to เป็นคำบุพบท จึงตามด้วย V-ing'
       },
       example: {
         en: 'We look forward to {{meeting}} you next week.',
@@ -54,8 +54,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'Verb + object + to V1', th: 'กริยา + กรรม + to V1' },
       formula: ['ask/allow/encourage/require + Obj + to V1'],
       use: {
-        en: 'These verbs take a person as object, then to V1. In the passive: be + V3 + to V1.',
-        th: 'กริยากลุ่มนี้ตามด้วยกรรม (คน) แล้วตามด้วย to V1 ถ้าเป็น passive จะเป็น be + V3 + to V1'
+        en: 'Verb + person + to V1, as in "ask him to come".',
+        th: 'กริยา + คน + to V1 เช่น ask him to come'
       },
       example: {
         en: 'The policy allows employees {{to work}} from home.',
@@ -68,8 +68,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'Make / let / have + object + V1', th: 'Make / let / have + กรรม + V1' },
       formula: ['make/let/have + Obj + V1'],
       use: {
-        en: 'After make, let and have (meaning to cause), the verb is the base form with no to.',
-        th: 'หลัง make, let และ have (ในความหมายให้ทำ) กริยาเป็นรูปเดิม ไม่มี to'
+        en: 'make, let or have + person + base verb, with no to.',
+        th: 'make, let, have + คน + กริยารูปเดิม (ไม่มี to)'
       },
       example: {
         en: 'The manager let the staff {{leave}} early on Friday.',
@@ -81,8 +81,8 @@ export const gerundInfinitive: CheatSheet = {
       name: { en: 'To V1 for purpose', th: 'To V1 บอกจุดประสงค์' },
       formula: ['to V1/in order to V1 + Obj', 'S + V + Obj + in order to V1'],
       use: {
-        en: 'To V1 or in order to V1 gives the reason someone does something.',
-        th: 'to V1 หรือ in order to V1 บอกเหตุผลหรือจุดประสงค์ของการกระทำ'
+        en: 'To V1 or in order to V1 gives the reason: "so that you can".',
+        th: 'to V1 หรือ in order to V1 = เพื่อจะ…'
       },
       example: {
         en: '{{To apply}}, please fill out the online form.',

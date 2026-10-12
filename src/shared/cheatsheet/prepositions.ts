@@ -3,8 +3,8 @@ import type { CheatSheet } from './types'
 export const prepositions: CheatSheet = {
   topic: 'prepositions',
   intro: {
-    en: 'Look at the noun after the blank: is it a time, a period, a deadline or a place? Each kind takes its own preposition.',
-    th: 'ดูคำนามหลังช่องว่างว่าเป็นเวลา ช่วงเวลา กำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำบุพบทต่างกัน'
+    en: 'Look at the word after the blank: a time, a length of time, a deadline or a place? Each one has its own preposition.',
+    th: 'ดูคำหลังช่องว่างว่าเป็น เวลา ช่วงเวลา วันกำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำต่างกัน'
   },
   entries: [
     {
@@ -12,8 +12,8 @@ export const prepositions: CheatSheet = {
       name: { en: 'Time: at / on / in', th: 'เวลา: at / on / in' },
       formula: ['at + clock time', 'on + day/date', 'in + month/year/season'],
       use: {
-        en: 'At for an exact time, on for a day or date, in for a longer period such as a month or year.',
-        th: 'at ใช้กับเวลาที่แน่นอน on ใช้กับวันหรือวันที่ in ใช้กับช่วงที่ยาวกว่า เช่น เดือน ปี ฤดู'
+        en: 'at + clock time (at 9 a.m.), on + day (on Monday), in + month or year (in May).',
+        th: 'at + เวลา (at 9 a.m.) / on + วัน (on Monday) / in + เดือน ปี (in May)'
       },
       example: {
         en: 'The conference will begin {{on}} Monday, May 5.',
@@ -26,8 +26,8 @@ export const prepositions: CheatSheet = {
       name: { en: 'By vs until', th: 'By กับ until' },
       formula: ['by + deadline', 'until + end time'],
       use: {
-        en: 'By means no later than (a one-time action). Until means the action continues up to that time.',
-        th: 'by แปลว่าไม่เกินเวลานั้น (ทำครั้งเดียวให้เสร็จ) until แปลว่าทำต่อเนื่องไปจนถึงเวลานั้น'
+        en: 'By means no later than: finish before then. Until means keep going up to then.',
+        th: 'by = ไม่เกินเวลานี้ (ทำให้เสร็จ) / until = ทำต่อไปเรื่อย ๆ จนถึงเวลานี้'
       },
       example: {
         en: 'Please submit your expense reports {{by}} Friday.',
@@ -40,8 +40,8 @@ export const prepositions: CheatSheet = {
       name: { en: 'For / during / since', th: 'For / during / since' },
       formula: ['for + length of time', 'during + N', 'since + starting point'],
       use: {
-        en: 'For + how long (three days). During + an event or period (the meeting). Since + when it started, usually with the present perfect.',
-        th: 'for + ระยะเวลา (three days) during + เหตุการณ์หรือช่วงเวลา (the meeting) since + จุดเริ่มต้น มักใช้กับ present perfect'
+        en: 'for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020).',
+        th: 'for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020)'
       },
       example: {
         en: 'Phones must be turned off {{during}} the presentation.',
@@ -54,8 +54,8 @@ export const prepositions: CheatSheet = {
       name: { en: 'Within / throughout', th: 'Within / throughout' },
       formula: ['within + length of time', 'throughout + N'],
       use: {
-        en: 'Within means inside a time limit. Throughout means during the whole period or all over a place.',
-        th: 'within แปลว่าภายในกรอบเวลา throughout แปลว่าตลอดทั้งช่วงเวลาหรือทั่วทั้งพื้นที่'
+        en: 'Within means inside a time limit. Throughout means the whole time, or all over a place.',
+        th: 'within = ภายในเวลานี้ / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่'
       },
       example: {
         en: 'Refunds will be processed {{within}} 10 business days.',
@@ -68,8 +68,8 @@ export const prepositions: CheatSheet = {
       name: { en: 'Place: at / on / in', th: 'สถานที่: at / on / in' },
       formula: ['at + point/address', 'on + surface/floor/street', 'in + room/building/city'],
       use: {
-        en: 'At for a point or address, on for a surface, floor or street, in for an enclosed space or a city.',
-        th: 'at ใช้กับจุดหรือที่อยู่ on ใช้กับพื้นผิว ชั้น หรือถนน in ใช้กับพื้นที่ปิดหรือเมือง'
+        en: 'at + a point (at the desk), on + a floor, street or surface (on the 5th floor), in + inside a room or city (in the room).',
+        th: 'at + จุด (at the desk) / on + ชั้น ถนน พื้นผิว (on the 5th floor) / in + ข้างในห้อง เมือง (in the room)'
       },
       example: {
         en: 'The office is located {{on}} the fifth floor.',
