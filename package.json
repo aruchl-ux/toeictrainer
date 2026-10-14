@@ -17,6 +17,7 @@
     "test:watch": "vitest",
     "gen": "tsx scripts/generate.ts",
     "import": "tsx scripts/import.ts",
+    "points": "tsx scripts/points.ts",
     "cheatsheet:review": "tsx scripts/cheatsheet-review.ts",
     "test:e2e": "electron-vite build && playwright test",
     "dev:office": "electron-vite dev -- --office",
