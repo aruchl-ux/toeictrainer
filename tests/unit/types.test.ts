@@ -78,3 +78,26 @@ describe('Progress activeReadingTest', () => {
   })
 })
 
+
+describe('point', () => {
+  const point = { key: 'exercise caution', th: 'ใช้ความระมัดระวัง', en: 'be careful', wrong: ['perform caution'] }
+
+  it('is optional on Part 5 items and Part 6 blanks', () => {
+    expect(Part5Item.safeParse(makePart5()).success).toBe(true)
+    expect(Part5Item.safeParse(makePart5({ point })).success).toBe(true)
+    const set = makePart6()
+    set.blanks[0] = { ...set.blanks[0], point }
+    expect(Part6Set.safeParse(set).success).toBe(true)
+  })
+
+  it('rejects an empty or blank key, th or en', () => {
+    expect(Part5Item.safeParse(makePart5({ point: { ...point, key: '' } })).success).toBe(false)
+    expect(Part5Item.safeParse(makePart5({ point: { ...point, th: '   ' } })).success).toBe(false)
+    expect(Part5Item.safeParse(makePart5({ point: { ...point, en: '' } })).success).toBe(false)
+  })
+
+  it('allows at most three wrong pairs, none empty', () => {
+    expect(Part5Item.safeParse(makePart5({ point: { ...point, wrong: ['a', 'b', 'c', 'd'] } })).success).toBe(false)
+    expect(Part5Item.safeParse(makePart5({ point: { ...point, wrong: [''] } })).success).toBe(false)
+  })
+})

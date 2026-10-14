@@ -36,12 +36,24 @@ export type Explain = z.infer<typeof Explain>
 export const ItemStatus = z.enum(['draft', 'approved'])
 export type ItemStatus = z.infer<typeof ItemStatus>
 
+/** What a question tests, as one short line the topic's cheat sheet can list. */
+export const Point = z.object({
+  /** The phrase or pattern to remember, in English: "exercise caution", "If + had V3, would have V3". */
+  key: z.string().trim().min(1),
+  th: z.string().trim().min(1),
+  en: z.string().trim().min(1),
+  /** Whole wrong phrases a learner might write, e.g. "perform caution". */
+  wrong: z.array(z.string().trim().min(1)).max(3).optional()
+})
+export type Point = z.infer<typeof Point>
+
 const choiceFields = {
   difficulty: z.number().int().min(1).max(5),
   choices: z.array(z.string().min(1)).length(4),
   answer: z.number().int().min(0).max(3),
   trap: z.string().min(1),
-  explain: Explain
+  explain: Explain,
+  point: Point.optional()
 }
 
 /** Where a private (imported) item was printed in the user's own books. */
