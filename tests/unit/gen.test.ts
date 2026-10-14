@@ -2,10 +2,13 @@ import { describe, expect, it } from 'vitest'
 import {
   applyVerdicts,
   checkPrompt,
+  guardOverlap,
   nextNumber,
+  overlapScore,
   parseDraftFile,
   part5Prompt,
   part6Prompt,
+  spreadPick,
   toPart5Drafts,
   toPart6Drafts,
   type GenPart5,
@@ -103,5 +106,47 @@ describe('parseDraftFile', () => {
       expect(r.items).toEqual([])
       expect(r.warning).toContain('bad.json')
     }
+  })
+})
+
+describe('overlapScore', () => {
+  it('is 1 for the same sentence and 0 for unrelated ones', () => {
+    expect(overlapScore('The report was ____ written by the team.', 'the report was ____ written by the team')).toBe(1)
+    expect(overlapScore('The report was ____ written.', 'Guests may park behind the hotel.')).toBe(0)
+  })
+  it('is partial for a reworded sentence', () => {
+    const s = overlapScore('All staff must ____ the safety form by Friday.', 'All staff must ____ the expense form by Monday.')
+    expect(s).toBeGreaterThan(0)
+    expect(s).toBeLessThan(0.5)
+  })
+})
+
+describe('guardOverlap', () => {
+  const refs = [{ id: 'p5x-modals-0001', stem: 'All guests must ____ their badges at the main entrance.' }]
+  it('drops near copies, flags close ones, keeps new ones', () => {
+    const items = [
+      makePart5({ stem: 'All guests must ____ their badges at the main entrance.' }),
+      makePart5({ stem: 'All guests must ____ their badges at all times.' }),
+      makePart5({ stem: 'Drivers should ____ the loading area clear at all times.' })
+    ]
+    const { kept, dropped } = guardOverlap(items, refs)
+    expect(dropped).toHaveLength(1)
+    expect(kept.map((i) => i.flag)).toEqual(['similar to p5x-modals-0001', undefined])
+  })
+})
+
+describe('spreadPick', () => {
+  it('picks across the difficulty range', () => {
+    const xs = [5, 1, 4, 2, 3, 1, 5, 2].map((d) => makePart5({ difficulty: d }))
+    expect(spreadPick(xs, 4).map((i) => i.difficulty)).toEqual([1, 2, 3, 5])
+    expect(spreadPick(xs.slice(0, 2), 4)).toHaveLength(2)
+  })
+})
+
+describe('part5Prompt with styleOnly', () => {
+  it('tells Claude to copy only the style of the examples', () => {
+    const p = part5Prompt('modals', 5, 3, [makePart5()], [], true)
+    expect(p.user).toMatch(/only as a model/)
+    expect(p.user).toMatch(/Never reuse/)
   })
 })

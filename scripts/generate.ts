@@ -1,7 +1,9 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { homedir } from 'node:os'
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
 import { loadContent } from '../src/main/content'
+import { privateContentRoot } from '../src/main/privateRoot'
 import { PART5_TOPICS, Part5Topic, type Part5Item } from '../src/shared/types'
 import { ask } from './lib/claude'
 import {
@@ -10,10 +12,12 @@ import {
   GenPart6,
   applyVerdicts,
   checkPrompt,
+  guardOverlap,
   nextNumber,
   parseDraftFile,
   part5Prompt,
   part6Prompt,
+  spreadPick,
   toPart5Drafts,
   toPart6Drafts
 } from './lib/gen'
@@ -36,8 +40,9 @@ function readDrafts(): Record<string, unknown>[] {
 
 // npm keeps flags for itself unless they come after `--`, so the usage shows that form.
 const USAGE = `Usage:
-  npm run gen -- --part 5 --topic <topic> [--count 10] [--difficulty 3]
+  npm run gen -- --part 5 --topic <topic> [--count 10] [--difficulty 3] [--style private]
   npm run gen -- --part 6 [--count 3] [--difficulty 3]
+  --style private: copy the trap style of your imported questions (npm run import) without copying their text.
 
 Part 5 topics: ${PART5_TOPICS.join(', ')}
 Needs ANTHROPIC_API_KEY (PowerShell: $env:ANTHROPIC_API_KEY = "sk-ant-...") or an \`ant auth login\` profile.
@@ -77,7 +82,8 @@ async function main(): Promise<void> {
         part: { type: 'string' },
         topic: { type: 'string' },
         count: { type: 'string', default: '10' },
-        difficulty: { type: 'string', default: '3' }
+        difficulty: { type: 'string', default: '3' },
+        style: { type: 'string' }
       }
     }))
   } catch (e) {
@@ -93,6 +99,7 @@ async function main(): Promise<void> {
   if (!Number.isInteger(difficulty) || difficulty < 1 || difficulty > 5) {
     throw new UsageError('--difficulty must be an integer from 1 to 5')
   }
+  if (values.style !== undefined && values.style !== 'private') throw new UsageError('--style must be "private"')
 
   const { bank } = loadContent(CONTENT)
   mkdirSync(DRAFTS, { recursive: true })
@@ -103,7 +110,15 @@ async function main(): Promise<void> {
   if (values.part === '5') {
     const topic = Part5Topic.parse(values.topic)
     const existing = bank.part5.filter((i) => i.topic === topic)
-    const examples = (existing.length > 0 ? existing : bank.part5).slice(0, 3)
+    const styleOnly = values.style === 'private'
+    const privateItems = styleOnly
+      ? loadContent(privateContentRoot(process.env.APPDATA ?? join(homedir(), 'AppData', 'Roaming'))).bank.part5
+      : []
+    const privateOfTopic = privateItems.filter((i) => i.topic === topic)
+    if (styleOnly && privateOfTopic.length === 0) {
+      throw new UsageError(`No imported questions for "${topic}" yet. Run npm run import first.`)
+    }
+    const examples = styleOnly ? spreadPick(privateOfTopic, 6) : (existing.length > 0 ? existing : bank.part5).slice(0, 3)
     let start = nextNumber(known.filter((id) => id.startsWith(`p5-${topic}-`)))
     const draftStems = strings(
       drafts.filter((d) => d.topic === topic && d.part === 5),
@@ -112,12 +127,14 @@ async function main(): Promise<void> {
     const generated: Part5Item[] = []
     for (let left = count, k = 1; left > 0; left -= P5_BATCH, k++) {
       const n = Math.min(P5_BATCH, left)
-      const p = part5Prompt(topic, n, difficulty, examples, [...existing, ...generated].map((i) => i.stem).concat(draftStems))
+      const p = part5Prompt(topic, n, difficulty, examples, [...existing, ...generated].map((i) => i.stem).concat(draftStems), styleOnly)
       const { items, errors } = toPart5Drafts(await ask(GenPart5, p.system, p.user), topic, start)
       for (const e of errors) console.warn('[invalid, skipped]', e)
+      const { kept, dropped } = guardOverlap(items, privateItems)
+      for (const d of dropped) console.warn('[too close to an imported question, dropped]', d)
       start += items.length
-      generated.push(...items)
-      save(`part5-${topic}-${stamp}-b${k}.json`, await selfCheck(items))
+      generated.push(...kept)
+      save(`part5-${topic}-${stamp}-b${k}.json`, await selfCheck(kept))
     }
   } else if (values.part === '6') {
     const examples = bank.part6.slice(0, 2)

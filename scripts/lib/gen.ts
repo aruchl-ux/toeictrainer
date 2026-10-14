@@ -143,12 +143,68 @@ const EXPLAIN_RULES = `${EXPLAIN_FIELD_RULES}
 - Never copy real ETS TOEIC questions; write original items.`
 
 
+const trigrams = (s: string): Set<string> => {
+  const w = s
+    .toLowerCase()
+    .replace(/____/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(Boolean)
+  const out = new Set<string>()
+  for (let i = 0; i + 2 < w.length; i++) out.add(`${w[i]} ${w[i + 1]} ${w[i + 2]}`)
+  return out
+}
+
+/** Word-trigram Jaccard similarity of two stems, 0–1. */
+export function overlapScore(a: string, b: string): number {
+  const x = trigrams(a)
+  const y = trigrams(b)
+  if (x.size === 0 || y.size === 0) return 0
+  let both = 0
+  for (const t of x) if (y.has(t)) both++
+  return both / (x.size + y.size - both)
+}
+
+const DROP_AT = 0.5
+const FLAG_AT = 0.3
+
+/** Keeps generated items from echoing the user's private (copyrighted) questions. */
+export function guardOverlap<T extends { stem: string; flag?: string }>(
+  items: T[],
+  refs: { id: string; stem: string }[]
+): { kept: T[]; dropped: string[] } {
+  const kept: T[] = []
+  const dropped: string[] = []
+  for (const item of items) {
+    let best = { id: '', score: 0 }
+    for (const r of refs) {
+      const score = overlapScore(item.stem, r.stem)
+      if (score > best.score) best = { id: r.id, score }
+    }
+    if (best.score >= DROP_AT) dropped.push(`"${item.stem}" ≈ ${best.id}`)
+    else if (best.score >= FLAG_AT) {
+      const note = `similar to ${best.id}`
+      kept.push({ ...item, flag: item.flag ? `${item.flag}; ${note}` : note })
+    } else kept.push(item)
+  }
+  return { kept, dropped }
+}
+
+/** Up to n items spread from easiest to hardest. */
+export function spreadPick<T extends { difficulty: number }>(items: T[], n: number): T[] {
+  const sorted = [...items].sort((a, b) => a.difficulty - b.difficulty)
+  if (sorted.length <= n) return sorted
+  return Array.from({ length: n }, (_, i) => sorted[Math.floor((i * sorted.length) / n)])
+}
+
 export function part5Prompt(
   topic: Part5Topic,
   count: number,
   difficulty: number,
   examples: Part5Item[],
-  avoidStems: string[]
+  avoidStems: string[],
+  styleOnly = false
 ): Prompt {
   const system = `You write original practice questions in the style of TOEIC Reading Part 5 (incomplete sentences) for Thai learners targeting a score of 600–850+.
 Rules:
@@ -158,9 +214,12 @@ Rules:
 - For word-form items, all four choices come from the same word family.
 ${EXPLAIN_RULES}
 ${DIFFICULTY_GUIDE}`
+  const exampleIntro = styleOnly
+    ? `Use these examples only as a model of trap type, sentence length and difficulty. Write entirely new sentences, names, companies and situations. Never reuse a stem or any distinctive phrase from them:`
+    : `Match the style and quality of these approved examples:`
   const user = `Write ${count} new Part 5 questions that test the grammar topic "${topic}" at difficulty ${difficulty}.
 
-Match the style and quality of these approved examples:
+${exampleIntro}
 ${JSON.stringify(
   examples.map((e) => ({ stem: e.stem, choices: e.choices, answer: e.answer, trap: e.trap })),
   null,
