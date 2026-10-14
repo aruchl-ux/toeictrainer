@@ -20,6 +20,7 @@ import { wordForm } from './word-form'
 
 export * from './types'
 export * from './points'
+export * from './symbols'
 
 /** Formula sheets for every Part 5 topic, bundled with the app. */
 export const CHEAT_SHEETS: Record<Part5Topic, CheatSheet> = {

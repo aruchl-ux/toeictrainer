@@ -95,3 +95,39 @@ describe('Points tested in drills', () => {
     expect(screen.queryByRole('region')).toBeNull()
   })
 })
+
+describe('Beginner help on an entry', () => {
+  const base = CHEAT_SHEETS.collocations
+  const entry = {
+    ...base.entries[0],
+    clues: [{ w: 'place an order', en: 'order something', th: 'สั่งซื้อสินค้า' }],
+    mistake: {
+      wrong: 'do a decision',
+      right: 'make a decision',
+      why: { en: 'Decision goes with make.', th: 'decision ใช้คู่กับ make' }
+    }
+  }
+  const sheet = { ...base, entries: [entry] }
+
+  it('shows the common mistake as ✗ wrong and ✓ right, with the reason', () => {
+    render(<CheatSheetView sheet={sheet} lang="th" />)
+    const card = screen.getByRole('article', { name: entry.name.th })
+    expect(within(card).getByText('✗ do a decision')).toBeTruthy()
+    expect(within(card).getByText('✓ make a decision')).toBeTruthy()
+    expect(within(card).getByText('decision ใช้คู่กับ make')).toBeTruthy()
+  })
+
+  it('shows each clue with its meaning', () => {
+    render(<CheatSheetView sheet={sheet} lang="th" />)
+    const card = screen.getByRole('article', { name: entry.name.th })
+    expect(within(card).getByText('place an order')).toBeTruthy()
+    expect(within(card).getByText('สั่งซื้อสินค้า')).toBeTruthy()
+  })
+
+  it('explains the symbols the sheet uses', () => {
+    render(<CheatSheetView sheet={CHEAT_SHEETS['tense-voice']} lang="th" />)
+    const key = screen.getByLabelText('สัญลักษณ์')
+    expect(within(key).getByText('S')).toBeTruthy()
+    expect(within(key).getByText('ประธาน')).toBeTruthy()
+  })
+})

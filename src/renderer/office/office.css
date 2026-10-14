@@ -1660,6 +1660,10 @@ code.marker {
   font: 12.5px/1.7 var(--mono);
   color: var(--accent);
 }
+.cheat-doc-mistake {
+  font-size: 12.5px;
+  line-height: 1.7;
+}
 .row-btn[aria-current='true'] {
   background: var(--accent-wash);
 }

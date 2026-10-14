@@ -680,6 +680,15 @@ mark.blank.current { background: var(--yellow); color: var(--ink); }
 .cheat-point-key { font-weight: 700; color: var(--blue); }
 .cheat-point-meaning { font-size: var(--type-label); line-height: 1.7; }
 .cheat-point-wrong { display: flex; flex-wrap: wrap; gap: 0 var(--space-3); font-size: var(--type-meta); color: var(--ink-soft); }
+.cheat-symbols { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-5); margin: 0 0 var(--space-6); font-size: var(--type-label); }
+.cheat-symbols > div { display: flex; gap: var(--space-2); }
+.cheat-symbols dt { font-weight: 700; color: var(--blue); }
+.cheat-symbols dd { margin: 0; }
+.cheat-mistake { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-1) var(--space-3); margin: 0; padding: var(--space-2) var(--space-3); border-left: 3px solid var(--pink-ink); background: var(--paper); font-size: var(--type-label); line-height: 1.7; }
+.cheat-mistake-label { font: 600 var(--type-meta)/1.5 var(--display); color: var(--pink-ink); }
+.cheat-mistake s { color: var(--ink-soft); }
+.cheat-mistake-why { flex-basis: 100%; }
+.cheat-clue-meaning { margin-left: var(--space-2); color: var(--ink-soft); }
 
 .cheat-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-5) var(--space-8); margin-top: var(--space-10); padding-top: var(--space-6); border-top: var(--rule) solid var(--pink); }
 .cheat-switch { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-5); margin: 0; padding: 0; list-style: none; font-size: var(--type-label); }

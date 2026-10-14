@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import { exampleParts, formulaParts, sheetPoints, type CheatSheet } from '@shared/cheatsheet'
+import { SYMBOLS, clueText, exampleParts, formulaParts, sheetPoints, symbolsIn, type CheatSheet } from '@shared/cheatsheet'
 import { useApp } from '@renderer/app/AppContext'
 import type { Lang } from '@renderer/app/i18n'
 import { DocIcon } from './icons'
@@ -44,6 +44,16 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
         <p className="cheat-doc-intro" lang={shown}>
           {sheet.intro[shown]}
         </p>
+        {symbolsIn(sheet).length > 0 && (
+          <dl className="cheat-doc-words" aria-label={t('cheatSymbols')}>
+            {symbolsIn(sheet).map((s) => (
+              <div key={s}>
+                <dt className="mono">{s}</dt>
+                <dd lang={shown}>{SYMBOLS[s][shown]}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
         {sheet.entries.map((e) => (
           <article key={e.id} className="cheat-doc-entry" aria-labelledby={`oc-${e.id}`}>
             <h3 id={`oc-${e.id}`} lang={shown}>
@@ -83,8 +93,19 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
               <p className="cheat-doc-clues">
                 <span className="dim">{t('cheatClues')}</span>
                 {e.clues.map((c) => (
-                  <code key={c}>{c}</code>
+                  <code key={clueText(c)} title={typeof c === 'string' ? undefined : c[shown]}>
+                    {clueText(c)}
+                    {typeof c !== 'string' && <span className="dim" lang={shown}> {c[shown]}</span>}
+                  </code>
                 ))}
+              </p>
+            )}
+            {e.mistake && (
+              <p className="cheat-doc-mistake">
+                <s>✗ {e.mistake.wrong}</s> <strong>✓ {e.mistake.right}</strong>{' '}
+                <span className="dim" lang={shown}>
+                  {e.mistake.why[shown]}
+                </span>
               </p>
             )}
           </article>

@@ -1,5 +1,6 @@
 import type { ContentBank, Part5Topic, Point } from '../types'
 import type { CheatSheet } from './types'
+import { clueText } from './types'
 
 /** One row of a sheet's "points tested in drills" list. */
 export interface SheetPoint {
@@ -37,7 +38,7 @@ function sheetText(sheet: CheatSheet): string[] {
       // The line as written too, so a formula-style key like "must + V1" matches it.
       return [line, ...variants]
     })
-    return [...formulas, ...(e.words ?? []).map((w) => w.w), ...(e.clues ?? []), e.example.en.replace(/\{\{|\}\}/g, '')].map(norm)
+    return [...formulas, ...(e.words ?? []).map((w) => w.w), ...(e.clues ?? []).map(clueText), e.example.en.replace(/\{\{|\}\}/g, '')].map(norm)
   })
 }
 

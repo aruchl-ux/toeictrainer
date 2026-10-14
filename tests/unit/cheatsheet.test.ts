@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { CHEAT_SHEETS, exampleParts, formulaParts } from '../../src/shared/cheatsheet'
+import { CHEAT_SHEETS, SYMBOLS, clueText, exampleParts, formulaParts } from '../../src/shared/cheatsheet'
 import { PART5_TOPICS } from '../../src/shared/types'
 
 const sheets = PART5_TOPICS.map((tp) => CHEAT_SHEETS[tp])
@@ -98,7 +98,17 @@ describe('CHEAT_SHEETS content', () => {
   })
 
   it('has no empty clue words', () => {
-    for (const e of entries) for (const c of e.clues ?? []) expect(c.trim(), e.id).not.toBe('')
+    for (const e of entries) for (const c of e.clues ?? []) expect(clueText(c).trim(), e.id).not.toBe('')
+  })
+
+  it('explains every symbol a formula uses', () => {
+    for (const s of sheets) {
+      const used = s.entries.flatMap((e) => e.formula.join(' ').match(/\b(?:S\d?|V[\w-]*|Obj|NP|N|Adj|Adv|Clause|Prep|Pron|Det)\b/g) ?? [])
+      for (const u of used) {
+        const base = u.replace(/^S\d$/, 'S').replace(/^V\(s\/es\)$/, 'V')
+        expect(Object.keys(SYMBOLS), `${s.topic}: ${u}`).toContain(base)
+      }
+    }
   })
 
   it('gives every listed word a meaning in both languages, once per entry', () => {

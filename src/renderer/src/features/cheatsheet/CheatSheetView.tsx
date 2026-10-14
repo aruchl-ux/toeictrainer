@@ -1,5 +1,14 @@
 import { Fragment, useId, useState } from 'react'
-import { exampleParts, formulaParts, type CheatEntry, type CheatSheet, type SheetPoint } from '@shared/cheatsheet'
+import {
+  SYMBOLS,
+  clueText,
+  exampleParts,
+  formulaParts,
+  symbolsIn,
+  type CheatEntry,
+  type CheatSheet,
+  type SheetPoint
+} from '@shared/cheatsheet'
 import { t, type Lang } from '../../app/i18n'
 
 /** One formula line as chips: S, V forms and slots each keep one ink across every sheet. */
@@ -60,6 +69,19 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
           {entry.example.th}
         </p>
       )}
+      {entry.mistake && (
+        <p className="cheat-mistake">
+          <span className="cheat-mistake-label" lang={uiLang}>
+            {t(uiLang, 'cheatMistake')}
+          </span>
+          <span lang="en">
+            <s>✗ {entry.mistake.wrong}</s> <strong>✓ {entry.mistake.right}</strong>
+          </span>
+          <span className="cheat-mistake-why" lang={lang}>
+            {entry.mistake.why[lang]}
+          </span>
+        </p>
+      )}
       {entry.clues && entry.clues.length > 0 && (
         <div className="cheat-clues">
           <span className="cheat-clues-label" lang={uiLang}>
@@ -67,8 +89,13 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
           </span>
           <ul>
             {entry.clues.map((c) => (
-              <li key={c} lang="en">
-                {c}
+              <li key={clueText(c)}>
+                <span lang="en">{clueText(c)}</span>
+                {typeof c !== 'string' && (
+                  <span className="cheat-clue-meaning" lang={lang}>
+                    {c[lang]}
+                  </span>
+                )}
               </li>
             ))}
           </ul>
@@ -110,6 +137,22 @@ function PointList({ points, lang, uiLang }: { points: SheetPoint[]; lang: Lang;
   )
 }
 
+/** What S, V3, Obj… mean, for only the symbols this sheet uses. */
+function SymbolKey({ sheet, lang, uiLang }: { sheet: CheatSheet; lang: Lang; uiLang: Lang }) {
+  const used = symbolsIn(sheet)
+  if (used.length === 0) return null
+  return (
+    <dl className="cheat-symbols" aria-label={t(uiLang, 'cheatSymbols')}>
+      {used.map((s) => (
+        <div key={s}>
+          <dt lang="en">{s}</dt>
+          <dd lang={lang}>{SYMBOLS[s][lang]}</dd>
+        </div>
+      ))}
+    </dl>
+  )
+}
+
 /**
  * A topic's formula cards. Opens in the learner's language and flips to the other one,
  * like an explanation. Router-free so it also works inside the drill dialog.
@@ -127,6 +170,7 @@ export function CheatSheetView({ sheet, lang, points = [] }: { sheet: CheatSheet
           {t(lang, showOther ? 'cheatShowMain' : 'cheatShowOther')}
         </button>
       </div>
+      <SymbolKey sheet={sheet} lang={shown} uiLang={lang} />
       <div className="cheat-entries">
         {sheet.entries.map((e) => (
           <EntryCard key={e.id} entry={e} lang={shown} uiLang={lang} />
