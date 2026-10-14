@@ -1,5 +1,6 @@
 import { Fragment, useState } from 'react'
-import { exampleParts, formulaParts, type CheatSheet } from '@shared/cheatsheet'
+import { exampleParts, formulaParts, sheetPoints, type CheatSheet } from '@shared/cheatsheet'
+import { useApp } from '@renderer/app/AppContext'
 import type { Lang } from '@renderer/app/i18n'
 import { DocIcon } from './icons'
 import { useO } from './strings'
@@ -23,6 +24,7 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
   const { o, t, lang, skill } = useO()
   const [other, setOther] = useState(false)
   const shown: Lang = other ? (lang === 'th' ? 'en' : 'th') : lang
+  const points = sheetPoints(sheet.topic, useApp().bank)
   return (
     <section className="doc" aria-label={o('pane')}>
       <div className="tabs">
@@ -87,6 +89,26 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
             )}
           </article>
         ))}
+        {points.length > 0 && (
+          <section className="cheat-doc-points" aria-labelledby="oc-points">
+            <h3 id="oc-points" lang={lang}>
+              {t('cheatPoints', { n: points.length })}
+            </h3>
+            <ul>
+              {points.map((p) => (
+                <li key={p.key}>
+                  <code>{p.key}</code> <span lang={shown}>{p[shown]}</span>
+                  {p.wrong.map((w) => (
+                    <s key={w} className="dim">
+                      {' '}
+                      ✗ {w}
+                    </s>
+                  ))}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </section>
   )

@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { cheatSheetFor } from '@shared/cheatsheet'
+import { cheatSheetFor, sheetPoints } from '@shared/cheatsheet'
 import { sourceText } from '@shared/source'
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
 import type { Part6Set } from '@shared/types'
+import { useMaybeApp } from '../../app/AppContext'
 import { t, skillLabel, type Lang } from '../../app/i18n'
 import { CheckIcon, CrossIcon } from '../../app/Ink'
 import { CheatSheetDialog } from '../cheatsheet/CheatSheetDialog'
@@ -64,6 +65,8 @@ function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
   const [sheetOpen, setSheetOpen] = useState(false)
   const f = entryFields(entry)
   const sheet = cheatSheetFor(f.topic)
+  const bank = useMaybeApp()?.bank
+  const points = sheet && bank ? sheetPoints(sheet.topic, bank) : []
   const explainLang: Lang = showOther ? (lang === 'th' ? 'en' : 'th') : lang
   return (
     <div className="explain">
@@ -85,7 +88,9 @@ function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
           </button>
         )}
       </div>
-      {sheet && sheetOpen && <CheatSheetDialog sheet={sheet} lang={lang} onClose={() => setSheetOpen(false)} />}
+      {sheet && sheetOpen && (
+        <CheatSheetDialog sheet={sheet} lang={lang} points={points} onClose={() => setSheetOpen(false)} />
+      )}
     </div>
   )
 }

@@ -1,11 +1,21 @@
 import { useEffect, useRef } from 'react'
-import type { CheatSheet } from '@shared/cheatsheet'
+import type { CheatSheet, SheetPoint } from '@shared/cheatsheet'
 import { t, topicLabel, type Lang } from '../../app/i18n'
 import { CrossIcon } from '../../app/Ink'
 import { CheatSheetView } from './CheatSheetView'
 
 /** A topic's sheet over the running quiz. The quiz stays mounted underneath, so nothing is lost. */
-export function CheatSheetDialog({ sheet, lang, onClose }: { sheet: CheatSheet; lang: Lang; onClose(): void }) {
+export function CheatSheetDialog({
+  sheet,
+  lang,
+  points = [],
+  onClose
+}: {
+  sheet: CheatSheet
+  lang: Lang
+  points?: SheetPoint[]
+  onClose(): void
+}) {
   const ref = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
@@ -32,7 +42,7 @@ export function CheatSheetDialog({ sheet, lang, onClose }: { sheet: CheatSheet; 
           {t(lang, 'cheatClose')}
         </button>
       </header>
-      <CheatSheetView sheet={sheet} lang={lang} />
+      <CheatSheetView sheet={sheet} lang={lang} points={points} />
     </dialog>
   )
 }

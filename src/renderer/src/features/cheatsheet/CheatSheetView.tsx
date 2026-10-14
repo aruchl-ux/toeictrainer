@@ -1,5 +1,5 @@
-import { Fragment, useState } from 'react'
-import { exampleParts, formulaParts, type CheatEntry, type CheatSheet } from '@shared/cheatsheet'
+import { Fragment, useId, useState } from 'react'
+import { exampleParts, formulaParts, type CheatEntry, type CheatSheet, type SheetPoint } from '@shared/cheatsheet'
 import { t, type Lang } from '../../app/i18n'
 
 /** One formula line as chips: S, V forms and slots each keep one ink across every sheet. */
@@ -78,11 +78,43 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
   )
 }
 
+/** Every point the topic's questions test, so nothing in a drill is missing from its sheet. */
+function PointList({ points, lang, uiLang }: { points: SheetPoint[]; lang: Lang; uiLang: Lang }) {
+  const headId = useId()
+  if (points.length === 0) return null
+  return (
+    <section className="cheat-points" aria-labelledby={headId}>
+      <h3 id={headId} className="cheat-points-title" lang={uiLang}>
+        {t(uiLang, 'cheatPoints', { n: points.length })}
+      </h3>
+      <ul>
+        {points.map((p) => (
+          <li key={p.key}>
+            <span className="cheat-point-key" lang="en">
+              {p.key}
+            </span>
+            <span className="cheat-point-meaning" lang={lang}>
+              {p[lang]}
+            </span>
+            {p.wrong.length > 0 && (
+              <span className="cheat-point-wrong" lang="en">
+                {p.wrong.map((w) => (
+                  <s key={w}>✗ {w}</s>
+                ))}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
 /**
  * A topic's formula cards. Opens in the learner's language and flips to the other one,
  * like an explanation. Router-free so it also works inside the drill dialog.
  */
-export function CheatSheetView({ sheet, lang }: { sheet: CheatSheet; lang: Lang }) {
+export function CheatSheetView({ sheet, lang, points = [] }: { sheet: CheatSheet; lang: Lang; points?: SheetPoint[] }) {
   const [showOther, setShowOther] = useState(false)
   const shown: Lang = showOther ? (lang === 'th' ? 'en' : 'th') : lang
   return (
@@ -100,6 +132,7 @@ export function CheatSheetView({ sheet, lang }: { sheet: CheatSheet; lang: Lang 
           <EntryCard key={e.id} entry={e} lang={shown} uiLang={lang} />
         ))}
       </div>
+      <PointList points={points} lang={shown} uiLang={lang} />
     </div>
   )
 }

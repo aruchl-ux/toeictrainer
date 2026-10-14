@@ -1649,6 +1649,17 @@ code.marker {
   font: 12px/1.7 var(--mono);
   color: var(--text-2);
 }
+.cheat-doc-points ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.cheat-doc-points code {
+  font: 12.5px/1.7 var(--mono);
+  color: var(--accent);
+}
 .row-btn[aria-current='true'] {
   background: var(--accent-wash);
 }

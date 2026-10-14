@@ -13,6 +13,7 @@ const item = {
     en: 'After the modal must, use the base verb show.',
     th: 'หลัง must ต้องใช้กริยารูปเดิม show'
   },
+  point: { key: 'must + V1', th: 'หลัง must ใช้กริยารูปเดิม', en: 'base verb after must', wrong: ['must showing'] },
   source: [{ file: 'UNIT_9.pdf', page: 3, no: 7 }],
   status: 'approved'
 }
@@ -33,5 +34,16 @@ test.describe('Private question pack', () => {
     const { page } = await launchApp()
     await nav(page, 'Topic drills')
     await expect(page.getByRole('link', { name: /Modal verbs/ })).toHaveCount(0)
+  })
+
+  test('PRV-03 a private item adds its point to the topic cheat sheet', async ({ launchApp }) => {
+    const { page, errors } = await launchApp({ privateContent: { 'grammar/part5/modals.json': [item] } })
+    await nav(page, 'Cheat sheet')
+    await page.getByRole('link', { name: /Modal verbs/ }).click()
+    const list = page.getByRole('region', { name: 'Points tested in drills (1)' })
+    await expect(list.getByText('must + V1')).toBeVisible()
+    await expect(list.getByText('base verb after must')).toBeVisible()
+    await expect(list.getByText('✗ must showing')).toBeVisible()
+    expect(errors).toEqual([])
   })
 })

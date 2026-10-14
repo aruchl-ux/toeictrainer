@@ -118,6 +118,11 @@ export function useApp(): AppData {
   return value
 }
 
+/** App data when inside AppProvider, else null (e.g. a quiz rendered on its own in a test). */
+export function useMaybeApp(): AppData | null {
+  return useContext(AppCtx)
+}
+
 export function useT() {
   const lang: Lang = useApp().settings.language
   return {

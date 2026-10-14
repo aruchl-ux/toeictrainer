@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router'
-import { CHEAT_SHEETS } from '@shared/cheatsheet'
+import { CHEAT_SHEETS, sheetPoints } from '@shared/cheatsheet'
 import { PART5_TOPICS, Part5Topic } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
 import { ArrowIcon, TopicMark } from '../../app/Ink'
@@ -8,6 +8,12 @@ import { CheatSheetView } from './CheatSheetView'
 /** /cheatsheet: one tile per Part 5 topic. */
 export function CheatSheetIndexScreen() {
   const { t, topic } = useT()
+  const { bank } = useApp()
+  const count = (tp: Part5Topic) => {
+    const n = CHEAT_SHEETS[tp].entries.length
+    const p = sheetPoints(tp, bank).length
+    return p ? t('cheatCountPoints', { n, p }) : t('cheatCount', { n })
+  }
   return (
     <section className="cheat-index">
       <header className="page-head">
@@ -21,7 +27,7 @@ export function CheatSheetIndexScreen() {
               <TopicMark topic={tp} />
               <span className="tile-name">{topic(tp)}</span>
               <span className="tile-meta">
-                <span className="num">{t('cheatCount', { n: CHEAT_SHEETS[tp].entries.length })}</span>
+                <span className="num">{count(tp)}</span>
               </span>
             </Link>
           </li>
@@ -49,7 +55,7 @@ export function CheatSheetScreen() {
         <h1 className="page-title">{topic(tp)}</h1>
       </header>
       {/* Keyed by topic so the language flip resets when switching sheets. */}
-      <CheatSheetView key={tp} sheet={CHEAT_SHEETS[tp]} lang={lang} />
+      <CheatSheetView key={tp} sheet={CHEAT_SHEETS[tp]} lang={lang} points={sheetPoints(tp, bank)} />
       <nav className="cheat-foot" aria-label={t('cheatAll')}>
         {canDrill && (
           <Link className="button primary" to={`/drill/${tp}`}>

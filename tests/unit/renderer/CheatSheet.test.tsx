@@ -68,3 +68,30 @@ describe('Formulas in a drill', () => {
     expect(screen.queryByRole('button', { name: /Formulas/ })).toBeNull()
   })
 })
+
+describe('Points tested in drills', () => {
+  const points = [
+    { key: 'exercise caution', th: 'ใช้ความระมัดระวัง', en: 'be careful', wrong: ['perform caution', 'execute caution'] }
+  ]
+
+  it('lists each point with its meaning and its wrong pairs as ✗ text', () => {
+    render(<CheatSheetView sheet={CHEAT_SHEETS.collocations} lang="th" points={points} />)
+    const list = screen.getByRole('region', { name: 'จุดที่ออกในแบบฝึก (1)' })
+    expect(within(list).getByText('exercise caution')).toBeTruthy()
+    expect(within(list).getByText('ใช้ความระมัดระวัง')).toBeTruthy()
+    expect(within(list).getByText('✗ perform caution')).toBeTruthy()
+    expect(within(list).getByText('✗ execute caution')).toBeTruthy()
+  })
+
+  it('switches the meanings with the language flip', () => {
+    render(<CheatSheetView sheet={CHEAT_SHEETS.collocations} lang="th" points={points} />)
+    fireEvent.click(screen.getByRole('button', { name: 'ดูเป็นภาษาอังกฤษ' }))
+    expect(screen.getByText('be careful')).toBeTruthy()
+    expect(screen.queryByText('ใช้ความระมัดระวัง')).toBeNull()
+  })
+
+  it('hides the block when no question has a point', () => {
+    render(<CheatSheetView sheet={CHEAT_SHEETS.collocations} lang="en" points={[]} />)
+    expect(screen.queryByRole('region')).toBeNull()
+  })
+})
