@@ -12,17 +12,21 @@ const raw = (n: number): RawItem => ({
   choices: ['a', 'b', 'c', 'd'],
   source: [{ file: 'U.pdf', page: 1, no: n }]
 })
-const solved = (index: number) => ({
+const solved = (index: number, over: { answer?: number; topic?: 'modals' | 'word-form' } = {}) => ({
   index,
-  answer: 0,
-  topic: 'modals' as const,
+  answer: over.answer ?? 0,
+  topic: over.topic ?? ('modals' as const),
   difficulty: 2,
   trap: 't',
   explain_en: 'because',
   explain_th: 'เพราะ',
   problem: ''
 })
-const blind = (index: number) => ({ index, answer: 0, confident: true })
+const blind = (index: number, answer = 0) => ({
+  index,
+  answer,
+  confident: true
+})
 
 describe('planBatches', () => {
   const raws = [1, 2, 3, 4, 5].map(raw)
@@ -41,14 +45,22 @@ describe('planBatches', () => {
 })
 
 describe('buildSubset', () => {
-  it('maps solver indices onto kept items and spends ids only on them', () => {
+  it('pairs each kept item with its own solver answer, topic and re-check', () => {
     const batch = [raw(1), raw(2), raw(3)]
-    const next = makeNumberer([])
-    const b = buildSubset(batch, [0, 1, 2].map(solved), [0, 1, 2].map(blind), [1, 2], next)
-    expect(b.approved.map((i) => [i.id, i.stem])).toEqual([
-      ['p5x-modals-0001', batch[1].stem],
-      ['p5x-modals-0002', batch[2].stem]
+    const sol = [
+      solved(0, { answer: 0, topic: 'modals' }),
+      solved(1, { answer: 1, topic: 'word-form' }),
+      solved(2, { answer: 2, topic: 'modals' })
+    ]
+    const chk = [blind(0, 0), blind(1, 1), blind(2, 3)]
+    const b = buildSubset(batch, sol, chk, [0, 2], makeNumberer([]))
+    expect(b.approved.map((i) => [i.id, i.stem, i.answer])).toEqual([['p5x-modals-0001', batch[0].stem, 0]])
+    expect(b.flagged.map((i) => [i.id, i.stem, i.answer, i.flag])).toEqual([
+      ['p5x-modals-0002', batch[2].stem, 2, 're-check chose "d", solver chose "c"']
     ])
+    const c = buildSubset(batch, sol, chk, [1, 2], makeNumberer([]))
+    expect(c.approved.map((i) => [i.topic, i.stem, i.answer])).toEqual([['word-form', batch[1].stem, 1]])
+    expect(c.flagged.map((i) => [i.topic, i.stem, i.answer])).toEqual([['modals', batch[2].stem, 2]])
   })
   it('ignores non-id ledger values when numbering', () => {
     const next = makeNumberer(['invalid: p5x-modals-0099 broken', 'p5x-modals-0002'])
@@ -59,6 +71,9 @@ describe('buildSubset', () => {
 describe('isRunFatal', () => {
   it('stops on credential, billing and permission errors only', () => {
     for (const status of [401, 402, 403]) expect(isRunFatal({ status })).toBe(true)
+    expect(
+      isRunFatal(new Error('Could not resolve authentication method. Expected either apiKey or authToken to be set.'))
+    ).toBe(true)
     for (const e of [{ status: 429 }, { status: 500 }, new Error('x'), null]) expect(isRunFatal(e)).toBe(false)
   })
 })
@@ -80,7 +95,11 @@ describe('private pack on disk', () => {
     const next = makeNumberer([])
     const a = buildSubset([raw(1)], [solved(0)], [blind(0)], [0], next)
     const f = buildSubset([raw(2)], [{ ...solved(0), topic: 'word-form' as const }], [blind(0)], [0], next)
-    const built = { approved: [...a.approved, ...f.approved], flagged: [], errors: [] }
+    const built = {
+      approved: [...a.approved, ...f.approved],
+      flagged: [],
+      errors: []
+    }
     expect(() => writeBuilt(root, built, 'd.json')).toThrow()
     expect(existsSync(join(root, 'grammar', 'part5', 'modals.json'))).toBe(false)
     expect(readFileSync(join(root, 'grammar', 'part5', 'word-form.json'), 'utf8')).toBe('{not json')
