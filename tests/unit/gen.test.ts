@@ -135,6 +135,14 @@ describe('guardOverlap', () => {
   })
 })
 
+describe('guardOverlap flag merging', () => {
+  it('appends to an existing flag', () => {
+    const refs = [{ id: 'p5x-modals-0001', stem: 'All guests must ____ their badges at the main entrance.' }]
+    const { kept } = guardOverlap([makePart5({ stem: 'All guests must ____ their badges at all times.', flag: 'check key' })], refs)
+    expect(kept[0].flag).toBe('check key; similar to p5x-modals-0001')
+  })
+})
+
 describe('spreadPick', () => {
   it('picks across the difficulty range', () => {
     const xs = [5, 1, 4, 2, 3, 1, 5, 2].map((d) => makePart5({ difficulty: d }))

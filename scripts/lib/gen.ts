@@ -142,7 +142,6 @@ const EXPLAIN_RULES = `${EXPLAIN_FIELD_RULES}
 - "answer" is the 0-based index of the correct choice. Vary the position of the correct answer across items.
 - Never copy real ETS TOEIC questions; write original items.`
 
-
 const trigrams = (s: string): Set<string> => {
   const w = s
     .toLowerCase()

@@ -27,12 +27,12 @@ const DRAFTS = join(CONTENT, 'drafts')
 const P5_BATCH = 10
 const P6_BATCH = 3
 
-function readDrafts(): Record<string, unknown>[] {
-  if (!existsSync(DRAFTS)) return []
-  return readdirSync(DRAFTS)
+function readDrafts(dir = DRAFTS): Record<string, unknown>[] {
+  if (!existsSync(dir)) return []
+  return readdirSync(dir)
     .filter((f) => f.endsWith('.json'))
     .flatMap((f) => {
-      const { items, warning } = parseDraftFile(readFileSync(join(DRAFTS, f), 'utf8'), f)
+      const { items, warning } = parseDraftFile(readFileSync(join(dir, f), 'utf8'), f)
       if (warning) console.warn(warning)
       return items
     })
@@ -111,9 +111,19 @@ async function main(): Promise<void> {
     const topic = Part5Topic.parse(values.topic)
     const existing = bank.part5.filter((i) => i.topic === topic)
     const styleOnly = values.style === 'private'
-    const privateItems = styleOnly
-      ? loadContent(privateContentRoot(process.env.APPDATA ?? join(homedir(), 'AppData', 'Roaming'))).bank.part5
-      : []
+    let privateItems: Part5Item[] = []
+    let guardRefs: { id: string; stem: string }[] = []
+    if (styleOnly) {
+      const privateRoot = privateContentRoot(process.env.APPDATA ?? join(homedir(), 'AppData', 'Roaming'))
+      const loaded = loadContent(privateRoot)
+      for (const e of loaded.errors) console.warn('[private pack]', e)
+      privateItems = loaded.bank.part5
+      const privateDrafts = readDrafts(join(privateRoot, 'drafts')).flatMap((d) =>
+        typeof d.stem === 'string' ? [{ id: typeof d.id === 'string' ? d.id : 'a private draft', stem: d.stem }] : []
+      )
+      guardRefs = [...privateItems, ...privateDrafts]
+      console.log(`Loaded ${privateItems.length} private questions and ${privateDrafts.length} private drafts as style examples and overlap guard.`)
+    }
     const privateOfTopic = privateItems.filter((i) => i.topic === topic)
     if (styleOnly && privateOfTopic.length === 0) {
       throw new UsageError(`No imported questions for "${topic}" yet. Run npm run import first.`)
@@ -130,7 +140,7 @@ async function main(): Promise<void> {
       const p = part5Prompt(topic, n, difficulty, examples, [...existing, ...generated].map((i) => i.stem).concat(draftStems), styleOnly)
       const { items, errors } = toPart5Drafts(await ask(GenPart5, p.system, p.user), topic, start)
       for (const e of errors) console.warn('[invalid, skipped]', e)
-      const { kept, dropped } = guardOverlap(items, privateItems)
+      const { kept, dropped } = guardOverlap(items, guardRefs)
       for (const d of dropped) console.warn('[too close to an imported question, dropped]', d)
       start += items.length
       generated.push(...kept)
