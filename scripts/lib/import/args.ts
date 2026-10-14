@@ -19,6 +19,7 @@ export function pageNumbers(count: number, range: PageRange | null): number[] {
 }
 
 export function chunk<T>(xs: T[], n: number): T[][] {
+  if (!(n >= 1)) throw new Error(`chunk size must be at least 1 (got ${n})`)
   const out: T[][] = []
   for (let i = 0; i < xs.length; i += n) out.push(xs.slice(i, i + n))
   return out

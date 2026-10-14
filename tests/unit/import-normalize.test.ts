@@ -16,6 +16,11 @@ describe('normalizeStem', () => {
   it('keeps single hyphens in words', () => {
     expect(normalizeStem('A well-known ____ firm.')).toBe('A well-known ____ firm.')
   })
+  it('keeps em and en dashes around a clause', () => {
+    const out = normalizeStem('The ____—which we need—is late.')
+    expect(out).toContain('—which we need')
+    expect(out).toContain('need—is late')
+  })
 })
 
 describe('cleanChoice', () => {
@@ -26,6 +31,13 @@ describe('cleanChoice', () => {
       'choosing',
       'chose'
     ])
+  })
+})
+
+describe('cleanChoice abbreviations', () => {
+  it('keeps dotted abbreviations intact', () => {
+    expect(cleanChoice('A.M.')).toBe('A.M.')
+    expect(cleanChoice('D.C. office')).toBe('D.C. office')
   })
 })
 
@@ -79,5 +91,8 @@ describe('args', () => {
   })
   it('chunks', () => {
     expect(chunk([1, 2, 3, 4, 5], 2)).toEqual([[1, 2], [3, 4], [5]])
+  })
+  it('refuses a chunk size below 1', () => {
+    expect(() => chunk([1], 0)).toThrow(/chunk size/)
   })
 })

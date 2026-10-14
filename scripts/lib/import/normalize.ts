@@ -17,7 +17,7 @@ export interface RawItem {
 /** Books print blanks as ----, ____ or both split over a line break; the app uses ____. */
 export function normalizeStem(stem: string): string {
   return stem
-    .replace(/[_\-–—]{2,}(?:\s*[_\-–—]{2,})*/g, ' ____ ')
+    .replace(/[_-]{2,}(?:\s*[_-]{2,})*/g, ' ____ ')
     .replace(/\s+/g, ' ')
     .replace(/\s+([,.;:?!])/g, '$1')
     .trim()
@@ -25,7 +25,7 @@ export function normalizeStem(stem: string): string {
 
 export function cleanChoice(choice: string): string {
   return choice
-    .replace(/^\s*\(?[A-Da-d][).]\s*/, '')
+    .replace(/^\s*(?:\(?[A-Da-d]\)|[A-Da-d]\.(?=\s))\s*/, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
