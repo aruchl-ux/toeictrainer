@@ -18,6 +18,17 @@ describe('Part5Item', () => {
   it('rejects a malformed id', () => {
     expect(Part5Item.safeParse(makePart5({ id: 'q1' })).success).toBe(false)
   })
+  it('accepts a private id with a source list', () => {
+    const item = makePart5({ id: 'p5x-word-form-0001', source: [{ file: 'UNIT_1.pdf', page: 2, no: 12 }] })
+    expect(Part5Item.safeParse(item).success).toBe(true)
+  })
+  it('rejects an empty source list and a page below 1', () => {
+    expect(Part5Item.safeParse(makePart5({ source: [] })).success).toBe(false)
+    expect(Part5Item.safeParse(makePart5({ source: [{ file: 'a.pdf', page: 0 }] })).success).toBe(false)
+  })
+  it('rejects other id prefixes', () => {
+    expect(Part5Item.safeParse(makePart5({ id: 'p5y-word-form-0001' })).success).toBe(false)
+  })
 })
 
 describe('Part6Set', () => {

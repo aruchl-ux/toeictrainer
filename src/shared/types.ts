@@ -40,12 +40,22 @@ const choiceFields = {
   explain: Explain
 }
 
+/** Where a private (imported) item was printed in the user's own books. */
+export const ItemSource = z.object({
+  file: z.string().min(1),
+  page: z.number().int().positive(),
+  no: z.number().int().positive().optional()
+})
+export type ItemSource = z.infer<typeof ItemSource>
+
 export const Part5Item = z.object({
-  id: z.string().regex(/^p5-[a-z-]+-\d{4}$/),
+  // p5x- marks items imported into the user's private pack; they never ship.
+  id: z.string().regex(/^p5x?-[a-z-]+-\d{4}$/),
   part: z.literal(5),
   topic: Part5Topic,
   stem: z.string().includes('____'),
   ...choiceFields,
+  source: z.array(ItemSource).min(1).optional(),
   status: ItemStatus,
   flag: z.string().optional()
 })
