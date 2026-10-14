@@ -8,6 +8,8 @@ export function TopicListScreen() {
   const { bank, progress } = useApp()
   const { t, topic } = useT()
   const stats = new Map(topicStats(progress.grammarAttempts).map((s) => [s.topic, s]))
+  // Topics with no questions yet (e.g. new topics without a private pack) stay hidden.
+  const topics = PART5_TOPICS.filter((tp) => bank.part5.some((i) => i.topic === tp))
   return (
     <section className="topics">
       <header className="page-head">
@@ -15,32 +17,21 @@ export function TopicListScreen() {
         <p className="page-lead">{t('topicsIntro')}</p>
       </header>
       <ul className="tile-grid tile-grid-wide">
-        {PART5_TOPICS.map((tp) => {
+        {topics.map((tp) => {
           const count = bank.part5.filter((i) => i.topic === tp).length
           const stat = stats.get(tp)
-          const body = (
-            <>
-              <TopicMark topic={tp} />
-              <span className="tile-name" id={`tile-name-${tp}`}>
-                {topic(tp)}
-              </span>
-              <span className="tile-meta">
-                <span className="num">{t('topicsCount', { n: count })}</span>
-                {stat && <span className="num">{t('topicsAccuracy', { p: Math.round(stat.accuracy * 100) })}</span>}
-              </span>
-            </>
-          )
           return (
             <li key={tp} className="tile-with-link">
-              {count > 0 ? (
-                <Link className="tile" to={`/drill/${tp}`}>
-                  {body}
-                </Link>
-              ) : (
-                <div className="tile tile-empty" aria-disabled="true">
-                  {body}
-                </div>
-              )}
+              <Link className="tile" to={`/drill/${tp}`}>
+                <TopicMark topic={tp} />
+                <span className="tile-name" id={`tile-name-${tp}`}>
+                  {topic(tp)}
+                </span>
+                <span className="tile-meta">
+                  <span className="num">{t('topicsCount', { n: count })}</span>
+                  {stat && <span className="num">{t('topicsAccuracy', { p: Math.round(stat.accuracy * 100) })}</span>}
+                </span>
+              </Link>
               {/* Named "Formulas"; the topic name is its description, so the drill tile keeps the only link named after the topic. */}
               <Link className="text-link tile-link" to={`/cheatsheet/${tp}`} aria-describedby={`tile-name-${tp}`}>
                 {t('cheatOpen')}

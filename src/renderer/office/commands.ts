@@ -21,7 +21,7 @@ export interface Command {
 /** Commands every thread offers. Threads add their own (next, flag, submit…) in front of these. */
 export function useGlobalCommands(): Command[] {
   const navigate = useNavigate()
-  const { updateSettings } = useApp()
+  const { updateSettings, bank } = useApp()
   const { o, t, lang } = useO()
   const formats = PART7_FORMATS.map((f) => ({
     value: f,
@@ -33,7 +33,10 @@ export function useGlobalCommands(): Command[] {
       name: 'drill',
       hint: o('cmdDrill'),
       needsArg: true,
-      args: PART5_TOPICS.map((tp) => ({ value: tp, label: topicLabel(tp, lang) })),
+      args: PART5_TOPICS.filter((tp) => bank.part5.some((i) => i.topic === tp)).map((tp) => ({
+        value: tp,
+        label: topicLabel(tp, lang)
+      })),
       run: (arg) => navigate(`/drill/${arg}`)
     },
     {

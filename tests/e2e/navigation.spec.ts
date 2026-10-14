@@ -63,6 +63,8 @@ test.describe('Navigation', () => {
     await nav(page, 'Topic drills')
     const tiles = page.locator('ul.tile-grid a.tile')
     await expect(tiles).toHaveCount(13)
+    // Topics without questions (new topics, no private pack) are hidden, not shown as empty tiles.
+    await expect(page.locator('ul.tile-grid .tile-empty')).toHaveCount(0)
     for (let i = 0; i < 13; i++) {
       await nav(page, 'Topic drills')
       await page.locator('ul.tile-grid a.tile').nth(i).click()
