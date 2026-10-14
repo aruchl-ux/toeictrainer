@@ -126,18 +126,22 @@ export function applyVerdicts<T extends { flag?: string }>(items: T[], verdicts:
   })
 }
 
-const DIFFICULTY_GUIDE = `Difficulty scale for TOEIC 600–850+ learners:
+export const DIFFICULTY_GUIDE = `Difficulty scale for TOEIC 600–850+ learners:
 1 = very easy, basic form
 2 = common pattern; distractors are clearly wrong to an intermediate learner
 3 = typical TOEIC item with one tempting distractor
 4 = advanced; two plausible distractors, the whole sentence must be read carefully
 5 = hardest TOEIC items; subtle collocation, register or structure differences`
 
-const EXPLAIN_RULES = `- "trap": a short English label naming exactly what is tested, e.g. "adverb modifies the verb 'implemented'".
+/** How to write the tested point and the two explanations; shared with the importer. */
+export const EXPLAIN_FIELD_RULES = `- "trap": a short English label naming exactly what is tested, e.g. "adverb modifies the verb 'implemented'".
 - "explain_en": 1–3 sentences on why the answer is right and why the most tempting distractor is wrong.
-- "explain_th": the same explanation in natural, friendly Thai for Thai learners. Keep key grammar terms in English in parentheses, e.g. คำกริยาวิเศษณ์ (adverb).
+- "explain_th": the same explanation in natural, friendly Thai for Thai learners. Keep key grammar terms in English in parentheses, e.g. คำกริยาวิเศษณ์ (adverb).`
+
+const EXPLAIN_RULES = `${EXPLAIN_FIELD_RULES}
 - "answer" is the 0-based index of the correct choice. Vary the position of the correct answer across items.
 - Never copy real ETS TOEIC questions; write original items.`
+
 
 export function part5Prompt(
   topic: Part5Topic,
