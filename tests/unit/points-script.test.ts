@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { applyPoints, blankText, findTargets, formatLike, pointPrompt, toPoint } from '../../scripts/lib/points'
+import { applyPoints, blankText, findTargets, formatLike, pointField, pointPrompt, toPoint } from '../../scripts/lib/points'
 import { makePart5, makePart6 } from '../fixtures/items'
 
 const point = { key: 'exercise caution', th: 'ใช้ความระมัดระวัง', en: 'be careful' }
@@ -28,6 +28,14 @@ describe('blankText', () => {
   it('fills every blank and brackets the one asked about', () => {
     const set = makePart6()
     expect(blankText(set, 3)).toBe('One a two c three a four [d].')
+  })
+})
+
+describe('pointField', () => {
+  it('spreads a valid point and gives nothing for a missing or invalid one', () => {
+    expect(pointField({ ...point, wrong: [] })).toEqual({ point })
+    expect(pointField(undefined)).toEqual({})
+    expect(pointField({ ...point, key: '', wrong: [] })).toEqual({})
   })
 })
 

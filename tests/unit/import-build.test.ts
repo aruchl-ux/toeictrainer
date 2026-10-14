@@ -117,6 +117,23 @@ describe('buildItems', () => {
     expect(out.approved[0].difficulty).toBe(5)
     expect(out.errors).toHaveLength(1)
   })
+
+  const agree = [{ index: 0, answer: 0, confident: true }]
+
+  it('still approves a solve cached before points existed (no point key)', () => {
+    const { point: _, ...old } = solved()
+    const out = buildItems([raw()], [old as ReturnType<typeof solved>], agree, makeNumberer([]))
+    expect(out.errors).toEqual([])
+    expect(out.approved).toHaveLength(1)
+    expect(out.approved[0].point).toBeUndefined()
+  })
+
+  it('drops an invalid point and keeps the item', () => {
+    const out = buildItems([raw()], [solved({ point: { key: '', th: 'หลัง must', en: 'x', wrong: [] } })], agree, makeNumberer([]))
+    expect(out.errors).toEqual([])
+    expect(out.approved).toHaveLength(1)
+    expect(out.approved[0].point).toBeUndefined()
+  })
 })
 
 describe('prompts', () => {

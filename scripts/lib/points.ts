@@ -27,6 +27,12 @@ export function toPoint(g: GenPoint): Point | null {
   return r.data
 }
 
+/** A valid point as a field to spread in. A missing one (e.g. a solve cached before points existed) or an invalid one gives nothing, so the item still saves. */
+export const pointField = (g: GenPoint | undefined): { point?: Point } => {
+  const p = g ? toPoint(g) : null
+  return p ? { point: p } : {}
+}
+
 export interface ContentFile {
   path: string
   /** The file as read, so the write keeps its layout. */
@@ -47,7 +53,7 @@ export interface PointTarget {
   trap: string
 }
 
-const isPart5Topic = (t: string): t is Part5Topic => (PART5_TOPICS as readonly string[]).includes(t)
+export const isPart5Topic = (t: string): t is Part5Topic => (PART5_TOPICS as readonly string[]).includes(t)
 const others = (choices: string[], answer: number) => choices.filter((_, i) => i !== answer)
 
 /** The passage with every blank filled; the one asked about is in [brackets]. */

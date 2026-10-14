@@ -78,6 +78,21 @@ describe('toPart6Drafts', () => {
     expect(items[0].status).toBe('draft')
     expect(items[0].blanks[0].point?.key).toBe('Adv + V3')
   })
+
+  it('gives no point to Part 6-only blanks', () => {
+    const blank = (topic: GrammarTopic) => ({ topic, ...genItem(), stem: undefined })
+    const gen: GenPart6 = {
+      sets: [
+        {
+          title: 'Notice: Parking',
+          passage: 'A {{1}} B {{2}} C {{3}} D {{4}}',
+          blanks: [blank('word-form'), blank('sentence-insertion'), blank('transitions'), blank('prepositions')]
+        }
+      ]
+    }
+    const { items } = toPart6Drafts(gen, 1)
+    expect(items[0].blanks.map((b) => b.point?.key)).toEqual(['Adv + V3', undefined, undefined, 'Adv + V3'])
+  })
 })
 
 describe('EXPLAIN_FIELD_RULES', () => {

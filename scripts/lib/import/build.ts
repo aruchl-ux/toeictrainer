@@ -1,6 +1,6 @@
 import { POSITIONAL, mentionsAnswer } from '../../../src/shared/explainRules'
 import { Part5Item, formatIssues, type Part5Topic } from '../../../src/shared/types'
-import { toPoint } from '../points'
+import { pointField } from '../points'
 import { dedupeKey, type RawItem } from './normalize'
 import type { BlindResult, SolveResult } from './prompts'
 
@@ -68,10 +68,7 @@ export function buildItems(
       answer: s.answer,
       trap: s.trap,
       explain: { en: s.explain_en, th: s.explain_th },
-      ...(() => {
-        const p = toPoint(s.point)
-        return p ? { point: p } : {}
-      })(),
+      ...pointField(s.point),
       source: raw.source,
       status: flag ? 'draft' : 'approved',
       ...(flag ? { flag } : {})

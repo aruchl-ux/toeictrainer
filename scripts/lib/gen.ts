@@ -5,10 +5,9 @@ import {
   Part5Item,
   Part6Set,
   formatIssues,
-  type Part5Topic,
-  type Point
+  type Part5Topic
 } from '../../src/shared/types'
-import { GenPoint, POINT_RULES, toPoint } from './points'
+import { GenPoint, POINT_RULES, isPart5Topic, pointField } from './points'
 
 // Generation schemas are deliberately loose (no length/regex limits) so they work with
 // structured outputs; strict validation happens afterwards with the app's own schemas.
@@ -70,12 +69,6 @@ export function parseDraftFile(text: string, name: string): { items: Record<stri
   }
 }
 
-/** A valid point as a field to spread in; an invalid one is dropped so the draft still saves. */
-const pointField = (g: GenPoint): { point?: Point } => {
-  const p = toPoint(g)
-  return p ? { point: p } : {}
-}
-
 export function toPart5Drafts(
   gen: GenPart5,
   topic: Part5Topic,
@@ -119,7 +112,8 @@ export function toPart6Drafts(gen: GenPart6, start: number): { items: Part6Set[]
         answer: b.answer,
         trap: b.trap,
         explain: { en: b.explain_en, th: b.explain_th },
-        ...pointField(b.point)
+        // Part 6-only topics have no cheat sheet, so their blanks get no point.
+        ...(isPart5Topic(b.topic) ? pointField(b.point) : {})
       })),
       status: 'draft'
     })
