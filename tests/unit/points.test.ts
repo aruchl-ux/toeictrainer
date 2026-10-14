@@ -62,7 +62,39 @@ describe('uncoveredPoints', () => {
     expect(uncoveredPoints(sheet, points).map((p) => p.key)).toEqual(['exercise caution'])
   })
 
+  const sheetWith = (entry: { formula?: string[]; words?: { w: string; en: string; th: string }[]; example?: string }) => ({
+    topic: 'collocations' as const,
+    intro: { en: 'x', th: 'x' },
+    entries: [
+      {
+        id: 'a',
+        name: { en: 'A', th: 'A' },
+        formula: entry.formula ?? ['N'],
+        use: { en: 'x', th: 'x' },
+        example: { en: entry.example ?? 'x', th: 'x' },
+        ...(entry.words ? { words: entry.words } : {})
+      }
+    ]
+  })
+  const row = (key: string) => ({ key, th: 'x', en: 'x', wrong: [] })
+
+  it('covers a formula-style key by the formula line as written', () => {
+    expect(uncoveredPoints(sheetWith({ formula: ['must + V1'] }), [row('must + V1')])).toEqual([])
+  })
+
+  it('covers a key through every slash alternative of a formula', () => {
+    expect(uncoveredPoints(sheetWith({ formula: ['meet + a deadline/a demand'] }), [row('meet a demand')])).toEqual([])
+  })
+
+  it('covers a key through a word on the sheet', () => {
+    expect(uncoveredPoints(sheetWith({ words: [{ w: 'owing to', en: 'because of', th: 'เนื่องจาก' }] }), [row('owing to')])).toEqual([])
+  })
+
+  it('matches whole words only, so "at" is not covered by "that"', () => {
+    expect(uncoveredPoints(sheetWith({ example: 'I know {{that}} he left.' }), [row('at')]).map((p) => p.key)).toEqual(['at'])
+  })
+
   it('works on a real sheet', () => {
-    expect(uncoveredPoints(CHEAT_SHEETS.collocations, [])).toEqual([])
+    expect(uncoveredPoints(CHEAT_SHEETS.collocations, [row('meet a deadline')])).toEqual([])
   })
 })

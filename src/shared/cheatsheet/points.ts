@@ -33,7 +33,9 @@ function sheetText(sheet: CheatSheet): string[] {
     const formulas = e.formula.flatMap((line) => {
       const parts = line.split(' + ').map((p) => p.split('/'))
       // Every combination of the slash alternatives, e.g. "meet a deadline", "meet a demand".
-      return parts.reduce<string[]>((acc, alts) => acc.flatMap((a) => alts.map((x) => `${a} ${x}`)), [''])
+      const variants = parts.reduce<string[]>((acc, alts) => acc.flatMap((a) => alts.map((x) => `${a} ${x}`)), [''])
+      // The line as written too, so a formula-style key like "must + V1" matches it.
+      return [line, ...variants]
     })
     return [...formulas, ...(e.words ?? []).map((w) => w.w), ...(e.clues ?? []), e.example.en.replace(/\{\{|\}\}/g, '')].map(norm)
   })
@@ -42,5 +44,14 @@ function sheetText(sheet: CheatSheet): string[] {
 /** Points no entry mentions yet; the audit lists these so they can be folded into an entry. */
 export function uncoveredPoints(sheet: CheatSheet, points: SheetPoint[]): SheetPoint[] {
   const text = sheetText(sheet)
-  return points.filter((p) => !text.some((t) => t.includes(norm(p.key))))
+  return points.filter((p) => {
+    const key = wholeWords(norm(p.key))
+    return !text.some((t) => key.test(t))
+  })
+}
+
+/** Matches the key only as whole words, so "at" is not found inside "that" or "meeting". */
+function wholeWords(key: string): RegExp {
+  const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`)
 }
