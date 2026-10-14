@@ -1,6 +1,6 @@
-import { existsSync, mkdtempSync, readFileSync, writeFileSync } from 'fs'
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'fs'
 import { tmpdir } from 'os'
-import { join } from 'path'
+import { dirname, join } from 'path'
 import { _electron as electron, test as base, type ElectronApplication, type Page } from '@playwright/test'
 
 export { expect } from '@playwright/test'
@@ -14,6 +14,8 @@ export interface LaunchOptions {
   language?: 'th' | 'en' | null
   /** Written to progress.json before launch. */
   progress?: unknown
+  /** Files for the private question pack, keyed by path relative to it (e.g. "grammar/part5/modals.json"). */
+  privateContent?: Record<string, unknown>
 }
 
 export interface Launched {
@@ -49,6 +51,11 @@ export const test = base.extend<{ launchApp: (opts?: LaunchOptions) => Promise<L
       const language = opts.language === undefined && !opts.userData ? 'en' : opts.language
       if (language) writeFileSync(settingsFile, JSON.stringify({ language }))
       if (opts.progress !== undefined) writeFileSync(progressFile, JSON.stringify(opts.progress))
+      for (const [rel, data] of Object.entries(opts.privateContent ?? {})) {
+        const file = join(userData, 'private-content', rel)
+        mkdirSync(dirname(file), { recursive: true })
+        writeFileSync(file, JSON.stringify(data))
+      }
       const app = await electron.launch({ args: ['.'], cwd: ROOT, env: launchEnv(userData) })
       apps.push(app)
       const page = await app.firstWindow()
