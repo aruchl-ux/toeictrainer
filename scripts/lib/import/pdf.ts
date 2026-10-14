@@ -19,8 +19,9 @@ export function findPdftotext(
 
 /** Text of one page (1-based) in reading order; default (non -layout) mode keeps two-column pages in reading order. */
 export function pageText(bin: string, file: string, page: number): string {
-  return execFileSync(bin, ['-f', String(page), '-l', String(page), '-enc', 'UTF-8', file, '-'], {
+  return execFileSync(bin, ['-q', '-f', String(page), '-l', String(page), '-enc', 'UTF-8', file, '-'], {
     encoding: 'utf8',
+    stdio: ['ignore', 'pipe', 'pipe'],
     maxBuffer: 16 * 1024 * 1024
   })
 }

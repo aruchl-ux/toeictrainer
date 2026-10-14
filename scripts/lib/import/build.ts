@@ -1,5 +1,5 @@
 import { Part5Item, formatIssues, type Part5Topic } from '../../../src/shared/types'
-import type { RawItem } from './normalize'
+import { dedupeKey, type RawItem } from './normalize'
 import type { BlindResult, SolveResult } from './prompts'
 
 type Solved = SolveResult['items'][number]
@@ -72,4 +72,42 @@ export function buildItems(
     ;(flag ? out.flagged : out.approved).push(r.data)
   })
   return out
+}
+
+export interface PlannedBatch {
+  batch: RawItem[]
+  /** Positions in `batch` whose key is not in the ledger yet. */
+  todo: number[]
+}
+
+/** Fixed-size batches over ALL deduped items (so cache keys stay stable between runs); fully-done batches are dropped. */
+export function planBatches(raws: RawItem[], size: number, ledger: Record<string, string>): PlannedBatch[] {
+  const out: PlannedBatch[] = []
+  for (let i = 0; i < raws.length; i += size) {
+    const batch = raws.slice(i, i + size)
+    const todo = batch.flatMap((r, j) => (dedupeKey(r) in ledger ? [] : [j]))
+    if (todo.length) out.push({ batch, todo })
+  }
+  return out
+}
+
+/** Builds only the `keep` positions of a batch, remapping solver/re-check indices so no ids are spent on skipped items. */
+export function buildSubset(
+  batch: RawItem[],
+  solved: Solved[],
+  blind: Blind[],
+  keep: number[],
+  nextId: (topic: Part5Topic) => string
+): Built {
+  const remap = <T extends { index: number }>(xs: T[]): T[] =>
+    xs.flatMap((x) => {
+      const j = keep.indexOf(x.index)
+      return j < 0 ? [] : [{ ...x, index: j }]
+    })
+  return buildItems(
+    keep.map((i) => batch[i]),
+    remap(solved),
+    remap(blind),
+    nextId
+  )
 }

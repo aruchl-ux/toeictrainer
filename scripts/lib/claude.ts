@@ -24,7 +24,7 @@ export async function ask<S extends z.ZodType>(
     output_config: { effort: opts.effort ?? 'high', format: zodOutputFormat(schema) }
   })
   if (res.stop_reason === 'refusal') throw new Error('Claude declined this request; try again or change the topic.')
-  if (res.stop_reason === 'max_tokens') throw new Error('Output was truncated (max_tokens). Use a smaller --count.')
+  if (res.stop_reason === 'max_tokens') throw new Error('Output was truncated (max_tokens). Use a smaller batch.')
   if (!res.parsed_output) throw new Error('Claude returned output that did not match the schema.')
   return res.parsed_output
 }
