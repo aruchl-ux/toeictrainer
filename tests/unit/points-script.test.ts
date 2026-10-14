@@ -39,6 +39,16 @@ describe('toPoint', () => {
   it('returns null for an invalid point', () => {
     expect(toPoint({ ...point, key: ' ', wrong: [] })).toBeNull()
   })
+  it('returns null when th or en is longer than 80 characters', () => {
+    expect(toPoint({ ...point, th: 'ก'.repeat(81), wrong: [] })).toBeNull()
+    expect(toPoint({ ...point, en: 'e'.repeat(81), wrong: [] })).toBeNull()
+  })
+  it('accepts th and en of exactly 80 characters, measured after trimming', () => {
+    expect(toPoint({ ...point, th: ` ${'ก'.repeat(80)} `, en: 'e'.repeat(80), wrong: [] })).toEqual({ ...point, th: 'ก'.repeat(80), en: 'e'.repeat(80) })
+  })
+  it('returns null when th has no Thai', () => {
+    expect(toPoint({ ...point, th: 'be careful', wrong: [] })).toBeNull()
+  })
 })
 
 describe('applyPoints', () => {

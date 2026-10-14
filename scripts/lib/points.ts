@@ -13,10 +13,18 @@ export const POINT_RULES = `- "point": what the learner must remember, written f
 export const GenPoint = z.object({ key: z.string(), th: z.string(), en: z.string(), wrong: z.array(z.string()) })
 export type GenPoint = z.infer<typeof GenPoint>
 
+/** Longest `th` / `en` line allowed; matches tests/unit/coverage.test.ts. */
+export const POINT_MAX = 80
+/** Any Thai character; `th` must contain one (also checked by the coverage test). */
+export const THAI = /[฀-๿]/
+
 export function toPoint(g: GenPoint): Point | null {
   const wrong = g.wrong.map((w) => w.trim()).filter(Boolean).slice(0, 3)
   const r = Point.safeParse({ key: g.key, th: g.th, en: g.en, ...(wrong.length ? { wrong } : {}) })
-  return r.success ? r.data : null
+  if (!r.success) return null
+  const { th, en } = r.data
+  if (th.length > POINT_MAX || en.length > POINT_MAX || !THAI.test(th)) return null
+  return r.data
 }
 
 export interface ContentFile {
