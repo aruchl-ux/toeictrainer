@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react'
+import { sourceText } from '@shared/source'
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
 import type { AnswerRecord } from '@renderer/features/grammar/quizReducer'
 import type { Lang } from '@renderer/app/i18n'
@@ -164,6 +165,9 @@ function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
       <p className="explain-body" lang={shown}>
         {f.explain[shown]}
       </p>
+      {entry.kind === 'p5' && entry.item.source && (
+        <p className="explain-source">{t('sourceFrom', { where: sourceText(entry.item.source) })}</p>
+      )}
       <button type="button" className="link" onClick={() => setOther((v) => !v)}>
         {t(other ? 'showMainLang' : 'showOtherLang')}
       </button>

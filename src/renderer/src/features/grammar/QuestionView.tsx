@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { cheatSheetFor } from '@shared/cheatsheet'
+import { sourceText } from '@shared/source'
 import { entryFields, entryId, type QuizEntry } from '@shared/quiz'
 import type { Part6Set } from '@shared/types'
 import { t, skillLabel, type Lang } from '../../app/i18n'
@@ -71,6 +72,9 @@ function Explain({ entry, lang }: { entry: QuizEntry; lang: Lang }) {
         {f.trap && <strong>{f.trap}</strong>}
       </p>
       <p className="explain-body" lang={explainLang}>{f.explain[explainLang]}</p>
+      {entry.kind === 'p5' && entry.item.source && (
+        <p className="explain-source">{t(lang, 'sourceFrom', { where: sourceText(entry.item.source) })}</p>
+      )}
       <div className="explain-links">
         <button type="button" className="link" lang={lang} onClick={() => setShowOther((v) => !v)}>
           {t(lang, showOther ? 'showMainLang' : 'showOtherLang')}

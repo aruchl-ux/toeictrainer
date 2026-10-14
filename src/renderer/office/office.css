@@ -1731,3 +1731,5 @@ code.blank.now {
     margin-left: 0;
   }
 }
+
+.explain-source { opacity: 0.75; font-size: 0.875em; margin: 0; }

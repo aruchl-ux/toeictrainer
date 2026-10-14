@@ -794,3 +794,5 @@ mark.evidence { background: var(--yellow); color: var(--ink); padding: 0 2px; }
 .test-results .summary > .summary-score { font-size: var(--type-title); margin: 0 0 var(--space-2); text-shadow: none; }
 .test-results .drill-weakest { margin-bottom: var(--space-5); }
 .review-evidence { font-size: var(--type-body); background: var(--paper-lift); padding: var(--space-1) var(--space-2); }
+
+.explain-source { color: var(--ink-soft); font-size: 0.875rem; margin: 0; }
