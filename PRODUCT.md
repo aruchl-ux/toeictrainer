@@ -36,7 +36,7 @@ Success means a learner can follow the whole 8-week plan inside the app, underst
 
 ## Capabilities and Constraints
 
-Built today (branch `plan1-foundation-grammar`): Home, Topic drills (Part 5), Mixed test (Part 5 + 6), Reading (Part 7) drills over single, double and triple passage sets with evidence highlighting, Reading test (Half: 50 questions / 38 min by default; Full: 100 questions / 75 min; free navigation, question map and flags; the clock pauses while the app is closed; resumable; per-part score plus an estimated band), Review queue, Progress, Settings (language), dev-only Content Review, question generation script with self-check. Private question pack: `npm run import` turns Part 5 questions from the user's own TOEIC books (toeic_source/, never committed or shipped) into answered, explained items in `%APPDATA%\toeic-trainer\private-content`, loaded next to the bundled content; `npm run gen -- --style private` writes original questions in their style.
+Built today (branch `plan1-foundation-grammar`): Home, Topic drills (Part 5), Mixed test (Part 5 + 6), Reading (Part 7) drills over single, double and triple passage sets with evidence highlighting, Reading test (Half: 50 questions / 38 min by default; Full: 100 questions / 75 min; free navigation, question map and flags; the clock pauses while the app is closed; resumable; per-part score plus an estimated band), Review queue, Progress, Settings (language), dev-only Content Review, question generation script with self-check. Private question pack (needs a Claude API key or `ant auth login`): `npm run import` turns Part 5 questions from the user's own TOEIC books (toeic_source/, never committed or shipped) into answered, explained items in `%APPDATA%\toeic-trainer\private-content`, loaded next to the bundled content; `npm run gen -- --style private` writes original questions in their style.
 
 Planned (spec `docs/superpowers/specs/2026-10-05-toeic-grammar-writing-design.md`): writing module (picture sentence, email reply, opinion essay) with timers, autosaved drafts and inline Thai error highlights; API key settings; 8-week study guide with a Today card; phrase bank and templates; Windows NSIS installer.
 
@@ -44,7 +44,7 @@ Constraints:
 
 - Renderer has no Node or network access; all side effects go through the typed `window.api` bridge.
 - UI language defaults to Thai (`th`), English (`en`) available. Every UI string exists in both; Thai text must render well (Thai script line height, tone marks, no clipped glyphs).
-- Shipped content is AI-generated and human-reviewed; private-pack content is the user's own book questions, answered by Claude and auto-approved when a blind re-check agrees. Only `status: "approved"` items load.
+- Shipped content is AI-generated and human-reviewed; private-pack content is the user's own book questions, answered by Claude and auto-approved when a blind re-check agrees, otherwise flagged for the dev Content Review screen. Only `status: "approved"` items load.
 - Grammar topics: word-form, tense-voice, subject-verb-agreement, prepositions, conj-vs-prep, pronouns, relative-clauses, reduced-clauses, conditionals, inversion, comparatives, gerund-infinitive, collocations, word-choice, determiners, modals, noun-clauses; Part 6 adds sentence-insertion and transitions. Topics without questions are hidden.
 - Out of scope for v1: accounts/sync, Listening, Speaking, mobile, live in-app question generation, official score guarantees.
 
