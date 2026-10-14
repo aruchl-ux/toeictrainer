@@ -228,7 +228,7 @@ async function main(): Promise<void> {
     }
   })
 
- console.log(`\nDone. ${totals.approved} approved, ${totals.flagged} flagged for review, ${totals.invalid} invalid, ${totals.failed} failed.`)
+  console.log(`\nDone. ${totals.approved} approved, ${totals.flagged} flagged for review, ${totals.invalid} invalid, ${totals.failed} failed.`)
   if (failedPages) console.log(`${failedPages} pages could not be read; rerun to retry them.`)
   console.log(`Private pack: ${out}`)
   if (broken.length) console.log(`${broken.length} questions could not be read cleanly; see ${join(WORK, 'broken.json')}.`)
