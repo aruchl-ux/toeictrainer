@@ -311,6 +311,10 @@ export const TOPIC_LABELS: Record<GrammarTopic, Record<Lang, string>> = {
   comparatives: { en: 'Comparatives & superlatives', th: 'ขั้นกว่าและขั้นสูงสุด' },
   'gerund-infinitive': { en: 'Gerund vs infinitive', th: 'Gerund กับ Infinitive' },
   collocations: { en: 'Collocations & vocabulary', th: 'คำที่มักใช้คู่กัน (Collocations)' },
+  'word-choice': { en: 'Word choice (meaning)', th: 'เลือกคำตามความหมาย (Word choice)' },
+  determiners: { en: 'Determiners & quantifiers', th: 'คำนำหน้านามและคำบอกปริมาณ' },
+  modals: { en: 'Modal verbs', th: 'กริยาช่วย (Modal verbs)' },
+  'noun-clauses': { en: 'Noun clauses', th: 'ประโยคที่ทำหน้าที่เป็นคำนาม (Noun clauses)' },
   'sentence-insertion': { en: 'Sentence insertion', th: 'การเติมประโยค (Sentence insertion)' },
   transitions: { en: 'Transitions', th: 'คำเชื่อมความ (Transitions)' }
 }

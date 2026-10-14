@@ -13,7 +13,11 @@ export const PART5_TOPICS = [
   'inversion',
   'comparatives',
   'gerund-infinitive',
-  'collocations'
+  'collocations',
+  'word-choice',
+  'determiners',
+  'modals',
+  'noun-clauses'
 ] as const
 export const PART6_ONLY_TOPICS = ['sentence-insertion', 'transitions'] as const
 export const GRAMMAR_TOPICS = [...PART5_TOPICS, ...PART6_ONLY_TOPICS] as const

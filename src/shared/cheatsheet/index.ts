@@ -3,8 +3,11 @@ import { collocations } from './collocations'
 import { comparatives } from './comparatives'
 import { conditionals } from './conditionals'
 import { conjVsPrep } from './conj-vs-prep'
+import { determiners } from './determiners'
 import { gerundInfinitive } from './gerund-infinitive'
 import { inversion } from './inversion'
+import { modals } from './modals'
+import { nounClauses } from './noun-clauses'
 import { prepositions } from './prepositions'
 import { pronouns } from './pronouns'
 import { reducedClauses } from './reduced-clauses'
@@ -12,6 +15,7 @@ import { relativeClauses } from './relative-clauses'
 import { subjectVerbAgreement } from './subject-verb-agreement'
 import { tenseVoice } from './tense-voice'
 import type { CheatSheet } from './types'
+import { wordChoice } from './word-choice'
 import { wordForm } from './word-form'
 
 export * from './types'
@@ -30,7 +34,11 @@ export const CHEAT_SHEETS: Record<Part5Topic, CheatSheet> = {
   inversion,
   comparatives,
   'gerund-infinitive': gerundInfinitive,
-  collocations
+  collocations,
+  'word-choice': wordChoice,
+  determiners,
+  modals,
+  'noun-clauses': nounClauses
 }
 
 /** The sheet for a topic, or null for topics without one (Part 6-only skills). */

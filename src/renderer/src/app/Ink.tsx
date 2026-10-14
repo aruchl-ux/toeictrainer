@@ -71,6 +71,10 @@ const TOPIC_SHAPES: Record<GrammarTopic, Shape[]> = {
   comparatives: [r(8, 38, 12, 18, BLUE), r(24, 26, 12, 30, BLUE), r(40, 10, 12, 46, PINK)],
   'gerund-infinitive': [p('M32 32 L32 6 A26 26 0 0 0 6 32 Z', PINK), p('M32 32 L58 32 A26 26 0 0 1 32 58 Z', BLUE)],
   collocations: [c(21, 34, 14, YELLOW), c(43, 34, 14, BLUE)],
+  'word-choice': [c(22, 24, 14, PINK), r(30, 30, 26, 26, BLUE)],
+  determiners: [r(8, 8, 20, 48, YELLOW), c(42, 34, 16, BLUE)],
+  modals: [p('M8 56 L32 8 L56 56 Z', YELLOW), c(32, 40, 12, PINK)],
+  'noun-clauses': [r(8, 18, 48, 30, PINK), r(18, 28, 28, 10, BLUE)],
   'sentence-insertion': [r(8, 12, 48, 8, BLUE), r(8, 44, 48, 8, BLUE), r(14, 24, 36, 16, PINK)],
   transitions: [p('M6 46 A20 20 0 0 1 46 46 Z', PINK), p('M24 46 A16 16 0 0 1 56 46 L56 54 L24 54 Z', BLUE)]
 }

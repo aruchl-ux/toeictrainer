@@ -1,6 +1,6 @@
 # Grammar cheat sheet
 
-90 formulas across 13 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, and the Thai reads naturally. Note the id of anything wrong.
+105 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, and the Thai reads naturally. Note the id of anything wrong.
 
 ## word-form
 
@@ -1094,3 +1094,239 @@ Some words always go together. Learn them as pairs, because grammar alone will n
 - Smoking is **strictly** prohibited in the building.
 - ห้ามสูบบุหรี่ในอาคารโดยเด็ดขาด
 - Clues: highly recommended · strictly prohibited · conveniently located · widely used
+
+## word-choice
+
+All four choices are the same part of speech, so grammar cannot decide. Read the whole sentence, find the word the blank must fit with, and pick the meaning that makes sense at work.
+
+ตัวเลือกทั้งสี่เป็นคำชนิดเดียวกัน ไวยากรณ์ช่วยตัดไม่ได้ ต้องอ่านทั้งประโยค หาคำที่ช่องว่างต้องเข้าคู่ด้วย แล้วเลือกความหมายที่เข้ากับบริบทการทำงาน
+
+### Verb that fits its object · กริยาที่เข้ากับกรรม `word-choice-verb-object`
+
+    V + Obj
+
+- `board` = ขึ้น (เครื่องบิน รถไฟ เรือ) (get on a plane, train or ship)
+- `claim` = ขอรับ / เรียกร้องสิ่งที่เป็นของเรา (ask for something that is yours)
+
+- Look at the object after the blank and ask which action people really do to that thing at work.
+- ดูกรรมหลังช่องว่าง แล้วถามตัวเองว่าในการทำงานจริง เราทำกริยาไหนกับสิ่งนั้น
+- Passengers should **board** the train ten minutes before it leaves.
+- ผู้โดยสารควรขึ้นรถไฟก่อนรถออกสิบนาที
+- Clues: board a plane · claim baggage · place an order · submit a report
+
+### Noun that fits the context · คำนามที่เข้ากับบริบท `word-choice-noun-context`
+
+    Det + (Adj) + N
+
+- `itinerary` = กำหนดการเดินทาง (a plan of a trip)
+- `beverage` = เครื่องดื่ม (a drink)
+
+- Read the words around the blank. Describing words like detailed, hot or extra show which thing is meant.
+- อ่านคำรอบช่องว่าง คำขยายอย่าง detailed, hot, extra ช่วยบอกว่าหมายถึงสิ่งไหน
+- The agency sent each guest a detailed **itinerary** for the conference week.
+- บริษัทส่งกำหนดการแบบละเอียดของสัปดาห์การประชุมให้แขกทุกคน
+- Clues: a hot beverage · a detailed itinerary · a full refund
+
+### Adjective that fits the noun · คำคุณศัพท์ที่เข้ากับคำนาม `word-choice-adjective-noun`
+
+    be + Adj
+    Adj + N
+
+- `valid` = ใช้ได้ ยังไม่หมดอายุ (officially usable, not expired)
+- `eligible` = มีสิทธิ์ (allowed to have or do something)
+- `reasonable` = สมเหตุสมผล (ราคาไม่แพงเกินไป) (fair, not too high)
+
+- Check what the adjective describes: a ticket or permit is valid, a person is eligible, a price is reasonable.
+- ดูว่าคำคุณศัพท์ขยายอะไร ตั๋วหรือใบอนุญาตใช้ valid คนที่มีสิทธิ์ใช้ eligible ราคาที่เหมาะสมใช้ reasonable
+- Your parking permit is no longer **valid** after March 31.
+- บัตรจอดรถของคุณใช้ไม่ได้แล้วหลังวันที่ 31 มีนาคม
+- Clues: valid ticket · eligible for · reasonable price
+
+### Word chosen by the preposition after it · เลือกคำจากบุพบทที่ตามมา `word-choice-partner-preposition`
+
+    V + Obj + from + V-ing
+    be + Adj + for + N
+
+- `from` = ใช้คู่กับ prohibit, prevent, stop (goes with prohibit, prevent, stop)
+- `for` = ใช้คู่กับ responsible, eligible, famous (goes with responsible, eligible, famous)
+
+- When two choices mean almost the same, the word after the blank often decides. Only one of them is used with that preposition.
+- ถ้ามีสองตัวเลือกความหมายใกล้กัน ให้ดูคำหลังช่องว่าง มักมีแค่คำเดียวที่ใช้คู่กับบุพบทนั้นได้
+- Signs **prohibit** drivers from parking in the loading area.
+- ป้ายห้ามผู้ขับขี่จอดรถในบริเวณขนถ่ายสินค้า
+- Clues: prohibit … from · responsible for · eligible for · interested in
+
+## determiners
+
+Determiners come before a noun and must match it: countable or uncountable, singular or plural.
+
+คำนำหน้านาม (determiner) อยู่หน้าคำนาม และต้องเข้ากับคำนามนั้น ทั้งนับได้หรือนับไม่ได้ เอกพจน์หรือพหูพจน์
+
+### Each / every + singular noun · each / every + นามเอกพจน์ `each-every-noun`
+
+    each/every + N(singular) + V(s/es)
+
+- `each` = แต่ละ (every one, seen one by one)
+- `every` = ทุก ๆ (all of them, as a group)
+
+- Each and every take a singular noun and a singular verb. Each of the takes a plural noun but still a singular verb.
+- each และ every ตามด้วยนามเอกพจน์และกริยาเอกพจน์ ส่วน each of the ตามด้วยนามพหูพจน์ แต่กริยายังเป็นเอกพจน์
+- Every new **employee** receives a copy of the handbook.
+- พนักงานใหม่ทุกคนได้รับคู่มือคนละเล่ม
+- Clues: each · every · each of the + plural noun
+
+### All / most / some + plural or uncountable · all / most / some + นามพหูพจน์หรือนามนับไม่ได้ `all-most-some`
+
+    all/most/some + N(plural)
+    most of the + N
+
+- `all` = ทั้งหมด (every one)
+- `most` = ส่วนใหญ่ (nearly all)
+- `some` = บางส่วน / จำนวนหนึ่ง (a number of, not all)
+
+- All, most and some take a plural countable noun or an uncountable noun. Before the or a possessive, add of: most of the staff.
+- all, most, some ตามด้วยนามพหูพจน์หรือนามนับไม่ได้ ถ้าข้างหลังมี the หรือคำแสดงความเป็นเจ้าของ ต้องเติม of เช่น most of the staff
+- **Most** applicants have at least two years of experience.
+- ผู้สมัครส่วนใหญ่มีประสบการณ์อย่างน้อยสองปี
+- Clues: most + noun · most of the + noun · almost all
+
+### (A) few vs (a) little · (a) few กับ (a) little `few-little`
+
+    a few/few + N(plural)
+    a little/little + N(uncountable)
+
+- `a few` = มีอยู่บ้าง (นับได้) (some, a small number)
+- `few` = แทบไม่มี (นับได้) (almost none)
+- `a little` = มีอยู่บ้าง (นับไม่ได้) (some, a small amount)
+- `little` = แทบไม่มี (นับไม่ได้) (almost none)
+
+- Few and a few go with plural countable nouns; little and a little with uncountable nouns. Without a, the meaning is negative: almost none.
+- few / a few ใช้กับนามนับได้พหูพจน์ ส่วน little / a little ใช้กับนามนับไม่ได้ ถ้าไม่มี a ความหมายเป็นลบ คือแทบไม่มี
+- There is **little** time left before the deadline, so please hurry.
+- เหลือเวลาก่อนถึงกำหนดส่งน้อยมาก กรุณารีบหน่อย
+- Clues: information · equipment · advice · furniture (uncountable)
+
+### Another / other / the other · another / other / the other `another-other`
+
+    another + N(singular)
+    other + N(plural)
+    the other + N
+
+- `another` = อีกหนึ่ง / อีกอันหนึ่ง (one more, or a different one)
+- `other` = อื่น ๆ (more, different ones)
+- `the other` = อันที่เหลือ (the last one or ones that remain)
+
+- Another takes a singular noun; other takes a plural or uncountable noun; the other means the remaining one or ones.
+- another ตามด้วยนามเอกพจน์ other ตามด้วยนามพหูพจน์หรือนามนับไม่ได้ ส่วน the other หมายถึงอันที่เหลืออยู่
+- Please use **another** meeting room; this one is booked.
+- กรุณาใช้ห้องประชุมห้องอื่น ห้องนี้มีคนจองแล้ว
+- Clues: another + singular · other + plural · one … the other
+
+## modals
+
+A modal (can, must, should, may, might, could, would, will) is always followed by the base verb (V1), never V-ing, to V or V(s).
+
+กริยาช่วยแสดงทัศนคติ (modal) เช่น can, must, should, may ต้องตามด้วยกริยารูปเดิม (V1) เสมอ ห้ามตามด้วย V-ing, to V หรือกริยาเติม s
+
+### Modal + V1 · modal + V1 `modal-base-verb`
+
+    S + modal + V1
+    S + modal + be + V3
+
+- `can` = สามารถ (is able to)
+- `must` = ต้อง (has to; it is required)
+- `should` = ควร (it is a good idea to)
+- `may` = อาจจะ / ได้รับอนุญาตให้ (possibly; or polite permission)
+
+- After any modal, use V1. For the passive, use modal + be + V3.
+- หลัง modal ทุกตัวใช้ V1 ถ้าเป็นรูปถูกกระทำ ใช้ modal + be + V3
+- All visitors must **sign** in at the front desk.
+- ผู้มาติดต่อทุกคนต้องลงชื่อที่โต๊ะต้อนรับ
+- Clues: must · should · can · will · may
+
+### Modal + have + V3 (about the past) · modal + have + V3 (พูดถึงอดีต) `modal-have-v3`
+
+    S + must/might/should/could + have + V3
+
+- `must have` = ต้อง…แน่ ๆ (สรุปจากหลักฐาน) (I am sure it happened)
+- `might have` = อาจจะ…แล้ว (maybe it happened)
+- `should have` = น่าจะ… (แต่ไม่ได้ทำ) (it was the right thing, but it did not happen)
+- `could have` = …ได้ (แต่ไม่ได้ทำ) (it was possible, but it did not happen)
+
+- Use modal + have + V3 for the past: a guess (must have, might have) or a regret (should have, could have).
+- ใช้ modal + have + V3 พูดถึงอดีต เป็นการเดา (must have, might have) หรือความเสียดาย (should have, could have)
+- The lights are off, so the staff **must have** gone home.
+- ไฟปิดหมดแล้ว พนักงานคงกลับบ้านกันไปแล้วแน่ ๆ
+- Clues: already · yesterday · last week · by now
+
+### Have to / be able to / used to + V1 · have to / be able to / used to + V1 `modal-phrases`
+
+    S + have to/be able to/used to + V1
+
+- `have to` = ต้อง (must)
+- `be able to` = สามารถ (can)
+- `used to` = เคย… (แต่ตอนนี้ไม่แล้ว) (did regularly in the past, but not now)
+
+- These phrases work like modals and take V1. Be used to + V-ing is different: it means accustomed to.
+- วลีเหล่านี้ทำงานเหมือน modal และตามด้วย V1 แต่ be used to + V-ing ต่างกัน แปลว่า คุ้นเคยกับ
+- We were not able to **finish** the report on time.
+- เราไม่สามารถทำรายงานเสร็จทันเวลาได้
+- Clues: be used to + V-ing · used to + V1
+
+## noun-clauses
+
+A noun clause is a whole clause (S + V) used as a noun: the subject or object of the sentence. It starts with that, what, whether / if or a wh-word.
+
+noun clause คือประโยคย่อย (S + V) ที่ทำหน้าที่เหมือนคำนาม เป็นประธานหรือกรรมของประโยค ขึ้นต้นด้วย that, what, whether / if หรือคำ wh-
+
+### That + complete clause · that + ประโยคสมบูรณ์ `that-clause`
+
+    S + V + that + S + V
+
+- `that` = ว่า (นำข้อเท็จจริง ไม่มีความหมายเพิ่ม) (introduces a fact; adds no meaning)
+
+- That joins a complete clause after verbs like announce, confirm and ensure. Nothing is missing in the clause after that.
+- that เชื่อมประโยคสมบูรณ์หลังกริยาอย่าง announce, confirm, ensure ประโยคหลัง that ต้องครบ ไม่ขาดอะไร
+- The manager confirmed **that** the shipment had arrived.
+- ผู้จัดการยืนยันว่าสินค้ามาถึงแล้ว
+- Clues: announce · confirm · ensure · suggest
+
+### What = the thing that · what = สิ่งที่ `what-noun-clause`
+
+    V + what + S + V
+
+- `what` = สิ่งที่ (the thing that)
+
+- Use what when the clause after it is missing a noun (an object or a subject). What already means "the thing that".
+- ใช้ what เมื่อประโยคที่ตามมาขาดคำนาม (ขาดกรรมหรือประธาน) what แปลว่า สิ่งที่ อยู่แล้ว
+- Please tell us **what** you need for the event.
+- กรุณาบอกเราว่าคุณต้องการอะไรสำหรับงานนี้
+- Clues: clause missing an object → what · complete clause → that
+
+### Whether / if = whether or not · whether / if = ว่า…หรือไม่ `whether-if`
+
+    V + whether/if + S + V
+    whether + to V
+
+- `whether` = ว่า…หรือไม่ (if or not)
+- `if` = ว่า…หรือไม่ (ใช้หลังกริยาเท่านั้น) (if or not; only right after a verb)
+
+- Use whether or if for a yes/no question inside a sentence. Only whether works at the start of a sentence, before to V, or with or not right after it.
+- ใช้ whether หรือ if กับคำถามแบบใช่/ไม่ใช่ที่อยู่ในประโยค แต่ถ้าขึ้นต้นประโยค ตามด้วย to V หรือมี or not ต่อท้ายทันที ใช้ได้แค่ whether
+- The board has not decided **whether** to open a new branch.
+- คณะกรรมการยังไม่ได้ตัดสินใจว่าจะเปิดสาขาใหม่หรือไม่
+- Clues: decide · wonder · ask · or not
+
+### Wh-word + S + V (statement order) · คำ wh- + S + V (เรียงแบบบอกเล่า) `wh-word-order`
+
+    V + where/when/how + S + V
+
+- `where` = ที่ไหน (the place)
+- `when` = เมื่อไร (the time)
+- `how` = อย่างไร (the way)
+
+- Inside a sentence, a wh-question uses normal order: subject before verb. Write where the meeting is, not where is the meeting.
+- เมื่อคำถาม wh- อยู่ในประโยค ให้เรียงแบบประโยคบอกเล่า ประธานมาก่อนกริยา เช่น where the meeting is ไม่ใช่ where is the meeting
+- Could you tell me **where** the training will be held?
+- ช่วยบอกได้ไหมว่าการอบรมจะจัดที่ไหน
+- Clues: tell me · know · ask · explain
