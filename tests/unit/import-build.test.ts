@@ -21,6 +21,7 @@ const solved = (over = {}) => ({
   trap: 'modal + base verb',
   explain_en: 'After the modal must, use the base verb sign.',
   explain_th: 'หลัง must ต้องใช้กริยารูปเดิม sign',
+  point: { key: 'must + V1', th: 'หลัง must ใช้กริยารูปเดิม', en: 'base verb after must', wrong: ['must signing'] },
   problem: '',
   ...over
 })
@@ -97,6 +98,7 @@ describe('buildItems', () => {
     expect(out.approved.map((i) => [i.id, i.status, i.source])).toEqual([
       ['p5x-modals-0001', 'approved', [{ file: 'UNIT_2.pdf', page: 4, no: 3 }]]
     ])
+    expect(out.approved[0].point?.key).toBe('must + V1')
     expect(out.flagged.map((i) => [i.id, i.status, i.flag])).toEqual([
       ['p5x-modals-0002', 'draft', 're-check chose "leaving", solver chose "leave"']
     ])

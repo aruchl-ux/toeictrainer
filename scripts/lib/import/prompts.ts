@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import { Part5Topic } from '../../../src/shared/types'
 import { DIFFICULTY_GUIDE, EXPLAIN_FIELD_RULES, type Prompt } from '../gen'
+import { GenPoint } from '../points'
 
 // Loose shapes for structured outputs; strict validation happens with Part5Item afterwards.
 export const ExtractResult = z.object({
@@ -19,6 +20,7 @@ export const SolveResult = z.object({
       trap: z.string(),
       explain_en: z.string(),
       explain_th: z.string(),
+      point: GenPoint,
       problem: z.string()
     })
   )

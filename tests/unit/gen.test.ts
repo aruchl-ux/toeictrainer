@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  EXPLAIN_FIELD_RULES,
   addFlag,
   applyVerdicts,
   checkPrompt,
@@ -26,6 +27,7 @@ const genItem = (over: Partial<GenPart5['items'][number]> = {}): GenPart5['items
   explain_en: 'An adverb modifies approved.',
   explain_th: 'ต้องใช้ adverb ขยาย approved',
   difficulty: 3,
+  point: { key: 'Adv + V3', th: 'ใช้ adverb ขยายกริยา', en: 'an adverb describes the verb', wrong: ['final approved'] },
   ...over
 })
 
@@ -45,6 +47,17 @@ describe('toPart5Drafts', () => {
     expect(errors).toHaveLength(1)
     expect(errors[0]).toMatch(/^item 1: choices/)
   })
+
+  it('keeps the point on each draft', () => {
+    const { items } = toPart5Drafts({ items: [genItem()] }, 'word-form', 1)
+    expect(items[0].point).toEqual({ key: 'Adv + V3', th: 'ใช้ adverb ขยายกริยา', en: 'an adverb describes the verb', wrong: ['final approved'] })
+  })
+
+  it('drops an invalid point but keeps the draft', () => {
+    const { items, errors } = toPart5Drafts({ items: [genItem({ point: { key: '', th: '', en: '', wrong: [] } })] }, 'word-form', 1)
+    expect(errors).toEqual([])
+    expect(items[0].point).toBeUndefined()
+  })
 })
 
 describe('toPart6Drafts', () => {
@@ -63,6 +76,13 @@ describe('toPart6Drafts', () => {
     expect(errors).toEqual([])
     expect(items[0].id).toBe('p6-0003')
     expect(items[0].status).toBe('draft')
+    expect(items[0].blanks[0].point?.key).toBe('Adv + V3')
+  })
+})
+
+describe('EXPLAIN_FIELD_RULES', () => {
+  it('asks for a beginner point', () => {
+    expect(EXPLAIN_FIELD_RULES).toContain('"point"')
   })
 })
 

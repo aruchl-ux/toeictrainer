@@ -20,6 +20,7 @@ const solved = (index: number, over: { answer?: number; topic?: 'modals' | 'word
   trap: 't',
   explain_en: 'because',
   explain_th: 'เพราะ',
+  point: { key: 'must + V1', th: 'หลัง must ใช้กริยารูปเดิม', en: 'base verb after must', wrong: [] },
   problem: ''
 })
 const blind = (index: number, answer = 0) => ({

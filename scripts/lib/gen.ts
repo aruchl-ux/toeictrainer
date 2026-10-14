@@ -5,8 +5,10 @@ import {
   Part5Item,
   Part6Set,
   formatIssues,
-  type Part5Topic
+  type Part5Topic,
+  type Point
 } from '../../src/shared/types'
+import { GenPoint, POINT_RULES, toPoint } from './points'
 
 // Generation schemas are deliberately loose (no length/regex limits) so they work with
 // structured outputs; strict validation happens afterwards with the app's own schemas.
@@ -16,7 +18,8 @@ const genChoiceFields = {
   trap: z.string(),
   explain_en: z.string(),
   explain_th: z.string(),
-  difficulty: z.number().int()
+  difficulty: z.number().int(),
+  point: GenPoint
 }
 
 export const GenPart5 = z.object({
@@ -67,6 +70,12 @@ export function parseDraftFile(text: string, name: string): { items: Record<stri
   }
 }
 
+/** A valid point as a field to spread in; an invalid one is dropped so the draft still saves. */
+const pointField = (g: GenPoint): { point?: Point } => {
+  const p = toPoint(g)
+  return p ? { point: p } : {}
+}
+
 export function toPart5Drafts(
   gen: GenPart5,
   topic: Part5Topic,
@@ -85,6 +94,7 @@ export function toPart5Drafts(
       answer: g.answer,
       trap: g.trap,
       explain: { en: g.explain_en, th: g.explain_th },
+      ...pointField(g.point),
       status: 'draft'
     })
     if (r.success) items.push(r.data)
@@ -108,7 +118,8 @@ export function toPart6Drafts(gen: GenPart6, start: number): { items: Part6Set[]
         choices: b.choices,
         answer: b.answer,
         trap: b.trap,
-        explain: { en: b.explain_en, th: b.explain_th }
+        explain: { en: b.explain_en, th: b.explain_th },
+        ...pointField(b.point)
       })),
       status: 'draft'
     })
@@ -139,7 +150,8 @@ export const DIFFICULTY_GUIDE = `Difficulty scale for TOEIC 600–850+ learners:
 /** How to write the tested point and the two explanations; shared with the importer. */
 export const EXPLAIN_FIELD_RULES = `- "trap": a short English label naming exactly what is tested, e.g. "adverb modifies the verb 'implemented'".
 - "explain_en": 1–3 sentences on why the answer is right and why the most tempting distractor is wrong.
-- "explain_th": the same explanation in natural, friendly Thai for Thai learners. Keep key grammar terms in English in parentheses, e.g. คำกริยาวิเศษณ์ (adverb).`
+- "explain_th": the same explanation in natural, friendly Thai for Thai learners. Keep key grammar terms in English in parentheses, e.g. คำกริยาวิเศษณ์ (adverb).
+${POINT_RULES}`
 
 const EXPLAIN_RULES = `${EXPLAIN_FIELD_RULES}
 - "answer" is the 0-based index of the correct choice. Vary the position of the correct answer across items.
