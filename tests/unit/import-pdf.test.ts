@@ -4,9 +4,9 @@ import { join } from 'path'
 import { PDFDocument } from 'pdf-lib'
 import { describe, expect, it } from 'vitest'
 import { cached, hashOf, pool } from '../../scripts/lib/import/cache'
-import { findPdftotext, pageCount, singlePagePdf } from '../../scripts/lib/import/pdf'
+import { GIT_PDFTOTEXT, findPdftotext, pageCount, singlePagePdf } from '../../scripts/lib/import/pdf'
 
-const GIT = 'C:\Program Files\Git\mingw64\bin\pdftotext.exe'
+const GIT = 'C:\\Program Files\\Git\\mingw64\\bin\\pdftotext.exe'
 
 describe('findPdftotext', () => {
   it('prefers PDFTOTEXT', () => {
@@ -17,6 +17,10 @@ describe('findPdftotext', () => {
   })
   it('falls back to the copy shipped with Git for Windows', () => {
     expect(findPdftotext({}, () => false, (p) => p === GIT)).toBe(GIT)
+  })
+  it('keeps the Git path escapes intact', () => {
+    expect(GIT).toContain('\\mingw64\\bin\\')
+    expect(GIT).toBe(GIT_PDFTOTEXT)
   })
   it('explains how to fix a missing pdftotext', () => {
     expect(() => findPdftotext({}, () => false, () => false)).toThrow(/Git for Windows/)
@@ -43,6 +47,12 @@ describe('cache', () => {
     expect(await cached(dir, 'a/b', make)).toEqual({ n: 1 })
     expect(await cached(dir, 'a/b', make)).toEqual({ n: 1 })
     expect(calls).toBe(1)
+  })
+  it('recomputes when the saved file is corrupt', async () => {
+    const dir = mkdtempSync(join(tmpdir(), 'toeic-cache-'))
+    writeFileSync(join(dir, 'k.json'), '{"n":', 'utf8')
+    expect(await cached(dir, 'k', async () => ({ n: 7 }))).toEqual({ n: 7 })
+    expect(await cached(dir, 'k', async () => ({ n: 8 }))).toEqual({ n: 7 })
   })
   it('hashes equal values equally', () => {
     expect(hashOf(['x', 1])).toBe(hashOf(['x', 1]))

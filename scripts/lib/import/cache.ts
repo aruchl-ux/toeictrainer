@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 
 export const hashOf = (x: unknown): string => createHash('sha1').update(JSON.stringify(x)).digest('hex').slice(0, 16)
@@ -7,10 +7,18 @@ export const hashOf = (x: unknown): string => createHash('sha1').update(JSON.str
 /** Runs `make` once per key; later runs read the saved JSON, so finished API calls are never paid twice. */
 export async function cached<T>(dir: string, key: string, make: () => Promise<T>): Promise<T> {
   const file = join(dir, `${key}.json`)
-  if (existsSync(file)) return JSON.parse(readFileSync(file, 'utf8')) as T
+  if (existsSync(file)) {
+    try {
+      return JSON.parse(readFileSync(file, 'utf8')) as T
+    } catch {
+      // unreadable or truncated cache file: treat as a miss and recompute
+    }
+  }
   const value = await make()
   mkdirSync(dirname(file), { recursive: true })
-  writeFileSync(file, JSON.stringify(value, null, 2), 'utf8')
+  const tmp = `${file}.tmp`
+  writeFileSync(tmp, JSON.stringify(value, null, 2), 'utf8')
+  renameSync(tmp, file)
   return value
 }
 

@@ -2,7 +2,7 @@ import { execFileSync, spawnSync } from 'node:child_process'
 import { existsSync, readFileSync } from 'node:fs'
 import { PDFDocument } from 'pdf-lib'
 
-const GIT_PDFTOTEXT = 'C:\Program Files\Git\mingw64\bin\pdftotext.exe'
+export const GIT_PDFTOTEXT = 'C:\\Program Files\\Git\\mingw64\\bin\\pdftotext.exe'
 const onPathDefault = () => !spawnSync('pdftotext', ['-v']).error
 
 /** pdftotext from PDFTOTEXT, then PATH, then the copy Git for Windows ships. */
@@ -17,7 +17,7 @@ export function findPdftotext(
   throw new Error('pdftotext not found. Install Git for Windows (it ships pdftotext) or set PDFTOTEXT to its full path.')
 }
 
-/** Text of one page (1-based) in reading order; raw mode keeps two-column pages readable. */
+/** Text of one page (1-based) in reading order; default (non -layout) mode keeps two-column pages in reading order. */
 export function pageText(bin: string, file: string, page: number): string {
   return execFileSync(bin, ['-f', String(page), '-l', String(page), '-enc', 'UTF-8', file, '-'], {
     encoding: 'utf8',
@@ -33,6 +33,7 @@ function load(file: string): Promise<PDFDocument> {
   if (!doc) {
     doc = PDFDocument.load(readFileSync(file), { ignoreEncryption: true })
     docs.set(file, doc)
+    doc.catch(() => docs.delete(file))
   }
   return doc
 }
