@@ -15,6 +15,8 @@ export interface DraftEntry {
   file: string
   id: string
   item: Record<string, unknown>
+  /** True for items from the user's private pack (imported from their own books). */
+  private: boolean
 }
 
 export type DraftResult = { ok: true } | { ok: false; error: string }

@@ -6,25 +6,27 @@ import { approveDraft, listDrafts, rejectDraft } from '../../src/main/drafts'
 import { makePart5, makePart6 } from '../fixtures/items'
 
 let root: string
+let roots: { content: string; private: string }
 const draftFile = 'part5-word-form-x.json'
 const readJson = (rel: string) => JSON.parse(readFileSync(join(root, rel), 'utf8'))
 
 beforeEach(() => {
   root = mkdtempSync(join(tmpdir(), 'toeic-drafts-'))
   mkdirSync(join(root, 'drafts'))
+  roots = { content: root, private: mkdtempSync(join(tmpdir(), 'toeic-drafts-private-')) }
 })
 
 describe('drafts', () => {
   it('lists draft items with their file', () => {
     const a = makePart5({ status: 'draft' })
     writeFileSync(join(root, 'drafts', draftFile), JSON.stringify([a]))
-    expect(listDrafts(root)).toEqual([{ file: draftFile, id: a.id, item: a }])
+    expect(listDrafts(roots)).toEqual([{ file: draftFile, id: a.id, item: a, private: false }])
   })
 
   it('approves a Part 5 draft into its topic file and deletes the empty draft file', () => {
     const a = makePart5({ status: 'draft', flag: 'check me' })
     writeFileSync(join(root, 'drafts', draftFile), JSON.stringify([a]))
-    expect(approveDraft(root, draftFile, a.id, a)).toEqual({ ok: true })
+    expect(approveDraft(roots, draftFile, a.id, a)).toEqual({ ok: true })
     const saved = readJson('grammar/part5/word-form.json')
     expect(saved).toHaveLength(1)
     expect(saved[0].status).toBe('approved')
@@ -36,7 +38,7 @@ describe('drafts', () => {
     const s1 = makePart6({ status: 'draft' })
     const s2 = makePart6({ status: 'draft' })
     writeFileSync(join(root, 'drafts', 'part6-x.json'), JSON.stringify([s1, s2]))
-    expect(approveDraft(root, 'part6-x.json', s1.id, s1)).toEqual({ ok: true })
+    expect(approveDraft(roots, 'part6-x.json', s1.id, s1)).toEqual({ ok: true })
     expect(readJson('grammar/part6/sets.json')).toHaveLength(1)
     expect(readJson('drafts/part6-x.json').map((x: { id: string }) => x.id)).toEqual([s2.id])
   })
@@ -44,7 +46,7 @@ describe('drafts', () => {
   it('rejects an invalid edit and leaves files unchanged', () => {
     const a = makePart5({ status: 'draft' })
     writeFileSync(join(root, 'drafts', draftFile), JSON.stringify([a]))
-    const r = approveDraft(root, draftFile, a.id, { ...a, choices: ['only one'] })
+    const r = approveDraft(roots, draftFile, a.id, { ...a, choices: ['only one'] })
     expect(r.ok).toBe(false)
     expect(existsSync(join(root, 'grammar/part5/word-form.json'))).toBe(false)
     expect(readJson(`drafts/${draftFile}`)).toHaveLength(1)
@@ -53,7 +55,7 @@ describe('drafts', () => {
   it('refuses to change the id', () => {
     const a = makePart5({ status: 'draft' })
     writeFileSync(join(root, 'drafts', draftFile), JSON.stringify([a]))
-    const r = approveDraft(root, draftFile, a.id, { ...a, id: 'p5-word-form-9999' })
+    const r = approveDraft(roots, draftFile, a.id, { ...a, id: 'p5-word-form-9999' })
     expect(r).toEqual({ ok: false, error: 'id must not be changed' })
   })
 
@@ -61,11 +63,39 @@ describe('drafts', () => {
     const a = makePart5({ status: 'draft' })
     const b = makePart5({ status: 'draft' })
     writeFileSync(join(root, 'drafts', draftFile), JSON.stringify([a, b]))
-    rejectDraft(root, draftFile, a.id)
+    rejectDraft(roots, draftFile, a.id)
     expect(readJson(`drafts/${draftFile}`).map((x: { id: string }) => x.id)).toEqual([b.id])
   })
 
   it('refuses file names outside the drafts folder', () => {
-    expect(() => rejectDraft(root, '../grammar/x.json', 'p5-word-form-0001')).toThrow(/invalid draft file/)
+    expect(() => rejectDraft(roots, '../grammar/x.json', 'p5-word-form-0001')).toThrow(/invalid draft file/)
+  })
+
+  it('lists private drafts with private: true', () => {
+    const a = makePart5({ id: 'p5x-word-form-0001', status: 'draft' })
+    mkdirSync(join(roots.private, 'drafts'))
+    writeFileSync(join(roots.private, 'drafts', 'import-x.json'), JSON.stringify([a]))
+    expect(listDrafts(roots)).toEqual([{ file: 'import-x.json', id: a.id, item: a, private: true }])
+  })
+
+  it('approves a private draft into the private pack, not shipped content', () => {
+    const a = makePart5({ id: 'p5x-word-form-0001', status: 'draft', flag: 're-check not confident' })
+    mkdirSync(join(roots.private, 'drafts'))
+    writeFileSync(join(roots.private, 'drafts', 'import-x.json'), JSON.stringify([a]))
+    expect(approveDraft(roots, 'import-x.json', a.id, a)).toEqual({ ok: true })
+    const saved = JSON.parse(readFileSync(join(roots.private, 'grammar/part5/word-form.json'), 'utf8'))
+    expect(saved.map((x: { id: string }) => x.id)).toEqual([a.id])
+    expect(existsSync(join(root, 'grammar/part5/word-form.json'))).toBe(false)
+    expect(existsSync(join(roots.private, 'drafts', 'import-x.json'))).toBe(false)
+  })
+
+  it('rejects a private draft from the private drafts folder', () => {
+    const a = makePart5({ id: 'p5x-word-form-0001', status: 'draft' })
+    const b = makePart5({ id: 'p5x-word-form-0002', status: 'draft' })
+    mkdirSync(join(roots.private, 'drafts'))
+    writeFileSync(join(roots.private, 'drafts', 'import-x.json'), JSON.stringify([a, b]))
+    rejectDraft(roots, 'import-x.json', a.id)
+    const left = JSON.parse(readFileSync(join(roots.private, 'drafts', 'import-x.json'), 'utf8'))
+    expect(left.map((x: { id: string }) => x.id)).toEqual([b.id])
   })
 })

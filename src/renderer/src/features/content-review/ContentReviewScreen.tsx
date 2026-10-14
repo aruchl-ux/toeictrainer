@@ -28,6 +28,7 @@ function DraftCard({ draft, onDone }: { draft: DraftEntry; onDone(): void }) {
     <article className="card draft">
       <header>
         <strong>{draft.id}</strong> <small className="muted">{draft.file}</small>
+        {draft.private && <small className="muted"> · private pack</small>}
         {typeof draft.item.flag === 'string' && <span className="flag">⚠ {draft.item.flag}</span>}
       </header>
       <textarea value={text} onChange={(e) => setText(e.target.value)} rows={18} spellCheck={false} />
@@ -65,7 +66,8 @@ export function ContentReviewScreen() {
       ) : drafts.length === 0 ? (
         <p className="muted">
           No drafts. Generate some in a terminal with <code>npm run gen -- --part 5 --topic word-form</code> (or{' '}
-          <code>--part 6</code>), then reopen this screen. Run <code>npm run gen</code> alone to list every option.
+          <code>--part 6</code>), or import your own books with <code>npm run import</code>, then reopen this screen.
+          Run <code>npm run gen</code> alone to list every option.
         </p>
       ) : (
         drafts.map((d) => <DraftCard key={`${d.file}:${d.id}`} draft={d} onDone={onDone} />)

@@ -57,10 +57,11 @@ export function registerIpc({ store, contentRoot, privateRoot, isDev, setMode, o
   })
   ipcMain.handle(IPC.devIsDev, () => isDev)
   if (isDev) {
-    ipcMain.handle(IPC.devListDrafts, () => listDrafts(contentRoot))
+    const roots = { content: contentRoot, private: privateRoot }
+    ipcMain.handle(IPC.devListDrafts, () => listDrafts(roots))
     ipcMain.handle(IPC.devApproveDraft, (_e, file: string, id: string, item: unknown) =>
-      approveDraft(contentRoot, file, id, item)
+      approveDraft(roots, file, id, item)
     )
-    ipcMain.handle(IPC.devRejectDraft, (_e, file: string, id: string) => rejectDraft(contentRoot, file, id))
+    ipcMain.handle(IPC.devRejectDraft, (_e, file: string, id: string) => rejectDraft(roots, file, id))
   }
 }
