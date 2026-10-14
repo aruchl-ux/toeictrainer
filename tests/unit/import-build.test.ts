@@ -2,7 +2,7 @@ import { mkdtempSync, readFileSync } from 'fs'
 import { tmpdir } from 'os'
 import { join } from 'path'
 import { describe, expect, it } from 'vitest'
-import { buildItems, makeNumberer, verdictFlag } from '../../scripts/lib/import/build'
+import { buildItems, makeNumberer, splitBatch, verdictFlag } from '../../scripts/lib/import/build'
 import type { RawItem } from '../../scripts/lib/import/normalize'
 import { blindPrompt, solvePrompt } from '../../scripts/lib/import/prompts'
 import { readLedger, saveLedger, writeBuilt } from '../../scripts/lib/import/store'
@@ -46,6 +46,38 @@ describe('verdictFlag', () => {
     expect(verdictFlag(raw(), solved({ problem: 'two answers fit' }), { index: 0, answer: 0, confident: true })).toBe(
       'solver: two answers fit'
     )
+  })
+})
+
+describe('verdictFlag explanation checks', () => {
+  const agree = { index: 0, answer: 0, confident: true }
+  it('flags an English explanation that never names the answer', () => {
+    expect(verdictFlag(raw(), solved({ explain_en: 'A base verb follows the modal here.' }), agree)).toBe(
+      'explanation does not mention the answer'
+    )
+  })
+  it('matches the answer case-insensitively', () => {
+    expect(verdictFlag(raw(), solved({ explain_en: 'After must, SIGN is the base form.' }), agree)).toBeNull()
+  })
+  it('flags positional wording in either explanation or the trap', () => {
+    const why = 'explanation refers to a choice by position'
+    expect(verdictFlag(raw(), solved({ explain_en: 'Option A (sign) is the base verb after must.' }), agree)).toBe(why)
+    expect(verdictFlag(raw(), solved({ explain_th: 'ตัวเลือก A คือ sign' }), agree)).toBe(why)
+    expect(verdictFlag(raw(), solved({ trap: 'the first choice is a trap' }), agree)).toBe(why)
+  })
+})
+
+describe('splitBatch', () => {
+  const b = (n: number) => Array.from({ length: n }, (_, i) => raw({ stem: `Stem ${i} ____.` }))
+  it('halves the batch and remaps todo positions', () => {
+    const [x, y] = splitBatch({ batch: b(5), todo: [0, 3, 4] })
+    expect(x.batch.map((r) => r.stem)).toEqual(['Stem 0 ____.', 'Stem 1 ____.', 'Stem 2 ____.'])
+    expect(x.todo).toEqual([0])
+    expect(y.batch).toHaveLength(2)
+    expect(y.todo).toEqual([0, 1])
+  })
+  it('drops a half with nothing left to do', () => {
+    expect(splitBatch({ batch: b(4), todo: [3] }).map((h) => h.todo)).toEqual([[1]])
   })
 })
 

@@ -74,6 +74,7 @@ describe('isRunFatal', () => {
     expect(
       isRunFatal(new Error('Could not resolve authentication method. Expected either apiKey or authToken to be set.'))
     ).toBe(true)
+    expect(isRunFatal(new Error('Your credit balance is too low to access the Anthropic API.'))).toBe(true)
     for (const e of [{ status: 429 }, { status: 500 }, new Error('x'), null]) expect(isRunFatal(e)).toBe(false)
   })
 })

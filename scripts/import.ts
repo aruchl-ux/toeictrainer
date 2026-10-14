@@ -1,13 +1,13 @@
 import { readdirSync, writeFileSync, mkdirSync } from 'node:fs'
 import { homedir } from 'node:os'
-import { join } from 'node:path'
+import { join, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
 import { privateContentRoot } from '../src/main/privateRoot'
 import { ask } from './lib/claude'
 import { pageNumbers, parsePages } from './lib/import/args'
-import { buildSubset, makeNumberer, planBatches } from './lib/import/build'
+import { buildSubset, makeNumberer, planBatches, splitBatch, type PlannedBatch } from './lib/import/build'
 import { cached, hashOf, pool } from './lib/import/cache'
-import { isRunFatal } from './lib/import/errors'
+import { TruncatedError, isRunFatal } from './lib/import/errors'
 import { cleanItem, dedupe, dedupeKey, problemOf, type ExtractedItem } from './lib/import/normalize'
 import { findPdftotext, forgetPdf, pageCount, pageText, singlePagePdf } from './lib/import/pdf'
 import { BlindResult, ExtractResult, SolveResult, blindPrompt, extractSystem, solvePrompt } from './lib/import/prompts'
@@ -174,14 +174,15 @@ async function main(): Promise<void> {
   }
   mkdirSync(WORK, { recursive: true })
   writeFileSync(
-    join(WORK, 'skipped-pages.json'),
+    join(WORK, 'skipped.json'),
     JSON.stringify(pages.filter((p) => p.kind === 'other').map((p) => ({ file: p.file, page: p.page })), null, 2)
   )
   const broken = pages.flatMap((p) => p.broken.map((b) => ({ file: p.file, page: p.page, ...b })))
   writeFileSync(join(WORK, 'broken.json'), JSON.stringify(broken, null, 2))
 
   // 2. Dedupe and drop anything written by an earlier run.
-  const ledgerFile = join(WORK, 'ledger.json')
+  // One ledger per output folder, so a trial --out never marks items done for the real pack.
+  const ledgerFile = join(WORK, `ledger-${hashOf(resolve(out))}.json`)
   const ledger = readLedger(ledgerFile)
   const all = dedupe(pages)
   const plan = planBatches(all, BATCH, ledger)
@@ -192,9 +193,10 @@ async function main(): Promise<void> {
   const nextId = makeNumberer([...Object.values(ledger), ...packIds(out)])
   const draftFile = `import-${new Date().toISOString().replace(/[:.]/g, '-')}.json`
   const totals = { approved: 0, flagged: 0, invalid: 0, failed: 0 }
-  await pool(plan, concurrency, async ({ batch, todo }, b) => {
-    const key = hashOf(batch.map(dedupeKey))
+  const runBatch = async ({ batch, todo }: PlannedBatch, label: string): Promise<void> => {
     const view = batch.map((r, index) => ({ index, stem: r.stem, choices: r.choices }))
+    // Keyed on what is sent (stem and choices in sent order), since cached answers are indexes into it.
+    const key = hashOf(view)
     try {
       const sp = solvePrompt(view)
       const solved = await cached(join(WORK, 'solve'), key, () => ask(SolveResult, sp.system, sp.user))
@@ -219,14 +221,21 @@ async function main(): Promise<void> {
       totals.approved += built.approved.length
       totals.flagged += built.flagged.length
       totals.invalid += built.errors.length
-      console.log(`batch ${b + 1}/${plan.length}: ${built.approved.length} approved, ${built.flagged.length} flagged`)
+      console.log(`batch ${label}: ${built.approved.length} approved, ${built.flagged.length} flagged`)
     } catch (e) {
       if (isRunFatal(e)) throw e
+      if (e instanceof TruncatedError && batch.length > 1) {
+        // Too much output for one call: retry each half (finished halves stay cached).
+        console.warn(`[batch ${label} too long, splitting in half]`)
+        for (const [k, half] of splitBatch({ batch, todo }).entries()) await runBatch(half, `${label}.${k + 1}`)
+        return
+      }
       totals.failed += todo.length
       failedBatches++
-      console.warn(`[batch ${b + 1} failed, rerun to retry] ${message(e)}`)
+      console.warn(`[batch ${label} failed, rerun to retry] ${message(e)}`)
     }
-  })
+  }
+  await pool(plan, concurrency, (p, b) => runBatch(p, `${b + 1}/${plan.length}`))
 
   console.log(`\nDone. ${totals.approved} approved, ${totals.flagged} flagged for review, ${totals.invalid} invalid, ${totals.failed} failed.`)
   if (failedPages) console.log(`${failedPages} pages could not be read; rerun to retry them.`)

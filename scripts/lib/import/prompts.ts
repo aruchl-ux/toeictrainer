@@ -60,6 +60,7 @@ const TOPIC_GUIDE = `Topics (pick the one the item really tests):
 
 export function solvePrompt(items: { index: number; stem: string; choices: string[] }[]): Prompt {
   const system = `You are an expert TOEIC teacher for Thai learners. Each numbered item is a TOEIC Part 5 practice question printed in a Thai prep book; no answer key is available.
+Return exactly one entry per input item, echoing its "index" unchanged.
 For each item return:
 - "answer": the 0-based index of the one correct choice.
 - "topic": the single grammar point it tests, from the list below.
@@ -74,7 +75,7 @@ ${DIFFICULTY_GUIDE}`
 }
 
 export function blindPrompt(items: { index: number; stem: string; choices: string[] }[]): Prompt {
-  const system = `Answer each TOEIC Part 5 question. Return the 0-based index of the one correct choice for each item index.
+  const system = `Answer each TOEIC Part 5 question. Return exactly one entry per input item, echoing its "index" unchanged. Return the 0-based index of the one correct choice for each item index.
 Set confident=false if more than one choice could be right, no choice is right, or the text is unclear.`
   return { system, user: JSON.stringify(items, null, 2) }
 }

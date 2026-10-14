@@ -6,14 +6,12 @@
 import { readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { loadContent } from '../src/main/content'
+import { POSITIONAL, mentionsAnswer } from '../src/shared/explainRules'
 
 const ROOT = resolve('content')
 const problems: string[] = []
 const { bank, errors } = loadContent(ROOT)
 problems.push(...errors)
-
-// Explanations are shown with shuffled choices, so they must never point at a choice by position.
-const POSITIONAL = /\(\s*[A-D]\s*\)|\b(?:option|choice|answer)\s+[A-D]\b|ตัวเลือก(?:ที่)?\s*[A-Dก-ง1-4]|\b(?:first|second|third|fourth|last)\s+(?:option|choice)\b/i
 
 function checkChoices(where: string, choices: string[], answer: number, explain: { en: string; th: string }, trap: string): void {
   const norm = choices.map((c) => c.trim().toLowerCase())
@@ -24,7 +22,7 @@ function checkChoices(where: string, choices: string[], answer: number, explain:
     if (text.trim().length < 30) problems.push(`${where}: ${lang} explanation is too short`)
   }
   if (!/[฀-๿]/.test(explain.th)) problems.push(`${where}: th explanation has no Thai text`)
-  if (!where.startsWith('p7-') && !explain.en.toLowerCase().includes(choices[answer].toLowerCase().split(' ')[0]) && choices[answer].length < 40) {
+  if (!where.startsWith('p7-') && !mentionsAnswer(explain.en, choices[answer])) {
     problems.push(`${where}: en explanation never mentions the correct answer "${choices[answer]}"`)
   }
   if (POSITIONAL.test(trap)) problems.push(`${where}: trap refers to a choice by position`)

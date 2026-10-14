@@ -1,3 +1,4 @@
+import { POSITIONAL, mentionsAnswer } from '../../../src/shared/explainRules'
 import { Part5Item, formatIssues, type Part5Topic } from '../../../src/shared/types'
 import { dedupeKey, type RawItem } from './normalize'
 import type { BlindResult, SolveResult } from './prompts'
@@ -34,6 +35,11 @@ export function verdictFlag(raw: RawItem, solved: Solved, blind: Blind | undefin
     return `re-check chose "${name(blind.answer)}", solver chose "${name(solved.answer)}"`
   }
   if (!blind.confident) return 're-check not confident'
+  const answer = raw.choices[solved.answer]
+  if (answer !== undefined && !mentionsAnswer(solved.explain_en, answer)) return 'explanation does not mention the answer'
+  if ([solved.explain_en, solved.explain_th, solved.trap].some((t) => POSITIONAL.test(t))) {
+    return 'explanation refers to a choice by position'
+  }
   return null
 }
 
@@ -89,6 +95,16 @@ export function planBatches(raws: RawItem[], size: number, ledger: Record<string
     if (todo.length) out.push({ batch, todo })
   }
   return out
+}
+
+/** Halves a batch (for a call whose output was cut off); `todo` is remapped, and a half with nothing to do is dropped. */
+export function splitBatch(p: PlannedBatch): PlannedBatch[] {
+  const mid = Math.ceil(p.batch.length / 2)
+  const halves: PlannedBatch[] = [
+    { batch: p.batch.slice(0, mid), todo: p.todo.filter((i) => i < mid) },
+    { batch: p.batch.slice(mid), todo: p.todo.filter((i) => i >= mid).map((i) => i - mid) }
+  ]
+  return halves.filter((h) => h.todo.length > 0)
 }
 
 /** Builds only the `keep` positions of a batch, remapping solver/re-check indices so no ids are spent on skipped items. */
