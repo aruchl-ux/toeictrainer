@@ -118,11 +118,14 @@ export function toPart6Drafts(gen: GenPart6, start: number): { items: Part6Set[]
   return { items, errors }
 }
 
+/** Keeps an earlier flag (e.g. a copyright-overlap hint) when a new reason is added. */
+export const addFlag = (existing: string | undefined, reason: string): string => (existing ? `${existing}; ${reason}` : reason)
+
 export function applyVerdicts<T extends { flag?: string }>(items: T[], verdicts: CheckResult['verdicts']): T[] {
   return items.map((item, i) => {
     const v = verdicts.find((x) => x.index === i)
-    if (!v) return { ...item, flag: 'not reviewed by self-check' }
-    return v.ok ? item : { ...item, flag: v.reason }
+    if (!v) return { ...item, flag: addFlag(item.flag, 'not reviewed by self-check') }
+    return v.ok ? item : { ...item, flag: addFlag(item.flag, v.reason) }
   })
 }
 

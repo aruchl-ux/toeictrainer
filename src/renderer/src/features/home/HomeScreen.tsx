@@ -17,10 +17,12 @@ export function HomeScreen() {
   const due = resolveIds(bank, dueIds(progress.leitner, localDate())).length
   const stats = topicStats(progress.grammarAttempts)
   const weakest = weakestTopics(stats.filter((s) => Part5Topic.safeParse(s.topic).success))
-  const weakestP5 = weakest.map((tp) => Part5Topic.safeParse(tp)).flatMap((r) => (r.success ? [r.data] : []))
 
   // Tiles: weakest topics first, then other topics that have questions.
   const withItems = PART5_TOPICS.filter((tp) => bank.part5.some((i) => i.topic === tp))
+  const weakestP5 = weakest
+    .map((tp) => Part5Topic.safeParse(tp))
+    .flatMap((r) => (r.success && withItems.includes(r.data) ? [r.data] : []))
   const tiles = [...new Set<Part5Topic>([...weakestP5, ...withItems])].slice(0, TILE_COUNT)
 
   const focus = weakestP5[0]

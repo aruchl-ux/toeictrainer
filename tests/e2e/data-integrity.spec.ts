@@ -91,6 +91,7 @@ test.describe('Data integrity and resilience', () => {
     const env: Record<string, string> = {}
     for (const [k, v] of Object.entries(process.env)) if (v !== undefined && k !== 'ELECTRON_RUN_AS_NODE') env[k] = v
     env.TOEIC_USER_DATA = first.userData
+    delete env.TOEIC_PRIVATE_CONTENT
     let secondWindows = -1
     try {
       const second = await electron.launch({ args: ['.'], env, timeout: 15_000 })

@@ -34,6 +34,7 @@ function launchEnv(userData: string): Record<string, string> {
     if (v !== undefined && k !== 'ELECTRON_RUN_AS_NODE') env[k] = v
   }
   env.TOEIC_USER_DATA = userData
+  delete env.TOEIC_PRIVATE_CONTENT
   return env
 }
 

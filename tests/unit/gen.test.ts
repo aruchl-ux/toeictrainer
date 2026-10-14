@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  addFlag,
   applyVerdicts,
   checkPrompt,
   guardOverlap,
@@ -75,6 +76,19 @@ describe('applyVerdicts', () => {
     expect(out[0].flag).toBeUndefined()
     expect(out[1].flag).toBe('two correct answers')
     expect(out[2].flag).toBe('not reviewed by self-check')
+  })
+})
+
+describe('applyVerdicts flag merging', () => {
+  it('keeps an earlier flag when adding a self-check reason', () => {
+    const items = [makePart5({ flag: 'similar to p5x-modals-0001' }), makePart5({ flag: 'similar to p5x-modals-0002' })]
+    const out = applyVerdicts(items, [{ index: 0, ok: false, reason: 'two correct answers' }])
+    expect(out[0].flag).toBe('similar to p5x-modals-0001; two correct answers')
+    expect(out[1].flag).toBe('similar to p5x-modals-0002; not reviewed by self-check')
+  })
+  it('addFlag handles a missing flag', () => {
+    expect(addFlag(undefined, 'x')).toBe('x')
+    expect(addFlag('a', 'x')).toBe('a; x')
   })
 })
 

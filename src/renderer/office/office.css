@@ -1732,4 +1732,4 @@ code.blank.now {
   }
 }
 
-.explain-source { opacity: 0.75; font-size: 0.875em; margin: 0; }
+.explain-source { color: var(--text-3); font-size: 0.875em; margin: 0; }

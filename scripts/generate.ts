@@ -10,6 +10,7 @@ import {
   CheckResult,
   GenPart5,
   GenPart6,
+  addFlag,
   applyVerdicts,
   checkPrompt,
   guardOverlap,
@@ -63,7 +64,7 @@ async function selfCheck<T extends { flag?: string }>(items: T[]): Promise<T[]> 
   } catch (e) {
     const message = e instanceof Error ? e.message : String(e)
     console.warn(`[self-check failed] ${message}`)
-    return items.map((item) => ({ ...item, flag: `self-check failed: ${message}` }))
+    return items.map((item) => ({ ...item, flag: addFlag(item.flag, `self-check failed: ${message}`) }))
   }
 }
 

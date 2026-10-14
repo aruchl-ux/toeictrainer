@@ -20,7 +20,7 @@
     "cheatsheet:review": "tsx scripts/cheatsheet-review.ts",
     "test:e2e": "electron-vite build && playwright test",
     "dev:office": "electron-vite dev -- --office",
-    "dist": "electron-vite build && electron-builder --win"
+    "dist": "tsx scripts/check-content.ts && electron-vite build && electron-builder --win"
   },
   "dependencies": {
     "@fontsource-variable/anuphan": "^5.3.0",
