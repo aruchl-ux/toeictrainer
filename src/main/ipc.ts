@@ -17,6 +17,8 @@ import type { Store } from './store'
 export interface IpcDeps {
   store: Store
   contentRoot: string
+  /** The user's private question pack; may not exist. */
+  privateRoot: string
   isDev: boolean
   /** Reloads the sender's window into the chosen view. */
   setMode(sender: Electron.WebContents, mode: UiMode): void
@@ -24,9 +26,9 @@ export interface IpcDeps {
   onSettings(settings: Settings): void
 }
 
-export function registerIpc({ store, contentRoot, isDev, setMode, onSettings }: IpcDeps): void {
+export function registerIpc({ store, contentRoot, privateRoot, isDev, setMode, onSettings }: IpcDeps): void {
   ipcMain.handle(IPC.contentBank, () => {
-    const { bank, errors } = loadContent(contentRoot)
+    const { bank, errors } = loadContent(contentRoot, privateRoot)
     for (const e of errors) console.error('[content]', e)
     return bank
   })

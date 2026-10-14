@@ -65,3 +65,40 @@ describe('loadContent', () => {
     expect(errors.some((e) => e.includes('single.json#2'))).toBe(true)
   })
 })
+
+describe('loadContent with a private root', () => {
+  let priv: string
+  const writePriv = (rel: string, data: unknown) => {
+    const path = join(priv, rel)
+    mkdirSync(join(path, '..'), { recursive: true })
+    writeFileSync(path, JSON.stringify(data))
+  }
+  beforeEach(() => {
+    priv = mkdtempSync(join(tmpdir(), 'toeic-private-'))
+  })
+
+  it('merges approved items from both roots', () => {
+    write('grammar/part5/word-form.json', [makePart5()])
+    writePriv('grammar/part5/word-form.json', [
+      makePart5({ id: 'p5x-word-form-0001', source: [{ file: 'UNIT_1.pdf', page: 1 }] }),
+      makePart5({ id: 'p5x-word-form-0002', status: 'draft' })
+    ])
+    const { bank, errors } = loadContent(root, priv)
+    expect(errors).toEqual([])
+    expect(bank.part5.map((i) => i.id)).toEqual([expect.stringMatching(/^p5-/), 'p5x-word-form-0001'])
+  })
+
+  it('reports an id that appears in both roots', () => {
+    const item = makePart5()
+    write('grammar/part5/word-form.json', [item])
+    writePriv('grammar/part5/word-form.json', [item])
+    const { bank, errors } = loadContent(root, priv)
+    expect(bank.part5).toHaveLength(1)
+    expect(errors[0]).toMatch(/duplicate id/)
+  })
+
+  it('treats a missing private root as empty', () => {
+    write('grammar/part5/word-form.json', [makePart5()])
+    expect(loadContent(root, join(priv, 'nope')).bank.part5).toHaveLength(1)
+  })
+})

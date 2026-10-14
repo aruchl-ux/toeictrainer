@@ -46,11 +46,13 @@ function collect<T extends { id: string; status: string }>(
   return out
 }
 
-export function loadContent(root: string): LoadResult {
+/** Loads the bundled content, then the private pack if given; ids must be unique across both. */
+export function loadContent(root: string, privateRoot?: string): LoadResult {
   const errors: string[] = []
   const seen = new Set<string>()
-  const part5 = collect(join(root, 'grammar', 'part5'), Part5Item, errors, seen)
-  const part6 = collect(join(root, 'grammar', 'part6'), Part6Set, errors, seen)
-  const part7 = collect(join(root, 'reading', 'part7'), Part7Set, errors, seen)
+  const roots = privateRoot ? [root, privateRoot] : [root]
+  const part5 = roots.flatMap((r) => collect(join(r, 'grammar', 'part5'), Part5Item, errors, seen))
+  const part6 = roots.flatMap((r) => collect(join(r, 'grammar', 'part6'), Part6Set, errors, seen))
+  const part7 = roots.flatMap((r) => collect(join(r, 'reading', 'part7'), Part7Set, errors, seen))
   return { bank: { part5, part6, part7 }, errors }
 }

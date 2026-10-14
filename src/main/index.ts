@@ -3,6 +3,7 @@ import { join } from 'path'
 import type { Settings, UiMode } from '@shared/types'
 import { registerIpc } from './ipc'
 import { contentRoot } from './paths'
+import { privateContentRoot } from './privateRoot'
 import { createStore, type Store } from './store'
 
 if (!app.isPackaged && process.env.TOEIC_USER_DATA) app.setPath('userData', process.env.TOEIC_USER_DATA)
@@ -105,6 +106,8 @@ if (!app.requestSingleInstanceLock()) {
     registerIpc({
       store,
       contentRoot: contentRoot(),
+      // Dev-only env overrides (TOEIC_USER_DATA) are ignored in the installed app, as for userData.
+      privateRoot: privateContentRoot(app.getPath('appData'), app.isPackaged ? {} : process.env),
       isDev: !app.isPackaged,
       setMode: (sender, next) => {
         const win = BrowserWindow.fromWebContents(sender)
