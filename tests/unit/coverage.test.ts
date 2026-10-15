@@ -17,10 +17,14 @@ const READY: Part5Topic[] = [
   'tense-voice',
   'subject-verb-agreement',
   'modals',
-  'gerund-infinitive'
+  'gerund-infinitive',
+  'pronouns',
+  'determiners',
+  'comparatives',
+  'relative-clauses'
 ]
 /** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
-const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals']
+const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals', 'determiners']
 
 const THAI = /[฀-๿]/
 const { bank } = loadContent(resolve('content'))

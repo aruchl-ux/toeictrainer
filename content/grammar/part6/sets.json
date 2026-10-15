@@ -165,6 +165,14 @@
         "explain": {
           "en": "Dana Morris is a person and the blank is the subject of 'oversees', so use 'who'. 'whom' is an object pronoun and 'which' is for things.",
           "th": "Dana Morris เป็นคน และช่องว่างทำหน้าที่เป็นประธานของ oversees จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) และ which ใช้กับสิ่งของ"
+        },
+        "point": {
+          "key": "N (person) + who + V",
+          "th": "คน + กริยาตามหลังเลย ใช้ who",
+          "en": "a person followed by a verb: who",
+          "wrong": [
+            "contact Dana Morris, which oversees the new system"
+          ]
         }
       }
     ],
@@ -256,6 +264,14 @@
         "explain": {
           "en": "'than' signals a comparison, so the comparative form 'lower' is needed. 'lowest' is a superlative and does not go with 'than', and 'more low' is not correct for a short adjective.",
           "th": "มีคำว่า than แสดงการเปรียบเทียบ จึงต้องใช้ขั้นกว่า (comparative) คือ lower ส่วน lowest เป็นขั้นสูงสุด (superlative) ใช้กับ than ไม่ได้ และ adjective พยางค์เดียวไม่ใช้ more low"
+        },
+        "point": {
+          "key": "Adj-er + than",
+          "th": "มี than ใช้ขั้นกว่า คำสั้นเติม -er (higher, lower)",
+          "en": "before than, short words add -er (higher, lower)",
+          "wrong": [
+            "our rates are low than those of most other cleaning companies"
+          ]
         }
       }
     ],
@@ -318,6 +334,15 @@
         "explain": {
           "en": "The blank comes before the noun phrase 'next purchase', so a possessive adjective is needed: 'your'. 'yours' is a possessive pronoun that stands alone and cannot come before a noun.",
           "th": "ช่องว่างอยู่หน้าคำนาม next purchase จึงต้องใช้ possessive adjective คือ your ส่วน yours เป็น possessive pronoun ที่ใช้แทนคำนาม วางหน้าคำนามไม่ได้"
+        },
+        "point": {
+          "key": "your + N",
+          "th": "หน้าคำนามใช้ your (ของคุณ) ไม่ใช่ you หรือ yours",
+          "en": "before a noun use your, not you or yours",
+          "wrong": [
+            "use toward yours next purchase",
+            "use toward you next purchase"
+          ]
         }
       },
       {
@@ -423,6 +448,14 @@
         "explain": {
           "en": "The blank is the object of 'review' and refers to the plural 'sales figures and presentation slides', so the object pronoun 'them' is needed. 'they' is a subject pronoun, and 'it' is singular.",
           "th": "ช่องว่างเป็นกรรม (object) ของ review และหมายถึง sales figures and presentation slides ซึ่งเป็นพหูพจน์ จึงใช้ object pronoun คือ them ส่วน they ใช้เป็นประธาน (subject) และ it ใช้กับสิ่งที่เป็นเอกพจน์"
+        },
+        "point": {
+          "key": "V + them",
+          "th": "หลังกริยาใช้รูปกรรม them ไม่ใช่ they",
+          "en": "after a verb use them, not they",
+          "wrong": [
+            "so please review they before Friday"
+          ]
         }
       }
     ],
@@ -702,6 +735,14 @@
         "explain": {
           "en": "'than' calls for a comparative, and the indoor pool may become crowded, so it has less room: 'less spacious'. 'fewer' is tempting, but it goes before plural nouns, not adjectives, and 'least' is a superlative.",
           "th": "มีคำว่า than จึงต้องใช้รูปขั้นกว่า (comparative) และสระในร่มอาจมีคนแน่น แสดงว่ามีพื้นที่น้อยกว่า จึงใช้ less spacious ส่วน fewer ใช้กับคำนามนับได้พหูพจน์ ไม่ใช้หน้า adjective และ least เป็นขั้นสูงสุด (superlative)"
+        },
+        "point": {
+          "key": "less + Adj + than",
+          "th": "น้อยกว่า (ไม่…เท่า) ใช้ less + คำคุณศัพท์ + than",
+          "en": "less + adjective + than = not as … as",
+          "wrong": [
+            "the indoor pool is fewer spacious than the outdoor one"
+          ]
         }
       }
     ],
@@ -727,6 +768,14 @@
         "explain": {
           "en": "'Applicants' are people, and the blank is the subject of the verb 'have', so use 'who'. 'whom' is an object pronoun, 'which' is for things, and 'whose' must be followed by a noun.",
           "th": "Applicants เป็นคน และช่องว่างทำหน้าที่เป็นประธานของกริยา have จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) which ใช้กับสิ่งของ และ whose ต้องตามด้วยคำนาม"
+        },
+        "point": {
+          "key": "N (person) + who + V",
+          "th": "คน + กริยาตามหลังเลย ใช้ who",
+          "en": "a person followed by a verb: who",
+          "wrong": [
+            "Applicants which have at least two years of customer service experience"
+          ]
         }
       },
       {
@@ -1034,6 +1083,14 @@
         "explain": {
           "en": "The blank stands for the badges of 'others' and has no noun after it, so the possessive pronoun 'theirs' is needed. 'their' is tempting, but it is a possessive adjective that must come before a noun.",
           "th": "ช่องว่างใช้แทนบัตรของคนอื่น (others' badges) และไม่มีคำนามตามหลัง จึงต้องใช้ possessive pronoun คือ theirs (ของพวกเขา) ส่วน their เป็นกับดัก เพราะเป็น possessive adjective ที่ต้องมีคำนามตามหลังเสมอ"
+        },
+        "point": {
+          "key": "theirs",
+          "th": "ของพวกเขา (= their badge) ใช้เมื่อไม่มีคำนามตาม",
+          "en": "theirs = their badge; no noun follows",
+          "wrong": [
+            "do not lend your badge to others, and do not borrow their either"
+          ]
         }
       },
       {
@@ -1050,6 +1107,14 @@
         "explain": {
           "en": "'much' is used before a comparative to make it stronger, and 'make our offices ___' needs an adjective, so 'safer' fits. 'safest' is a superlative and would need 'the', and 'more safely' is an adverb.",
           "th": "much ใช้หน้าขั้นกว่า (comparative) เพื่อเน้น และโครงสร้าง make + กรรม + adjective ต้องการ adjective จึงใช้ safer ส่วน safest เป็นขั้นสูงสุด (superlative) ต้องมี the และ more safely เป็น adverb"
+        },
+        "point": {
+          "key": "much + comparative",
+          "th": "\"…กว่ามาก\" ใช้ much + ขั้นกว่า ห้ามใช้ very",
+          "en": "much + comparative (much safer, much more detailed); not very",
+          "wrong": [
+            "these steps will make our offices much safe for everyone"
+          ]
         }
       }
     ],
@@ -1181,6 +1246,14 @@
         "explain": {
           "en": "'the ____ number in the expo's history' compares this year with every past year, so the superlative 'largest' is needed. 'larger' is a comparative and would need 'than', and 'most large' is not used with a one-syllable adjective.",
           "th": "วลี the ... number in the expo's history เปรียบเทียบกับทุกปีที่ผ่านมา จึงต้องใช้ขั้นสูงสุด (superlative) คือ largest ส่วน larger เป็นขั้นกว่า (comparative) ต้องใช้คู่กับ than และ adjective พยางค์เดียวไม่ใช้ most large"
+        },
+        "point": {
+          "key": "the + Adj-est + N",
+          "th": "ที่สุดในกลุ่ม (of all, in history) ใช้ the + -est",
+          "en": "the top of a group (of all, in history): the + -est",
+          "wrong": [
+            "the most large number in the expo's history"
+          ]
         }
       },
       {
@@ -1386,6 +1459,14 @@
         "explain": {
           "en": "'employees' are people, and the blank is the subject of 'wish', so 'who' is correct. 'whom' is an object pronoun, 'whose' must be followed by a noun, and 'which' is for things.",
           "th": "employees เป็นคน และช่องว่างทำหน้าที่เป็นประธานของ wish จึงใช้ who ส่วน whom ใช้เป็นกรรม (object) whose ต้องตามด้วยคำนาม และ which ใช้กับสิ่งของ"
+        },
+        "point": {
+          "key": "N (person) + who + V",
+          "th": "คน + กริยาตามหลังเลย ใช้ who",
+          "en": "a person followed by a verb: who",
+          "wrong": [
+            "employees which wish to attend should register by February 25"
+          ]
         }
       },
       {

@@ -12,6 +12,12 @@
       "en": "The word 'than' signals a comparison between two years, so we need the comparative form 'higher'. 'highest' is a superlative and is never followed by 'than'.",
       "th": "มีคำว่า than บอกว่ากำลังเปรียบเทียบยอดขายสองปี จึงต้องใช้รูปขั้นกว่า (comparative) คือ higher ส่วน highest เป็นขั้นสูงสุด (superlative) ใช้คู่กับ than ไม่ได้"
     },
+    "point": {
+      "key": "Adj-er + than",
+      "th": "มี than ใช้ขั้นกว่า คำสั้นเติม -er (higher, lower)",
+      "en": "before than, short words add -er (higher, lower)",
+      "wrong": ["This year's sales figures are significantly high than those"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "She is compared with everyone on the sales team, so the superlative 'the most dependable' is needed. 'the more' is used only when comparing two people or things.",
       "th": "เธอถูกเปรียบเทียบกับทุกคนในทีมขาย ซึ่งมีมากกว่าสองคน จึงต้องใช้ขั้นสูงสุด (superlative) คือ the most dependable ส่วน the more ใช้เมื่อเปรียบเทียบแค่สองสิ่งเท่านั้น"
+    },
+    "point": {
+      "key": "the most + Adj",
+      "th": "ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful)",
+      "en": "the top one, long adjective: the most + adjective",
+      "wrong": ["she is the more dependable member of the sales team"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "The pattern 'twice as ... as' takes the base form, not '-er', so 'quicker' is wrong. The word describes how the printer 'operates', so the adverb 'quickly' is needed, not the adjective 'quick'.",
       "th": "โครงสร้าง twice as ... as ต้องใช้รูปปกติ ห้ามใช้รูป -er จึงตัด quicker ออก และคำในช่องว่างบอกว่าเครื่องพิมพ์ทำงาน (operates) อย่างไร จึงต้องใช้ adverb คือ quickly ไม่ใช่ adjective อย่าง quick"
     },
+    "point": {
+      "key": "V + as + Adv + as",
+      "th": "ขยายกริยา (operates) ใช้ as quickly as ไม่เติม -er",
+      "en": "after an action verb: as + adverb + as (as quickly as)",
+      "wrong": ["The new printer operates twice as quicker as the model it replaced"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "The second half 'the larger the discount' shows the double comparative pattern 'the + comparative, the + comparative'. The first half of the sentence also needs a comparative: 'earlier'. 'more early' is not a correct comparative form.",
       "th": "ครึ่งหลังของประโยคคือ the larger the discount แสดงโครงสร้าง the + ขั้นกว่า, the + ขั้นกว่า (ยิ่ง...ยิ่ง...) ครึ่งแรกของประโยคจึงต้องเป็นขั้นกว่า (comparative) เช่นกัน คือ earlier ส่วน more early เป็นรูปที่ผิด เพราะ early ใช้ -er"
+    },
+    "point": {
+      "key": "the + Adj-er + S + V",
+      "th": "ยิ่ง…ยิ่ง… ทั้งสองส่วนใช้ the + ขั้นกว่า",
+      "en": "the more …, the more …: the + -er in both parts",
+      "wrong": ["The earliest customers sign up for the loyalty program, the larger the discount", "The early customers sign up for the loyalty program, the larger the discount"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "To strengthen a comparative such as 'more detailed', use 'much', 'far' or 'even'. 'very' only modifies the base form of an adjective, so 'very more detailed' is wrong.",
       "th": "ถ้าต้องการเน้นขั้นกว่า (comparative) อย่าง more detailed ให้ใช้ much, far หรือ even คำตอบจึงเป็น much ส่วน very ใช้ขยายคำคุณศัพท์รูปปกติเท่านั้น พูดว่า very more detailed ไม่ได้"
     },
+    "point": {
+      "key": "much + comparative",
+      "th": "\"…กว่ามาก\" ใช้ much + ขั้นกว่า ห้ามใช้ very",
+      "en": "much + comparative (much safer, much more detailed); not very",
+      "wrong": ["The revised budget proposal is very more detailed than the draft"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "'phone calls' is a plural countable noun and 'than' requires a comparative, so 'fewer' is correct. 'less' is the comparative for uncountable nouns such as 'time' or 'paperwork'.",
       "th": "phone calls เป็นคำนามนับได้พหูพจน์ และมี than จึงต้องใช้ขั้นกว่าของ few คือ fewer ส่วน less ใช้กับคำนามนับไม่ได้ (uncountable) เช่น time หรือ paperwork คนไทยมักใช้ less กับทุกอย่าง ซึ่งใน TOEIC ถือว่าผิด"
+    },
+    "point": {
+      "key": "fewer + N(plural)",
+      "th": "นับได้หลายตัว (phone calls) ใช้ fewer ไม่ใช่ less",
+      "en": "countable plural (phone calls): fewer, not less",
+      "wrong": ["the front desk has received less phone calls than it did last year", "has received few phone calls than it did last year"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "'Of all the candidates' compares one person with the whole group, and 'the' comes before the blank, so the superlative 'deepest' is needed. 'deeper' would need 'than' and compares only two.",
       "th": "Of all the candidates คือการเปรียบเทียบกับผู้สมัครทั้งหมด และมี the อยู่หน้าช่องว่าง จึงต้องใช้ขั้นสูงสุด (superlative) คือ deepest ส่วน deeper เป็นขั้นกว่า ใช้เปรียบเทียบสองสิ่งและมักตามด้วย than"
     },
+    "point": {
+      "key": "the + Adj-est + N",
+      "th": "ที่สุดในกลุ่ม (of all, in history) ใช้ the + -est",
+      "en": "the top of a group (of all, in history): the + -est",
+      "wrong": ["Of all the candidates, Mr. Okafor demonstrated the deeper understanding"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "'the ... event the team has ever organized' is a classic superlative pattern, so 'most successful' is correct. 'more successful' is a comparative and would need 'than'.",
       "th": "โครงสร้าง the + ขั้นสูงสุด + คำนาม + has ever + V3 หมายถึง ...ที่สุดเท่าที่เคยมีมา จึงต้องใช้ most successful ส่วน more successful เป็นขั้นกว่า (comparative) ต้องมี than ตามมา"
+    },
+    "point": {
+      "key": "the most + Adj",
+      "th": "ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful)",
+      "en": "the top one, long adjective: the most + adjective",
+      "wrong": ["the more successful event the marketing team has ever organized"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "The phrase 'than any other branch' needs a comparative, so 'more' is correct. Even though the meaning is 'the highest', 'most' cannot be followed by 'than'.",
       "th": "วลี than any other branch ต้องใช้ขั้นกว่า (comparative) คือ more ถึงแม้ความหมายจะเท่ากับ ...ที่สุด แต่ most ใช้คู่กับ than ไม่ได้ ส่วน much และ many ไม่ใช่รูปเปรียบเทียบ"
     },
+    "point": {
+      "key": "than any other",
+      "th": "มี than any other ใช้ขั้นกว่า (more) แม้ความหมายคือ \"ที่สุด\"",
+      "en": "than any other needs a comparative (more), not most",
+      "wrong": ["it generates most revenue than any other branch", "it generates much revenue than any other branch"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "The blank is followed by 'to', not 'than'. 'superior' is a Latin-origin comparative that takes 'to'. 'better' and 'more advanced' look tempting but must be followed by 'than'.",
       "th": "หลังช่องว่างเป็น to ไม่ใช่ than จึงต้องใช้ superior ซึ่งเป็นคำเปรียบเทียบที่ใช้คู่กับ to (superior to = ดีกว่า) ส่วน better และ more advanced ต้องตามด้วย than เท่านั้น"
+    },
+    "point": {
+      "key": "superior to",
+      "th": "superior (ดีกว่า) ใช้ to ไม่ใช่ than",
+      "en": "superior to = better than; it takes to, not than",
+      "wrong": ["is considered better to the previous version", "is considered more advanced to the previous version"]
     },
     "status": "approved"
   }

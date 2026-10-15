@@ -1,6 +1,6 @@
 # Grammar cheat sheet
 
-107 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
+109 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
 
 ## word-form
 
@@ -733,147 +733,189 @@ Not on any entry (0): none
 
 ## pronouns
 
-Look where the blank is: before a verb, after a verb, or before a noun. Each place needs a different form.
+The choices are one pronoun in different forms, like they, them, their, theirs, themselves. Look where the blank is first: before a verb (they), after a verb or preposition (them), before a noun (their), or alone with no noun after it (theirs).
 
-ดูว่าช่องว่างอยู่ตรงไหน: หน้ากริยา หลังกริยา หรือหน้าคำนาม แต่ละที่ใช้รูปต่างกัน
+ตัวเลือกเป็นคำสรรพนามตัวเดียวกันแต่ต่างรูป เช่น they, them, their, theirs, themselves ให้ดูตำแหน่งช่องว่างก่อน: หน้ากริยา (they) หลังกริยาหรือคำบุพบท (them) หน้าคำนาม (their) หรืออยู่ลอย ๆ ไม่มีคำนามตาม (theirs)
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `N` = คำนาม · `Prep` = คำบุพบท (in, on, for)
 
-### Subject, object and possessive · สรรพนามประธาน กรรม และแสดงความเป็นเจ้าของ `pronoun-cases`
+### Subject, object and possessive · สรรพนามประธาน กรรม และแสดงความเป็นเจ้าของ (subject, object, possessive) `pronoun-cases`
 
-    he/she/we/they + V
+    he/she/we/they/I + V
     V/Prep + me/him/her/us/them
-    my/his/her/our/their + N
+    my/your/his/her/its/our/their + N
 
-- Before a verb: he, she, they. After a verb: him, her, them. Before a noun: his, her, their.
-- หน้ากริยาใช้ he, she, they / หลังกริยาใช้ him, her, them / หน้าคำนามใช้ his, her, their
+- Before a verb: I, he, she, they. After a verb or preposition: me, him, her, them. Before a noun: my, your, his, its, their. Its (no apostrophe) means "of it"; it's means "it is".
+- หน้ากริยาใช้ I, he, she, they / หลังกริยาหรือคำบุพบทใช้ me, him, her, them / หน้าคำนามใช้ my, your, his, its, their ส่วน its (ไม่มี ') = ของมัน แต่ it's = it is
 - Ms. Ortiz asked **her** assistant to book the room.
 - คุณออร์ติซขอให้ผู้ช่วยของเธอจองห้อง
-- **no common mistake yet**
+- ✗ Mr. Davis and me will lead the session. → ✓ Mr. Davis and I will lead the session.: ภาษาไทยใช้ "ฉัน" ได้ทุกตำแหน่ง แต่ถ้าเป็นประธาน (อยู่หน้ากริยา) ต้องใช้ I แม้มีชื่อคนอื่นอยู่ด้วย (Thai uses ฉัน in every position, but before a verb English needs I, even with another name in front.)
+- Clues: your + N = ของคุณ + คำนาม (your questions) · its + N = ของมัน (บริษัทหรือสิ่งของหนึ่งอย่าง) · it's = it is (ไม่ได้แปลว่า "ของมัน") · V + them = หลังกริยาใช้ them (gave them, review them) · and I + V = ประธานสองคนใช้ I (Mr. Davis and I will…)
 
-### Possessive pronouns · สรรพนามแสดงความเป็นเจ้าของแบบไม่มีคำนามตาม `possessive-pronouns`
+### Possessive pronouns · ของ… แบบไม่มีคำนามตาม (possessive pronouns) `possessive-pronouns`
 
     mine/yours/his/hers/ours/theirs
 
-- Use these when no noun follows. For example, yours = your laptop.
-- ใช้เมื่อข้างหลังไม่มีคำนาม เช่น yours = your laptop
+- Use these when no noun follows: they stand for "my/your/her… + the noun". For example, yours = your laptop.
+- ใช้เมื่อข้างหลังไม่มีคำนาม เพราะคำนี้แทน "ของ… + คำนาม" ไปแล้ว เช่น yours = your laptop
 - My laptop is old, but **yours** is brand new.
 - แล็ปท็อปของฉันเก่าแล้ว แต่ของคุณเป็นเครื่องใหม่เอี่ยม
-- **no common mistake yet**
+- ✗ This laptop is my. → ✓ This laptop is mine.: ภาษาไทยใช้ "ของฉัน" ได้ทั้งมีและไม่มีคำนามตาม แต่ my ต้องมีคำนามตามหลัง ถ้าไม่มีคำนามให้ใช้ mine (Thai ของฉัน works with or without a noun, but my needs a noun after it. With no noun, use mine.)
+- Clues: hers = ของเธอ (= her charger) · theirs = ของพวกเขา (= their badge) · yours = ของคุณ (= your laptop)
 
-### Reflexive pronouns · สรรพนามสะท้อน (-self) `reflexive-pronouns`
+### Reflexive pronouns · ตัวเอง (reflexive pronouns: -self) `reflexive-pronouns`
 
     S + V + myself/himself/themselves
     by + himself/herself/themselves
 
-- Use -self when someone does something to themselves, or to stress they did it personally. By himself means alone.
-- ใช้ -self เมื่อทำกับตัวเอง หรือเน้นว่าทำเอง / by himself = ทำคนเดียว
+- Use -self when the subject does something to itself, or to stress that they did it personally, not someone else. By himself means alone. If people do something to each other, use one another or each other, not themselves.
+- ใช้ -self เมื่อประธานทำกับตัวเอง หรือเน้นว่าทำเอง ไม่ให้คนอื่นทำแทน by himself = ทำคนเดียว ถ้าต่างคนต่างทำให้กัน ใช้ one another หรือ each other ไม่ใช่ themselves
 - Mr. Chen prepared the presentation **himself**.
 - คุณเฉินเตรียมการนำเสนอด้วยตัวเอง
-- **no common mistake yet**
-- Clues: by ___ (**no meaning**) · S + V + ___ (same person) (**no meaning**)
+- ✗ Mr. Chen prepared the slides by him. → ✓ Mr. Chen prepared the slides by himself.: ถ้าคนทำกับคนหลัง by เป็นคนเดียวกัน ต้องใช้ -self: by himself = ทำคนเดียว (When the doer and the person after by are the same, use -self: by himself = alone.)
+- Clues: by + himself/herself = คนเดียว ไม่มีใครช่วย · do it + themselves = ทำเอง ไม่ให้คนอื่นทำแทน · one another / each other = ซึ่งกันและกัน (ต่างคนต่างทำให้กัน)
 
-### That of / those of · That of / those of `that-those-of`
+### One … the other · อีกคนที่เหลือ (one … the other) `one-the-other`
+
+    one + V, the other + V
+
+- In a group of two, the first is one and the second is the other. Another means one more from a bigger group.
+- ถ้ามีสองคนหรือสองอัน คนแรกใช้ one คนที่เหลือใช้ the other ส่วน another = อีกหนึ่ง (จากกลุ่มที่มีมากกว่าสอง)
+- We have two offices: one is in Bangkok, and **the other** is in Chiang Mai.
+- เรามีสำนักงานสองแห่ง แห่งหนึ่งอยู่กรุงเทพฯ อีกแห่งอยู่เชียงใหม่
+- ✗ We have two offices: one is in Bangkok, and another is in Chiang Mai. → ✓ We have two offices: one is in Bangkok, and the other is in Chiang Mai.: ภาษาไทยพูดว่า "อีกแห่งหนึ่ง" จึงชอบใช้ another แต่ถ้ามีแค่สองแห่ง แห่งที่เหลือต้องใช้ the other (Thai says อีกแห่งหนึ่ง, which sounds like another, but with only two, the second one is the other.)
+- Clues: one … the other = อันหนึ่ง … อีกอันที่เหลือ (มีสองอัน) · another = อีกหนึ่ง (จากกลุ่มที่มีหลายอัน) · others = คนอื่น ๆ / อันอื่น ๆ (ไม่มีคำนามตาม)
+
+### That of / those of · แทนคำนามที่พูดไปแล้วในการเปรียบเทียบ (that of / those of) `that-those-of`
 
     that + of + N
-    those + of + N
+    those + of/for + N
 
-- In comparisons they stand for a noun already said: that for one, those for more than one.
-- ใช้ในการเปรียบเทียบ แทนคำนามที่พูดไปแล้ว: that แทนตัวเดียว / those แทนหลายตัว
+- In comparisons they stand for a noun already said, so it is not repeated: that for one thing or an uncountable noun, those for more than one.
+- ใช้ในการเปรียบเทียบ แทนคำนามที่พูดไปแล้วจะได้ไม่ต้องพูดซ้ำ: that แทนสิ่งเดียวหรือนามนับไม่ได้ / those แทนหลายสิ่ง
 - Our prices are lower than **those** of our competitors.
 - ราคาของเราต่ำกว่าราคาของคู่แข่ง
-- **no common mistake yet**
-- Clues: than ___ of (**no meaning**) · similar to ___ of (**no meaning**)
+- ✗ Our prices are lower than that of our competitors. → ✓ Our prices are lower than those of our competitors.: prices เป็นพหูพจน์ (หลายสิ่ง) คำที่ใช้แทนจึงต้องเป็น those ภาษาไทยไม่มีรูปพหูพจน์ จึงมักลืมดู (Prices is plural, so the word that stands for it is those. Thai has no plural form, so this is easy to miss.)
+- Clues: than + those of/for = กว่า…ของ (แทนคำนามหลายสิ่ง) · than + that of = กว่า…ของ (แทนสิ่งเดียวหรือนามนับไม่ได้)
 
-### Those who · Those who `those-who`
+### Those who · ผู้ที่… (those who) `those-who`
 
     those + who + V1
 
-- Those who means the people who. It is plural, so the verb has no -s.
-- those who = คนที่… (หลายคน) กริยาจึงไม่เติม s
+- Those who means "the people who". It is plural, so the verb has no -s.
+- those who = ผู้ที่… / คนที่… (หลายคน) กริยาจึงไม่เติม s
 - **Those** who wish to attend must register online.
 - ผู้ที่ต้องการเข้าร่วมต้องลงทะเบียนออนไลน์
-- **no common mistake yet**
+- ✗ Who wish to attend must register online. → ✓ Those who wish to attend must register online.: ภาษาไทยขึ้นต้นประโยคด้วย "ผู้ที่…" ได้เลย แต่ภาษาอังกฤษต้องมี those นำหน้า who (Thai can start a sentence with ผู้ที่, but English needs those before who.)
+- Clues: those who = ผู้ที่… / คนที่… (หลายคน) · anyone who = ใครก็ตามที่… (กริยาเติม s)
 
-### Tested in drills (0)
+### Tested in drills (11)
 
+- `and I + V` = ประธานสองคน (Mr. Davis and I) ใช้ I ไม่ใช่ me (in a two-person subject use I, not me) · ✗ Mr. Davis and me will lead the training session, Mr. Davis and myself will lead the training session
+- `hers` = ของเธอ (= her charger) ใช้เมื่อไม่มีคำนามตาม (hers = her charger; no noun follows)
+- `its + N` = ของบริษัท (สิ่งเดียว) ใช้ its ส่วน it's = it is (its = of it (one company); it's means it is) · ✗ announced that it's new distribution center will open
+- `one another` = ต่างคนต่างให้กัน (ซึ่งกันและกัน) ใช้ one another (to each other: one another, not themselves) · ✗ The managers agreed to share their sales data with themselves
+- `than + those` = แทนคำนามหลายตัว (figures) ที่พูดไปแล้ว ใช้ those ไม่ใช่ that (for a plural noun already said (figures) use those, not that) · ✗ The sales figures are much higher than that for the same period
+- `the other` = มีสองคน คนแรกใช้ one คนที่เหลือใช้ the other (of two: one …, the other …) · ✗ Of the two candidates, one has sales experience, and another has a background in finance, and other has a background in finance
+- `theirs` = ของพวกเขา (= their badge) ใช้เมื่อไม่มีคำนามตาม (theirs = their badge; no noun follows) · ✗ do not lend your badge to others, and do not borrow their either
+- `themselves` = เน้นว่าผู้สมัครทำเอง ไม่ให้คนอื่นทำแทน ใช้ themselves (they do it personally, not someone else: themselves) · ✗ Applicants must complete the online form them
+- `those + who` = ผู้ที่… (หลายคน) ขึ้นต้นด้วย those ไม่ใช่ them หรือ these (the people who: those who, not them or these who) · ✗ Them who wish to attend the awards dinner must confirm, These who wish to attend the awards dinner must confirm
+- `V + them` = หลังกริยาใช้รูปกรรม them ไม่ใช่ they (after a verb use them, not they) · ✗ gave they each a gift card, gave their each a gift card, so please review they before Friday
+- `your + N` = หน้าคำนามใช้ your (ของคุณ) ไม่ใช่ you หรือ yours (before a noun use your, not you or yours) · ✗ answer yours questions, answer you questions, use toward yours next purchase, use toward you next purchase
 
 Not on any entry (0): none
 
 ## relative-clauses
 
-Look at the noun before the blank (person, thing, place, time). Then look after it: a verb straight away, or a subject first?
+The choices are words like who, whom, whose, which, that, where, what. Look at the word before the blank first: a person, a thing, a place, a time, a preposition, or no noun at all? Then look after it: a verb straight away, a noun, or a full clause (subject + verb)?
 
-ดูคำนามข้างหน้า (คน สิ่งของ สถานที่ เวลา) แล้วดูข้างหลังว่าเป็นกริยาเลย หรือมีประธานก่อน
+ตัวเลือกเป็นคำอย่าง who, whom, whose, which, that, where, what ให้ดูคำหน้าช่องว่างก่อนว่าเป็นคน สิ่งของ สถานที่ เวลา คำบุพบท หรือไม่มีคำนามเลย แล้วดูข้างหลังว่าเป็นกริยาเลย เป็นคำนาม หรือเป็นประโยคครบ (ประธาน + กริยา)
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำนาม · `Prep` = คำบุพบท (in, on, for)
 
-### Who / which / that as subject · Who / which / that ทำหน้าที่ประธาน `who-which-that`
+### Who / which / that as subject · ที่… ตามด้วยกริยาเลย (who / which / that as subject) `who-which-that`
 
     N (person) + who + V
     N (thing) + which + V
     N + that + V
 
-- If a verb comes right after: who for people, which for things, that for both.
-- ถ้าข้างหลังเป็นกริยาเลย: คนใช้ who / สิ่งของใช้ which / that ใช้ได้ทั้งคู่
+- If a verb comes right after: who for people, which for things, that for both. After a comma, use who or which, never that.
+- ถ้าข้างหลังเป็นกริยาเลย: คนใช้ who / สิ่งของใช้ which / that ใช้ได้ทั้งคู่ แต่หลังจุลภาค (,) ใช้ who หรือ which ห้ามใช้ that
 - The candidate **who** was hired starts on Monday.
 - ผู้สมัครที่ได้รับการจ้างงานจะเริ่มงานวันจันทร์
-- **no common mistake yet**
+- ✗ The candidate which was hired starts on Monday. → ✓ The candidate who was hired starts on Monday.: ภาษาไทยใช้ "ที่" ได้ทั้งคนและสิ่งของ แต่ภาษาอังกฤษ คนใช้ who สิ่งของใช้ which (Thai ที่ is used for people and things, but English uses who for people and which for things.)
+- Clues: applicants who / employees who + V = ผู้สมัครที่… / พนักงานที่… (ตามด้วยกริยา) · , which = หลังจุลภาค (,) สิ่งของใช้ which ห้ามใช้ that · , who = หลังจุลภาค (,) คนใช้ who (Dana Morris, who…)
 
-### Whom / which / that as object · Whom / which / that ทำหน้าที่กรรม `whom-object`
+### Whom / which / that as object · ที่… ตามด้วยประธาน + กริยา (whom / which / that as object) `whom-object`
 
-    N + whom/which/that + S + V
+    N (person) + whom + S + V
+    N (thing) + which + S + V
+    N + that + S + V
 
-- If a subject and verb come after: whom for people, which for things.
-- ถ้าข้างหลังมีประธาน + กริยา: คนใช้ whom / สิ่งของใช้ which
+- If a subject and verb come after: whom for people, which for things, that for both.
+- ถ้าข้างหลังมีประธาน + กริยา: คนใช้ whom / สิ่งของใช้ which / that ใช้ได้ทั้งคู่
 - The consultant **whom** we hired has extensive experience.
 - ที่ปรึกษาที่เราจ้างมามีประสบการณ์มาก
-- **no common mistake yet**
+- ✗ The consultant whom we hired him has experience. → ✓ The consultant whom we hired has experience.: ภาษาไทยพูดว่า "ที่เราจ้างเขามา" แต่ในภาษาอังกฤษ whom แทนคนนั้นแล้ว ไม่ต้องใส่ him ซ้ำ (Thai says ที่เราจ้างเขามา, but in English whom already stands for the person, so do not add him.)
+- Clues: the system that + S + V = หลังคำนาม (system) ใช้ that ห้ามใช้ what
 
-### Whose · Whose (ซึ่ง…ของเขา) `whose`
+### Whose · ซึ่ง…ของเขา (whose) `whose`
 
     N + whose + N + V
 
-- Whose shows who owns something. A noun always comes right after it.
-- whose = ของ… ข้างหลังต้องมีคำนามเสมอ
+- Whose shows who owns something. A noun comes right after it: whose report, whose contracts.
+- whose = ซึ่ง…ของเขา บอกว่าเป็นของใคร ข้างหลังมีคำนามตามทันที เช่น whose report, whose contracts
 - Employees **whose** contracts expire this year will be contacted.
 - พนักงานที่สัญญาจ้างจะหมดอายุในปีนี้จะได้รับการติดต่อ
-- **no common mistake yet**
-- Clues: ___ + noun + verb (**no meaning**)
+- ✗ Employees who contracts expire this year will be contacted. → ✓ Employees whose contracts expire this year will be contacted.: ภาษาไทยพูด "พนักงานที่สัญญาจ้าง…" ไม่มีคำว่า "ของ" แต่ภาษาอังกฤษต้องใช้ whose หน้าสิ่งที่เป็นของคนนั้น (Thai says พนักงานที่สัญญาจ้าง… with no word for ของ, but English needs whose before the thing the person owns.)
+- Clues: whose + noun + verb = คำนามข้างหลังเป็นของคนข้างหน้า
 
-### Where / when · Where / when `where-when`
+### Where / when · สถานที่และเวลา (where / when) `where-when`
 
     N (place) + where + S + V
     N (time) + when + S + V
 
-- For a place use where, for a time use when. A full sentence follows.
-- สถานที่ใช้ where / เวลาใช้ when (ข้างหลังเป็นประโยคเต็ม)
+- For a place use where, for a time use when. A full clause follows, with nothing missing after the verb.
+- สถานที่ใช้ where / เวลาใช้ when ข้างหลังเป็นประโยคครบ (ประธาน + กริยา) ไม่ขาดอะไรหลังกริยา
 - This is the room **where** the interviews will be held.
 - นี่คือห้องที่จะใช้สัมภาษณ์งาน
-- **no common mistake yet**
+- ✗ This is the room which the interviews will be held. → ✓ This is the room where the interviews will be held.: คนไทยแปล "ที่" เป็น which แต่ข้างหลังเป็นประโยคครบแล้ว สถานที่จึงต้องใช้ where (หรือ in which) (Thai ที่ becomes which, but the clause after it is already full, so a place needs where (or in which).)
+- Clues: the hotel / office / city + where = สถานที่ + ประโยคครบ · the date / day / time + when = วัน / เวลา + ประโยคครบ
 
-### Preposition + which / whom · คำบุพบท + which / whom `preposition-which`
+### Preposition + which / whom · คำบุพบทนำหน้า (preposition + which / whom) `preposition-which`
 
     N + Prep + which/whom + S + V
 
-- After a preposition (with, in, to), use only which or whom. Never that or who.
-- หลังคำบุพบท (with, in, to) ใช้ได้แค่ which หรือ whom ห้ามใช้ that หรือ who
+- Verbs like rely on or deliver to keep their preposition, and it can move to the front: on which, to whom. After a preposition use only which or whom, never that or who.
+- กริยาที่มีคำบุพบทคู่ (rely on, deliver to) ต้องเก็บคำบุพบทไว้ และยกมาไว้หน้าได้: on which, to whom หลังคำบุพบทใช้ได้แค่ which หรือ whom ห้ามใช้ that หรือ who
 - The firm **with which** we partnered is based in Seoul.
 - บริษัทที่เราร่วมมือด้วยตั้งอยู่ที่โซล
-- **no common mistake yet**
+- ✗ The software which our team relies is old. → ✓ The software on which our team relies is old.: rely ใช้คู่กับ on (rely on) จึงต้องมี on ด้วย: on which หรือ which … relies on (Rely goes with on (rely on), so on must stay: on which, or which … relies on.)
+- Clues: Prep + which = สิ่งของ: on which, in which · Prep + whom = คน: to whom, with whom · most of whom / some of which = ซึ่งส่วนใหญ่ในนั้น… / ซึ่งบางส่วนในนั้น…
 
-### What (= the thing that) · What (= สิ่งที่) `what-clause`
+### What (= the thing that) · สิ่งที่ (what) `what-clause`
 
     what + S + V
 
-- What means "the thing that". There is no noun before it.
-- what = สิ่งที่… ข้างหน้าไม่มีคำนาม
+- What means "the thing that". It has no noun before it. After a noun, use that or which instead.
+- what = สิ่งที่… ข้างหน้าไม่มีคำนาม ถ้าข้างหน้ามีคำนามให้ใช้ that หรือ which แทน
 - **What** customers want most is faster delivery.
 - สิ่งที่ลูกค้าต้องการมากที่สุดคือการจัดส่งที่เร็วขึ้น
-- **no common mistake yet**
+- ✗ The client liked the design what we presented. → ✓ The client liked the design that we presented.: คนไทยมักแปล "ที่" เป็น what แต่ what วางหลังคำนามไม่ได้ ถ้ามีคำนาม (the design) ให้ใช้ that หรือ which (Thai สิ่งที่ / ที่ is often turned into what, but what cannot follow a noun. After a noun (the design), use that or which.)
+- Clues: pleased with what + S + V = พอใจกับสิ่งที่… · what = the thing that = สิ่งที่… (ข้างหน้าไม่มีคำนาม)
 
-### Tested in drills (0)
+### Tested in drills (10)
 
+- `, which` = หลังจุลภาค (,) ใช้ which ห้ามใช้ that (after a comma use which, not that) · ✗ Our main warehouse, that was built in 1998, will be expanded, Our main warehouse, what was built in 1998, will be expanded
+- `most of whom` = ส่วนใหญ่ของคนที่เพิ่งพูดถึง (engineers) ใช้ most of whom (most of the people just named: most of whom) · ✗ The company recently hired twenty engineers, most of them have experience, twenty engineers, most of who have experience
+- `N (person) + who + V` = คน + กริยาตามหลังเลย ใช้ who (a person followed by a verb: who) · ✗ The regional manager which approved the travel budget, The regional manager whom approved the travel budget, contact Dana Morris, which oversees the new system, Applicants which have at least two years of customer service experience, employees which wish to attend should register by February 25
+- `N (place) + where + S + V` = สถานที่ + ประโยคครบ (ประธาน + กริยา) ใช้ where (a place + a full clause: where) · ✗ The hotel which the annual sales conference will take place is located near the airport
+- `N (time) + when + S + V` = เวลา (the date) + ประโยคครบ ใช้ when (a time (the date) + a full clause: when) · ✗ let us know the date where you will be available, let us know the date which you will be available
+- `N + that + S + V` = หลังคำนาม (system) ใช้ that ได้ ห้ามใช้ what (after a noun (system) use that, never what) · ✗ the most reliable scheduling system what our office has ever used
+- `N + whose + N + V` = whose (ของ…) + คำนาม บอกว่าเป็นของใคร (whose report) (whose + noun shows who owns it (whose report)) · ✗ Ms. Tanaka is the consultant who report on customer satisfaction was presented
+- `Prep + which` = rely on ยกคำบุพบทมาไว้หน้า which เป็น on which (rely on: the preposition moves before which (on which)) · ✗ The accounting software which our finance team relies is no longer supported, The accounting software where our finance team relies is no longer supported
+- `Prep + whom` = หลังคำบุพบท (to) คนใช้ whom ไม่ใช่ who หรือ that (after a preposition (to), a person takes whom, not who or that) · ✗ the person to that the package should be delivered, the person to who the package should be delivered
+- `what + S + V` = ข้างหน้าไม่มีคำนาม (pleased with ___) ใช้ what = สิ่งที่ (no noun before it: what = the thing that) · ✗ The client was very pleased with which our design team presented, The client was very pleased with that our design team presented
 
 Not on any entry (0): none
 
@@ -1137,68 +1179,85 @@ Not on any entry (0): none
 
 ## comparatives
 
-Find the signal word: than means -er or more, the means -est or most, as … as means equal.
+The choices are one word in different forms, like high, higher, highest, highly. Find the signal word first: than means -er or more; the … of all or in history means -est or most; as … as means equal.
 
-หาคำสัญญาณ: มี than ใช้ขั้นกว่า / มี the ใช้ขั้นสุด / มี as … as คือเท่ากัน
+ตัวเลือกเป็นคำเดียวกันแต่ต่างรูป เช่น high, higher, highest, highly ให้หาคำสัญญาณก่อน: มี than ใช้ขั้นกว่า (-er / more) มี the … of all หรือ in history ใช้ขั้นสูงสุด (-est / most) มี as … as คือเท่ากัน
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำนาม · `Adj` = คำคุณศัพท์ (บอกลักษณะของคำนาม) · `Adv` = คำกริยาวิเศษณ์ (ขยายกริยาหรือคุณศัพท์)
 
-### Comparative · ขั้นกว่า (Comparative) `comparative`
+### Comparative · ขั้นกว่า (comparative) `comparative`
 
     Adj-er + than
     more + Adj + than
 
-- Comparing two things: short words add -er, long words use more, then than.
-- เปรียบเทียบ 2 อย่าง: คำสั้นเติม -er / คำยาวใช้ more แล้วตามด้วย than
+- Comparing two things: short words add -er, long words use more, then than. Use -er or more, not both.
+- เปรียบเทียบ 2 อย่าง: คำสั้นเติม -er / คำยาวใช้ more แล้วตามด้วย than ใช้ -er หรือ more อย่างใดอย่างหนึ่ง ห้ามใช้ทั้งคู่
 - The new model is **lighter** than the old one.
 - รุ่นใหม่เบากว่ารุ่นเก่า
-- **no common mistake yet**
-- Clues: than (**no meaning**)
+- ✗ This model is cheap than the old one. → ✓ This model is cheaper than the old one.: ภาษาไทยเติมแค่ "กว่า" แต่ภาษาอังกฤษต้องเติม -er (หรือใช้ more) และมี than ด้วย (Thai adds only กว่า, but English needs -er (or more) on the word as well as than.)
+- Clues: than = กว่า · than any other + singular noun = กว่า…อื่นใด (ความหมายคือ "ที่สุด" แต่ใช้ขั้นกว่า) · superior to / inferior to = ดีกว่า / แย่กว่า (ใช้ to ไม่ใช่ than)
 
-### Superlative · ขั้นสูงสุด (Superlative) `superlative`
+### Superlative · ขั้นสูงสุด (superlative) `superlative`
 
     the + Adj-est + N
     the most + Adj + N
 
-- The top one in a group: the + -est, or the most.
-- มากที่สุดในกลุ่ม: the + -est หรือ the most
+- The top one in a group of three or more: the + -est for short words, the most for long words.
+- มากที่สุดในกลุ่ม (สามขึ้นไป): คำสั้นใช้ the + -est / คำยาวใช้ the most
 - This is **the most popular** tour we offer.
 - นี่คือทัวร์ที่ได้รับความนิยมมากที่สุดของเรา
-- **no common mistake yet**
-- Clues: the (**no meaning**) · of all (**no meaning**) · in the region (**no meaning**) · ever (**no meaning**) · one of the + N(s) (**no meaning**)
+- ✗ She is one of the best employee in the team. → ✓ She is one of the best employees in the team.: one of the = หนึ่งใน… (กลุ่ม) คำนามข้างหลังต้องเป็นพหูพจน์ เติม s ภาษาไทยไม่มีรูปพหูพจน์ จึงมักลืม (One of the means one from a group, so the noun after it is plural. Thai nouns have no plural form, so the -s is easy to forget.)
+- Clues: of all = ในบรรดาทั้งหมด · in the region / in history = ในภูมิภาค / ในประวัติศาสตร์ · ever = เท่าที่เคยมีมา · one of the + N(s) = หนึ่งใน… (คำนามเติม s)
 
-### As … as · As … as (เท่ากัน) `as-as`
+### As … as · เท่ากัน (as … as) `as-as`
 
-    as + Adj/Adv + as
+    as + Adj + as
+    V + as + Adv + as
     not as + Adj + as
 
-- Equal: as + plain word + as, with no -er.
-- เท่ากัน: as + คำปกติ + as (ไม่เติม -er)
+- Equal: as + plain word + as, with no -er. If the word describes an action verb (operates, works), use the adverb, usually the -ly word: as quickly as.
+- เท่ากัน: as + คำปกติ + as (ไม่เติม -er) ถ้าคำนั้นขยายกริยา (operates, works) ใช้คำกริยาวิเศษณ์ (ส่วนมากลงท้าย -ly) เช่น as quickly as
 - The second quarter was **as** profitable as the first.
 - ไตรมาสที่สองทำกำไรได้เท่ากับไตรมาสแรก
-- **no common mistake yet**
+- ✗ The price is as same as last year. → ✓ The price is the same as last year.: คำว่า "เท่ากับ" ทำให้คนไทยชอบพูด as same as ที่ถูกคือ the same as หรือใช้ as + คำอย่าง cheap + as (Thai เท่ากับ leads to "as same as". Say the same as, or use as + a word like cheap + as.)
+- Clues: twice as … as = มากเป็นสองเท่า · the same + N + as = เหมือนกับ / เท่ากับ · not as … as = ไม่…เท่า
 
-### Much / far + comparative · Much / far + ขั้นกว่า `comparative-intensifiers`
+### Much / far + comparative · กว่ามาก (much / far + comparative) `comparative-intensifiers`
 
     much/far/even/a lot + Adj-er + than
 
-- To say "much more", use much, far or even. Not very.
-- อยากเน้นว่า "กว่ามาก" ใช้ much, far, even ห้ามใช้ very
+- To say "a lot more", put much, far or even before the comparative. Not very.
+- อยากเน้นว่า "…กว่ามาก" ให้ใส่ much, far หรือ even หน้าขั้นกว่า ห้ามใช้ very
 - The new office is **much** larger than the old one.
 - สำนักงานใหม่ใหญ่กว่าที่เก่ามาก
-- **no common mistake yet**
+- ✗ The new office is very larger than the old one. → ✓ The new office is much larger than the old one.: ภาษาไทยใช้ "มาก" ได้ทุกที่ แต่หน้าขั้นกว่าห้ามใช้ very ให้ใช้ much หรือ far (Thai มาก goes with anything, but very cannot go before -er or more. Use much or far.)
+- Clues: much + comparative = …กว่ามาก (much safer, much more detailed) · far / even / a lot = ใช้หน้าขั้นกว่าได้เหมือน much
 
-### The more …, the more … · ยิ่ง … ยิ่ง … `the-more-the-more`
+### Fewer vs less · น้อยกว่า: จำนวนกับปริมาณ (fewer vs less) `fewer-less`
+
+    fewer + N(plural) + than
+    less + N(uncountable) + than
+    less + Adj + than
+
+- Fewer is for things you can count (calls, complaints). Less is for things you cannot count (time, money), and less + adjective means "not as … as".
+- fewer ใช้กับสิ่งที่นับได้ (calls, complaints) ส่วน less ใช้กับสิ่งที่นับไม่ได้ (time, money) และ less + คำคุณศัพท์ = ไม่…เท่า
+- This year we received **fewer** complaints than last year.
+- ปีนี้เราได้รับคำร้องเรียนน้อยกว่าปีที่แล้ว
+- ✗ We received less complaints this year. → ✓ We received fewer complaints this year.: ภาษาไทยใช้ "น้อยกว่า" ทั้งสองแบบ แต่ภาษาอังกฤษ ของที่นับได้ (complaints) ต้องใช้ fewer (Thai uses น้อยกว่า for both. In English, things you can count (complaints) take fewer.)
+- Clues: fewer + plural noun = จำนวนน้อยกว่า (นับได้) · less + uncountable noun = ปริมาณน้อยกว่า (นับไม่ได้) · less + adjective + than = น้อยกว่า / ไม่…เท่า
+
+### The more …, the more … · ยิ่ง … ยิ่ง … (the more …, the more …) `the-more-the-more`
 
     the + Adj-er + S + V, the + Adj-er + S + V
 
-- The more…, the more…: both parts start with the + comparative.
-- ยิ่ง … ยิ่ง …: ทั้งสองส่วนขึ้นต้นด้วย the + ขั้นกว่า
+- The more…, the more…: both parts start with the + comparative, and the comparative moves to the front of each part.
+- ยิ่ง … ยิ่ง …: ทั้งสองส่วนขึ้นต้นด้วย the + ขั้นกว่า โดยยกขั้นกว่ามาไว้หน้าแต่ละส่วน
 - The earlier you register, **the lower** the fee will be.
 - ยิ่งลงทะเบียนเร็ว ค่าธรรมเนียมยิ่งถูก
-- **no common mistake yet**
+- ✗ The earlier you register, the fee will be lower. → ✓ The earlier you register, the lower the fee will be.: ภาษาไทยพูด "ค่าธรรมเนียมยิ่งถูก" (ประธานขึ้นก่อน) แต่ภาษาอังกฤษต้องยก the + ขั้นกว่า ไปไว้หน้าทั้งสองส่วน: the lower the fee (Thai says ค่าธรรมเนียมยิ่งถูก with the subject first, but English puts the + comparative first in both parts: the lower the fee.)
+- Clues: the earlier …, the … = ยิ่งเร็ว … ยิ่ง … · the more …, the more … = ยิ่งมาก … ยิ่งมาก …
 
-### Irregular forms · รูปเปรียบเทียบที่ไม่ปกติ `irregular-comparatives`
+### Irregular forms · รูปที่เปลี่ยนทั้งคำ (irregular forms) `irregular-comparatives`
 
     good/well → better → the best
     bad/badly → worse → the worst
@@ -1208,10 +1267,21 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำ
 - คำพวกนี้เปลี่ยนทั้งคำ ไม่เติม -er / -est ต้องจำ
 - Our sales results were **better** than expected.
 - ผลยอดขายของเราดีกว่าที่คาดไว้
-- **no common mistake yet**
+- ✗ Sales were more better than expected. → ✓ Sales were better than expected.: better แปลว่า "ดีกว่า" อยู่แล้ว ไม่ต้องใส่ more ซ้ำ (Better already means "more good", so do not add more.)
+- Clues: better than = ดีกว่า · worse than = แย่กว่า
 
-### Tested in drills (0)
+### Tested in drills (10)
 
+- `Adj-er + than` = มี than ใช้ขั้นกว่า คำสั้นเติม -er (higher, lower) (before than, short words add -er (higher, lower)) · ✗ This year's sales figures are significantly high than those, our rates are low than those of most other cleaning companies
+- `fewer + N(plural)` = นับได้หลายตัว (phone calls) ใช้ fewer ไม่ใช่ less (countable plural (phone calls): fewer, not less) · ✗ the front desk has received less phone calls than it did last year, has received few phone calls than it did last year
+- `less + Adj + than` = น้อยกว่า (ไม่…เท่า) ใช้ less + คำคุณศัพท์ + than (less + adjective + than = not as … as) · ✗ the indoor pool is fewer spacious than the outdoor one
+- `much + comparative` = "…กว่ามาก" ใช้ much + ขั้นกว่า ห้ามใช้ very (much + comparative (much safer, much more detailed); not very) · ✗ The revised budget proposal is very more detailed than the draft, these steps will make our offices much safe for everyone
+- `superior to` = superior (ดีกว่า) ใช้ to ไม่ใช่ than (superior to = better than; it takes to, not than) · ✗ is considered better to the previous version, is considered more advanced to the previous version
+- `than any other` = มี than any other ใช้ขั้นกว่า (more) แม้ความหมายคือ "ที่สุด" (than any other needs a comparative (more), not most) · ✗ it generates most revenue than any other branch, it generates much revenue than any other branch
+- `the + Adj-er + S + V` = ยิ่ง…ยิ่ง… ทั้งสองส่วนใช้ the + ขั้นกว่า (the more …, the more …: the + -er in both parts) · ✗ The earliest customers sign up for the loyalty program, the larger the discount, The early customers sign up for the loyalty program, the larger the discount
+- `the + Adj-est + N` = ที่สุดในกลุ่ม (of all, in history) ใช้ the + -est (the top of a group (of all, in history): the + -est) · ✗ Of all the candidates, Mr. Okafor demonstrated the deeper understanding, the most large number in the expo's history
+- `the most + Adj` = ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful) (the top one, long adjective: the most + adjective) · ✗ she is the more dependable member of the sales team, the more successful event the marketing team has ever organized
+- `V + as + Adv + as` = ขยายกริยา (operates) ใช้ as quickly as ไม่เติม -er (after an action verb: as + adverb + as (as quickly as)) · ✗ The new printer operates twice as quicker as the model it replaced
 
 Not on any entry (0): none
 
@@ -1473,27 +1543,27 @@ Not on any entry (0): none
 
 ## determiners
 
-Determiners come before a noun and must match it: countable or uncountable, singular or plural.
+The choices are small words that go before a noun, like each, every, most, few, little, another. Look at the noun right after the blank first: is it one (singular) or more than one (plural)? Can you count it, or not (information, equipment)?
 
-คำนำหน้านาม (determiner) อยู่หน้าคำนาม และต้องเข้ากับคำนามนั้น ทั้งนับได้หรือนับไม่ได้ เอกพจน์หรือพหูพจน์
+ตัวเลือกเป็นคำเล็ก ๆ ที่อยู่หน้าคำนาม (คำนำหน้านาม) เช่น each, every, most, few, little, another ให้ดูคำนามหลังช่องว่างก่อนว่าเป็นเอกพจน์ (ตัวเดียว) หรือพหูพจน์ (หลายตัว) และนับได้หรือนับไม่ได้ (information, equipment)
 
 Symbols: `V` = คำกริยา · `N` = คำนาม
 
-### Each / every + singular noun · each / every + นามเอกพจน์ `each-every-noun`
+### Each / every + singular noun · แต่ละ / ทุก + นามเอกพจน์ (each / every) `each-every-noun`
 
     each/every + N(singular) + V(s/es)
 
 - `each` = แต่ละ (every one, seen one by one)
 - `every` = ทุก ๆ (all of them, as a group)
 
-- Each and every take a singular noun and a singular verb. Each of the takes a plural noun but still a singular verb.
-- each และ every ตามด้วยนามเอกพจน์และกริยาเอกพจน์ ส่วน each of the ตามด้วยนามพหูพจน์ แต่กริยายังเป็นเอกพจน์
+- Each and every take a singular noun and a singular verb (with -s). Each of the takes a plural noun, but the verb is still singular.
+- each และ every ตามด้วยนามเอกพจน์ และกริยาเติม s ส่วน each of the ตามด้วยนามพหูพจน์ แต่กริยายังเติม s
 - Every new **employee** receives a copy of the handbook.
 - พนักงานใหม่ทุกคนได้รับคู่มือคนละเล่ม
-- **no common mistake yet**
-- Clues: each (**no meaning**) · every (**no meaning**) · each of the + plural noun (**no meaning**)
+- ✗ Every employees receive a handbook. → ✓ Every employee receives a handbook.: "ทุกคน" ฟังดูเป็นหลายคน แต่ every ตามด้วยนามเอกพจน์ และกริยาเติม s (ทุกคน sounds like many people, but every takes a singular noun and a verb with -s.)
+- Clues: every + singular noun = ทุก + นามเอกพจน์ (every employee) · each of the + plural noun = แต่ละ…ใน (กลุ่ม) + นามพหูพจน์ กริยายังเติม s
 
-### All / most / some + plural or uncountable · all / most / some + นามพหูพจน์หรือนามนับไม่ได้ `all-most-some`
+### All / most / some + plural or uncountable · ทั้งหมด / ส่วนใหญ่ / บางส่วน (all / most / some) `all-most-some`
 
     all/most/some + N(plural)
     most of the + N
@@ -1502,14 +1572,14 @@ Symbols: `V` = คำกริยา · `N` = คำนาม
 - `most` = ส่วนใหญ่ (nearly all)
 - `some` = บางส่วน / จำนวนหนึ่ง (a number of, not all)
 
-- All, most and some take a plural countable noun or an uncountable noun. Before the or a possessive, add of: most of the staff.
-- all, most, some ตามด้วยนามพหูพจน์หรือนามนับไม่ได้ ถ้าข้างหลังมี the หรือคำแสดงความเป็นเจ้าของ ต้องเติม of เช่น most of the staff
+- All, most and some take a plural noun or an uncountable noun. Before the or a word like our, add of: most of the staff.
+- all, most, some ตามด้วยนามพหูพจน์หรือนามนับไม่ได้ ถ้าข้างหลังมี the หรือคำบอกความเป็นเจ้าของ (our, their) ต้องเติม of เช่น most of the staff
 - **Most** applicants have at least two years of experience.
 - ผู้สมัครส่วนใหญ่มีประสบการณ์อย่างน้อยสองปี
-- **no common mistake yet**
-- Clues: most + noun (**no meaning**) · most of the + noun (**no meaning**) · almost all (**no meaning**)
+- ✗ Almost employees work from home. → ✓ Most employees work from home.: almost แปลว่า "เกือบ" วางหน้าคำนามตรง ๆ ไม่ได้ ให้ใช้ most หรือ almost all (Almost means "nearly" and cannot go straight before a noun. Use most, or almost all.)
+- Clues: most + noun = ส่วนใหญ่ (พูดทั่วไป) · most of the + noun = ส่วนใหญ่ของ… (กลุ่มที่รู้กันแล้ว) · almost all = เกือบทั้งหมด (almost ต้องมี all)
 
-### (A) few vs (a) little · (a) few กับ (a) little `few-little`
+### (A) few vs (a) little · มีบ้าง / แทบไม่มี (a few vs a little) `few-little`
 
     a few/few + N(plural)
     a little/little + N(uncountable)
@@ -1519,14 +1589,14 @@ Symbols: `V` = คำกริยา · `N` = คำนาม
 - `a little` = มีอยู่บ้าง (นับไม่ได้) (some, a small amount)
 - `little` = แทบไม่มี (นับไม่ได้) (almost none)
 
-- Few and a few go with plural countable nouns; little and a little with uncountable nouns. Without a, the meaning is negative: almost none.
+- Few and a few go with plural nouns you can count; little and a little with uncountable nouns. Without a, the meaning is negative: almost none.
 - few / a few ใช้กับนามนับได้พหูพจน์ ส่วน little / a little ใช้กับนามนับไม่ได้ ถ้าไม่มี a ความหมายเป็นลบ คือแทบไม่มี
 - There is **little** time left before the deadline, so please hurry.
 - เหลือเวลาก่อนถึงกำหนดส่งน้อยมาก กรุณารีบหน่อย
-- **no common mistake yet**
-- Clues: information (**no meaning**) · equipment (**no meaning**) · advice (**no meaning**) · furniture (uncountable) (**no meaning**)
+- ✗ We need a few information. → ✓ We need a little information.: information ในภาษาอังกฤษนับไม่ได้ (ไม่เติม s) จึงใช้ a little ไม่ใช่ a few (Information cannot be counted in English (no -s), so it takes a little, not a few.)
+- Clues: information = ข้อมูล (นับไม่ได้ ไม่เติม s) · equipment = อุปกรณ์ (นับไม่ได้ ไม่เติม s) · advice = คำแนะนำ (นับไม่ได้ ไม่เติม s) · furniture = เฟอร์นิเจอร์ (นับไม่ได้ ไม่เติม s)
 
-### Another / other / the other · another / other / the other `another-other`
+### Another / other / the other · อีก / อื่น ๆ / ที่เหลือ (another / other / the other) `another-other`
 
     another + N(singular)
     other + N(plural)
@@ -1536,12 +1606,12 @@ Symbols: `V` = คำกริยา · `N` = คำนาม
 - `other` = อื่น ๆ (more, different ones)
 - `the other` = อันที่เหลือ (the last one or ones that remain)
 
-- Another takes a singular noun; other takes a plural or uncountable noun; the other means the remaining one or ones.
+- Another takes a singular noun; other takes a plural or uncountable noun; the other means the one or ones that are left.
 - another ตามด้วยนามเอกพจน์ other ตามด้วยนามพหูพจน์หรือนามนับไม่ได้ ส่วน the other หมายถึงอันที่เหลืออยู่
 - Please use **another** meeting room; this one is booked.
 - กรุณาใช้ห้องประชุมห้องอื่น ห้องนี้มีคนจองแล้ว
-- **no common mistake yet**
-- Clues: another + singular (**no meaning**) · other + plural (**no meaning**) · one … the other (**no meaning**)
+- ✗ Please use another rooms. → ✓ Please use another room.: another = อีกหนึ่ง คำนามข้างหลังจึงเป็นเอกพจน์ (room) ถ้าหลายห้องให้ใช้ other rooms (Another means "one more", so the noun after it is singular. For more than one, use other rooms.)
+- Clues: another + singular noun = อีกหนึ่ง + นามเอกพจน์ (another room) · other + plural noun = อื่น ๆ + นามพหูพจน์ (other rooms) · one … the other = อันหนึ่ง … อีกอันที่เหลือ (มีสองอัน)
 
 ### Tested in drills (0)
 
