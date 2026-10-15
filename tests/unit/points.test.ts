@@ -4,6 +4,7 @@ import type { Point } from '../../src/shared/types'
 import { makePart5, makePart6 } from '../fixtures/items'
 
 const pt = (key: string, wrong?: string[]): Point => ({ key, th: `th ${key}`, en: `en ${key}`, ...(wrong ? { wrong } : {}) })
+const mistake = { wrong: 'x', right: 'y', why: { en: 'x', th: 'x' } }
 
 describe('sheetPoints', () => {
   it('lists the points of one topic A–Z, from Part 5 items and Part 6 blanks', () => {
@@ -51,7 +52,8 @@ describe('uncoveredPoints', () => {
           formula: ['meet + a deadline'],
           use: { en: 'x', th: 'x' },
           example: { en: 'We {{place}} an order.', th: 'x' },
-          clues: ['take effect']
+          clues: [{ w: 'take effect', en: 'x', th: 'x' }],
+          mistake
         }
       ]
     }
@@ -72,7 +74,8 @@ describe('uncoveredPoints', () => {
         formula: entry.formula ?? ['N'],
         use: { en: 'x', th: 'x' },
         example: { en: entry.example ?? 'x', th: 'x' },
-        ...(entry.words ? { words: entry.words } : {})
+        ...(entry.words ? { words: entry.words } : {}),
+        mistake
       }
     ]
   })

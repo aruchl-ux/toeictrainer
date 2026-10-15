@@ -2,31 +2,10 @@ import { resolve } from 'path'
 import { describe, expect, it } from 'vitest'
 import { loadContent } from '../../src/main/content'
 import { CHEAT_SHEETS } from '../../src/shared/cheatsheet'
-import type { Part5Topic, Point } from '../../src/shared/types'
+import { PART5_TOPICS, type Part5Topic, type Point } from '../../src/shared/types'
 
-/**
- * Topics whose sheet and questions are finished for beginners. Each content task adds its topics;
- * Task 10 replaces this list with every Part 5 topic.
- */
-const READY: Part5Topic[] = [
-  'collocations',
-  'word-form',
-  'word-choice',
-  'prepositions',
-  'conj-vs-prep',
-  'tense-voice',
-  'subject-verb-agreement',
-  'modals',
-  'gerund-infinitive',
-  'pronouns',
-  'determiners',
-  'comparatives',
-  'relative-clauses',
-  'reduced-clauses',
-  'noun-clauses',
-  'conditionals',
-  'inversion'
-]
+/** Every Part 5 topic is finished for beginners; a new topic must meet the same rules. */
+const READY: Part5Topic[] = [...PART5_TOPICS]
 /** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
 const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals', 'determiners', 'noun-clauses']
 
@@ -46,20 +25,17 @@ for (const topic of READY) describe(`${topic} is ready for beginners`, () => {
 
   it('gives every entry one common mistake', () => {
     for (const e of sheet.entries) {
-      expect(e.mistake, e.id).toBeDefined()
-      expect(e.mistake!.wrong.trim(), e.id).not.toBe('')
-      expect(e.mistake!.right.trim(), e.id).not.toBe('')
-      expect(e.mistake!.wrong, e.id).not.toBe(e.mistake!.right)
-      expect(e.mistake!.why.th, e.id).toMatch(THAI)
-      expect(e.mistake!.why.en.trim(), e.id).not.toBe('')
+      expect(e.mistake.wrong.trim(), e.id).not.toBe('')
+      expect(e.mistake.right.trim(), e.id).not.toBe('')
+      expect(e.mistake.wrong, e.id).not.toBe(e.mistake.right)
+      expect(e.mistake.why.th, e.id).toMatch(THAI)
+      expect(e.mistake.why.en.trim(), e.id).not.toBe('')
     }
   })
 
   it('gives every clue a Thai and English meaning', () => {
     for (const e of sheet.entries)
       for (const c of e.clues ?? []) {
-        expect(typeof c, `${e.id}: ${JSON.stringify(c)}`).toBe('object')
-        if (typeof c === 'string') continue
         expect(c.th, `${e.id}: ${c.w}`).toMatch(THAI)
         expect(c.en.trim(), `${e.id}: ${c.w}`).not.toBe('')
       }

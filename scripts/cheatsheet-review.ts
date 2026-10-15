@@ -34,10 +34,9 @@ for (const tp of PART5_TOPICS) {
     for (const f of e.formula) lines.push(`    ${f}`)
     if (e.words?.length) lines.push('', ...e.words.map((w) => `- \`${w.w}\` = ${w.th} (${w.en})`))
     lines.push('', `- ${e.use.en}`, `- ${e.use.th}`, `- ${bold(e.example.en)}`, `- ${e.example.th}`)
-    if (e.mistake) lines.push(`- ✗ ${e.mistake.wrong} → ✓ ${e.mistake.right}: ${e.mistake.why.th} (${e.mistake.why.en})`)
-    else lines.push('- **no common mistake yet**')
+    lines.push(`- ✗ ${e.mistake.wrong} → ✓ ${e.mistake.right}: ${e.mistake.why.th} (${e.mistake.why.en})`)
     if (e.clues?.length) {
-      lines.push(`- Clues: ${e.clues.map((c) => (typeof c === 'string' ? `${c} (**no meaning**)` : `${c.w} = ${c.th}`)).join(' · ')}`)
+      lines.push(`- Clues: ${e.clues.map((c) => `${c.w} = ${c.th}`).join(' · ')}`)
     }
     lines.push('')
   }

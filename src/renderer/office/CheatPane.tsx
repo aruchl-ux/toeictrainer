@@ -93,21 +93,19 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
               <p className="cheat-doc-clues">
                 <span className="dim">{t('cheatClues')}</span>
                 {e.clues.map((c) => (
-                  <code key={clueText(c)} title={typeof c === 'string' ? undefined : c[shown]}>
+                  <code key={clueText(c)} title={c[shown]}>
                     {clueText(c)}
-                    {typeof c !== 'string' && <span className="dim" lang={shown}> {c[shown]}</span>}
+                    <span className="dim" lang={shown}> {c[shown]}</span>
                   </code>
                 ))}
               </p>
             )}
-            {e.mistake && (
-              <p className="cheat-doc-mistake">
-                <s>✗ {e.mistake.wrong}</s> <strong>✓ {e.mistake.right}</strong>{' '}
-                <span className="dim" lang={shown}>
-                  {e.mistake.why[shown]}
-                </span>
-              </p>
-            )}
+            <p className="cheat-doc-mistake">
+              <s>✗ {e.mistake.wrong}</s> <strong>✓ {e.mistake.right}</strong>{' '}
+              <span className="dim" lang={shown}>
+                {e.mistake.why[shown]}
+              </span>
+            </p>
           </article>
         ))}
         {points.length > 0 && (

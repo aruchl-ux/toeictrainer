@@ -27,10 +27,10 @@ export interface CheatEntry {
   example: Explain
   /** Meanings of the words in the formula, so a choice is understood, not just placed. */
   words?: CheatWord[]
-  /** Signal words or pairs that point to this entry. Plain strings are being replaced by words with meanings. */
-  clues?: (string | CheatWord)[]
-  /** The common mistake for this entry. Every finished sheet has one (see tests/unit/coverage.test.ts). */
-  mistake?: CheatMistake
+  /** Signal words or pairs that point to this entry, each with its meaning. */
+  clues?: CheatWord[]
+  /** The common mistake for this entry, shown as ✗ wrong → ✓ right. */
+  mistake: CheatMistake
 }
 
 export interface CheatSheet {
@@ -39,8 +39,8 @@ export interface CheatSheet {
   entries: CheatEntry[]
 }
 
-/** The English of a clue, whether it is a plain string or a word with meanings. */
-export const clueText = (c: string | CheatWord): string => (typeof c === 'string' ? c : c.w)
+/** The English of a clue. */
+export const clueText = (c: CheatWord): string => c.w
 
 /** subject: S · verb: V forms and to-infinitives · slot: Obj, N, Adj, Adv… · word: literal English · punct: clause break (, or ;). */
 export type FormulaKind = 'subject' | 'verb' | 'slot' | 'word' | 'punct'

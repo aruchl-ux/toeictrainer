@@ -69,19 +69,17 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
           {entry.example.th}
         </p>
       )}
-      {entry.mistake && (
-        <p className="cheat-mistake">
-          <span className="cheat-mistake-label" lang={uiLang}>
-            {t(uiLang, 'cheatMistake')}
-          </span>
-          <span lang="en">
-            <s>✗ {entry.mistake.wrong}</s> <strong>✓ {entry.mistake.right}</strong>
-          </span>
-          <span className="cheat-mistake-why" lang={lang}>
-            {entry.mistake.why[lang]}
-          </span>
-        </p>
-      )}
+      <p className="cheat-mistake">
+        <span className="cheat-mistake-label" lang={uiLang}>
+          {t(uiLang, 'cheatMistake')}
+        </span>
+        <span lang="en">
+          <s>✗ {entry.mistake.wrong}</s> <strong>✓ {entry.mistake.right}</strong>
+        </span>
+        <span className="cheat-mistake-why" lang={lang}>
+          {entry.mistake.why[lang]}
+        </span>
+      </p>
       {entry.clues && entry.clues.length > 0 && (
         <div className="cheat-clues">
           <span className="cheat-clues-label" lang={uiLang}>
@@ -91,11 +89,9 @@ function EntryCard({ entry, lang, uiLang }: { entry: CheatEntry; lang: Lang; uiL
             {entry.clues.map((c) => (
               <li key={clueText(c)}>
                 <span lang="en">{clueText(c)}</span>
-                {typeof c !== 'string' && (
-                  <span className="cheat-clue-meaning" lang={lang}>
-                    {c[lang]}
-                  </span>
-                )}
+                <span className="cheat-clue-meaning" lang={lang}>
+                  {c[lang]}
+                </span>
               </li>
             ))}
           </ul>

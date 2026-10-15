@@ -7,6 +7,7 @@ import { readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { loadContent } from '../src/main/content'
 import { POSITIONAL, mentionsAnswer } from '../src/shared/explainRules'
+import { isPart5Topic } from './lib/points'
 
 const ROOT = resolve('content')
 const problems: string[] = []
@@ -40,6 +41,13 @@ for (const item of bank.part5) {
 }
 for (const set of bank.part6) {
   set.blanks.forEach((b, i) => checkChoices(`${set.id}#${i + 1}`, b.choices, b.answer, b.explain, b.trap))
+}
+// Every question in a topic with a cheat sheet must give the sheet its point.
+for (const item of bank.part5) if (!item.point) problems.push(`${item.id}: no cheat-sheet point (npm run points)`)
+for (const set of bank.part6) {
+  set.blanks.forEach((b, i) => {
+    if (isPart5Topic(b.topic) && !b.point) problems.push(`${set.id}#${i + 1}: no cheat-sheet point (npm run points)`)
+  })
 }
 for (const set of bank.part7) {
   set.questions.forEach((q, i) => {
