@@ -79,11 +79,11 @@ export const pronouns: CheatSheet = {
         { w: 'one another / each other', en: 'to or with each other', th: 'ซึ่งกันและกัน (ต่างคนต่างทำให้กัน)' }
       ],
       mistake: {
-        wrong: 'Mr. Chen prepared the slides by him.',
-        right: 'Mr. Chen prepared the slides by himself.',
+        wrong: 'The managers shared data with themselves.',
+        right: 'The managers shared data with one another.',
         why: {
-          en: 'When the doer and the person after by are the same, use -self: by himself = alone.',
-          th: 'ถ้าคนทำกับคนหลัง by เป็นคนเดียวกัน ต้องใช้ -self: by himself = ทำคนเดียว'
+          en: 'Thai กันเอง means "with each other", not ตัวเอง "oneself". People who give to each other take one another or each other, not themselves.',
+          th: '"แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ≠ ตัวเอง'
         }
       }
     },

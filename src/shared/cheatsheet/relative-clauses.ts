@@ -121,7 +121,7 @@ export const relativeClauses: CheatSheet = {
       clues: [
         { w: 'Prep + which', en: 'for things (on which, in which)', th: 'สิ่งของ: on which, in which' },
         { w: 'Prep + whom', en: 'for people (to whom, with whom)', th: 'คน: to whom, with whom' },
-        { w: 'most of whom / some of which', en: 'part of the group just named', th: 'ซึ่งส่วนใหญ่ในนั้น… / ซึ่งบางส่วนในนั้น…' }
+        { w: 'most of whom / some of which', en: 'part of the group just named; after a comma with no and, use whom/which, not them/it', th: 'ซึ่งส่วนใหญ่ / บางส่วนในนั้น… หลังจุลภาคที่ไม่มี and ใช้ whom / which ไม่ใช่ them / it' }
       ],
       mistake: {
         wrong: 'The software which our team relies is old.',

@@ -772,7 +772,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้ -self เมื่อประธานทำกับตัวเอง หรือเน้นว่าทำเอง ไม่ให้คนอื่นทำแทน by himself = ทำคนเดียว ถ้าต่างคนต่างทำให้กัน ใช้ one another หรือ each other ไม่ใช่ themselves
 - Mr. Chen prepared the presentation **himself**.
 - คุณเฉินเตรียมการนำเสนอด้วยตัวเอง
-- ✗ Mr. Chen prepared the slides by him. → ✓ Mr. Chen prepared the slides by himself.: ถ้าคนทำกับคนหลัง by เป็นคนเดียวกัน ต้องใช้ -self: by himself = ทำคนเดียว (When the doer and the person after by are the same, use -self: by himself = alone.)
+- ✗ The managers shared data with themselves. → ✓ The managers shared data with one another.: "แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ≠ ตัวเอง (Thai กันเอง means "with each other", not ตัวเอง "oneself". People who give to each other take one another or each other, not themselves.)
 - Clues: by + himself/herself = คนเดียว ไม่มีใครช่วย · do it + themselves = ทำเอง ไม่ให้คนอื่นทำแทน · one another / each other = ซึ่งกันและกัน (ต่างคนต่างทำให้กัน)
 
 ### One … the other · อีกคนที่เหลือ (one … the other) `one-the-other`
@@ -817,7 +817,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `one another` = ต่างคนต่างให้กัน (ซึ่งกันและกัน) ใช้ one another (to each other: one another, not themselves) · ✗ The managers agreed to share their sales data with themselves
 - `than + those` = แทนคำนามหลายตัว (figures) ที่พูดไปแล้ว ใช้ those ไม่ใช่ that (for a plural noun already said (figures) use those, not that) · ✗ The sales figures are much higher than that for the same period
 - `the other` = มีสองคน คนแรกใช้ one คนที่เหลือใช้ the other (of two: one …, the other …) · ✗ Of the two candidates, one has sales experience, and another has a background in finance, and other has a background in finance
-- `theirs` = ของพวกเขา (= their badge) ใช้เมื่อไม่มีคำนามตาม (theirs = their badge; no noun follows) · ✗ do not lend your badge to others, and do not borrow their either
+- `theirs` = ของพวกเขา (= their badges) ใช้เมื่อไม่มีคำนามตาม (theirs = their badges; no noun follows) · ✗ do not lend your badge to others, and do not borrow their either
 - `themselves` = เน้นว่าผู้สมัครทำเอง ไม่ให้คนอื่นทำแทน ใช้ themselves (they do it personally, not someone else: themselves) · ✗ Applicants must complete the online form them
 - `those + who` = ผู้ที่… (หลายคน) ขึ้นต้นด้วย those ไม่ใช่ them หรือ these (the people who: those who, not them or these who) · ✗ Them who wish to attend the awards dinner must confirm, These who wish to attend the awards dinner must confirm
 - `V + them` = หลังกริยาใช้รูปกรรม them ไม่ใช่ they (after a verb use them, not they) · ✗ gave they each a gift card, gave their each a gift card, so please review they before Friday
@@ -891,7 +891,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำ
 - The firm **with which** we partnered is based in Seoul.
 - บริษัทที่เราร่วมมือด้วยตั้งอยู่ที่โซล
 - ✗ The software which our team relies is old. → ✓ The software on which our team relies is old.: rely ใช้คู่กับ on (rely on) จึงต้องมี on ด้วย: on which หรือ which … relies on (Rely goes with on (rely on), so on must stay: on which, or which … relies on.)
-- Clues: Prep + which = สิ่งของ: on which, in which · Prep + whom = คน: to whom, with whom · most of whom / some of which = ซึ่งส่วนใหญ่ในนั้น… / ซึ่งบางส่วนในนั้น…
+- Clues: Prep + which = สิ่งของ: on which, in which · Prep + whom = คน: to whom, with whom · most of whom / some of which = ซึ่งส่วนใหญ่ / บางส่วนในนั้น… หลังจุลภาคที่ไม่มี and ใช้ whom / which ไม่ใช่ them / it
 
 ### What (= the thing that) · สิ่งที่ (what) `what-clause`
 
@@ -1255,7 +1255,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำ
 - The earlier you register, **the lower** the fee will be.
 - ยิ่งลงทะเบียนเร็ว ค่าธรรมเนียมยิ่งถูก
 - ✗ The earlier you register, the fee will be lower. → ✓ The earlier you register, the lower the fee will be.: ภาษาไทยพูด "ค่าธรรมเนียมยิ่งถูก" (ประธานขึ้นก่อน) แต่ภาษาอังกฤษต้องยก the + ขั้นกว่า ไปไว้หน้าทั้งสองส่วน: the lower the fee (Thai says ค่าธรรมเนียมยิ่งถูก with the subject first, but English puts the + comparative first in both parts: the lower the fee.)
-- Clues: the earlier …, the … = ยิ่งเร็ว … ยิ่ง … · the more …, the more … = ยิ่งมาก … ยิ่งมาก …
+- Clues: the earlier …, the … = ยิ่งเร็ว … ยิ่ง… (ถูก / มาก) · the more …, the more … = ยิ่งมาก … ยิ่งมาก …
 
 ### Irregular forms · รูปที่เปลี่ยนทั้งคำ (irregular forms) `irregular-comparatives`
 
@@ -1268,7 +1268,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำ
 - Our sales results were **better** than expected.
 - ผลยอดขายของเราดีกว่าที่คาดไว้
 - ✗ Sales were more better than expected. → ✓ Sales were better than expected.: better แปลว่า "ดีกว่า" อยู่แล้ว ไม่ต้องใส่ more ซ้ำ (Better already means "more good", so do not add more.)
-- Clues: better than = ดีกว่า · worse than = แย่กว่า
+- Clues: better than = ดีกว่า (ไม่ต้องมี more) · worse than = แย่กว่า (ไม่ต้องมี more)
 
 ### Tested in drills (10)
 
@@ -1280,7 +1280,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `N` = คำ
 - `than any other` = มี than any other ใช้ขั้นกว่า (more) แม้ความหมายคือ "ที่สุด" (than any other needs a comparative (more), not most) · ✗ it generates most revenue than any other branch, it generates much revenue than any other branch
 - `the + Adj-er + S + V` = ยิ่ง…ยิ่ง… ทั้งสองส่วนใช้ the + ขั้นกว่า (the more …, the more …: the + -er in both parts) · ✗ The earliest customers sign up for the loyalty program, the larger the discount, The early customers sign up for the loyalty program, the larger the discount
 - `the + Adj-est + N` = ที่สุดในกลุ่ม (of all, in history) ใช้ the + -est (the top of a group (of all, in history): the + -est) · ✗ Of all the candidates, Mr. Okafor demonstrated the deeper understanding, the most large number in the expo's history
-- `the most + Adj` = ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful) (the top one, long adjective: the most + adjective) · ✗ she is the more dependable member of the sales team, the more successful event the marketing team has ever organized
+- `the most + Adj` = ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful) (the top one, long adjective: the most + adjective) · ✗ she is the much dependable member of the sales team, the more successful event the marketing team has ever organized
 - `V + as + Adv + as` = ขยายกริยา (operates) ใช้ as quickly as ไม่เติม -er (after an action verb: as + adverb + as (as quickly as)) · ✗ The new printer operates twice as quicker as the model it replaced
 
 Not on any entry (0): none
@@ -1579,7 +1579,7 @@ Symbols: `V` = คำกริยา · `N` = คำนาม
 - ✗ Almost employees work from home. → ✓ Most employees work from home.: almost แปลว่า "เกือบ" วางหน้าคำนามตรง ๆ ไม่ได้ ให้ใช้ most หรือ almost all (Almost means "nearly" and cannot go straight before a noun. Use most, or almost all.)
 - Clues: most + noun = ส่วนใหญ่ (พูดทั่วไป) · most of the + noun = ส่วนใหญ่ของ… (กลุ่มที่รู้กันแล้ว) · almost all = เกือบทั้งหมด (almost ต้องมี all)
 
-### (A) few vs (a) little · มีบ้าง / แทบไม่มี (a few vs a little) `few-little`
+### (A) few vs (a) little · จำนวนน้อย (นับได้) / ปริมาณน้อย (นับไม่ได้) (a few vs a little) `few-little`
 
     a few/few + N(plural)
     a little/little + N(uncountable)

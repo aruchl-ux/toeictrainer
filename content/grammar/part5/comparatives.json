@@ -37,7 +37,7 @@
       "key": "the most + Adj",
       "th": "ที่สุดในกลุ่ม คำยาวใช้ the most (the most successful)",
       "en": "the top one, long adjective: the most + adjective",
-      "wrong": ["she is the more dependable member of the sales team"]
+      "wrong": ["she is the much dependable member of the sales team"]
     },
     "status": "approved"
   },

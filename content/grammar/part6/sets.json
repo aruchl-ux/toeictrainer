@@ -1086,8 +1086,8 @@
         },
         "point": {
           "key": "theirs",
-          "th": "ของพวกเขา (= their badge) ใช้เมื่อไม่มีคำนามตาม",
-          "en": "theirs = their badge; no noun follows",
+          "th": "ของพวกเขา (= their badges) ใช้เมื่อไม่มีคำนามตาม",
+          "en": "theirs = their badges; no noun follows",
           "wrong": [
             "do not lend your badge to others, and do not borrow their either"
           ]

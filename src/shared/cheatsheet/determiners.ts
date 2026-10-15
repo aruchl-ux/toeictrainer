@@ -69,7 +69,7 @@ export const determiners: CheatSheet = {
     },
     {
       id: 'few-little',
-      name: { en: '(A) few vs (a) little', th: 'มีบ้าง / แทบไม่มี (a few vs a little)' },
+      name: { en: '(A) few vs (a) little', th: 'จำนวนน้อย (นับได้) / ปริมาณน้อย (นับไม่ได้) (a few vs a little)' },
       formula: ['a few/few + N(plural)', 'a little/little + N(uncountable)'],
       words: [
         { w: 'a few', en: 'some, a small number', th: 'มีอยู่บ้าง (นับได้)' },

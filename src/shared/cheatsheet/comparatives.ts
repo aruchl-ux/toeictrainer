@@ -150,7 +150,7 @@ export const comparatives: CheatSheet = {
         th: 'ยิ่งลงทะเบียนเร็ว ค่าธรรมเนียมยิ่งถูก'
       },
       clues: [
-        { w: 'the earlier …, the …', en: 'the sooner …, the more …', th: 'ยิ่งเร็ว … ยิ่ง …' },
+        { w: 'the earlier …, the …', en: 'the earlier you …, the lower/larger …', th: 'ยิ่งเร็ว … ยิ่ง… (ถูก / มาก)' },
         { w: 'the more …, the more …', en: 'when one grows, the other grows too', th: 'ยิ่งมาก … ยิ่งมาก …' }
       ],
       mistake: {
@@ -175,8 +175,8 @@ export const comparatives: CheatSheet = {
         th: 'ผลยอดขายของเราดีกว่าที่คาดไว้'
       },
       clues: [
-        { w: 'better than', en: 'more good than', th: 'ดีกว่า' },
-        { w: 'worse than', en: 'more bad than', th: 'แย่กว่า' }
+        { w: 'better than', en: 'good → better (no more)', th: 'ดีกว่า (ไม่ต้องมี more)' },
+        { w: 'worse than', en: 'bad → worse (no more)', th: 'แย่กว่า (ไม่ต้องมี more)' }
       ],
       mistake: {
         wrong: 'Sales were more better than expected.',
