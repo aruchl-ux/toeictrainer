@@ -21,12 +21,13 @@ export const collocations: CheatSheet = {
       },
       clues: [
         { w: 'meet a deadline', en: 'finish on time', th: 'ทำงานเสร็จทันกำหนด' },
+        { w: 'meet the needs', en: 'give what is needed', th: 'ตอบสนองความต้องการ' },
         { w: 'place an order', en: 'order something', th: 'สั่งซื้อสินค้า' },
         { w: 'conduct a survey', en: 'carry out a survey', th: 'ทำการสำรวจ' },
         { w: 'take effect', en: 'start to apply', th: 'เริ่มมีผลบังคับใช้' },
-        { w: 'raise awareness', en: 'make people know more', th: 'สร้างความตระหนักรู้' },
+        { w: 'raise awareness', en: 'help people know about something', th: 'สร้างความตระหนักรู้' },
         { w: 'exercise caution', en: 'be careful', th: 'ใช้ความระมัดระวัง' },
-        { w: 'address concerns', en: 'deal with worries', th: 'จัดการ/ตอบข้อกังวล' },
+        { w: 'address concerns', en: 'deal with worries', th: 'จัดการกับข้อกังวล' },
         { w: 'reach an agreement', en: 'agree', th: 'ตกลงกันได้' },
         { w: 'raise funds', en: 'collect money', th: 'ระดมทุน' }
       ],
@@ -34,7 +35,7 @@ export const collocations: CheatSheet = {
         wrong: 'do a decision',
         right: 'make a decision',
         why: {
-          en: 'Thai says "ทำ" for both, but decision always takes make.',
+          en: 'Thai says "ทำ" for both make and do, but decision always takes make.',
           th: 'ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do'
         }
       }
@@ -68,10 +69,10 @@ export const collocations: CheatSheet = {
     {
       id: 'noun-preposition',
       name: { en: 'Noun + preposition', th: 'คำนาม + คำบุพบท (noun + preposition)' },
-      formula: ['increase/decrease/demand + in + N', 'access/approach/solution + to + N'],
+      formula: ['increase/decrease + in + N', 'demand/need/reason + for + N', 'access/approach/solution + to + N'],
       use: {
-        en: 'Words for going up or down take in (an increase in sales). Access and solution take to.',
-        th: 'คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) ส่วน access และ solution ใช้ to'
+        en: 'Words for going up or down take in (an increase in sales). Words for wanting or why take for (demand for, reason for). Access and solution take to.',
+        th: 'คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วน access และ solution ใช้ to'
       },
       example: {
         en: 'There has been a sharp increase {{in}} online sales.',
@@ -104,7 +105,7 @@ export const collocations: CheatSheet = {
       },
       clues: [
         { w: 'comply with', en: 'follow (rules)', th: 'ปฏิบัติตาม (กฎ, ข้อบังคับ)' },
-        { w: 'adhere to', en: 'follow closely', th: 'ยึดถือ ปฏิบัติตาม' },
+        { w: 'adhere to', en: 'follow closely', th: 'ยึดถือปฏิบัติตาม (อย่างเคร่งครัด)' },
         { w: 'rely on', en: 'depend on', th: 'พึ่งพา' },
         { w: 'apply for (a job)', en: 'ask for (a job)', th: 'สมัคร (งาน)' },
         { w: 'respond to', en: 'reply to', th: 'ตอบกลับ' },
@@ -121,7 +122,7 @@ export const collocations: CheatSheet = {
     },
     {
       id: 'adverb-collocations',
-      name: { en: 'Adverb + adjective / V3', th: 'คำกริยาวิเศษณ์ + คำคุณศัพท์ / V3 (adverb + adjective)' },
+      name: { en: 'Adverb + adjective / past participle', th: 'คำกริยาวิเศษณ์ + คำคุณศัพท์ / กริยาช่อง 3 (adverb + adjective)' },
       formula: ['highly + recommended/qualified', 'strictly + prohibited', 'conveniently + located'],
       use: {
         en: 'Some adverbs almost always go with certain words. Learn the pair: highly recommended, strictly prohibited.',

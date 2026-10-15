@@ -1217,8 +1217,8 @@ Symbols: `N` = คำนาม
 - คำนามข้างหลังเป็นตัวกำหนดว่าต้องใช้กริยาตัวไหน ให้ดูคำนามก่อน แล้วเลือกกริยาที่เป็นคู่ของมัน
 - Warehouse staff must **exercise** caution near the loading dock.
 - พนักงานคลังสินค้าต้องใช้ความระมัดระวังใกล้จุดขนถ่ายสินค้า
-- ✗ do a decision → ✓ make a decision: ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do (Thai says "ทำ" for both, but decision always takes make.)
-- Clues: meet a deadline = ทำงานเสร็จทันกำหนด · place an order = สั่งซื้อสินค้า · conduct a survey = ทำการสำรวจ · take effect = เริ่มมีผลบังคับใช้ · raise awareness = สร้างความตระหนักรู้ · exercise caution = ใช้ความระมัดระวัง · address concerns = จัดการ/ตอบข้อกังวล · reach an agreement = ตกลงกันได้ · raise funds = ระดมทุน
+- ✗ do a decision → ✓ make a decision: ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do (Thai says "ทำ" for both make and do, but decision always takes make.)
+- Clues: meet a deadline = ทำงานเสร็จทันกำหนด · meet the needs = ตอบสนองความต้องการ · place an order = สั่งซื้อสินค้า · conduct a survey = ทำการสำรวจ · take effect = เริ่มมีผลบังคับใช้ · raise awareness = สร้างความตระหนักรู้ · exercise caution = ใช้ความระมัดระวัง · address concerns = จัดการกับข้อกังวล · reach an agreement = ตกลงกันได้ · raise funds = ระดมทุน
 
 ### Adjective + preposition · คำคุณศัพท์ + คำบุพบท (adjective + preposition) `adjective-preposition`
 
@@ -1235,11 +1235,12 @@ Symbols: `N` = คำนาม
 
 ### Noun + preposition · คำนาม + คำบุพบท (noun + preposition) `noun-preposition`
 
-    increase/decrease/demand + in + N
+    increase/decrease + in + N
+    demand/need/reason + for + N
     access/approach/solution + to + N
 
-- Words for going up or down take in (an increase in sales). Access and solution take to.
-- คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) ส่วน access และ solution ใช้ to
+- Words for going up or down take in (an increase in sales). Words for wanting or why take for (demand for, reason for). Access and solution take to.
+- คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วน access และ solution ใช้ to
 - There has been a sharp increase **in** online sales.
 - ยอดขายออนไลน์เพิ่มขึ้นอย่างมาก
 - ✗ access for the database → ✓ access to the database: access ใช้กับ to เสมอ (Access always takes to.)
@@ -1256,9 +1257,9 @@ Symbols: `N` = คำนาม
 - All visitors must comply **with** the safety rules.
 - ผู้มาเยือนทุกคนต้องปฏิบัติตามกฎความปลอดภัย
 - ✗ comply the rules → ✓ comply with the rules: comply ต้องมี with เสมอ ส่วน follow the rules ไม่ต้องมี อย่าสลับกัน (Comply needs with. Follow the rules needs nothing, so do not mix them.)
-- Clues: comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · adhere to = ยึดถือ ปฏิบัติตาม · rely on = พึ่งพา · apply for (a job) = สมัคร (งาน) · respond to = ตอบกลับ · participate in = เข้าร่วม
+- Clues: comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · adhere to = ยึดถือปฏิบัติตาม (อย่างเคร่งครัด) · rely on = พึ่งพา · apply for (a job) = สมัคร (งาน) · respond to = ตอบกลับ · participate in = เข้าร่วม
 
-### Adverb + adjective / V3 · คำกริยาวิเศษณ์ + คำคุณศัพท์ / V3 (adverb + adjective) `adverb-collocations`
+### Adverb + adjective / past participle · คำกริยาวิเศษณ์ + คำคุณศัพท์ / กริยาช่อง 3 (adverb + adjective) `adverb-collocations`
 
     highly + recommended/qualified
     strictly + prohibited
@@ -1273,18 +1274,18 @@ Symbols: `N` = คำนาม
 
 ### Tested in drills (12)
 
-- `address concerns` = จัดการ/ตอบข้อกังวล (deal with worries) · ✗ solve concerns, talk concerns
-- `adhere to` = ยึดถือ ปฏิบัติตาม (follow closely) · ✗ follow to, obey to
+- `address concerns` = จัดการกับข้อกังวล (deal with worries) · ✗ solve concerns, talk concerns
+- `adhere to` = ยึดถือปฏิบัติตาม (อย่างเคร่งครัด) (follow closely) · ✗ follow to, obey to
 - `comply with` = ปฏิบัติตาม (กฎ, ข้อบังคับ) (follow (rules)) · ✗ obey with, follow with
 - `conduct a survey` = ทำการสำรวจ (carry out a survey) · ✗ make a survey, operate a survey
 - `exercise caution` = ใช้ความระมัดระวัง (be careful) · ✗ perform caution, execute caution
 - `highly recommended` = ได้รับการแนะนำอย่างมาก (strongly recommended) · ✗ deeply recommended, greatly recommended
-- `make someone aware of` = ทำให้ใครรู้เรื่อง… (tell someone about) · ✗ let someone aware of
+- `make someone aware of` = ทำให้ใครรู้เรื่อง… (tell someone about) · ✗ tell someone aware of, let someone aware of
 - `meet a deadline` = ทำงานเสร็จทันกำหนด (finish on time) · ✗ reach a deadline, achieve a deadline
 - `meet the needs` = ตอบสนองความต้องการ (give what is needed) · ✗ make the needs, do the needs
 - `place an order` = สั่งซื้อสินค้า (order something) · ✗ put an order, do an order
-- `raise awareness` = สร้างความตระหนักรู้ (make people know more) · ✗ rise awareness, arise awareness
-- `take effect` = เริ่มมีผลบังคับใช้ (start to apply) · ✗ make effect, give effect
+- `raise awareness` = สร้างความตระหนักรู้ (help people know about something) · ✗ rise awareness, arise awareness
+- `take effect` = เริ่มมีผลบังคับใช้ (start to apply) · ✗ make effect, bring effect
 
 Not on any entry (0): none
 

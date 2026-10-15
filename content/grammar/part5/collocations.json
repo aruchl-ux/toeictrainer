@@ -78,7 +78,7 @@
     "point": {
       "key": "raise awareness",
       "th": "สร้างความตระหนักรู้",
-      "en": "make people know more",
+      "en": "help people know about something",
       "wrong": ["rise awareness", "arise awareness"]
     },
     "status": "approved"
@@ -100,7 +100,7 @@
       "key": "take effect",
       "th": "เริ่มมีผลบังคับใช้",
       "en": "start to apply",
-      "wrong": ["make effect", "give effect"]
+      "wrong": ["make effect", "bring effect"]
     },
     "status": "approved"
   },
@@ -161,7 +161,7 @@
     },
     "point": {
       "key": "adhere to",
-      "th": "ยึดถือ ปฏิบัติตาม",
+      "th": "ยึดถือปฏิบัติตาม (อย่างเคร่งครัด)",
       "en": "follow closely",
       "wrong": ["follow to", "obey to"]
     },
@@ -203,7 +203,7 @@
     },
     "point": {
       "key": "address concerns",
-      "th": "จัดการ/ตอบข้อกังวล",
+      "th": "จัดการกับข้อกังวล",
       "en": "deal with worries",
       "wrong": ["solve concerns", "talk concerns"]
     },
