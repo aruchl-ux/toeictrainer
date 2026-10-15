@@ -182,8 +182,8 @@
     },
     "point": {
       "key": "S + V2 + Obj",
-      "th": "ประธานทำเองและมีกรรม (a proposal) ใช้กริยาช่อง 2",
-      "en": "the subject did it and an object follows: past simple",
+      "th": "ประธานทำเอง (the board approved) ไม่ใช้ was + กริยาช่อง 3",
+      "en": "the subject did it (the board approved): not was + past participle",
       "wrong": ["the board was approved a proposal"]
     },
     "status": "approved"

@@ -115,7 +115,7 @@
           "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
           "en": "will be done: will be + past participle",
           "wrong": [
-            "paper forms will no longer accept"
+            "After that date, paper forms will no longer accept."
           ]
         }
       },
@@ -684,7 +684,7 @@
           "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
           "en": "will be done: will be + past participle",
           "wrong": [
-            "a new heating system will install"
+            "During the closure, a new heating system will install."
           ]
         }
       },
@@ -930,9 +930,9 @@
           "th": "ประโยคก่อนหน้าบอกว่าการทดลองเกิดขึ้นตั้งแต่มกราคมถึงมิถุนายนของปีที่แล้ว แสดงว่าจบไปแล้ว จึงใช้ past simple คือ rose ส่วน will rise เป็นกับดัก เพราะบทความพูดถึงการขยายในอนาคต แต่ช่วงทดลองจบไปแล้ว และ rise เป็นกริยาที่ไม่มีกรรม จึงทำเป็น passive (were risen) ไม่ได้"
         },
         "point": {
-          "key": "S + V2",
-          "th": "เรื่องที่จบในอดีตแล้ว (last year) ใช้กริยาช่อง 2",
-          "en": "finished in the past (last year): past simple",
+          "key": "rise / happen / occur / arrive",
+          "th": "rise ไม่มีกรรมและไม่มีรูปถูกกระทำ ใช้ rose ไม่ใช่ were risen",
+          "en": "rise takes no object and has no passive: rose, not were risen",
           "wrong": [
             "online orders were risen by 40 percent"
           ]

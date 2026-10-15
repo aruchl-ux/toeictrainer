@@ -202,11 +202,11 @@ export const subjectVerbAgreement: CheatSheet = {
         { w: 'several / many + N(s)', en: 'more than one: use are', th: 'หลาย… ใช้ there are' }
       ],
       mistake: {
-        wrong: 'There is several openings.',
+        wrong: 'There have several openings.',
         right: 'There are several openings.',
         why: {
-          en: 'The noun after the verb, openings, is more than one, so use are.',
-          th: 'คำนามหลังกริยาคือ openings (หลายตำแหน่ง) จึงใช้ are'
+          en: 'Thai มี makes learners write have/has, but "there is/are" is the English for มี. Openings is more than one, so use are.',
+          th: 'ภาษาไทยใช้ "มี" จึงชอบเขียน have/has แต่ "มี…" แบบนี้ต้องใช้ there is/are และ openings หลายตำแหน่ง จึงใช้ are'
         }
       }
     }

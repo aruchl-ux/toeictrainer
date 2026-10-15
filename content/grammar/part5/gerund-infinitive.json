@@ -142,7 +142,7 @@
       "key": "recommend + V-ing",
       "th": "recommend (แนะนำ) ไม่มีคนตามหลัง ใช้ -ing",
       "en": "recommend + -ing when no person follows",
-      "wrong": ["recommended to simplify the process", "recommended simplify the process"]
+      "wrong": ["The consultant recommended to simplify the process", "recommended simplify the process"]
     },
     "status": "approved"
   },

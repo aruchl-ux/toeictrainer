@@ -276,7 +276,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - By the end of June, the team **will have completed** the project.
 - ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว
 - ✗ By the end of this year, we have hired 200 people. → ✓ By the end of this year, we will have hired 200 people.: by + เวลาในอนาคต = จะเสร็จก่อนเวลานั้น จึงใช้ will have + กริยาช่อง 3 (By + a future time means it will be done by then, so use will have + V3.)
-- Clues: by + future time = ภายใน… (เวลาในอนาคต) · by the time + V(s/es) = เมื่อถึงตอนที่… (ในอนาคต) · by the end of this year = ภายในสิ้นปีนี้
+- Clues: by + future time = ไม่เกิน… / ก่อนถึง… (เวลาในอนาคต) · by the time + V(s/es) = เมื่อถึงตอนที่… (ในอนาคต) · by the end of this year = ภายในสิ้นปีนี้
 
 ### Future time clauses · ประโยคบอกเวลาที่พูดถึงอนาคต (future time clauses) `time-clause-future`
 
@@ -295,12 +295,12 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
     S + have/has + been + V3
     S + is/are + being + V3
 
-- Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive; if an object follows, the subject does the action.
-- ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + กริยาช่อง 3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ ถ้ามีกรรมตามหลัง ประธานเป็นคนทำเอง
+- Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive; if an object follows, the subject usually does the action (except be given / be sent + a thing).
+- ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + กริยาช่อง 3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ ถ้ามีกรรมตามหลัง มักเป็นประธานทำเอง (ยกเว้น be given / be sent + สิ่งของ)
 - The invoices **were sent** to all clients yesterday.
 - ใบแจ้งหนี้ถูกส่งถึงลูกค้าทุกรายเมื่อวานนี้
 - ✗ The room is renovating. → ✓ The room is being renovated.: ภาษาไทยพูดว่า "ห้องกำลังซ่อม" ได้ แต่ห้องซ่อมตัวเองไม่ได้ ต้องใช้รูปถูกกระทำ is being + กริยาช่อง 3 (Thai can say ห้องกำลังซ่อม, but a room cannot renovate itself: it is being renovated.)
-- Clues: was/were + V3 = ถูก… (ในอดีต) · will + be + V3 = จะถูก… · by + doer = โดย… (คนที่ทำ) · no object after the blank = หลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ · thing as subject = ประธานเป็นสิ่งของ (ห้อง, การประชุม) มักถูกทำ
+- Clues: was/were + V3 = ถูก… (ในอดีต) · will + be + V3 = จะถูก… · by + doer = โดย… (คนที่ทำ) · no object after the blank = หลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ (ยกเว้น rise, happen) · rise / happen / occur / arrive = กริยาพวกนี้ไม่มีรูปถูกกระทำ (rose ไม่ใช่ were risen) · thing as subject = ประธานเป็นสิ่งของ (ห้อง, การประชุม) มักถูกทำ
 
 ### Tested in drills (14)
 
@@ -311,11 +311,11 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `have/has + V3 + since` = since + จุดเริ่มในอดีต ใช้ have/has + กริยาช่อง 3 (since + a past start: use the present perfect) · ✗ serves as head since the department was restructured
 - `is/are + being + V3` = กำลังถูก… ใช้ is/are + being + กริยาช่อง 3 (being done now: is/are being + past participle) · ✗ The room is currently renovating
 - `once + present simple` = หลัง once ใช้กาลปัจจุบัน แม้พูดถึงอนาคต (present tense after once, even for the future) · ✗ Once the contract will be signed
-- `S + V2` = เรื่องที่จบในอดีตแล้ว (last year) ใช้กริยาช่อง 2 (finished in the past (last year): past simple) · ✗ online orders were risen by 40 percent
-- `S + V2 + Obj` = ประธานทำเองและมีกรรม (a proposal) ใช้กริยาช่อง 2 (the subject did it and an object follows: past simple) · ✗ the board was approved a proposal
+- `rise / happen / occur / arrive` = rise ไม่มีกรรมและไม่มีรูปถูกกระทำ ใช้ rose ไม่ใช่ were risen (rise takes no object and has no passive: rose, not were risen) · ✗ online orders were risen by 40 percent
+- `S + V2 + Obj` = ประธานทำเอง (the board approved) ไม่ใช้ was + กริยาช่อง 3 (the subject did it (the board approved): not was + past participle) · ✗ the board was approved a proposal
 - `V2 + ago` = ago (…ที่แล้ว) คืออดีตที่จบแล้ว ใช้กริยาช่อง 2 (ago is a finished past time: use the past simple) · ✗ opens its third center two years ago, has opened its third center two years ago
 - `was/were + V3` = งานถูกจัดขึ้นในอดีต ใช้ was/were + กริยาช่อง 3 (done to the subject in the past: was/were + past participle) · ✗ The ceremony has held at the Riverside Hotel
-- `will + be + V3` = จะถูก… ใช้ will be + กริยาช่อง 3 (will be done: will be + past participle) · ✗ employees will be relocate, paper forms will no longer accept, a new heating system will install, your order was not shipped next Monday, The workshop has led by Maria Lopez
+- `will + be + V3` = จะถูก… ใช้ will be + กริยาช่อง 3 (will be done: will be + past participle) · ✗ employees will be relocate, After that date, paper forms will no longer accept., During the closure, a new heating system will install., your order was not shipped next Monday, The workshop has led by Maria Lopez
 - `will + have + V3` = by + เวลาในอนาคต = จะเสร็จแล้ว ใช้ will have + กริยาช่อง 3 (done before a future time: will have + past participle) · ✗ By the end of this year, it has hired 200 people, By the end of this year, it had hired 200 people
 - `will + V1` = เรื่องที่ยังไม่ถึงวันนั้น (อนาคต) ใช้ will + กริยารูปเดิม (a date still to come: will + base verb)
 
@@ -420,7 +420,7 @@ Symbols: `V` = คำกริยา · `V1` = กริยาช่อง 1 ร
 - there ไม่ใช่ประธานตัวจริง ให้ดูคำนามหลัง is/are ถ้าสิ่งเดียวใช้ is ถ้าหลายสิ่งใช้ are
 - There **are** several openings at our Singapore branch.
 - มีตำแหน่งว่างหลายตำแหน่งที่สาขาสิงคโปร์
-- ✗ There is several openings. → ✓ There are several openings.: คำนามหลังกริยาคือ openings (หลายตำแหน่ง) จึงใช้ are (The noun after the verb, openings, is more than one, so use are.)
+- ✗ There have several openings. → ✓ There are several openings.: ภาษาไทยใช้ "มี" จึงชอบเขียน have/has แต่ "มี…" แบบนี้ต้องใช้ there is/are และ openings หลายตำแหน่ง จึงใช้ are (Thai มี makes learners write have/has, but "there is/are" is the English for มี. Openings is more than one, so use are.)
 - Clues: several / many + N(s) = หลาย… ใช้ there are
 
 ### Tested in drills (11)
@@ -434,7 +434,7 @@ Symbols: `V` = คำกริยา · `V1` = กริยาช่อง 1 ร
 - `neither + N + nor + N + V` = neither…nor ผันกริยาตามคำนามตัวหลัง (ใกล้กริยา) (neither … nor: the verb follows the nearer noun) · ✗ Neither the director nor her assistants is available
 - `one of + the + N(s) + V(s/es)` = one of (หนึ่งใน…) นับเป็นหนึ่ง กริยาเติม s (one of + plural noun takes the -s verb) · ✗ One of the company's newest stores are located
 - `the number of + N(s) + V(s/es)` = the number of (จำนวน) นับเป็นหนึ่ง กริยาเติม s (the number of = one amount: -s verb) · ✗ The number of customers have grown
-- `there + are + N(s)` = ดูคำนามหลัง there (openings หลายตำแหน่ง) ใช้ are (look at the noun after there is/are) · ✗ There is several openings
+- `there + are + N(s)` = ดูคำนามหลัง there (openings หลายตำแหน่ง) ใช้ are (look at the noun after there is/are) · ✗ There is several openings, There has several openings
 - `V-ing + Obj + V(s/es)` = ประธานเป็นกริยาเติม -ing นับเป็น 1 เรื่อง กริยาเติม s (an -ing subject is one thing: -s verb) · ✗ Reviewing customer feedback help managers
 
 Not on any entry (0): none
@@ -1232,7 +1232,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - We suggest **booking** your tickets early.
 - เราแนะนำให้จองตั๋วล่วงหน้า
 - ✗ We are considering to open a new store. → ✓ We are considering opening a new store.: ภาษาไทยพูดว่า "พิจารณาที่จะ" จึงชอบใส่ to แต่ consider ตามด้วย V-ing (Thai says พิจารณาที่จะ, which sounds like to, but consider takes V-ing.)
-- Clues: enjoy + V-ing = สนุกกับการ… · avoid + V-ing = หลีกเลี่ยงการ… · consider + V-ing = พิจารณาที่จะ… · suggest + V-ing = แนะนำให้… · recommend + V-ing = แนะนำให้… (ไม่มีคนตามหลัง) · finish + V-ing = ทำ…เสร็จ · postpone + V-ing = เลื่อนการ…ออกไป · mind + V-ing = รังเกียจ / ขัดข้องที่จะ…
+- Clues: enjoy + V-ing = สนุกกับการ… · avoid + V-ing = หลีกเลี่ยงการ… · consider + V-ing = พิจารณาการ… · suggest + V-ing = แนะนำให้… · recommend + V-ing = แนะนำให้… (ไม่มีคนตามหลัง) · finish + V-ing = ทำ…เสร็จ · postpone + V-ing = เลื่อนการ…ออกไป · mind + V-ing = รังเกียจ / ไม่สะดวกกับการ…
 
 ### Verb + to V1 · กริยาที่ตามด้วย to (verb + to V1) `verb-plus-infinitive`
 
@@ -1243,7 +1243,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - The company plans **to open** a new branch in Osaka.
 - บริษัทวางแผนจะเปิดสาขาใหม่ที่โอซาก้า
 - ✗ We decided open a new branch. → ✓ We decided to open a new branch.: ภาษาไทยวางกริยาติดกันได้ (ตัดสินใจเปิด) แต่หลัง decide ต้องมี to ก่อนกริยาตัวถัดไป (Thai puts two verbs side by side (ตัดสินใจเปิด), but decide needs to before the next verb.)
-- Clues: plan + to V1 = วางแผนจะ… · decide + to V1 = ตัดสินใจจะ… · agree + to V1 = ตกลง / ยอมที่จะ… · hope + to V1 = หวังว่าจะ… · expect + to V1 = คาดว่าจะ… · intend + to V1 = ตั้งใจจะ… · offer + to V1 = เสนอที่จะ… · refuse + to V1 = ปฏิเสธที่จะ… · hesitate + to V1 = ลังเลที่จะ… (do not hesitate to = อย่าลังเลที่จะ) · be sure + to V1 = อย่าลืม… / ต้อง…ให้ได้
+- Clues: plan + to V1 = วางแผนจะ… · decide + to V1 = ตัดสินใจจะ… · agree + to V1 = ตกลง / ยอมที่จะ… · hope + to V1 = หวังว่าจะ… · expect + to V1 = คาดว่าจะ… · intend + to V1 = ตั้งใจจะ… · offer + to V1 = เสนอที่จะ… · refuse + to V1 = ปฏิเสธที่จะ… · hesitate + to V1 = ลังเลที่จะ… (do not hesitate to = อย่าลังเลที่จะ) · be sure + to V1 = อย่าลืม… (be sure เป็นวลี ไม่ใช่กริยาเดี่ยว)
 
 ### Preposition + V-ing · คำบุพบทตามด้วย -ing (preposition + V-ing) `preposition-plus-gerund`
 
@@ -1255,7 +1255,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - We look forward to **meeting** you next week.
 - เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า
 - ✗ We look forward to meet you. → ✓ We look forward to meeting you.: to ใน look forward to เป็นคำบุพบท ไม่ใช่ to V1 จึงต้องตามด้วย V-ing (The to in look forward to is a preposition, not part of to V1, so V-ing follows.)
-- Clues: look forward to + V-ing = ตั้งตารอที่จะ… · object to + V-ing = คัดค้านการ… · be used to + V-ing = คุ้นเคยกับการ… · be committed to = มุ่งมั่นที่จะ… · be dedicated to = ทุ่มเทให้กับการ… · by + V-ing = โดยการ… · in addition to = นอกจาก…แล้ว
+- Clues: look forward to + V-ing = ตั้งตารอ (การ…) · object to + V-ing = คัดค้านการ… · be used to + V-ing = คุ้นเคยกับการ… · be committed to = มุ่งมั่นกับการ… · be dedicated to = ทุ่มเทให้กับการ… · by + V-ing = โดยการ… · in addition to = นอกจาก…แล้ว
 
 ### Verb + object + to V1 · กริยา + คน + to (verb + object + to V1) `verb-object-infinitive`
 
@@ -1304,7 +1304,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `look forward to + V-ing` = to ใน look forward to (ตั้งตารอ) ตามด้วย -ing (look forward to + -ing: to is a preposition here) · ✗ look forward to work with your team, look forward to serve you again
 - `object to + V-ing` = object to (คัดค้าน) to ตัวนี้ตามด้วย -ing (object to + -ing: to is a preposition here) · ✗ objected to move the meeting
 - `plan + to V1` = plan (วางแผน) ตามด้วย to + กริยารูปเดิม (plan + to + base verb) · ✗ plans introducing the new system, plans introduce the new system
-- `recommend + V-ing` = recommend (แนะนำ) ไม่มีคนตามหลัง ใช้ -ing (recommend + -ing when no person follows) · ✗ recommended to simplify the process, recommended simplify the process
+- `recommend + V-ing` = recommend (แนะนำ) ไม่มีคนตามหลัง ใช้ -ing (recommend + -ing when no person follows) · ✗ The consultant recommended to simplify the process, recommended simplify the process
 - `time + to V1` = time to (เวลาที่จะ…) + กริยารูปเดิม (time + to + base verb: time for doing it) · ✗ time attend the workshop
 
 Not on any entry (0): none

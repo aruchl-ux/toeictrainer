@@ -78,7 +78,7 @@ export const tenseVoice: CheatSheet = {
         { w: 'have/has + V3 + since', en: 'since + the time it started', th: 'ตั้งแต่… (จุดเริ่มในอดีต) จนถึงตอนนี้' },
         { w: 'for + period', en: 'for a length of time (for two years)', th: 'เป็นเวลา… (for two years)' },
         { w: 'already', en: 'before now', th: 'แล้ว / เรียบร้อยแล้ว' },
-        { w: 'yet', en: 'until now (in questions and not)', th: 'ยัง… (ใช้ในคำถามและปฏิเสธ)' },
+        { w: 'yet', en: 'until now (in questions and negatives)', th: 'ยัง… (ใช้ในคำถามและปฏิเสธ)' },
         { w: 'recently', en: 'not long ago', th: 'เมื่อเร็ว ๆ นี้' },
         { w: 'so far', en: 'until now', th: 'จนถึงตอนนี้' },
         { w: 'over the past + time', en: 'during the last … up to now', th: 'ตลอดช่วง… ที่ผ่านมา' }
@@ -293,7 +293,7 @@ export const tenseVoice: CheatSheet = {
         th: 'ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว'
       },
       clues: [
-        { w: 'by + future time', en: 'no later than a future time', th: 'ภายใน… (เวลาในอนาคต)' },
+        { w: 'by + future time', en: 'no later than a future time', th: 'ไม่เกิน… / ก่อนถึง… (เวลาในอนาคต)' },
         { w: 'by the time + V(s/es)', en: 'when it happens (future)', th: 'เมื่อถึงตอนที่… (ในอนาคต)' },
         { w: 'by the end of this year', en: 'no later than the end of this year', th: 'ภายในสิ้นปีนี้' }
       ],
@@ -339,8 +339,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Passive voice', th: 'รูปถูกกระทำ (passive voice)' },
       formula: ['S + be + V3', 'S + have/has + been + V3', 'S + is/are + being + V3'],
       use: {
-        en: 'Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive; if an object follows, the subject does the action.',
-        th: 'ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + กริยาช่อง 3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ ถ้ามีกรรมตามหลัง ประธานเป็นคนทำเอง'
+        en: 'Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive; if an object follows, the subject usually does the action (except be given / be sent + a thing).',
+        th: 'ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + กริยาช่อง 3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ ถ้ามีกรรมตามหลัง มักเป็นประธานทำเอง (ยกเว้น be given / be sent + สิ่งของ)'
       },
       example: {
         en: 'The invoices {{were sent}} to all clients yesterday.',
@@ -350,7 +350,8 @@ export const tenseVoice: CheatSheet = {
         { w: 'was/were + V3', en: 'was done (past)', th: 'ถูก… (ในอดีต)' },
         { w: 'will + be + V3', en: 'will be done (future)', th: 'จะถูก…' },
         { w: 'by + doer', en: 'by the person who does it', th: 'โดย… (คนที่ทำ)' },
-        { w: 'no object after the blank', en: 'nothing receives the action', th: 'หลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ' },
+        { w: 'no object after the blank', en: 'nothing receives the action', th: 'หลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ (ยกเว้น rise, happen)' },
+        { w: 'rise / happen / occur / arrive', en: 'no object, never passive', th: 'กริยาพวกนี้ไม่มีรูปถูกกระทำ (rose ไม่ใช่ were risen)' },
         { w: 'thing as subject', en: 'a room, a meeting, a form', th: 'ประธานเป็นสิ่งของ (ห้อง, การประชุม) มักถูกทำ' }
       ],
       mistake: {

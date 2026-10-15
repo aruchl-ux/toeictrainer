@@ -22,12 +22,12 @@ export const gerundInfinitive: CheatSheet = {
       clues: [
         { w: 'enjoy + V-ing', en: 'like doing', th: 'สนุกกับการ…' },
         { w: 'avoid + V-ing', en: 'keep away from doing', th: 'หลีกเลี่ยงการ…' },
-        { w: 'consider + V-ing', en: 'think about doing', th: 'พิจารณาที่จะ…' },
-        { w: 'suggest + V-ing', en: 'say it is a good idea to', th: 'แนะนำให้…' },
-        { w: 'recommend + V-ing', en: 'say it is a good idea to', th: 'แนะนำให้… (ไม่มีคนตามหลัง)' },
+        { w: 'consider + V-ing', en: 'think about doing', th: 'พิจารณาการ…' },
+        { w: 'suggest + V-ing', en: 'say something is a good idea', th: 'แนะนำให้…' },
+        { w: 'recommend + V-ing', en: 'say something is a good idea', th: 'แนะนำให้… (ไม่มีคนตามหลัง)' },
         { w: 'finish + V-ing', en: 'stop when done', th: 'ทำ…เสร็จ' },
         { w: 'postpone + V-ing', en: 'move to a later time', th: 'เลื่อนการ…ออกไป' },
-        { w: 'mind + V-ing', en: 'be unhappy about doing', th: 'รังเกียจ / ขัดข้องที่จะ…' }
+        { w: 'mind + V-ing', en: 'be unhappy about doing', th: 'รังเกียจ / ไม่สะดวกกับการ…' }
       ],
       mistake: {
         wrong: 'We are considering to open a new store.',
@@ -60,7 +60,7 @@ export const gerundInfinitive: CheatSheet = {
         { w: 'offer + to V1', en: 'say you will do it for someone', th: 'เสนอที่จะ…' },
         { w: 'refuse + to V1', en: 'say no to doing', th: 'ปฏิเสธที่จะ…' },
         { w: 'hesitate + to V1', en: 'wait because you are unsure', th: 'ลังเลที่จะ… (do not hesitate to = อย่าลังเลที่จะ)' },
-        { w: 'be sure + to V1', en: 'do not forget to', th: 'อย่าลืม… / ต้อง…ให้ได้' }
+        { w: 'be sure + to V1', en: 'do not forget to (sure is an adjective, not a verb)', th: 'อย่าลืม… (be sure เป็นวลี ไม่ใช่กริยาเดี่ยว)' }
       ],
       mistake: {
         wrong: 'We decided open a new branch.',
@@ -84,10 +84,10 @@ export const gerundInfinitive: CheatSheet = {
         th: 'เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า'
       },
       clues: [
-        { w: 'look forward to + V-ing', en: 'wait happily for', th: 'ตั้งตารอที่จะ…' },
+        { w: 'look forward to + V-ing', en: 'wait happily for', th: 'ตั้งตารอ (การ…)' },
         { w: 'object to + V-ing', en: 'say you are against', th: 'คัดค้านการ…' },
         { w: 'be used to + V-ing', en: 'be accustomed to', th: 'คุ้นเคยกับการ…' },
-        { w: 'be committed to', en: 'promise to keep doing', th: 'มุ่งมั่นที่จะ…' },
+        { w: 'be committed to', en: 'promise to keep doing', th: 'มุ่งมั่นกับการ…' },
         { w: 'be dedicated to', en: 'give a lot of effort to', th: 'ทุ่มเทให้กับการ…' },
         { w: 'by + V-ing', en: 'the way you do it', th: 'โดยการ…' },
         { w: 'in addition to', en: 'as well as', th: 'นอกจาก…แล้ว' }
