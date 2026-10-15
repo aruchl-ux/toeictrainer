@@ -1,62 +1,62 @@
 # Grammar cheat sheet
 
-105 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
+106 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
 
 ## word-form
 
-All choices are the same word in different forms. Look at the words just before and after the blank, then pick the right type of word.
+All four choices are the same word in different forms, like inform, information, informative, informatively. Look at the words just before and after the blank first, then ask: does this spot need a noun, an adjective, an adverb or a verb?
 
-ทุกตัวเลือกเป็นคำเดียวกันแต่คนละชนิด ดูคำข้างหน้าและข้างหลังช่องว่าง แล้วเลือกชนิดคำที่ใช่
+ตัวเลือกทั้งสี่เป็นคำเดียวกันแต่ต่างรูป เช่น inform, information, informative, informatively ให้ดูคำหน้าและหลังช่องว่างก่อน แล้วถามว่าช่องนี้ต้องเป็นคำนาม คำคุณศัพท์ คำกริยาวิเศษณ์ หรือกริยา
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V3` = กริยาช่อง 3 (gone, made) · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ) · `N` = คำนาม · `Adj` = คำคุณศัพท์ (บอกลักษณะของคำนาม) · `Adv` = คำกริยาวิเศษณ์ (ขยายกริยาหรือคุณศัพท์) · `Prep` = คำบุพบท (in, on, for)
 
-### Noun after a determiner · คำนามหลัง determiner `noun-after-determiner`
+### Noun after a determiner · คำนามหลังคำนำหน้านาม (noun after a determiner) `noun-after-determiner`
 
     a/the/this + (Adj) + N
     my/your/its/their + (Adj) + N
 
-- After a, the, my, your, its or their, you need a noun. An adjective can come in between.
-- หลัง a, the, my, your, its, their ต้องเป็นคำนาม (มีคำคุณศัพท์คั่นได้)
+- After a, the, this, any, my, your, its or their, you need a noun. An adjective can come in between, but a noun must still follow.
+- หลัง a, the, this, any, my, your, its, their ต้องเป็นคำนาม มีคำคุณศัพท์คั่นได้ แต่ต้องมีคำนามตามมาเสมอ
 - We appreciate your **cooperation** on this matter.
 - เราขอขอบคุณสำหรับความร่วมมือของคุณในเรื่องนี้
-- **no common mistake yet**
-- Clues: -tion (**no meaning**) · -ment (**no meaning**) · -ness (**no meaning**) · -ance/-ence (**no meaning**) · -ity (**no meaning**) · -er/-or (person) (**no meaning**)
+- ✗ your cooperate → ✓ your cooperation: cooperate เป็นกริยา หลัง your ต้องใช้คำนาม cooperation (Cooperate is a verb. After your you need the noun.)
+- Clues: your + N = หลัง your ต้องใช้คำนาม · any + N = หลัง any ใช้คำนาม · its + Adj + N = หลังคำคุณศัพท์ (strong) ยังต้องมีคำนาม · -tion / -ment / -ness = มักเป็นคำนาม เช่น information, commitment · -ance / -ence / -ity = มักเป็นคำนาม เช่น patience, ability · -er / -or / -ant = มักหมายถึงคน เช่น applicant = ผู้สมัคร
 
-### Noun after a preposition · คำนามหลังคำบุพบท `noun-after-preposition`
+### Noun after a preposition · คำนามหลังคำบุพบท (noun after a preposition) `noun-after-preposition`
 
     Prep + (the) + N
     Prep + V-ing + Obj
 
-- After a preposition (for, of, after, without), use a noun or V-ing.
-- หลังคำบุพบท (for, of, after, without) ต้องเป็นคำนาม หรือ V-ing
+- After a preposition (for, of, after, without), use a noun or a verb + -ing, never a base verb.
+- หลังคำบุพบท (for, of, after, without) ต้องเป็นคำนาม หรือกริยาเติม -ing ห้ามใช้กริยารูปเดิม
 - After careful **consideration**, the board approved the plan.
 - หลังจากพิจารณาอย่างรอบคอบ คณะกรรมการก็อนุมัติแผนนี้
-- **no common mistake yet**
-- Clues: for (**no meaning**) · of (**no meaning**) · after (**no meaning**) · without (**no meaning**) · upon (**no meaning**)
+- ✗ before decide → ✓ before deciding: before ในที่นี้เป็นคำบุพบท จึงตามด้วยคำนามหรือกริยาเติม -ing ไม่ใช่กริยารูปเดิม (Before is a preposition here, so a noun or -ing follows, not a base verb.)
+- Clues: after careful consideration = หลังพิจารณาอย่างรอบคอบ · without permission = โดยไม่ได้รับอนุญาต · upon arrival = เมื่อมาถึง
 
-### Noun + noun · คำนามขยายคำนาม (คำนามประสม) `noun-as-modifier`
+### Noun + noun · คำนามขยายคำนาม (noun + noun) `noun-as-modifier`
 
     the + N + N
 
 - Some pairs are two nouns together. The first noun describes the second and stays singular.
-- บางคำเป็นคำนาม 2 ตัวติดกัน ตัวหน้าทำหน้าที่ขยายตัวหลัง และเป็นรูปเอกพจน์
+- บางคำเป็นคำนาม 2 ตัวติดกัน ตัวหน้าทำหน้าที่ขยายตัวหลัง และเป็นรูปเอกพจน์ (ไม่เติม s)
 - All employees must follow the **safety** regulations.
 - พนักงานทุกคนต้องปฏิบัติตามกฎความปลอดภัย
-- **no common mistake yet**
-- Clues: safety regulations (**no meaning**) · customer satisfaction (**no meaning**) · sales figures (**no meaning**) · application form (**no meaning**) · job opening (**no meaning**)
+- ✗ customers satisfaction → ✓ customer satisfaction: คำนามตัวหน้าทำหน้าที่ขยายเท่านั้น จึงไม่เติม s (The first noun only describes the second, so it stays singular.)
+- Clues: safety regulations = กฎความปลอดภัย · customer satisfaction = ความพึงพอใจของลูกค้า · sales figures = ตัวเลขยอดขาย · application form = แบบฟอร์มใบสมัคร · job opening = ตำแหน่งงานว่าง
 
-### Adjective before a noun · คำคุณศัพท์หน้าคำนาม `adjective-before-noun`
+### Adjective before a noun · คำคุณศัพท์หน้าคำนาม (adjective before a noun) `adjective-before-noun`
 
     (Adv) + Adj + N
 
-- A word before a noun that says what the noun is like is an adjective.
-- คำที่อยู่หน้าคำนาม และบอกว่าคำนามนั้นเป็นอย่างไร คือคำคุณศัพท์
+- A word before a noun that says what the noun is like is an adjective. An -ly word can stand in front of it.
+- คำที่อยู่หน้าคำนาม และบอกว่าคำนามนั้นเป็นอย่างไร คือคำคุณศัพท์ ข้างหน้าอาจมีคำ -ly มาขยายอีกที
 - The hotel offers **comfortable** rooms at reasonable prices.
 - โรงแรมมีห้องพักที่สะดวกสบายในราคาสมเหตุสมผล
-- **no common mistake yet**
-- Clues: -ful (**no meaning**) · -ous (**no meaning**) · -ive (**no meaning**) · -able/-ible (**no meaning**) · -al (**no meaning**) · -ic (**no meaning**)
+- ✗ a success plan → ✓ a successful plan: success เป็นคำนาม หน้าคำนาม plan ต้องใช้คำคุณศัพท์ successful (Success is a noun. Before the noun plan you need the adjective successful.)
+- Clues: -ful / -ous / -ive = มักเป็นคำคุณศัพท์ เช่น helpful, famous, informative · -able / -ible / -ic = มักเป็นคำคุณศัพท์ เช่น comfortable, responsible
 
-### Adjective after be / linking verbs · คำคุณศัพท์หลัง be และ linking verb `adjective-after-linking-verb`
+### Adjective after be / linking verbs · คำคุณศัพท์หลัง be และกริยาบอกสภาพ (linking verbs) `adjective-after-linking-verb`
 
     S + be/become/remain/seem + Adj
     S + look/sound/appear/stay/prove + Adj
@@ -66,10 +66,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - กริยากลุ่มนี้บอกสภาพ ไม่ได้บอกการกระทำ จึงตามด้วยคำคุณศัพท์ (ไม่ใช่คำ -ly) ส่วน keep, make, find ให้วางคำคุณศัพท์ไว้หลังกรรม
 - Sales have remained **steady** despite the price increase.
 - ยอดขายยังคงทรงตัวแม้ราคาจะสูงขึ้น
-- **no common mistake yet**
-- Clues: be (**no meaning**) · become (**no meaning**) · remain (**no meaning**) · stay (**no meaning**) · seem (**no meaning**) · appear (**no meaning**) · look (**no meaning**) · sound (**no meaning**) · feel (**no meaning**) · prove (**no meaning**) · keep + Obj (**no meaning**) · find + Obj (**no meaning**)
+- ✗ remains confidently → ✓ remains confident: remain บอกสภาพ จึงตามด้วยคำคุณศัพท์ ไม่ใช่คำ -ly (Remain tells you a state, so an adjective follows, not an -ly word.)
+- Clues: remain + Adj = หลัง remain ใช้คำคุณศัพท์ ไม่ใช่คำ -ly · become + Adj = กลายเป็น… · seem / appear + Adj = ดูเหมือน… · prove + Adj = กลายเป็นว่า… / พิสูจน์แล้วว่า… · keep + Obj + Adj = ทำให้…ยังคง… · find + Obj + Adj = เห็นว่า…
 
-### Same form after and / or / but · คำที่เชื่อมด้วย and / or / but ต้องเป็นชนิดเดียวกัน `parallel-word-form`
+### Same form after and / or / but · คำชนิดเดียวกันรอบ and / or / but (parallel form) `parallel-word-form`
 
     Adj + and/or/but + Adj
     N + and/or + N
@@ -79,60 +79,73 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - คำที่เชื่อมด้วย and, or, but ต้องเป็นชนิดเดียวกัน ดูคำอีกฝั่งแล้วเลือกให้เหมือนกัน
 - The hotel staff were helpful and **courteous**.
 - พนักงานโรงแรมช่วยเหลือดีและสุภาพ
-- **no common mistake yet**
-- Clues: ___ and + Adj (**no meaning**) · Adj + and ___ (**no meaning**) · both … and (**no meaning**) · either … or (**no meaning**)
+- ✗ helpful and courtesy → ✓ helpful and courteous: helpful เป็นคำคุณศัพท์ คำหลัง and จึงต้องเป็นคำคุณศัพท์ด้วย (Helpful is an adjective, so the word after and must be an adjective too.)
+- Clues: helpful and courteous = ช่วยเหลือดีและสุภาพ · both … and = ทั้ง… และ… · either … or = …หรือ… (อย่างใดอย่างหนึ่ง)
 
-### Adverb with a verb · คำกริยาวิเศษณ์ขยายกริยา `adverb-with-verb`
+### Adverb with a verb · คำกริยาวิเศษณ์ขยายกริยา (adverb + verb) `adverb-with-verb`
 
     S + Adv + V
     S + have/be + Adv + V3/V-ing
     S + V + Obj + Adv
 
-- A word that says how something is done is an adverb, usually ending in -ly. It often sits between have/be and the main verb.
-- คำที่บอกว่า "ทำอย่างไร" คือ adverb มักลงท้าย -ly และมักอยู่ระหว่าง have/be กับกริยาหลัก
+- A word that says how something is done is an adverb, usually ending in -ly. It can sit between have/be and the main verb, or after the verb or its object.
+- คำที่บอกว่า "ทำอย่างไร" คือคำกริยาวิเศษณ์ มักลงท้าย -ly วางระหว่าง have/be กับกริยาหลักได้ หรือวางหลังกริยาหรือหลังกรรมก็ได้
 - Ms. Kim **carefully** reviewed the budget.
 - คุณคิมตรวจงบประมาณอย่างละเอียด
-- **no common mistake yet**
-- Clues: -ly (**no meaning**) · has ___ V3 (**no meaning**) · is ___ V-ing (**no meaning**)
+- ✗ has grown considerable → ✓ has grown considerably: คำนี้ขยายกริยา grown จึงต้องเป็นคำ -ly ไม่ใช่คำคุณศัพท์ (The word describes the verb grown, so it must be the -ly adverb.)
+- Clues: -ly = มักเป็นคำกริยาวิเศษณ์ เช่น carefully, fully · V + Adv = คำ -ly ขยายกริยา วางหลังกริยาได้ · will be fully implemented = จะถูกนำไปใช้อย่างเต็มที่
 
-### Adverb before an adjective · คำกริยาวิเศษณ์หน้าคำคุณศัพท์ `adverb-with-adjective`
+### Adverb before an adjective · คำกริยาวิเศษณ์หน้าคำคุณศัพท์ (adverb + adjective) `adverb-with-adjective`
 
     be + Adv + Adj
     Adv + Adj + N
 
-- Before an adjective, use an adverb to say how much (very, extremely, highly).
-- หน้าคำคุณศัพท์ ถ้าต้องการคำบอกระดับ (มาก น้อย) ให้ใช้ adverb เช่น extremely, highly
+- Before an adjective, use an -ly adverb to say how much or in what way (extremely useful, environmentally responsible).
+- หน้าคำคุณศัพท์ ถ้าต้องการคำบอกระดับหรือบอกว่าในด้านไหน ให้ใช้คำ -ly เช่น extremely useful, environmentally responsible
 - The training session was **extremely** useful.
 - การอบรมครั้งนี้มีประโยชน์อย่างมาก
-- **no common mistake yet**
-- Clues: extremely (**no meaning**) · highly (**no meaning**) · relatively (**no meaning**) · surprisingly (**no meaning**)
+- ✗ significant different → ✓ significantly different: different เป็นคำคุณศัพท์ คำที่มาขยายคำคุณศัพท์ต้องเป็นคำ -ly (Different is an adjective. A word that describes an adjective must be an -ly adverb.)
+- Clues: extremely = อย่างยิ่ง · highly = อย่างสูง / มาก · significantly = อย่างมาก / อย่างเห็นได้ชัด · environmentally = ในด้านสิ่งแวดล้อม
 
-### -ed vs -ing adjectives · คำคุณศัพท์ -ed กับ -ing `ed-vs-ing-adjectives`
+### -ed vs -ing adjectives · คำคุณศัพท์ -ed กับ -ing (adjectives: -ed vs -ing) `ed-vs-ing-adjectives`
 
     Adj-ing + N
     S + be + Adj-ed
 
-- -ing is the thing that causes the feeling (a boring film). -ed is the person who feels it (I am bored).
+- -ing is the thing that causes the feeling (a boring film, encouraging figures). -ed is the person who feels it (I am bored).
 - -ing = สิ่งที่ทำให้รู้สึก (หนังน่าเบื่อ = boring) / -ed = คนที่รู้สึก (ฉันเบื่อ = bored)
 - Staff were **satisfied** with the new schedule.
 - พนักงานพอใจกับตารางงานใหม่
-- **no common mistake yet**
-- Clues: interesting / interested (**no meaning**) · exciting / excited (**no meaning**) · satisfying / satisfied (**no meaning**)
+- ✗ I am boring → ✓ I am bored: คนที่รู้สึกใช้ -ed ถ้าพูด I am boring จะแปลว่า ฉันเป็นคนน่าเบื่อ (A person who feels it takes -ed. I am boring means people find me dull.)
+- Clues: encouraging / encouraged = น่ายินดี / รู้สึกมีกำลังใจ · interesting / interested = น่าสนใจ / รู้สึกสนใจ · satisfying / satisfied = น่าพอใจ / รู้สึกพอใจ
 
-### Base verb after to / modals · กริยารูปเดิมหลัง to และ modal `verb-after-to-or-modal`
+### Base verb after to / modals · กริยารูปเดิมหลัง to และ will, can, must (base verb) `verb-after-to-or-modal`
 
     will/can/must/should + V1
     to V1
 
-- After will, can, must, should or to, use the base verb with nothing added.
-- หลัง will, can, must, should หรือ to ใช้กริยารูปเดิม ไม่เติมอะไรเลย
+- After will, can, must, should or to, use the base verb with nothing added. The blank must be a verb, not a noun or an adjective.
+- หลัง will, can, must, should หรือ to ใช้กริยารูปเดิม ไม่เติมอะไรเลย และช่องนั้นต้องเป็นกริยา ไม่ใช่คำนามหรือคำคุณศัพท์
 - The company plans to **expand** its operations overseas.
 - บริษัทวางแผนจะขยายธุรกิจไปต่างประเทศ
-- **no common mistake yet**
-- Clues: -ize (**no meaning**) · -ify (**no meaning**) · -en (**no meaning**) · plan to (**no meaning**) · will (**no meaning**) · must (**no meaning**)
+- ✗ plans to strong → ✓ plans to strengthen: หลัง to ต้องเป็นกริยา strong เป็นคำคุณศัพท์ กริยาคือ strengthen (After to you need a verb. Strong is an adjective; the verb is strengthen.)
+- Clues: -ize / -ify / -en = มักเป็นกริยา เช่น strengthen, simplify, organize · plan to = วางแผนจะ · will / must / should = ตามด้วยกริยารูปเดิม
 
-### Tested in drills (0)
+### Tested in drills (13)
 
+- `Adj + N` = หน้าคำนามใช้คำคุณศัพท์ (บอกลักษณะ) (an adjective before a noun) · ✗ a very inform presentation, a very information presentation, a cooperation attitude, a cooperatively attitude
+- `Adj-ing` = -ing ใช้กับสิ่งที่ทำให้รู้สึก (ตัวเลขน่ายินดี) (-ing: the thing that causes the feeling) · ✗ the figures were encouraged, the figures were encourage
+- `Adv + Adj` = หน้าคำคุณศัพท์ใช้คำ -ly ขยาย (an -ly adverb before an adjective) · ✗ is significant different, is significance different
+- `Adv + Adj + N` = หน้าคำนามใช้คำคุณศัพท์ แม้มีคำ -ly นำหน้า (an adjective before the noun, even after an adverb) · ✗ environmentally responsibly products, environmentally responsibility products
+- `any + N` = หลัง any ใช้คำนาม (a noun after any) · ✗ any inconvenient, any inconveniently
+- `be + Adv + V3` = หลัง be ใช้คำ -ly ขยายกริยาช่อง 3 (an -ly adverb before the past participle) · ✗ be full implemented, be fuller implemented
+- `its + Adj + N` = หลังคำคุณศัพท์ (strong) ยังต้องมีคำนาม (a noun after the adjective) · ✗ its strong commit, its strong committed
+- `N + N` = คำนาม 2 ตัวติดกัน ตัวหน้าขยายตัวหลัง (two nouns: the first describes the second) · ✗ the safety regulate, the safety regulatory
+- `remain + Adj` = หลัง remain ใช้คำคุณศัพท์ ไม่ใช่คำ -ly (an adjective after remain, not -ly) · ✗ remains confidently, remains confidence
+- `to V1` = หลัง to ใช้กริยารูปเดิม (a base verb after to) · ✗ plans to strong, plans to strength
+- `V + Adv` = คำ -ly ขยายกริยา วางหลังกริยาได้ (an -ly adverb can follow the verb) · ✗ has grown considerable, has grown consideration
+- `V + Obj + Adv` = คำ -ly ขยายกริยา วางท้ายหลังกรรมได้ (an -ly adverb can go after the object) · ✗ adjust its fan speed automatic, adjust its fan speed automation
+- `your + N` = หลัง your ต้องใช้คำนาม (a noun after your) · ✗ your apply, your applied, your understand, your understood
 
 Not on any entry (0): none
 
@@ -386,26 +399,26 @@ Not on any entry (0): none
 
 ## prepositions
 
-Look at the word after the blank: a time, a length of time, a deadline or a place? Each one has its own preposition.
+All four choices are small words like in, on, at, by. Look at the word after the blank first: is it a time, a length of time, a deadline or a place? Each one has its own preposition. Some words also have a fixed partner you just learn.
 
-ดูคำหลังช่องว่างว่าเป็น เวลา ช่วงเวลา วันกำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำต่างกัน
+ตัวเลือกทั้งสี่เป็นคำบุพบท เช่น in, on, at, by ให้ดูคำหลังช่องว่างก่อน ว่าเป็นเวลา ช่วงเวลา กำหนดส่ง หรือสถานที่ แต่ละแบบใช้คำบุพบทต่างกัน และบางคำก็มีคำบุพบทคู่ประจำที่ต้องจำ
 
 Symbols: `N` = คำนาม
 
-### Time: at / on / in · เวลา: at / on / in `time-at-on-in`
+### Time: at / on / in · บอกเวลา at / on / in (time) `time-at-on-in`
 
     at + clock time
     on + day/date
     in + month/year/season
 
-- at + clock time (at 9 a.m.), on + day (on Monday), in + month or year (in May).
-- at + เวลา (at 9 a.m.) / on + วัน (on Monday) / in + เดือน ปี (in May)
+- at + clock time (at 9 a.m.), on + day or date (on Monday, on March 14), in + month or year (in May).
+- at + เวลา (at 9 a.m.) / on + วัน หรือวันที่ (on Monday, on March 14) / in + เดือน ปี (in May)
 - The conference will begin **on** Monday, May 5.
 - การประชุมจะเริ่มในวันจันทร์ที่ 5 พฤษภาคม
-- **no common mistake yet**
-- Clues: at 9 a.m. (**no meaning**) · on Friday (**no meaning**) · on June 3 (**no meaning**) · in July (**no meaning**) · in 2027 (**no meaning**)
+- ✗ in Monday → ✓ on Monday: วันและวันที่ใช้ on เสมอ ภาษาไทยพูดว่า "ในวันจันทร์" จึงมักเผลอใช้ in (Days and dates take on. Thai says "ในวันจันทร์", so learners write in.)
+- Clues: at 9 a.m. = ตอน 9 โมงเช้า · on Friday = ในวันศุกร์ · on June 3 = ในวันที่ 3 มิถุนายน · in July = ในเดือนกรกฎาคม · in 2027 = ในปี 2027
 
-### By vs until · By กับ until `by-vs-until`
+### By vs until · กำหนดส่งกับการรอ (by vs until) `by-vs-until`
 
     by + deadline
     until + end time
@@ -414,23 +427,23 @@ Symbols: `N` = คำนาม
 - by = ไม่เกินเวลานี้ (ทำให้เสร็จ) / until = ทำต่อไปเรื่อย ๆ จนถึงเวลานี้
 - Please submit your expense reports **by** Friday.
 - กรุณาส่งรายงานค่าใช้จ่ายภายในวันศุกร์
-- **no common mistake yet**
-- Clues: submit / complete / return → by (**no meaning**) · stay / remain / wait → until (**no meaning**)
+- ✗ submit the report until Friday → ✓ submit the report by Friday: การส่งเกิดครั้งเดียวและต้องทันเวลา จึงใช้ by ส่วน until ใช้กับสิ่งที่ทำต่อเนื่อง เช่น wait (Submitting happens once and must be in time, so use by. Until is for things that keep going, like wait.)
+- Clues: submit … by Friday = ส่งภายในวันศุกร์ · wait until Friday = รอจนถึงวันศุกร์ · submit / send / return → by = ทำครั้งเดียวให้ทัน ใช้ by · stay / remain / wait → until = ทำต่อเนื่องจนถึงเวลานั้น ใช้ until
 
-### For / during / since · For / during / since `for-during-since`
+### For / during / since · นานเท่าไร ช่วงไหน ตั้งแต่เมื่อไร (for / during / since) `for-during-since`
 
     for + length of time
     during + N
     since + starting point
 
-- for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020).
-- for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020)
+- for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020). For a date range, use from … through.
+- for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020) ถ้าเป็นช่วงวันที่ใช้ from … through
 - Phones must be turned off **during** the presentation.
 - ต้องปิดโทรศัพท์ระหว่างการนำเสนอ
-- **no common mistake yet**
-- Clues: for two weeks (**no meaning**) · during the holiday (**no meaning**) · since 2020 (**no meaning**)
+- ✗ since three years → ✓ for three years: since ต้องตามด้วยจุดเริ่ม (since 2020) ส่วนระยะเวลา (3 ปี) ใช้ for (Since needs a starting point (since 2020). A length of time takes for.)
+- Clues: for two weeks = เป็นเวลาสองสัปดาห์ · during the holiday = ระหว่างวันหยุด · since 2020 = ตั้งแต่ปี 2020 (จนถึงตอนนี้) · from … through = ตั้งแต่…ถึง… (ช่วงวันที่)
 
-### Within / throughout · Within / throughout `within-throughout`
+### Within / throughout · ภายใน และตลอดทั้ง (within / throughout) `within-throughout`
 
     within + length of time
     throughout + N
@@ -439,10 +452,10 @@ Symbols: `N` = คำนาม
 - within = ภายในเวลานี้ / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่
 - Refunds will be processed **within** 10 business days.
 - การคืนเงินจะดำเนินการภายใน 10 วันทำการ
-- **no common mistake yet**
-- Clues: within 24 hours (**no meaning**) · throughout the year (**no meaning**) · throughout the building (**no meaning**)
+- ✗ arrive among two weeks → ✓ arrive within two weeks: among = ท่ามกลาง (ใช้กับกลุ่มคนหรือสิ่งของ) ส่วน "ภายใน" ช่วงเวลาใช้ within (Among means in a group of people or things. Inside a time limit is within.)
+- Clues: within 24 hours = ภายใน 24 ชั่วโมง · throughout the year = ตลอดทั้งปี · throughout the building = ทั่วทั้งอาคาร
 
-### Place: at / on / in · สถานที่: at / on / in `place-at-on-in`
+### Place: at / on / in · บอกสถานที่ at / on / in (place) `place-at-on-in`
 
     at + point/address
     on + surface/floor/street
@@ -452,23 +465,48 @@ Symbols: `N` = คำนาม
 - at + จุด (at the desk) / on + ชั้น ถนน พื้นผิว (on the 5th floor) / in + ข้างในห้อง เมือง (in the room)
 - The office is located **on** the fifth floor.
 - สำนักงานตั้งอยู่ที่ชั้นห้า
-- **no common mistake yet**
-- Clues: at the front desk (**no meaning**) · on Main Street (**no meaning**) · in the lobby (**no meaning**) · in Bangkok (**no meaning**)
+- ✗ in the fifth floor → ✓ on the fifth floor: ชั้นของอาคารใช้ on แม้ภาษาไทยจะพูดว่า "ในชั้นห้า" (Floors of a building take on, even though Thai says "ในชั้นห้า".)
+- Clues: at the front desk = ที่เคาน์เตอร์ต้อนรับ · on Main Street = บนถนนเมน · in the lobby = ในล็อบบี้ · in Bangkok = ในกรุงเทพฯ
 
-### Tested in drills (0)
+### Words with a fixed preposition · คำที่มีคำบุพบทคู่ประจำ (fixed prepositions) `preposition-partners`
 
+    responsible + for
+    comply + with
+    increase/rise + by + amount
+
+- Some words always take the same preposition, whatever the Thai meaning suggests. Learn the word and its preposition as one piece.
+- บางคำต้องใช้คำบุพบทตัวเดิมเสมอ ไม่ว่าภาษาไทยจะแปลว่าอะไร ให้จำคำกับคำบุพบทเป็นคู่ทั้งก้อน
+- Monthly revenue has increased **by** nearly 15 percent.
+- รายได้ต่อเดือนเพิ่มขึ้นเกือบ 15 เปอร์เซ็นต์
+- ✗ comply to the rules → ✓ comply with the rules: comply ใช้กับ with เสมอ ไม่ใช่ to (Comply always takes with.)
+- Clues: responsible for = รับผิดชอบ · comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · increase by = เพิ่มขึ้น… (บอกจำนวนที่เพิ่ม) · send something to someone = ส่งอะไรไปให้ใคร · in person = ด้วยตัวเอง แบบตัวต่อตัว
+
+### Tested in drills (12)
+
+- `by + deadline` = by = ภายใน… (ต้องเสร็จไม่เกินเวลานี้) (by = no later than) · ✗ submitted until 5 P.M., submitted within 5 P.M., send it until Friday, send it during Friday
+- `comply with` = ปฏิบัติตาม (กฎ) ใช้ with เสมอ (follow (rules)) · ✗ comply to, comply for
+- `during + N` = during + คำนาม ส่วน while + ประโยค (during + a noun; while + a clause) · ✗ while the national holiday, among the national holiday
+- `from … through` = ตั้งแต่…ถึง… (ช่วงวันที่) (from the first day to the last day) · ✗ since Monday through Wednesday, between Monday through Wednesday
+- `in person` = ด้วยตัวเอง แบบตัวต่อตัว (face to face) · ✗ meet suppliers on person, meet suppliers by person
+- `increase by` = เพิ่มขึ้นเท่าไร ใช้ by (by 15 percent) (by shows the size of the change) · ✗ increased to 15 percent, increased of 15 percent
+- `on + day/date` = วันหรือวันที่ ใช้ on (on March 14) (on + a day or date) · ✗ in March 14, at March 14
+- `responsible for` = รับผิดชอบ ใช้ for เสมอ (in charge of) · ✗ responsible of, responsible to
+- `send something to someone` = ส่งอะไรไปให้ใคร ใช้ to (give or post something to a person) · ✗ send résumés at the manager, send résumés for the manager
+- `since + starting point` = since + ปีหรือเวลาที่เริ่ม (since 2015) (since + the time it started) · ✗ has worked for 2015, has worked from 2015
+- `throughout + N` = ตลอดทั้ง… (ตลอดทั้งปี) (for the whole time of) · ✗ among the year, along the year
+- `within + length of time` = ภายในช่วงเวลานี้ ไม่เกินนี้ (no later than the end of a period) · ✗ among two weeks, upon two weeks
 
 Not on any entry (0): none
 
 ## conj-vs-prep
 
-Look after the blank. A subject and verb: use a word like because or although. Only a noun: use a word like because of or despite.
+The choices mix linking words (because, although) with prepositions that mean the same (because of, despite). Look after the blank first. A subject and a verb (a clause): use the linking word. Only a noun or an -ing word: use the preposition.
 
-ดูหลังช่องว่าง: มีประธาน + กริยา ใช้ because, although / มีแค่คำนาม ใช้ because of, despite
+ตัวเลือกมักมีทั้งคำเชื่อม (because, although) และคำบุพบทที่แปลเหมือนกัน (because of, despite) ให้ดูหลังช่องว่างก่อน ถ้ามีประธานและกริยา (เป็นประโยค) ใช้คำเชื่อม ถ้ามีแค่คำนามหรือกริยาเติม -ing ใช้คำบุพบท
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V-ing` = กริยาเติม -ing (going) · `N` = คำนาม
 
-### Because vs because of · Because กับ because of (เพราะ) `because-vs-because-of`
+### Because vs because of · เพราะ: because กับ because of (because vs because of) `because-vs-because-of`
 
     because/since/as + S + V
     because of/due to/owing to + N
@@ -484,10 +522,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ทุกคำแปลว่า "เพราะ / เนื่องจาก" ต่างกันแค่สิ่งที่ตามหลัง: because, since, as + ประโยค / because of, due to, owing to + คำนาม
 - The flight was delayed **owing to** heavy fog.
 - เที่ยวบินล่าช้าเนื่องจากหมอกลงหนา
-- **no common mistake yet**
-- Clues: ___ + the/a + noun (**no meaning**) · ___ + he/they + verb (**no meaning**)
+- ✗ because of the flight was late → ✓ because the flight was late: the flight was late มีประธานและกริยา จึงใช้ because ไม่มี of (The flight was late has a subject and a verb, so use because with no of.)
+- Clues: because + S + V = because + ประโยค (มีประธานและกริยา) · owing to + N = owing to = เนื่องจาก ตามด้วยคำนาม
 
-### Although vs despite · Although กับ despite (แม้ว่า) `although-vs-despite`
+### Although vs despite · แม้ว่า: although กับ despite (although vs despite) `although-vs-despite`
 
     although/even though/even if + S + V
     despite/in spite of + N/V-ing
@@ -498,13 +536,14 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `despite` = ทั้ง ๆ ที่มี… / แม้จะมี… (without being stopped by)
 - `in spite of` = เหมือน despite (same as despite)
 
-- All of them show a surprise contrast. although, even though, even if + subject and verb. despite, in spite of + a noun or V-ing. Never "despite of".
-- ทุกคำแสดงเรื่องที่ขัดกัน (แม้ว่า…ก็ยัง…): although, even though, even if + ประโยค / despite, in spite of + คำนาม หรือ V-ing (ไม่มี despite of)
+- All of them show a surprise contrast. although, even though, even if + subject and verb. despite, in spite of + a noun or an -ing verb. Never "despite of".
+- ทุกคำแสดงเรื่องที่ขัดกัน (แม้ว่า…ก็ยัง…): although, even though, even if + ประโยค / despite, in spite of + คำนาม หรือกริยาเติม -ing (ไม่มี despite of)
 - **Despite** the rain, the outdoor event continued.
 - แม้ฝนจะตก งานกลางแจ้งก็ยังดำเนินต่อไป
-- **no common mistake yet**
+- ✗ despite of the rain → ✓ despite the rain: despite ไม่มี of ตามหลัง มีแต่ in spite of ที่มี of (Despite never takes of. Only in spite of has of.)
+- Clues: despite + N = despite (แม้จะมี…) + คำนาม ไม่ใช่ประโยค · in spite of + V-ing = in spite of (แม้จะ) + กริยาเติม -ing
 
-### Whereas vs unlike · Whereas กับ unlike (เทียบความต่าง) `whereas-vs-unlike`
+### Whereas vs unlike · เทียบความต่าง: whereas กับ unlike (whereas vs unlike) `whereas-vs-unlike`
 
     whereas/while + S + V
     unlike + N
@@ -517,9 +556,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้เทียบสองอย่างที่ต่างกัน: whereas, while + ประโยค / unlike + คำนาม
 - Sales rose in Asia, **whereas** they fell in Europe.
 - ยอดขายในเอเชียเพิ่มขึ้น ในขณะที่ยุโรปลดลง
-- **no common mistake yet**
+- ✗ unlike her assistant relies on e-mail → ✓ whereas her assistant relies on e-mail: ข้างหลังมีประธานและกริยา จึงใช้ whereas ส่วน unlike ตามด้วยคำนามเท่านั้น (A subject and a verb follow, so use whereas. Unlike takes only a noun.)
+- Clues: whereas + S + V = whereas = ในขณะที่ (เทียบความต่าง) + ประโยค
 
-### While vs during · While กับ during (ระหว่าง) `while-vs-during`
+### While vs during · ขณะ / เมื่อ: while กับ during (while vs during) `while-vs-during`
 
     while/when + S + V
     while/when + V-ing
@@ -530,13 +570,14 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `during` = ระหว่าง (in the time of)
 - `throughout` = ตลอดทั้ง (for the whole time of)
 
-- while or when + subject and verb, or + V-ing (a short form). during or throughout + a noun.
-- while, when + ประโยค หรือ + V-ing (แบบย่อ) / during, throughout + คำนาม
+- while or when + subject and verb, or + an -ing verb (a short form). during or throughout + a noun. until (up to the time that) also takes a subject and verb.
+- while, when + ประโยค หรือ + กริยาเติม -ing (แบบย่อ) / during, throughout + คำนาม ส่วน until (จนกระทั่ง) ก็ตามด้วยประโยคเช่นกัน
 - Please do not use your phone **while** driving.
 - กรุณาอย่าใช้โทรศัพท์ขณะขับรถ
-- **no common mistake yet**
+- ✗ during driving → ✓ while driving: during ตามด้วยคำนาม (during the meeting) ถ้าเป็นกริยาเติม -ing ใช้ while (During takes a noun (during the meeting). Before an -ing verb, use while.)
+- Clues: while + V-ing = while + กริยาเติม -ing ได้ ส่วน during + คำนาม · when + S + V = when = เมื่อ… ตามด้วยประโยค · until + S + V = until = จนกระทั่ง ตามด้วยประโยค
 
-### If / unless vs in case of · If / unless กับ in case of (ถ้า / ในกรณี) `if-vs-in-case-of`
+### If / unless vs in case of · ถ้า / ในกรณี: if, unless กับ in case of (if vs in case of) `if-vs-in-case-of`
 
     if/unless/in case + S + V
     in case of/in the event of + N
@@ -551,9 +592,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - if, unless, in case + ประโยค / in case of, in the event of + คำนาม
 - **In case of** fire, use the stairs.
 - ในกรณีเกิดเพลิงไหม้ ให้ใช้บันได
-- **no common mistake yet**
+- ✗ in case of it rains → ✓ if it rains: in case of ตามด้วยคำนาม (in case of rain) ถ้าเป็นประโยคใช้ if (In case of takes a noun (in case of rain). Before a clause, use if.)
+- Clues: unless + S + V = unless = ถ้าไม่… ตามด้วยประโยค
 
-### So that vs in order to · So that กับ in order to (เพื่อ) `so-that-vs-in-order-to`
+### So that vs in order to · เพื่อ: so that กับ in order to (so that vs in order to) `so-that-vs-in-order-to`
 
     so that + S + V
     in order to/so as to + V1
@@ -566,9 +608,9 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ทั้งคู่แปลว่า "เพื่อ": so that + ประโยค (มักมี can, will) / in order to + กริยารูปเดิม
 - Please arrive early **so that** we can start on time.
 - กรุณามาก่อนเวลา เพื่อที่เราจะได้เริ่มตรงเวลา
-- **no common mistake yet**
+- ✗ in order to we can start → ✓ so that we can start: in order to ตามด้วยกริยารูปเดิม ถ้ามีประธานและกริยาใช้ so that (In order to takes a base verb. Before a subject and a verb, use so that.)
 
-### Whether vs regardless of · Whether กับ regardless of (ไม่ว่า…) `whether-vs-regardless-of`
+### Whether vs regardless of · ไม่ว่า: whether กับ regardless of (whether vs regardless of) `whether-vs-regardless-of`
 
     whether + S + V + or not
     regardless of + N
@@ -580,22 +622,22 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ทั้งคู่แปลว่า "ไม่ว่า…": whether + ประโยค (มักมี or) / regardless of + คำนาม
 - All staff must attend, **regardless of** their position.
 - พนักงานทุกคนต้องเข้าร่วม ไม่ว่าจะอยู่ตำแหน่งใด
-- **no common mistake yet**
+- ✗ regardless of you work here or there → ✓ whether you work here or there: regardless of ตามด้วยคำนาม ถ้าเป็นประโยคที่มี or ใช้ whether (Regardless of takes a noun. Before a clause with or, use whether.)
 
-### Instead of / without · Instead of / without (+ คำนาม หรือ V-ing) `instead-of-without`
+### Instead of / without · แทนที่ / โดยไม่ (instead of / without) `instead-of-without`
 
     instead of/without + N/V-ing
 
 - `instead of` = แทนที่จะ / แทน (in place of)
 - `without` = โดยไม่ / โดยไม่มี (not having or doing)
 
-- These are prepositions, so a noun or V-ing follows, never a full sentence.
-- สองคำนี้เป็นคำบุพบท จึงตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค
+- These are prepositions, so a noun or an -ing verb follows, never a full sentence.
+- สองคำนี้เป็นคำบุพบท จึงตามด้วยคำนามหรือกริยาเติม -ing ไม่ใช่ประโยค
 - You can pay online **instead of** visiting the office.
 - คุณจ่ายเงินออนไลน์แทนการไปที่สำนักงานได้
-- **no common mistake yet**
+- ✗ instead of visit the office → ✓ instead of visiting the office: instead of เป็นคำบุพบท กริยาที่ตามหลังต้องเติม -ing (Instead of is a preposition, so the verb after it takes -ing.)
 
-### However / therefore between sentences · However / therefore (เชื่อมระหว่างสองประโยค) `however-therefore`
+### However / therefore between sentences · คำเชื่อมระหว่างสองประโยค (however / therefore) `however-therefore`
 
     S + V; however/therefore/otherwise, S + V
 
@@ -609,10 +651,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - คำพวกนี้ต่อสองประโยคเองไม่ได้เหมือน because ต้องมี ; หรือ . ข้างหน้า และมี , ข้างหลัง
 - The venue was full; **therefore**, we moved the event online.
 - สถานที่เต็ม ดังนั้นเราจึงย้ายงานไปจัดออนไลน์
-- **no common mistake yet**
-- Clues: ; ___ , (**no meaning**) · Sentence. ___ , (**no meaning**)
+- ✗ However it rained, we went out. → ✓ Although it rained, we went out.: however เชื่อมสองประโยคแบบ although ไม่ได้ ให้ใช้ although หรือเขียน ; however, คั่นกลาง (However cannot join two sentences like although. Use although, or write ; however, between them.)
+- Clues: ; however, = อย่างไรก็ตาม (มี ; ข้างหน้า และ , ข้างหลัง) · . However, = อย่างไรก็ตาม (ขึ้นประโยคใหม่ แล้วมี , ตาม)
 
-### Paired conjunctions · คำเชื่อมที่มาเป็นคู่ `paired-conjunctions`
+### Paired conjunctions · คำเชื่อมที่มาเป็นคู่ (paired conjunctions) `paired-conjunctions`
 
     both + N + and + N
     either + N + or + N
@@ -627,11 +669,23 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - คำพวกนี้มาเป็นคู่เสมอ เห็นคำหนึ่งให้มองหาอีกคำ
 - The package includes **both** breakfast and dinner.
 - แพ็กเกจนี้รวมทั้งอาหารเช้าและอาหารเย็น
-- **no common mistake yet**
-- Clues: and → both (**no meaning**) · or → either (**no meaning**) · nor → neither (**no meaning**) · but also → not only (**no meaning**)
+- ✗ both breakfast or dinner → ✓ both breakfast and dinner: both ต้องคู่กับ and เสมอ (Both always pairs with and.)
+- Clues: and → both = เห็น and ให้มองหา both · or → either = เห็น or ให้มองหา either · nor → neither = เห็น nor ให้มองหา neither · but also → not only = เห็น but also ให้มองหา not only
 
-### Tested in drills (0)
+### Tested in drills (12)
 
+- `; however,` = อย่างไรก็ตาม (มี ; ข้างหน้า และ , ข้างหลัง) (but, between two sentences) · ✗ ; although, the board approved, ; despite, the board approved
+- `because + S + V` = because + ประโยค (มีประธานและกริยา) (because + a clause) · ✗ because of the CEO's flight was delayed, due to the CEO's flight was delayed
+- `despite + N` = despite (แม้จะมี…) + คำนาม ไม่ใช่ประโยค (despite + a noun, not a clause) · ✗ Although the heavy snowfall, Even though the heavy snowfall, Although the high cost, However the high cost
+- `in spite of + V-ing` = in spite of (แม้จะ) + กริยาเติม -ing (in spite of + -ing) · ✗ Even though having received, Nevertheless having received
+- `owing to + N` = owing to = เนื่องจาก ตามด้วยคำนาม (owing to + a noun (a reason)) · ✗ Because a sharp rise in fuel costs, Although a sharp rise in fuel costs
+- `so that + S + V` = so that = เพื่อที่จะ ตามด้วยประโยค (so that + a clause (purpose)) · ✗ in order to more customers would, because of more customers would
+- `unless + S + V` = unless = ถ้าไม่… ตามด้วยประโยค (unless = if not, + a clause) · ✗ without customers select, in case customers select
+- `until + S + V` = until = จนกระทั่ง ตามด้วยประโยค (until + a clause: up to the time that) · ✗ during the light turns blue, despite the light turns blue
+- `when + S + V` = when = เมื่อ… ตามด้วยประโยค (when + a clause) · ✗ during you arrive, upon you arrive
+- `whereas + S + V` = whereas = ในขณะที่ (เทียบความต่าง) + ประโยค (whereas + a clause, to compare) · ✗ unlike her assistant relies, instead of her assistant relies
+- `whether … or` = ไม่ว่าจะ…หรือ… ตามด้วยประโยค (whether + a clause + or: no matter which) · ✗ regardless of they work, either they work, Either you need, Regardless of you need
+- `while + V-ing` = while + กริยาเติม -ing ได้ ส่วน during + คำนาม (while + -ing; during + a noun) · ✗ during operating a forklift, throughout operating a forklift
 
 Not on any entry (0): none
 
@@ -1291,13 +1345,13 @@ Not on any entry (0): none
 
 ## word-choice
 
-All four choices are the same part of speech, so grammar cannot decide. Read the whole sentence, find the word the blank must fit with, and pick the meaning that makes sense at work.
+All four choices are the same type of word with different meanings, so grammar cannot decide. Read the whole sentence, find the word the blank must go with, and pick the meaning that makes sense at work.
 
-ตัวเลือกทั้งสี่เป็นคำชนิดเดียวกัน ไวยากรณ์ช่วยตัดไม่ได้ ต้องอ่านทั้งประโยค หาคำที่ช่องว่างต้องเข้าคู่ด้วย แล้วเลือกความหมายที่เข้ากับบริบทการทำงาน
+ตัวเลือกทั้งสี่เป็นคำชนิดเดียวกันแต่ความหมายต่างกัน ไวยากรณ์ช่วยตัดไม่ได้ ให้อ่านทั้งประโยค หาคำที่ช่องว่างต้องเข้าคู่ด้วย แล้วเลือกความหมายที่เข้ากับเรื่องงาน
 
 Symbols: `V` = คำกริยา · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ) · `N` = คำนาม · `Adj` = คำคุณศัพท์ (บอกลักษณะของคำนาม) · `Det` = คำนำหน้านาม (a, the, each)
 
-### Verb that fits its object · กริยาที่เข้ากับกรรม `word-choice-verb-object`
+### Verb that fits its object · กริยาที่เข้ากับกรรม (verb + object) `word-choice-verb-object`
 
     V + Obj
 
@@ -1308,10 +1362,10 @@ Symbols: `V` = คำกริยา · `V-ing` = กริยาเติม -i
 - ดูกรรมหลังช่องว่าง แล้วถามตัวเองว่าในการทำงานจริง เราทำกริยาไหนกับสิ่งนั้น
 - Passengers should **board** the train ten minutes before it leaves.
 - ผู้โดยสารควรขึ้นรถไฟก่อนรถออกสิบนาที
-- **no common mistake yet**
-- Clues: board a plane (**no meaning**) · claim baggage (**no meaning**) · place an order (**no meaning**) · submit a report (**no meaning**)
+- ✗ Can you borrow me your pen? → ✓ Can you lend me your pen?: ภาษาไทยใช้ "ยืม" ทั้งสองทาง แต่ lend = ให้ยืม ส่วน borrow = ขอยืม (Thai uses "ยืม" both ways, but lend means give for a time and borrow means take for a time.)
+- Clues: board a plane = ขึ้นเครื่องบิน · claim baggage = รับกระเป๋าเดินทาง · place an order = สั่งซื้อสินค้า · submit a report = ส่งรายงาน
 
-### Noun that fits the context · คำนามที่เข้ากับบริบท `word-choice-noun-context`
+### Noun that fits the context · คำนามที่เข้ากับเรื่อง (noun in context) `word-choice-noun-context`
 
     Det + (Adj) + N
 
@@ -1322,10 +1376,10 @@ Symbols: `V` = คำกริยา · `V-ing` = กริยาเติม -i
 - อ่านคำรอบช่องว่าง คำขยายอย่าง detailed, hot, extra ช่วยบอกว่าหมายถึงสิ่งไหน
 - The agency sent each guest a detailed **itinerary** for the conference week.
 - บริษัทส่งกำหนดการแบบละเอียดของสัปดาห์การประชุมให้แขกทุกคน
-- **no common mistake yet**
-- Clues: a hot beverage (**no meaning**) · a detailed itinerary (**no meaning**) · a full refund (**no meaning**)
+- ✗ the entrance price → ✓ the entrance fee: เงินที่จ่ายเพื่อเข้างานหรือใช้บริการคือ fee ส่วน price ใช้กับราคาสินค้า (Money you pay to enter or for a service is a fee. Price is for things you buy.)
+- Clues: a hot beverage = เครื่องดื่มร้อน · a detailed itinerary = กำหนดการเดินทางแบบละเอียด · a full refund = คืนเงินเต็มจำนวน
 
-### Adjective that fits the noun · คำคุณศัพท์ที่เข้ากับคำนาม `word-choice-adjective-noun`
+### Adjective that fits the noun · คำคุณศัพท์ที่เข้ากับคำนาม (adjective + noun) `word-choice-adjective-noun`
 
     be + Adj
     Adj + N
@@ -1338,10 +1392,10 @@ Symbols: `V` = คำกริยา · `V-ing` = กริยาเติม -i
 - ดูว่าคำคุณศัพท์ขยายอะไร ตั๋วหรือใบอนุญาตใช้ valid คนที่มีสิทธิ์ใช้ eligible ราคาที่เหมาะสมใช้ reasonable
 - Your parking permit is no longer **valid** after March 31.
 - บัตรจอดรถของคุณใช้ไม่ได้แล้วหลังวันที่ 31 มีนาคม
-- **no common mistake yet**
-- Clues: valid ticket (**no meaning**) · eligible for (**no meaning**) · reasonable price (**no meaning**)
+- ✗ a cheap price → ✓ a low price: ภาษาไทยพูดว่า "ราคาถูก" แต่ price ใช้ low หรือ reasonable ส่วน cheap ใช้กับตัวสินค้า เช่น a cheap hotel (Thai says "ราคาถูก", but a price is low or reasonable. Cheap goes with the thing itself (a cheap hotel).)
+- Clues: valid ticket = ตั๋วที่ยังใช้ได้ · eligible for = มีสิทธิ์ได้รับ · reasonable price = ราคาสมเหตุสมผล
 
-### Word chosen by the preposition after it · เลือกคำจากบุพบทที่ตามมา `word-choice-partner-preposition`
+### Word chosen by the preposition after it · เลือกคำจากคำบุพบทที่ตามมา (word + preposition) `word-choice-partner-preposition`
 
     V + Obj + from + V-ing
     be + Adj + for + N
@@ -1350,11 +1404,11 @@ Symbols: `V` = คำกริยา · `V-ing` = กริยาเติม -i
 - `for` = ใช้คู่กับ responsible, eligible, famous (goes with responsible, eligible, famous)
 
 - When two choices mean almost the same, the word after the blank often decides. Only one of them is used with that preposition.
-- ถ้ามีสองตัวเลือกความหมายใกล้กัน ให้ดูคำหลังช่องว่าง มักมีแค่คำเดียวที่ใช้คู่กับบุพบทนั้นได้
+- ถ้ามีสองตัวเลือกความหมายใกล้กัน ให้ดูคำหลังช่องว่าง มักมีแค่คำเดียวที่ใช้คู่กับคำบุพบทนั้นได้
 - Signs **prohibit** drivers from parking in the loading area.
 - ป้ายห้ามผู้ขับขี่จอดรถในบริเวณขนถ่ายสินค้า
-- **no common mistake yet**
-- Clues: prohibit … from (**no meaning**) · responsible for (**no meaning**) · eligible for (**no meaning**) · interested in (**no meaning**)
+- ✗ prohibit drivers to park → ✓ prohibit drivers from parking: prohibit ใช้คู่กับ from + กริยาเติม -ing ไม่ใช้ to (Prohibit takes from + -ing, not to.)
+- Clues: prohibit … from = ห้าม… ไม่ให้… · responsible for = รับผิดชอบ · eligible for = มีสิทธิ์ได้รับ · interested in = สนใจ
 
 ### Tested in drills (0)
 

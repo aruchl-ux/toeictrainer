@@ -8,7 +8,9 @@ import type { Part5Topic, Point } from '../../src/shared/types'
  * Topics whose sheet and questions are finished for beginners. Each content task adds its topics;
  * Task 10 replaces this list with every Part 5 topic.
  */
-const READY: Part5Topic[] = ['collocations']
+const READY: Part5Topic[] = ['collocations', 'word-form', 'word-choice', 'prepositions', 'conj-vs-prep']
+/** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
+const NO_QUESTIONS: Part5Topic[] = ['word-choice']
 
 const THAI = /[฀-๿]/
 const { bank } = loadContent(resolve('content'))
@@ -52,7 +54,8 @@ for (const topic of READY) describe(`${topic} is ready for beginners`, () => {
         s.blanks.flatMap((b, i): [string, Point | undefined][] => (b.topic === topic ? [[`${s.id}#${i + 1}`, b.point]] : []))
       )
     ]
-    expect(points.length).toBeGreaterThan(0)
+    if (NO_QUESTIONS.includes(topic)) expect(points, 'questions arrived: remove the topic from NO_QUESTIONS').toEqual([])
+    else expect(points.length).toBeGreaterThan(0)
     for (const [ref, p] of points) {
       expect(p, ref).toBeDefined()
       expect(p!.th, ref).toMatch(THAI)

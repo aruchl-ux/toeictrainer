@@ -67,6 +67,15 @@
         "explain": {
           "en": "'apologize for any ____' needs a noun after 'any'. 'inconvenience' is the noun; 'inconvenient' is an adjective.",
           "th": "หลัง any ต้องใช้คำนาม คือ inconvenience (ความไม่สะดวก) ส่วน inconvenient เป็น adjective"
+        },
+        "point": {
+          "key": "any + N",
+          "th": "หลัง any ใช้คำนาม",
+          "en": "a noun after any",
+          "wrong": [
+            "any inconvenient",
+            "any inconveniently"
+          ]
         }
       }
     ],
@@ -165,6 +174,15 @@
         "explain": {
           "en": "'environmentally' is an adverb, and it must modify an adjective that describes the noun 'products'. The adjective is 'responsible'; 'responsibly' is another adverb and cannot describe a noun.",
           "th": "environmentally เป็น adverb ต้องขยาย adjective ที่อยู่หน้าคำนาม products จึงใช้ responsible (adjective) ส่วน responsibly เป็น adverb ซึ่งขยายคำนามไม่ได้"
+        },
+        "point": {
+          "key": "Adv + Adj + N",
+          "th": "หน้าคำนามใช้คำคุณศัพท์ แม้มีคำ -ly นำหน้า",
+          "en": "an adjective before the noun, even after an adverb",
+          "wrong": [
+            "environmentally responsibly products",
+            "environmentally responsibility products"
+          ]
         }
       },
       {
@@ -181,6 +199,15 @@
         "explain": {
           "en": "A full clause follows ('you need a one-time deep clean or regular weekly service'), paired with 'or', so the conjunction 'Whether' is needed. 'Regardless of' is a preposition and must be followed by a noun, not a clause.",
           "th": "หลังช่องว่างเป็นประโยคเต็ม (you need ... or ...) และมี or มาคู่กัน จึงต้องใช้ conjunction คือ Whether (ไม่ว่าจะ...หรือ...) ส่วน Regardless of เป็น preposition ต้องตามด้วยคำนาม ไม่ใช่ประโยค"
+        },
+        "point": {
+          "key": "whether … or",
+          "th": "ไม่ว่าจะ…หรือ… ตามด้วยประโยค",
+          "en": "whether + a clause + or: no matter which",
+          "wrong": [
+            "Either you need",
+            "Regardless of you need"
+          ]
         }
       },
       {
@@ -416,6 +443,15 @@
         "explain": {
           "en": "A full clause follows ('the indicator light turns blue'), so a conjunction is needed, and the meaning is 'keep holding up to that moment': 'until'. 'during' and 'despite' are prepositions and cannot introduce a clause, and 'unless' gives an illogical meaning.",
           "th": "หลังช่องว่างเป็นประโยคเต็ม (the indicator light turns blue) จึงต้องใช้ conjunction และความหมายคือกดค้างไว้จนกว่าไฟจะเปลี่ยนเป็นสีฟ้า จึงใช้ until ส่วน during และ despite เป็น preposition ตามด้วยประโยคไม่ได้ และ unless (เว้นแต่) ทำให้ความหมายไม่สมเหตุสมผล"
+        },
+        "point": {
+          "key": "until + S + V",
+          "th": "until = จนกระทั่ง ตามด้วยประโยค",
+          "en": "until + a clause: up to the time that",
+          "wrong": [
+            "during the light turns blue",
+            "despite the light turns blue"
+          ]
         }
       },
       {
@@ -432,6 +468,15 @@
         "explain": {
           "en": "The blank describes how the purifier will 'adjust' its fan speed, so an adverb is needed: 'automatically'. 'automatic' is an adjective and cannot modify a verb.",
           "th": "ช่องว่างบอกว่าเครื่องปรับ (adjust) ความเร็วพัดลมอย่างไร จึงต้องใช้ adverb ขยายกริยา คือ automatically ส่วน automatic เป็น adjective ใช้ขยายกริยาไม่ได้"
+        },
+        "point": {
+          "key": "V + Obj + Adv",
+          "th": "คำ -ly ขยายกริยา วางท้ายหลังกรรมได้",
+          "en": "an -ly adverb can go after the object",
+          "wrong": [
+            "adjust its fan speed automatic",
+            "adjust its fan speed automation"
+          ]
         }
       }
     ],
@@ -539,6 +584,15 @@
         "explain": {
           "en": "The date range ends with 'through Wednesday', which pairs with 'from': 'from Monday through Wednesday'. 'between' would need 'and', and 'since' marks a starting point in the past.",
           "th": "ช่วงวันที่มี through Wednesday อยู่แล้ว จึงต้องใช้คู่กับ from เป็น from ... through ... (ตั้งแต่...ถึง...) ส่วน between ต้องใช้คู่กับ and และ since ใช้กับจุดเริ่มต้นในอดีต"
+        },
+        "point": {
+          "key": "from … through",
+          "th": "ตั้งแต่…ถึง… (ช่วงวันที่)",
+          "en": "from the first day to the last day",
+          "wrong": [
+            "since Monday through Wednesday",
+            "between Monday through Wednesday"
+          ]
         }
       },
       {
@@ -628,6 +682,15 @@
         "explain": {
           "en": "The blank sits between the article 'a' and the noun 'attitude', so an adjective is needed: 'cooperative'. 'cooperation' is a noun and 'cooperatively' is an adverb, so neither can describe 'attitude'.",
           "th": "ช่องว่างอยู่ระหว่าง a กับคำนาม attitude จึงต้องใช้ adjective คือ cooperative (ที่ให้ความร่วมมือ) ส่วน cooperation เป็นคำนาม และ cooperatively เป็น adverb ซึ่งขยายคำนามไม่ได้"
+        },
+        "point": {
+          "key": "Adj + N",
+          "th": "หน้าคำนามใช้คำคุณศัพท์ (บอกลักษณะ)",
+          "en": "an adjective before a noun",
+          "wrong": [
+            "a cooperation attitude",
+            "a cooperatively attitude"
+          ]
         }
       },
       {
@@ -660,6 +723,15 @@
         "explain": {
           "en": "Sending an application is a one-time action that must happen no later than a deadline, so 'by' fits. 'until' is tempting, but it is used for an action that continues up to a point in time.",
           "th": "การส่งใบสมัครเป็นการกระทำครั้งเดียวที่ต้องทำให้เสร็จก่อนกำหนด (deadline) จึงใช้ by ส่วน until เป็นกับดัก เพราะใช้กับการกระทำที่ต่อเนื่องไปจนถึงเวลาหนึ่ง"
+        },
+        "point": {
+          "key": "by + deadline",
+          "th": "by = ภายใน… (ต้องเสร็จไม่เกินเวลานี้)",
+          "en": "by = no later than",
+          "wrong": [
+            "send it until Friday",
+            "send it during Friday"
+          ]
         }
       }
     ],
@@ -790,6 +862,15 @@
         "explain": {
           "en": "The blank is followed by a noun phrase ('the high cost of running delivery vans'), not a clause, and the idea is a contrast: high costs, but still profitable. The preposition 'Despite' fits. 'Although' needs a full clause, and 'Because of' gives the wrong meaning.",
           "th": "หลังช่องว่างเป็นนามวลี (noun phrase) คือ the high cost of running delivery vans ไม่ใช่ประโยค และความหมายเป็นการขัดแย้ง คือต้นทุนสูงแต่ก็ยังทำกำไร จึงใช้ preposition คือ Despite ส่วน Although ต้องตามด้วยประโยคเต็ม และ Because of ให้ความหมายผิด (เพราะ)"
+        },
+        "point": {
+          "key": "despite + N",
+          "th": "despite (แม้จะมี…) + คำนาม ไม่ใช่ประโยค",
+          "en": "despite + a noun, not a clause",
+          "wrong": [
+            "Although the high cost",
+            "However the high cost"
+          ]
         }
       },
       {
@@ -952,6 +1033,15 @@
         "explain": {
           "en": "After the possessive 'your', a noun is needed, so 'understanding' completes the common phrase 'thank you for your understanding'. 'understand' is a verb and 'understandably' is an adverb, so neither can follow 'your'.",
           "th": "หลัง your ซึ่งเป็น possessive adjective ต้องใช้คำนาม จึงใช้ understanding (ความเข้าใจ) ในสำนวน thank you for your understanding ส่วน understand เป็นกริยา (verb) และ understandably เป็น adverb จึงวางหลัง your ไม่ได้"
+        },
+        "point": {
+          "key": "your + N",
+          "th": "หลัง your ต้องใช้คำนาม",
+          "en": "a noun after your",
+          "wrong": [
+            "your understand",
+            "your understood"
+          ]
         }
       }
     ],
@@ -1009,6 +1099,15 @@
         "explain": {
           "en": "'in person' is a fixed expression meaning face to face, so 'in' is correct. 'by person' and 'at person' are not English expressions, and 'on' does not form this meaning.",
           "th": "in person เป็นสำนวนตายตัว (fixed expression) แปลว่า พบตัวจริงหรือพบต่อหน้า จึงใช้ in ส่วน by person และ at person ไม่มีใช้ในภาษาอังกฤษ และ on ก็ไม่ให้ความหมายนี้"
+        },
+        "point": {
+          "key": "in person",
+          "th": "ด้วยตัวเอง แบบตัวต่อตัว",
+          "en": "face to face",
+          "wrong": [
+            "meet suppliers on person",
+            "meet suppliers by person"
+          ]
         }
       },
       {
@@ -1025,6 +1124,15 @@
         "explain": {
           "en": "'you arrive' is a clause with a subject and a verb, so a conjunction is needed: 'when'. 'upon' is tempting, but it is a preposition and needs a noun or -ing form, as in 'upon arrival' or 'upon arriving'.",
           "th": "หลังช่องว่างคือ you arrive ซึ่งมีทั้งประธานและกริยา จึงต้องใช้ conjunction คือ when ส่วน upon ดูน่าเลือก แต่เป็น preposition ต้องตามด้วยคำนามหรือ -ing เช่น upon arrival หรือ upon arriving"
+        },
+        "point": {
+          "key": "when + S + V",
+          "th": "when = เมื่อ… ตามด้วยประโยค",
+          "en": "when + a clause",
+          "wrong": [
+            "during you arrive",
+            "upon you arrive"
+          ]
         }
       }
     ],

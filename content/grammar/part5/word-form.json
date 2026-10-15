@@ -12,6 +12,12 @@
       "en": "The blank sits between 'be' and the past participle 'implemented', so it must be an adverb that modifies the verb. 'fully' is the adverb; 'full' is an adjective.",
       "th": "ช่องว่างอยู่ระหว่าง be กับกริยาช่อง 3 (implemented) จึงต้องใช้คำกริยาวิเศษณ์ (adverb) มาขยายกริยา คำตอบคือ fully ส่วน full เป็นคำคุณศัพท์ (adjective) ใช้ไม่ได้"
     },
+    "point": {
+      "key": "be + Adv + V3",
+      "th": "หลัง be ใช้คำ -ly ขยายกริยาช่อง 3",
+      "en": "an -ly adverb before the past participle",
+      "wrong": ["be full implemented", "be fuller implemented"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "After 'very' and before the noun 'presentation' we need an adjective. 'informative' is the adjective; 'informatively' is an adverb and cannot describe a noun.",
       "th": "หลัง very และหน้าคำนาม presentation ต้องใช้คำคุณศัพท์ (adjective) คือ informative ส่วน informatively เป็น adverb ขยายคำนามไม่ได้"
+    },
+    "point": {
+      "key": "Adj + N",
+      "th": "หน้าคำนามใช้คำคุณศัพท์ (บอกลักษณะ)",
+      "en": "an adjective before a noun",
+      "wrong": ["a very inform presentation", "a very information presentation"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "After the possessive 'your' we need a noun. Both 'applicant' and 'application' are nouns, but you submit a document, not a person, so 'application' is correct.",
       "th": "หลัง your ต้องใช้คำนาม (noun) ซึ่งมีทั้ง applicant และ application แต่สิ่งที่ส่งได้คือใบสมัคร (application) ไม่ใช่ผู้สมัคร (applicant)"
     },
+    "point": {
+      "key": "your + N",
+      "th": "หลัง your ต้องใช้คำนาม",
+      "en": "a noun after your",
+      "wrong": ["your apply", "your applied"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "The blank describes how the company 'has grown', so an adverb is needed. 'considerably' means 'a lot'. 'considerable' is an adjective and needs a noun after it.",
       "th": "ช่องว่างบอกว่าบริษัทเติบโต (has grown) มากแค่ไหน จึงต้องใช้ adverb คือ considerably (อย่างมาก) ส่วน considerable เป็น adjective ต้องมีคำนามตามหลัง"
+    },
+    "point": {
+      "key": "V + Adv",
+      "th": "คำ -ly ขยายกริยา วางหลังกริยาได้",
+      "en": "an -ly adverb can follow the verb",
+      "wrong": ["has grown considerable", "has grown consideration"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "'the safety ____' is the object of 'follow', so the blank must be a noun that completes the noun phrase. 'regulations' is the plural noun; 'regulatory' is an adjective.",
       "th": "the safety ____ เป็นกลุ่มคำนามที่เป็นกรรมของ follow จึงต้องใช้คำนาม regulations (กฎระเบียบ) ส่วน regulatory เป็น adjective"
     },
+    "point": {
+      "key": "N + N",
+      "th": "คำนาม 2 ตัวติดกัน ตัวหน้าขยายตัวหลัง",
+      "en": "two nouns: the first describes the second",
+      "wrong": ["the safety regulate", "the safety regulatory"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "'its strong ____' is a noun phrase: a possessive, then an adjective, then the noun it describes. 'commitment' is the noun. 'committed' looks tempting after 'strong', but it is an adjective or past participle and leaves the phrase without a noun.",
       "th": "its strong ____ เป็นกลุ่มคำนาม โครงสร้างคือ คำแสดงความเป็นเจ้าของ + คำคุณศัพท์ (adjective) + คำนาม (noun) ช่องว่างจึงต้องเป็นคำนาม commitment (ความทุ่มเท) ส่วน committed เป็น adjective หรือกริยาช่อง 3 ใส่แล้ววลีนี้จะไม่มีคำนามหลัก"
+    },
+    "point": {
+      "key": "its + Adj + N",
+      "th": "หลังคำคุณศัพท์ (strong) ยังต้องมีคำนาม",
+      "en": "a noun after the adjective",
+      "wrong": ["its strong commit", "its strong committed"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "'remains' is a linking verb like 'is', so it is followed by an adjective that describes the subject. 'confident' is the adjective. 'confidently' is an adverb and cannot follow a linking verb to describe Ms. Patel.",
       "th": "remains เป็นกริยาเชื่อม (linking verb) เหมือน is จึงต้องตามด้วยคำคุณศัพท์ (adjective) ที่บอกสภาพของประธาน คำตอบคือ confident (มั่นใจ) คนไทยมักเลือก confidently แต่นั่นเป็น adverb ใช้ตามหลัง linking verb เพื่อบรรยายคุณ Patel ไม่ได้"
     },
+    "point": {
+      "key": "remain + Adj",
+      "th": "หลัง remain ใช้คำคุณศัพท์ ไม่ใช่คำ -ly",
+      "en": "an adjective after remain, not -ly",
+      "wrong": ["remains confidently", "remains confidence"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "The blank comes right before the adjective 'different' and tells us how different the proposal is, so an adverb is needed. 'significantly' is the adverb. 'significant' is an adjective, and an adjective cannot modify another adjective.",
       "th": "ช่องว่างอยู่หน้าคำคุณศัพท์ different และบอกว่าแตกต่างมากแค่ไหน จึงต้องใช้ adverb คือ significantly (อย่างมีนัยสำคัญ) ส่วน significant เป็น adjective ใช้ขยาย adjective ด้วยกันไม่ได้"
+    },
+    "point": {
+      "key": "Adv + Adj",
+      "th": "หน้าคำคุณศัพท์ใช้คำ -ly ขยาย",
+      "en": "an -ly adverb before an adjective",
+      "wrong": ["is significant different", "is significance different"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "After 'plans to' we need a base-form verb, and that verb takes the object 'the company's online presence'. 'strengthen' is the verb. 'strength' is a noun, so it cannot follow 'to' here or take an object.",
       "th": "หลัง plans to ต้องใช้กริยารูปพื้นฐาน (base-form verb) ที่มีกรรมคือ the company's online presence คำตอบคือ strengthen (ทำให้แข็งแกร่งขึ้น) ส่วน strength เป็นคำนาม (noun) วางหลัง to ในตำแหน่งนี้และมีกรรมตามหลังไม่ได้"
     },
+    "point": {
+      "key": "to V1",
+      "th": "หลัง to ใช้กริยารูปเดิม",
+      "en": "a base verb after to",
+      "wrong": ["plans to strong", "plans to strength"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "The subject is 'sales figures', the thing that caused the board's feeling, so the '-ing' adjective 'encouraging' is correct. 'encouraged' describes how a person feels, so it would fit 'the board was encouraged', not the figures.",
       "th": "ประธานคือ sales figures ซึ่งเป็นสิ่งที่ทำให้เกิดความรู้สึก จึงใช้ adjective ที่ลงท้าย -ing คือ encouraging (น่าพอใจ ชวนให้มีกำลังใจ) ส่วน encouraged ใช้บอกความรู้สึกของคน เช่น the board was encouraged ใช้กับตัวเลขยอดขายไม่ได้ จุดนี้คนไทยสับสนบ่อยเพราะภาษาไทยไม่แยกรูปคำแบบนี้"
+    },
+    "point": {
+      "key": "Adj-ing",
+      "th": "-ing ใช้กับสิ่งที่ทำให้รู้สึก (ตัวเลขน่ายินดี)",
+      "en": "-ing: the thing that causes the feeling",
+      "wrong": ["the figures were encouraged", "the figures were encourage"]
     },
     "status": "approved"
   }
