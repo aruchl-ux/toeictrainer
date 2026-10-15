@@ -12,6 +12,12 @@
       "en": "The real subject is 'Each', which is singular, so the verb is 'is'. 'are' is tempting because 'managers' is plural and sits right before the blank, but it is only part of the phrase 'of the regional managers'.",
       "th": "ประธานจริงคือ Each ซึ่งเป็นเอกพจน์ (singular) จึงใช้กริยา is คนไทยมักเลือก are เพราะเห็นคำว่า managers ที่เป็นพหูพจน์อยู่ติดกับช่องว่าง แต่ managers เป็นแค่ส่วนหนึ่งของวลี of the regional managers ไม่ใช่ประธาน"
     },
+    "point": {
+      "key": "each of + the + N(s) + V(s/es)",
+      "th": "each of (แต่ละ…) นับทีละหนึ่ง กริยาเติม s",
+      "en": "each of + plural noun takes the -s verb",
+      "wrong": ["Each of the regional managers are expected"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "The head of the subject is 'list', which is singular; 'of approved suppliers' only describes it. So the singular 'is' is correct. 'are' agrees with 'suppliers', the noun closest to the blank, which is the trap.",
       "th": "คำนามหลักของประธานคือ list ซึ่งเป็นเอกพจน์ ส่วน of approved suppliers เป็นแค่วลีขยาย จึงใช้กริยา is กับดักคือ are ซึ่งไปผันตาม suppliers คำที่อยู่ใกล้ช่องว่างที่สุด แต่ไม่ใช่ประธาน"
+    },
+    "point": {
+      "key": "N + of + N(s) + V(s/es)",
+      "th": "ผันกริยาตามคำนามหน้า of (list) ไม่ใช่คำนามหลัง of",
+      "en": "the verb follows the noun before of (list)",
+      "wrong": ["The list of approved suppliers are updated"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "The subject is 'One', not 'stores', so the verb must be singular: 'is located'. 'are located' agrees with 'stores', but that noun is inside the phrase 'of the company's newest stores'.",
       "th": "ประธานคือ One (หนึ่งร้าน) ไม่ใช่ stores จึงต้องใช้กริยาเอกพจน์ is located ส่วน are located ผันตาม stores ซึ่งอยู่ในวลี of the company's newest stores ไม่ใช่ประธานของประโยค"
     },
+    "point": {
+      "key": "one of + the + N(s) + V(s/es)",
+      "th": "one of (หนึ่งใน…) นับเป็นหนึ่ง กริยาเติม s",
+      "en": "one of + plural noun takes the -s verb",
+      "wrong": ["One of the company's newest stores are located"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "'The number of ...' refers to one number, so it takes a singular verb: 'has grown'. 'have' is the trap because 'customers' is plural, but compare 'A number of customers have', which means 'many customers'.",
       "th": "The number of ... หมายถึง จำนวน (ตัวเลขหนึ่งตัว) จึงใช้กริยาเอกพจน์ has (has grown) ส่วน have เป็นกับดักเพราะ customers เป็นพหูพจน์ ให้จำคู่กับ A number of customers have ซึ่งแปลว่า ลูกค้าจำนวนมาก และใช้กริยาพหูพจน์"
+    },
+    "point": {
+      "key": "the number of + N(s) + V(s/es)",
+      "th": "the number of (จำนวน) นับเป็นหนึ่ง กริยาเติม s",
+      "en": "the number of = one amount: -s verb",
+      "wrong": ["The number of customers have grown"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "With 'neither ... nor', the verb agrees with the subject closer to it. Here that is 'her assistants', which is plural, so 'are' is correct. 'is' would agree with 'the sales director', but she is the farther subject.",
       "th": "โครงสร้าง neither ... nor ให้กริยาผันตามประธานตัวที่อยู่ใกล้กริยามากที่สุด ในที่นี้คือ her assistants ซึ่งเป็นพหูพจน์ (plural) จึงใช้ are ส่วน is จะผันตาม the sales director ซึ่งอยู่ไกลกริยากว่า จึงไม่ถูก"
     },
+    "point": {
+      "key": "neither + N + nor + N + V",
+      "th": "neither…nor ผันกริยาตามคำนามตัวหลัง (ใกล้กริยา)",
+      "en": "neither … nor: the verb follows the nearer noun",
+      "wrong": ["Neither the director nor her assistants is available"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "The subject is the gerund phrase 'Reviewing customer feedback on a regular basis', which counts as one activity and takes a singular verb: 'helps'. 'help' is tempting because the subject is long and 'feedback' can be misread as the subject, but a single gerund phrase counts as one activity and takes a singular verb.",
       "th": "ประธานคือวลี gerund (Reviewing customer feedback on a regular basis) ซึ่งนับเป็นกิจกรรมเดียว จึงใช้กริยาเอกพจน์ helps ส่วน help อาจดูถูกเพราะประธานยาวและอาจเข้าใจผิดว่า feedback เป็นประธาน แต่ประธานที่เป็นวลี gerund วลีเดียวนับเป็นกิจกรรมเดียว จึงใช้กริยาเอกพจน์"
+    },
+    "point": {
+      "key": "V-ing + Obj + V(s/es)",
+      "th": "ประธานเป็นกริยาเติม -ing นับเป็น 1 เรื่อง กริยาเติม s",
+      "en": "an -ing subject is one thing: -s verb",
+      "wrong": ["Reviewing customer feedback help managers"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "'committee' is a collective noun acting as a single group, and the pronoun 'its' confirms it is treated as singular. So 'has completed' is correct. 'have' treats the committee as separate people, which does not match 'its'.",
       "th": "committee เป็นคำนามรวม (collective noun) ที่ทำหน้าที่เป็นกลุ่มเดียว และคำว่า its ในประโยคยืนยันว่าเป็นเอกพจน์ จึงใช้ has (has completed) ส่วน have มองคณะกรรมการเป็นหลายคนแยกกัน ซึ่งขัดกับ its"
     },
+    "point": {
+      "key": "committee + V(s/es)",
+      "th": "คณะกรรมการ (กลุ่มเดียว) กริยาเติม s",
+      "en": "one group counts as one: -s verb",
+      "wrong": ["The hiring committee have completed its review"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "Normally 'X and Y' takes a plural verb, but when 'every' comes before the joined nouns, each person is considered one at a time, so the verb is singular: 'is'. 'are' is the trap because of the word 'and'.",
       "th": "ปกติ X and Y ใช้กริยาพหูพจน์ แต่ถ้ามี every นำหน้า จะหมายถึงทีละคน จึงใช้กริยาเอกพจน์ is กับดักคือ are ที่หลายคนเลือกเพราะเห็นคำว่า and"
+    },
+    "point": {
+      "key": "every + N + and + N",
+      "th": "every + คำนามสองตัว ก็ยังใช้กริยาเติม s",
+      "en": "every … and … still takes the -s verb",
+      "wrong": ["Every manager and supervisor are required"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "'who' refers back to 'The consultants', which is plural, so the verb in the relative clause must be plural: 'were hired'. 'was' would only work if one consultant had been hired.",
       "th": "who ในประโยคนี้หมายถึง The consultants ซึ่งเป็นพหูพจน์ กริยาในอนุประโยค (relative clause) จึงต้องเป็นพหูพจน์ด้วย คือ were (were hired) ส่วน was ใช้ได้เฉพาะเมื่อจ้างที่ปรึกษาคนเดียว"
     },
+    "point": {
+      "key": "N + who/which/that + V",
+      "th": "กริยาหลัง who/which/that ผันตามคำนามข้างหน้า",
+      "en": "the verb agrees with the noun before who/which/that",
+      "wrong": ["The consultants who was hired"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "In a 'There ___' sentence, the real subject comes after the verb. Here it is 'several openings', which is plural, so 'are' is correct. 'is' would be used with a singular noun, as in 'There is one opening'.",
       "th": "ในประโยคที่ขึ้นต้นด้วย There ประธานจริงอยู่หลังกริยา ในที่นี้คือ several openings ซึ่งเป็นพหูพจน์ จึงใช้ are ส่วน is ใช้กับคำนามเอกพจน์ เช่น There is one opening และห้ามใช้ has แทนแบบภาษาไทยที่พูดว่า มี"
+    },
+    "point": {
+      "key": "there + are + N(s)",
+      "th": "ดูคำนามหลัง there (openings หลายตำแหน่ง) ใช้ are",
+      "en": "look at the noun after there is/are",
+      "wrong": ["There is several openings"]
     },
     "status": "approved"
   }

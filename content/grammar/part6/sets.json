@@ -19,6 +19,14 @@
         "explain": {
           "en": "Employees do not move themselves here; they are moved. After 'will be', use the past participle 'relocated' to form the passive voice.",
           "th": "พนักงานเป็นผู้ถูกย้าย จึงต้องใช้ passive voice คือ will be + กริยาช่อง 3 (relocated)"
+        },
+        "point": {
+          "key": "will + be + V3",
+          "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
+          "en": "will be done: will be + past participle",
+          "wrong": [
+            "employees will be relocate"
+          ]
         }
       },
       {
@@ -101,6 +109,14 @@
         "explain": {
           "en": "The previous sentence says the switch happens on November 1, so 'after that date' is in the future. Forms are accepted by someone, so the future passive 'will no longer be accepted' fits. 'will no longer accept' is active, but forms cannot accept anything.",
           "th": "ประโยคก่อนหน้าบอกว่าจะเปลี่ยนระบบในวันที่ 1 พฤศจิกายน ดังนั้น after that date คือเหตุการณ์ในอนาคต และแบบฟอร์มเป็นสิ่งที่ถูกรับ จึงต้องใช้ future passive คือ will no longer be accepted ส่วน will no longer accept เป็น active voice ซึ่งแบบฟอร์มรับอะไรเองไม่ได้"
+        },
+        "point": {
+          "key": "will + be + V3",
+          "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
+          "en": "will be done: will be + past participle",
+          "wrong": [
+            "paper forms will no longer accept"
+          ]
         }
       },
       {
@@ -265,6 +281,11 @@
         "explain": {
           "en": "The next sentence says the package left the warehouse this morning, so the sending is already complete. The present perfect 'have sent' fits. 'will send' is tempting but describes a future action, which contradicts the package already being on its way.",
           "th": "ประโยคถัดไปบอกว่าพัสดุออกจากคลังสินค้าแล้วเมื่อเช้านี้ แสดงว่าการส่งเกิดขึ้นแล้ว จึงใช้ present perfect คือ have sent ส่วน will send เป็นอนาคต ขัดกับข้อมูลว่าพัสดุถูกส่งออกไปแล้ว"
+        },
+        "point": {
+          "key": "have/has + V3",
+          "th": "ทำเสร็จแล้วและยังมีผลตอนนี้ ใช้ have/has + กริยาช่อง 3",
+          "en": "done already and true now: have/has + past participle"
         }
       },
       {
@@ -313,6 +334,14 @@
         "explain": {
           "en": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund: 'serving'. 'serve' is tempting because it looks like an infinitive, but 'to' here is not part of an infinitive.",
           "th": "ใน look forward to คำว่า to เป็น preposition ไม่ใช่ส่วนของ infinitive จึงต้องตามด้วย gerund คือ serving ส่วน serve เป็นกับดักเพราะดูเหมือน to + กริยาช่อง 1"
+        },
+        "point": {
+          "key": "look forward to + V-ing",
+          "th": "to ใน look forward to (ตั้งตารอ) ตามด้วย -ing",
+          "en": "look forward to + -ing: to is a preposition here",
+          "wrong": [
+            "look forward to serve you again"
+          ]
         }
       }
     ],
@@ -338,6 +367,14 @@
         "explain": {
           "en": "The next sentence says the new time has already been confirmed, so the change is complete. A meeting is rescheduled by people, so the present perfect passive 'has been rescheduled' fits. 'will be rescheduled' is tempting, but it describes a future change that the next sentence shows has already happened.",
           "th": "ประโยคถัดไปบอกว่ายืนยันเวลาใหม่กับลูกค้าแล้ว แสดงว่าการเลื่อนประชุมเกิดขึ้นเรียบร้อยแล้ว และการประชุมเป็นสิ่งที่ถูกเลื่อน จึงใช้ present perfect passive คือ has been rescheduled ส่วน will be rescheduled เป็นอนาคต ขัดกับข้อมูลว่ายืนยันเวลาใหม่ไปแล้ว และ has rescheduled เป็น active voice ซึ่งการประชุมเลื่อนตัวเองไม่ได้"
+        },
+        "point": {
+          "key": "have/has + been + V3",
+          "th": "ถูก…แล้ว (ยังมีผลตอนนี้) ใช้ have/has been + กริยาช่อง 3",
+          "en": "has been done: have/has been + past participle",
+          "wrong": [
+            "The meeting has rescheduled to Friday"
+          ]
         }
       },
       {
@@ -427,6 +464,14 @@
         "explain": {
           "en": "'Be sure' is followed by a to-infinitive, so 'to complete' is correct. 'completing' is tempting, but 'be sure' does not take an -ing form directly.",
           "th": "หลัง be sure (ต้องแน่ใจว่าได้ทำ) ต้องตามด้วย to-infinitive คือ to complete ส่วน completing เป็น gerund ซึ่งใช้ตามหลัง be sure โดยตรงไม่ได้"
+        },
+        "point": {
+          "key": "be sure + to V1",
+          "th": "be sure to (อย่าลืม…) + กริยารูปเดิม",
+          "en": "be sure to + base verb: do not forget to",
+          "wrong": [
+            "Be sure completing this step"
+          ]
         }
       },
       {
@@ -502,6 +547,14 @@
         "explain": {
           "en": "The subject is 'The agreement', which is singular; 'between the two companies' only describes it. So the singular verb 'allows' is needed. 'allow' is tempting because the plural 'companies' comes right before the blank.",
           "th": "ประธานของประโยคคือ The agreement ซึ่งเป็นเอกพจน์ ส่วน between the two companies เป็นเพียงส่วนขยาย จึงต้องใช้กริยาเอกพจน์ คือ allows ส่วน allow เป็นกับดักเพราะมีคำนามพหูพจน์ companies อยู่ติดกับช่องว่าง"
+        },
+        "point": {
+          "key": "N + between + N(s) + V(s/es)",
+          "th": "ผันกริยาตามคำนามหน้า between (agreement)",
+          "en": "the verb follows the noun before between (agreement)",
+          "wrong": [
+            "The agreement between the two companies allow"
+          ]
         }
       },
       {
@@ -625,6 +678,14 @@
         "explain": {
           "en": "The first sentence says the pool will be closed in August, so the work during the closure is in the future. A heating system is installed by workers, so the future passive 'will be installed' fits. 'was installed' is tempting, but it puts the work in the past, before the closure has even started.",
           "th": "ประโยคแรกบอกว่าสระจะปิดในเดือนสิงหาคม ดังนั้น During the closure จึงหมายถึงอนาคต และระบบทำความร้อนเป็นสิ่งที่ถูกติดตั้ง จึงใช้ future passive คือ will be installed ส่วน was installed เป็นอดีต ขัดกับการที่ยังไม่ได้เริ่มปิดสระ และ will install เป็น active voice ซึ่งระบบติดตั้งตัวเองไม่ได้"
+        },
+        "point": {
+          "key": "will + be + V3",
+          "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
+          "en": "will be done: will be + past participle",
+          "wrong": [
+            "a new heating system will install"
+          ]
         }
       },
       {
@@ -757,6 +818,11 @@
         "explain": {
           "en": "The next sentence asks the reader to renew before that date, so April 30 has not arrived yet. The future 'will expire' fits. 'expired' is tempting, but a membership that has already ended cannot be renewed before its end date.",
           "th": "ประโยคถัดไปขอให้ต่ออายุก่อนวันนั้น (renew before that date) แสดงว่าวันที่ 30 เมษายนยังมาไม่ถึง จึงใช้อนาคต คือ will expire ส่วน expired เป็นกับดัก เพราะถ้าสมาชิกภาพหมดอายุไปแล้ว ก็ต่ออายุก่อนวันหมดอายุไม่ได้"
+        },
+        "point": {
+          "key": "will + V1",
+          "th": "เรื่องที่ยังไม่ถึงวันนั้น (อนาคต) ใช้ will + กริยารูปเดิม",
+          "en": "a date still to come: will + base verb"
         }
       },
       {
@@ -805,6 +871,14 @@
         "explain": {
           "en": "The verb 'hesitate' is followed by a to-infinitive, so 'do not hesitate to contact us' is correct. 'contacting' is tempting, but 'hesitate' does not take a gerund in this standard phrase.",
           "th": "กริยา hesitate ตามด้วย to-infinitive จึงใช้ to contact ในสำนวน do not hesitate to contact us (ติดต่อเราได้เลย) ส่วน contacting เป็นกับดัก เพราะ hesitate ไม่ตามด้วย gerund ในสำนวนนี้"
+        },
+        "point": {
+          "key": "hesitate + to V1",
+          "th": "do not hesitate to (อย่าลังเลที่จะ) + กริยารูปเดิม",
+          "en": "hesitate + to + base verb",
+          "wrong": [
+            "do not hesitate contacting us"
+          ]
         }
       }
     ],
@@ -830,6 +904,14 @@
         "explain": {
           "en": "'which' refers to 'The service', a singular noun, so the verb must be singular: 'allows'. 'allow' and 'have allowed' are plural forms, and 'allowing' cannot be the main verb of a relative clause.",
           "th": "which ในที่นี้หมายถึง The service ซึ่งเป็นคำนามเอกพจน์ (singular) กริยาจึงต้องเป็นเอกพจน์ คือ allows ส่วน allow และ have allowed ใช้กับประธานพหูพจน์ และ allowing เป็นกริยาหลักใน relative clause ไม่ได้"
+        },
+        "point": {
+          "key": "N + who/which/that + V",
+          "th": "กริยาหลัง who/which/that ผันตามคำนามข้างหน้า",
+          "en": "the verb agrees with the noun before who/which/that",
+          "wrong": [
+            "The service, which allow customers"
+          ]
         }
       },
       {
@@ -846,6 +928,14 @@
         "explain": {
           "en": "The previous sentence says the trial ran from January to June of last year, so it is finished and the simple past 'rose' fits. 'will rise' is tempting because the article talks about future expansion, but the trial is over. 'rise' has no passive form, so 'were risen' is wrong.",
           "th": "ประโยคก่อนหน้าบอกว่าการทดลองเกิดขึ้นตั้งแต่มกราคมถึงมิถุนายนของปีที่แล้ว แสดงว่าจบไปแล้ว จึงใช้ past simple คือ rose ส่วน will rise เป็นกับดัก เพราะบทความพูดถึงการขยายในอนาคต แต่ช่วงทดลองจบไปแล้ว และ rise เป็นกริยาที่ไม่มีกรรม จึงทำเป็น passive (were risen) ไม่ได้"
+        },
+        "point": {
+          "key": "S + V2",
+          "th": "เรื่องที่จบในอดีตแล้ว (last year) ใช้กริยาช่อง 2",
+          "en": "finished in the past (last year): past simple",
+          "wrong": [
+            "online orders were risen by 40 percent"
+          ]
         }
       },
       {
@@ -985,6 +1075,14 @@
         "explain": {
           "en": "The previous sentence says the order was scheduled to ship next Monday, so 'that date' is still in the future. The order is shipped by the supplier, so the future passive 'will not be shipped' fits. 'was not shipped' is tempting after 'closed last week', but it puts a future date in the past.",
           "th": "ประโยคก่อนหน้าบอกว่าคำสั่งซื้อมีกำหนดส่งวันจันทร์หน้า (next Monday) ดังนั้น that date ยังเป็นอนาคต และคำสั่งซื้อเป็นสิ่งที่ถูกส่ง จึงใช้ future passive คือ will not be shipped ส่วน was not shipped ดูน่าเลือกเพราะมี last week อยู่ใกล้ ๆ แต่เป็นอดีต (past tense) ซึ่งขัดกับวันที่ที่ยังมาไม่ถึง"
+        },
+        "point": {
+          "key": "will + be + V3",
+          "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
+          "en": "will be done: will be + past participle",
+          "wrong": [
+            "your order was not shipped next Monday"
+          ]
         }
       },
       {
@@ -1199,6 +1297,14 @@
         "explain": {
           "en": "The subject is 'Each', not 'receptionists', so the verb must be singular: 'informs'. 'inform', 'are informing' and 'have informed' are tempting because 'receptionists' is right before the blank, but they are plural forms.",
           "th": "ประธานจริงคือ Each ซึ่งเป็นเอกพจน์ (singular) ไม่ใช่ receptionists จึงต้องใช้กริยาเติม s คือ informs ส่วน inform, are informing และ have informed เป็นรูปของประธานพหูพจน์ (plural) ที่หลอกให้ดูคำนามที่อยู่ติดช่องว่าง"
+        },
+        "point": {
+          "key": "each of + the + N(s) + V(s/es)",
+          "th": "each of (แต่ละ…) นับทีละหนึ่ง กริยาเติม s",
+          "en": "each of + plural noun takes the -s verb",
+          "wrong": [
+            "Each of our receptionists now inform guests"
+          ]
         }
       },
       {
@@ -1240,6 +1346,14 @@
         "explain": {
           "en": "The previous sentence announces a new workshop, and a later sentence says sessions will take place in March, so the workshop has not happened yet. The workshop is led by someone, so the future passive 'will be led' fits. 'was led' is passive but past, and 'is leading' and 'has led' are active, so the workshop would be doing the leading.",
           "th": "ประโยคก่อนหน้าประกาศว่าเป็นเวิร์กช็อปใหม่ และประโยคต่อมาบอกว่าจะจัดในเดือนมีนาคม แสดงว่ายังไม่เกิดขึ้น อีกทั้งเวิร์กช็อปเป็นสิ่งที่ถูกนำโดยวิทยากร จึงใช้ future passive คือ will be led ส่วน was led เป็น passive ก็จริงแต่เป็นอดีต และ is leading กับ has led เป็น active voice ซึ่งจะแปลว่าเวิร์กช็อปเป็นผู้นำเอง"
+        },
+        "point": {
+          "key": "will + be + V3",
+          "th": "จะถูก… ใช้ will be + กริยาช่อง 3",
+          "en": "will be done: will be + past participle",
+          "wrong": [
+            "The workshop has led by Maria Lopez"
+          ]
         }
       },
       {
@@ -1288,6 +1402,14 @@
         "explain": {
           "en": "'give someone time to do something' uses a to-infinitive after 'time' to show what the time is for, so 'to attend' is correct. 'attending' is tempting, but 'time attending' does not express the purpose of the time.",
           "th": "โครงสร้าง give someone time to do something ใช้ to-infinitive หลัง time เพื่อบอกว่าเวลานั้นมีไว้ทำอะไร จึงใช้ to attend ส่วน attending ดูน่าเลือก แต่ time attending ไม่ได้สื่อถึงจุดประสงค์ของเวลา"
+        },
+        "point": {
+          "key": "time + to V1",
+          "th": "time to (เวลาที่จะ…) + กริยารูปเดิม",
+          "en": "time + to + base verb: time for doing it",
+          "wrong": [
+            "time attend the workshop"
+          ]
         }
       }
     ],

@@ -8,9 +8,19 @@ import type { Part5Topic, Point } from '../../src/shared/types'
  * Topics whose sheet and questions are finished for beginners. Each content task adds its topics;
  * Task 10 replaces this list with every Part 5 topic.
  */
-const READY: Part5Topic[] = ['collocations', 'word-form', 'word-choice', 'prepositions', 'conj-vs-prep']
+const READY: Part5Topic[] = [
+  'collocations',
+  'word-form',
+  'word-choice',
+  'prepositions',
+  'conj-vs-prep',
+  'tense-voice',
+  'subject-verb-agreement',
+  'modals',
+  'gerund-infinitive'
+]
 /** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
-const NO_QUESTIONS: Part5Topic[] = ['word-choice']
+const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals']
 
 const THAI = /[฀-๿]/
 const { bank } = loadContent(resolve('content'))

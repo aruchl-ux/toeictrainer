@@ -12,6 +12,12 @@
       "en": "'two years ago' points to a finished time in the past, so the simple past 'opened' is needed. 'has opened' is the present perfect, which cannot be used with a finished time expression like 'ago'.",
       "th": "two years ago บอกเวลาที่จบไปแล้วในอดีต จึงต้องใช้ past simple คือ opened ส่วน has opened เป็น present perfect ซึ่งใช้กับคำบอกเวลาที่จบแล้วอย่าง ago ไม่ได้ คนไทยมักใช้ has opened เพราะคิดว่าเหตุการณ์ยังมีผลอยู่"
     },
+    "point": {
+      "key": "V2 + ago",
+      "th": "ago (…ที่แล้ว) คืออดีตที่จบแล้ว ใช้กริยาช่อง 2",
+      "en": "ago is a finished past time: use the past simple",
+      "wrong": ["opens its third center two years ago", "has opened its third center two years ago"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "In a time clause that starts with 'once', 'when' or 'after', English uses the present tense for a future event, so 'is signed' is correct. 'will be' looks logical because the event is in the future, but 'will' is not used inside the time clause.",
       "th": "ในอนุประโยคบอกเวลา (time clause) ที่ขึ้นต้นด้วย once, when, after ต้องใช้ present tense แม้จะพูดถึงอนาคต คำตอบคือ is (is signed) ส่วน will be ดูเหมือนถูกเพราะเป็นเหตุการณ์ในอนาคต แต่ห้ามใช้ will ใน time clause"
+    },
+    "point": {
+      "key": "once + present simple",
+      "th": "หลัง once ใช้กาลปัจจุบัน แม้พูดถึงอนาคต",
+      "en": "present tense after once, even for the future",
+      "wrong": ["Once the contract will be signed"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "'since the department was restructured' describes a situation that started in the past and continues now, so the present perfect 'has served' is required. 'serves' is the simple present and does not connect the past starting point to now.",
       "th": "since the department was restructured บอกว่าสถานการณ์เริ่มในอดีตและยังดำเนินอยู่ถึงปัจจุบัน จึงต้องใช้ present perfect คือ has served ส่วน serves เป็น present simple ไม่ได้เชื่อมจุดเริ่มต้นในอดีตมาถึงปัจจุบัน"
     },
+    "point": {
+      "key": "have/has + V3 + since",
+      "th": "since + จุดเริ่มในอดีต ใช้ have/has + กริยาช่อง 3",
+      "en": "since + a past start: use the present perfect",
+      "wrong": ["serves as head since the department was restructured"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "The room does not renovate anything; workers renovate it, so the verb must be passive. 'currently' shows the work is in progress, so the progressive passive 'is being renovated' is correct. 'renovating' would mean the room itself is doing the work.",
       "th": "ห้องประชุมไม่ได้เป็นผู้ปรับปรุง แต่ถูกปรับปรุง จึงต้องใช้ passive voice และคำว่า currently บอกว่างานกำลังดำเนินอยู่ จึงใช้ is being renovated (present progressive passive) ส่วน renovating จะแปลว่าห้องเป็นผู้ลงมือปรับปรุงเอง ซึ่งไม่สมเหตุสมผล"
+    },
+    "point": {
+      "key": "is/are + being + V3",
+      "th": "กำลังถูก… ใช้ is/are + being + กริยาช่อง 3",
+      "en": "being done now: is/are being + past participle",
+      "wrong": ["The room is currently renovating"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "'since' calls for the present perfect, and procedures cannot introduce anything themselves, so the passive 'have been introduced' is correct. 'have introduced' has the right tense but is active and would need an object after it.",
       "th": "คำว่า since ต้องใช้ present perfect และขั้นตอนความปลอดภัยไม่ได้เป็นผู้นำมาใช้เอง แต่ถูกนำมาใช้ จึงต้องเป็น passive คือ have been introduced ส่วน have introduced ถูกเรื่อง tense แต่เป็น active voice ต้องมีกรรมตามหลัง ซึ่งประโยคนี้ไม่มี"
     },
+    "point": {
+      "key": "have/has + been + V3",
+      "th": "ถูก…แล้ว (ยังมีผลตอนนี้) ใช้ have/has been + กริยาช่อง 3",
+      "en": "has been done: have/has been + past participle",
+      "wrong": ["new procedures have introduced at the factory"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "Two past events are compared: the flight left before Mr. Chen arrived. 'By the time' + simple past ('arrived') signals that the earlier event needs the past perfect 'had departed'. 'has departed' is the present perfect and does not fit a story told in the past.",
       "th": "ประโยคนี้มีเหตุการณ์ในอดีตสองเหตุการณ์ เครื่องบินออกไปก่อนที่คุณ Chen จะมาถึง โครงสร้าง By the time + past simple (arrived) บอกว่าเหตุการณ์ที่เกิดก่อนต้องใช้ past perfect คือ had departed ส่วน has departed เป็น present perfect ใช้เล่าเรื่องในอดีตแบบนี้ไม่ได้"
+    },
+    "point": {
+      "key": "had + V3",
+      "th": "เรื่องที่เกิดก่อนอีกเรื่องในอดีต ใช้ had + กริยาช่อง 3",
+      "en": "the earlier of two past actions: had + past participle",
+      "wrong": ["By the time he arrived, the last flight has departed"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "'By the end of this year' is a future deadline, and the hiring will be complete before it, so the future perfect 'will have hired' is correct. 'had hired' is the past perfect and refers to a point in the past, not the future.",
       "th": "By the end of this year คือจุดเวลาในอนาคต และการจ้างงานจะเสร็จสิ้นก่อนถึงจุดนั้น จึงต้องใช้ future perfect คือ will have hired ส่วน had hired เป็น past perfect ใช้กับจุดเวลาในอดีต ไม่ใช่อนาคต"
     },
+    "point": {
+      "key": "will + have + V3",
+      "th": "by + เวลาในอนาคต = จะเสร็จแล้ว ใช้ will have + กริยาช่อง 3",
+      "en": "done before a future time: will have + past participle",
+      "wrong": ["By the end of this year, it has hired 200 people", "By the end of this year, it had hired 200 people"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "'at the moment' describes an action happening right now, so the present progressive 'is meeting' is correct. 'meets' is the simple present, which is used for habits and schedules, not for something in progress now.",
       "th": "at the moment บอกว่าการกระทำกำลังเกิดขึ้นตอนนี้ จึงต้องใช้ present progressive คือ is meeting ส่วน meets เป็น present simple ใช้กับกิจวัตรหรือตารางเวลา ไม่ใช่สิ่งที่กำลังทำอยู่ขณะนี้"
+    },
+    "point": {
+      "key": "am/is/are + V-ing",
+      "th": "at the moment (ตอนนี้) ใช้ am/is/are + กริยาเติม -ing",
+      "en": "happening now: am/is/are + -ing",
+      "wrong": ["she meets with a client at the moment"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "The board is the one doing the approving, and the verb has an object ('a proposal'), so it must be active. With 'Last week', the simple past 'approved' is correct. 'was approved' is passive and cannot be followed by an object like this.",
       "th": "คณะกรรมการเป็นผู้อนุมัติเอง และกริยามีกรรมตามหลังคือ a proposal จึงต้องใช้ active voice และ Last week บอกเวลาในอดีต คำตอบคือ approved ส่วน was approved เป็น passive voice ซึ่งไม่มีกรรมตามหลังแบบนี้"
     },
+    "point": {
+      "key": "S + V2 + Obj",
+      "th": "ประธานทำเองและมีกรรม (a proposal) ใช้กริยาช่อง 2",
+      "en": "the subject did it and an object follows: past simple",
+      "wrong": ["the board was approved a proposal"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "A ceremony does not hold anything; organizers hold it, and there is no object after the blank, so the passive is needed. 'last Friday evening' requires the past, so 'was held' is correct. 'held' alone would make the ceremony the doer of the action.",
       "th": "งานพิธีไม่ได้เป็นผู้จัดเอง แต่ถูกจัดขึ้นโดยผู้จัดงาน และหลังช่องว่างไม่มีกรรม จึงต้องใช้ passive voice เมื่อรวมกับ last Friday evening ที่บอกเวลาในอดีต คำตอบคือ was held ส่วน held อย่างเดียวจะทำให้งานพิธีกลายเป็นผู้กระทำ ซึ่งเป็นจุดที่คนไทยพลาดบ่อย"
+    },
+    "point": {
+      "key": "was/were + V3",
+      "th": "งานถูกจัดขึ้นในอดีต ใช้ was/were + กริยาช่อง 3",
+      "en": "done to the subject in the past: was/were + past participle",
+      "wrong": ["The ceremony has held at the Riverside Hotel"]
     },
     "status": "approved"
   }

@@ -12,6 +12,12 @@
       "en": "The verb 'agree' is followed by a to-infinitive, so 'agreed to lower' is correct. 'lowering' is wrong because 'agree' does not take a gerund.",
       "th": "กริยา agree ต้องตามด้วย to + กริยารูปปกติ (to-infinitive) จึงตอบ to lower ส่วน lowering เป็น gerund ซึ่งใช้หลัง agree ไม่ได้"
     },
+    "point": {
+      "key": "agree + to V1",
+      "th": "agree (ตกลง) ตามด้วย to + กริยารูปเดิม",
+      "en": "agree + to + base verb",
+      "wrong": ["agreed lowering the price", "agreed lower the price"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "The verb 'avoid' is always followed by a gerund, so 'avoid paying' is correct. 'to pay' is a common mistake because 'avoid' never takes a to-infinitive.",
       "th": "กริยา avoid ต้องตามด้วยกริยาเติม -ing (gerund) เสมอ จึงตอบ paying คนไทยมักเผลอใช้ avoid to pay ซึ่งผิด เพราะ avoid ไม่ตามด้วย to-infinitive"
+    },
+    "point": {
+      "key": "avoid + V-ing",
+      "th": "avoid (หลีกเลี่ยง) ตามด้วยกริยาเติม -ing",
+      "en": "avoid + -ing",
+      "wrong": ["avoid to pay late fees", "avoid pay late fees"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "In 'look forward to', the word 'to' is a preposition, not part of an infinitive, so it must be followed by a gerund: 'working'. 'work' is tempting because it follows 'to', but it is wrong here.",
       "th": "ใน look forward to คำว่า to เป็นคำบุพบท (preposition) ไม่ใช่ to ของ infinitive จึงต้องตามด้วย gerund คือ working ส่วน work ดูน่าเลือกเพราะอยู่หลัง to แต่ในวลีนี้ใช้ไม่ได้"
     },
+    "point": {
+      "key": "look forward to + V-ing",
+      "th": "to ใน look forward to (ตั้งตารอ) ตามด้วย -ing",
+      "en": "look forward to + -ing: to is a preposition here",
+      "wrong": ["look forward to work with your team"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "'is used to' means 'is accustomed to', and its 'to' is a preposition, so a gerund follows: 'communicating'. 'communicate' would fit only 'used to' without 'be', which describes a past habit.",
       "th": "is used to แปลว่า เคยชินกับ และ to ในที่นี้เป็นคำบุพบท จึงต้องตามด้วย gerund คือ communicating ส่วน communicate ใช้กับ used to ที่ไม่มี be ข้างหน้า ซึ่งหมายถึง เคยทำในอดีต (แต่ตอนนี้ไม่ทำแล้ว)"
+    },
+    "point": {
+      "key": "be used to + V-ing",
+      "th": "be used to (คุ้นเคยกับ) ตามด้วยกริยาเติม -ing",
+      "en": "be used to = be accustomed to; + -ing",
+      "wrong": ["Ms. Chen is used to communicate with clients"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "In 'object to', the word 'to' is a preposition, so the verb after it takes the gerund form: 'moving'. 'move' looks natural after 'to', but 'objected to move' is incorrect.",
       "th": "ใน object to (คัดค้าน) คำว่า to เป็นคำบุพบท (preposition) กริยาที่ตามมาจึงต้องเป็น gerund คือ moving ส่วน move ดูเหมือนจะถูกเพราะอยู่หลัง to แต่ objected to move ผิดไวยากรณ์"
     },
+    "point": {
+      "key": "object to + V-ing",
+      "th": "object to (คัดค้าน) to ตัวนี้ตามด้วย -ing",
+      "en": "object to + -ing: to is a preposition here",
+      "wrong": ["objected to move the meeting"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "The verb 'consider' is followed by a gerund, so 'considering opening' is correct even though two -ing words appear together. 'to open' is wrong because 'consider' does not take a to-infinitive.",
       "th": "กริยา consider ต้องตามด้วย gerund จึงตอบ opening ถึงแม้จะมีคำ -ing สองคำติดกันก็ถูกต้อง ส่วน to open ผิด เพราะ consider ไม่ตามด้วย to-infinitive"
+    },
+    "point": {
+      "key": "consider + V-ing",
+      "th": "consider (พิจารณา) ตามด้วยกริยาเติม -ing",
+      "en": "consider + -ing",
+      "wrong": ["is considering to open a second center"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "When 'recommend' is followed directly by an action with no person in between, it takes a gerund: 'recommended simplifying'. 'to simplify' feels natural to many learners, but 'recommend to do' is not standard English.",
       "th": "เมื่อ recommend ตามด้วยการกระทำโดยไม่มีบุคคลคั่นกลาง ต้องใช้ gerund คือ simplifying ส่วน to simplify ผู้เรียนมักคิดว่าถูก แต่ recommend to do ไม่ใช่รูปมาตรฐานในภาษาอังกฤษ"
     },
+    "point": {
+      "key": "recommend + V-ing",
+      "th": "recommend (แนะนำ) ไม่มีคนตามหลัง ใช้ -ing",
+      "en": "recommend + -ing when no person follows",
+      "wrong": ["recommended to simplify the process", "recommended simplify the process"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "A verb that follows a preposition such as 'by' must be a gerund, so 'by sharing' is correct. 'share' and 'to share' cannot follow a preposition.",
       "th": "กริยาที่ตามหลังคำบุพบท (preposition) เช่น by ต้องอยู่ในรูป gerund เสมอ จึงตอบ sharing ส่วน share และ to share วางหลังคำบุพบทไม่ได้"
+    },
+    "point": {
+      "key": "by + V-ing",
+      "th": "by (โดยการ) เป็นคำบุพบท ตามด้วยกริยาเติม -ing",
+      "en": "by + -ing: the way you do it",
+      "wrong": ["by share documents"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "'in order' must be followed by a to-infinitive to express purpose, so 'in order to handle' is correct. 'for handling' can show purpose elsewhere, but it cannot follow 'in order'.",
       "th": "in order ต้องตามด้วย to-infinitive เพื่อบอกจุดประสงค์ (เพื่อที่จะ) จึงตอบ to handle ส่วน for handling แม้จะบอกจุดประสงค์ได้ในบางประโยค แต่ใช้ต่อจาก in order ไม่ได้"
     },
+    "point": {
+      "key": "in order to V1",
+      "th": "in order to (เพื่อที่จะ) + กริยารูปเดิม",
+      "en": "in order to + base verb: for this purpose",
+      "wrong": ["In order handle complaints", "In order for handling complaints"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "The verb 'plan' is followed by a to-infinitive, so 'plans to introduce' is correct. 'introducing' is wrong because 'plan' does not take a gerund, and 'introduction' cannot take the object 'the new inventory system'.",
       "th": "กริยา plan ต้องตามด้วย to-infinitive จึงตอบ to introduce ส่วน introducing ผิดเพราะ plan ไม่ตามด้วย gerund และ introduction เป็นคำนาม จึงมีกรรม the new inventory system ตามหลังไม่ได้"
+    },
+    "point": {
+      "key": "plan + to V1",
+      "th": "plan (วางแผน) ตามด้วย to + กริยารูปเดิม",
+      "en": "plan + to + base verb",
+      "wrong": ["plans introducing the new system", "plans introduce the new system"]
     },
     "status": "approved"
   }

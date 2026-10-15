@@ -1,6 +1,6 @@
 # Grammar cheat sheet
 
-106 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
+107 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
 
 ## word-form
 
@@ -151,13 +151,13 @@ Not on any entry (0): none
 
 ## tense-voice
 
-First look at the time words. Then ask: does the subject do the action, or is it done to the subject?
+All four choices are one verb in different forms, like opens, opened, has opened, will open. First find the time words (ago, since, by next year, at the moment). Then ask: does the subject do the action, or is it done to the subject?
 
-ดูคำบอกเวลาในประโยคก่อน แล้วถามว่า ประธานเป็นคนทำเอง หรือถูกทำ
+ตัวเลือกทั้งสี่เป็นกริยาตัวเดียวกันแต่ต่างรูป เช่น opens, opened, has opened, will open ให้หาคำบอกเวลาก่อน (ago, since, by next year, at the moment) แล้วถามว่าประธานเป็นคนทำเอง หรือถูกทำ
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V2` = กริยาช่อง 2 (went, made) · `V3` = กริยาช่อง 3 (gone, made) · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ)
 
-### Present simple · Present simple (ปัจจุบันกาลธรรมดา) `present-simple`
+### Present simple · กาลปัจจุบันธรรมดา (present simple) `present-simple`
 
     S + V(s/es) + Obj
 
@@ -165,10 +165,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็นคนเดียวหรือสิ่งเดียว (he, she, it) กริยาเติม s/es
 - The shuttle bus **leaves** the hotel every 30 minutes.
 - รถรับส่งออกจากโรงแรมทุก 30 นาที
-- **no common mistake yet**
-- Clues: every day (**no meaning**) · usually (**no meaning**) · always (**no meaning**) · often (**no meaning**) · regularly (**no meaning**)
+- ✗ The bus leave every 30 minutes. → ✓ The bus leaves every 30 minutes.: ภาษาไทยกริยาไม่เปลี่ยนรูป แต่ภาษาอังกฤษ ประธานสิ่งเดียว (the bus) กริยาต้องเติม s (Thai verbs never change, but in English one subject (the bus) needs -s on the verb.)
+- Clues: every day = ทุกวัน · usually = โดยปกติ · always = เสมอ / ทุกครั้ง · often = บ่อย ๆ · regularly = เป็นประจำ
 
-### Present continuous · Present continuous (ปัจจุบันกาลกำลังกระทำ) `present-continuous`
+### Present continuous · กาลปัจจุบันกำลังทำ (present continuous) `present-continuous`
 
     S + am/is/are + V-ing + Obj
 
@@ -176,32 +176,32 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับสิ่งที่กำลังทำอยู่ตอนนี้ หรือแผนที่นัดไว้แล้วเร็ว ๆ นี้
 - Ms. Park **is reviewing** the contract at the moment.
 - คุณพาร์คกำลังตรวจสัญญาอยู่ในขณะนี้
-- **no common mistake yet**
-- Clues: now (**no meaning**) · currently (**no meaning**) · at the moment (**no meaning**) · right now (**no meaning**) · this week (**no meaning**)
+- ✗ She meeting a client now. → ✓ She is meeting a client now.: ภาษาไทยพูดแค่ "กำลัง" แต่ภาษาอังกฤษต้องมีทั้ง am/is/are และกริยาเติม -ing (Thai says กำลัง with no extra verb, but English needs both am/is/are and the -ing verb.)
+- Clues: now = ตอนนี้ · currently = ในปัจจุบัน / ขณะนี้ · at the moment = ในขณะนี้ · this week = สัปดาห์นี้
 
-### Present perfect · Present perfect (ปัจจุบันกาลสมบูรณ์) `present-perfect`
+### Present perfect · กาลปัจจุบันสมบูรณ์ (present perfect) `present-perfect`
 
     S + have/has + V3 + Obj
 
-- For something that started in the past and is still true now. Often with since, for or already.
-- ใช้กับเรื่องที่เริ่มในอดีตและยังเป็นอยู่ถึงตอนนี้ มักเจอ since, for, already
+- For something that started in the past and is still true now, or that is done and matters now. Often with since, for or already.
+- ใช้กับเรื่องที่เริ่มในอดีตและยังเป็นอยู่ถึงตอนนี้ หรือทำเสร็จแล้วและยังมีผลตอนนี้ มักเจอ since, for, already
 - Sales **have increased** steadily since January.
 - ยอดขายเพิ่มขึ้นอย่างต่อเนื่องตั้งแต่เดือนมกราคม
-- **no common mistake yet**
-- Clues: since (**no meaning**) · for (**no meaning**) · already (**no meaning**) · yet (**no meaning**) · recently (**no meaning**) · so far (**no meaning**) · over the past + time (**no meaning**)
+- ✗ I work here since 2019. → ✓ I have worked here since 2019.: since บอกว่าเริ่มในอดีตและยังเป็นอยู่ จึงต้องใช้ have/has + กริยาช่อง 3 ไม่ใช่กริยารูปเดิม (Since tells you it started in the past and is still true, so use have/has + V3.)
+- Clues: have/has + V3 + since = ตั้งแต่… (จุดเริ่มในอดีต) จนถึงตอนนี้ · for + period = เป็นเวลา… (for two years) · already = แล้ว / เรียบร้อยแล้ว · yet = ยัง… (ใช้ในคำถามและปฏิเสธ) · recently = เมื่อเร็ว ๆ นี้ · so far = จนถึงตอนนี้ · over the past + time = ตลอดช่วง… ที่ผ่านมา
 
-### Present perfect continuous · Present perfect continuous `present-perfect-continuous`
+### Present perfect continuous · กาลปัจจุบันสมบูรณ์ต่อเนื่อง (present perfect continuous) `present-perfect-continuous`
 
     S + have/has + been + V-ing
 
 - Like the present perfect, but it stresses how long the action has gone on. It is still going on.
-- เหมือน present perfect แต่เน้นว่าทำต่อเนื่องมานานแค่ไหน และตอนนี้ยังทำอยู่
+- เหมือนกาลปัจจุบันสมบูรณ์ แต่เน้นว่าทำต่อเนื่องมานานแค่ไหน และตอนนี้ยังทำอยู่
 - Mr. Lee **has been working** on the report for three hours.
 - คุณลีทำรายงานฉบับนี้มาสามชั่วโมงแล้ว
-- **no common mistake yet**
-- Clues: for + period (**no meaning**) · since (**no meaning**) · all day (**no meaning**) · lately (**no meaning**)
+- ✗ I am waiting for two hours. → ✓ I have been waiting for two hours.: for two hours บอกว่าทำมานานเท่าไร จึงใช้ have/has been + กริยาเติม -ing ไม่ใช่ am/is/are (For two hours says how long it has gone on, so use have/has been + -ing, not am/is/are + -ing.)
+- Clues: for + period = เป็นเวลา… · since = ตั้งแต่… · all day = ทั้งวัน · lately = ช่วงนี้
 
-### Past simple · Past simple (อดีตกาลธรรมดา) `past-simple`
+### Past simple · กาลอดีตธรรมดา (past simple) `past-simple`
 
     S + V2 + Obj
 
@@ -209,32 +209,32 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับเรื่องที่จบไปแล้วในอดีต และบอกเวลาชัด เช่น yesterday, last year, ago
 - The company **opened** its first branch in 2015.
 - บริษัทเปิดสาขาแรกในปี 2015
-- **no common mistake yet**
-- Clues: yesterday (**no meaning**) · last + time (**no meaning**) · ago (**no meaning**) · in + past year (**no meaning**) · previously (**no meaning**)
+- ✗ The store has opened two years ago. → ✓ The store opened two years ago.: คำว่า "แล้ว" ไม่ได้แปลว่าต้องใช้ has ถ้ามีเวลาในอดีตชัด ๆ (ago, last year) ใช้กริยาช่อง 2 (Thai แล้ว does not mean has/have. With a clear past time (ago, last year), use V2.)
+- Clues: V2 + ago = …ที่แล้ว (two years ago = สองปีที่แล้ว) · yesterday = เมื่อวาน · last + time = …ที่แล้ว (last week = สัปดาห์ที่แล้ว) · in + past year = ในปี… ที่ผ่านไปแล้ว · previously = ก่อนหน้านี้
 
-### Past continuous · Past continuous (อดีตกาลกำลังกระทำ) `past-continuous`
+### Past continuous · กาลอดีตกำลังทำ (past continuous) `past-continuous`
 
     S + was/were + V-ing
 
 - For something that was in progress in the past when another thing happened (when + V2).
-- ใช้กับสิ่งที่กำลังทำอยู่ในอดีต แล้วมีอีกเรื่องเข้ามาแทรก (when + V2)
+- ใช้กับสิ่งที่กำลังทำอยู่ในอดีต แล้วมีอีกเรื่องเข้ามาแทรก (when + กริยาช่อง 2)
 - The manager **was speaking** with a client when the power went out.
 - ผู้จัดการกำลังคุยกับลูกค้าอยู่ตอนที่ไฟดับ
-- **no common mistake yet**
-- Clues: when + V2 (**no meaning**) · while (**no meaning**) · at that time (**no meaning**) · at 3 p.m. yesterday (**no meaning**)
+- ✗ He was speak with a client. → ✓ He was speaking with a client.: "กำลัง…อยู่" ในอดีต ต้องใช้ was/were + กริยาเติม -ing (For กำลัง…อยู่ in the past, was/were needs the -ing verb.)
+- Clues: when + V2 = ตอนที่… (อีกเรื่องเกิดขึ้น) · while = ขณะที่ · at that time = ในตอนนั้น · at 3 p.m. yesterday = เมื่อวานตอนบ่ายสามโมง
 
-### Past perfect · Past perfect (อดีตกาลสมบูรณ์) `past-perfect`
+### Past perfect · กาลอดีตสมบูรณ์ (past perfect) `past-perfect`
 
     S + had + V3 + Obj
 
 - When there are two past actions, use had + V3 for the one that happened first.
-- ในอดีตมี 2 เรื่อง เรื่องที่เกิดก่อนใช้ had + V3
+- ในอดีตมี 2 เรื่อง เรื่องที่เกิดก่อนใช้ had + กริยาช่อง 3
 - The meeting **had started** before Ms. Diaz arrived.
 - การประชุมเริ่มไปแล้วก่อนที่คุณดิแอซจะมาถึง
-- **no common mistake yet**
-- Clues: before + V2 (**no meaning**) · by the time + V2 (**no meaning**) · already (**no meaning**) · after + had V3 (**no meaning**)
+- ✗ By the time he arrived, the flight has left. → ✓ By the time he arrived, the flight had left.: ทั้งสองเรื่องอยู่ในอดีต (arrived) เรื่องที่เกิดก่อนจึงใช้ had ไม่ใช่ has (Both actions are in the past (arrived), so the earlier one takes had, not has.)
+- Clues: before + V2 = ก่อนที่… (อีกเรื่องในอดีต) · by the time + V2 = ตอนที่… (เรื่องแรกเสร็จไปแล้ว) · already = แล้ว / เรียบร้อยแล้ว · after + had + V3 = หลังจากที่…ไปแล้ว
 
-### Future simple (will) · Future simple (will) `future-will`
+### Future simple (will) · กาลอนาคตด้วย will (future simple) `future-will`
 
     S + will + V1 + Obj
 
@@ -242,10 +242,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้พูดถึงอนาคต กริยาหลัง will เป็นรูปเดิมเสมอ (ไม่เติม s)
 - The new policy **will take** effect next month.
 - นโยบายใหม่จะมีผลบังคับใช้เดือนหน้า
-- **no common mistake yet**
-- Clues: tomorrow (**no meaning**) · next + time (**no meaning**) · soon (**no meaning**) · upcoming (**no meaning**) · in the future (**no meaning**)
+- ✗ The policy will takes effect. → ✓ The policy will take effect.: หลัง will ใช้กริยารูปเดิม ไม่เติม s แม้ประธานจะเป็นสิ่งเดียว (After will, use the base verb with no -s, even for one subject.)
+- Clues: tomorrow = พรุ่งนี้ · next + time = …หน้า (next week = สัปดาห์หน้า) · soon = เร็ว ๆ นี้ · upcoming = ที่กำลังจะมาถึง · in the future = ในอนาคต
 
-### be going to · be going to (แผนที่ตั้งใจไว้) `be-going-to`
+### be going to · แผนที่ตั้งใจไว้แล้ว (be going to) `be-going-to`
 
     S + am/is/are + going to + V1
 
@@ -253,10 +253,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับแผนที่ตั้งใจไว้แล้ว
 - We **are going to hire** two more engineers this year.
 - ปีนี้เราจะจ้างวิศวกรเพิ่มอีกสองคน
-- **no common mistake yet**
-- Clues: this year (**no meaning**) · next + time (**no meaning**) · plan (**no meaning**)
+- ✗ We going to hire two engineers. → ✓ We are going to hire two engineers.: ภาษาไทยพูดแค่ "จะ" แต่ภาษาอังกฤษต้องมี am/is/are หน้า going to (Thai จะ is one word, but English needs am/is/are before going to.)
+- Clues: this year = ปีนี้ · next + time = …หน้า · plan = แผนที่วางไว้
 
-### Future continuous · Future continuous `future-continuous`
+### Future continuous · กาลอนาคตกำลังทำ (future continuous) `future-continuous`
 
     S + will + be + V-ing
 
@@ -264,10 +264,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับสิ่งที่จะกำลังทำอยู่ ณ เวลาหนึ่งในอนาคต
 - At 3 p.m. tomorrow, Ms. Tan **will be presenting** the results.
 - พรุ่งนี้เวลาบ่ายสามโมง คุณแทนจะกำลังนำเสนอผลลัพธ์อยู่
-- **no common mistake yet**
-- Clues: at this time tomorrow (**no meaning**) · at + time + future day (**no meaning**)
+- ✗ She will presenting the results. → ✓ She will be presenting the results.: ระหว่าง will กับกริยาเติม -ing ต้องมี be เสมอ (Will + -ing needs be in the middle: will be + -ing.)
+- Clues: at this time tomorrow = เวลานี้ของพรุ่งนี้ · at + time + future day = ตอน… ของวันข้างหน้า (at 3 p.m. tomorrow)
 
-### Future perfect · Future perfect (อนาคตกาลสมบูรณ์) `future-perfect`
+### Future perfect · กาลอนาคตสมบูรณ์ (future perfect) `future-perfect`
 
     S + will + have + V3
 
@@ -275,81 +275,98 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้กับสิ่งที่จะเสร็จก่อนเวลาหนึ่งในอนาคต มักเจอ by + เวลา
 - By the end of June, the team **will have completed** the project.
 - ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว
-- **no common mistake yet**
-- Clues: by + future time (**no meaning**) · by the time + V(s/es) (**no meaning**) · by next year (**no meaning**)
+- ✗ By the end of this year, we have hired 200 people. → ✓ By the end of this year, we will have hired 200 people.: by + เวลาในอนาคต = จะเสร็จก่อนเวลานั้น จึงใช้ will have + กริยาช่อง 3 (By + a future time means it will be done by then, so use will have + V3.)
+- Clues: by + future time = ภายใน… (เวลาในอนาคต) · by the time + V(s/es) = เมื่อถึงตอนที่… (ในอนาคต) · by the end of this year = ภายในสิ้นปีนี้
 
-### Future time clauses · ประโยคบอกเวลาที่พูดถึงอนาคต `time-clause-future`
+### Future time clauses · ประโยคบอกเวลาที่พูดถึงอนาคต (future time clauses) `time-clause-future`
 
     when/once/after/as soon as + S + V(s/es), S + will + V1
 
-- After when, once, after or as soon as, use the present simple even for the future. Do not use will.
-- หลัง when, once, after, as soon as ถึงจะพูดถึงอนาคต ก็ใช้ present simple ห้ามใช้ will
+- In a time clause (when, once, after, as soon as + S + V), use the present simple even for the future. Do not use will there.
+- ในประโยคบอกเวลา (when, once, after, as soon as + ประธาน + กริยา) ถึงจะพูดถึงอนาคต ก็ใช้กาลปัจจุบัน ห้ามใส่ will
 - Please call me as soon as the shipment **arrives**.
 - กรุณาโทรหาฉันทันทีที่สินค้ามาถึง
-- **no common mistake yet**
-- Clues: when (**no meaning**) · once (**no meaning**) · as soon as (**no meaning**) · until (**no meaning**) · before (**no meaning**) · after (**no meaning**)
+- ✗ once the contract will be signed → ✓ once the contract is signed: ภาษาไทยใส่ "จะ" ได้ทั้งสองส่วน แต่หลัง once, when, as soon as ภาษาอังกฤษใช้กาลปัจจุบัน (Thai can say จะ in both parts, but after once, when or as soon as English uses the present.)
+- Clues: once + present simple = once = ทันทีที่ ใช้กาลปัจจุบันแม้พูดถึงอนาคต · when = เมื่อ · as soon as = ทันทีที่ · until = จนกว่า · before / after = ก่อนที่ / หลังจากที่
 
-### Passive voice · Passive voice (ประโยคถูกกระทำ) `passive-voice`
+### Passive voice · รูปถูกกระทำ (passive voice) `passive-voice`
 
     S + be + V3
     S + have/has + been + V3
     S + is/are + being + V3
 
-- Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive.
-- ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + V3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็น passive
+- Use it when something is done to the subject. The pattern is be + V3. If no object follows the blank, it is often passive; if an object follows, the subject does the action.
+- ใช้เมื่อประธาน "ถูกทำ" ไม่ได้ทำเอง สูตรคือ be + กริยาช่อง 3 ถ้าหลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ ถ้ามีกรรมตามหลัง ประธานเป็นคนทำเอง
 - The invoices **were sent** to all clients yesterday.
 - ใบแจ้งหนี้ถูกส่งถึงลูกค้าทุกรายเมื่อวานนี้
-- **no common mistake yet**
-- Clues: by + doer (**no meaning**) · no object after the blank (**no meaning**) · thing as subject (**no meaning**)
+- ✗ The room is renovating. → ✓ The room is being renovated.: ภาษาไทยพูดว่า "ห้องกำลังซ่อม" ได้ แต่ห้องซ่อมตัวเองไม่ได้ ต้องใช้รูปถูกกระทำ is being + กริยาช่อง 3 (Thai can say ห้องกำลังซ่อม, but a room cannot renovate itself: it is being renovated.)
+- Clues: was/were + V3 = ถูก… (ในอดีต) · will + be + V3 = จะถูก… · by + doer = โดย… (คนที่ทำ) · no object after the blank = หลังช่องว่างไม่มีกรรม มักเป็นรูปถูกกระทำ · thing as subject = ประธานเป็นสิ่งของ (ห้อง, การประชุม) มักถูกทำ
 
-### Tested in drills (0)
+### Tested in drills (14)
 
+- `am/is/are + V-ing` = at the moment (ตอนนี้) ใช้ am/is/are + กริยาเติม -ing (happening now: am/is/are + -ing) · ✗ she meets with a client at the moment
+- `had + V3` = เรื่องที่เกิดก่อนอีกเรื่องในอดีต ใช้ had + กริยาช่อง 3 (the earlier of two past actions: had + past participle) · ✗ By the time he arrived, the last flight has departed
+- `have/has + been + V3` = ถูก…แล้ว (ยังมีผลตอนนี้) ใช้ have/has been + กริยาช่อง 3 (has been done: have/has been + past participle) · ✗ new procedures have introduced at the factory, The meeting has rescheduled to Friday
+- `have/has + V3` = ทำเสร็จแล้วและยังมีผลตอนนี้ ใช้ have/has + กริยาช่อง 3 (done already and true now: have/has + past participle)
+- `have/has + V3 + since` = since + จุดเริ่มในอดีต ใช้ have/has + กริยาช่อง 3 (since + a past start: use the present perfect) · ✗ serves as head since the department was restructured
+- `is/are + being + V3` = กำลังถูก… ใช้ is/are + being + กริยาช่อง 3 (being done now: is/are being + past participle) · ✗ The room is currently renovating
+- `once + present simple` = หลัง once ใช้กาลปัจจุบัน แม้พูดถึงอนาคต (present tense after once, even for the future) · ✗ Once the contract will be signed
+- `S + V2` = เรื่องที่จบในอดีตแล้ว (last year) ใช้กริยาช่อง 2 (finished in the past (last year): past simple) · ✗ online orders were risen by 40 percent
+- `S + V2 + Obj` = ประธานทำเองและมีกรรม (a proposal) ใช้กริยาช่อง 2 (the subject did it and an object follows: past simple) · ✗ the board was approved a proposal
+- `V2 + ago` = ago (…ที่แล้ว) คืออดีตที่จบแล้ว ใช้กริยาช่อง 2 (ago is a finished past time: use the past simple) · ✗ opens its third center two years ago, has opened its third center two years ago
+- `was/were + V3` = งานถูกจัดขึ้นในอดีต ใช้ was/were + กริยาช่อง 3 (done to the subject in the past: was/were + past participle) · ✗ The ceremony has held at the Riverside Hotel
+- `will + be + V3` = จะถูก… ใช้ will be + กริยาช่อง 3 (will be done: will be + past participle) · ✗ employees will be relocate, paper forms will no longer accept, a new heating system will install, your order was not shipped next Monday, The workshop has led by Maria Lopez
+- `will + have + V3` = by + เวลาในอนาคต = จะเสร็จแล้ว ใช้ will have + กริยาช่อง 3 (done before a future time: will have + past participle) · ✗ By the end of this year, it has hired 200 people, By the end of this year, it had hired 200 people
+- `will + V1` = เรื่องที่ยังไม่ถึงวันนั้น (อนาคต) ใช้ will + กริยารูปเดิม (a date still to come: will + base verb)
 
 Not on any entry (0): none
 
 ## subject-verb-agreement
 
-Find the real subject first and skip the words in the middle. Then check: one, or more than one?
+The choices are one verb in different forms, like is, are, has, have. Find the real subject first and skip the words in the middle (of the managers, who…). Then check: one thing, or more than one? One thing takes the -s form (is, has, helps).
 
-หาประธานตัวจริงก่อน (ข้ามคำที่แทรกอยู่ตรงกลาง) แล้วดูว่าเป็น 1 หรือหลายอัน
+ตัวเลือกเป็นกริยาตัวเดียวกันแต่ต่างรูป เช่น is, are, has, have ให้หาประธานตัวจริงก่อน (ข้ามคำที่คั่นกลาง เช่น of the managers) แล้วดูว่าเป็นสิ่งเดียวหรือหลายสิ่ง ถ้าสิ่งเดียว กริยาเติม s (is, has, helps)
 
 Symbols: `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ) · `N` = คำนาม
 
-### Singular vs plural subject · ประธานเอกพจน์กับพหูพจน์ `singular-vs-plural-subject`
+### Singular vs plural subject · ประธานสิ่งเดียวกับหลายสิ่ง (singular vs plural subject) `singular-vs-plural-subject`
 
     N + V(s/es)
     N(s) + V1
 
-- One subject: the verb takes -s (is, has). More than one: no -s (are, have).
-- ประธานตัวเดียว กริยาเติม s (is, has) / ประธานหลายตัว กริยาไม่เติม s (are, have)
+- One subject: the verb takes -s (is, has). More than one: no -s (are, have). A group word like committee or team counts as one.
+- ประธานสิ่งเดียว กริยาเติม s (is, has) / ประธานหลายสิ่ง กริยาไม่เติม s (are, have) คำที่เป็นกลุ่ม เช่น committee, team นับเป็นหนึ่ง
 - The new printers **require** less maintenance.
 - เครื่องพิมพ์รุ่นใหม่ต้องการการบำรุงรักษาน้อยกว่า
-- **no common mistake yet**
+- ✗ The manager have a meeting. → ✓ The manager has a meeting.: ภาษาไทยกริยาไม่เปลี่ยนรูป แต่ประธานคนเดียว (the manager) ต้องใช้ has ไม่ใช่ have (Thai verbs never change, but one subject (the manager) needs has, not have.)
+- Clues: is / has / was = ใช้กับประธานสิ่งเดียว · are / have / were = ใช้กับประธานหลายสิ่ง · committee + V(s/es) = คณะกรรมการ (กลุ่มเดียว) กริยาเติม s
 
-### Subject + of + noun · ประธานที่มี of + คำนาม ตามหลัง `of-phrase-subject`
+### Subject + of / between phrase · ประธานที่มีวลีคั่นกลาง (subject + of / between phrase) `of-phrase-subject`
 
     N + of + N(s) + V(s/es)
+    one of + the + N(s) + V(s/es)
+    N + between + N(s) + V(s/es)
 
-- Look at the first noun, before of. The verb follows that noun.
-- ดูคำนามตัวแรก (ก่อน of) แล้วผันกริยาตามตัวนั้น
+- Look at the first noun, before of or between. The verb follows that noun, not the plural noun next to the verb.
+- ดูคำนามตัวแรก (ก่อน of หรือ between) แล้วผันกริยาตามตัวนั้น ไม่ใช่ตามคำนามหลายสิ่งที่อยู่ติดกริยา
 - The list of approved vendors **is** posted online.
 - รายชื่อผู้ขายที่ได้รับอนุมัติประกาศไว้บนเว็บไซต์
-- **no common mistake yet**
-- Clues: the list of (**no meaning**) · the cost of (**no meaning**) · a series of (**no meaning**) · the quality of (**no meaning**)
+- ✗ The list of suppliers are updated. → ✓ The list of suppliers is updated.: ประธานคือ list (รายชื่อเดียว) ไม่ใช่ suppliers จึงใช้ is (The subject is list (one), not suppliers.)
+- Clues: the list of = รายชื่อ / รายการของ… · the cost of = ค่าใช้จ่ายของ… · the quality of = คุณภาพของ… · one of the = หนึ่งใน… (นับเป็นหนึ่ง) · the agreement between = ข้อตกลงระหว่าง…
 
-### Each / every · Each / every `each-every`
+### Each / every · แต่ละ… / ทุก… (each / every) `each-every`
 
     each/every + N + V(s/es)
     each of + the + N(s) + V(s/es)
 
-- Each and every always count as one, so the verb takes -s.
-- each, every นับเป็น 1 เสมอ กริยาจึงเติม s
+- Each and every count things one by one, so the verb takes -s, even in each of the managers or every manager and supervisor.
+- each, every นับทีละหนึ่ง กริยาจึงเติม s แม้จะเป็น each of the managers หรือ every manager and supervisor
 - Each of the applicants **has** been contacted.
 - ผู้สมัครแต่ละคนได้รับการติดต่อแล้ว
-- **no common mistake yet**
-- Clues: each (**no meaning**) · every (**no meaning**) · everyone (**no meaning**) · anyone (**no meaning**) · nobody (**no meaning**)
+- ✗ Each of the managers are ready. → ✓ Each of the managers is ready.: ประธานคือ each (แต่ละคน) ไม่ใช่ managers จึงใช้ is (The subject is each (one by one), not managers.)
+- Clues: each = แต่ละ… · every = ทุก… (นับทีละหนึ่ง) · every + N + and + N = every + คำนามสองตัว ก็ยังใช้กริยาเติม s · everyone / anyone / nobody = ทุกคน / ใครก็ได้ / ไม่มีใคร (กริยาเติม s)
 
-### A number of / the number of · A number of กับ the number of `a-number-of`
+### A number of / the number of · หลาย… กับ จำนวน… (a number of / the number of) `a-number-of`
 
     a number of + N(s) + V1
     the number of + N(s) + V(s/es)
@@ -358,42 +375,67 @@ Symbols: `V` = คำกริยา · `V1` = กริยาช่อง 1 ร
 - a number of = หลาย ๆ (กริยาไม่เติม s) / the number of = จำนวน (กริยาเติม s)
 - The number of participants **has** doubled this year.
 - จำนวนผู้เข้าร่วมเพิ่มขึ้นเป็นสองเท่าในปีนี้
-- **no common mistake yet**
+- ✗ The number of customers have grown. → ✓ The number of customers has grown.: ประธานคือ the number (จำนวน) ไม่ใช่ customers จึงใช้ has (The subject is the number (one amount), not customers.)
+- Clues: a number of = หลาย… · the number of = จำนวนของ… (ตัวเลขเดียว)
 
-### Either … or / neither … nor · Either … or / neither … nor `either-neither`
+### Either … or / neither … nor · …หรือ… / ไม่ทั้ง…และ… (either … or / neither … nor) `either-neither`
 
     either + N + or + N + V
     neither + N + nor + N + V
 
-- The verb follows the noun closest to it.
-- ผันกริยาตามคำนามที่อยู่ใกล้กริยาที่สุด
+- The verb follows the noun closest to it, the one after or / nor.
+- ผันกริยาตามคำนามที่อยู่ใกล้กริยาที่สุด คือตัวหลัง or / nor
 - Neither the manager nor the assistants **were** informed.
 - ทั้งผู้จัดการและผู้ช่วยไม่ได้รับแจ้งเลย
-- **no common mistake yet**
-- Clues: either … or (**no meaning**) · neither … nor (**no meaning**) · not only … but also (**no meaning**)
+- ✗ Neither the director nor her assistants is free. → ✓ Neither the director nor her assistants are free.: คำนามที่ติดกริยาคือ assistants (หลายคน) จึงใช้ are (The noun next to the verb is assistants (more than one), so use are.)
+- Clues: either … or = …หรือ… (อย่างใดอย่างหนึ่ง) · neither … nor = ไม่ทั้ง…และ… · not only … but also = ไม่เพียงแต่…แต่ยัง…
 
-### Verb after who / that · กริยาหลัง who / that `relative-clause-agreement`
+### Verb after who / which / that · กริยาหลังคำว่า "ที่" (verb after who / which / that) `relative-clause-agreement`
 
-    N + who/that + V
+    N + who/which/that + V
 
 - The verb after who, which or that follows the noun just before it.
 - กริยาหลัง who, which, that ผันตามคำนามที่อยู่หน้ามัน
 - Employees who **wish** to attend should register by Friday.
 - พนักงานที่ต้องการเข้าร่วมควรลงทะเบียนภายในวันศุกร์
-- **no common mistake yet**
+- ✗ the consultants who was hired → ✓ the consultants who were hired: who หมายถึง consultants (หลายคน) จึงใช้ were (Who means the consultants (more than one), so use were.)
+- Clues: who = ที่ (ใช้กับคน) · which = ที่ (ใช้กับสิ่งของ) · that = ที่ (ใช้ได้ทั้งคนและสิ่งของ)
 
-### V-ing as the subject · V-ing เป็นประธาน `gerund-subject`
+### V-ing as the subject · กริยาเติม -ing เป็นประธาน (V-ing as the subject) `gerund-subject`
 
     V-ing + Obj + V(s/es)
 
 - A V-ing subject counts as one thing, so the verb takes -s.
-- ถ้าประธานเป็น V-ing นับเป็น 1 เรื่อง กริยาจึงเติม s
+- ถ้าประธานเป็นกริยาเติม -ing นับเป็น 1 เรื่อง กริยาจึงเติม s
 - Reviewing customer feedback **helps** us improve our service.
 - การทบทวนความคิดเห็นของลูกค้าช่วยให้เราปรับปรุงบริการได้
-- **no common mistake yet**
+- ✗ Reviewing the reports help us. → ✓ Reviewing the reports helps us.: ประธานคือ reviewing (การทบทวน 1 เรื่อง) ไม่ใช่ reports จึงใช้ helps (The subject is reviewing (one action), not reports.)
 
-### Tested in drills (0)
+### There is / there are · มี… (there is / there are) `there-is-are`
 
+    there + is + N
+    there + are + N(s)
+
+- There is not the subject. Look at the noun after is/are: one thing takes is, more than one takes are.
+- there ไม่ใช่ประธานตัวจริง ให้ดูคำนามหลัง is/are ถ้าสิ่งเดียวใช้ is ถ้าหลายสิ่งใช้ are
+- There **are** several openings at our Singapore branch.
+- มีตำแหน่งว่างหลายตำแหน่งที่สาขาสิงคโปร์
+- ✗ There is several openings. → ✓ There are several openings.: คำนามหลังกริยาคือ openings (หลายตำแหน่ง) จึงใช้ are (The noun after the verb, openings, is more than one, so use are.)
+- Clues: several / many + N(s) = หลาย… ใช้ there are
+
+### Tested in drills (11)
+
+- `committee + V(s/es)` = คณะกรรมการ (กลุ่มเดียว) กริยาเติม s (one group counts as one: -s verb) · ✗ The hiring committee have completed its review
+- `each of + the + N(s) + V(s/es)` = each of (แต่ละ…) นับทีละหนึ่ง กริยาเติม s (each of + plural noun takes the -s verb) · ✗ Each of the regional managers are expected, Each of our receptionists now inform guests
+- `every + N + and + N` = every + คำนามสองตัว ก็ยังใช้กริยาเติม s (every … and … still takes the -s verb) · ✗ Every manager and supervisor are required
+- `N + between + N(s) + V(s/es)` = ผันกริยาตามคำนามหน้า between (agreement) (the verb follows the noun before between (agreement)) · ✗ The agreement between the two companies allow
+- `N + of + N(s) + V(s/es)` = ผันกริยาตามคำนามหน้า of (list) ไม่ใช่คำนามหลัง of (the verb follows the noun before of (list)) · ✗ The list of approved suppliers are updated
+- `N + who/which/that + V` = กริยาหลัง who/which/that ผันตามคำนามข้างหน้า (the verb agrees with the noun before who/which/that) · ✗ The consultants who was hired, The service, which allow customers
+- `neither + N + nor + N + V` = neither…nor ผันกริยาตามคำนามตัวหลัง (ใกล้กริยา) (neither … nor: the verb follows the nearer noun) · ✗ Neither the director nor her assistants is available
+- `one of + the + N(s) + V(s/es)` = one of (หนึ่งใน…) นับเป็นหนึ่ง กริยาเติม s (one of + plural noun takes the -s verb) · ✗ One of the company's newest stores are located
+- `the number of + N(s) + V(s/es)` = the number of (จำนวน) นับเป็นหนึ่ง กริยาเติม s (the number of = one amount: -s verb) · ✗ The number of customers have grown
+- `there + are + N(s)` = ดูคำนามหลัง there (openings หลายตำแหน่ง) ใช้ are (look at the noun after there is/are) · ✗ There is several openings
+- `V-ing + Obj + V(s/es)` = ประธานเป็นกริยาเติม -ing นับเป็น 1 เรื่อง กริยาเติม s (an -ing subject is one thing: -s verb) · ✗ Reviewing customer feedback help managers
 
 Not on any entry (0): none
 
@@ -1175,24 +1217,24 @@ Not on any entry (0): none
 
 ## gerund-infinitive
 
-The word before the blank decides. Some verbs take V-ing, some take to V1, and after a preposition always use V-ing.
+The choices are one verb in different forms, like open, opening, to open, opened. Look at the word before the blank: some verbs take V-ing, some take to V1, and a verb after a preposition (by, for, look forward to) takes V-ing.
 
-คำหน้าช่องว่างเป็นตัวบอก: กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และหลังคำบุพบทใช้ V-ing เสมอ
+ตัวเลือกเป็นกริยาตัวเดียวกันแต่ต่างรูป เช่น open, opening, to open, opened ให้ดูคำหน้าช่องว่าง กริยาบางตัวตามด้วย V-ing บางตัวตามด้วย to V1 และกริยาที่อยู่หลังคำบุพบท (by, for, look forward to) ต้องเป็น V-ing
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ) · `Prep` = คำบุพบท (in, on, for)
 
-### Verb + V-ing · กริยา + V-ing `verb-plus-gerund`
+### Verb + V-ing · กริยาที่ตามด้วย -ing (verb + V-ing) `verb-plus-gerund`
 
     enjoy/avoid/consider/suggest/finish + V-ing
 
-- These verbs are followed by V-ing only.
-- กริยาพวกนี้ตามด้วย V-ing เท่านั้น
+- These verbs are followed by V-ing, not to V1.
+- กริยาพวกนี้ตามด้วย V-ing ไม่ใช่ to V1
 - We suggest **booking** your tickets early.
 - เราแนะนำให้จองตั๋วล่วงหน้า
-- **no common mistake yet**
-- Clues: enjoy (**no meaning**) · avoid (**no meaning**) · consider (**no meaning**) · suggest (**no meaning**) · recommend (**no meaning**) · finish (**no meaning**) · postpone (**no meaning**) · mind (**no meaning**)
+- ✗ We are considering to open a new store. → ✓ We are considering opening a new store.: ภาษาไทยพูดว่า "พิจารณาที่จะ" จึงชอบใส่ to แต่ consider ตามด้วย V-ing (Thai says พิจารณาที่จะ, which sounds like to, but consider takes V-ing.)
+- Clues: enjoy + V-ing = สนุกกับการ… · avoid + V-ing = หลีกเลี่ยงการ… · consider + V-ing = พิจารณาที่จะ… · suggest + V-ing = แนะนำให้… · recommend + V-ing = แนะนำให้… (ไม่มีคนตามหลัง) · finish + V-ing = ทำ…เสร็จ · postpone + V-ing = เลื่อนการ…ออกไป · mind + V-ing = รังเกียจ / ขัดข้องที่จะ…
 
-### Verb + to V1 · กริยา + to V1 `verb-plus-infinitive`
+### Verb + to V1 · กริยาที่ตามด้วย to (verb + to V1) `verb-plus-infinitive`
 
     plan/decide/agree/hope/expect + to V1
 
@@ -1200,22 +1242,22 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - กริยาพวกนี้ (ส่วนมากเกี่ยวกับแผนหรือความอยาก) ตามด้วย to V1
 - The company plans **to open** a new branch in Osaka.
 - บริษัทวางแผนจะเปิดสาขาใหม่ที่โอซาก้า
-- **no common mistake yet**
-- Clues: plan (**no meaning**) · decide (**no meaning**) · agree (**no meaning**) · hope (**no meaning**) · expect (**no meaning**) · intend (**no meaning**) · aim (**no meaning**) · offer (**no meaning**) · refuse (**no meaning**)
+- ✗ We decided open a new branch. → ✓ We decided to open a new branch.: ภาษาไทยวางกริยาติดกันได้ (ตัดสินใจเปิด) แต่หลัง decide ต้องมี to ก่อนกริยาตัวถัดไป (Thai puts two verbs side by side (ตัดสินใจเปิด), but decide needs to before the next verb.)
+- Clues: plan + to V1 = วางแผนจะ… · decide + to V1 = ตัดสินใจจะ… · agree + to V1 = ตกลง / ยอมที่จะ… · hope + to V1 = หวังว่าจะ… · expect + to V1 = คาดว่าจะ… · intend + to V1 = ตั้งใจจะ… · offer + to V1 = เสนอที่จะ… · refuse + to V1 = ปฏิเสธที่จะ… · hesitate + to V1 = ลังเลที่จะ… (do not hesitate to = อย่าลังเลที่จะ) · be sure + to V1 = อย่าลืม… / ต้อง…ให้ได้
 
-### Preposition + V-ing · คำบุพบท + V-ing `preposition-plus-gerund`
+### Preposition + V-ing · คำบุพบทตามด้วย -ing (preposition + V-ing) `preposition-plus-gerund`
 
     Prep + V-ing
     look forward to/be committed to + V-ing
 
-- After a preposition, always use V-ing. Careful: in look forward to, to is a preposition, so V-ing follows.
-- หลังคำบุพบทใช้ V-ing เสมอ ระวัง! look forward to ตัว to เป็นคำบุพบท จึงตามด้วย V-ing
+- When a verb comes after a preposition (by, for, about, without), it takes V-ing. Careful: in look forward to, object to and be used to, to is a preposition, so V-ing follows.
+- ถ้ากริยาอยู่หลังคำบุพบท (by, for, about, without) ต้องเป็น V-ing ระวัง! look forward to, object to, be used to ตัว to เป็นคำบุพบท จึงตามด้วย V-ing
 - We look forward to **meeting** you next week.
 - เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า
-- **no common mistake yet**
-- Clues: look forward to (**no meaning**) · be committed to (**no meaning**) · be dedicated to (**no meaning**) · be used to (**no meaning**) · in addition to (**no meaning**)
+- ✗ We look forward to meet you. → ✓ We look forward to meeting you.: to ใน look forward to เป็นคำบุพบท ไม่ใช่ to V1 จึงต้องตามด้วย V-ing (The to in look forward to is a preposition, not part of to V1, so V-ing follows.)
+- Clues: look forward to + V-ing = ตั้งตารอที่จะ… · object to + V-ing = คัดค้านการ… · be used to + V-ing = คุ้นเคยกับการ… · be committed to = มุ่งมั่นที่จะ… · be dedicated to = ทุ่มเทให้กับการ… · by + V-ing = โดยการ… · in addition to = นอกจาก…แล้ว
 
-### Verb + object + to V1 · กริยา + กรรม + to V1 `verb-object-infinitive`
+### Verb + object + to V1 · กริยา + คน + to (verb + object + to V1) `verb-object-infinitive`
 
     ask/allow/encourage/require + Obj + to V1
 
@@ -1223,10 +1265,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - กริยา + คน + to V1 เช่น ask him to come
 - The policy allows employees **to work** from home.
 - นโยบายนี้อนุญาตให้พนักงานทำงานจากที่บ้านได้
-- **no common mistake yet**
-- Clues: ask (**no meaning**) · allow (**no meaning**) · encourage (**no meaning**) · require (**no meaning**) · remind (**no meaning**) · invite (**no meaning**) · advise (**no meaning**)
+- ✗ The policy allows employees work from home. → ✓ The policy allows employees to work from home.: ภาษาไทยพูด "อนุญาตให้พนักงานทำงาน" ได้เลย แต่ภาษาอังกฤษต้องมี to หลังคน (Thai says อนุญาตให้พนักงานทำงาน with no extra word, but English needs to after the person.)
+- Clues: ask = ขอให้ (ใคร) … · allow = อนุญาตให้ (ใคร) … · encourage = สนับสนุน / ส่งเสริมให้ (ใคร) … · require = กำหนดให้ (ใคร) ต้อง… · remind = เตือนให้ (ใคร) … · invite = เชิญให้ (ใคร) … · advise = แนะนำให้ (ใคร) …
 
-### Make / let / have + object + V1 · Make / let / have + กรรม + V1 `causative-bare-infinitive`
+### Make / let / have + object + V1 · ให้ใครทำอะไร ไม่มี to (make / let / have + object + V1) `causative-bare-infinitive`
 
     make/let/have + Obj + V1
 
@@ -1234,22 +1276,36 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - make, let, have + คน + กริยารูปเดิม (ไม่มี to)
 - The manager let the staff **leave** early on Friday.
 - ผู้จัดการให้พนักงานกลับบ้านเร็วในวันศุกร์
-- **no common mistake yet**
+- ✗ The manager let the staff to leave early. → ✓ The manager let the staff leave early.: allow ต้องมี to แต่ let ไม่มี to ใช้กริยารูปเดิมเลย (Allow takes to, but let does not.)
+- Clues: make = บังคับให้ (ใคร) … · let = ปล่อยให้ / อนุญาตให้ (ใคร) … · have = ให้ (ใคร) ทำ… (สั่งงาน)
 
-### To V1 for purpose · To V1 บอกจุดประสงค์ `infinitive-of-purpose`
+### To V1 for purpose · เพื่อที่จะ (to V1 / in order to V1) `infinitive-of-purpose`
 
     to V1/in order to V1 + Obj
     S + V + Obj + in order to V1
 
-- To V1 or in order to V1 gives the reason: "so that you can".
-- to V1 หรือ in order to V1 = เพื่อจะ…
+- To V1 or in order to V1 gives the reason: "so that you can". A noun like time can also take to V1 (time to attend).
+- to V1 หรือ in order to V1 = เพื่อจะ… คำนามบางคำ เช่น time ก็ตามด้วย to V1 ได้ (time to attend = เวลาที่จะไปร่วม)
 - **To apply**, please fill out the online form.
 - หากต้องการสมัคร กรุณากรอกแบบฟอร์มออนไลน์
-- **no common mistake yet**
-- Clues: in order to (**no meaning**) · so as to (**no meaning**)
+- ✗ We hired more staff for handle complaints. → ✓ We hired more staff to handle complaints.: คนไทยมักแปล "เพื่อ" เป็น for แต่ for + กริยารูปเดิมผิด ให้ใช้ to + กริยารูปเดิม (Thai เพื่อ is often turned into for, but for + a base verb is wrong. Use to + V1.)
+- Clues: in order to = เพื่อที่จะ · so as to = เพื่อที่จะ · time + to V1 = เวลาที่จะ… / เวลาสำหรับ…
 
-### Tested in drills (0)
+### Tested in drills (13)
 
+- `agree + to V1` = agree (ตกลง) ตามด้วย to + กริยารูปเดิม (agree + to + base verb) · ✗ agreed lowering the price, agreed lower the price
+- `avoid + V-ing` = avoid (หลีกเลี่ยง) ตามด้วยกริยาเติม -ing (avoid + -ing) · ✗ avoid to pay late fees, avoid pay late fees
+- `be sure + to V1` = be sure to (อย่าลืม…) + กริยารูปเดิม (be sure to + base verb: do not forget to) · ✗ Be sure completing this step
+- `be used to + V-ing` = be used to (คุ้นเคยกับ) ตามด้วยกริยาเติม -ing (be used to = be accustomed to; + -ing) · ✗ Ms. Chen is used to communicate with clients
+- `by + V-ing` = by (โดยการ) เป็นคำบุพบท ตามด้วยกริยาเติม -ing (by + -ing: the way you do it) · ✗ by share documents
+- `consider + V-ing` = consider (พิจารณา) ตามด้วยกริยาเติม -ing (consider + -ing) · ✗ is considering to open a second center
+- `hesitate + to V1` = do not hesitate to (อย่าลังเลที่จะ) + กริยารูปเดิม (hesitate + to + base verb) · ✗ do not hesitate contacting us
+- `in order to V1` = in order to (เพื่อที่จะ) + กริยารูปเดิม (in order to + base verb: for this purpose) · ✗ In order handle complaints, In order for handling complaints
+- `look forward to + V-ing` = to ใน look forward to (ตั้งตารอ) ตามด้วย -ing (look forward to + -ing: to is a preposition here) · ✗ look forward to work with your team, look forward to serve you again
+- `object to + V-ing` = object to (คัดค้าน) to ตัวนี้ตามด้วย -ing (object to + -ing: to is a preposition here) · ✗ objected to move the meeting
+- `plan + to V1` = plan (วางแผน) ตามด้วย to + กริยารูปเดิม (plan + to + base verb) · ✗ plans introducing the new system, plans introduce the new system
+- `recommend + V-ing` = recommend (แนะนำ) ไม่มีคนตามหลัง ใช้ -ing (recommend + -ing when no person follows) · ✗ recommended to simplify the process, recommended simplify the process
+- `time + to V1` = time to (เวลาที่จะ…) + กริยารูปเดิม (time + to + base verb: time for doing it) · ✗ time attend the workshop
 
 Not on any entry (0): none
 
@@ -1494,13 +1550,13 @@ Not on any entry (0): none
 
 ## modals
 
-A modal (can, must, should, may, might, could, would, will) is always followed by the base verb (V1), never V-ing, to V or V(s).
+Two kinds of question. If the blank comes after can, must, should or may, pick the base verb (sign, not signs, signing or to sign). If the choices are different modals, pick by meaning: must = has to, may = possibly.
 
-กริยาช่วยแสดงทัศนคติ (modal) เช่น can, must, should, may ต้องตามด้วยกริยารูปเดิม (V1) เสมอ ห้ามตามด้วย V-ing, to V หรือกริยาเติม s
+ข้อสอบมี 2 แบบ ถ้าช่องว่างอยู่หลังกริยาช่วย (can, must, should, may) ให้เลือกกริยารูปเดิม เช่น sign ไม่ใช่ signs, signing, to sign ถ้าตัวเลือกเป็นกริยาช่วยต่างตัว ให้เลือกตามความหมาย เช่น must = ต้อง, may = อาจจะ
 
 Symbols: `S` = ประธาน · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V3` = กริยาช่อง 3 (gone, made)
 
-### Modal + V1 · modal + V1 `modal-base-verb`
+### Modal + V1 · กริยาช่วย + กริยารูปเดิม (modal + V1) `modal-base-verb`
 
     S + modal + V1
     S + modal + be + V3
@@ -1510,14 +1566,14 @@ Symbols: `S` = ประธาน · `V1` = กริยาช่อง 1 รู
 - `should` = ควร (it is a good idea to)
 - `may` = อาจจะ / ได้รับอนุญาตให้ (possibly; or polite permission)
 
-- After any modal, use V1. For the passive, use modal + be + V3.
-- หลัง modal ทุกตัวใช้ V1 ถ้าเป็นรูปถูกกระทำ ใช้ modal + be + V3
+- After any modal, use V1 with nothing added: no -s, no -ing, no to. For something done to the subject, use modal + be + V3.
+- หลังกริยาช่วยทุกตัวใช้กริยารูปเดิม ไม่เติม s ไม่เติม -ing ไม่มี to ถ้าประธานถูกทำ ใช้กริยาช่วย + be + กริยาช่อง 3
 - All visitors must **sign** in at the front desk.
 - ผู้มาติดต่อทุกคนต้องลงชื่อที่โต๊ะต้อนรับ
-- **no common mistake yet**
-- Clues: must (**no meaning**) · should (**no meaning**) · can (**no meaning**) · will (**no meaning**) · may (**no meaning**)
+- ✗ All visitors must to sign in. → ✓ All visitors must sign in.: have to มี to แต่ must ไม่มี to ให้ใช้กริยารูปเดิมตามหลัง must ทันที (Have to has a to, but must does not. The base verb comes right after must.)
+- Clues: will = จะ · could = สามารถ…ได้ (อดีต) / อาจจะ · might = อาจจะ (ไม่ค่อยแน่ใจ) · would = จะ… (ใช้ขอร้องสุภาพ หรือสมมติ) · must be + V3 = ต้องถูก… (must be signed = ต้องได้รับการเซ็น)
 
-### Modal + have + V3 (about the past) · modal + have + V3 (พูดถึงอดีต) `modal-have-v3`
+### Modal + have + V3 (about the past) · กริยาช่วย + have + กริยาช่อง 3 (modal + have + V3) `modal-have-v3`
 
     S + must/might/should/could + have + V3
 
@@ -1527,13 +1583,13 @@ Symbols: `S` = ประธาน · `V1` = กริยาช่อง 1 รู
 - `could have` = …ได้ (แต่ไม่ได้ทำ) (it was possible, but it did not happen)
 
 - Use modal + have + V3 for the past: a guess (must have, might have) or a regret (should have, could have).
-- ใช้ modal + have + V3 พูดถึงอดีต เป็นการเดา (must have, might have) หรือความเสียดาย (should have, could have)
-- The lights are off, so the staff **must have** gone home.
+- ใช้กริยาช่วย + have + กริยาช่อง 3 พูดถึงอดีต เป็นการเดา (must have, might have) หรือความเสียดาย (should have, could have)
+- The lights are off, so the staff **must have gone** home.
 - ไฟปิดหมดแล้ว พนักงานคงกลับบ้านกันไปแล้วแน่ ๆ
-- **no common mistake yet**
-- Clues: already (**no meaning**) · yesterday (**no meaning**) · last week (**no meaning**) · by now (**no meaning**)
+- ✗ We should send it yesterday. → ✓ We should have sent it yesterday.: ภาษาไทย "ควรจะ" ไม่เปลี่ยนรูป แต่เรื่องเมื่อวานต้องใช้ should have + กริยาช่อง 3 (Thai ควรจะ does not change for the past, but English needs should have + V3 for yesterday.)
+- Clues: already = แล้ว / เรียบร้อยแล้ว · yesterday = เมื่อวาน · last week = สัปดาห์ที่แล้ว · by now = ป่านนี้
 
-### Have to / be able to / used to + V1 · have to / be able to / used to + V1 `modal-phrases`
+### Have to / be able to / used to + V1 · วลีที่ใช้แบบกริยาช่วย (have to / be able to / used to) `modal-phrases`
 
     S + have to/be able to/used to + V1
 
@@ -1541,12 +1597,12 @@ Symbols: `S` = ประธาน · `V1` = กริยาช่อง 1 รู
 - `be able to` = สามารถ (can)
 - `used to` = เคย… (แต่ตอนนี้ไม่แล้ว) (did regularly in the past, but not now)
 
-- These phrases work like modals and take V1. Be used to + V-ing is different: it means accustomed to.
-- วลีเหล่านี้ทำงานเหมือน modal และตามด้วย V1 แต่ be used to + V-ing ต่างกัน แปลว่า คุ้นเคยกับ
+- These phrases work like modals and take V1. Use them where a modal cannot go, e.g. after will (will be able to). Be used to + -ing is different: it means accustomed to.
+- วลีเหล่านี้ใช้แบบกริยาช่วยและตามด้วยกริยารูปเดิม ใช้ในที่ที่กริยาช่วยวางไม่ได้ เช่น หลัง will (will be able to) ส่วน be used to + กริยาเติม -ing ต่างกัน แปลว่า คุ้นเคยกับ
 - We were not able to **finish** the report on time.
 - เราไม่สามารถทำรายงานเสร็จทันเวลาได้
-- **no common mistake yet**
-- Clues: be used to + V-ing (**no meaning**) · used to + V1 (**no meaning**)
+- ✗ We will can finish it. → ✓ We will be able to finish it.: ภาษาไทยพูด "จะสามารถ" ได้ แต่ภาษาอังกฤษห้ามใช้ will กับ can ติดกัน ให้ใช้ will be able to (Thai says จะสามารถ, but two modals cannot go together. Use will be able to.)
+- Clues: will be able to = จะสามารถ… (ห้ามใช้ will can) · be used to + -ing = คุ้นเคยกับการ… · used to + V1 = เคย…เป็นประจำ (ตอนนี้ไม่แล้ว)
 
 ### Tested in drills (0)
 
