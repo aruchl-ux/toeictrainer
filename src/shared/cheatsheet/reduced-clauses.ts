@@ -27,8 +27,8 @@ export const reducedClauses: CheatSheet = {
         wrong: 'Employees wish to attend the training should register by Thursday.',
         right: 'Employees wishing to attend the training should register by Thursday.',
         why: {
-          en: 'Thai พนักงานที่ต้องการ… needs no change, but here should register is already the main verb. Use wishing (or who wish), not a second main verb.',
-          th: 'ภาษาไทยพูด "พนักงานที่ต้องการ…" แต่ประโยคนี้มี should register เป็นกริยาหลักแล้ว จึงต้องใช้ wishing (หรือ who wish) ไม่ใช่ใส่ wish เป็นกริยาหลักอีกตัว'
+          en: 'The sentence already has its main verb (should register), so wish cannot be a second main verb. Use the -ing form (wishing) or who + verb (who wish).',
+          th: 'ประโยคนี้มีกริยาหลักแล้ว (should register) จึงใส่ wish เป็นกริยาหลักอีกตัวไม่ได้ ต้องใช้กริยาเติม -ing (wishing) หรือ who + กริยา (who wish)'
         }
       }
     },

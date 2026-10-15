@@ -27,11 +27,11 @@ export const nounClauses: CheatSheet = {
         { w: 'tell + person + that', en: 'tell us that (but say that, or say to us that)', th: 'บอก (ใคร) ว่า… (tell us that แต่ say ต้องเป็น say that หรือ say to us that)' }
       ],
       mistake: {
-        wrong: 'The manager said us that the shipment had arrived.',
-        right: 'The manager told us that the shipment had arrived.',
+        wrong: 'The company announced that will close the branch.',
+        right: 'The company announced that it will close the branch.',
         why: {
-          en: 'Thai says บอกเราว่า, so learners write said us. A person cannot come straight after say: use told us that, or said that.',
-          th: 'ภาษาไทยพูด "บอกเราว่า…" จึงชอบเขียน said us แต่หลัง say ใส่คนตามทันทีไม่ได้ ให้ใช้ told us that หรือ said that'
+          en: 'Thai ประกาศว่าจะปิดสาขา needs no subject after ว่า, but in English the clause after that must be complete, so it needs its own subject (it).',
+          th: 'ภาษาไทยพูด "ประกาศว่าจะปิดสาขา" ไม่ต้องมีประธานหลัง "ว่า" แต่ภาษาอังกฤษ ประโยคหลัง that ต้องครบ จึงต้องมีประธาน (it) ด้วย'
         }
       }
     },
@@ -66,7 +66,7 @@ export const nounClauses: CheatSheet = {
       name: { en: 'Whether / if = whether or not', th: 'ว่า…หรือไม่ (whether / if)' },
       formula: ['V + whether/if + S + V', 'whether + to V'],
       words: [
-        { w: 'whether', en: 'if or not', th: 'ว่า…หรือไม่' },
+        { w: 'whether', en: 'whether … or not (a yes/no question)', th: 'ว่า…หรือไม่' },
         { w: 'if', en: 'whether; but it cannot start the sentence as its subject or come before to V', th: 'ว่า…หรือไม่ (แต่ขึ้นต้นประโยคเป็นประธานไม่ได้ และตามด้วย to V ไม่ได้)' }
       ],
       use: {
@@ -79,7 +79,7 @@ export const nounClauses: CheatSheet = {
       },
       clues: [
         { w: 'decide whether', en: 'choose yes or no', th: 'ตัดสินใจว่า…หรือไม่' },
-        { w: 'wonder whether/if', en: 'want to know if or not', th: 'สงสัยว่า…หรือไม่' },
+        { w: 'wonder whether/if', en: 'want to know whether … or not', th: 'สงสัยว่า…หรือไม่' },
         { w: 'ask whether/if', en: 'ask a yes/no question', th: 'ถามว่า…หรือไม่' },
         { w: 'whether or not', en: 'yes or no; write whether or not, not if or not', th: 'ว่า…หรือไม่ (เขียน whether or not ไม่ใช้ if or not)' }
       ],

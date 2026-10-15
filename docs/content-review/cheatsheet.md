@@ -935,7 +935,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V3` = ก�
 - คำนาม + กริยาเติม -ing = คำนามนั้นทำเอง ย่อมาจาก who / which + กริยา เช่น employees wishing to attend = employees who wish to attend
 - Passengers **traveling** with pets must notify the airline.
 - ผู้โดยสารที่เดินทางพร้อมสัตว์เลี้ยงต้องแจ้งสายการบิน
-- ✗ Employees wish to attend the training should register by Thursday. → ✓ Employees wishing to attend the training should register by Thursday.: ภาษาไทยพูด "พนักงานที่ต้องการ…" แต่ประโยคนี้มี should register เป็นกริยาหลักแล้ว จึงต้องใช้ wishing (หรือ who wish) ไม่ใช่ใส่ wish เป็นกริยาหลักอีกตัว (Thai พนักงานที่ต้องการ… needs no change, but here should register is already the main verb. Use wishing (or who wish), not a second main verb.)
+- ✗ Employees wish to attend the training should register by Thursday. → ✓ Employees wishing to attend the training should register by Thursday.: ประโยคนี้มีกริยาหลักแล้ว (should register) จึงใส่ wish เป็นกริยาหลักอีกตัวไม่ได้ ต้องใช้กริยาเติม -ing (wishing) หรือ who + กริยา (who wish) (The sentence already has its main verb (should register), so wish cannot be a second main verb. Use the -ing form (wishing) or who + verb (who wish).)
 - Clues: noun + ___ + object = มีกรรมตามหลัง คำนามเป็นคนทำ ใช้กริยาเติม -ing · employees wishing to … = พนักงานที่ต้องการ…
 
 ### Noun + V3 (passive) · คำนามที่ถูกทำ (noun + V3) `reduced-passive`
@@ -1061,22 +1061,22 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `unless` = ถ้าไม่ (if … not)
 - `as long as` = ตราบใดที่ / ขอแค่… (on the condition that)
 - `provided that` = โดยมีเงื่อนไขว่า (only if)
-- `even if` = ถึงแม้ว่า (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้) (it may or may not happen; the result is the same)
+- `even if` = ต่อให้… (ก็ตาม) (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้) (it may or may not happen; the result is the same)
 
 - All of them take a clause (subject + verb). Unless already means "if not", so the verb after it is not negative. Even if is for something that may happen; even though is for something that is true.
 - ทุกคำตามด้วยประโยค (ประธาน + กริยา) unless แปลว่า "ถ้าไม่" อยู่แล้ว กริยาหลัง unless จึงไม่ต้องปฏิเสธซ้ำ / even if ใช้กับเรื่องที่อาจเกิด ส่วน even though ใช้กับเรื่องที่เกิดจริง
 - The event will be canceled **unless** more people register.
 - งานจะถูกยกเลิกถ้ามีคนลงทะเบียนไม่เพิ่ม
 - ✗ Unless we do not receive the agreement, the team cannot begin. → ✓ Unless we receive the agreement, the team cannot begin.: ภาษาไทยพูด "ถ้าเราไม่ได้รับ…" มีคำว่า "ไม่" จึงชอบใส่ not ซ้ำ แต่ unless แปลว่า "ถ้าไม่" อยู่แล้ว (Thai ถ้าเราไม่ได้รับ has ไม่, so learners add not, but unless already means "if not".)
-- Clues: even if vs even though = even if = อาจเกิดหรือไม่ก็ได้ / even though = เกิดจริงแล้ว · in case of + noun = in case of ตามด้วยคำนาม ไม่ใช่ประโยค
+- Clues: even if vs even though = even if = ต่อให้… (อาจเกิดหรือไม่ก็ได้) / even though = แม้ว่า (เกิดจริงแล้ว) · in case of + noun = in case of ตามด้วยคำนาม ไม่ใช่ประโยค
 
 ### Tested in drills (9)
 
 - `as long as` = ตราบใดที่ / ขอแค่… (เงื่อนไข) ตามด้วยประโยค (on the condition that, + a clause) · ✗ The warranty will remain valid in case of the product is used
-- `even if` = ถึงแม้ว่า (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้) (even if something happens (it may or may not))
-- `if + S + had + V3, S + would + V1` = อดีตไม่จริง แต่ผลอยู่ตอนนี้ (now) ใช้ would + กริยารูปเดิม (unreal past, result now (now): would + base verb) · ✗ If it had been launched earlier, our sales will be higher now, If it had been launched earlier, our sales had been higher now
-- `if + S + had + V3, S + would have + V3` = อดีตที่ไม่จริง: if + had คู่กับ would have + กริยาช่อง 3 (unreal past: if + had + past participle, would have + past participle) · ✗ If Ms. Lee had known about the change, she will rebook her flight, If the client would approve the proposal sooner, we would have started
-- `if + S + V(s/es), S + will + V1` = เงื่อนไขในอนาคต ส่วน if ใช้กาลปัจจุบัน แม้พูดถึงอนาคต (a real future condition: present tense after if, will in the other part) · ✗ If the shipment will not arrive by Friday, we will contact, If the shipment would not arrive by Friday, we will contact
+- `even if` = ต่อให้… (ก็ตาม) ใช้กับเรื่องที่อาจเกิดหรือไม่เกิดก็ได้ (even if something happens (it may or may not))
+- `if + S + had + V3, S + would + V1` = อดีตไม่จริง แต่ผลอยู่ตอนนี้ (now) ใช้ would + กริยารูปเดิม (unreal past, result now: would + base verb) · ✗ If it had been launched earlier, our sales will be higher now, If it had been launched earlier, our sales had been higher now
+- `if + S + had + V3, S + would have + V3` = สมมติอดีต: if + had + กริยาช่อง 3, would have + กริยาช่อง 3 (unreal past: if + had + past participle, would have + past participle) · ✗ If Ms. Lee had known about the change, she will rebook her flight, If the client would approve the proposal sooner, we would have started
+- `if + S + V(s/es), S + will + V1` = เงื่อนไขในอนาคต ส่วน if ใช้กาลปัจจุบันธรรมดา แม้พูดถึงอนาคต (a real future condition: present tense after if, will in the other part) · ✗ If the shipment will not arrive by Friday, we will contact, If the shipment would not arrive by Friday, we will contact
 - `if + S + V2, S + would + V1` = ไม่จริงตอนนี้: if + กริยาช่อง 2 คู่กับ would + กริยารูปเดิม (if + past form (not true now): would + base verb) · ✗ If our team had more staff, we will complete the project
 - `if + S + were, S + would + V1` = สมมติ ไม่จริงตอนนี้ ส่วน if ใช้ were ไม่ใช่ would be หรือ is (not true now: if + were, not would be or is) · ✗ If the budget would be larger, the department would hire, If the budget is larger, the department would hire
 - `provided that` = โดยมีเงื่อนไขว่า… ตามด้วยประโยค (only if, + a clause) · ✗ considered for the position despite they submit all documents, considered for the position in case of they submit all documents
@@ -1139,7 +1139,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ Not only the plan saves money, but it also saves time. → ✓ Not only does the plan save money, but it also saves time.: ภาษาไทยเรียงคำปกติหลัง "ไม่เพียงแต่" แต่ภาษาอังกฤษ ถ้า not only ขึ้นต้นประโยค ส่วนแรกต้องสลับเป็น does the plan save (Thai keeps normal order after ไม่เพียงแต่, but in English not only at the front swaps the first part: does the plan save.)
 - Clues: not only + is + S + faster = ข้างหลังเป็นคำคุณศัพท์ (faster) ใช้ is the printer ไม่ใช่ does the printer
 
-### Only after / only when / not until · หลังจาก… เท่านั้น ถึงจะ… (only after / only when / not until) `only-inversion`
+### Only after / only when / not until · …เท่านั้น ถึงจะ… / ก็ต่อเมื่อ… (only after / only when / not until) `only-inversion`
 
     only after/only when/not until + N/Clause + aux + S + V
 
@@ -1226,7 +1226,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `not only + aux + S` = Not only ขึ้นต้น ย้ายกริยาช่วยไว้หน้าประธาน (is the printer) (Not only first: helping verb before the subject (is the printer)) · ✗ Not only the new printer is faster than the previous model, but, Not only does the new printer faster
 - `only after + Clause + aux + S` = Only after… ขึ้นต้น สลับในส่วนหลัก (will employees be) (Only after … first: swap the main part (will employees be)) · ✗ Only after the inspection is complete employees will be allowed
 - `rarely + have + S + V3` = Rarely ขึ้นต้น ย้าย have มาไว้หน้าประธาน (have we received) (Rarely first: have moves before the subject (have we received)) · ✗ Rarely we have received such a high number, Rarely did we received such a high number
-- `seldom + does + S + V1` = Seldom ขึ้นต้น ใช้ does (ประธานเดียว) + กริยารูปเดิม (Seldom first, no helping verb: does (one subject) + base verb) · ✗ Seldom is the board approve budget increases, Seldom has the board approve budget increases
+- `seldom + does + S + V1` = Seldom ขึ้นต้น ใช้ does (ประธานเดียว) + กริยารูปเดิม (Seldom first → does + subject + base verb (does for one subject)) · ✗ Seldom is the board approve budget increases, Seldom has the board approve budget increases
 - `should + S + V1` = Should you have = If you have (ตามด้วยกริยารูปเดิม) (Should you have … = If you have …) · ✗ Were you have any questions, please contact us, Had you have any questions, please contact us
 - `so + Adj + be + S + that` = So + คำคุณศัพท์ ขึ้นต้น ตามด้วย be + ประธาน (was the launch) (So + adjective first, then be + subject (was the launch)) · ✗ So successful did the product launch that, So successful it was the product launch that
 - `were + S + to V1` = Were + ประธาน + to + กริยารูปเดิม = If… (สมมติ) (Were the company to relocate = If the company relocated) · ✗ Should the company to relocate its headquarters, If the company to relocate its headquarters
@@ -1753,7 +1753,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา
 - that เชื่อมประโยคครบหลังกริยาอย่าง announce, confirm, ensure ประโยคหลัง that ต้องครบ ไม่ขาดอะไร
 - The manager confirmed **that** the shipment had arrived.
 - ผู้จัดการยืนยันว่าสินค้ามาถึงแล้ว
-- ✗ The manager said us that the shipment had arrived. → ✓ The manager told us that the shipment had arrived.: ภาษาไทยพูด "บอกเราว่า…" จึงชอบเขียน said us แต่หลัง say ใส่คนตามทันทีไม่ได้ ให้ใช้ told us that หรือ said that (Thai says บอกเราว่า, so learners write said us. A person cannot come straight after say: use told us that, or said that.)
+- ✗ The company announced that will close the branch. → ✓ The company announced that it will close the branch.: ภาษาไทยพูด "ประกาศว่าจะปิดสาขา" ไม่ต้องมีประธานหลัง "ว่า" แต่ภาษาอังกฤษ ประโยคหลัง that ต้องครบ จึงต้องมีประธาน (it) ด้วย (Thai ประกาศว่าจะปิดสาขา needs no subject after ว่า, but in English the clause after that must be complete, so it needs its own subject (it).)
 - Clues: announce that = ประกาศว่า · confirm that = ยืนยันว่า · ensure that = ทำให้แน่ใจว่า · tell + person + that = บอก (ใคร) ว่า… (tell us that แต่ say ต้องเป็น say that หรือ say to us that)
 
 ### What = the thing that · สิ่งที่ (what) `what-noun-clause`
@@ -1774,7 +1774,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา
     V + whether/if + S + V
     whether + to V
 
-- `whether` = ว่า…หรือไม่ (if or not)
+- `whether` = ว่า…หรือไม่ (whether … or not (a yes/no question))
 - `if` = ว่า…หรือไม่ (แต่ขึ้นต้นประโยคเป็นประธานไม่ได้ และตามด้วย to V ไม่ได้) (whether; but it cannot start the sentence as its subject or come before to V)
 
 - Use whether or if for a yes/no question inside a sentence. Only whether works at the start of a sentence, before to V, or with or not right after it.

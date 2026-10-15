@@ -100,7 +100,7 @@ export const inversion: CheatSheet = {
     },
     {
       id: 'only-inversion',
-      name: { en: 'Only after / only when / not until', th: 'หลังจาก… เท่านั้น ถึงจะ… (only after / only when / not until)' },
+      name: { en: 'Only after / only when / not until', th: '…เท่านั้น ถึงจะ… / ก็ต่อเมื่อ… (only after / only when / not until)' },
       formula: ['only after/only when/not until + N/Clause + aux + S + V'],
       words: [
         { w: 'only after', en: 'not before', th: 'หลังจาก… เท่านั้น ถึงจะ…' },

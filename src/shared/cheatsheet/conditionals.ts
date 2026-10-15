@@ -138,7 +138,7 @@ export const conditionals: CheatSheet = {
         { w: 'unless', en: 'if … not', th: 'ถ้าไม่' },
         { w: 'as long as', en: 'on the condition that', th: 'ตราบใดที่ / ขอแค่…' },
         { w: 'provided that', en: 'only if', th: 'โดยมีเงื่อนไขว่า' },
-        { w: 'even if', en: 'it may or may not happen; the result is the same', th: 'ถึงแม้ว่า (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้)' }
+        { w: 'even if', en: 'it may or may not happen; the result is the same', th: 'ต่อให้… (ก็ตาม) (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้)' }
       ],
       use: {
         en: 'All of them take a clause (subject + verb). Unless already means "if not", so the verb after it is not negative. Even if is for something that may happen; even though is for something that is true.',
@@ -149,7 +149,7 @@ export const conditionals: CheatSheet = {
         th: 'งานจะถูกยกเลิกถ้ามีคนลงทะเบียนไม่เพิ่ม'
       },
       clues: [
-        { w: 'even if vs even though', en: 'even if = may or may not happen; even though = it is true', th: 'even if = อาจเกิดหรือไม่ก็ได้ / even though = เกิดจริงแล้ว' },
+        { w: 'even if vs even though', en: 'even if = may or may not happen; even though = it is true', th: 'even if = ต่อให้… (อาจเกิดหรือไม่ก็ได้) / even though = แม้ว่า (เกิดจริงแล้ว)' },
         { w: 'in case of + noun', en: 'in case of takes a noun, not a clause', th: 'in case of ตามด้วยคำนาม ไม่ใช่ประโยค' }
       ],
       mistake: {

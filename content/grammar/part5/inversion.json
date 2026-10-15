@@ -183,7 +183,7 @@
     "point": {
       "key": "seldom + does + S + V1",
       "th": "Seldom ขึ้นต้น ใช้ does (ประธานเดียว) + กริยารูปเดิม",
-      "en": "Seldom first, no helping verb: does (one subject) + base verb",
+      "en": "Seldom first → does + subject + base verb (does for one subject)",
       "wrong": ["Seldom is the board approve budget increases", "Seldom has the board approve budget increases"]
     },
     "status": "approved"
