@@ -9,7 +9,7 @@ export const prepositions: CheatSheet = {
   entries: [
     {
       id: 'time-at-on-in',
-      name: { en: 'Time: at / on / in', th: 'บอกเวลา at / on / in (time)' },
+      name: { en: 'Time: at / on / in', th: 'บอกเวลา (time: at / on / in)' },
       formula: ['at + clock time', 'on + day/date', 'in + month/year/season'],
       use: {
         en: 'at + clock time (at 9 a.m.), on + day or date (on Monday, on March 14), in + month or year (in May).',
@@ -45,10 +45,10 @@ export const prepositions: CheatSheet = {
       },
       example: {
         en: 'Please submit your expense reports {{by}} Friday.',
-        th: 'กรุณาส่งรายงานค่าใช้จ่ายภายในวันศุกร์'
+        th: 'กรุณาส่งรายงานค่าใช้จ่ายไม่เกินวันศุกร์'
       },
       clues: [
-        { w: 'submit … by Friday', en: 'hand in no later than Friday', th: 'ส่งภายในวันศุกร์' },
+        { w: 'submit … by Friday', en: 'hand in no later than Friday', th: 'ส่งไม่เกินวันศุกร์' },
         { w: 'wait until Friday', en: 'keep waiting up to Friday', th: 'รอจนถึงวันศุกร์' },
         { w: 'submit / send / return → by', en: 'one action, done in time', th: 'ทำครั้งเดียวให้ทัน ใช้ by' },
         { w: 'stay / remain / wait → until', en: 'goes on up to that time', th: 'ทำต่อเนื่องจนถึงเวลานั้น ใช้ until' }
@@ -94,30 +94,30 @@ export const prepositions: CheatSheet = {
       name: { en: 'Within / throughout', th: 'ภายใน และตลอดทั้ง (within / throughout)' },
       formula: ['within + length of time', 'throughout + N'],
       use: {
-        en: 'Within means inside a time limit. Throughout means the whole time, or all over a place.',
-        th: 'within = ภายในเวลานี้ / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่'
+        en: 'Within means inside a period (within 2 weeks). Throughout means the whole time, or all over a place.',
+        th: 'within = ภายในช่วงเวลา (within 2 weeks) / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่'
       },
       example: {
         en: 'Refunds will be processed {{within}} 10 business days.',
         th: 'การคืนเงินจะดำเนินการภายใน 10 วันทำการ'
       },
       clues: [
-        { w: 'within 24 hours', en: 'no later than 24 hours from now', th: 'ภายใน 24 ชั่วโมง' },
+        { w: 'within 24 hours', en: 'inside a period of 24 hours', th: 'ภายในช่วง 24 ชั่วโมง' },
         { w: 'throughout the year', en: 'all year', th: 'ตลอดทั้งปี' },
         { w: 'throughout the building', en: 'all over the building', th: 'ทั่วทั้งอาคาร' }
       ],
       mistake: {
-        wrong: 'arrive among two weeks',
-        right: 'arrive within two weeks',
+        wrong: 'finish the work during two weeks',
+        right: 'finish the work within two weeks',
         why: {
-          en: 'Among means in a group of people or things. Inside a time limit is within.',
-          th: 'among = ท่ามกลาง (ใช้กับกลุ่มคนหรือสิ่งของ) ส่วน "ภายใน" ช่วงเวลาใช้ within'
+          en: 'During takes an event (during the meeting). For "inside a period of two weeks", use within.',
+          th: 'during ตามด้วยช่วงหรืองาน (during the meeting) ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within'
         }
       }
     },
     {
       id: 'place-at-on-in',
-      name: { en: 'Place: at / on / in', th: 'บอกสถานที่ at / on / in (place)' },
+      name: { en: 'Place: at / on / in', th: 'บอกสถานที่ (place: at / on / in)' },
       formula: ['at + point/address', 'on + surface/floor/street', 'in + room/building/city'],
       use: {
         en: 'at + a point (at the desk), on + a floor, street or surface (on the 5th floor), in + inside a room or city (in the room).',
@@ -147,19 +147,19 @@ export const prepositions: CheatSheet = {
       name: { en: 'Words with a fixed preposition', th: 'คำที่มีคำบุพบทคู่ประจำ (fixed prepositions)' },
       formula: ['responsible + for', 'comply + with', 'increase/rise + by + amount'],
       use: {
-        en: 'Some words always take the same preposition, whatever the Thai meaning suggests. Learn the word and its preposition as one piece.',
-        th: 'บางคำต้องใช้คำบุพบทตัวเดิมเสมอ ไม่ว่าภาษาไทยจะแปลว่าอะไร ให้จำคำกับคำบุพบทเป็นคู่ทั้งก้อน'
+        en: 'Some words take a fixed preposition for a given meaning, whatever the Thai suggests: responsible for a task, comply with a rule. Learn the word and its preposition as one piece.',
+        th: 'บางคำมีคำบุพบทคู่ประจำตามความหมาย ไม่ว่าภาษาไทยจะแปลว่าอะไร เช่น รับผิดชอบงานใช้ responsible for ปฏิบัติตามกฎใช้ comply with ให้จำคำกับคำบุพบทเป็นคู่ทั้งก้อน'
       },
       example: {
         en: 'Monthly revenue has increased {{by}} nearly 15 percent.',
         th: 'รายได้ต่อเดือนเพิ่มขึ้นเกือบ 15 เปอร์เซ็นต์'
       },
       clues: [
-        { w: 'responsible for', en: 'in charge of', th: 'รับผิดชอบ' },
+        { w: 'responsible for', en: 'responsible for + a task', th: 'รับผิดชอบงานอะไร ใช้ for (responsible for + งาน)' },
         { w: 'comply with', en: 'follow (rules)', th: 'ปฏิบัติตาม (กฎ, ข้อบังคับ)' },
         { w: 'increase by', en: 'go up by (an amount)', th: 'เพิ่มขึ้น… (บอกจำนวนที่เพิ่ม)' },
         { w: 'send something to someone', en: 'give or post something to a person', th: 'ส่งอะไรไปให้ใคร' },
-        { w: 'in person', en: 'face to face', th: 'ด้วยตัวเอง แบบตัวต่อตัว' }
+        { w: 'in person', en: 'face to face', th: 'มาด้วยตัวเอง / พบต่อหน้า' }
       ],
       mistake: {
         wrong: 'comply to the rules',

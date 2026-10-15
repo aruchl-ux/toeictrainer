@@ -205,8 +205,8 @@
           "th": "ไม่ว่าจะ…หรือ… ตามด้วยประโยค",
           "en": "whether + a clause + or: no matter which",
           "wrong": [
-            "Either you need",
-            "Regardless of you need"
+            "Regardless of you need",
+            "Both you need"
           ]
         }
       },
@@ -726,11 +726,11 @@
         },
         "point": {
           "key": "by + deadline",
-          "th": "by = ภายใน… (ต้องเสร็จไม่เกินเวลานี้)",
-          "en": "by = no later than",
+          "th": "by = ไม่เกิน (เวลาที่กำหนด) เช่น by 5 P.M.",
+          "en": "by = no later than, e.g. by 5 P.M.",
           "wrong": [
             "send it until Friday",
-            "send it during Friday"
+            "send it since Friday"
           ]
         }
       }
@@ -1102,7 +1102,7 @@
         },
         "point": {
           "key": "in person",
-          "th": "ด้วยตัวเอง แบบตัวต่อตัว",
+          "th": "มาด้วยตัวเอง / พบต่อหน้า",
           "en": "face to face",
           "wrong": [
             "meet suppliers on person",

@@ -3,13 +3,13 @@ import type { CheatSheet } from './types'
 export const conjVsPrep: CheatSheet = {
   topic: 'conj-vs-prep',
   intro: {
-    en: 'The choices mix linking words (because, although) with prepositions that mean the same (because of, despite). Look after the blank first. A subject and a verb (a clause): use the linking word. Only a noun or an -ing word: use the preposition.',
-    th: 'ตัวเลือกมักมีทั้งคำเชื่อม (because, although) และคำบุพบทที่แปลเหมือนกัน (because of, despite) ให้ดูหลังช่องว่างก่อน ถ้ามีประธานและกริยา (เป็นประโยค) ใช้คำเชื่อม ถ้ามีแค่คำนามหรือกริยาเติม -ing ใช้คำบุพบท'
+    en: 'The choices mix conjunctions, words that join clauses (because, although), with prepositions that mean the same (because of, despite). Look after the blank first. A subject and a verb (a clause): use the conjunction. Only a noun or an -ing word: use the preposition.',
+    th: 'ตัวเลือกมักมีทั้งคำสันธาน (คำที่ต่อประโยค เช่น because, although) และคำบุพบทที่แปลเหมือนกัน (because of, despite) ให้ดูหลังช่องว่างก่อน ถ้ามีประธานและกริยา (เป็นประโยค) ใช้คำสันธาน ถ้ามีแค่คำนามหรือกริยาเติม -ing ใช้คำบุพบท'
   },
   entries: [
     {
       id: 'because-vs-because-of',
-      name: { en: 'Because vs because of', th: 'เพราะ: because กับ because of (because vs because of)' },
+      name: { en: 'Because vs because of', th: 'เพราะ (because vs because of)' },
       formula: ['because/since/as + S + V', 'because of/due to/owing to + N'],
       words: [
         { w: 'because', en: 'because', th: 'เพราะ' },
@@ -42,7 +42,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'although-vs-despite',
-      name: { en: 'Although vs despite', th: 'แม้ว่า: although กับ despite (although vs despite)' },
+      name: { en: 'Although vs despite', th: 'แม้ว่า (although vs despite)' },
       formula: ['although/even though/even if + S + V', 'despite/in spite of + N/V-ing'],
       words: [
         { w: 'although', en: 'even though', th: 'แม้ว่า' },
@@ -74,7 +74,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'whereas-vs-unlike',
-      name: { en: 'Whereas vs unlike', th: 'เทียบความต่าง: whereas กับ unlike (whereas vs unlike)' },
+      name: { en: 'Whereas vs unlike', th: 'เทียบความต่าง (whereas vs unlike)' },
       formula: ['whereas/while + S + V', 'unlike + N'],
       words: [
         { w: 'whereas', en: 'but on the other hand', th: 'ในขณะที่ (อีกอย่างหนึ่งกลับต่างกัน)' },
@@ -101,7 +101,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'while-vs-during',
-      name: { en: 'While vs during', th: 'ขณะ / เมื่อ: while กับ during (while vs during)' },
+      name: { en: 'While vs during', th: 'ขณะ / ระหว่าง (while vs during)' },
       formula: ['while/when + S + V', 'while/when + V-ing', 'during/throughout + N'],
       words: [
         { w: 'while', en: 'at the same time as', th: 'ขณะที่' },
@@ -133,7 +133,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'if-vs-in-case-of',
-      name: { en: 'If / unless vs in case of', th: 'ถ้า / ในกรณี: if, unless กับ in case of (if vs in case of)' },
+      name: { en: 'If / unless vs in case of', th: 'ถ้า / ในกรณี (if, unless vs in case of)' },
       formula: ['if/unless/in case + S + V', 'in case of/in the event of + N'],
       words: [
         { w: 'if', en: 'if', th: 'ถ้า' },
@@ -162,7 +162,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'so-that-vs-in-order-to',
-      name: { en: 'So that vs in order to', th: 'เพื่อ: so that กับ in order to (so that vs in order to)' },
+      name: { en: 'So that vs in order to', th: 'เพื่อ (so that vs in order to)' },
       formula: ['so that + S + V', 'in order to/so as to + V1'],
       words: [
         { w: 'so that', en: 'so that', th: 'เพื่อที่จะ (ตามด้วยประโยค)' },
@@ -188,7 +188,7 @@ export const conjVsPrep: CheatSheet = {
     },
     {
       id: 'whether-vs-regardless-of',
-      name: { en: 'Whether vs regardless of', th: 'ไม่ว่า: whether กับ regardless of (whether vs regardless of)' },
+      name: { en: 'Whether vs regardless of', th: 'ไม่ว่า (whether vs regardless of)' },
       formula: ['whether + S + V + or not', 'regardless of + N'],
       words: [
         { w: 'whether … or not', en: 'no matter if … or not', th: 'ไม่ว่าจะ… หรือไม่' },
@@ -260,17 +260,17 @@ export const conjVsPrep: CheatSheet = {
         { w: '. However,', en: 'but, at the start of a new sentence', th: 'อย่างไรก็ตาม (ขึ้นประโยคใหม่ แล้วมี , ตาม)' }
       ],
       mistake: {
-        wrong: 'However it rained, we went out.',
-        right: 'Although it rained, we went out.',
+        wrong: 'It rained, however we went out.',
+        right: 'It rained; however, we went out.',
         why: {
-          en: 'However cannot join two sentences like although. Use although, or write ; however, between them.',
-          th: 'however เชื่อมสองประโยคแบบ although ไม่ได้ ให้ใช้ although หรือเขียน ; however, คั่นกลาง'
+          en: 'A comma alone cannot join two sentences with however. Put ; before it and , after it.',
+          th: 'ใช้แค่ , ต่อสองประโยคด้วย however ไม่ได้ ต้องมี ; ข้างหน้า และ , ข้างหลัง'
         }
       }
     },
     {
       id: 'paired-conjunctions',
-      name: { en: 'Paired conjunctions', th: 'คำเชื่อมที่มาเป็นคู่ (paired conjunctions)' },
+      name: { en: 'Paired conjunctions', th: 'คำสันธานที่มาเป็นคู่ (paired conjunctions)' },
       formula: ['both + N + and + N', 'either + N + or + N', 'not only + N + but also + N'],
       words: [
         { w: 'both … and', en: 'the two of them', th: 'ทั้ง… และ…' },

@@ -79,7 +79,7 @@
       "key": "unless + S + V",
       "th": "unless = ถ้าไม่… ตามด้วยประโยค",
       "en": "unless = if not, + a clause",
-      "wrong": ["without customers select", "in case customers select"]
+      "wrong": ["without customers select", "otherwise customers select"]
     },
     "status": "approved"
   },
@@ -205,7 +205,7 @@
       "key": "whether … or",
       "th": "ไม่ว่าจะ…หรือ… ตามด้วยประโยค",
       "en": "whether + a clause + or: no matter which",
-      "wrong": ["regardless of they work", "either they work"]
+      "wrong": ["regardless of they work", "even they work"]
     },
     "status": "approved"
   }

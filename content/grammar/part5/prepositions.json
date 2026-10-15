@@ -77,8 +77,8 @@
     },
     "point": {
       "key": "within + length of time",
-      "th": "ภายในช่วงเวลานี้ ไม่เกินนี้",
-      "en": "no later than the end of a period",
+      "th": "within = ภายในช่วงเวลา เช่น within 2 weeks",
+      "en": "within = inside a period, e.g. within 2 weeks",
       "wrong": ["among two weeks", "upon two weeks"]
     },
     "status": "approved"
@@ -100,7 +100,7 @@
       "key": "send something to someone",
       "th": "ส่งอะไรไปให้ใคร ใช้ to",
       "en": "give or post something to a person",
-      "wrong": ["send résumés at the manager", "send résumés for the manager"]
+      "wrong": ["send résumés at the manager", "send résumés with the manager"]
     },
     "status": "approved"
   },
@@ -119,8 +119,8 @@
     },
     "point": {
       "key": "by + deadline",
-      "th": "by = ภายใน… (ต้องเสร็จไม่เกินเวลานี้)",
-      "en": "by = no later than",
+      "th": "by = ไม่เกิน (เวลาที่กำหนด) เช่น by 5 P.M.",
+      "en": "by = no later than, e.g. by 5 P.M.",
       "wrong": ["submitted until 5 P.M.", "submitted within 5 P.M."]
     },
     "status": "approved"
@@ -140,9 +140,9 @@
     },
     "point": {
       "key": "responsible for",
-      "th": "รับผิดชอบ ใช้ for เสมอ",
-      "en": "in charge of",
-      "wrong": ["responsible of", "responsible to"]
+      "th": "รับผิดชอบงานอะไร ใช้ for (responsible for + งาน)",
+      "en": "responsible for + a task",
+      "wrong": ["responsible of coordinating", "responsible to coordinating"]
     },
     "status": "approved"
   },
@@ -205,7 +205,7 @@
       "key": "increase by",
       "th": "เพิ่มขึ้นเท่าไร ใช้ by (by 15 percent)",
       "en": "by shows the size of the change",
-      "wrong": ["increased to 15 percent", "increased of 15 percent"]
+      "wrong": ["increased of 15 percent", "increased on 15 percent"]
     },
     "status": "approved"
   }

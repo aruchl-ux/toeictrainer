@@ -405,7 +405,7 @@ All four choices are small words like in, on, at, by. Look at the word after the
 
 Symbols: `N` = คำนาม
 
-### Time: at / on / in · บอกเวลา at / on / in (time) `time-at-on-in`
+### Time: at / on / in · บอกเวลา (time: at / on / in) `time-at-on-in`
 
     at + clock time
     on + day/date
@@ -426,9 +426,9 @@ Symbols: `N` = คำนาม
 - By means no later than: finish before then. Until means keep going up to then.
 - by = ไม่เกินเวลานี้ (ทำให้เสร็จ) / until = ทำต่อไปเรื่อย ๆ จนถึงเวลานี้
 - Please submit your expense reports **by** Friday.
-- กรุณาส่งรายงานค่าใช้จ่ายภายในวันศุกร์
+- กรุณาส่งรายงานค่าใช้จ่ายไม่เกินวันศุกร์
 - ✗ submit the report until Friday → ✓ submit the report by Friday: การส่งเกิดครั้งเดียวและต้องทันเวลา จึงใช้ by ส่วน until ใช้กับสิ่งที่ทำต่อเนื่อง เช่น wait (Submitting happens once and must be in time, so use by. Until is for things that keep going, like wait.)
-- Clues: submit … by Friday = ส่งภายในวันศุกร์ · wait until Friday = รอจนถึงวันศุกร์ · submit / send / return → by = ทำครั้งเดียวให้ทัน ใช้ by · stay / remain / wait → until = ทำต่อเนื่องจนถึงเวลานั้น ใช้ until
+- Clues: submit … by Friday = ส่งไม่เกินวันศุกร์ · wait until Friday = รอจนถึงวันศุกร์ · submit / send / return → by = ทำครั้งเดียวให้ทัน ใช้ by · stay / remain / wait → until = ทำต่อเนื่องจนถึงเวลานั้น ใช้ until
 
 ### For / during / since · นานเท่าไร ช่วงไหน ตั้งแต่เมื่อไร (for / during / since) `for-during-since`
 
@@ -448,14 +448,14 @@ Symbols: `N` = คำนาม
     within + length of time
     throughout + N
 
-- Within means inside a time limit. Throughout means the whole time, or all over a place.
-- within = ภายในเวลานี้ / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่
+- Within means inside a period (within 2 weeks). Throughout means the whole time, or all over a place.
+- within = ภายในช่วงเวลา (within 2 weeks) / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่
 - Refunds will be processed **within** 10 business days.
 - การคืนเงินจะดำเนินการภายใน 10 วันทำการ
-- ✗ arrive among two weeks → ✓ arrive within two weeks: among = ท่ามกลาง (ใช้กับกลุ่มคนหรือสิ่งของ) ส่วน "ภายใน" ช่วงเวลาใช้ within (Among means in a group of people or things. Inside a time limit is within.)
-- Clues: within 24 hours = ภายใน 24 ชั่วโมง · throughout the year = ตลอดทั้งปี · throughout the building = ทั่วทั้งอาคาร
+- ✗ finish the work during two weeks → ✓ finish the work within two weeks: during ตามด้วยช่วงหรืองาน (during the meeting) ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within (During takes an event (during the meeting). For "inside a period of two weeks", use within.)
+- Clues: within 24 hours = ภายในช่วง 24 ชั่วโมง · throughout the year = ตลอดทั้งปี · throughout the building = ทั่วทั้งอาคาร
 
-### Place: at / on / in · บอกสถานที่ at / on / in (place) `place-at-on-in`
+### Place: at / on / in · บอกสถานที่ (place: at / on / in) `place-at-on-in`
 
     at + point/address
     on + surface/floor/street
@@ -474,39 +474,39 @@ Symbols: `N` = คำนาม
     comply + with
     increase/rise + by + amount
 
-- Some words always take the same preposition, whatever the Thai meaning suggests. Learn the word and its preposition as one piece.
-- บางคำต้องใช้คำบุพบทตัวเดิมเสมอ ไม่ว่าภาษาไทยจะแปลว่าอะไร ให้จำคำกับคำบุพบทเป็นคู่ทั้งก้อน
+- Some words take a fixed preposition for a given meaning, whatever the Thai suggests: responsible for a task, comply with a rule. Learn the word and its preposition as one piece.
+- บางคำมีคำบุพบทคู่ประจำตามความหมาย ไม่ว่าภาษาไทยจะแปลว่าอะไร เช่น รับผิดชอบงานใช้ responsible for ปฏิบัติตามกฎใช้ comply with ให้จำคำกับคำบุพบทเป็นคู่ทั้งก้อน
 - Monthly revenue has increased **by** nearly 15 percent.
 - รายได้ต่อเดือนเพิ่มขึ้นเกือบ 15 เปอร์เซ็นต์
 - ✗ comply to the rules → ✓ comply with the rules: comply ใช้กับ with เสมอ ไม่ใช่ to (Comply always takes with.)
-- Clues: responsible for = รับผิดชอบ · comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · increase by = เพิ่มขึ้น… (บอกจำนวนที่เพิ่ม) · send something to someone = ส่งอะไรไปให้ใคร · in person = ด้วยตัวเอง แบบตัวต่อตัว
+- Clues: responsible for = รับผิดชอบงานอะไร ใช้ for (responsible for + งาน) · comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · increase by = เพิ่มขึ้น… (บอกจำนวนที่เพิ่ม) · send something to someone = ส่งอะไรไปให้ใคร · in person = มาด้วยตัวเอง / พบต่อหน้า
 
 ### Tested in drills (12)
 
-- `by + deadline` = by = ภายใน… (ต้องเสร็จไม่เกินเวลานี้) (by = no later than) · ✗ submitted until 5 P.M., submitted within 5 P.M., send it until Friday, send it during Friday
+- `by + deadline` = by = ไม่เกิน (เวลาที่กำหนด) เช่น by 5 P.M. (by = no later than, e.g. by 5 P.M.) · ✗ submitted until 5 P.M., submitted within 5 P.M., send it until Friday, send it since Friday
 - `comply with` = ปฏิบัติตาม (กฎ) ใช้ with เสมอ (follow (rules)) · ✗ comply to, comply for
 - `during + N` = during + คำนาม ส่วน while + ประโยค (during + a noun; while + a clause) · ✗ while the national holiday, among the national holiday
 - `from … through` = ตั้งแต่…ถึง… (ช่วงวันที่) (from the first day to the last day) · ✗ since Monday through Wednesday, between Monday through Wednesday
-- `in person` = ด้วยตัวเอง แบบตัวต่อตัว (face to face) · ✗ meet suppliers on person, meet suppliers by person
-- `increase by` = เพิ่มขึ้นเท่าไร ใช้ by (by 15 percent) (by shows the size of the change) · ✗ increased to 15 percent, increased of 15 percent
+- `in person` = มาด้วยตัวเอง / พบต่อหน้า (face to face) · ✗ meet suppliers on person, meet suppliers by person
+- `increase by` = เพิ่มขึ้นเท่าไร ใช้ by (by 15 percent) (by shows the size of the change) · ✗ increased of 15 percent, increased on 15 percent
 - `on + day/date` = วันหรือวันที่ ใช้ on (on March 14) (on + a day or date) · ✗ in March 14, at March 14
-- `responsible for` = รับผิดชอบ ใช้ for เสมอ (in charge of) · ✗ responsible of, responsible to
-- `send something to someone` = ส่งอะไรไปให้ใคร ใช้ to (give or post something to a person) · ✗ send résumés at the manager, send résumés for the manager
+- `responsible for` = รับผิดชอบงานอะไร ใช้ for (responsible for + งาน) (responsible for + a task) · ✗ responsible of coordinating, responsible to coordinating
+- `send something to someone` = ส่งอะไรไปให้ใคร ใช้ to (give or post something to a person) · ✗ send résumés at the manager, send résumés with the manager
 - `since + starting point` = since + ปีหรือเวลาที่เริ่ม (since 2015) (since + the time it started) · ✗ has worked for 2015, has worked from 2015
 - `throughout + N` = ตลอดทั้ง… (ตลอดทั้งปี) (for the whole time of) · ✗ among the year, along the year
-- `within + length of time` = ภายในช่วงเวลานี้ ไม่เกินนี้ (no later than the end of a period) · ✗ among two weeks, upon two weeks
+- `within + length of time` = within = ภายในช่วงเวลา เช่น within 2 weeks (within = inside a period, e.g. within 2 weeks) · ✗ among two weeks, upon two weeks
 
 Not on any entry (0): none
 
 ## conj-vs-prep
 
-The choices mix linking words (because, although) with prepositions that mean the same (because of, despite). Look after the blank first. A subject and a verb (a clause): use the linking word. Only a noun or an -ing word: use the preposition.
+The choices mix conjunctions, words that join clauses (because, although), with prepositions that mean the same (because of, despite). Look after the blank first. A subject and a verb (a clause): use the conjunction. Only a noun or an -ing word: use the preposition.
 
-ตัวเลือกมักมีทั้งคำเชื่อม (because, although) และคำบุพบทที่แปลเหมือนกัน (because of, despite) ให้ดูหลังช่องว่างก่อน ถ้ามีประธานและกริยา (เป็นประโยค) ใช้คำเชื่อม ถ้ามีแค่คำนามหรือกริยาเติม -ing ใช้คำบุพบท
+ตัวเลือกมักมีทั้งคำสันธาน (คำที่ต่อประโยค เช่น because, although) และคำบุพบทที่แปลเหมือนกัน (because of, despite) ให้ดูหลังช่องว่างก่อน ถ้ามีประธานและกริยา (เป็นประโยค) ใช้คำสันธาน ถ้ามีแค่คำนามหรือกริยาเติม -ing ใช้คำบุพบท
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V-ing` = กริยาเติม -ing (going) · `N` = คำนาม
 
-### Because vs because of · เพราะ: because กับ because of (because vs because of) `because-vs-because-of`
+### Because vs because of · เพราะ (because vs because of) `because-vs-because-of`
 
     because/since/as + S + V
     because of/due to/owing to + N
@@ -525,7 +525,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ because of the flight was late → ✓ because the flight was late: the flight was late มีประธานและกริยา จึงใช้ because ไม่มี of (The flight was late has a subject and a verb, so use because with no of.)
 - Clues: because + S + V = because + ประโยค (มีประธานและกริยา) · owing to + N = owing to = เนื่องจาก ตามด้วยคำนาม
 
-### Although vs despite · แม้ว่า: although กับ despite (although vs despite) `although-vs-despite`
+### Although vs despite · แม้ว่า (although vs despite) `although-vs-despite`
 
     although/even though/even if + S + V
     despite/in spite of + N/V-ing
@@ -543,7 +543,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ despite of the rain → ✓ despite the rain: despite ไม่มี of ตามหลัง มีแต่ in spite of ที่มี of (Despite never takes of. Only in spite of has of.)
 - Clues: despite + N = despite (แม้จะมี…) + คำนาม ไม่ใช่ประโยค · in spite of + V-ing = in spite of (แม้จะ) + กริยาเติม -ing
 
-### Whereas vs unlike · เทียบความต่าง: whereas กับ unlike (whereas vs unlike) `whereas-vs-unlike`
+### Whereas vs unlike · เทียบความต่าง (whereas vs unlike) `whereas-vs-unlike`
 
     whereas/while + S + V
     unlike + N
@@ -559,7 +559,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ unlike her assistant relies on e-mail → ✓ whereas her assistant relies on e-mail: ข้างหลังมีประธานและกริยา จึงใช้ whereas ส่วน unlike ตามด้วยคำนามเท่านั้น (A subject and a verb follow, so use whereas. Unlike takes only a noun.)
 - Clues: whereas + S + V = whereas = ในขณะที่ (เทียบความต่าง) + ประโยค
 
-### While vs during · ขณะ / เมื่อ: while กับ during (while vs during) `while-vs-during`
+### While vs during · ขณะ / ระหว่าง (while vs during) `while-vs-during`
 
     while/when + S + V
     while/when + V-ing
@@ -577,7 +577,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ during driving → ✓ while driving: during ตามด้วยคำนาม (during the meeting) ถ้าเป็นกริยาเติม -ing ใช้ while (During takes a noun (during the meeting). Before an -ing verb, use while.)
 - Clues: while + V-ing = while + กริยาเติม -ing ได้ ส่วน during + คำนาม · when + S + V = when = เมื่อ… ตามด้วยประโยค · until + S + V = until = จนกระทั่ง ตามด้วยประโยค
 
-### If / unless vs in case of · ถ้า / ในกรณี: if, unless กับ in case of (if vs in case of) `if-vs-in-case-of`
+### If / unless vs in case of · ถ้า / ในกรณี (if, unless vs in case of) `if-vs-in-case-of`
 
     if/unless/in case + S + V
     in case of/in the event of + N
@@ -595,7 +595,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ✗ in case of it rains → ✓ if it rains: in case of ตามด้วยคำนาม (in case of rain) ถ้าเป็นประโยคใช้ if (In case of takes a noun (in case of rain). Before a clause, use if.)
 - Clues: unless + S + V = unless = ถ้าไม่… ตามด้วยประโยค
 
-### So that vs in order to · เพื่อ: so that กับ in order to (so that vs in order to) `so-that-vs-in-order-to`
+### So that vs in order to · เพื่อ (so that vs in order to) `so-that-vs-in-order-to`
 
     so that + S + V
     in order to/so as to + V1
@@ -610,7 +610,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - กรุณามาก่อนเวลา เพื่อที่เราจะได้เริ่มตรงเวลา
 - ✗ in order to we can start → ✓ so that we can start: in order to ตามด้วยกริยารูปเดิม ถ้ามีประธานและกริยาใช้ so that (In order to takes a base verb. Before a subject and a verb, use so that.)
 
-### Whether vs regardless of · ไม่ว่า: whether กับ regardless of (whether vs regardless of) `whether-vs-regardless-of`
+### Whether vs regardless of · ไม่ว่า (whether vs regardless of) `whether-vs-regardless-of`
 
     whether + S + V + or not
     regardless of + N
@@ -651,10 +651,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - คำพวกนี้ต่อสองประโยคเองไม่ได้เหมือน because ต้องมี ; หรือ . ข้างหน้า และมี , ข้างหลัง
 - The venue was full; **therefore**, we moved the event online.
 - สถานที่เต็ม ดังนั้นเราจึงย้ายงานไปจัดออนไลน์
-- ✗ However it rained, we went out. → ✓ Although it rained, we went out.: however เชื่อมสองประโยคแบบ although ไม่ได้ ให้ใช้ although หรือเขียน ; however, คั่นกลาง (However cannot join two sentences like although. Use although, or write ; however, between them.)
+- ✗ It rained, however we went out. → ✓ It rained; however, we went out.: ใช้แค่ , ต่อสองประโยคด้วย however ไม่ได้ ต้องมี ; ข้างหน้า และ , ข้างหลัง (A comma alone cannot join two sentences with however. Put ; before it and , after it.)
 - Clues: ; however, = อย่างไรก็ตาม (มี ; ข้างหน้า และ , ข้างหลัง) · . However, = อย่างไรก็ตาม (ขึ้นประโยคใหม่ แล้วมี , ตาม)
 
-### Paired conjunctions · คำเชื่อมที่มาเป็นคู่ (paired conjunctions) `paired-conjunctions`
+### Paired conjunctions · คำสันธานที่มาเป็นคู่ (paired conjunctions) `paired-conjunctions`
 
     both + N + and + N
     either + N + or + N
@@ -680,11 +680,11 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `in spite of + V-ing` = in spite of (แม้จะ) + กริยาเติม -ing (in spite of + -ing) · ✗ Even though having received, Nevertheless having received
 - `owing to + N` = owing to = เนื่องจาก ตามด้วยคำนาม (owing to + a noun (a reason)) · ✗ Because a sharp rise in fuel costs, Although a sharp rise in fuel costs
 - `so that + S + V` = so that = เพื่อที่จะ ตามด้วยประโยค (so that + a clause (purpose)) · ✗ in order to more customers would, because of more customers would
-- `unless + S + V` = unless = ถ้าไม่… ตามด้วยประโยค (unless = if not, + a clause) · ✗ without customers select, in case customers select
+- `unless + S + V` = unless = ถ้าไม่… ตามด้วยประโยค (unless = if not, + a clause) · ✗ without customers select, otherwise customers select
 - `until + S + V` = until = จนกระทั่ง ตามด้วยประโยค (until + a clause: up to the time that) · ✗ during the light turns blue, despite the light turns blue
 - `when + S + V` = when = เมื่อ… ตามด้วยประโยค (when + a clause) · ✗ during you arrive, upon you arrive
 - `whereas + S + V` = whereas = ในขณะที่ (เทียบความต่าง) + ประโยค (whereas + a clause, to compare) · ✗ unlike her assistant relies, instead of her assistant relies
-- `whether … or` = ไม่ว่าจะ…หรือ… ตามด้วยประโยค (whether + a clause + or: no matter which) · ✗ regardless of they work, either they work, Either you need, Regardless of you need
+- `whether … or` = ไม่ว่าจะ…หรือ… ตามด้วยประโยค (whether + a clause + or: no matter which) · ✗ regardless of they work, even they work, Regardless of you need, Both you need
 - `while + V-ing` = while + กริยาเติม -ing ได้ ส่วน during + คำนาม (while + -ing; during + a noun) · ✗ during operating a forklift, throughout operating a forklift
 
 Not on any entry (0): none
