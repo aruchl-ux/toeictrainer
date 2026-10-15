@@ -18,6 +18,8 @@ if (errors.length) {
 const cell = (s: string) => s.replace(/\|/g, '\\|').replace(/\n/g, ' ')
 const filled = (stem: string, answer: string) => stem.replace('____', `**[${answer}]**`)
 const others = (choices: string[], answer: number) => choices.filter((_, i) => i !== answer).join(' / ')
+const pointCell = (p?: { key: string; th: string; wrong?: string[] }) =>
+  p ? cell(`${p.key} = ${p.th}${p.wrong?.length ? ` · ✗ ${p.wrong.join(', ')}` : ''}`) : '**missing**'
 
 const lines: string[] = [
   '# Answer sheet',
@@ -29,10 +31,10 @@ const lines: string[] = [
 for (const topic of PART5_TOPICS) {
   const items = bank.part5.filter((i) => i.topic === topic)
   if (items.length === 0) continue
-  lines.push(`## Part 5 · ${topic} (${items.length})`, '', '| id | sentence | wrong choices | tested point | คำอธิบาย |', '|---|---|---|---|---|')
+  lines.push(`## Part 5 · ${topic} (${items.length})`, '', '| id | sentence | wrong choices | tested point | point (cheat sheet) | คำอธิบาย |', '|---|---|---|---|---|---|')
   for (const i of items) {
     lines.push(
-      `| ${i.id.replace(`p5-${topic}-`, '')} | ${cell(filled(i.stem, i.choices[i.answer]))} | ${cell(others(i.choices, i.answer))} | ${cell(i.trap)} | ${cell(i.explain.th)} |`
+      `| ${i.id.replace(`p5-${topic}-`, '')} | ${cell(filled(i.stem, i.choices[i.answer]))} | ${cell(others(i.choices, i.answer))} | ${cell(i.trap)} | ${pointCell(i.point)} | ${cell(i.explain.th)} |`
     )
   }
   lines.push('')
@@ -45,9 +47,9 @@ for (const set of bank.part6) {
     return `**[${n}: ${b.choices[b.answer]}]**`
   })
   lines.push(`## Part 6 · ${set.id} · ${set.title}`, '', ...passage.split('\n').map((l) => `> ${l}`), '')
-  lines.push('| blank | topic | wrong choices | tested point | คำอธิบาย |', '|---|---|---|---|---|')
+  lines.push('| blank | topic | wrong choices | tested point | point (cheat sheet) | คำอธิบาย |', '|---|---|---|---|---|---|')
   set.blanks.forEach((b, i) =>
-    lines.push(`| ${i + 1} | ${b.topic} | ${cell(others(b.choices, b.answer))} | ${cell(b.trap)} | ${cell(b.explain.th)} |`)
+    lines.push(`| ${i + 1} | ${b.topic} | ${cell(others(b.choices, b.answer))} | ${cell(b.trap)} | ${b.topic === 'sentence-insertion' || b.topic === 'transitions' ? '' : pointCell(b.point)} | ${cell(b.explain.th)} |`)
   )
   lines.push('')
 }
