@@ -12,8 +12,8 @@ export const tenseVoice: CheatSheet = {
       name: { en: 'Present simple', th: 'กาลปัจจุบันธรรมดา (present simple)' },
       formula: ['S + V(s/es) + Obj'],
       use: {
-        en: 'For habits and facts. If the subject is one person or thing (he, she, it), add -s/-es to the verb.',
-        th: 'ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็นคนเดียวหรือสิ่งเดียว (he, she, it) กริยาเติม s/es'
+        en: 'For habits and facts. If the subject is he, she, it or one thing, add -s/-es to the verb.',
+        th: 'ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็น he, she, it หรือสิ่งเดียว กริยาเติม s/es'
       },
       example: {
         en: 'The shuttle bus {{leaves}} the hotel every 30 minutes.',
@@ -293,7 +293,7 @@ export const tenseVoice: CheatSheet = {
         th: 'ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว'
       },
       clues: [
-        { w: 'by + future time', en: 'no later than a future time', th: 'ไม่เกิน… / ก่อนถึง… (เวลาในอนาคต)' },
+        { w: 'by + future time', en: 'no later than a future time', th: 'ไม่เกิน… (เวลาในอนาคต)' },
         { w: 'by the time + V(s/es)', en: 'when it happens (future)', th: 'เมื่อถึงตอนที่… (ในอนาคต)' },
         { w: 'by the end of this year', en: 'no later than the end of this year', th: 'ภายในสิ้นปีนี้' }
       ],

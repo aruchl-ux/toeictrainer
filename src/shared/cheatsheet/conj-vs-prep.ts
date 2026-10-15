@@ -47,7 +47,7 @@ export const conjVsPrep: CheatSheet = {
       words: [
         { w: 'although', en: 'even though', th: 'แม้ว่า' },
         { w: 'even though', en: 'even though (stronger)', th: 'แม้ว่า (เน้นกว่า although)' },
-        { w: 'even if', en: 'whether or not (imagined)', th: 'ถึงแม้ว่า (เรื่องสมมติ อาจเกิดหรือไม่เกิด)' },
+        { w: 'even if', en: 'whether or not (imagined)', th: 'ต่อให้… (ก็ตาม) (เรื่องสมมติ อาจเกิดหรือไม่เกิด)' },
         { w: 'despite', en: 'without being stopped by', th: 'ทั้ง ๆ ที่มี… / แม้จะมี…' },
         { w: 'in spite of', en: 'same as despite', th: 'เหมือน despite' }
       ],

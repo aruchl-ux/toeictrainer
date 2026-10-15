@@ -13,13 +13,14 @@ export const POINT_RULES = `- "point": what the learner must remember, written f
 export const GenPoint = z.object({ key: z.string(), th: z.string(), en: z.string(), wrong: z.array(z.string()) })
 export type GenPoint = z.infer<typeof GenPoint>
 
-/** Longest `th` / `en` line allowed; matches tests/unit/coverage.test.ts. */
+/** Longest `th` / `en` line allowed; also used by tests/unit/coverage.test.ts and scripts/check-content.ts. */
 export const POINT_MAX = 80
 /** Any Thai character; `th` must contain one (also checked by the coverage test). */
 export const THAI = /[฀-๿]/
 
 export function toPoint(g: GenPoint): Point | null {
-  const wrong = g.wrong.map((w) => w.trim()).filter(Boolean).slice(0, 3)
+  // A point cached before `wrong` existed has no list.
+  const wrong = (g.wrong ?? []).map((w) => w.trim()).filter(Boolean).slice(0, 3)
   const r = Point.safeParse({ key: g.key, th: g.th, en: g.en, ...(wrong.length ? { wrong } : {}) })
   if (!r.success) return null
   const { th, en } = r.data
@@ -131,9 +132,9 @@ export function applyPoints(data: unknown[], points: Map<string, Point>): unknow
   })
 }
 
-/** JSON in the original file's layout: the hand-written Part 5 files keep string arrays on one line. */
+/** JSON in the original file's layout: the hand-written Part 5 files keep string arrays on one line. A CRLF original (core.autocrlf) is read as LF. */
 export function formatLike(original: string, data: unknown[]): string {
   const plain = JSON.stringify(data, null, 2) + '\n'
-  if (/"choices": \[\n/.test(original)) return plain
+  if (/"choices": \[\n/.test(original.replace(/\r/g, ''))) return plain
   return plain.replace(/\[\n\s+("(?:[^"\\\n]|\\.)*"(?:,\n\s+"(?:[^"\\\n]|\\.)*")*)\n\s+\]/g, (_, body: string) => `[${body.replace(/,\n\s+/g, ', ')}]`)
 }

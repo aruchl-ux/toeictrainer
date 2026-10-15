@@ -35,8 +35,8 @@ export const collocations: CheatSheet = {
         wrong: 'do a decision',
         right: 'make a decision',
         why: {
-          en: 'Thai says "ทำ" for both make and do, but decision always takes make.',
-          th: 'ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do'
+          en: 'Thai says "ทำ" for both make and do. Between make and do, decision takes make.',
+          th: 'ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ถ้าเลือกระหว่าง make กับ do คำว่า decision ใช้ make ห้ามแปลตรงว่า do'
         }
       }
     },
@@ -63,7 +63,10 @@ export const collocations: CheatSheet = {
       mistake: {
         wrong: 'responsible of',
         right: 'responsible for',
-        why: { en: 'Responsible always takes for.', th: 'responsible ใช้กับ for เสมอ ไม่ใช่ of' }
+        why: {
+          en: 'Responsible for + the task or job; responsible to + the person you report to. Never of.',
+          th: 'responsible for + งานหรือหน้าที่ที่ดูแล; responsible to + คนที่เราต้องรายงาน ไม่ใช้ of'
+        }
       }
     },
     {
@@ -71,8 +74,8 @@ export const collocations: CheatSheet = {
       name: { en: 'Noun + preposition', th: 'คำนาม + คำบุพบท (noun + preposition)' },
       formula: ['increase/decrease + in + N', 'demand/need/reason + for + N', 'access/approach/solution + to + N'],
       use: {
-        en: 'Words for going up or down take in (an increase in sales). Words for wanting or why take for (demand for, reason for). Access and solution take to.',
-        th: 'คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วน access และ solution ใช้ to'
+        en: 'Increase and decrease take in + the thing that changes (an increase in sales). Words for wanting or why take for (demand for, reason for). The nouns access and solution take to.',
+        th: 'increase และ decrease ใช้ in + สิ่งที่เปลี่ยน (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วนคำนาม access และ solution ใช้ to'
       },
       example: {
         en: 'There has been a sharp increase {{in}} online sales.',
@@ -88,7 +91,10 @@ export const collocations: CheatSheet = {
       mistake: {
         wrong: 'access for the database',
         right: 'access to the database',
-        why: { en: 'Access always takes to.', th: 'access ใช้กับ to เสมอ' }
+        why: {
+          en: 'The noun access takes to (access to the database); the verb has no to (access the files).',
+          th: 'access ที่เป็นคำนามใช้ to (access to the database) ส่วน access ที่เป็นกริยาไม่มี to (access the files)'
+        }
       }
     },
     {
@@ -126,7 +132,7 @@ export const collocations: CheatSheet = {
       formula: ['highly + recommended/qualified', 'strictly + prohibited', 'conveniently + located'],
       use: {
         en: 'Some adverbs almost always go with certain words. Learn the pair: highly recommended, strictly prohibited.',
-        th: 'adverb บางตัวมักใช้คู่กับคำบางคำเสมอ ให้จำเป็นคู่ เช่น highly recommended, strictly prohibited'
+        th: 'คำกริยาวิเศษณ์ (adverb) บางตัวมักใช้คู่กับคำบางคำ ให้จำเป็นคู่ เช่น highly recommended, strictly prohibited'
       },
       example: {
         en: 'Smoking is {{strictly}} prohibited in the building.',

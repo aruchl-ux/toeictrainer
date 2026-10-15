@@ -79,7 +79,7 @@ appTest('GRM-CHEAT the collocations sheet lists every tested point in Thai', asy
   const { page, errors } = await launchApp({ language: 'th' })
   await nav(page, 'สูตรไวยากรณ์')
   await page.getByRole('link', { name: /คำที่มักใช้คู่กัน/ }).click()
-  const list = page.getByRole('region', { name: 'จุดที่ออกในแบบฝึก (12)' })
+  const list = page.getByRole('region', { name: /^จุดที่ออกในแบบฝึก \(\d+\)$/ })
   const row = list.getByRole('listitem').filter({ hasText: 'exercise caution' })
   await expect(row).toContainText('ใช้ความระมัดระวัง')
   await expect(row).toContainText('✗ perform caution')

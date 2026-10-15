@@ -182,7 +182,7 @@
     },
     "point": {
       "key": "to V1",
-      "th": "หลัง to ใช้กริยารูปเดิม",
+      "th": "หลัง to ใน plan to/want to ใช้กริยารูปเดิม",
       "en": "a base verb after to",
       "wrong": ["plans to strong", "plans to strength"]
     },

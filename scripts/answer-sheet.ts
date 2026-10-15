@@ -7,6 +7,7 @@ import { mkdirSync, writeFileSync } from 'fs'
 import { dirname, resolve } from 'path'
 import { loadContent } from '../src/main/content'
 import { PART5_TOPICS } from '../src/shared/types'
+import { isPart5Topic } from './lib/points'
 
 const out = resolve(process.argv[2] ?? 'docs/content-review/answer-sheet.md')
 const { bank, errors } = loadContent(resolve('content'))
@@ -49,7 +50,7 @@ for (const set of bank.part6) {
   lines.push(`## Part 6 · ${set.id} · ${set.title}`, '', ...passage.split('\n').map((l) => `> ${l}`), '')
   lines.push('| blank | topic | wrong choices | tested point | point (cheat sheet) | คำอธิบาย |', '|---|---|---|---|---|---|')
   set.blanks.forEach((b, i) =>
-    lines.push(`| ${i + 1} | ${b.topic} | ${cell(others(b.choices, b.answer))} | ${cell(b.trap)} | ${b.topic === 'sentence-insertion' || b.topic === 'transitions' ? '' : pointCell(b.point)} | ${cell(b.explain.th)} |`)
+    lines.push(`| ${i + 1} | ${b.topic} | ${cell(others(b.choices, b.answer))} | ${cell(b.trap)} | ${isPart5Topic(b.topic) ? pointCell(b.point) : ''} | ${cell(b.explain.th)} |`)
   )
   lines.push('')
 }

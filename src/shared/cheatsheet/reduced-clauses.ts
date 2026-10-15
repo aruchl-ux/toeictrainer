@@ -37,8 +37,8 @@ export const reducedClauses: CheatSheet = {
       name: { en: 'Noun + V3 (passive)', th: 'คำนามที่ถูกทำ (noun + V3)' },
       formula: ['N + V3 + Prep + N'],
       use: {
-        en: 'Noun + V3 means the action is done to the noun. It is short for who/which/that + is/was + V3. No object follows.',
-        th: 'คำนาม + กริยาช่อง 3 = คำนามนั้นถูกทำ ย่อมาจาก who / which / that + is / was + กริยาช่อง 3 ข้างหลังไม่มีกรรม'
+        en: 'Noun + V3 means the action is done to the noun. It is short for who/which/that + is/was + V3. Usually no object follows.',
+        th: 'คำนาม + กริยาช่อง 3 = คำนามนั้นถูกทำ ย่อมาจาก who / which / that + is / was + กริยาช่อง 3 ข้างหลังมักไม่มีกรรม'
       },
       example: {
         en: 'The report {{submitted}} yesterday contained several errors.',

@@ -81,7 +81,7 @@ export const gerundInfinitive: CheatSheet = {
       },
       example: {
         en: 'We look forward to {{meeting}} you next week.',
-        th: 'เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า'
+        th: 'เราตั้งตารอการได้พบคุณสัปดาห์หน้า'
       },
       clues: [
         { w: 'look forward to + V-ing', en: 'wait happily for', th: 'ตั้งตารอ (การ…)' },

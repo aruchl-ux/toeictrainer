@@ -68,7 +68,7 @@ export const prepositions: CheatSheet = {
       formula: ['for + length of time', 'during + N', 'since + starting point'],
       use: {
         en: 'for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020). For a date range, use from … through.',
-        th: 'for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020) ถ้าเป็นช่วงวันที่ใช้ from … through'
+        th: 'for + นานเท่าไร (for 3 days) / during + งานหรือช่วงที่เจาะจง เช่น during the meeting / since + เริ่มเมื่อไร (since 2020) ถ้าเป็นช่วงวันที่ใช้ from … through'
       },
       example: {
         en: 'Phones must be turned off {{during}} the presentation.',
@@ -111,7 +111,7 @@ export const prepositions: CheatSheet = {
         right: 'finish the work within two weeks',
         why: {
           en: 'During takes an event (during the meeting). For "inside a period of two weeks", use within.',
-          th: 'during ตามด้วยช่วงหรืองาน (during the meeting) ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within'
+          th: 'during ตามด้วยงานหรือช่วงที่เจาะจง เช่น during the meeting ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within'
         }
       }
     },

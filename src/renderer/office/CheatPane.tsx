@@ -93,7 +93,7 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
               <p className="cheat-doc-clues">
                 <span className="dim">{t('cheatClues')}</span>
                 {e.clues.map((c) => (
-                  <code key={clueText(c)} title={c[shown]}>
+                  <code key={clueText(c)}>
                     {clueText(c)}
                     <span className="dim" lang={shown}> {c[shown]}</span>
                   </code>
@@ -116,7 +116,7 @@ export function CheatPane({ sheet }: { sheet: CheatSheet }) {
             <ul>
               {points.map((p) => (
                 <li key={p.key}>
-                  <code>{p.key}</code> <span lang={shown}>{p[shown]}</span>
+                  <code lang="en">{p.key}</code> <span lang={shown}>{p[shown]}</span>
                   {p.wrong.map((w) => (
                     <s key={w} className="dim">
                       {' '}

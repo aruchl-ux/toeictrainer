@@ -254,8 +254,8 @@ export const wordForm: CheatSheet = {
       name: { en: 'Base verb after to / modals', th: 'กริยารูปเดิมหลัง to และ will, can, must (base verb)' },
       formula: ['will/can/must/should + V1', 'to V1'],
       use: {
-        en: 'After will, can, must, should or to, use the base verb with nothing added. The blank must be a verb, not a noun or an adjective.',
-        th: 'หลัง will, can, must, should หรือ to ใช้กริยารูปเดิม ไม่เติมอะไรเลย และช่องนั้นต้องเป็นกริยา ไม่ใช่คำนามหรือคำคุณศัพท์'
+        en: 'After will, can, must, should, or the to in plan to / want to, use the base verb with nothing added (not after look forward to: see the gerund sheet). The blank must be a verb, not a noun or an adjective.',
+        th: 'หลัง will, can, must, should หรือ to ใน plan to / want to ใช้กริยารูปเดิม ไม่เติมอะไรเลย (ยกเว้น look forward to ที่ตามด้วย -ing ดูชีต Gerund กับ Infinitive) และช่องนั้นต้องเป็นกริยา ไม่ใช่คำนามหรือคำคุณศัพท์'
       },
       example: {
         en: 'The company plans to {{expand}} its operations overseas.',

@@ -57,6 +57,11 @@ describe('toPoint', () => {
   it('returns null when th has no Thai', () => {
     expect(toPoint({ ...point, th: 'be careful', wrong: [] })).toBeNull()
   })
+  it('accepts a cached point with no wrong list', () => {
+    const cached = { ...point } as unknown as Parameters<typeof toPoint>[0]
+    expect(toPoint(cached)).toEqual(point)
+    expect(pointField(cached)).toEqual({ point })
+  })
 })
 
 describe('applyPoints', () => {
@@ -83,6 +88,14 @@ describe('formatLike', () => {
   it('keeps plain JSON.stringify layout when the original used it', () => {
     const original = '[\n  {\n    "choices": [\n      "a"\n    ]\n  }\n]\n'
     expect(formatLike(original, [{ choices: ['a'] }])).toBe(original)
+  })
+  it('keeps plain layout for a CRLF original with expanded choices', () => {
+    const original = '[\r\n  {\r\n    "choices": [\r\n      "a"\r\n    ]\r\n  }\r\n]\r\n'
+    expect(formatLike(original, [{ choices: ['a'] }])).toBe(original.replace(/\r/g, ''))
+  })
+  it('keeps inline arrays for a CRLF original with inline choices', () => {
+    const original = '[\r\n  {\r\n    "choices": ["a", "b"]\r\n  }\r\n]\r\n'
+    expect(formatLike(original, [{ choices: ['a', 'b'] }])).toBe(original.replace(/\r/g, ''))
   })
 })
 

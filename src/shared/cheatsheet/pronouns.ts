@@ -83,7 +83,7 @@ export const pronouns: CheatSheet = {
         right: 'The managers shared data with one another.',
         why: {
           en: 'Thai กันเอง means "with each other", not ตัวเอง "oneself". People who give to each other take one another or each other, not themselves.',
-          th: '"แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ≠ ตัวเอง'
+          th: '"แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ไม่ใช่ ตัวเอง'
         }
       }
     },

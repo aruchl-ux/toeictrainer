@@ -3,13 +3,13 @@ import { describe, expect, it } from 'vitest'
 import { loadContent } from '../../src/main/content'
 import { CHEAT_SHEETS } from '../../src/shared/cheatsheet'
 import { PART5_TOPICS, type Part5Topic, type Point } from '../../src/shared/types'
+import { POINT_MAX, THAI } from '../../scripts/lib/points'
 
 /** Every Part 5 topic is finished for beginners; a new topic must meet the same rules. */
 const READY: Part5Topic[] = [...PART5_TOPICS]
 /** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
 const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals', 'determiners', 'noun-clauses']
 
-const THAI = /[฀-๿]/
 const { bank } = loadContent(resolve('content'))
 
 // A loop, not describe.each, so an empty list is allowed.
@@ -53,8 +53,8 @@ for (const topic of READY) describe(`${topic} is ready for beginners`, () => {
     for (const [ref, p] of points) {
       expect(p, ref).toBeDefined()
       expect(p!.th, ref).toMatch(THAI)
-      expect(p!.th.length, ref).toBeLessThanOrEqual(80)
-      expect(p!.en.length, ref).toBeLessThanOrEqual(80)
+      expect(p!.th.length, ref).toBeLessThanOrEqual(POINT_MAX)
+      expect(p!.en.length, ref).toBeLessThanOrEqual(POINT_MAX)
     }
   })
 })

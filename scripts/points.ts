@@ -32,7 +32,8 @@ const jsonIn = (dir: string): string[] =>
 
 function readFiles(root: string): ContentFile[] {
   return [...jsonIn(join(root, 'grammar', 'part5')), ...jsonIn(join(root, 'grammar', 'part6'))].map((path) => {
-    const text = readFileSync(path, 'utf8')
+    // Strip CR so a CRLF checkout (core.autocrlf) keeps its layout when rewritten.
+    const text = readFileSync(path, 'utf8').replace(/\r/g, '')
     return { path, text, data: JSON.parse(text) as unknown[] }
   })
 }

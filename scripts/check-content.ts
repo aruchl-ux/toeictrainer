@@ -7,7 +7,8 @@ import { readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { loadContent } from '../src/main/content'
 import { POSITIONAL, mentionsAnswer } from '../src/shared/explainRules'
-import { isPart5Topic } from './lib/points'
+import { POINT_MAX, THAI, isPart5Topic } from './lib/points'
+import type { Point } from '../src/shared/types'
 
 const ROOT = resolve('content')
 const problems: string[] = []
@@ -22,7 +23,7 @@ function checkChoices(where: string, choices: string[], answer: number, explain:
     if (POSITIONAL.test(text)) problems.push(`${where}: ${lang} explanation refers to a choice by position`)
     if (text.trim().length < 30) problems.push(`${where}: ${lang} explanation is too short`)
   }
-  if (!/[฀-๿]/.test(explain.th)) problems.push(`${where}: th explanation has no Thai text`)
+  if (!THAI.test(explain.th)) problems.push(`${where}: th explanation has no Thai text`)
   if (!where.startsWith('p7-') && !mentionsAnswer(explain.en, choices[answer])) {
     problems.push(`${where}: en explanation never mentions the correct answer "${choices[answer]}"`)
   }
@@ -42,11 +43,20 @@ for (const item of bank.part5) {
 for (const set of bank.part6) {
   set.blanks.forEach((b, i) => checkChoices(`${set.id}#${i + 1}`, b.choices, b.answer, b.explain, b.trap))
 }
-// Every question in a topic with a cheat sheet must give the sheet its point.
-for (const item of bank.part5) if (!item.point) problems.push(`${item.id}: no cheat-sheet point (npm run points)`)
+// Every question in a topic with a cheat sheet must give the sheet its point, short and in Thai.
+function checkPoint(where: string, p: Point | undefined): void {
+  if (!p) {
+    problems.push(`${where}: no cheat-sheet point (npm run points)`)
+    return
+  }
+  if (p.th.length > POINT_MAX) problems.push(`${where}: point th is longer than ${POINT_MAX} characters`)
+  if (p.en.length > POINT_MAX) problems.push(`${where}: point en is longer than ${POINT_MAX} characters`)
+  if (!THAI.test(p.th)) problems.push(`${where}: point th has no Thai text`)
+}
+for (const item of bank.part5) checkPoint(item.id, item.point)
 for (const set of bank.part6) {
   set.blanks.forEach((b, i) => {
-    if (isPart5Topic(b.topic) && !b.point) problems.push(`${set.id}#${i + 1}: no cheat-sheet point (npm run points)`)
+    if (isPart5Topic(b.topic)) checkPoint(`${set.id}#${i + 1}`, b.point)
   })
 }
 for (const set of bank.part7) {
