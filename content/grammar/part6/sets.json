@@ -489,6 +489,15 @@
         "explain": {
           "en": "The fixed expression is 'meet the needs' of someone, meaning to satisfy what they require. 'make' and 'do' are common verbs, but they do not combine with 'needs' in this meaning.",
           "th": "คำที่ใช้คู่กันคือ meet the needs (ตอบสนองความต้องการ) ซึ่งเป็น collocation ที่พบบ่อยใน TOEIC ส่วน make และ do เป็นกริยาทั่วไปที่ไม่ใช้คู่กับ needs ในความหมายนี้"
+        },
+        "point": {
+          "key": "meet the needs",
+          "th": "ตอบสนองความต้องการ",
+          "en": "give what is needed",
+          "wrong": [
+            "make the needs",
+            "do the needs"
+          ]
         }
       },
       {
@@ -1041,6 +1050,14 @@
         "explain": {
           "en": "'make someone aware of something' is a fixed collocation, so 'made you aware of the work' is correct. 'told' is tempting because the meaning is close, but 'tell' cannot be followed by an adjective like 'aware'.",
           "th": "make someone aware of something เป็นคำที่ใช้คู่กันเสมอ (collocation) แปลว่า ทำให้ใครรับรู้เรื่องใดเรื่องหนึ่ง จึงใช้ made ส่วน told เป็นกับดักเพราะความหมายใกล้กัน แต่ tell ตามด้วย adjective อย่าง aware ไม่ได้"
+        },
+        "point": {
+          "key": "make someone aware of",
+          "th": "ทำให้ใครรู้เรื่อง…",
+          "en": "tell someone about",
+          "wrong": [
+            "let someone aware of"
+          ]
         }
       },
       {

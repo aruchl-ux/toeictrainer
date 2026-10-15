@@ -1201,78 +1201,90 @@ Not on any entry (0): none
 
 ## collocations
 
-Some words always go together. Learn them as pairs, because grammar alone will not tell you.
+Some words always go together, like make a decision. The test gives you four words that look right; only one goes with the word next to the blank. Translating from Thai word by word usually picks the wrong one, so learn each pair as one piece.
 
-คำบางคู่ใช้ด้วยกันเป็นประจำ ต้องจำเป็นคู่ เพราะเดาจากไวยากรณ์อย่างเดียวไม่ได้
+คำบางคำต้องใช้คู่กันเสมอ เช่น make a decision (ตัดสินใจ) ข้อสอบจะให้เลือกคำที่ "เข้าคู่" กับคำข้างช่องว่าง ถ้าแปลตรงจากภาษาไทยทีละคำมักเลือกผิด ให้จำเป็นคู่ทั้งก้อน
 
 Symbols: `N` = คำนาม
 
-### Verb + noun · กริยา + คำนาม `verb-noun-collocations`
+### Verb + noun · กริยา + คำนาม (verb + noun) `verb-noun-collocations`
 
     make + a decision/an effort/a reservation
-    take + place/part/action
-    meet + a deadline/a demand
+    take + place/part/action/effect
+    meet + a deadline/a demand/the needs
 
-- These verbs and nouns are fixed pairs: make a decision, not do a decision.
-- กริยากับคำนามพวกนี้ใช้คู่กันตายตัว เช่น make a decision (ไม่ใช่ do a decision)
-- The board will **make** a decision next week.
-- คณะกรรมการจะตัดสินใจในสัปดาห์หน้า
-- **no common mistake yet**
-- Clues: conduct a survey (**no meaning**) · place an order (**no meaning**) · raise funds (**no meaning**) · reach an agreement (**no meaning**)
+- The verb is fixed by the noun after it. Look at the noun first, then pick the verb that goes with it.
+- คำนามข้างหลังเป็นตัวกำหนดว่าต้องใช้กริยาตัวไหน ให้ดูคำนามก่อน แล้วเลือกกริยาที่เป็นคู่ของมัน
+- Warehouse staff must **exercise** caution near the loading dock.
+- พนักงานคลังสินค้าต้องใช้ความระมัดระวังใกล้จุดขนถ่ายสินค้า
+- ✗ do a decision → ✓ make a decision: ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do (Thai says "ทำ" for both, but decision always takes make.)
+- Clues: meet a deadline = ทำงานเสร็จทันกำหนด · place an order = สั่งซื้อสินค้า · conduct a survey = ทำการสำรวจ · take effect = เริ่มมีผลบังคับใช้ · raise awareness = สร้างความตระหนักรู้ · exercise caution = ใช้ความระมัดระวัง · address concerns = จัดการ/ตอบข้อกังวล · reach an agreement = ตกลงกันได้ · raise funds = ระดมทุน
 
-### Adjective + preposition · คำคุณศัพท์ + คำบุพบท `adjective-preposition`
+### Adjective + preposition · คำคุณศัพท์ + คำบุพบท (adjective + preposition) `adjective-preposition`
 
     be + responsible/eligible + for
     be + familiar/compatible + with
     be + aware/capable + of
 
-- Each adjective has its own preposition. Learn them as pairs.
-- คำคุณศัพท์แต่ละตัวมีคำบุพบทคู่ของมัน ให้จำเป็นคู่
+- Each adjective has its own preposition. If the blank is right after the adjective, choose its partner.
+- คำคุณศัพท์แต่ละตัวมีคำบุพบทคู่ของมัน ถ้าช่องว่างอยู่หลังคำคุณศัพท์ ให้เลือกคำบุพบทที่เป็นคู่
 - Ms. Patel is responsible **for** training new staff.
 - คุณพาเทลรับผิดชอบการอบรมพนักงานใหม่
-- **no common mistake yet**
-- Clues: responsible for (**no meaning**) · eligible for (**no meaning**) · familiar with (**no meaning**) · aware of (**no meaning**) · subject to (**no meaning**)
+- ✗ responsible of → ✓ responsible for: responsible ใช้กับ for เสมอ ไม่ใช่ of (Responsible always takes for.)
+- Clues: responsible for = รับผิดชอบ · eligible for = มีสิทธิ์ได้รับ · familiar with = คุ้นเคยกับ · aware of = รู้ตัว/ตระหนักถึง · make someone aware of = ทำให้ใครรู้เรื่อง… · subject to = อาจมีการ… (เช่น เปลี่ยนแปลง)
 
-### Noun + preposition · คำนาม + คำบุพบท `noun-preposition`
+### Noun + preposition · คำนาม + คำบุพบท (noun + preposition) `noun-preposition`
 
     increase/decrease/demand + in + N
     access/approach/solution + to + N
 
-- Words for going up or down take in (increase in). Access and solution take to.
-- คำที่บอกการเพิ่มหรือลดใช้ in (increase in) / access, solution ใช้ to
+- Words for going up or down take in (an increase in sales). Access and solution take to.
+- คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) ส่วน access และ solution ใช้ to
 - There has been a sharp increase **in** online sales.
 - ยอดขายออนไลน์เพิ่มขึ้นอย่างมาก
-- **no common mistake yet**
-- Clues: increase in (**no meaning**) · demand for (**no meaning**) · access to (**no meaning**) · reason for (**no meaning**) · effect on (**no meaning**)
+- ✗ access for the database → ✓ access to the database: access ใช้กับ to เสมอ (Access always takes to.)
+- Clues: increase in = การเพิ่มขึ้นของ · demand for = ความต้องการ · access to = สิทธิ์เข้าถึง/เข้าใช้ · reason for = เหตุผลของ · effect on = ผลกระทบต่อ
 
-### Verb + preposition · กริยา + คำบุพบท `verb-preposition`
+### Verb + preposition · กริยา + คำบุพบท (verb + preposition) `verb-preposition`
 
     comply + with
+    adhere + to
     depend/rely + on
-    apply + for/to
 
-- These verbs need a preposition before the object, like comply with.
-- กริยาพวกนี้ต้องมีคำบุพบทก่อนกรรม เช่น comply with
+- These verbs need a preposition before the object. Similar verbs like follow and obey do not, so they are the trap.
+- กริยาพวกนี้ต้องมีคำบุพบทก่อนกรรม ส่วนกริยาความหมายใกล้กันอย่าง follow และ obey ไม่ต้องมี จึงมักเป็นตัวหลอก
 - All visitors must comply **with** the safety rules.
 - ผู้มาเยือนทุกคนต้องปฏิบัติตามกฎความปลอดภัย
-- **no common mistake yet**
-- Clues: comply with (**no meaning**) · rely on (**no meaning**) · apply for (a job) (**no meaning**) · respond to (**no meaning**) · participate in (**no meaning**)
+- ✗ comply the rules → ✓ comply with the rules: comply ต้องมี with เสมอ ส่วน follow the rules ไม่ต้องมี อย่าสลับกัน (Comply needs with. Follow the rules needs nothing, so do not mix them.)
+- Clues: comply with = ปฏิบัติตาม (กฎ, ข้อบังคับ) · adhere to = ยึดถือ ปฏิบัติตาม · rely on = พึ่งพา · apply for (a job) = สมัคร (งาน) · respond to = ตอบกลับ · participate in = เข้าร่วม
 
-### Adverb + adjective / V3 · คำกริยาวิเศษณ์ + คำคุณศัพท์ / V3 `adverb-collocations`
+### Adverb + adjective / V3 · คำกริยาวิเศษณ์ + คำคุณศัพท์ / V3 (adverb + adjective) `adverb-collocations`
 
     highly + recommended/qualified
     strictly + prohibited
-    deeply + appreciated
+    conveniently + located
 
-- Some adverbs usually go with certain words, like highly recommended.
-- adverb บางตัวมักใช้คู่กับคำบางคำ เช่น highly recommended
+- Some adverbs almost always go with certain words. Learn the pair: highly recommended, strictly prohibited.
+- adverb บางตัวมักใช้คู่กับคำบางคำเสมอ ให้จำเป็นคู่ เช่น highly recommended, strictly prohibited
 - Smoking is **strictly** prohibited in the building.
 - ห้ามสูบบุหรี่ในอาคารโดยเด็ดขาด
-- **no common mistake yet**
-- Clues: highly recommended (**no meaning**) · strictly prohibited (**no meaning**) · conveniently located (**no meaning**) · widely used (**no meaning**)
+- ✗ greatly recommended → ✓ highly recommended: recommended ใช้คู่กับ highly ไม่ใช่ greatly หรือ deeply (Recommended goes with highly, not greatly or deeply.)
+- Clues: highly recommended = ได้รับการแนะนำอย่างมาก · strictly prohibited = ห้ามโดยเด็ดขาด · conveniently located = ตั้งอยู่ในทำเลสะดวก · widely used = ใช้กันอย่างแพร่หลาย
 
-### Tested in drills (0)
+### Tested in drills (12)
 
+- `address concerns` = จัดการ/ตอบข้อกังวล (deal with worries) · ✗ solve concerns, talk concerns
+- `adhere to` = ยึดถือ ปฏิบัติตาม (follow closely) · ✗ follow to, obey to
+- `comply with` = ปฏิบัติตาม (กฎ, ข้อบังคับ) (follow (rules)) · ✗ obey with, follow with
+- `conduct a survey` = ทำการสำรวจ (carry out a survey) · ✗ make a survey, operate a survey
+- `exercise caution` = ใช้ความระมัดระวัง (be careful) · ✗ perform caution, execute caution
+- `highly recommended` = ได้รับการแนะนำอย่างมาก (strongly recommended) · ✗ deeply recommended, greatly recommended
+- `make someone aware of` = ทำให้ใครรู้เรื่อง… (tell someone about) · ✗ let someone aware of
+- `meet a deadline` = ทำงานเสร็จทันกำหนด (finish on time) · ✗ reach a deadline, achieve a deadline
+- `meet the needs` = ตอบสนองความต้องการ (give what is needed) · ✗ make the needs, do the needs
+- `place an order` = สั่งซื้อสินค้า (order something) · ✗ put an order, do an order
+- `raise awareness` = สร้างความตระหนักรู้ (make people know more) · ✗ rise awareness, arise awareness
+- `take effect` = เริ่มมีผลบังคับใช้ (start to apply) · ✗ make effect, give effect
 
 Not on any entry (0): none
 

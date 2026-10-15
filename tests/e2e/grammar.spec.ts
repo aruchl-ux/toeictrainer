@@ -3,6 +3,7 @@ import { tmpdir } from 'os'
 import { join } from 'path'
 import { _electron as electron, expect, test } from '@playwright/test'
 import { addDays, localDate } from '../../src/shared/dates'
+import { nav, test as appTest } from './helpers'
 
 function launchEnv(userData: string): Record<string, string> {
   const env: Record<string, string> = {}
@@ -72,4 +73,15 @@ test('a due review card is answered and rescheduled', async () => {
   expect(progress.grammarAttempts[0].itemId).toBe(item.id)
   expect(progress.grammarAttempts[0].correct).toBe(true)
   expect(progress.leitner[item.id]).toEqual({ box: 2, due: addDays(today, 3) })
+})
+
+appTest('GRM-CHEAT the collocations sheet lists every tested point in Thai', async ({ launchApp }) => {
+  const { page, errors } = await launchApp({ language: 'th' })
+  await nav(page, 'สูตรไวยากรณ์')
+  await page.getByRole('link', { name: /คำที่มักใช้คู่กัน/ }).click()
+  const list = page.getByRole('region', { name: 'จุดที่ออกในแบบฝึก (12)' })
+  const row = list.getByRole('listitem').filter({ hasText: 'exercise caution' })
+  await expect(row).toContainText('ใช้ความระมัดระวัง')
+  await expect(row).toContainText('✗ perform caution')
+  expect(errors).toEqual([])
 })

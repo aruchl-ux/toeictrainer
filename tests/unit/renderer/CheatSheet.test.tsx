@@ -86,8 +86,10 @@ describe('Points tested in drills', () => {
   it('switches the meanings with the language flip', () => {
     render(<CheatSheetView sheet={CHEAT_SHEETS.collocations} lang="th" points={points} />)
     fireEvent.click(screen.getByRole('button', { name: 'ดูเป็นภาษาอังกฤษ' }))
-    expect(screen.getByText('be careful')).toBeTruthy()
-    expect(screen.queryByText('ใช้ความระมัดระวัง')).toBeNull()
+    // The sheet's own clues list exercise caution too, so look only inside the points block.
+    const list = screen.getByRole('region', { name: /\(1\)/ })
+    expect(within(list).getByText('be careful')).toBeTruthy()
+    expect(within(list).queryByText('ใช้ความระมัดระวัง')).toBeNull()
   })
 
   it('hides the block when no question has a point', () => {
