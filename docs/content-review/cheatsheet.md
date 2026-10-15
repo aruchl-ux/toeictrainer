@@ -1,6 +1,6 @@
 # Grammar cheat sheet
 
-109 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
+110 formulas across 17 Part 5 topics. Check that each formula and example is correct English, the bold part is what the formula produces, the Thai reads naturally for a beginner, and each mistake is one Thai learners really make. "Not on any entry" lists points the drills test that only the auto list shows; fold general ones into an entry. Note the id of anything wrong.
 
 ## word-form
 
@@ -921,141 +921,184 @@ Not on any entry (0): none
 
 ## reduced-clauses
 
-Sometimes who or which is dropped and only the verb is left. The noun does it: V-ing. It is done to the noun: V3.
+The choices are one verb in different forms, like receive, receiving, received, was received. First check if the sentence already has its main verb. If it does, the blank is a short form. Then ask: does the noun (or the subject) do the action (-ing), or is it done to it (past participle)?
 
-บางทีตัด who / which ออก เหลือแค่กริยา: คำนามทำเอง ใช้ V-ing / คำนามถูกทำ ใช้ V3
+ตัวเลือกเป็นกริยาตัวเดียวกันแต่ต่างรูป เช่น receive, receiving, received, was received ให้ดูก่อนว่าประโยคมีกริยาหลักแล้วหรือยัง ถ้ามีแล้ว ช่องว่างเป็นกริยาแบบย่อ แล้วถามว่าคำนาม (หรือประธาน) เป็นคนทำเอง (กริยาเติม -ing) หรือถูกทำ (กริยาช่อง 3)
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V3` = กริยาช่อง 3 (gone, made) · `V-ing` = กริยาเติม -ing (going) · `Obj` = กรรม (สิ่งที่ถูกกระทำ) · `N` = คำนาม · `Prep` = คำบุพบท (in, on, for)
 
-### Noun + V-ing (active) · คำนาม + V-ing (ผู้ทำ) `reduced-active`
+### Noun + V-ing (active) · คำนามที่เป็นคนทำ (noun + V-ing) `reduced-active`
 
     N + V-ing + Obj
 
-- Noun + V-ing means the noun does the action. It is short for who/which + verb.
-- คำนาม + V-ing = คำนามนั้นทำเอง (ย่อมาจาก who / which + กริยา)
+- Noun + V-ing means the noun does the action. It is short for who/which + verb: employees wishing to attend = employees who wish to attend.
+- คำนาม + กริยาเติม -ing = คำนามนั้นทำเอง ย่อมาจาก who / which + กริยา เช่น employees wishing to attend = employees who wish to attend
 - Passengers **traveling** with pets must notify the airline.
 - ผู้โดยสารที่เดินทางพร้อมสัตว์เลี้ยงต้องแจ้งสายการบิน
-- **no common mistake yet**
-- Clues: noun + ___ + object (**no meaning**)
+- ✗ Employees wish to attend the training should register by Thursday. → ✓ Employees wishing to attend the training should register by Thursday.: ภาษาไทยพูด "พนักงานที่ต้องการ…" แต่ประโยคนี้มี should register เป็นกริยาหลักแล้ว จึงต้องใช้ wishing (หรือ who wish) ไม่ใช่ใส่ wish เป็นกริยาหลักอีกตัว (Thai พนักงานที่ต้องการ… needs no change, but here should register is already the main verb. Use wishing (or who wish), not a second main verb.)
+- Clues: noun + ___ + object = มีกรรมตามหลัง คำนามเป็นคนทำ ใช้กริยาเติม -ing · employees wishing to … = พนักงานที่ต้องการ…
 
-### Noun + V3 (passive) · คำนาม + V3 (ผู้ถูกกระทำ) `reduced-passive`
+### Noun + V3 (passive) · คำนามที่ถูกทำ (noun + V3) `reduced-passive`
 
     N + V3 + Prep + N
 
-- Noun + V3 means the action is done to the noun. No object follows.
-- คำนาม + V3 = คำนามนั้นถูกทำ และข้างหลังไม่มีกรรม
+- Noun + V3 means the action is done to the noun. It is short for who/which/that + is/was + V3. No object follows.
+- คำนาม + กริยาช่อง 3 = คำนามนั้นถูกทำ ย่อมาจาก who / which / that + is / was + กริยาช่อง 3 ข้างหลังไม่มีกรรม
 - The report **submitted** yesterday contained several errors.
 - รายงานที่ส่งมาเมื่อวานมีข้อผิดพลาดหลายจุด
-- **no common mistake yet**
-- Clues: noun + ___ + by/in/on… (**no meaning**) · no object after the blank (**no meaning**)
+- ✗ All orders receive after 3 P.M. will be processed the next day. → ✓ All orders received after 3 P.M. will be processed the next day.: ภาษาไทยพูด "คำสั่งซื้อที่ได้รับ" โดยไม่มีคำว่า "ถูก" แต่คำสั่งซื้อถูกบริษัทรับเข้ามา จึงต้องใช้กริยาช่อง 3 (received) (Thai says คำสั่งซื้อที่ได้รับ with no word for ถูก, but the orders are received by the company, so use the past participle.)
+- Clues: noun + ___ + by/in/after… = ไม่มีกรรม ตามด้วยคำบุพบท คำนามเป็นสิ่งที่ถูกทำ · main verb already there = ประโยคมีกริยาหลักแล้ว ช่องว่างจึงไม่ใช้ was / has (the report prepared by … recommends)
 
-### Opening V-ing clause · ขึ้นต้นประโยคด้วย V-ing `participle-clause-active`
+### Opening V-ing clause · ขึ้นต้นประโยคด้วยกริยาเติม -ing (opening V-ing clause) `participle-clause-active`
 
     V-ing + Obj, S + V
-    after/before/when/while + V-ing, S + V
+    having + V3 + Obj, S + V
+    before/after/when/while + V-ing, S + V
 
-- You can start with V-ing when the subject of the main part does it. Having + V3 means it was done first.
-- ขึ้นต้นด้วย V-ing ได้ ถ้าประธานของประโยคหลักเป็นคนทำ / having + V3 = ทำเสร็จก่อน
+- Start with V-ing when the subject of the main part does the action. Having + V3 means it was done first. Before, after, when and while can take V-ing with no subject.
+- ขึ้นต้นด้วยกริยาเติม -ing ได้ ถ้าประธานของประโยคหลักเป็นคนทำ / having + กริยาช่อง 3 = ทำเสร็จก่อน / before, after, when, while ตามด้วยกริยาเติม -ing ได้เลยโดยไม่มีประธาน
 - **Having reviewed** the proposal, the director approved it.
 - หลังจากตรวจข้อเสนอแล้ว ผู้อำนวยการก็อนุมัติ
-- **no common mistake yet**
+- ✗ Before sign the contract, please read the terms. → ✓ Before signing the contract, please read the terms.: ภาษาไทยพูด "ก่อนเซ็นสัญญา" ใช้กริยาได้เลย แต่ภาษาอังกฤษ ถ้าหลัง before ไม่มีประธาน กริยาต้องเติม -ing (Thai ก่อนเซ็นสัญญา uses the verb as it is, but in English before with no subject after it takes -ing.)
+- Clues: before + V-ing = ก่อน… (before signing = ก่อนที่คุณจะเซ็น) · when + V-ing = เมื่อ… (when handling = เมื่อพนักงานจัดการ… ประธานทำเอง) · having + V3 + object = ประธานทำสิ่งนี้เสร็จก่อน แล้วค่อยทำอีกอย่าง
 
-### Opening V3 clause · ขึ้นต้นประโยคด้วย V3 `participle-clause-passive`
+### Opening V3 clause · ขึ้นต้นประโยคด้วยกริยาช่อง 3 (opening V3 clause) `participle-clause-passive`
 
     V3 + Prep + N, S + V
+    having been + V3 + Prep + N, S + V
     once/if/unless/as + V3, S + V
 
-- You can start with V3 when the subject of the main part has the action done to it.
-- ขึ้นต้นด้วย V3 ได้ ถ้าประธานของประโยคหลักเป็นสิ่งที่ถูกทำ
+- Start with V3 when the subject of the main part has the action done to it. Having been + V3 means it was done to the subject first. Once, if, unless and as can take V3 with no subject.
+- ขึ้นต้นด้วยกริยาช่อง 3 ได้ ถ้าประธานของประโยคหลักเป็นสิ่งที่ถูกทำ / having been + กริยาช่อง 3 = ถูกทำไปก่อนแล้ว / once, if, unless, as ตามด้วยกริยาช่อง 3 ได้เลยโดยไม่มีประธาน
 - **Designed** for small offices, the printer is compact and quiet.
 - เครื่องพิมพ์นี้ออกแบบมาสำหรับสำนักงานขนาดเล็ก จึงกะทัดรัดและเงียบ
-- **no common mistake yet**
-- Clues: as stated (**no meaning**) · as requested (**no meaning**) · once approved (**no meaning**) · unless otherwise noted (**no meaning**)
+- ✗ Founding in 1998, the firm has grown quickly. → ✓ Founded in 1998, the firm has grown quickly.: ภาษาไทยพูด "ก่อตั้งในปี 1998" ไม่มีคำว่า "ถูก" แต่บริษัทถูกก่อตั้งโดยคนอื่น จึงต้องขึ้นต้นด้วยกริยาช่อง 3 (Founded) (Thai ก่อตั้งในปี 1998 has no word for ถูก, but the firm was founded by someone, so start with the past participle.)
+- Clues: once + V3 = เมื่อ (ถูก) …แล้ว (once installed = เมื่อติดตั้งเสร็จแล้ว) · as stated = ตามที่ระบุไว้ · as requested = ตามที่ขอไว้ · unless otherwise noted = เว้นแต่จะระบุไว้เป็นอย่างอื่น · V3 + by … = by + ผู้ทำ แปลว่าประธานถูกทำ
 
-### Tested in drills (0)
+### Tested in drills (9)
 
+- `as stated` = ตามที่ (ถูก) ระบุไว้ (ใน…) ใช้กริยาช่อง 3 (as it is stated (in …): past participle) · ✗ As stating in the employee handbook, As states in the employee handbook
+- `before + V-ing` = before (ก่อน) ไม่มีประธานตาม ใช้กริยาเติม -ing (before + -ing when no subject follows (before signing)) · ✗ Before sign the contract, Before to sign the contract
+- `having + V3` = ทำเสร็จก่อนแล้วค่อยทำอีกอย่าง ใช้ having + กริยาช่อง 3 (the subject did it first: having + past participle) · ✗ Reviewed the quarterly figures, the finance director decided, Having been reviewed the quarterly figures, the director decided
+- `having been + V3` = ถูกทำไปแล้วก่อน ใช้ having been + กริยาช่อง 3 (done to the subject first: having been + past participle) · ✗ Having approved by the board last week, Approving by the board last week
+- `N + V-ing` = คำนามทำเอง (พนักงานที่ต้องการ) ใช้กริยาเติม -ing (the noun does it (employees who wish): -ing) · ✗ Employees wish to attend the training should register, Employees wished to attend the training should register
+- `N + V3` = คำนามถูกทำ (orders ที่ถูกรับเข้ามา) ใช้กริยาช่อง 3 (the noun has it done to it (orders that are received): past participle) · ✗ All orders receiving after 3 P.M. will be processed, All orders receive after 3 P.M. will be processed, The report was prepared by the consulting firm last month recommends, The report preparing by the consulting firm
+- `once + V3` = เมื่อ (ถูก) ติดตั้งแล้ว (once installed) ใช้กริยาช่อง 3 (once installed = once it is installed: past participle) · ✗ Once installing, the new software will allow, Once install, the new software will allow
+- `V3 + Prep + N` = บริษัทถูกก่อตั้ง ขึ้นต้นประโยคด้วยกริยาช่อง 3 (Founded) (the firm was founded: start with the past participle) · ✗ Founding in 1998, the firm has grown, Having founded in 1998, the firm has grown
+- `when + V-ing` = when + กริยาเติม -ing เมื่อประธานทำเอง (พนักงานจัดการเอง) (when + -ing: the subject does it (they handle complaints)) · ✗ When handled customer complaints, representatives should, When handle customer complaints
 
 Not on any entry (0): none
 
 ## conditionals
 
-Match the pair: the verb in the if part tells you the verb in the other part.
+The choices are one verb in different forms, like does not arrive, will not arrive, would not arrive, or condition words like unless, as long as, provided that. First look at the verb in the other part of the sentence (will, would or would have), then pick its partner for the blank.
 
-จับคู่ให้ถูก: กริยาในส่วน if เป็นแบบไหน อีกส่วนก็ต้องเป็นคู่ของมัน
+ตัวเลือกเป็นกริยาตัวเดียวกันแต่ต่างรูป เช่น does not arrive, will not arrive, would not arrive หรือเป็นคำบอกเงื่อนไขอย่าง unless, as long as, provided that ให้ดูกริยาในอีกส่วนของประโยคก่อน (will, would หรือ would have) แล้วเลือกคู่ของมันมาใส่ช่องว่าง
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V2` = กริยาช่อง 2 (went, made) · `V3` = กริยาช่อง 3 (gone, made)
 
-### Zero conditional · Zero conditional (ความจริงทั่วไป) `zero-conditional`
+### Zero conditional · ความจริงทั่วไป (zero conditional) `zero-conditional`
 
     if + S + V(s/es), S + V(s/es)
 
-- Always true: if A happens, B happens. Both parts use the present simple.
-- เรื่องจริงเสมอ: ถ้า A เกิด B ก็เกิด ทั้งสองส่วนใช้ present simple
+- For facts that happen every time: if A happens, B happens. Both parts use the present simple.
+- ใช้กับเรื่องที่เกิดทุกครั้ง: ถ้า A เกิด B ก็เกิด ทั้งสองส่วนใช้กาลปัจจุบันธรรมดา (present simple)
 - If the temperature **drops** below zero, the pipes freeze.
 - ถ้าอุณหภูมิต่ำกว่าศูนย์ ท่อน้ำจะแข็งตัว
-- **no common mistake yet**
+- ✗ If the temperature drop below zero, the pipes freeze. → ✓ If the temperature drops below zero, the pipes freeze.: ภาษาไทยกริยาไม่เปลี่ยนรูป แต่ภาษาอังกฤษ ประธานสิ่งเดียว (the temperature) กริยาต้องเติม s แม้อยู่ในส่วน if (Thai verbs never change, but with one subject (the temperature) the present simple verb needs -s, in the if part too.)
+- Clues: if = when (every time) = if ในที่นี้ = ทุกครั้งที่…
 
-### First conditional · First conditional (เป็นไปได้ในอนาคต) `first-conditional`
+### First conditional · เงื่อนไขที่เกิดได้จริงในอนาคต (first conditional) `first-conditional`
 
     if + S + V(s/es), S + will + V1
 
-- Real and possible in the future: if + present simple, then will.
-- เป็นไปได้จริงในอนาคต: if + present simple แล้วอีกส่วนใช้ will
+- For a real, possible future: if + present simple, then will + V1 in the other part. The if part normally has no will, even about the future.
+- ใช้กับเรื่องที่เกิดได้จริงในอนาคต: ส่วน if ใช้กาลปัจจุบันธรรมดา อีกส่วนใช้ will + กริยารูปเดิม ส่วน if ปกติไม่ใช้ will แม้พูดถึงอนาคต
 - If you **order** today, we will ship it tomorrow.
 - ถ้าคุณสั่งวันนี้ เราจะจัดส่งพรุ่งนี้
-- **no common mistake yet**
-- Clues: if (**no meaning**) · unless (**no meaning**) · as long as (**no meaning**) · provided that (**no meaning**)
+- ✗ If it will rain tomorrow, we will cancel the trip. → ✓ If it rains tomorrow, we will cancel the trip.: ภาษาไทยพูด "ถ้าพรุ่งนี้ฝนจะตก" มีคำว่า "จะ" แต่ภาษาอังกฤษ ส่วน if ใช้กาลปัจจุบันธรรมดา แม้พูดถึงพรุ่งนี้ (Thai says ถ้าพรุ่งนี้ฝนจะตก with จะ, but English uses the present simple after if, even about tomorrow.)
+- Clues: will + V1 in the other part = อีกส่วนมี will ส่วน if จึงใช้กาลปัจจุบันธรรมดา · if + does not/do not + V1 = ปฏิเสธในส่วน if ใช้ does not / do not ไม่ใช่ will not
 
-### Second conditional · Second conditional (สมมติในปัจจุบัน) `second-conditional`
+### Second conditional · สมมติเรื่องที่ไม่จริงตอนนี้ (second conditional) `second-conditional`
 
-    if + S + V2/were, S + would + V1
+    if + S + V2, S + would + V1
+    if + S + were, S + would + V1
 
-- Imaginary, not true now: if + V2 (or were), then would.
-- สมมติ ไม่จริงตอนนี้: if + V2 (หรือ were) แล้วอีกส่วนใช้ would
+- For something imagined, not true now: if + V2 (or were), then would + V1. In TOEIC, were is used with every subject (if the budget were). For the imagined part use V2 or were, not would (only polite phrases like if you would like use would).
+- ใช้กับเรื่องสมมติที่ไม่จริงตอนนี้: ส่วน if ใช้กริยาช่อง 2 (หรือ were) อีกส่วนใช้ would + กริยารูปเดิม ใน TOEIC ใช้ were กับทุกประธาน (if the budget were) ส่วนที่สมมติใช้กริยาช่อง 2 หรือ were ไม่ใช้ would (ยกเว้นสำนวนสุภาพอย่าง if you would like)
 - If we **had** more staff, we would open on weekends.
 - ถ้าเรามีพนักงานมากกว่านี้ เราจะเปิดร้านวันเสาร์อาทิตย์
-- **no common mistake yet**
+- ✗ If we have more staff, we would open on weekends. → ✓ If we had more staff, we would open on weekends.: ภาษาไทยไม่เปลี่ยนรูปกริยาเวลาสมมติ แต่ภาษาอังกฤษต้องถอยกริยาไปเป็นช่อง 2 (have เป็น had) เพื่อบอกว่าไม่จริงตอนนี้ (Thai verbs do not change for an imagined situation, but English moves the verb back one step to show it is not true now: have becomes had.)
+- Clues: would + V1 in the other part = อีกส่วนมี would ส่วน if จึงใช้กริยาช่อง 2 หรือ were · if + S + were = ใช้ were ได้กับทุกประธาน (if the budget were)
 
-### Third conditional · Third conditional (สมมติในอดีต) `third-conditional`
+### Third conditional · สมมติย้อนอดีต (third conditional) `third-conditional`
 
     if + S + had + V3, S + would have + V3
 
-- Imaginary past that did not happen: if + had V3, then would have V3.
-- สมมติย้อนอดีต ซึ่งไม่ได้เกิดขึ้นจริง: if + had V3 แล้วอีกส่วนใช้ would have V3
+- For an imagined past that did not happen: if + had + V3, then would have + V3.
+- ใช้กับเรื่องในอดีตที่ไม่ได้เกิดขึ้นจริง: ส่วน if ใช้ had + กริยาช่อง 3 อีกส่วนใช้ would have + กริยาช่อง 3
 - If the parts had arrived earlier, we **would have finished** on time.
 - ถ้าชิ้นส่วนมาถึงเร็วกว่านี้ เราคงทำเสร็จทันเวลาแล้ว
-- **no common mistake yet**
+- ✗ If I knew about the change, I would have rebooked my flight. → ✓ If I had known about the change, I would have rebooked my flight.: ภาษาไทย "ถ้าฉันรู้" ใช้ได้ทั้งตอนนี้และอดีต แต่ภาษาอังกฤษ ถ้าสมมติย้อนอดีตต้องใช้ had + กริยาช่อง 3 (had known) (Thai ถ้าฉันรู้ looks the same for now and the past, but for an imagined past English needs had + V3 (had known).)
+- Clues: would have + V3 in the other part = อีกส่วนมี would have ส่วน if จึงใช้ had + กริยาช่อง 3 · if + had + V3 = ส่วน if มี had อีกส่วนจึงใช้ would have + กริยาช่อง 3
 
-### Unless (= if … not) · Unless (= ถ้าไม่) `unless`
+### Mixed conditional (past if, result now) · อดีตไม่จริง แต่ผลอยู่ตอนนี้ (mixed conditional) `mixed-conditional`
+
+    if + S + had + V3, S + would + V1
+
+- The if part is an imagined past (had + V3), but the result is about now. Look for now or today: then use would + V1, not would have + V3.
+- ส่วน if เป็นอดีตที่ไม่ได้เกิดจริง (had + กริยาช่อง 3) แต่ผลเป็นเรื่องตอนนี้ ถ้าเห็น now หรือ today ให้ใช้ would + กริยารูปเดิม ไม่ใช่ would have + กริยาช่อง 3
+- If we had booked earlier, we **would be** in Tokyo now.
+- ถ้าเราจองเร็วกว่านี้ ตอนนี้เราคงอยู่ที่โตเกียวแล้ว
+- ✗ If we had booked earlier, we will be in Tokyo now. → ✓ If we had booked earlier, we would be in Tokyo now.: ภาษาไทยพูด "เราคงจะอยู่…" มีคำว่า "จะ" จึงชอบใช้ will แต่ผลของเรื่องสมมติต้องใช้ would (Thai เราคงจะอยู่ has จะ, so learners write will, but an imagined result needs would.)
+- Clues: now / today = ผลเป็นเรื่องตอนนี้ ใช้ would + กริยารูปเดิม
+
+### Condition words: unless, as long as, provided that, even if · คำบอกเงื่อนไข (unless, as long as, provided that, even if) `unless`
 
     unless + S + V(s/es), S + will + V1
+    as long as/provided that/even if + S + V
 
-- Unless means "if not". The verb after it is not negative.
-- unless = ถ้าไม่ กริยาหลัง unless จึงเป็นรูปบอกเล่า
+- `unless` = ถ้าไม่ (if … not)
+- `as long as` = ตราบใดที่ / ขอแค่… (on the condition that)
+- `provided that` = โดยมีเงื่อนไขว่า (only if)
+- `even if` = ถึงแม้ว่า (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้) (it may or may not happen; the result is the same)
+
+- All of them take a clause (subject + verb). Unless already means "if not", so the verb after it is not negative. Even if is for something that may happen; even though is for something that is true.
+- ทุกคำตามด้วยประโยค (ประธาน + กริยา) unless แปลว่า "ถ้าไม่" อยู่แล้ว กริยาหลัง unless จึงไม่ต้องปฏิเสธซ้ำ / even if ใช้กับเรื่องที่อาจเกิด ส่วน even though ใช้กับเรื่องที่เกิดจริง
 - The event will be canceled **unless** more people register.
 - งานจะถูกยกเลิกถ้ามีคนลงทะเบียนไม่เพิ่ม
-- **no common mistake yet**
+- ✗ Unless we do not receive the agreement, the team cannot begin. → ✓ Unless we receive the agreement, the team cannot begin.: ภาษาไทยพูด "ถ้าเราไม่ได้รับ…" มีคำว่า "ไม่" จึงชอบใส่ not ซ้ำ แต่ unless แปลว่า "ถ้าไม่" อยู่แล้ว (Thai ถ้าเราไม่ได้รับ has ไม่, so learners add not, but unless already means "if not".)
+- Clues: even if vs even though = even if = อาจเกิดหรือไม่ก็ได้ / even though = เกิดจริงแล้ว · in case of + noun = in case of ตามด้วยคำนาม ไม่ใช่ประโยค
 
-### Tested in drills (0)
+### Tested in drills (9)
 
+- `as long as` = ตราบใดที่ / ขอแค่… (เงื่อนไข) ตามด้วยประโยค (on the condition that, + a clause) · ✗ The warranty will remain valid in case of the product is used
+- `even if` = ถึงแม้ว่า (เรื่องที่อาจเกิดหรือไม่เกิดก็ได้) (even if something happens (it may or may not))
+- `if + S + had + V3, S + would + V1` = อดีตไม่จริง แต่ผลอยู่ตอนนี้ (now) ใช้ would + กริยารูปเดิม (unreal past, result now (now): would + base verb) · ✗ If it had been launched earlier, our sales will be higher now, If it had been launched earlier, our sales had been higher now
+- `if + S + had + V3, S + would have + V3` = อดีตที่ไม่จริง: if + had คู่กับ would have + กริยาช่อง 3 (unreal past: if + had + past participle, would have + past participle) · ✗ If Ms. Lee had known about the change, she will rebook her flight, If the client would approve the proposal sooner, we would have started
+- `if + S + V(s/es), S + will + V1` = เงื่อนไขในอนาคต ส่วน if ใช้กาลปัจจุบัน แม้พูดถึงอนาคต (a real future condition: present tense after if, will in the other part) · ✗ If the shipment will not arrive by Friday, we will contact, If the shipment would not arrive by Friday, we will contact
+- `if + S + V2, S + would + V1` = ไม่จริงตอนนี้: if + กริยาช่อง 2 คู่กับ would + กริยารูปเดิม (if + past form (not true now): would + base verb) · ✗ If our team had more staff, we will complete the project
+- `if + S + were, S + would + V1` = สมมติ ไม่จริงตอนนี้ ส่วน if ใช้ were ไม่ใช่ would be หรือ is (not true now: if + were, not would be or is) · ✗ If the budget would be larger, the department would hire, If the budget is larger, the department would hire
+- `provided that` = โดยมีเงื่อนไขว่า… ตามด้วยประโยค (only if, + a clause) · ✗ considered for the position despite they submit all documents, considered for the position in case of they submit all documents
+- `unless` = ถ้าไม่… กริยาหลัง unless ไม่ต้องใส่ not (Unless we receive) (if not; the verb after it has no not (Unless we receive))
 
 Not on any entry (0): none
 
 ## inversion
 
-When a sentence starts with a negative word, only, so + adjective, should / had / were, or Attached / Enclosed, the verb comes before the subject, like a question.
+The choices mix normal order and question order, like we have received / have we received, or are helping verbs like does, has, is, had. Look at the first word of the sentence: a negative word (rarely, seldom), not only, only after, so + adjective, should / had / were, or Attached / Enclosed. Then the helping verb comes before the subject, like a question.
 
-ถ้าประโยคขึ้นต้นด้วยคำปฏิเสธ, only, so + คำคุณศัพท์, should / had / were หรือ Attached / Enclosed ให้ย้ายกริยามาไว้หน้าประธาน เหมือนประโยคคำถาม
+ตัวเลือกมีทั้งแบบเรียงปกติและแบบสลับเหมือนคำถาม เช่น we have received / have we received หรือเป็นกริยาช่วยอย่าง does, has, is, had ให้ดูคำแรกของประโยคก่อน ถ้าเป็นคำปฏิเสธ (rarely, seldom), not only, only after, so + คำคุณศัพท์, should / had / were หรือ Attached / Enclosed ให้ย้ายกริยาช่วยมาไว้หน้าประธาน เหมือนประโยคคำถาม
 
 Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = กริยาช่อง 1 รูปเดิม (go, make) · `V2` = กริยาช่อง 2 (went, made) · `V3` = กริยาช่อง 3 (gone, made) · `N` = คำนาม · `Adj` = คำคุณศัพท์ (บอกลักษณะของคำนาม) · `Clause` = อนุประโยค (มีประธาน + กริยา)
 
-### Which helping verb goes first? · เลือกกริยาช่วยตัวไหนมาไว้หน้า `which-helper-verb`
+### Which helping verb goes first? · เลือกกริยาช่วยที่ย้ายมาไว้หน้า (which helping verb goes first) `which-helper-verb`
 
     be/have/will/can + S + …
     do/does/did + S + V1
 
-- `be` = ประโยคปกติมี is / are / was / were หรือข้างหลังเป็นคำคุณศัพท์ V-ing หรือ V3 แบบถูกทำ (the normal sentence has is/are/was/were, or an adjective, V-ing or passive V3 follows)
-- `have` = ประโยคปกติมี has / have / had + V3 (the normal sentence has has/have/had + V3)
+- `be` = ประโยคปกติมี is / are / was / were หรือข้างหลังเป็นคำคุณศัพท์ กริยาเติม -ing หรือกริยาช่อง 3 แบบถูกทำ (the normal sentence has is/are/was/were, or an adjective, V-ing or passive V3 follows)
+- `have` = ประโยคปกติมี has / have / had + กริยาช่อง 3 (the normal sentence has has/have/had + V3)
 - `will/can` = ประโยคปกติมี will, can, should ฯลฯ (the normal sentence has a modal (will, can, should…))
 - `do/does/did` = ประโยคปกติไม่มีกริยาช่วยเลย ให้เติม do / does / did และกริยาหลักกลับเป็นรูปเดิม (the normal sentence has no helping verb; the main verb goes back to V1)
 
@@ -1063,10 +1106,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ลองพูดประโยคแบบปกติก่อน ถ้ามี be, have หรือ will / can อยู่แล้ว ให้ย้ายตัวนั้นมาไว้หน้า ถ้าไม่มี ให้เติม do / does / did ระวัง! ถ้าข้างหลังเป็นคำคุณศัพท์ (เช่น successful) ต้องใช้ be ห้ามใช้ do
 - Seldom **does** our team miss a deadline.
 - ทีมของเราแทบไม่เคยพลาดกำหนดส่ง
-- **no common mistake yet**
-- Clues: the team misses → Seldom does the team miss (**no meaning**) · we have met → Rarely have we met (**no meaning**) · it was popular → So popular was it (**no meaning**)
+- ✗ Seldom did we received so many applications. → ✓ Seldom did we receive so many applications.: did บอกว่าเป็นอดีตไปแล้ว กริยาหลักจึงกลับเป็นรูปเดิม: did … receive ไม่ใช่ did … received (Did already shows the past, so the main verb goes back to its base form: did … receive, not did … received.)
+- Clues: the team misses → Seldom does the team miss = ไม่มีกริยาช่วย เติม does แล้ว miss กลับเป็นรูปเดิม · we have met → Rarely have we met = มี have อยู่แล้ว ย้าย have มาไว้หน้า · it was popular → So popular was it = ข้างหลังเป็นคำคุณศัพท์ ใช้ be ห้ามใช้ do
 
-### Negative word first · ขึ้นต้นด้วยคำปฏิเสธ `negative-adverb-inversion`
+### Negative word first · ขึ้นต้นด้วยคำปฏิเสธ (never / rarely / seldom first) `negative-adverb-inversion`
 
     never/rarely/seldom/hardly + aux + S + V
 
@@ -1080,10 +1123,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ขึ้นต้นด้วย never, rarely, seldom, hardly ให้วางกริยาช่วยไว้หน้าประธาน
 - Rarely **have** we seen such strong sales in the first quarter.
 - เราแทบไม่เคยเห็นยอดขายไตรมาสแรกสูงขนาดนี้
-- **no common mistake yet**
-- Clues: never (**no meaning**) · rarely (**no meaning**) · seldom (**no meaning**) · hardly (**no meaning**) · little (**no meaning**) · under no circumstances (**no meaning**)
+- ✗ Rarely we have seen such strong sales. → ✓ Rarely have we seen such strong sales.: ภาษาไทยเรียงคำแบบเดิม (เราแทบไม่เคยเห็น…) แต่ภาษาอังกฤษ ถ้าคำปฏิเสธขึ้นต้นประโยค ต้องย้ายกริยาช่วยมาไว้หน้าประธาน (Thai keeps the same order (เราแทบไม่เคยเห็น…), but in English a negative word at the front moves the helping verb before the subject.)
+- Clues: rarely + have + S + V3 = we have received → Rarely have we received (ย้าย have มาไว้หน้า) · seldom + does + S + V1 = the board approves → Seldom does the board approve (เติม does กริยากลับเป็นรูปเดิม) · little = แทบไม่… เลย (Little did we know = เราไม่รู้เลยว่า) · under no circumstances = ไม่ว่ากรณีใด ๆ ก็ห้าม / ก็ไม่
 
-### Not only … but also · Not only … but also ขึ้นต้นประโยค `not-only-inversion`
+### Not only … but also · ไม่เพียงแต่… แต่ยัง… ขึ้นต้นประโยค (not only … but also) `not-only-inversion`
 
     not only + aux + S + V, but + S + also + V
 
@@ -1093,9 +1136,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ขึ้นต้นด้วย not only ให้สลับเฉพาะส่วนแรก ส่วนหลัง but เป็นประโยคปกติ
 - Not only **does** the plan save money, but it also saves time.
 - แผนนี้ไม่เพียงแต่ช่วยประหยัดเงิน แต่ยังประหยัดเวลาด้วย
-- **no common mistake yet**
+- ✗ Not only the plan saves money, but it also saves time. → ✓ Not only does the plan save money, but it also saves time.: ภาษาไทยเรียงคำปกติหลัง "ไม่เพียงแต่" แต่ภาษาอังกฤษ ถ้า not only ขึ้นต้นประโยค ส่วนแรกต้องสลับเป็น does the plan save (Thai keeps normal order after ไม่เพียงแต่, but in English not only at the front swaps the first part: does the plan save.)
+- Clues: not only + is + S + faster = ข้างหลังเป็นคำคุณศัพท์ (faster) ใช้ is the printer ไม่ใช่ does the printer
 
-### Only after / only when / not until · Only after / only when / not until `only-inversion`
+### Only after / only when / not until · หลังจาก… เท่านั้น ถึงจะ… (only after / only when / not until) `only-inversion`
 
     only after/only when/not until + N/Clause + aux + S + V
 
@@ -1107,9 +1151,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ส่วนที่มี only เป็นปกติ แต่ส่วนหลักที่ตามมาต้องสลับ: กริยาช่วย แล้วค่อยประธาน
 - Only when the payment clears **will** we ship the order.
 - เราจะส่งสินค้าก็ต่อเมื่อชำระเงินเรียบร้อยแล้วเท่านั้น
-- **no common mistake yet**
+- ✗ Only when the payment clears we will ship the order. → ✓ Only when the payment clears will we ship the order.: ภาษาไทยพูด "เราจะส่ง…" ตามปกติ แต่ภาษาอังกฤษ ถ้าส่วนที่มี only ขึ้นต้นประโยค ส่วนหลักต้องสลับเป็น will we ship (Thai says เราจะส่ง… in normal order, but after an only part at the front, English swaps the main part: will we ship.)
+- Clues: only after + Clause + aux + S = สลับในส่วนหลัก: will employees be
 
-### So + adjective / such first · ขึ้นต้นด้วย So + คำคุณศัพท์ / Such `so-such-inversion`
+### So + adjective / such first · มาก… จน… ขึ้นต้นประโยค (so + adjective / such first) `so-such-inversion`
 
     so + Adj + be + S + that + S + V
     such + be + N + that + S + V
@@ -1122,10 +1167,10 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - มาจากประโยคปกติ "S + was so + คำคุณศัพท์ + that…" แล้วย้าย so + คำคุณศัพท์ มาไว้หน้า ตามด้วย be + ประธาน ต้องใช้ be เพราะ do ตามด้วยคำคุณศัพท์ไม่ได้
 - So popular **was** the workshop that a second session was added.
 - เวิร์กช็อปได้รับความนิยมมาก จนต้องเพิ่มรอบที่สอง
-- **no common mistake yet**
-- Clues: So + adjective ___ the … (**no meaning**) · … that + result (**no meaning**)
+- ✗ So popular the workshop was that a second session was added. → ✓ So popular was the workshop that a second session was added.: ภาษาไทยเรียงคำปกติ แต่ภาษาอังกฤษ ถ้า so + คำคุณศัพท์ ขึ้นต้นประโยค ต้องวาง was ไว้หน้าประธาน (Thai keeps normal order, but with so + adjective at the front, English puts was before the subject.)
+- Clues: so + adjective + ___ + the … = ช่องว่างเป็น be (was, is) แล้วตามด้วยประธาน · … that + result = that บอกผลที่ตามมา
 
-### If-clause without if · ละ if แล้วสลับที่ `conditional-inversion`
+### If-clause without if · ตัด if แล้วสลับที่ (should / had / were first) `conditional-inversion`
 
     should + S + V1, S + will + V1
     had + S + V3, S + would have + V3
@@ -1135,14 +1180,14 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `had` = ถ้า… (เรื่องอดีตที่ไม่ได้เกิดจริง = if + had V3) (if (in the past, but it did not happen))
 - `were` = ถ้า… (สมมติ = if + V2) (if (imagined))
 
-- Drop if and move should, had or were to the front. "Should you have…" is very common in emails.
-- ตัด if ออก แล้วย้าย should, had, were มาไว้หน้าสุด ในอีเมลเจอ "Should you have…" บ่อยมาก
+- Drop if and move should, had or were to the front. "Should you have…" is very common in emails. Only were can take to + V1.
+- ตัด if ออก แล้วย้าย should, had, were มาไว้หน้าสุด ในอีเมลเจอ "Should you have…" บ่อยมาก และมีแค่ were ที่ตามด้วย to + กริยารูปเดิมได้
 - **Should** you need any help, please call the front desk.
 - หากต้องการความช่วยเหลือ กรุณาโทรหาแผนกต้อนรับ
-- **no common mistake yet**
-- Clues: ___ you have any questions (**no meaning**) · ___ you need assistance (**no meaning**)
+- ✗ If had we known about the delay, we would have called. → ✓ Had we known about the delay, we would have called.: Had ที่ขึ้นต้นประโยคแปลว่า "ถ้า" อยู่แล้ว ห้ามใช้คู่กับ if ให้เลือกเขียน If we had known หรือ Had we known อย่างใดอย่างหนึ่ง (Had at the front already means if, so do not use both. Write If we had known, or Had we known.)
+- Clues: Should you have any questions = หากคุณมีคำถาม · Should you need assistance = หากคุณต้องการความช่วยเหลือ · Had + S + been + V3 = ถ้า… had been… (อีกส่วนมี would have) · Were + S + to V1 = ถ้า… (สมมติ): Were the company to relocate
 
-### No sooner … than / hardly … when · No sooner … than / hardly … when `no-sooner-than`
+### No sooner … than / hardly … when · ทันทีที่… ก็… (no sooner … than / hardly … when) `no-sooner-than`
 
     no sooner + had + S + V3 + than + S + V2
     hardly + had + S + V3 + when + S + V2
@@ -1150,13 +1195,14 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `no sooner … than` = ทันทีที่… ก็… (as soon as … then)
 - `hardly … when` = เพิ่งจะ… ก็… (as soon as … then)
 
-- As soon as A happened, B happened. Remember the pairs: no sooner … than, hardly … when.
-- ทันทีที่ A เกิด B ก็เกิด จำคู่ให้แม่น: no sooner … than, hardly … when
+- As soon as A happened, B happened. Both are past, so use had, not has. Remember the pairs: no sooner … than, hardly … when.
+- ทันทีที่ A เกิด B ก็เกิด เป็นเรื่องในอดีตจึงใช้ had ไม่ใช่ has และจำคู่ให้แม่น: no sooner … than, hardly … when
 - No sooner **had** the store opened than customers rushed in.
 - ร้านเพิ่งเปิดได้ไม่ทันไร ลูกค้าก็กรูกันเข้ามา
-- **no common mistake yet**
+- ✗ No sooner had the store opened when customers rushed in. → ✓ No sooner had the store opened than customers rushed in.: ภาษาไทยใช้ "ทันทีที่… ก็…" แบบเดียว แต่ภาษาอังกฤษมีคู่ตายตัว: no sooner คู่กับ than / hardly คู่กับ when (Thai uses one pattern, ทันทีที่… ก็…, but English has fixed pairs: no sooner goes with than, hardly goes with when.)
+- Clues: no sooner had … than = เรื่องในอดีต ใช้ had ไม่ใช่ has
 
-### Attached / Enclosed first (emails) · Attached / Enclosed ขึ้นต้นประโยค (อีเมล) `enclosed-attached-inversion`
+### Attached / Enclosed first (emails) · ที่แนบมา… ขึ้นต้นประโยค (attached / enclosed first) `enclosed-attached-inversion`
 
     attached/enclosed/included + is + N
     attached/enclosed/included + are + N(s)
@@ -1166,14 +1212,24 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `included` = ที่รวมมาด้วย (part of this package)
 
 - Emails often move attached or enclosed to the front. The real subject comes after is/are, so pick is or are from the noun after the blank.
-- ในอีเมลมักย้าย attached, enclosed มาไว้หน้า ประธานจริงอยู่ "หลัง" is / are จึงต้องดูคำนามหลังช่องว่าง: ตัวเดียวใช้ is / หลายตัวใช้ are
+- ในอีเมลมักย้าย attached, enclosed มาไว้หน้า ประธานจริงอยู่ "หลัง" is / are จึงต้องดูคำนามหลังช่องว่าง: ชิ้นเดียวใช้ is / หลายชิ้นใช้ are
 - Attached **are** the slides from yesterday’s meeting.
 - แนบสไลด์จากการประชุมเมื่อวานมาด้วย
-- **no common mistake yet**
-- Clues: Attached ___ (**no meaning**) · Enclosed ___ (**no meaning**) · Included ___ (**no meaning**)
+- ✗ Attached is the slides from the meeting. → ✓ Attached are the slides from the meeting.: ประธานจริง (the slides) อยู่หลังกริยาและมีหลายชิ้น จึงต้องใช้ are ภาษาไทยไม่มีรูปพหูพจน์ จึงมักลืมดู (The real subject (the slides) comes after the verb and is plural, so use are. Thai has no plural form, so this is easy to miss.)
+- Clues: attached + is + the invoice = ข้างหลังเป็นของชิ้นเดียว ใช้ is · enclosed + are + N(s) = ข้างหลังมีหลายชิ้น ใช้ are (Enclosed are two copies)
 
-### Tested in drills (0)
+### Tested in drills (10)
 
+- `enclosed + are + N(s)` = ประธานจริง (two copies) อยู่หลังกริยา มีหลายชิ้นจึงใช้ are (the real subject (two copies) comes after: plural, so are) · ✗ Enclosed is two copies of the signed agreement, Enclosed has two copies of the signed agreement
+- `had + S + V3` = Had + ประธาน + กริยาช่อง 3 = If… had (อดีตที่ไม่ได้เกิดจริง) (Had she been informed = If she had been informed) · ✗ If the manager been informed of the delay, Should the manager been informed of the delay
+- `no sooner + had + S + V3 + than` = No sooner had… than = ทันทีที่… ก็… (เรื่องในอดีต) (No sooner had … than: as soon as A happened, B happened) · ✗ No sooner has the new inventory system been installed than technicians discovered, No sooner was the new inventory system been installed
+- `not only + aux + S` = Not only ขึ้นต้น ย้ายกริยาช่วยไว้หน้าประธาน (is the printer) (Not only first: helping verb before the subject (is the printer)) · ✗ Not only the new printer is faster than the previous model, but, Not only does the new printer faster
+- `only after + Clause + aux + S` = Only after… ขึ้นต้น สลับในส่วนหลัก (will employees be) (Only after … first: swap the main part (will employees be)) · ✗ Only after the inspection is complete employees will be allowed
+- `rarely + have + S + V3` = Rarely ขึ้นต้น ย้าย have มาไว้หน้าประธาน (have we received) (Rarely first: have moves before the subject (have we received)) · ✗ Rarely we have received such a high number, Rarely did we received such a high number
+- `seldom + does + S + V1` = Seldom ขึ้นต้น ใช้ does (ประธานเดียว) + กริยารูปเดิม (Seldom first, no helping verb: does (one subject) + base verb) · ✗ Seldom is the board approve budget increases, Seldom has the board approve budget increases
+- `should + S + V1` = Should you have = If you have (ตามด้วยกริยารูปเดิม) (Should you have … = If you have …) · ✗ Were you have any questions, please contact us, Had you have any questions, please contact us
+- `so + Adj + be + S + that` = So + คำคุณศัพท์ ขึ้นต้น ตามด้วย be + ประธาน (was the launch) (So + adjective first, then be + subject (was the launch)) · ✗ So successful did the product launch that, So successful it was the product launch that
+- `were + S + to V1` = Were + ประธาน + to + กริยารูปเดิม = If… (สมมติ) (Were the company to relocate = If the company relocated) · ✗ Should the company to relocate its headquarters, If the company to relocate its headquarters
 
 Not on any entry (0): none
 
@@ -1681,54 +1737,54 @@ Not on any entry (0): none
 
 ## noun-clauses
 
-A noun clause is a whole clause (S + V) used as a noun: the subject or object of the sentence. It starts with that, what, whether / if or a wh-word.
+The choices are words like that, what, whether, if, where, how. The blank starts a clause (subject + verb) used as a noun, often after a verb like confirm, decide or tell. Look after the blank first: a full clause (that), a clause missing a noun (what), a yes/no question (whether / if), or a place, time or way (where / when / how)?
 
-noun clause คือประโยคย่อย (S + V) ที่ทำหน้าที่เหมือนคำนาม เป็นประธานหรือกรรมของประโยค ขึ้นต้นด้วย that, what, whether / if หรือคำ wh-
+ตัวเลือกเป็นคำอย่าง that, what, whether, if, where, how ช่องว่างเป็นจุดเริ่มของประโยคย่อย (ประธาน + กริยา) ที่ทำหน้าที่เป็นคำนาม มักอยู่หลังกริยาอย่าง confirm, decide, tell ให้ดูข้างหลังช่องว่างก่อน: เป็นประโยคครบ (that) ขาดคำนาม (what) เป็นคำถามใช่หรือไม่ (whether / if) หรือถามที่ไหน เมื่อไร อย่างไร (where / when / how)
 
 Symbols: `S` = ประธาน · `V` = คำกริยา
 
-### That + complete clause · that + ประโยคสมบูรณ์ `that-clause`
+### That + complete clause · ว่า… + ประโยคครบ (that + clause) `that-clause`
 
     S + V + that + S + V
 
 - `that` = ว่า (นำข้อเท็จจริง ไม่มีความหมายเพิ่ม) (introduces a fact; adds no meaning)
 
 - That joins a complete clause after verbs like announce, confirm and ensure. Nothing is missing in the clause after that.
-- that เชื่อมประโยคสมบูรณ์หลังกริยาอย่าง announce, confirm, ensure ประโยคหลัง that ต้องครบ ไม่ขาดอะไร
+- that เชื่อมประโยคครบหลังกริยาอย่าง announce, confirm, ensure ประโยคหลัง that ต้องครบ ไม่ขาดอะไร
 - The manager confirmed **that** the shipment had arrived.
 - ผู้จัดการยืนยันว่าสินค้ามาถึงแล้ว
-- **no common mistake yet**
-- Clues: announce (**no meaning**) · confirm (**no meaning**) · ensure (**no meaning**) · suggest (**no meaning**)
+- ✗ The manager said us that the shipment had arrived. → ✓ The manager told us that the shipment had arrived.: ภาษาไทยพูด "บอกเราว่า…" จึงชอบเขียน said us แต่หลัง say ใส่คนตามทันทีไม่ได้ ให้ใช้ told us that หรือ said that (Thai says บอกเราว่า, so learners write said us. A person cannot come straight after say: use told us that, or said that.)
+- Clues: announce that = ประกาศว่า · confirm that = ยืนยันว่า · ensure that = ทำให้แน่ใจว่า · tell + person + that = บอก (ใคร) ว่า… (tell us that แต่ say ต้องเป็น say that หรือ say to us that)
 
-### What = the thing that · what = สิ่งที่ `what-noun-clause`
+### What = the thing that · สิ่งที่ (what) `what-noun-clause`
 
     V + what + S + V
 
 - `what` = สิ่งที่ (the thing that)
 
 - Use what when the clause after it is missing a noun (an object or a subject). What already means "the thing that".
-- ใช้ what เมื่อประโยคที่ตามมาขาดคำนาม (ขาดกรรมหรือประธาน) what แปลว่า สิ่งที่ อยู่แล้ว
+- ใช้ what เมื่อประโยคที่ตามมาขาดคำนาม (ขาดกรรมหรือประธาน) เพราะ what แปลว่า "สิ่งที่" อยู่แล้ว
 - Please tell us **what** you need for the event.
 - กรุณาบอกเราว่าคุณต้องการอะไรสำหรับงานนี้
-- **no common mistake yet**
-- Clues: clause missing an object → what (**no meaning**) · complete clause → that (**no meaning**)
+- ✗ Please tell us that you need for the event. → ✓ Please tell us what you need for the event.: ภาษาไทยพูด "บอกเราว่า…" จึงชอบเลือก that แต่หลัง need ไม่มีกรรม (ต้องการอะไร?) ต้องใช้ what = สิ่งที่ (Thai บอกเราว่า makes learners pick that, but need has no object here (need what?). What fills that gap: the thing that.)
+- Clues: clause missing an object → what = ประโยคขาดกรรม (you need อะไร?) ใช้ what · complete clause → that = ประโยคครบ ไม่ขาดอะไร ใช้ that
 
-### Whether / if = whether or not · whether / if = ว่า…หรือไม่ `whether-if`
+### Whether / if = whether or not · ว่า…หรือไม่ (whether / if) `whether-if`
 
     V + whether/if + S + V
     whether + to V
 
 - `whether` = ว่า…หรือไม่ (if or not)
-- `if` = ว่า…หรือไม่ (ใช้หลังกริยาเท่านั้น) (if or not; only right after a verb)
+- `if` = ว่า…หรือไม่ (แต่ขึ้นต้นประโยคเป็นประธานไม่ได้ และตามด้วย to V ไม่ได้) (whether; but it cannot start the sentence as its subject or come before to V)
 
 - Use whether or if for a yes/no question inside a sentence. Only whether works at the start of a sentence, before to V, or with or not right after it.
-- ใช้ whether หรือ if กับคำถามแบบใช่/ไม่ใช่ที่อยู่ในประโยค แต่ถ้าขึ้นต้นประโยค ตามด้วย to V หรือมี or not ต่อท้ายทันที ใช้ได้แค่ whether
+- ใช้ whether หรือ if กับคำถามแบบใช่หรือไม่ที่อยู่ในประโยค แต่ถ้าขึ้นต้นประโยค ตามด้วย to V หรือมี or not ต่อท้ายทันที ใช้ได้แค่ whether
 - The board has not decided **whether** to open a new branch.
 - คณะกรรมการยังไม่ได้ตัดสินใจว่าจะเปิดสาขาใหม่หรือไม่
-- **no common mistake yet**
-- Clues: decide (**no meaning**) · wonder (**no meaning**) · ask (**no meaning**) · or not (**no meaning**)
+- ✗ The board has not decided that it will open a new branch or not. → ✓ The board has not decided whether it will open a new branch or not.: ภาษาไทย "ว่า…หรือไม่" ขึ้นต้นด้วย "ว่า" จึงชอบใช้ that แต่ถ้าเป็นคำถามใช่หรือไม่ ต้องใช้ whether (หรือ if) ไม่ใช่ that (Thai ว่า…หรือไม่ starts with ว่า, so learners write that. For a yes/no question, use whether (or if), not that.)
+- Clues: decide whether = ตัดสินใจว่า…หรือไม่ · wonder whether/if = สงสัยว่า…หรือไม่ · ask whether/if = ถามว่า…หรือไม่ · whether or not = ว่า…หรือไม่ (เขียน whether or not ไม่ใช้ if or not)
 
-### Wh-word + S + V (statement order) · คำ wh- + S + V (เรียงแบบบอกเล่า) `wh-word-order`
+### Wh-word + S + V (statement order) · คำถามที่อยู่ในประโยค เรียงแบบบอกเล่า (wh-word + S + V) `wh-word-order`
 
     V + where/when/how + S + V
 
@@ -1737,11 +1793,11 @@ Symbols: `S` = ประธาน · `V` = คำกริยา
 - `how` = อย่างไร (the way)
 
 - Inside a sentence, a wh-question uses normal order: subject before verb. Write where the meeting is, not where is the meeting.
-- เมื่อคำถาม wh- อยู่ในประโยค ให้เรียงแบบประโยคบอกเล่า ประธานมาก่อนกริยา เช่น where the meeting is ไม่ใช่ where is the meeting
+- เมื่อคำถาม where / when / how อยู่ในประโยค ให้เรียงแบบประโยคบอกเล่า ประธานมาก่อนกริยา เช่น where the meeting is ไม่ใช่ where is the meeting
 - Could you tell me **where** the training will be held?
 - ช่วยบอกได้ไหมว่าการอบรมจะจัดที่ไหน
-- **no common mistake yet**
-- Clues: tell me (**no meaning**) · know (**no meaning**) · ask (**no meaning**) · explain (**no meaning**)
+- ✗ Could you tell me where will the training be held? → ✓ Could you tell me where the training will be held?: คำถามเดี่ยว ๆ จะสลับกริยาไว้หน้า (where will it be held?) แต่เมื่ออยู่ในประโยคอื่น ต้องเรียงกลับเป็นประธาน + กริยา (A question on its own swaps the verb (where will it be held?), but inside a sentence the order goes back to subject + verb.)
+- Clues: tell me where/when/how = บอกฉันว่า… + ประธาน + กริยา · know where/when/how = รู้ว่า… + ประธาน + กริยา · explain how = อธิบายว่า…อย่างไร
 
 ### Tested in drills (0)
 

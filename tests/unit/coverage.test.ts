@@ -21,10 +21,14 @@ const READY: Part5Topic[] = [
   'pronouns',
   'determiners',
   'comparatives',
-  'relative-clauses'
+  'relative-clauses',
+  'reduced-clauses',
+  'noun-clauses',
+  'conditionals',
+  'inversion'
 ]
 /** Ready topics with no shipped question yet, so only their sheet is checked. Remove a topic once its questions ship. */
-const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals', 'determiners']
+const NO_QUESTIONS: Part5Topic[] = ['word-choice', 'modals', 'determiners', 'noun-clauses']
 
 const THAI = /[฀-๿]/
 const { bank } = loadContent(resolve('content'))

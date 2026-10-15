@@ -12,6 +12,12 @@
       "en": "'Should you have' is an inverted form of 'If you have', used for a possible future situation and followed by a base verb. 'Had' and 'Were' cannot be followed by the base verb 'have'.",
       "th": "Should you have เป็นการสลับที่ (inversion) ของ If you have ใช้กับเหตุการณ์ที่อาจเกิดขึ้น และตามด้วยกริยาช่อง 1 ส่วน Had และ Were ตามด้วยกริยาช่อง 1 (have) ไม่ได้"
     },
+    "point": {
+      "key": "should + S + V1",
+      "th": "Should you have = If you have (ตามด้วยกริยารูปเดิม)",
+      "en": "Should you have … = If you have …",
+      "wrong": ["Were you have any questions, please contact us", "Had you have any questions, please contact us"]
+    },
     "status": "approved"
   },
   {
@@ -26,6 +32,12 @@
     "explain": {
       "en": "The result 'would have rearranged' is a third conditional, and 'been informed' needs 'had' before it, so 'Had the manager been informed' (= if the manager had been informed) is correct. 'If' would also need 'had', which is missing.",
       "th": "ผล would have rearranged เป็น third conditional และ been informed ต้องมี had นำหน้า จึงใช้ Had the manager been informed (= If the manager had been informed) ซึ่งเป็นการสลับที่ (inversion) ส่วน If ใช้ไม่ได้เพราะขาด had"
+    },
+    "point": {
+      "key": "had + S + V3",
+      "th": "Had + ประธาน + กริยาช่อง 3 = If… had (อดีตที่ไม่ได้เกิดจริง)",
+      "en": "Had she been informed = If she had been informed",
+      "wrong": ["If the manager been informed of the delay", "Should the manager been informed of the delay"]
     },
     "status": "approved"
   },
@@ -42,6 +54,12 @@
       "en": "Only 'Were' can be followed by a subject and a to-infinitive in an inverted conditional: 'Were the company to relocate' (= if the company relocated). 'Should' must be followed by a base verb without 'to'.",
       "th": "รูป Were + ประธาน + to + กริยา เป็นการสลับที่ (inversion) ของ second conditional คือ Were the company to relocate (= If the company relocated) ส่วน Should ต้องตามด้วยกริยาช่อง 1 โดยไม่มี to"
     },
+    "point": {
+      "key": "were + S + to V1",
+      "th": "Were + ประธาน + to + กริยารูปเดิม = If… (สมมติ)",
+      "en": "Were the company to relocate = If the company relocated",
+      "wrong": ["Should the company to relocate its headquarters", "If the company to relocate its headquarters"]
+    },
     "status": "approved"
   },
   {
@@ -56,6 +74,12 @@
     "explain": {
       "en": "When 'Not only' begins a sentence, the verb comes before the subject, so 'is the new printer' is correct. 'the new printer is' keeps normal word order, and 'does' cannot be used with the adjective 'faster'.",
       "th": "เมื่อขึ้นต้นประโยคด้วย Not only ต้องสลับกริยามาไว้หน้าประธาน (inversion) จึงใช้ is the new printer ส่วน the new printer is เรียงคำแบบปกติซึ่งผิด และ does ใช้กับคำคุณศัพท์ faster ไม่ได้"
+    },
+    "point": {
+      "key": "not only + aux + S",
+      "th": "Not only ขึ้นต้น ย้ายกริยาช่วยไว้หน้าประธาน (is the printer)",
+      "en": "Not only first: helping verb before the subject (is the printer)",
+      "wrong": ["Not only the new printer is faster than the previous model, but", "Not only does the new printer faster"]
     },
     "status": "approved"
   },
@@ -72,6 +96,12 @@
       "en": "A negative adverb such as 'Rarely' at the start of a sentence moves the auxiliary before the subject: 'have we received'. 'we have received' keeps normal order, and 'did we received' wrongly uses a past form after 'did'.",
       "th": "คำกริยาวิเศษณ์เชิงปฏิเสธอย่าง Rarely ขึ้นต้นประโยค ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion) จึงใช้ have we received ส่วน we have received เรียงแบบปกติ และหลัง did ต้องใช้กริยาช่อง 1 ไม่ใช่ received"
     },
+    "point": {
+      "key": "rarely + have + S + V3",
+      "th": "Rarely ขึ้นต้น ย้าย have มาไว้หน้าประธาน (have we received)",
+      "en": "Rarely first: have moves before the subject (have we received)",
+      "wrong": ["Rarely we have received such a high number", "Rarely did we received such a high number"]
+    },
     "status": "approved"
   },
   {
@@ -86,6 +116,12 @@
     "explain": {
       "en": "When 'Only after' starts the sentence, the inversion happens in the main clause, so 'will employees be' is correct. 'employees will be' is tempting but keeps normal word order.",
       "th": "เมื่อขึ้นต้นประโยคด้วย Only after การสลับที่ (inversion) จะเกิดในประโยคหลัก จึงใช้ will employees be ส่วน employees will be ดูถูกต้องแต่เรียงคำแบบปกติ จึงผิด"
+    },
+    "point": {
+      "key": "only after + Clause + aux + S",
+      "th": "Only after… ขึ้นต้น สลับในส่วนหลัก (will employees be)",
+      "en": "Only after … first: swap the main part (will employees be)",
+      "wrong": ["Only after the inspection is complete employees will be allowed"]
     },
     "status": "approved"
   },
@@ -102,6 +138,12 @@
       "en": "In 'Enclosed ____ two copies', the real subject 'two copies' comes after the verb, so the plural 'are' is needed. 'is' would only fit a singular subject such as 'a copy'.",
       "th": "ประโยค Enclosed ____ two copies เป็นการสลับที่ (inversion) ประธานจริงคือ two copies ซึ่งอยู่หลังกริยาและเป็นพหูพจน์ จึงใช้ are ส่วน is ใช้กับประธานเอกพจน์ เช่น a copy เท่านั้น"
     },
+    "point": {
+      "key": "enclosed + are + N(s)",
+      "th": "ประธานจริง (two copies) อยู่หลังกริยา มีหลายชิ้นจึงใช้ are",
+      "en": "the real subject (two copies) comes after: plural, so are",
+      "wrong": ["Enclosed is two copies of the signed agreement", "Enclosed has two copies of the signed agreement"]
+    },
     "status": "approved"
   },
   {
@@ -116,6 +158,12 @@
     "explain": {
       "en": "This is the inverted form of 'The product launch was so successful that...', so the verb 'was' comes before the subject. 'it was' adds an extra subject, and 'did' cannot link to the adjective 'successful'.",
       "th": "เป็นรูปสลับที่ (inversion) ของ The product launch was so successful that... จึงต้องวาง was ไว้หน้าประธาน ส่วน it was ทำให้มีประธานซ้อน และ did ใช้กับคำคุณศัพท์ successful ไม่ได้"
+    },
+    "point": {
+      "key": "so + Adj + be + S + that",
+      "th": "So + คำคุณศัพท์ ขึ้นต้น ตามด้วย be + ประธาน (was the launch)",
+      "en": "So + adjective first, then be + subject (was the launch)",
+      "wrong": ["So successful did the product launch that", "So successful it was the product launch that"]
     },
     "status": "approved"
   },
@@ -132,6 +180,12 @@
       "en": "After 'Seldom' the auxiliary comes before the subject, and the base verb 'approve' needs 'do' or 'does'. 'the board' is singular, so 'does' is correct, not 'do'.",
       "th": "หลัง Seldom ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion) และกริยา approve เป็นช่อง 1 จึงต้องใช้ do/does ประธาน the board เป็นเอกพจน์ จึงใช้ does ไม่ใช่ do"
     },
+    "point": {
+      "key": "seldom + does + S + V1",
+      "th": "Seldom ขึ้นต้น ใช้ does (ประธานเดียว) + กริยารูปเดิม",
+      "en": "Seldom first, no helping verb: does (one subject) + base verb",
+      "wrong": ["Seldom is the board approve budget increases", "Seldom has the board approve budget increases"]
+    },
     "status": "approved"
   },
   {
@@ -146,6 +200,12 @@
     "explain": {
       "en": "'No sooner ... than' describes one past event happening right after another, and 'been installed' needs a perfect auxiliary, so 'had' is correct. 'has' does not fit the past-tense 'discovered'.",
       "th": "No sooner ... than ใช้บอกว่าเหตุการณ์หนึ่งเกิดทันทีหลังอีกเหตุการณ์ในอดีต และ been installed ต้องมีกริยาช่วยแบบ perfect จึงใช้ had (inversion) ส่วน has ไม่เข้ากับ discovered ที่เป็นอดีต"
+    },
+    "point": {
+      "key": "no sooner + had + S + V3 + than",
+      "th": "No sooner had… than = ทันทีที่… ก็… (เรื่องในอดีต)",
+      "en": "No sooner had … than: as soon as A happened, B happened",
+      "wrong": ["No sooner has the new inventory system been installed than technicians discovered", "No sooner was the new inventory system been installed"]
     },
     "status": "approved"
   }
