@@ -124,8 +124,8 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
     will/can/must/should + V1
     to V1
 
-- After will, can, must, should or to, use the base verb with nothing added. The blank must be a verb, not a noun or an adjective.
-- หลัง will, can, must, should หรือ to ใช้กริยารูปเดิม ไม่เติมอะไรเลย และช่องนั้นต้องเป็นกริยา ไม่ใช่คำนามหรือคำคุณศัพท์
+- After will, can, must, should, or the to in plan to / want to, use the base verb with nothing added (not after look forward to: see the gerund sheet). The blank must be a verb, not a noun or an adjective.
+- หลัง will, can, must, should หรือ to ใน plan to / want to ใช้กริยารูปเดิม ไม่เติมอะไรเลย (ยกเว้น look forward to ที่ตามด้วย -ing ดูชีต Gerund กับ Infinitive) และช่องนั้นต้องเป็นกริยา ไม่ใช่คำนามหรือคำคุณศัพท์
 - The company plans to **expand** its operations overseas.
 - บริษัทวางแผนจะขยายธุรกิจไปต่างประเทศ
 - ✗ plans to strong → ✓ plans to strengthen: หลัง to ต้องเป็นกริยา strong เป็นคำคุณศัพท์ กริยาคือ strengthen (After to you need a verb. Strong is an adjective; the verb is strengthen.)
@@ -142,7 +142,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `its + Adj + N` = หลังคำคุณศัพท์ (strong) ยังต้องมีคำนาม (a noun after the adjective) · ✗ its strong commit, its strong committed
 - `N + N` = คำนาม 2 ตัวติดกัน ตัวหน้าขยายตัวหลัง (two nouns: the first describes the second) · ✗ the safety regulate, the safety regulatory
 - `remain + Adj` = หลัง remain ใช้คำคุณศัพท์ ไม่ใช่คำ -ly (an adjective after remain, not -ly) · ✗ remains confidently, remains confidence
-- `to V1` = หลัง to ใช้กริยารูปเดิม (a base verb after to) · ✗ plans to strong, plans to strength
+- `to V1` = หลัง to ใน plan to/want to ใช้กริยารูปเดิม (a base verb after to in plan to/want to) · ✗ plans to strong, plans to strength
 - `V + Adv` = คำ -ly ขยายกริยา วางหลังกริยาได้ (an -ly adverb can follow the verb) · ✗ has grown considerable, has grown consideration
 - `V + Obj + Adv` = คำ -ly ขยายกริยา วางท้ายหลังกรรมได้ (an -ly adverb can go after the object) · ✗ adjust its fan speed automatic, adjust its fan speed automation
 - `your + N` = หลัง your ต้องใช้คำนาม (a noun after your) · ✗ your apply, your applied, your understand, your understood
@@ -161,8 +161,8 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 
     S + V(s/es) + Obj
 
-- For habits and facts. If the subject is one person or thing (he, she, it), add -s/-es to the verb.
-- ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็นคนเดียวหรือสิ่งเดียว (he, she, it) กริยาเติม s/es
+- For habits and facts. If the subject is he, she, it or one thing, add -s/-es to the verb.
+- ใช้กับเรื่องที่ทำเป็นประจำ หรือเป็นความจริง ถ้าประธานเป็น he, she, it หรือสิ่งเดียว กริยาเติม s/es
 - The shuttle bus **leaves** the hotel every 30 minutes.
 - รถรับส่งออกจากโรงแรมทุก 30 นาที
 - ✗ The bus leave every 30 minutes. → ✓ The bus leaves every 30 minutes.: ภาษาไทยกริยาไม่เปลี่ยนรูป แต่ภาษาอังกฤษ ประธานสิ่งเดียว (the bus) กริยาต้องเติม s (Thai verbs never change, but in English one subject (the bus) needs -s on the verb.)
@@ -276,7 +276,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - By the end of June, the team **will have completed** the project.
 - ภายในสิ้นเดือนมิถุนายน ทีมจะทำโครงการนี้เสร็จแล้ว
 - ✗ By the end of this year, we have hired 200 people. → ✓ By the end of this year, we will have hired 200 people.: by + เวลาในอนาคต = จะเสร็จก่อนเวลานั้น จึงใช้ will have + กริยาช่อง 3 (By + a future time means it will be done by then, so use will have + V3.)
-- Clues: by + future time = ไม่เกิน… / ก่อนถึง… (เวลาในอนาคต) · by the time + V(s/es) = เมื่อถึงตอนที่… (ในอนาคต) · by the end of this year = ภายในสิ้นปีนี้
+- Clues: by + future time = ไม่เกิน… (เวลาในอนาคต) · by the time + V(s/es) = เมื่อถึงตอนที่… (ในอนาคต) · by the end of this year = ภายในสิ้นปีนี้
 
 ### Future time clauses · ประโยคบอกเวลาที่พูดถึงอนาคต (future time clauses) `time-clause-future`
 
@@ -479,7 +479,7 @@ Symbols: `N` = คำนาม
     since + starting point
 
 - for + how long (for 3 days), during + an event (during the meeting), since + when it started (since 2020). For a date range, use from … through.
-- for + นานเท่าไร (for 3 days) / during + ช่วงหรืองาน (during the meeting) / since + เริ่มเมื่อไร (since 2020) ถ้าเป็นช่วงวันที่ใช้ from … through
+- for + นานเท่าไร (for 3 days) / during + งานหรือช่วงที่เจาะจง เช่น during the meeting / since + เริ่มเมื่อไร (since 2020) ถ้าเป็นช่วงวันที่ใช้ from … through
 - Phones must be turned off **during** the presentation.
 - ต้องปิดโทรศัพท์ระหว่างการนำเสนอ
 - ✗ since three years → ✓ for three years: since ต้องตามด้วยจุดเริ่ม (since 2020) ส่วนระยะเวลา (3 ปี) ใช้ for (Since needs a starting point (since 2020). A length of time takes for.)
@@ -494,7 +494,7 @@ Symbols: `N` = คำนาม
 - within = ภายในช่วงเวลา (within 2 weeks) / throughout = ตลอดทั้งช่วง หรือทั่วทั้งที่
 - Refunds will be processed **within** 10 business days.
 - การคืนเงินจะดำเนินการภายใน 10 วันทำการ
-- ✗ finish the work during two weeks → ✓ finish the work within two weeks: during ตามด้วยช่วงหรืองาน (during the meeting) ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within (During takes an event (during the meeting). For "inside a period of two weeks", use within.)
+- ✗ finish the work during two weeks → ✓ finish the work within two weeks: during ตามด้วยงานหรือช่วงที่เจาะจง เช่น during the meeting ถ้าหมายถึง "ภายในช่วง 2 สัปดาห์" ใช้ within (During takes an event (during the meeting). For "inside a period of two weeks", use within.)
 - Clues: within 24 hours = ภายในช่วง 24 ชั่วโมง · throughout the year = ตลอดทั้งปี · throughout the building = ทั่วทั้งอาคาร
 
 ### Place: at / on / in · บอกสถานที่ (place: at / on / in) `place-at-on-in`
@@ -574,7 +574,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 
 - `although` = แม้ว่า (even though)
 - `even though` = แม้ว่า (เน้นกว่า although) (even though (stronger))
-- `even if` = ถึงแม้ว่า (เรื่องสมมติ อาจเกิดหรือไม่เกิด) (whether or not (imagined))
+- `even if` = ต่อให้… (ก็ตาม) (เรื่องสมมติ อาจเกิดหรือไม่เกิด) (whether or not (imagined))
 - `despite` = ทั้ง ๆ ที่มี… / แม้จะมี… (without being stopped by)
 - `in spite of` = เหมือน despite (same as despite)
 
@@ -726,7 +726,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - `until + S + V` = until = จนกระทั่ง ตามด้วยประโยค (until + a clause: up to the time that) · ✗ during the light turns blue, despite the light turns blue
 - `when + S + V` = when = เมื่อ… ตามด้วยประโยค (when + a clause) · ✗ during you arrive, upon you arrive
 - `whereas + S + V` = whereas = ในขณะที่ (เทียบความต่าง) + ประโยค (whereas + a clause, to compare) · ✗ unlike her assistant relies, instead of her assistant relies
-- `whether … or` = ไม่ว่าจะ…หรือ… ตามด้วยประโยค (whether + a clause + or: no matter which) · ✗ regardless of they work, even they work, Regardless of you need, Both you need
+- `whether … or` = ไม่ว่าจะ…หรือ… ตามด้วยประโยค (whether + a clause + or: no matter which) · ✗ regardless of they work, Regardless of you need, Both you need
 - `while + V-ing` = while + กริยาเติม -ing ได้ ส่วน during + คำนาม (while + -ing; during + a noun) · ✗ during operating a forklift, throughout operating a forklift
 
 Not on any entry (0): none
@@ -772,7 +772,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - ใช้ -self เมื่อประธานทำกับตัวเอง หรือเน้นว่าทำเอง ไม่ให้คนอื่นทำแทน by himself = ทำคนเดียว ถ้าต่างคนต่างทำให้กัน ใช้ one another หรือ each other ไม่ใช่ themselves
 - Mr. Chen prepared the presentation **himself**.
 - คุณเฉินเตรียมการนำเสนอด้วยตัวเอง
-- ✗ The managers shared data with themselves. → ✓ The managers shared data with one another.: "แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ≠ ตัวเอง (Thai กันเอง means "with each other", not ตัวเอง "oneself". People who give to each other take one another or each other, not themselves.)
+- ✗ The managers shared data with themselves. → ✓ The managers shared data with one another.: "แบ่งปันกันเอง" คือให้กันและกัน (one another) ไม่ใช่ให้ตัวเอง (themselves) กันเอง ไม่ใช่ ตัวเอง (Thai กันเอง means "with each other", not ตัวเอง "oneself". People who give to each other take one another or each other, not themselves.)
 - Clues: by + himself/herself = คนเดียว ไม่มีใครช่วย · do it + themselves = ทำเอง ไม่ให้คนอื่นทำแทน · one another / each other = ซึ่งกันและกัน (ต่างคนต่างทำให้กัน)
 
 ### One … the other · อีกคนที่เหลือ (one … the other) `one-the-other`
@@ -942,8 +942,8 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V3` = ก�
 
     N + V3 + Prep + N
 
-- Noun + V3 means the action is done to the noun. It is short for who/which/that + is/was + V3. No object follows.
-- คำนาม + กริยาช่อง 3 = คำนามนั้นถูกทำ ย่อมาจาก who / which / that + is / was + กริยาช่อง 3 ข้างหลังไม่มีกรรม
+- Noun + V3 means the action is done to the noun. It is short for who/which/that + is/was + V3. Usually no object follows.
+- คำนาม + กริยาช่อง 3 = คำนามนั้นถูกทำ ย่อมาจาก who / which / that + is / was + กริยาช่อง 3 ข้างหลังมักไม่มีกรรม
 - The report **submitted** yesterday contained several errors.
 - รายงานที่ส่งมาเมื่อวานมีข้อผิดพลาดหลายจุด
 - ✗ All orders receive after 3 P.M. will be processed the next day. → ✓ All orders received after 3 P.M. will be processed the next day.: ภาษาไทยพูด "คำสั่งซื้อที่ได้รับ" โดยไม่มีคำว่า "ถูก" แต่คำสั่งซื้อถูกบริษัทรับเข้ามา จึงต้องใช้กริยาช่อง 3 (received) (Thai says คำสั่งซื้อที่ได้รับ with no word for ถูก, but the orders are received by the company, so use the past participle.)
@@ -1379,7 +1379,7 @@ Symbols: `S` = ประธาน · `V` = คำกริยา · `V1` = ก�
 - When a verb comes after a preposition (by, for, about, without), it takes V-ing. Careful: in look forward to, object to and be used to, to is a preposition, so V-ing follows.
 - ถ้ากริยาอยู่หลังคำบุพบท (by, for, about, without) ต้องเป็น V-ing ระวัง! look forward to, object to, be used to ตัว to เป็นคำบุพบท จึงตามด้วย V-ing
 - We look forward to **meeting** you next week.
-- เราตั้งตารอที่จะได้พบคุณสัปดาห์หน้า
+- เราตั้งตารอการได้พบคุณสัปดาห์หน้า
 - ✗ We look forward to meet you. → ✓ We look forward to meeting you.: to ใน look forward to เป็นคำบุพบท ไม่ใช่ to V1 จึงต้องตามด้วย V-ing (The to in look forward to is a preposition, not part of to V1, so V-ing follows.)
 - Clues: look forward to + V-ing = ตั้งตารอ (การ…) · object to + V-ing = คัดค้านการ… · be used to + V-ing = คุ้นเคยกับการ… · be committed to = มุ่งมั่นกับการ… · be dedicated to = ทุ่มเทให้กับการ… · by + V-ing = โดยการ… · in addition to = นอกจาก…แล้ว
 
@@ -1453,7 +1453,7 @@ Symbols: `N` = คำนาม
 - คำนามข้างหลังเป็นตัวกำหนดว่าต้องใช้กริยาตัวไหน ให้ดูคำนามก่อน แล้วเลือกกริยาที่เป็นคู่ของมัน
 - Warehouse staff must **exercise** caution near the loading dock.
 - พนักงานคลังสินค้าต้องใช้ความระมัดระวังใกล้จุดขนถ่ายสินค้า
-- ✗ do a decision → ✓ make a decision: ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ decision ต้องใช้ make เสมอ ห้ามแปลตรงว่า do (Thai says "ทำ" for both make and do, but decision always takes make.)
+- ✗ do a decision → ✓ make a decision: ภาษาไทยใช้ "ทำ" ได้ทั้งคู่ แต่ถ้าเลือกระหว่าง make กับ do คำว่า decision ใช้ make ห้ามแปลตรงว่า do (Thai says "ทำ" for both make and do. Between make and do, decision takes make.)
 - Clues: meet a deadline = ทำงานเสร็จทันกำหนด · meet the needs = ตอบสนองความต้องการ · place an order = สั่งซื้อสินค้า · conduct a survey = ทำการสำรวจ · take effect = เริ่มมีผลบังคับใช้ · raise awareness = สร้างความตระหนักรู้ · exercise caution = ใช้ความระมัดระวัง · address concerns = จัดการกับข้อกังวล · reach an agreement = ตกลงกันได้ · raise funds = ระดมทุน
 
 ### Adjective + preposition · คำคุณศัพท์ + คำบุพบท (adjective + preposition) `adjective-preposition`
@@ -1466,7 +1466,7 @@ Symbols: `N` = คำนาม
 - คำคุณศัพท์แต่ละตัวมีคำบุพบทคู่ของมัน ถ้าช่องว่างอยู่หลังคำคุณศัพท์ ให้เลือกคำบุพบทที่เป็นคู่
 - Ms. Patel is responsible **for** training new staff.
 - คุณพาเทลรับผิดชอบการอบรมพนักงานใหม่
-- ✗ responsible of → ✓ responsible for: responsible ใช้กับ for เสมอ ไม่ใช่ of (Responsible always takes for.)
+- ✗ responsible of → ✓ responsible for: responsible for + งานหรือหน้าที่ที่ดูแล; responsible to + คนที่เราต้องรายงาน ไม่ใช้ of (Responsible for + the task or job; responsible to + the person you report to. Never of.)
 - Clues: responsible for = รับผิดชอบ · eligible for = มีสิทธิ์ได้รับ · familiar with = คุ้นเคยกับ · aware of = รู้ตัว/ตระหนักถึง · make someone aware of = ทำให้ใครรู้เรื่อง… · subject to = อาจมีการ… (เช่น เปลี่ยนแปลง)
 
 ### Noun + preposition · คำนาม + คำบุพบท (noun + preposition) `noun-preposition`
@@ -1475,11 +1475,11 @@ Symbols: `N` = คำนาม
     demand/need/reason + for + N
     access/approach/solution + to + N
 
-- Words for going up or down take in (an increase in sales). Words for wanting or why take for (demand for, reason for). Access and solution take to.
-- คำที่บอกการเพิ่มหรือลดใช้ in (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วน access และ solution ใช้ to
+- Increase and decrease take in + the thing that changes (an increase in sales). Words for wanting or why take for (demand for, reason for). The nouns access and solution take to.
+- increase และ decrease ใช้ in + สิ่งที่เปลี่ยน (an increase in sales) คำที่บอกความต้องการหรือเหตุผลใช้ for (demand for, reason for) ส่วนคำนาม access และ solution ใช้ to
 - There has been a sharp increase **in** online sales.
 - ยอดขายออนไลน์เพิ่มขึ้นอย่างมาก
-- ✗ access for the database → ✓ access to the database: access ใช้กับ to เสมอ (Access always takes to.)
+- ✗ access for the database → ✓ access to the database: access ที่เป็นคำนามใช้ to (access to the database) ส่วน access ที่เป็นกริยาไม่มี to (access the files) (The noun access takes to (access to the database); the verb has no to (access the files).)
 - Clues: increase in = การเพิ่มขึ้นของ · demand for = ความต้องการ · access to = สิทธิ์เข้าถึง/เข้าใช้ · reason for = เหตุผลของ · effect on = ผลกระทบต่อ
 
 ### Verb + preposition · กริยา + คำบุพบท (verb + preposition) `verb-preposition`
@@ -1502,7 +1502,7 @@ Symbols: `N` = คำนาม
     conveniently + located
 
 - Some adverbs almost always go with certain words. Learn the pair: highly recommended, strictly prohibited.
-- adverb บางตัวมักใช้คู่กับคำบางคำเสมอ ให้จำเป็นคู่ เช่น highly recommended, strictly prohibited
+- คำกริยาวิเศษณ์ (adverb) บางตัวมักใช้คู่กับคำบางคำ ให้จำเป็นคู่ เช่น highly recommended, strictly prohibited
 - Smoking is **strictly** prohibited in the building.
 - ห้ามสูบบุหรี่ในอาคารโดยเด็ดขาด
 - ✗ greatly recommended → ✓ highly recommended: recommended ใช้คู่กับ highly ไม่ใช่ greatly หรือ deeply (Recommended goes with highly, not greatly or deeply.)
