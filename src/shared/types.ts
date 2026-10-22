@@ -82,7 +82,8 @@ export type Part6Blank = z.infer<typeof Part6Blank>
 
 export const Part6Set = z
   .object({
-    id: z.string().regex(/^p6-\d{4}$/),
+    // p6x- / p7x- mark sets in the user's private pack, like p5x-.
+    id: z.string().regex(/^p6x?-\d{4}$/),
     part: z.literal(6),
     title: z.string().min(1),
     passage: z.string().min(1),
@@ -156,7 +157,7 @@ const INSERTION_MARKERS = ['[1]', '[2]', '[3]', '[4]']
 
 export const Part7Set = z
   .object({
-    id: z.string().regex(/^p7-\d{4}$/),
+    id: z.string().regex(/^p7x?-\d{4}$/),
     part: z.literal(7),
     format: Part7Format,
     docs: z.array(Part7Doc).min(1).max(3),
@@ -197,10 +198,22 @@ export const Part7Set = z
   })
 export type Part7Set = z.infer<typeof Part7Set>
 
+/** A fixed practice exam from the user's own book: the questions in printed order, e.g. "p5x-pronouns-0001", "p6x-0001#2", "p7x-0003#q1". */
+export const Exam = z.object({
+  id: z.string().regex(/^ex-[a-z0-9-]+$/),
+  title: z.string().min(1),
+  source: z.string().min(1).optional(),
+  ids: z.array(z.string().min(1)).min(1),
+  status: ItemStatus
+})
+export type Exam = z.infer<typeof Exam>
+
 export interface ContentBank {
   part5: Part5Item[]
   part6: Part6Set[]
   part7: Part7Set[]
+  /** Fixed exams; only the private pack has any. */
+  exams?: Exam[]
 }
 
 export const GrammarAttempt = z.object({
@@ -227,7 +240,7 @@ export const MixedTestResult = z.object({
 export type MixedTestResult = z.infer<typeof MixedTestResult>
 
 export const ReadingAttempt = z.object({
-  itemId: z.string().regex(/^p7-\d{4}#q[1-5]$/),
+  itemId: z.string().regex(/^p7x?-\d{4}#q[1-5]$/),
   qtype: Part7QType,
   correct: z.boolean(),
   ms: z.number().int().nonnegative(),
@@ -243,6 +256,8 @@ export type PartScore = z.infer<typeof PartScore>
 
 export const ReadingTestResult = z.object({
   length: TestLength,
+  /** Set when the test was a fixed exam rather than a random draw. */
+  exam: z.string().optional(),
   parts: z.object({ p5: PartScore, p6: PartScore, p7: PartScore }),
   ms: z.number().int().nonnegative(),
   at: z.string().min(1)
@@ -251,6 +266,7 @@ export type ReadingTestResult = z.infer<typeof ReadingTestResult>
 
 export const ActiveReadingTest = z.object({
   length: TestLength,
+  exam: z.string().optional(),
   ids: z.array(z.string().min(1)),
   orders: z.array(z.array(z.number().int().min(0).max(3))),
   answers: z.record(z.string(), z.number().int().min(0).max(3)),

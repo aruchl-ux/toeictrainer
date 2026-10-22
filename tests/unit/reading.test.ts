@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { BLUEPRINT, availableCounts, buildReadingTest, restoreReadingTest, DURATION_MS, initTest, scoreTest, testReducer, toActive } from '@shared/reading'
+import { BLUEPRINT, availableCounts, buildExam, buildReadingTest, restoreReadingTest, DURATION_MS, initTest, scoreTest, testReducer, toActive } from '@shared/reading'
 import { entryId, entryPart, entryFields } from '@shared/quiz'
-import type { ContentBank } from '@shared/types'
+import type { ContentBank, Exam } from '@shared/types'
 import { makePart5, makePart6, makePart7 } from '../fixtures/items'
 
 const doubleSet = () => {
@@ -31,6 +31,29 @@ describe('buildReadingTest', () => {
     const bank: ContentBank = { part5: [makePart5()], part6: [], part7: [] }
     expect(buildReadingTest(bank, 'full')).toHaveLength(1)
     expect(availableCounts(bank, 'full')).toEqual({ p5: 1, p6: 0, single: 0, double: 0, triple: 0 })
+  })
+})
+
+describe('buildExam', () => {
+  const bank = bigBank()
+  const ids = [bank.part5[3].id, bank.part5[0].id, `${bank.part6[1].id}#2`, `${bank.part7[0].id}#q2`]
+  const exam: Exam = { id: 'ex-book', title: 'Book test', ids, status: 'approved' }
+
+  it('keeps printed order and printed choice order', () => {
+    const entries = buildExam(bank, exam)!
+    expect(entries.map(entryId)).toEqual(ids)
+    expect(entries.every((e) => e.order?.join() === '0,1,2,3')).toBe(true)
+  })
+
+  it('returns null when a question is missing', () => {
+    expect(buildExam(bank, { ...exam, ids: [...ids, 'p7x-0999#q1'] })).toBeNull()
+  })
+
+  it('carries the exam id through toActive and restores it', () => {
+    const entries = buildExam(bank, exam)!
+    const active = toActive(initTest(entries, 'full', undefined, 'ex-book'))
+    expect(active.exam).toBe('ex-book')
+    expect(restoreReadingTest(bank, active)?.map(entryId)).toEqual(ids)
   })
 })
 

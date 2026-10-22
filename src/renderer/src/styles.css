@@ -547,6 +547,11 @@ mark.blank.current { background: var(--yellow); color: var(--ink); }
 .test-setup > .muted { margin: calc(-1 * var(--space-2)) 0 0; }
 .resume-panel { position: relative; z-index: 1; max-width: 536px; margin-bottom: var(--space-8); padding-bottom: var(--space-5); }
 .resume-panel p { margin: 0 0 var(--space-4); }
+/* Fixed exams: one ruled row each, name and meta on the left, start on the right. */
+.exam-list { position: relative; z-index: 1; max-width: 536px; margin-bottom: var(--space-8); }
+.exam-list ul { margin: 0; padding: 0; list-style: none; }
+.exam-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-4); padding: var(--space-4) 0; border-top: var(--rule) solid var(--ink); }
+.exam-name { display: grid; gap: 2px; }
 .mixed-recent { max-width: 900px; margin-top: var(--space-10); border-top: var(--rule) solid var(--pink); padding-top: var(--space-5); }
 
 /* ---------- Progress ---------- */

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
-import { entryFields, entryId } from '@shared/quiz'
+import { entryFields, entryId, isPart7Id } from '@shared/quiz'
 import { estimateReadingBand, scoreTest, type TestState } from '@shared/reading'
 import { Part5Topic, Part7QType, type GrammarAttempt, type ReadingAttempt, type Skill } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
@@ -48,12 +48,13 @@ export function ReadingTestResults({ state, onAgain }: { state: TestState; onAga
     const at = new Date().toISOString()
     const answered = records.filter((r): r is AnswerRecord => r !== undefined)
     const grammar: GrammarAttempt[] = answered.flatMap((r) =>
-      !r.entryId.startsWith('p7-') && isGrammarTopic(r.topic) ? [{ itemId: r.entryId, topic: r.topic, correct: r.correct, ms: 0, at }] : []
+      !isPart7Id(r.entryId) && isGrammarTopic(r.topic) ? [{ itemId: r.entryId, topic: r.topic, correct: r.correct, ms: 0, at }] : []
     )
     const reading: ReadingAttempt[] = answered.flatMap((r) =>
-      r.entryId.startsWith('p7-') ? [{ itemId: r.entryId, qtype: r.topic as ReadingAttempt['qtype'], correct: r.correct, ms: 0, at }] : []
+      isPart7Id(r.entryId) ? [{ itemId: r.entryId, qtype: r.topic as ReadingAttempt['qtype'], correct: r.correct, ms: 0, at }] : []
     )
-    void finishReadingTest({ result: { length: state.length, parts, ms: Math.round(state.elapsedMs), at }, grammar, reading })
+    const exam = state.exam ? { exam: state.exam } : {}
+    void finishReadingTest({ result: { length: state.length, ...exam, parts, ms: Math.round(state.elapsedMs), at }, grammar, reading })
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (

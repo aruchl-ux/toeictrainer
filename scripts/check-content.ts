@@ -40,6 +40,10 @@ for (const item of bank.part5) {
   if (item.id.startsWith('p5x-')) problems.push(`${item.id}: private id in shipped content`)
   if (item.source) problems.push(`${item.id}: source field in shipped content`)
 }
+for (const set of [...bank.part6, ...bank.part7]) {
+  if (/^p[67]x-/.test(set.id)) problems.push(`${set.id}: private id in shipped content`)
+}
+for (const exam of bank.exams ?? []) problems.push(`${exam.id}: exams come from the user's own books and must stay in the private pack`)
 for (const set of bank.part6) {
   set.blanks.forEach((b, i) => checkChoices(`${set.id}#${i + 1}`, b.choices, b.answer, b.explain, b.trap))
 }

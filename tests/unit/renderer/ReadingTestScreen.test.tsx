@@ -92,3 +92,35 @@ describe('ReadingTestScreen start', () => {
     expect(screen.getByText('quizQuestionOf:{"i":1,"n":3}')).toBeTruthy()
   })
 })
+
+describe('ReadingTestScreen practice exams', () => {
+  beforeEach(() => {
+    saveActiveTest.mockClear()
+    active = null
+  })
+
+  it('lists a fixed exam and runs its questions in printed order', () => {
+    const [a, b] = smallBank.part5
+    bank = { ...smallBank, exams: [{ id: 'ex-book', title: 'Book RC', ids: [b.id, a.id], status: 'approved' }] }
+    renderScreen()
+    expect(screen.getByText('testExamsTitle')).toBeTruthy()
+    fireEvent.click(screen.getByRole('button', { name: /testExamStart/ }))
+    expect(screen.getByRole('timer').textContent).toContain('75:00')
+    expect(screen.getByText(b.stem.split('____')[0].trim(), { exact: false })).toBeTruthy()
+  })
+
+  it('hides the exam list when the bank has no exams', () => {
+    bank = smallBank
+    renderScreen()
+    expect(screen.queryByText('testExamsTitle')).toBeNull()
+  })
+
+  it('names the exam on the resume panel', () => {
+    const [a] = smallBank.part5
+    const exam = { id: 'ex-book', title: 'Book RC', ids: [a.id], status: 'approved' as const }
+    bank = { ...smallBank, exams: [exam] }
+    active = toActive(initTest([{ kind: 'p5', item: a, order: [0, 1, 2, 3] }], 'full', undefined, 'ex-book'))
+    renderScreen()
+    expect(screen.getByText(/testResumeExam/)).toBeTruthy()
+  })
+})

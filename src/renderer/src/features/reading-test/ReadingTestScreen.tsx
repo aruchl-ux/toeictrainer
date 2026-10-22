@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { availableCounts, BLUEPRINT, buildReadingTest, DURATION_MS, restoreReadingTest, type TestState } from '@shared/reading'
+import { availableCounts, BLUEPRINT, buildExam, buildReadingTest, DURATION_MS, restoreReadingTest, type TestState } from '@shared/reading'
 import type { QuizEntry } from '@shared/quiz'
 import type { ActiveReadingTest, TestLength } from '@shared/types'
 import { useApp, useT } from '../../app/AppContext'
@@ -11,7 +11,7 @@ export function ReadingTestScreen() {
   const { bank, progress, saveActiveTest } = useApp()
   const { t } = useT()
   const [length, setLength] = useState<TestLength>('half')
-  const [running, setRunning] = useState<{ entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest } | null>(null)
+  const [running, setRunning] = useState<{ entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest; exam?: string } | null>(null)
   const [result, setResult] = useState<TestState | null>(null)
 
   const active = progress.activeReadingTest
@@ -41,13 +41,22 @@ export function ReadingTestScreen() {
     return { half: isShort('half'), full: isShort('full') }
   }, [bank])
   const entries = built[length]
+  // Fixed exams from the private pack, each runnable as printed.
+  const exams = useMemo(
+    () => (bank.exams ?? []).flatMap((exam) => {
+      const examEntries = buildExam(bank, exam)
+      return examEntries ? [{ exam, entries: examEntries }] : []
+    }),
+    [bank]
+  )
+  const activeExam = active?.exam ? bank.exams?.find((e) => e.id === active.exam) : undefined
 
   const onDone = useCallback((s: TestState) => {
     setResult(s)
     setRunning(null)
   }, [])
 
-  if (running) return <section className="quiz-screen"><ReadingTestRunner entries={running.entries} length={running.length} saved={running.saved} onDone={onDone} /></section>
+  if (running) return <section className="quiz-screen"><ReadingTestRunner entries={running.entries} length={running.length} saved={running.saved} exam={running.exam} onDone={onDone} /></section>
   if (result) {
     return (
       <section className="quiz-screen">
@@ -67,7 +76,11 @@ export function ReadingTestScreen() {
         <p className="poster-lead">{t('testIntro')}</p>
         {active && restored && (
           <div className="frame frame-pink resume-panel">
-            <h2 className="panel-title">{t('testResumeTitle', { length: t(active.length === 'half' ? 'testHalf' : 'testFull') })}</h2>
+            <h2 className="panel-title">
+              {activeExam
+                ? t('testResumeExam', { title: activeExam.title })
+                : t('testResumeTitle', { length: t(active.length === 'half' ? 'testHalf' : 'testFull') })}
+            </h2>
             <p className="num">
               {t('testResumeMeta', {
                 a: Object.keys(active.answers).length,
@@ -76,7 +89,7 @@ export function ReadingTestScreen() {
               })}
             </p>
             <div className="actions">
-              <button type="button" className="primary" onClick={() => setRunning({ entries: restored, length: active.length, saved: active })}>
+              <button type="button" className="primary" onClick={() => setRunning({ entries: restored, length: active.length, saved: active, exam: active.exam })}>
                 {t('testResume')}
                 <ArrowIcon />
               </button>
@@ -87,6 +100,25 @@ export function ReadingTestScreen() {
           </div>
         )}
         {discarded && <p className="muted">{t('testDiscarded')}</p>}
+        {exams.length > 0 && (
+          <div className="exam-list">
+            <h2 className="panel-title">{t('testExamsTitle')}</h2>
+            <ul>
+              {exams.map(({ exam, entries: examEntries }) => (
+                <li key={exam.id} className="exam-row">
+                  <span className="exam-name">
+                    <span className="lang-label">{exam.title}</span>
+                    <span className="lang-sample num">{t('testExamMeta', { n: examEntries.length })}</span>
+                  </span>
+                  <button type="button" onClick={() => setRunning({ entries: examEntries, length: 'full', exam: exam.id })}>
+                    {t('testExamStart', { title: exam.title })}
+                    <ArrowIcon />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
         {/* Setup reads as one unit: choose a length, then start. */}
         <div className="test-setup">
           <fieldset className="lang-field">

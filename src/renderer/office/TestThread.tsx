@@ -3,10 +3,11 @@ import { useNavigate, useSearchParams } from 'react-router'
 import { useApp } from '@renderer/app/AppContext'
 import { isGrammarTopic } from '@renderer/app/i18n'
 import type { AnswerRecord } from '@renderer/features/grammar/quizReducer'
-import { entryFields, entryId, entryPart, type QuizEntry } from '@shared/quiz'
+import { entryFields, entryId, entryPart, isPart7Id, type QuizEntry } from '@shared/quiz'
 import {
   availableCounts,
   BLUEPRINT,
+  buildExam,
   buildReadingTest,
   DURATION_MS,
   estimateReadingBand,
@@ -93,10 +94,10 @@ function QuestionMap({ s, onJump }: { s: TestState; onJump(i: number): void }) {
   )
 }
 
-function Runner({ entries, length, saved, onDone }: { entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest; onDone(s: TestState): void }) {
+function Runner({ entries, length, saved, exam, onDone }: { entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest; exam?: string; onDone(s: TestState): void }) {
   const { saveActiveTest } = useApp()
   const { o, t, skill } = useO()
-  const [s, dispatch] = useReducer(testReducer, undefined, () => initTest(entries, length, saved))
+  const [s, dispatch] = useReducer(testReducer, undefined, () => initTest(entries, length, saved, exam))
   const [confirming, setConfirming] = useState(false)
   const [hidden, setHidden] = useState(document.hidden)
   const latest = useRef(s)
@@ -284,12 +285,13 @@ function Results({ state, onAgain }: { state: TestState; onAgain(): void }) {
     const at = new Date().toISOString()
     const answered = records.filter((r): r is AnswerRecord => r !== undefined)
     const grammar: GrammarAttempt[] = answered.flatMap((r) =>
-      !r.entryId.startsWith('p7-') && isGrammarTopic(r.topic) ? [{ itemId: r.entryId, topic: r.topic, correct: r.correct, ms: 0, at }] : []
+      !isPart7Id(r.entryId) && isGrammarTopic(r.topic) ? [{ itemId: r.entryId, topic: r.topic, correct: r.correct, ms: 0, at }] : []
     )
     const reading: ReadingAttempt[] = answered.flatMap((r) =>
-      r.entryId.startsWith('p7-') ? [{ itemId: r.entryId, qtype: r.topic as ReadingAttempt['qtype'], correct: r.correct, ms: 0, at }] : []
+      isPart7Id(r.entryId) ? [{ itemId: r.entryId, qtype: r.topic as ReadingAttempt['qtype'], correct: r.correct, ms: 0, at }] : []
     )
-    void finishReadingTest({ result: { length: state.length, parts, ms: Math.round(state.elapsedMs), at }, grammar, reading })
+    const exam = state.exam ? { exam: state.exam } : {}
+    void finishReadingTest({ result: { length: state.length, ...exam, parts, ms: Math.round(state.elapsedMs), at }, grammar, reading })
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const last = state.entries[state.entries.length - 1]
@@ -360,7 +362,7 @@ export function TestThread() {
   const { o, t } = useO()
   const [params, setParams] = useSearchParams()
   const [length, setLength] = useState<TestLength>('half')
-  const [running, setRunning] = useState<{ entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest } | null>(null)
+  const [running, setRunning] = useState<{ entries: QuizEntry[]; length: TestLength; saved?: ActiveReadingTest; exam?: string } | null>(null)
   const [result, setResult] = useState<TestState | null>(null)
   const [round, setRound] = useState(0)
   const active = progress.activeReadingTest
@@ -378,6 +380,15 @@ export function TestThread() {
     () => ({ half: buildReadingTest(bank, 'half'), full: buildReadingTest(bank, 'full') }),
     [bank, round] // eslint-disable-line react-hooks/exhaustive-deps
   )
+  // Fixed exams from the private pack, each runnable as printed.
+  const exams = useMemo(
+    () => (bank.exams ?? []).flatMap((exam) => {
+      const examEntries = buildExam(bank, exam)
+      return examEntries ? [{ exam, entries: examEntries }] : []
+    }),
+    [bank]
+  )
+  const activeExam = active?.exam ? bank.exams?.find((e) => e.id === active.exam) : undefined
   const short = (l: TestLength) => {
     const have = availableCounts(bank, l)
     const want = BLUEPRINT[l]
@@ -405,11 +416,11 @@ export function TestThread() {
     setRunning(null)
   }, [])
 
-  if (running) return <Runner entries={running.entries} length={running.length} saved={running.saved} onDone={onDone} />
+  if (running) return <Runner entries={running.entries} length={running.length} saved={running.saved} exam={running.exam} onDone={onDone} />
   if (result) return <Results state={result} onAgain={() => setResult(null)} />
 
   const resumable = Boolean(active && restored)
-  const resume = () => active && restored && setRunning({ entries: restored, length: active.length, saved: active })
+  const resume = () => active && restored && setRunning({ entries: restored, length: active.length, saved: active, exam: active.exam })
   return (
     <Thread
       crumbs={[o('groupTests'), t('testTitle')]}
@@ -428,7 +439,11 @@ export function TestThread() {
         <p>{t('testIntro')}</p>
         {active && restored && (
           <div className="note">
-            <p className="note-head">{t('testResumeTitle', { length: t(active.length === 'half' ? 'testHalf' : 'testFull') })}</p>
+            <p className="note-head">
+              {activeExam
+                ? t('testResumeExam', { title: activeExam.title })
+                : t('testResumeTitle', { length: t(active.length === 'half' ? 'testHalf' : 'testFull') })}
+            </p>
             <p className="mono dim">
               {t('testResumeMeta', {
                 a: Object.keys(active.answers).length,
@@ -447,6 +462,19 @@ export function TestThread() {
           </div>
         )}
         {discarded && <p className="dim">{t('testDiscarded')}</p>}
+        {exams.length > 0 && (
+          <>
+            <p className="sub">{t('testExamsTitle')}</p>
+            {exams.map(({ exam, entries: examEntries }) => (
+              <div key={exam.id} className="actions">
+                <button type="button" className="btn" onClick={() => setRunning({ entries: examEntries, length: 'full', exam: exam.id })}>
+                  {t('testExamStart', { title: exam.title })}
+                </button>
+                <span className="row-meta mono">{t('testExamMeta', { n: examEntries.length })}</span>
+              </div>
+            ))}
+          </>
+        )}
         <fieldset className="radios">
           <legend className="sub">{t('testLengthLabel')}</legend>
           {(['half', 'full'] as const).map((l) => (

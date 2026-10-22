@@ -18,7 +18,7 @@ beforeEach(() => {
 
 describe('loadContent', () => {
   it('returns an empty bank when folders are missing', () => {
-    expect(loadContent(root)).toEqual({ bank: { part5: [], part6: [], part7: [] }, errors: [] })
+    expect(loadContent(root)).toEqual({ bank: { part5: [], part6: [], part7: [], exams: [] }, errors: [] })
   })
 
   it('loads approved items and skips drafts', () => {
@@ -95,6 +95,28 @@ describe('loadContent with a private root', () => {
     const { bank, errors } = loadContent(root, priv)
     expect(bank.part5).toHaveLength(1)
     expect(errors[0]).toMatch(/duplicate id/)
+  })
+
+  it('loads a private exam whose questions all resolve', () => {
+    const p5 = makePart5({ id: 'p5x-word-form-0001' })
+    const p6 = makePart6({ id: 'p6x-0001' })
+    const p7 = makePart7({ id: 'p7x-0001' })
+    writePriv('grammar/part5/word-form.json', [p5])
+    writePriv('grammar/part6/sets.json', [p6])
+    writePriv('reading/part7/single.json', [p7])
+    const ids = [p5.id, 'p6x-0001#1', 'p6x-0001#2', 'p6x-0001#3', 'p6x-0001#4', 'p7x-0001#q1', 'p7x-0001#q2']
+    writePriv('exams/book.json', [{ id: 'ex-book', title: 'Book test', ids, status: 'approved' }])
+    const { bank, errors } = loadContent(root, priv)
+    expect(errors).toEqual([])
+    expect(bank.exams?.map((e) => e.id)).toEqual(['ex-book'])
+  })
+
+  it('drops an exam with a missing question and reports it', () => {
+    writePriv('grammar/part5/word-form.json', [makePart5({ id: 'p5x-word-form-0001' })])
+    writePriv('exams/book.json', [{ id: 'ex-book', title: 'Book test', ids: ['p5x-word-form-0001', 'p7x-0009#q1'], status: 'approved' }])
+    const { bank, errors } = loadContent(root, priv)
+    expect(bank.exams).toEqual([])
+    expect(errors).toEqual(['exam ex-book: 1 question(s) not found'])
   })
 
   it('treats a missing private root as empty', () => {

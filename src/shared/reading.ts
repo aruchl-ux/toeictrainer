@@ -1,5 +1,5 @@
 import { entryId, entryFields, entryPart, flattenPart7, flattenSet, resolveIds, shuffle, shuffleChoices, type QuizEntry } from './quiz'
-import type { ActiveReadingTest, ContentBank, Part7Format, TestLength, PartScore } from './types'
+import type { ActiveReadingTest, ContentBank, Exam, Part7Format, TestLength, PartScore } from './types'
 import type { Band } from './scoring'
 
 export interface Blueprint {
@@ -40,6 +40,13 @@ export function buildReadingTest(bank: ContentBank, length: TestLength, rng: () 
   return shuffleChoices([...p5, ...p6, ...p7], rng)
 }
 
+/** A fixed exam in printed order, choices as printed (A–D), timed like a full test. Null if any question is missing. */
+export function buildExam(bank: ContentBank, exam: Exam): QuizEntry[] | null {
+  const entries = resolveIds(bank, exam.ids)
+  if (entries.length !== exam.ids.length) return null
+  return entries.map((e) => ({ ...e, order: [0, 1, 2, 3] }))
+}
+
 export function restoreReadingTest(bank: ContentBank, saved: ActiveReadingTest): QuizEntry[] | null {
   const entries = resolveIds(bank, saved.ids)
   if (entries.length !== saved.ids.length || saved.orders.length !== entries.length) return null
@@ -55,6 +62,8 @@ export function restoreReadingTest(bank: ContentBank, saved: ActiveReadingTest):
 
 export interface TestState {
   length: TestLength
+  /** The fixed exam being taken, if any. */
+  exam?: string
   entries: QuizEntry[]
   answers: Record<string, number>
   flags: string[]
@@ -76,11 +85,13 @@ export type TestAction =
 export function initTest(
   entries: QuizEntry[],
   length: TestLength,
-  saved?: Pick<ActiveReadingTest, 'answers' | 'flags' | 'index' | 'elapsedMs'>
+  saved?: Pick<ActiveReadingTest, 'answers' | 'flags' | 'index' | 'elapsedMs'>,
+  exam?: string
 ): TestState {
   const durationMs = DURATION_MS[length]
   return {
     length,
+    ...(exam ? { exam } : {}),
     entries,
     answers: saved?.answers ?? {},
     flags: saved?.flags ?? [],
@@ -119,6 +130,7 @@ export function testReducer(s: TestState, a: TestAction): TestState {
 export function toActive(s: TestState): ActiveReadingTest {
   return {
     length: s.length,
+    ...(s.exam ? { exam: s.exam } : {}),
     ids: s.entries.map(entryId),
     orders: s.entries.map((e) => e.order ?? [0, 1, 2, 3]),
     answers: s.answers,

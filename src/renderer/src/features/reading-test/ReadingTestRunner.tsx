@@ -12,16 +12,18 @@ interface Props {
   entries: QuizEntry[]
   length: TestLength
   saved?: Pick<ActiveReadingTest, 'answers' | 'flags' | 'index' | 'elapsedMs'>
+  /** Id of the fixed exam being taken, if any. */
+  exam?: string
   onDone(state: TestState): void
 }
 
 const SAVE_EVERY_MS = 5000
 const MAX_TICK_MS = 5000
 
-export function ReadingTestRunner({ entries, length, saved, onDone }: Props) {
+export function ReadingTestRunner({ entries, length, saved, exam, onDone }: Props) {
   const { saveActiveTest } = useApp()
   const { lang, t } = useT()
-  const [s, dispatch] = useReducer(testReducer, undefined, () => initTest(entries, length, saved))
+  const [s, dispatch] = useReducer(testReducer, undefined, () => initTest(entries, length, saved, exam))
   const [confirming, setConfirming] = useState(false)
   const latest = useRef(s)
   latest.current = s

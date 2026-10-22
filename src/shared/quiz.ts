@@ -21,6 +21,9 @@ export const blankId = (setId: string, blank: number): string => `${setId}#${bla
 
 export const entryPart = (e: QuizEntry): 'p5' | 'p6' | 'p7' => e.kind
 
+/** True for a Part 7 question id, shipped (`p7-`) or private (`p7x-`). */
+export const isPart7Id = (id: string): boolean => /^p7x?-/.test(id)
+
 export function entryId(e: QuizEntry): string {
   if (e.kind === 'p5') return e.item.id
   if (e.kind === 'p6') return blankId(e.set.id, e.blank)
@@ -112,13 +115,13 @@ export function resolveIds(bank: ContentBank, ids: string[]): QuizEntry[] {
       out.push({ kind: 'p5', item })
       continue
     }
-    const m7 = /^(p7-\d{4})#q([1-5])$/.exec(id)
+    const m7 = /^(p7x?-\d{4})#q([1-5])$/.exec(id)
     const set7 = m7 ? p7.get(m7[1]) : undefined
     if (m7 && set7 && Number(m7[2]) <= set7.questions.length) {
       out.push({ kind: 'p7', set: set7, q: Number(m7[2]) - 1 })
       continue
     }
-    const m = /^(p6-\d{4})#([1-4])$/.exec(id)
+    const m = /^(p6x?-\d{4})#([1-4])$/.exec(id)
     const set = m ? p6.get(m[1]) : undefined
     if (m && set) out.push({ kind: 'p6', set, blank: Number(m[2]) - 1 })
   }

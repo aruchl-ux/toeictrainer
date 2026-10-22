@@ -1,7 +1,8 @@
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
 import type { ZodType } from 'zod'
-import { Part5Item, Part6Set, Part7Set, formatIssues, type ContentBank } from '@shared/types'
+import { resolveIds } from '@shared/quiz'
+import { Exam, Part5Item, Part6Set, Part7Set, formatIssues, type ContentBank } from '@shared/types'
 
 export interface LoadResult {
   bank: ContentBank
@@ -54,5 +55,13 @@ export function loadContent(root: string, privateRoot?: string): LoadResult {
   const part5 = roots.flatMap((r) => collect(join(r, 'grammar', 'part5'), Part5Item, errors, seen))
   const part6 = roots.flatMap((r) => collect(join(r, 'grammar', 'part6'), Part6Set, errors, seen))
   const part7 = roots.flatMap((r) => collect(join(r, 'reading', 'part7'), Part7Set, errors, seen))
-  return { bank: { part5, part6, part7 }, errors }
+  const bank: ContentBank = { part5, part6, part7 }
+  // An exam with a question that did not load would run short, so it is left out.
+  const exams = roots.flatMap((r) => collect(join(r, 'exams'), Exam, errors, seen))
+  bank.exams = exams.filter((exam) => {
+    const found = resolveIds(bank, exam.ids).length
+    if (found !== exam.ids.length) errors.push(`exam ${exam.id}: ${exam.ids.length - found} question(s) not found`)
+    return found === exam.ids.length
+  })
+  return { bank, errors }
 }
